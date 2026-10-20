@@ -1,0 +1,427 @@
+{
+ "id": "reuma-06",
+ "title": "Artritis Reumatoide",
+ "total": 869.4300000000004,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 27.6,
+   "say": "Bienvenidos. Hoy entramos a la artritis reumatoide, la artropatía inflamatoria autoinmune más emblemática y preguntada de la medicina interna. En el EUNACOM se evalúa con tres ejes muy claros: reconocer la poliartritis simétrica de pequeñas articulaciones con rigidez matinal prolongada, aplicar con precisión los criterios clasificatorios actuales con los anticuerpos antipéptidos citrulinados, y diagnosticar a tiempo las manifestaciones extraarticulares que amenazan órganos vitales. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 34.45,
+   "dur": 14.42,
+   "say": "En un individuo con susceptibilidad genética portador del alelo HLA-DR cuatro, el tabaquismo crónico gatilla la citrulinación de proteínas en la mucosa respiratoria. El sistema inmune desconoce estos péptidos modificados y monta una respuesta de autoanticuerpos."
+  },
+  {
+   "id": "b003",
+   "t": 49.32,
+   "dur": 14.71,
+   "say": "Los linfocitos T colaboradores y macrófagos activados migran a la membrana sinovial y liberan citoquinas como factor de necrosis tumoral e interleuquina seis. La sinovial sufre hiperplasia masiva y neoangiogénesis, formando el pannus: un tejido invasivo destructivo."
+  },
+  {
+   "id": "b004",
+   "t": 64.49,
+   "dur": 16.85,
+   "say": "El pannus expresa el ligando de RANK y estimula la formación acelerada de osteoclastos. Esto provoca las erosiones óseas marginales en sacabocado y la osteopenia yuxtaarticular en las zonas descubiertas de cartílago. Mira estas radiografías de manos: los bordes del hueso comidos, que son las erosiones."
+  },
+  {
+   "id": "b005",
+   "t": 81.78,
+   "dur": 13.44,
+   "say": "Al mismo tiempo, la liberación continua de metaloproteinasas degrada la matriz cartilaginosa, provocando la pérdida del espacio articular. Comprender este mecanismo explica por qué el tratamiento debe partir antes de que el pannus destruya el hueso."
+  },
+  {
+   "id": "b006",
+   "t": 96.27,
+   "dur": 12.55,
+   "say": "La presentación clínica es un cuadro insidioso y progresivo de poliartritis simétrica que compromete muñecas, articulaciones metacarpofalángicas e interfalángicas proximales en ambas manos, afectando a mujeres en proporción de tres a uno."
+  },
+  {
+   "id": "b007",
+   "t": 109.28,
+   "dur": 9.72,
+   "say": "El síntoma funcional cardinal es la rigidez matinal prolongada, habitualmente superior a una o dos horas, que mejora lentamente a medida que el paciente moviliza las extremidades."
+  },
+  {
+   "id": "b008",
+   "t": 119.45,
+   "dur": 16.87,
+   "say": "Esta es una regla de oro semiológica absoluta para el examen: la artritis reumatoide jamás compromete las articulaciones interfalángicas distales. Si encuentras nódulos óseos o tumefacción en las distales, debes pensar inmediatamente en artrosis o en artritis psoriásica, pero nunca en artritis reumatoide."
+  },
+  {
+   "id": "b009",
+   "t": 136.77,
+   "dur": 13.51,
+   "say": "Tampoco compromete jamás las articulaciones sacroilíacas ni la columna torácica o lumbar. Todo dolor lumbosacro de características inflamatorias que despierte de noche orienta directamente a una espondiloartropatía como la espondilitis anquilosante."
+  },
+  {
+   "id": "b010",
+   "t": 150.73,
+   "dur": 11.23,
+   "say": "Existe una sola articulación axial con sinovial que sí se inflama: la articulación atloideo-axoidea entre la primera y segunda vértebra cervical. El pannus debilita el ligamento transverso del atlas."
+  },
+  {
+   "id": "b011",
+   "t": 162.41,
+   "dur": 10.32,
+   "say": "Atención con esta pregunta: en cirugías electivas, la flexión o extensión forzada del cuello durante la intubación endotraqueal puede desencadenar una subluxación con sección medular irreversible."
+  },
+  {
+   "id": "b012",
+   "t": 173.78,
+   "dur": 19.22,
+   "say": "Si no se frena tempranamente con fármacos modificadores, la destrucción de la cápsula y los tendones extensores provoca la subluxación palmar de las metacarpofalángicas, desviando los dedos hacia el lado ulnar en ráfaga. Mira esta mano: los dedos corridos hacia el lado del meñique. Y en esta radiografía, las articulaciones subluxadas."
+  },
+  {
+   "id": "b013",
+   "t": 193.46,
+   "dur": 23.69,
+   "say": "En los dedos de las manos se observan dos deformidades clásicas opuestas: el dedo en cuello de cisne, por hiperextensión de la interfalángica proximal y flexión distal; y el dedo en ojal o boutonnière, por flexión de la interfalángica proximal e hiperextensión de la distal. Además, en el pulgar se produce la deformidad en zeta por hiperextensión metatarsofalángica. Mira estas manos: los dedos quedan torcidos en cuello de cisne y en ojal."
+  },
+  {
+   "id": "b014",
+   "t": 217.59,
+   "dur": 11.33,
+   "say": "En la rodilla la inflamación a tensión produce un quiste de Baker en el hueco poplíteo. Si se rompe, el líquido sinovial diseca los gemelos, simulando un cuadro idéntico a una trombosis venosa profunda."
+  },
+  {
+   "id": "b015",
+   "t": 229.97,
+   "dur": 10.39,
+   "say": "Los criterios de dos mil diez se diseñaron para diagnosticar antes de las erosiones. De una a tres articulaciones pequeñas otorga dos puntos; de cuatro a diez pequeñas da tres puntos."
+  },
+  {
+   "id": "b016",
+   "t": 240.81,
+   "dur": 7.32,
+   "say": "Y más de diez articulaciones comprometidas, con al menos una pequeña, entrega el puntaje máximo de cinco puntos en este dominio."
+  },
+  {
+   "id": "b017",
+   "t": 248.58,
+   "dur": 7.97,
+   "say": "El segundo dominio es la serología. Factor reumatoide o anticuerpos anti-CCP positivo a títulos bajos otorga dos puntos."
+  },
+  {
+   "id": "b018",
+   "t": 257,
+   "dur": 7.8,
+   "say": "Si cualquiera de los dos está positivo a títulos altos, definidos como más de tres veces el valor de corte, otorga tres puntos completos."
+  },
+  {
+   "id": "b019",
+   "t": 265.25,
+   "dur": 7.54,
+   "say": "El tercer dominio suma un punto si la velocidad de sedimentación globular o la proteína C reactiva están por encima del límite superior normal."
+  },
+  {
+   "id": "b020",
+   "t": 273.24,
+   "dur": 10.78,
+   "say": "Y el cuarto dominio entrega un punto si la sinovitis persiste por seis semanas o más. Con seis puntos o más de diez, el diagnóstico de artritis reumatoide queda formalmente confirmado."
+  },
+  {
+   "id": "b021",
+   "t": 285.06,
+   "dur": 13.75,
+   "say": "El factor reumatoide es un anticuerpo, habitualmente de isotipo inmunoglobulina M, dirigido contra la fracción constante Fc de la inmunoglobulina G. Es positivo en el setenta y cinco por ciento de los pacientes, pero su especificidad es baja."
+  },
+  {
+   "id": "b022",
+   "t": 299.27,
+   "dur": 10.34,
+   "say": "Puede dar positivo en ancianos sanos, en infecciones crónicas como hepatitis C, tuberculosis y endocarditis bacteriana, y en otras enfermedades autoinmunes como síndrome de Sjögren y lupus."
+  },
+  {
+   "id": "b023",
+   "t": 310.06,
+   "dur": 16.8,
+   "say": "Por esa baja especificidad del factor reumatoide, el examen serológico específico de elección indiscutida son los anticuerpos antipéptidos citrulinados cíclicos o anti-CCP. Tienen una especificidad diagnóstica superior al noventa y seis a noventa y ocho por ciento, confirmando la enfermedad de forma inequívoca."
+  },
+  {
+   "id": "b024",
+   "t": 327.31,
+   "dur": 9.58,
+   "say": "Además, los títulos elevados de anti-CCP predicen una enfermedad altamente erosiva con rápida progresión a deformidades, lo que obliga a indicar terapia combinada precoz."
+  },
+  {
+   "id": "b025",
+   "t": 337.94,
+   "dur": 13.34,
+   "say": "Se sospecha artritis reumatoide ante sinovitis de una o más articulaciones, sobre todo pequeñas y simétricas, con rigidez matinal de más de una hora y seis semanas o más de evolución sin otra causa. En el GES entra desde los quince años."
+  },
+  {
+   "id": "b026",
+   "t": 351.73,
+   "dur": 14.06,
+   "say": "Se piden hemograma, velocidad de sedimentación, proteína C reactiva, factor reumatoide, anti-CCP, función hepática y renal, y radiografías de manos y pies. Pero ojo: los exámenes normales no descartan la enfermedad."
+  },
+  {
+   "id": "b027",
+   "t": 366.24,
+   "dur": 11.54,
+   "say": "La derivación es preferente, porque el máximo beneficio se logra iniciando el fármaco modificador de la enfermedad dentro de los primeros tres a seis meses. La derivación no debe esperar a que aparezcan erosiones."
+  },
+  {
+   "id": "b028",
+   "t": 378.24,
+   "dur": 11.9,
+   "say": "Mientras tanto se pueden usar antiinflamatorios a dosis plenas con protección gástrica, y prednisona en dosis baja, de diez miligramos al día o menos, como puente. Eso alivia, pero no cambia la evolución."
+  },
+  {
+   "id": "b029",
+   "t": 390.59,
+   "dur": 8.78,
+   "say": "El fármaco de inicio es el metotrexato semanal con ácido fólico, tras verificar hemograma, transaminasas, creatinina y serologías de hepatitis B y C."
+  },
+  {
+   "id": "b030",
+   "t": 399.83,
+   "dur": 14.3,
+   "say": "La meta es la remisión o baja actividad, con un DAS veintiocho menor de tres coma dos, y se controla cada uno a tres meses. Se agregan educación, ejercicio, suspender el tabaco, vacunas contra influenza y neumococo, y control cardiovascular."
+  },
+  {
+   "id": "b031",
+   "t": 415.18,
+   "dur": 15.79,
+   "say": "La manifestación ocular más prevalente en la artritis reumatoide es la queratoconjuntivitis seca debida a un síndrome de Sjögren secundario, presente en más de un tercio de las pacientes, que se manifiesta por sensación de arenilla, lagrimeo paradójico reflejo, fotofobia e intolerancia a lentes de contacto."
+  },
+  {
+   "id": "b032",
+   "t": 431.42,
+   "dur": 15.05,
+   "say": "Mucho más grave es la escleritis anterior necrotizante: se presenta con dolor ocular sordo, intenso y profundo, pudiendo provocar adelgazamiento escleral y escleromalacia perforante. Mira este ojo: la esclera enrojecida, con vasos dilatados, en una escleritis."
+  },
+  {
+   "id": "b033",
+   "t": 446.92,
+   "dur": 10.94,
+   "say": "La pleuritis reumatoide se caracteriza por un líquido pleural exudativo con niveles extremadamente bajos de glucosa, inferiores a treinta miligramos por decilitro, y deshidrogenasa láctica muy alta."
+  },
+  {
+   "id": "b034",
+   "t": 458.31,
+   "dur": 8.93,
+   "say": "Puede provocar compromiso intersticial pulmonar difuso con patrón de neumonía intersticial usual, siendo una de las principales causas de morbimortalidad respiratoria."
+  },
+  {
+   "id": "b035",
+   "t": 467.69,
+   "dur": 9.31,
+   "say": "Los nódulos reumatoides subcutáneos aparecen en superficies extensoras de roce como el olécranon, y se asocian fuertemente a títulos altos de factor reumatoide y anti-CCP."
+  },
+  {
+   "id": "b036",
+   "t": 477.45,
+   "dur": 15.34,
+   "say": "En casos seropositivos severos de larga evolución puede desarrollarse una vasculitis reumatoide necrotizante sistémica, caracterizada por úlceras isquémicas profundas y tórpidas en las piernas, púrpura palpable en extremidades inferiores y mononeuritis múltiple con caída del pie o de la muñeca."
+  },
+  {
+   "id": "b037",
+   "t": 493.84,
+   "dur": 12.26,
+   "say": "El síndrome de Felty es una complicación clásica de la artritis reumatoide de larga data. Se define por la tríada de artritis reumatoide severa, esplenomegalia palpable y neutropenia menor a mil quinientos neutrófilos."
+  },
+  {
+   "id": "b038",
+   "t": 506.55,
+   "dur": 7.92,
+   "say": "La neutropenia predispone a infecciones bacterianas cutáneas y respiratorias graves recurrentes, requiriendo un manejo agresivo y control estricto."
+  },
+  {
+   "id": "b039",
+   "t": 514.92,
+   "dur": 11.57,
+   "say": "Y el síndrome de Caplan corresponde a la asociación de artritis reumatoide con neumoconiosis en trabajadores de la minería expuestos a carbón o sílice, desarrollando múltiples nódulos pulmonares periféricos en la radiografía."
+  },
+  {
+   "id": "b040",
+   "t": 527.54,
+   "dur": 13.56,
+   "say": "La principal causa de muerte en pacientes con artritis reumatoide no es articular: es el daño cardiovascular. La inflamación sistémica crónica mediada por citoquinas acelera la formación de placas de ateroma en las arterias coronarias y carotídeas."
+  },
+  {
+   "id": "b041",
+   "t": 541.55,
+   "dur": 9.91,
+   "say": "Tener una artritis reumatoide activa de larga data confiere un riesgo de infarto al miocardio equiparable a ser diabético. Por eso el control estricto de la inflamación salva vidas."
+  },
+  {
+   "id": "b042",
+   "t": 551.91,
+   "dur": 8.78,
+   "say": "La segunda causa de muerte son las infecciones bacterianas graves, favorecidas tanto por la disfunción inmune como por el uso de corticoides y fármacos biológicos."
+  },
+  {
+   "id": "b043",
+   "t": 561.15,
+   "dur": 9.29,
+   "say": "Además, las citoquinas inflamatorias y el reposo forzado aceleran la pérdida de masa ósea, provocando osteoporosis precoz con alto riesgo de fracturas por fragilidad."
+  },
+  {
+   "id": "b044",
+   "t": 571.49,
+   "dur": 16.75,
+   "say": "Los linfocitos T y los macrófagos activados llegan a la membrana sinovial y liberan factor de necrosis tumoral e interleuquina seis. La sinovial se engruesa y forma el pannus, que expresa el ligando de RANK y activa los osteoclastos: así aparecen las erosiones marginales en sacabocado y la osteopenia yuxtaarticular."
+  },
+  {
+   "id": "b045",
+   "t": 593.69,
+   "dur": 4.15,
+   "say": "Integremos todo el algoritmo diagnóstico de la artritis reumatoide."
+  },
+  {
+   "id": "b046",
+   "t": 598.29,
+   "dur": 8.26,
+   "say": "Paciente con dolor, calor y aumento de volumen simétrico en metacarpofalángicas, interfalángicas proximales o muñecas de más de seis semanas."
+  },
+  {
+   "id": "b047",
+   "t": 606.99,
+   "dur": 4.78,
+   "say": "Se examinan las manos con detención para evaluar las articulaciones más distales."
+  },
+  {
+   "id": "b048",
+   "t": 612.22,
+   "dur": 9.86,
+   "say": "La presencia de nódulos de Heberden en interfalángicas distales apunta con fuerza a artrosis. Solicitar radiografía simple y descartar enfermedad inflamatoria autoinmune."
+  },
+  {
+   "id": "b049",
+   "t": 622.53,
+   "dur": 7.08,
+   "say": "Se solicita perfil serológico completo y reactantes de fase aguda para calcular los criterios clasificatorios de dos mil diez."
+  },
+  {
+   "id": "b050",
+   "t": 630.06,
+   "dur": 5.86,
+   "say": "Se suman los puntos de articulaciones afectadas, serología, reactantes y duración de síntomas."
+  },
+  {
+   "id": "b051",
+   "t": 636.37,
+   "dur": 10.9,
+   "say": "Diagnóstico de certeza de artritis reumatoide. Ingresar de inmediato a la canasta GES para inicio precoz de fármacos modificadores como metotrexato antes de que aparezcan erosiones irreversibles."
+  },
+  {
+   "id": "b052",
+   "t": 647.72,
+   "dur": 9.26,
+   "say": "No cumple criterios completos aún. Mantener con analgesia sintomática, revaluar en cuatro semanas y derivar si aparecen nuevas articulaciones inflamadas."
+  },
+  {
+   "id": "b053",
+   "t": 658.03,
+   "dur": 10.37,
+   "say": "Repasemos la tabla de criterios de dos mil diez. El compromiso de cuatro a diez articulaciones pequeñas otorga tres puntos, y más de diez con al menos una pequeña da cinco puntos."
+  },
+  {
+   "id": "b054",
+   "t": 668.85,
+   "dur": 6.43,
+   "say": "Serología con factor reumatoide o anti-CCP sobre tres veces el límite normal entrega tres puntos completos."
+  },
+  {
+   "id": "b055",
+   "t": 675.73,
+   "dur": 5.62,
+   "say": "Reactantes de fase aguda elevados con velocidad de sedimentación o PCR alterada suma un punto."
+  },
+  {
+   "id": "b056",
+   "t": 681.8,
+   "dur": 8.83,
+   "say": "Y duración de seis semanas o más entrega el punto final. Con seis puntos o más de un total de diez, se confirma el diagnóstico de artritis reumatoide."
+  },
+  {
+   "id": "b057",
+   "t": 691.68,
+   "dur": 16.39,
+   "say": "Vamos al caso clínico. Mujer de cuarenta y seis años con ocho semanas de poliartritis simétrica en manos con rigidez matinal de noventa minutos. Tiene sinovitis en ocho articulaciones pequeñas, velocidad de sedimentación elevada y anti-CCP en títulos altos, nueve veces el corte."
+  },
+  {
+   "id": "b058",
+   "t": 708.52,
+   "dur": 4.92,
+   "say": "Según los criterios actuales, ¿cuál es el puntaje acumulado y la conducta diagnóstica?"
+  },
+  {
+   "id": "b059",
+   "t": 713.89,
+   "dur": 12.22,
+   "say": "Las opciones: cuatro puntos descartando la enfermedad, cinco puntos requiriendo resonancia, ocho puntos con diagnóstico confirmado, siete puntos requiriendo biopsia, o dos puntos por artrosis. Piénsalo."
+  },
+  {
+   "id": "b061",
+   "t": 729.76,
+   "dur": 24.07,
+   "say": "La respuesta correcta es la C. Sumemos los puntos según los criterios vigentes: ocho articulaciones pequeñas suma tres puntos; anti-CCP positivo a títulos altos suma tres puntos; reactantes elevados suma un punto; y ocho semanas de evolución aporta otro punto. Da ocho puntos de diez. Como el umbral diagnóstico es de seis puntos, el diagnóstico de artritis reumatoide está formalmente confirmado sin requerir exámenes invasivos."
+  },
+  {
+   "id": "b062",
+   "t": 754.88,
+   "dur": 14.78,
+   "say": "Pregunta real del EUNACOM de enero de dos mil veintitrés, pregunta noventa y cuatro. Paciente con dolor articular en metacarpofalángicas e interfalángicas proximales, con rigidez matinal importante. Se pregunta cuál es el examen específico a solicitar."
+  },
+  {
+   "id": "b063",
+   "t": 770.11,
+   "dur": 2.83,
+   "say": "¿Cuál es el examen específico a solicitar?"
+  },
+  {
+   "id": "b064",
+   "t": 773.39,
+   "dur": 10.61,
+   "say": "Las alternativas: factor reumatoide, anticuerpos antinucleares y anti-DNA, ácido úrico sérico, anticuerpos anti-CCP, o HLA-B veintisiete. Piénsalo."
+  },
+  {
+   "id": "b066",
+   "t": 787.65,
+   "dur": 17.95,
+   "say": "Es la D. Fíjate en la palabra clave del enunciado: pide el examen específico. El factor reumatoide es sensible pero puede elevarse en muchas otras patologías, mientras que los anticuerpos anti-CCP tienen una especificidad superior al noventa y cinco por ciento para artritis reumatoide. Es el examen serológico de elección."
+  },
+  {
+   "id": "b067",
+   "t": 806.65,
+   "dur": 10.56,
+   "say": "Cerremos con las tres reglas de oro. La artritis reumatoide es una poliartritis simétrica de manos con rigidez matinal mayor a una hora que respeta siempre las interfalángicas distales."
+  },
+  {
+   "id": "b068",
+   "t": 817.66,
+   "dur": 7.87,
+   "say": "La única parte de la columna que compromete es la articulación atloideo-axoidea cervical, con riesgo de daño medular severo durante la intubación."
+  },
+  {
+   "id": "b069",
+   "t": 825.99,
+   "dur": 5.95,
+   "say": "Los anticuerpos anti-CCP son el examen de mayor especificidad y predicen daño óseo erosivo precoz."
+  },
+  {
+   "id": "b070",
+   "t": 832.39,
+   "dur": 5.93,
+   "say": "El diagnóstico se confirma con seis o más puntos de diez en los criterios clasificatorios de dos mil diez."
+  },
+  {
+   "id": "b071",
+   "t": 838.77,
+   "dur": 7.85,
+   "say": "En el ojo produce ojo seco por Sjögren secundario y escleritis dolorosa; en el pulmón, pleuritis con glucosa menor a treinta miligramos."
+  },
+  {
+   "id": "b072",
+   "t": 847.06,
+   "dur": 16.42,
+   "say": "Y el síndrome de Felty une artritis, esplenomegalia y neutropenia grave. Si te llevas una sola idea de hoy: la artritis reumatoide es simétrica, ataca las metacarpofalángicas respetando las distales, y los anti-CCP confirman el diagnóstico. Nos vemos en la próxima clase."
+  }
+ ]
+}

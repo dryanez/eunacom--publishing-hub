@@ -1,0 +1,469 @@
+{
+ "id": "hem-24",
+ "title": "Medicina Transfusional y Manejo de Hemocomponentes",
+ "total": 871.0440000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 25.37,
+   "say": "Bienvenidos. Cerramos el libro de hematología con medicina transfusional, un tema que usarás en cualquier servicio. Casi todas las clases anteriores terminaban en la misma pregunta: ¿transfundo o no? Hoy la respondemos con números. Vamos a ver los umbrales para glóbulos rojos y plaquetas, cuándo sirve el plasma y el crioprecipitado, y qué hacer ante una reacción transfusional, incluida la diferencia entre TRALI y TACO, que se pregunta mucho."
+  },
+  {
+   "id": "b002",
+   "t": 32.22,
+   "dur": 10.39,
+   "say": "Partamos por el principio que ordena toda la clase. Antes se transfundía con una hemoglobina bajo nueve o diez. Era la estrategia liberal, y parecía lo prudente."
+  },
+  {
+   "id": "b003",
+   "t": 43.06,
+   "dur": 10.2,
+   "say": "La alternativa es la estrategia restrictiva: transfundir solo cuando la hemoglobina baja de siete. Los grandes ensayos, como TRICC, FOCUS y TRISS, compararon las dos."
+  },
+  {
+   "id": "b004",
+   "t": 53.71,
+   "dur": 6.02,
+   "say": "Y el resultado fue concluyente: la estrategia restrictiva tiene una sobrevida igual o mejor que la liberal."
+  },
+  {
+   "id": "b005",
+   "t": 60.18,
+   "dur": 15.53,
+   "say": "¿Por qué mejor? Porque cada unidad trae riesgos: más infecciones intrahospitalarias, sobrecarga de volumen y aloinmunización. La sangre es un tratamiento, no un suplemento. Guarda esta idea, porque la sobrecarga de volumen vuelve al final de la clase."
+  },
+  {
+   "id": "b006",
+   "t": 76.76,
+   "dur": 11.35,
+   "say": "Veamos los números. El paciente hospitalizado y estable, en sala o en la unidad de cuidados intensivos, se transfunde con hemoglobina menor de siete, y la meta es mantenerla entre siete y ocho."
+  },
+  {
+   "id": "b007",
+   "t": 88.56,
+   "dur": 12.05,
+   "say": "La excepción importante es el corazón isquémico. En el síndrome coronario agudo, el umbral sube a ocho o nueve, porque un miocardio que sufre necesita más oxígeno. Esa diferencia se pregunta."
+  },
+  {
+   "id": "b008",
+   "t": 101.06,
+   "dur": 5.69,
+   "say": "Y en la cirugía ortopédica mayor, en un paciente con antecedentes vasculares, el umbral es ocho."
+  },
+  {
+   "id": "b009",
+   "t": 107.2,
+   "dur": 12.94,
+   "say": "En el shock hemorrágico activo todo esto cambia: no se espera la hemoglobina. Se activa el protocolo de hemorragia masiva, que transfunde en proporción balanceada: una unidad de glóbulos rojos, una de plasma y un pool de plaquetas."
+  },
+  {
+   "id": "b010",
+   "t": 120.59,
+   "dur": 10.61,
+   "say": "Y un cálculo útil: en un adulto que no sangra, una unidad de glóbulos rojos, de unos doscientos cincuenta a trescientos mililitros, sube la hemoglobina en un gramo y el hematocrito en tres puntos."
+  },
+  {
+   "id": "b011",
+   "t": 132.24,
+   "dur": 10.18,
+   "say": "Con las plaquetas, el umbral sube según el riesgo. En la falla medular estable, como la aplasia o la leucemia en quimioterapia, se transfunde en forma profiláctica bajo diez mil."
+  },
+  {
+   "id": "b012",
+   "t": 142.87,
+   "dur": 6.07,
+   "say": "Si además hay fiebre, infección grave u otro factor de riesgo de sangrado, el umbral sube a veinte mil."
+  },
+  {
+   "id": "b013",
+   "t": 149.39,
+   "dur": 12.77,
+   "say": "Con sangrado mucoso activo, o antes de un procedimiento invasivo como una paracentesis, una toracocentesis, una punción lumbar o una biopsia hepática, se transfunde bajo cincuenta mil. Lo mismo para una cirugía mayor."
+  },
+  {
+   "id": "b014",
+   "t": 162.61,
+   "dur": 7.18,
+   "say": "Y donde un sangrado pequeño es catastrófico, en la neurocirugía o la cirugía del polo posterior del ojo, el umbral es cien mil."
+  },
+  {
+   "id": "b015",
+   "t": 170.24,
+   "dur": 7.63,
+   "say": "Una aféresis de plaquetas, o un pool de cuatro a seis concentrados, sube el recuento en treinta a cincuenta mil en un adulto de setenta kilos."
+  },
+  {
+   "id": "b016",
+   "t": 178.92,
+   "dur": 9.46,
+   "say": "El plasma fresco congelado contiene todos los factores de la coagulación y se da a diez a quince mililitros por kilo. Pero sus indicaciones justificadas son pocas."
+  },
+  {
+   "id": "b017",
+   "t": 188.82,
+   "dur": 9.31,
+   "say": "La principal es la coagulopatía con sangrado activo, con un tiempo de protrombina o un TTPK sobre una vez y media el control. También la transfusión masiva."
+  },
+  {
+   "id": "b018",
+   "t": 198.59,
+   "dur": 13.99,
+   "say": "Y dos más: la reposición durante la plasmaféresis en la púrpura trombocitopénica trombótica, que vimos en microangiopatías, y el déficit congénito de un factor que no tiene concentrado purificado. Un TP alargado sin sangrado no es indicación."
+  },
+  {
+   "id": "b019",
+   "t": 213.03,
+   "dur": 9.7,
+   "say": "El crioprecipitado es una fracción del plasma concentrada en frío, y es el componente de elección para reponer fibrinógeno cuando hay sangrado con un fibrinógeno bajo cien a ciento cincuenta."
+  },
+  {
+   "id": "b020",
+   "t": 223.17,
+   "dur": 10.63,
+   "say": "Los escenarios típicos: la coagulación intravascular diseminada, la hemorragia masiva y el desprendimiento de placenta. Plasma para los factores, crioprecipitado para el fibrinógeno."
+  },
+  {
+   "id": "b021",
+   "t": 234.86,
+   "dur": 12.55,
+   "say": "Antes de las reacciones, entendamos la compatibilidad. Lo que destruye los glóbulos transfundidos son los anticuerpos del receptor. Un paciente grupo A tiene antígeno A en sus glóbulos y anticuerpos anti B en su plasma."
+  },
+  {
+   "id": "b022",
+   "t": 247.86,
+   "dur": 12.24,
+   "say": "Por eso, si un paciente A recibe glóbulos AB, sus anticuerpos anti B reconocen el antígeno B y los destruyen. La probabilidad de una reacción hemolítica es prácticamente total, sobre noventa y cinco por ciento."
+  },
+  {
+   "id": "b023",
+   "t": 260.55,
+   "dur": 7.15,
+   "say": "El grupo AB no tiene anticuerpos anti A ni anti B, así que puede recibir glóbulos de cualquier grupo: es el receptor universal."
+  },
+  {
+   "id": "b024",
+   "t": 268.15,
+   "dur": 12.26,
+   "say": "Y los glóbulos grupo O no tienen antígenos A ni B, así que ningún receptor los ataca por el sistema ABO. Esa lógica, anticuerpos del receptor contra antígenos del donante, es la que explica la reacción más grave."
+  },
+  {
+   "id": "b025",
+   "t": 281.46,
+   "dur": 14.09,
+   "say": "Ante cualquier reacción aguda durante una transfusión, sea fiebre, disnea, dolor o hipotensión, el primer paso es siempre el mismo: detener la infusión de inmediato. Antes de saber qué es. Esa es la respuesta que el examen busca."
+  },
+  {
+   "id": "b026",
+   "t": 296,
+   "dur": 7.8,
+   "say": "Luego se mantiene la vía venosa permeable con suero fisiológico, pero con un equipo de goteo nuevo, para no seguir pasando lo que queda en la línea."
+  },
+  {
+   "id": "b027",
+   "t": 304.25,
+   "dur": 9.79,
+   "say": "Se verifica de inmediato la identidad del paciente y la compatibilidad en la etiqueta de la bolsa. La reacción más grave casi siempre nace de un error humano de identificación."
+  },
+  {
+   "id": "b028",
+   "t": 314.49,
+   "dur": 6.91,
+   "say": "Y se notifica al banco de sangre, enviando la bolsa con lo que quedó y muestras del paciente para estudio de hemólisis y cultivos."
+  },
+  {
+   "id": "b029",
+   "t": 322.46,
+   "dur": 14.54,
+   "say": "La reacción más grave es la hemolítica aguda. Casi siempre es una incompatibilidad ABO por un error de identificación, y los anticuerpos del receptor destruyen los glóbulos dentro de los vasos. Empieza muy rápido, en los primeros diez a quince minutos."
+  },
+  {
+   "id": "b030",
+   "t": 337.45,
+   "dur": 12.77,
+   "say": "El paciente hace fiebre alta, calofríos intensos, disnea, hipotensión, y un dato clave: dolor lumbar agudo, intolerable. Si el enunciado dice dolor lumbar durante una transfusión, piensa en hemólisis."
+  },
+  {
+   "id": "b031",
+   "t": 350.67,
+   "dur": 4.13,
+   "say": "La hemoglobina liberada sale por la orina, que se ve roja oscura."
+  },
+  {
+   "id": "b032",
+   "t": 355.25,
+   "dur": 7.56,
+   "say": "Y el cuadro puede progresar a coagulación intravascular diseminada y shock, mientras la hemoglobina libre precipita en los túbulos y daña el riñón."
+  },
+  {
+   "id": "b033",
+   "t": 363.26,
+   "dur": 11.21,
+   "say": "Después de detener la transfusión, el manejo es soporte hemodinámico agresivo e hidratación con suero para forzar una diuresis sobre cien mililitros por hora, con furosemida, para lavar los túbulos y protegerlos."
+  },
+  {
+   "id": "b034",
+   "t": 375.51,
+   "dur": 13.06,
+   "say": "Ahora el otro extremo: la reacción febril no hemolítica, la más frecuente, en uno a dos por ciento de las transfusiones. Se debe a anticuerpos del receptor contra los leucocitos del donante, o a citocinas que se acumularon en la bolsa."
+  },
+  {
+   "id": "b035",
+   "t": 389.02,
+   "dur": 9.82,
+   "say": "Se manifiesta con un alza de temperatura de un grado o más, pero sin dolor lumbar y sin hemólisis. Esa es la diferencia con la hemolítica: fiebre sola, sin el resto."
+  },
+  {
+   "id": "b036",
+   "t": 399.29,
+   "dur": 3.05,
+   "say": "Responde a antipiréticos como el paracetamol."
+  },
+  {
+   "id": "b037",
+   "t": 402.78,
+   "dur": 9.19,
+   "say": "Y se previene con hemocomponentes desleucocitados. Tiene lógica: si le quitas los leucocitos a la bolsa, los anticuerpos no tienen contra qué reaccionar."
+  },
+  {
+   "id": "b038",
+   "t": 413.03,
+   "dur": 15.5,
+   "say": "Llegamos a la diferencia que más se pregunta. Un paciente que se pone disneico e hipoxémico durante o después de una transfusión tiene un edema pulmonar. Pero hay dos, y se tratan al revés. La pista está en el volumen: la presión arterial y las yugulares."
+  },
+  {
+   "id": "b039",
+   "t": 428.98,
+   "dur": 26.23,
+   "say": "El primero es el TRALI, la injuria pulmonar aguda asociada a transfusión. Aparece dentro de seis horas. Anticuerpos anti HLA o anti neutrófilo del donante activan los neutrófilos en el pulmón, y los capilares se vuelven permeables. Es un edema no cardiogénico: hipoxemia severa, fiebre, hipotensión, y presiones de llenado normales. Mira esta radiografía: los dos pulmones se llenan de opacidades, el edema no cardiogénico del TRALI."
+  },
+  {
+   "id": "b040",
+   "t": 455.66,
+   "dur": 8.33,
+   "say": "Su manejo es soporte ventilatorio. Y ojo: los diuréticos no sirven, porque no sobra volumen, y pueden empeorar la hipotensión."
+  },
+  {
+   "id": "b041",
+   "t": 464.44,
+   "dur": 20.57,
+   "say": "El segundo es el TACO, la sobrecarga circulatoria asociada a transfusión. Es un edema cardiogénico por exceso de volumen, típico del anciano o del cardiópata que recibe la sangre muy rápido. Aquí hay hipertensión, ingurgitación yugular, tercer ruido y un péptido natriurético elevado. En esta radiografía se ve la congestión pulmonar del TACO."
+  },
+  {
+   "id": "b042",
+   "t": 485.46,
+   "dur": 11.64,
+   "say": "Y responde de forma espectacular a la furosemida endovenosa y a la restricción hídrica. Resumen: si la presión está baja, piensa en TRALI; si está alta con yugulares ingurgitadas, TACO y furosemida."
+  },
+  {
+   "id": "b043",
+   "t": 498.15,
+   "dur": 7.85,
+   "say": "Pongamos las dos lado a lado. En el mecanismo, el TRALI es permeabilidad por anticuerpos, y el TACO es exceso de volumen."
+  },
+  {
+   "id": "b044",
+   "t": 506.45,
+   "dur": 4.82,
+   "say": "La presión arterial es baja o normal en el TRALI, y marcadamente alta en el TACO."
+  },
+  {
+   "id": "b045",
+   "t": 511.72,
+   "dur": 6.12,
+   "say": "El TRALI no tiene ingurgitación yugular ni galope; el TACO tiene yugulares ingurgitadas y tercer ruido."
+  },
+  {
+   "id": "b046",
+   "t": 518.29,
+   "dur": 5.02,
+   "say": "El péptido natriurético es normal o poco elevado en el TRALI, y muy elevado en el TACO."
+  },
+  {
+   "id": "b047",
+   "t": 523.76,
+   "dur": 6.43,
+   "say": "La furosemida no ayuda en el TRALI, e incluso empeora la hipotensión; en el TACO produce una mejoría rápida."
+  },
+  {
+   "id": "b048",
+   "t": 530.64,
+   "dur": 8.26,
+   "say": "Por eso el TRALI se maneja con oxígeno y ventilación protectora, y el TACO con veinte a cuarenta miligramos de furosemida endovenosa y restricción de líquidos."
+  },
+  {
+   "id": "b049",
+   "t": 539.94,
+   "dur": 13.08,
+   "say": "Lo que destruye los glóbulos transfundidos son los anticuerpos del receptor. Los glóbulos grupo O no tienen antígenos A ni B, así que nadie los ataca. El grupo AB no tiene anticuerpos, así que recibe de cualquier grupo."
+  },
+  {
+   "id": "b050",
+   "t": 562.14,
+   "dur": 5.3,
+   "say": "Ahora juntemos las reacciones en un solo árbol, tal como lo vas a razonar al lado de la cama."
+  },
+  {
+   "id": "b051",
+   "t": 567.9,
+   "dur": 4.1,
+   "say": "Un paciente presenta un síntoma nuevo mientras recibe una transfusión."
+  },
+  {
+   "id": "b052",
+   "t": 572.45,
+   "dur": 9.05,
+   "say": "Lo primero, siempre: detener la transfusión, mantener la vía con suero fisiológico, verificar la identidad y la etiqueta, y avisar al banco de sangre."
+  },
+  {
+   "id": "b053",
+   "t": 581.95,
+   "dur": 6.98,
+   "say": "Recién ahora se piensa en el diagnóstico. ¿Qué predomina: fiebre sola, signos de hemólisis, o disnea?"
+  },
+  {
+   "id": "b054",
+   "t": 589.38,
+   "dur": 9.43,
+   "say": "Si es solo fiebre de un grado o más, sin dolor lumbar ni hemólisis, es una reacción febril no hemolítica: paracetamol, y en adelante componentes desleucocitados."
+  },
+  {
+   "id": "b055",
+   "t": 599.27,
+   "dur": 10.34,
+   "say": "Si hay dolor lumbar, hipotensión y orina oscura, es una reacción hemolítica aguda por incompatibilidad ABO: soporte hemodinámico, hidratación y furosemida para forzar la diuresis."
+  },
+  {
+   "id": "b056",
+   "t": 610.06,
+   "dur": 4.25,
+   "say": "Si predomina la disnea, mira la presión arterial y las yugulares."
+  },
+  {
+   "id": "b057",
+   "t": 614.76,
+   "dur": 7.58,
+   "say": "Con hipotensión y yugulares normales es un TRALI: oxígeno y soporte ventilatorio en la unidad de cuidados intensivos, sin diuréticos."
+  },
+  {
+   "id": "b058",
+   "t": 622.79,
+   "dur": 7.39,
+   "say": "Con hipertensión e ingurgitación yugular es un TACO: sentar al paciente, oxígeno, furosemida endovenosa y restricción hídrica."
+  },
+  {
+   "id": "b059",
+   "t": 631.23,
+   "dur": 9.98,
+   "say": "Repasemos las trampas. Paciente hospitalizado y estable con siete coma cinco de hemoglobina: no se transfunde. El error es transfundir para llegar a diez."
+  },
+  {
+   "id": "b060",
+   "t": 641.67,
+   "dur": 6.29,
+   "say": "Pero con un síndrome coronario agudo y siete coma ocho, sí se transfunde, porque el umbral sube a ocho o nueve."
+  },
+  {
+   "id": "b061",
+   "t": 648.41,
+   "dur": 6.7,
+   "say": "En la aplasia estable, sin fiebre y con quince mil plaquetas, no se transfunde: el umbral profiláctico es diez mil."
+  },
+  {
+   "id": "b062",
+   "t": 655.55,
+   "dur": 8.23,
+   "say": "Pero si ese paciente necesita una punción lumbar con treinta y cinco mil plaquetas, se transfunde antes, porque el umbral para procedimientos es cincuenta mil."
+  },
+  {
+   "id": "b063",
+   "t": 664.23,
+   "dur": 8.38,
+   "say": "Fiebre con dolor lumbar durante la transfusión: detener de inmediato. El error es dar paracetamol y seguir, como si fuera una reacción febril."
+  },
+  {
+   "id": "b064",
+   "t": 673.06,
+   "dur": 8.4,
+   "say": "Y disnea con hipotensión y yugulares normales es TRALI: soporte ventilatorio. Dar furosemida es la trampa, porque eso es para el TACO."
+  },
+  {
+   "id": "b065",
+   "t": 682.51,
+   "dur": 23.76,
+   "say": "Vamos con un caso. Mujer de setenta y ocho años con insuficiencia cardíaca e hipertensión, hospitalizada por una anemia sintomática con seis coma cuatro de hemoglobina. Durante la infusión rápida de la segunda unidad hace disnea súbita, taquipnea, expectoración rosada y cianosis. La presión sube a ciento ochenta y cinco con cien, tiene yugulares ingurgitadas hasta el ángulo mandibular y crépitos hasta los ápices."
+  },
+  {
+   "id": "b066",
+   "t": 706.72,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b067",
+   "t": 709.57,
+   "dur": 11.64,
+   "say": "Las opciones: bajar la velocidad y completar la unidad, suspender y dar furosemida con oxígeno, suspender y ventilar sin diuréticos, paracetamol y seguir, o hidratación masiva. Piénsalo."
+  },
+  {
+   "id": "b069",
+   "t": 724.86,
+   "dur": 22.85,
+   "say": "Es la B. Anciana cardiópata, transfusión rápida, hipertensión y yugulares ingurgitadas: es un TACO. Se detiene la transfusión, se sienta a la paciente con las piernas colgando, oxígeno y cuarenta miligramos de furosemida endovenosa. La C es la trampa: ese es el manejo del TRALI, que cursa con hipotensión. Y la A falla en la regla de oro: ante una reacción, la transfusión se detiene."
+  },
+  {
+   "id": "b070",
+   "t": 748.76,
+   "dur": 21.31,
+   "say": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil veinticuatro. Mujer de sesenta y ocho años con fractura de pelvis inestable y hemorragia masiva, taquicárdica e hipotensa. Es grupo O Rh negativo, pero el hospital solo tiene dos unidades O negativo, y muchas O positivo. El hospital más cercano con O negativo está a cuatro horas."
+  },
+  {
+   "id": "b071",
+   "t": 770.52,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b072",
+   "t": 773.37,
+   "dur": 12.62,
+   "say": "Las opciones: cristaloides hasta conseguir más O negativo, dar las dos O negativo y luego las O positivo si hace falta, esperar las unidades de otro centro, dar solo las dos O negativo, o trasladarla. Piénsalo."
+  },
+  {
+   "id": "b074",
+   "t": 789.64,
+   "dur": 24.17,
+   "say": "Es la B. En la hemorragia masiva la transfusión no espera, y trasladar o esperar cuatro horas es dejarla morir. Y a diferencia del ABO, en el sistema Rh se puede transfundir excepcionalmente sangre Rh positivo a un paciente Rh negativo con riesgo vital, porque el riesgo de hemólisis es menor que el de la anemia aguda. La D es la trampa: suena prudente, pero dos unidades no alcanzan en una hemorragia masiva."
+  },
+  {
+   "id": "b075",
+   "t": 814.86,
+   "dur": 10.63,
+   "say": "Cerremos con las reglas de oro. Glóbulos rojos con hemoglobina bajo siete en el paciente estable; ocho a nueve en el síndrome coronario; y en la hemorragia masiva no se espera el laboratorio."
+  },
+  {
+   "id": "b076",
+   "t": 825.94,
+   "dur": 10.75,
+   "say": "Plaquetas: diez mil en la falla medular, veinte mil con fiebre, cincuenta mil para procedimientos o sangrado, y cien mil en neurocirugía. En la PTI, la regla no se aplica."
+  },
+  {
+   "id": "b077",
+   "t": 837.15,
+   "dur": 6.05,
+   "say": "El plasma, para la coagulopatía con sangrado activo; el crioprecipitado, para el fibrinógeno bajo."
+  },
+  {
+   "id": "b078",
+   "t": 843.64,
+   "dur": 7.7,
+   "say": "Ante cualquier reacción, primero se detiene la transfusión. Dolor lumbar y orina oscura es hemólisis por incompatibilidad ABO."
+  },
+  {
+   "id": "b079",
+   "t": 851.8,
+   "dur": 13.3,
+   "say": "Y en la disnea, mira la presión y las yugulares. Si te llevas una sola idea de hoy: ante una reacción, primero detienes la transfusión, y después la presión te dice si es TRALI o TACO. Nos vemos en la próxima clase."
+  }
+ ]
+}

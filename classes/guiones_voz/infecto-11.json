@@ -1,0 +1,361 @@
+{
+ "id": "infecto-11",
+ "title": "Tuberculosis",
+ "total": 762.6639821229052,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 26.57,
+   "say": "Bienvenidos. En la clase anterior la tuberculosis apareció como profilaxis en el paciente con VIH. Hoy la vemos completa desde la infectología: las formas extrapulmonares, el diagnóstico con GeneXpert y los cuatro fármacos del esquema nacional con sus toxicidades. Es un tema de alta rentabilidad, y el examen pregunta sobre todo tres cosas: el ADA en el líquido pleural, el test molecular, y qué fármaco produce cada efecto adverso. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 33.42,
+   "dur": 12.7,
+   "say": "Partamos por el bacilo. Mycobacterium tuberculosis es un bacilo ácido alcohol resistente, un BAAR, y es aerobio estricto. Guarda ese dato de ácido alcohol resistente, porque es la base de la baciloscopía."
+  },
+  {
+   "id": "b003",
+   "t": 46.56,
+   "dur": 19.13,
+   "say": "Después de la infección primaria, los bacilos pueden diseminarse por vía linfática y sanguínea, y sembrarse en otros órganos. Si la siembra es masiva, mira esta radiografía: tuberculosis miliar, con innumerables nódulos finos en ambos pulmones. Otros órganos de siembra son la pleura, los ganglios, las meninges, la columna."
+  },
+  {
+   "id": "b004",
+   "t": 66.14,
+   "dur": 4.46,
+   "say": "Y ahí pueden quedar latentes durante décadas, sin dar ningún síntoma."
+  },
+  {
+   "id": "b005",
+   "t": 71.06,
+   "dur": 17.52,
+   "say": "Cuando se reactivan fuera del pulmón, tienes una tuberculosis extrapulmonar. Es el veinte a veinticinco por ciento de los casos en inmunocompetentes, y más de la mitad en las personas con VIH. Esa es la conexión con la clase anterior: mientras más cae la inmunidad celular, más se escapa el bacilo del pulmón."
+  },
+  {
+   "id": "b006",
+   "t": 89.63,
+   "dur": 16.46,
+   "say": "Veamos las formas extrapulmonares, empezando por la pleura. La pleuresía tuberculosa es un derrame exudativo: mira esta radiografía, con el derrame unilateral que ocupa la base del hemitórax. Es un exudado, con predominio de linfocitos, típicamente más del ochenta por ciento."
+  },
+  {
+   "id": "b007",
+   "t": 106.54,
+   "dur": 15.74,
+   "say": "Y el examen clave es la adenosina deaminasa, el ADA. Si está sobre cuarenta unidades por litro, en un contexto clínico compatible, tiene valor diagnóstico confirmatorio. Exudado linfocítico con ADA alto es tuberculosis pleural: esa es la pregunta del tema."
+  },
+  {
+   "id": "b008",
+   "t": 122.73,
+   "dur": 10.37,
+   "say": "La tuberculosis ganglionar, o escrófula, es la localización extrapulmonar más frecuente. Compromete típicamente los ganglios cervicales, supraclaviculares y yugulares."
+  },
+  {
+   "id": "b009",
+   "t": 133.55,
+   "dur": 10.37,
+   "say": "Mira este cuello: son masas indoloras y frías, sin los signos de inflamación de una adenitis bacteriana, que se van uniendo entre sí y pueden fistulizar a la piel, drenando material caseoso."
+  },
+  {
+   "id": "b010",
+   "t": 144.97,
+   "dur": 18.96,
+   "say": "La forma más grave es la meningitis tuberculosa. Es subaguda, de días a semanas, no de horas como la bacteriana, y compromete la base del encéfalo. Por eso atrapa a los pares craneanos que pasan por ahí: típicamente el tercero y el sexto. Un paciente con cefalea de semanas y diplopía te tiene que hacer pensar en esto."
+  },
+  {
+   "id": "b011",
+   "t": 164.38,
+   "dur": 14.74,
+   "say": "El líquido cefalorraquídeo tiene hipoglucorraquia severa, proteínas muy altas, sobre doscientos a quinientos miligramos por decilitro, y pleocitosis de linfocitos. Fíjate en la combinación: glucosa baja como en la bacteriana, pero con linfocitos como en la viral."
+  },
+  {
+   "id": "b012",
+   "t": 179.57,
+   "dur": 9.84,
+   "say": "Y el mal de Pott es la espondilodiscitis tuberculosa: compromete la columna torácica o lumbar, destruyendo el disco y los cuerpos vertebrales vecinos, como ves en esta resonancia."
+  },
+  {
+   "id": "b013",
+   "t": 190.72,
+   "dur": 13.54,
+   "say": "Si avanza, colapsa las vértebras, produce una cifosis angular y puede comprimir la médula. Un lumbago que no cede, con parámetros inflamatorios altos, en un paciente con riesgo de tuberculosis, es Pott hasta demostrar lo contrario."
+  },
+  {
+   "id": "b014",
+   "t": 205.31,
+   "dur": 23.42,
+   "say": "Pasemos al diagnóstico microbiológico. El método tradicional es la baciloscopía, con tinción de Ziehl Neelsen o fluorescencia con auramina, que busca los bacilos ácido alcohol resistentes: mira esta baciloscopía, con bastoncitos rojos sobre fondo azul. Es rápida y barata, pero necesita más de cinco mil bacilos por mililitro para verlos. Por eso una baciloscopía negativa no descarta la enfermedad."
+  },
+  {
+   "id": "b015",
+   "t": 229.18,
+   "dur": 15.38,
+   "say": "El cultivo, en medio sólido de Lowenstein Jensen o líquido MGIT, sigue siendo el estándar de oro. Y tiene una ventaja que nadie más tiene: permite hacer el antibiograma. Un cultivo positivo es tuberculosis, aunque las baciloscopías hayan salido negativas."
+  },
+  {
+   "id": "b016",
+   "t": 245.01,
+   "dur": 13.34,
+   "say": "Y el GeneXpert es la técnica molecular de elección en la norma técnica chilena. Es una reacción en cadena de la polimerasa en tiempo real, automatizada, que detecta el ADN del complejo Mycobacterium tuberculosis en menos de dos horas."
+  },
+  {
+   "id": "b017",
+   "t": 258.81,
+   "dur": 10.39,
+   "say": "Y al mismo tiempo detecta la mutación del gen rpoB, que confiere resistencia a rifampicina. En un solo examen sabes si hay tuberculosis y si el fármaco central del esquema va a servir."
+  },
+  {
+   "id": "b018",
+   "t": 269.65,
+   "dur": 14.16,
+   "say": "¿En quién se indica como prueba inicial? En los niños, las personas con VIH, los contactos de casos resistentes y el personal de salud. Son justamente los grupos en que la baciloscopía rinde menos, o en que la resistencia importa más."
+  },
+  {
+   "id": "b019",
+   "t": 284.86,
+   "dur": 12.07,
+   "say": "El tratamiento del caso nuevo, sensible a todos los fármacos, es un esquema diario y directamente observado: alguien del equipo de salud ve al paciente tomar cada dosis. La adherencia es lo que evita la resistencia."
+  },
+  {
+   "id": "b020",
+   "t": 297.38,
+   "dur": 10.25,
+   "say": "Primero, una fase inicial de dos meses con cuatro fármacos: rifampicina, isoniazida, pirazinamida y etambutol. Son cincuenta dosis, de lunes a viernes."
+  },
+  {
+   "id": "b021",
+   "t": 308.08,
+   "dur": 6.84,
+   "say": "Después, una fase de continuación de cuatro meses con solo dos: rifampicina e isoniazida, ochenta dosis."
+  },
+  {
+   "id": "b022",
+   "t": 315.37,
+   "dur": 11.88,
+   "say": "En total, seis meses. Así se escribe el esquema: dos RHZE, cuatro RH. Esa nomenclatura aparece tal cual en las alternativas, así que conviene leerla de corrido."
+  },
+  {
+   "id": "b023",
+   "t": 328.3,
+   "dur": 16.39,
+   "say": "Ahora lo que más se pregunta: las toxicidades. La isoniazida, que inhibe la síntesis de ácido micólico, produce hepatotoxicidad y neuropatía periférica, porque depleta la piridoxina. Por eso se previene dando vitamina B seis, veinticinco a cincuenta miligramos al día."
+  },
+  {
+   "id": "b024",
+   "t": 345.14,
+   "dur": 17.11,
+   "say": "La rifampicina, que inhibe la ARN polimerasa bacteriana, tiñe de naranja la orina y las lágrimas, lo que es benigno. Además puede dar una hepatitis colestásica, y es un potente inductor del citocromo P cuatrocientos cincuenta: baja los niveles de anticonceptivos, warfarina y antirretrovirales."
+  },
+  {
+   "id": "b025",
+   "t": 362.7,
+   "dur": 7.34,
+   "say": "La pirazinamida es el fármaco más hepatotóxico del esquema, y además produce hiperuricemia, que puede gatillar una crisis de gota."
+  },
+  {
+   "id": "b026",
+   "t": 370.5,
+   "dur": 13.78,
+   "say": "Y el etambutol produce neuritis óptica retrobulbar, dependiente de la dosis: baja la agudeza visual y se pierde la discriminación de los colores rojo y verde. Por eso se evita en niños pequeños, que no pueden colaborar con el examen oftalmológico."
+  },
+  {
+   "id": "b027",
+   "t": 385.32,
+   "dur": 8.88,
+   "say": "Hablamos de fracaso cuando persiste la baciloscopía o el cultivo positivo desde el quinto mes de un esquema. La causa más frecuente es la mala adherencia."
+  },
+  {
+   "id": "b028",
+   "t": 394.65,
+   "dur": 8.54,
+   "say": "Se confirma la adherencia, se pide cultivo con sensibilidad y GeneXpert y se deriva. Nunca se agrega un solo fármaco a un esquema que falla."
+  },
+  {
+   "id": "b029",
+   "t": 403.65,
+   "dur": 12.74,
+   "say": "La multirresistente, resistente a isoniacida y rifampicina, se sospecha en retratamientos, contactos de casos MDR y VIH. Se trata en centro especializado, siempre con tratamiento directamente observado."
+  },
+  {
+   "id": "b030",
+   "t": 416.84,
+   "dur": 11.52,
+   "say": "La tuberculosis genitourinaria es una reactivación años después de la primoinfección. La pista es la piuria ácida con urocultivo corriente negativo, la piuria estéril, con hematuria y disuria crónicas."
+  },
+  {
+   "id": "b031",
+   "t": 428.81,
+   "dur": 8.95,
+   "say": "Se confirma con cultivo de Koch en orina matinal de tres días seguidos y se estudia con UroTAC. Evoluciona a estenosis ureteral y vejiga contraída."
+  },
+  {
+   "id": "b032",
+   "t": 438.21,
+   "dur": 10.49,
+   "say": "En el varón afecta epidídimo y próstata; en la mujer, las trompas, con infertilidad. Se trata con el esquema estándar de seis meses y se deriva a urología por las complicaciones."
+  },
+  {
+   "id": "b033",
+   "t": 449.75,
+   "dur": 18.7,
+   "say": "Después de la infección primaria, los bacilos se diseminan por vía linfática y sanguínea a la pleura, los ganglios, las meninges y la columna. Ahí pueden quedar latentes durante décadas. La ganglionar es la localización extrapulmonar más frecuente, y en las personas con VIH la forma extrapulmonar es más de la mitad de los casos."
+  },
+  {
+   "id": "b034",
+   "t": 472.95,
+   "dur": 3.91,
+   "say": "Ahora ordenemos el diagnóstico y el tratamiento en un solo árbol."
+  },
+  {
+   "id": "b035",
+   "t": 477.31,
+   "dur": 10.2,
+   "say": "Paciente con sospecha de tuberculosis, pulmonar o extrapulmonar. Lo primero es tomar la muestra que corresponde a la localización, y elegir el examen según quién es el paciente."
+  },
+  {
+   "id": "b036",
+   "t": 487.96,
+   "dur": 6.02,
+   "say": "¿Es un niño, una persona con VIH, un contacto de un caso resistente, o personal de salud?"
+  },
+  {
+   "id": "b037",
+   "t": 494.44,
+   "dur": 6.91,
+   "say": "Si lo es, la prueba inicial es el GeneXpert, que detecta el bacilo y la resistencia a rifampicina en menos de dos horas."
+  },
+  {
+   "id": "b038",
+   "t": 501.8,
+   "dur": 8.02,
+   "say": "Si no hay resistencia, esquema estándar: dos meses de cuatro fármacos y cuatro meses de rifampicina con isoniazida, directamente observado."
+  },
+  {
+   "id": "b039",
+   "t": 510.27,
+   "dur": 8.81,
+   "say": "Si detecta la mutación rpoB, hay resistencia a rifampicina, y el esquema estándar no sirve. El cultivo con antibiograma define el tratamiento."
+  },
+  {
+   "id": "b040",
+   "t": 519.52,
+   "dur": 8.16,
+   "say": "Si no, baciloscopía y cultivo. Recuerda que una baciloscopía negativa no descarta, y que un cultivo positivo confirma."
+  },
+  {
+   "id": "b041",
+   "t": 528.13,
+   "dur": 7.75,
+   "say": "Con la tuberculosis confirmada, esquema estándar, vigilando la toxicidad de cada fármaco: hígado, nervio, ojo y ácido úrico."
+  },
+  {
+   "id": "b042",
+   "t": 536.94,
+   "dur": 11.09,
+   "say": "Repasemos en tabla. Orina o lágrimas naranjas: es la rifampicina, y es benigno. Se educa al paciente y se sigue el tratamiento. La trampa es suspender."
+  },
+  {
+   "id": "b043",
+   "t": 548.47,
+   "dur": 7.61,
+   "say": "Visión borrosa o dificultad con el rojo y el verde: es el etambutol, y aquí la conducta es la contraria, suspenderlo de inmediato."
+  },
+  {
+   "id": "b044",
+   "t": 556.53,
+   "dur": 5.64,
+   "say": "Parestesias por neuropatía periférica: isoniazida, y se previene y trata con piridoxina."
+  },
+  {
+   "id": "b045",
+   "t": 562.62,
+   "dur": 8.42,
+   "say": "Crisis de gota con ácido úrico alto: pirazinamida, que además es la más hepatotóxica, así que se controlan el ácido úrico y la función hepática."
+  },
+  {
+   "id": "b046",
+   "t": 571.5,
+   "dur": 7.46,
+   "say": "Y una anticonceptiva que se embaraza en tratamiento: es la inducción enzimática de la rifampicina, que baja los niveles del anticonceptivo."
+  },
+  {
+   "id": "b047",
+   "t": 579.41,
+   "dur": 7.25,
+   "say": "Y fuera de los fármacos, la más preguntada: derrame exudativo linfocítico con ADA sobre cuarenta es pleuritis tuberculosa."
+  },
+  {
+   "id": "b048",
+   "t": 587.71,
+   "dur": 16.37,
+   "say": "Vamos con un caso. Hombre de cuarenta y ocho años, en su quinta semana de tratamiento con cuatro fármacos, que consulta por visión borrosa en ambos ojos y porque le cuesta distinguir las luces del semáforo. El test de Ishihara está muy alterado para el verde y el rojo, y el fondo de ojo es normal."
+  },
+  {
+   "id": "b049",
+   "t": 604.53,
+   "dur": 2.23,
+   "say": "¿Cuál es la conducta inmediata?"
+  },
+  {
+   "id": "b050",
+   "t": 607.21,
+   "dur": 11.06,
+   "say": "Las opciones son: suspender definitivamente el etambutol; agregar piridoxina; suspender la rifampicina; mantener y controlar en un mes; o reducir la isoniazida. Piénsalo."
+  },
+  {
+   "id": "b052",
+   "t": 621.92,
+   "dur": 18.84,
+   "say": "Es la A. Visión borrosa con pérdida del rojo y el verde es la neuritis óptica del etambutol. Se suspende de inmediato y para siempre: si se hace a tiempo, suele revertir en semanas a meses; si se sigue, la ceguera puede quedar permanente. La B es el distractor: la piridoxina es para la neuropatía de la isoniazida, no para el ojo."
+  },
+  {
+   "id": "b053",
+   "t": 641.81,
+   "dur": 22.13,
+   "say": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Paciente de treinta y cinco años con una semana de compromiso del estado general y fiebre, al que se agregan cefalea y diplopía. Tiene parálisis del sexto par derecho y rigidez de nuca esbozada. El líquido muestra células mononucleares, glucosa baja y proteínas altas, sin gérmenes al Gram."
+  },
+  {
+   "id": "b054",
+   "t": 664.39,
+   "dur": 2.86,
+   "say": "¿Cuál es el agente etiológico más probable?"
+  },
+  {
+   "id": "b055",
+   "t": 667.7,
+   "dur": 7.9,
+   "say": "Las opciones son: Mycobacterium tuberculosis; neumococo; enterovirus; herpes virus; o criptococo. Piénsalo."
+  },
+  {
+   "id": "b057",
+   "t": 679.24,
+   "dur": 23.23,
+   "say": "Es la A. Un cuadro subagudo, que atrapa el sexto par en la base del encéfalo, con un líquido de linfocitos, glucosa baja y proteínas altas: meningitis tuberculosa. El neumococo daría un cuadro de horas, con neutrófilos. Y el criptococo es el distractor, porque también es subagudo, pero piensas en él en un VIH avanzado, y lo confirmas con tinta china, como vimos la clase pasada."
+  },
+  {
+   "id": "b058",
+   "t": 703.52,
+   "dur": 7.01,
+   "say": "Cerremos con las reglas de oro. Derrame exudativo linfocítico con ADA sobre cuarenta es pleuritis tuberculosa."
+  },
+  {
+   "id": "b059",
+   "t": 710.98,
+   "dur": 9.38,
+   "say": "Una meningitis subaguda que atrapa pares craneanos, con glucosa baja y linfocitos, es tuberculosa. Y un lumbago refractario con inflamación alta es un Pott."
+  },
+  {
+   "id": "b060",
+   "t": 720.82,
+   "dur": 12.36,
+   "say": "El cultivo es el estándar de oro y da el antibiograma; el GeneXpert detecta el bacilo y la resistencia a rifampicina en menos de dos horas, y es la prueba inicial en niños, VIH, contactos de resistentes y personal de salud."
+  },
+  {
+   "id": "b061",
+   "t": 733.63,
+   "dur": 23.09,
+   "say": "Y el esquema es dos RHZE, cuatro RH, directamente observado. Si te llevas una sola idea de hoy: cada fármaco tiene su firma, y la conducta cambia según cuál es. La orina naranja se explica, y la alteración de los colores obliga a suspender el etambutol. En la próxima clase empezamos las infecciones de transmisión sexual con la sífilis. Nos vemos en la próxima clase."
+  }
+ ]
+}

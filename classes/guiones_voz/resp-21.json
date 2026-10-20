@@ -1,0 +1,523 @@
+{
+ "id": "resp-21",
+ "title": "resp-21",
+ "total": 1125.5100000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 25.01,
+   "say": "Bienvenidos. Abrimos el bloque de cuidados críticos con la insuficiencia respiratoria aguda, un tema transversal que aparece en neumonía, en EPOC, en intoxicaciones y en la unidad de intensivo. Todo se ordena con tres preguntas sobre los gases arteriales: ¿hay hipoxemia?, ¿está alto el CO dos?, y ¿está alto el gradiente alvéolo arterial? Si respondes esas tres, sabes el mecanismo, y el mecanismo te dice qué soporte darle al paciente."
+  },
+  {
+   "id": "b002",
+   "t": 31.86,
+   "dur": 16.13,
+   "say": "Partamos por la definición, porque en el examen es estricta. La insuficiencia respiratoria aguda se diagnostica con gases arteriales, no con la clínica. El criterio es una presión arterial de oxígeno menor de sesenta milímetros de mercurio, respirando aire ambiental y a nivel del mar."
+  },
+  {
+   "id": "b003",
+   "t": 48.44,
+   "dur": 14.3,
+   "say": "Eso equivale, más o menos, a una saturación bajo noventa por ciento. Y la idea de fondo es que el sistema respiratorio no logra oxigenar la sangre venosa, no logra eliminar el CO dos que produce el metabolismo, o no logra ninguna de las dos cosas."
+  },
+  {
+   "id": "b004",
+   "t": 63.19,
+   "dur": 13.01,
+   "say": "¿Y por qué sesenta, y no cincuenta o setenta? Porque es el punto de inflexión de la curva de disociación de la hemoglobina. Por encima de sesenta la curva es plana, y la saturación se mantiene aunque baje la presión de oxígeno."
+  },
+  {
+   "id": "b005",
+   "t": 76.65,
+   "dur": 12.98,
+   "say": "Por debajo de sesenta, en cambio, pequeñas caídas de presión producen caídas enormes de saturación, y los tejidos dejan de recibir el oxígeno que necesitan. Por eso ese número no es arbitrario: marca el borde del precipicio."
+  },
+  {
+   "id": "b006",
+   "t": 90.68,
+   "dur": 19.7,
+   "say": "Toda hipoxemia sale de uno de cinco mecanismos, y conocerlos es lo que te permite leer los gases. El más frecuente es el desbalance ventilación perfusión: zonas del pulmón que reciben sangre, pero poco aire. Es lo que pasa en la neumonía, la EPOC, el asma y el tromboembolismo pulmonar. Su sello es que corrige bien con oxígeno."
+  },
+  {
+   "id": "b007",
+   "t": 110.84,
+   "dur": 14.59,
+   "say": "El segundo es el shunt, o cortocircuito. La sangre pasa por alvéolos completamente colapsados o llenos de líquido o pus, como en el distrés respiratorio grave, el edema pulmonar masivo o una atelectasia lobar total. Esa sangre nunca toca el aire."
+  },
+  {
+   "id": "b008",
+   "t": 125.88,
+   "dur": 17.81,
+   "say": "El tercero es la hipoventilación alveolar pura. El pulmón está sano, pero la bomba falla: el centro respiratorio está deprimido por opioides o benzodiacepinas, o los músculos no responden, como en el Guillain-Barré, la crisis miasténica o la ELA. Aquí el CO dos sube obligadamente, porque no se ventila."
+  },
+  {
+   "id": "b009",
+   "t": 144.14,
+   "dur": 15.31,
+   "say": "Los dos últimos son menos preguntados. La alteración de la difusión, por una membrana engrosada como en la fibrosis pulmonar avanzada, que al principio da hipoxemia solo con el ejercicio. Y la baja presión inspirada de oxígeno, en la altura sobre tres mil metros."
+  },
+  {
+   "id": "b010",
+   "t": 159.9,
+   "dur": 15.31,
+   "say": "Y fíjate en cómo se agrupan. Desbalance, shunt y difusión son enfermedades del pulmón, y elevan el gradiente alvéolo arterial. La hipoventilación y la altura dejan el pulmón intacto, y el gradiente queda normal. Ese es el cálculo que vemos ahora."
+  },
+  {
+   "id": "b011",
+   "t": 176.26,
+   "dur": 13.8,
+   "say": "El gradiente compara el oxígeno que hay en el alvéolo con el que llega a la sangre arterial. Primero calculas el oxígeno alveolar: respirando aire ambiental a nivel del mar, es ciento cincuenta menos la presión arterial de CO dos dividida por cero coma ocho."
+  },
+  {
+   "id": "b012",
+   "t": 190.51,
+   "dur": 13.39,
+   "say": "Después, al oxígeno alveolar le restas la presión arterial de oxígeno de los gases. Esa diferencia es el gradiente. Si el pulmón funciona bien, casi todo el oxígeno del alvéolo pasa a la sangre y la diferencia es pequeña."
+  },
+  {
+   "id": "b013",
+   "t": 204.35,
+   "dur": 9.36,
+   "say": "En el adulto joven el gradiente normal va de cinco a quince milímetros de mercurio. Aumenta con la edad: se estima como la edad dividida por cuatro, más cuatro."
+  },
+  {
+   "id": "b014",
+   "t": 214.16,
+   "dur": 9.19,
+   "say": "En mayores de setenta años puede llegar a veinte. Por eso, en la práctica, sobre veinte milímetros de mercurio hablamos de un gradiente elevado a cualquier edad."
+  },
+  {
+   "id": "b015",
+   "t": 223.8,
+   "dur": 11.52,
+   "say": "Y esta es la regla de oro que se pregunta. Hipoxemia con gradiente normal significa que el parénquima y la circulación pulmonar están sanos: la causa está fuera del pulmón, y es hipoventilación o altura."
+  },
+  {
+   "id": "b016",
+   "t": 235.77,
+   "dur": 10.27,
+   "say": "Hipoxemia con gradiente elevado significa daño del propio pulmón, ya sea del parénquima, como la neumonía, el distrés o el edema, o de los vasos, como el tromboembolismo pulmonar."
+  },
+  {
+   "id": "b017",
+   "t": 247.1,
+   "dur": 16.9,
+   "say": "Juntemos todo en la secuencia que usas frente a unos gases. Confirmada la hipoxemia, la primera pregunta es el CO dos. Si está sobre cuarenta y cinco, es una insuficiencia respiratoria tipo dos, hipercápnica. Si está normal o bajo, es tipo uno, hipoxémica."
+  },
+  {
+   "id": "b018",
+   "t": 264.44,
+   "dur": 10.54,
+   "say": "La tipo uno es una falla de oxigenación del parénquima, y su gradiente está siempre elevado. El paciente hiperventila para compensar, y por eso el CO dos queda normal o incluso bajo."
+  },
+  {
+   "id": "b019",
+   "t": 275.43,
+   "dur": 18.22,
+   "say": "En la tipo dos, la segunda pregunta es el gradiente. Si es normal, el pulmón está sano y la falla es la bomba: hipoventilación pura. El caso clásico es la sobredosis de opioides. Si el gradiente también está alto, hay daño pulmonar además de la falla ventilatoria, como en el EPOC que se cansa."
+  },
+  {
+   "id": "b020",
+   "t": 294.09,
+   "dur": 18.96,
+   "say": "Y la tercera pregunta es la respuesta al oxígeno. El desbalance ventilación perfusión, la hipoventilación y la difusión corrigen con oxígeno. El shunt es el único mecanismo que no corrige con oxígeno al cien por ciento, porque el aire nunca llega a esa sangre. Hipoxemia refractaria al oxígeno es shunt: esa frase se pregunta."
+  },
+  {
+   "id": "b021",
+   "t": 314.1,
+   "dur": 11.02,
+   "say": "Ahora la clínica, que también te ayuda a separarlas. La tipo uno es la falla de oxigenación: presión de oxígeno bajo sesenta, con CO dos normal o bajo, y el gradiente elevado."
+  },
+  {
+   "id": "b022",
+   "t": 325.57,
+   "dur": 11.33,
+   "say": "El paciente se ve luchando por respirar: taquipnea, taquicardia, uso de musculatura accesoria, sudoración y cianosis. Es el paciente con neumonía que llega desaturado y respirando rápido."
+  },
+  {
+   "id": "b023",
+   "t": 337.35,
+   "dur": 11.5,
+   "say": "La tipo dos es la falla de la bomba: CO dos sobre cuarenta y cinco, y si es aguda, con acidosis respiratoria, un pH bajo siete coma treinta y cinco. Puede tener o no hipoxemia asociada."
+  },
+  {
+   "id": "b024",
+   "t": 349.29,
+   "dur": 17.93,
+   "say": "Y lo que la delata es la narcosis por CO dos. El CO dos dilata los vasos cerebrales, y el paciente tiene cefalea pulsátil, somnolencia fluctuante, confusión, estupor, asterixis e incluso convulsiones. Ojo: un EPOC que se pone somnoliento no está descansando, está reteniendo CO dos."
+  },
+  {
+   "id": "b025",
+   "t": 368.27,
+   "dur": 14.64,
+   "say": "Pasemos al tratamiento, que es escalonado. En la tipo uno, sin retención de CO dos, se da oxígeno titulado para una saturación de noventa y dos a noventa y seis por ciento. Se parte con cánula nasal, de uno a cinco litros por minuto."
+  },
+  {
+   "id": "b026",
+   "t": 383.36,
+   "dur": 14.23,
+   "say": "Si la hipoxemia persiste y es moderada a severa, con una relación PaFi bajo doscientos, se sube a cánula nasal de alto flujo, hasta sesenta litros por minuto. Reduce el trabajo respiratorio y genera un poco de presión positiva al final de la espiración."
+  },
+  {
+   "id": "b027",
+   "t": 398.04,
+   "dur": 10.1,
+   "say": "Para saber si el alto flujo está fracasando se usa el índice ROX. Si entre las dos y doce horas está bajo tres coma ochenta y ocho, el riesgo de falla es alto y hay que escalar."
+  },
+  {
+   "id": "b028",
+   "t": 408.6,
+   "dur": 12.19,
+   "say": "En el paciente que retiene CO dos, como el EPOC, el dispositivo de elección es la mascarilla Venturi, porque entrega una fracción de oxígeno fija y precisa: veinticuatro, veintiocho, treinta y cinco o cincuenta por ciento."
+  },
+  {
+   "id": "b029",
+   "t": 421.24,
+   "dur": 11.57,
+   "say": "¿Por qué tanto cuidado? Porque en el retenedor, el exceso de oxígeno empeora la hipoventilación y el CO dos sigue subiendo. Darle oxígeno a chorro a un EPOC somnoliento es una trampa clásica."
+  },
+  {
+   "id": "b030",
+   "t": 433.86,
+   "dur": 20.33,
+   "say": "Cuando el oxígeno no basta, viene el soporte ventilatorio. La ventilación mecánica no invasiva, la VMNI en modalidad BiPAP, es de primera línea en dos escenarios: la exacerbación de EPOC con acidosis hipercápnica, con pH entre siete coma veinticinco y siete coma treinta y cinco y CO dos sobre cuarenta y cinco, y el edema pulmonar agudo cardiogénico."
+  },
+  {
+   "id": "b031",
+   "t": 454.64,
+   "dur": 12.22,
+   "say": "La BiPAP entrega dos presiones por una mascarilla: una inspiratoria, de diez a quince centímetros de agua, que ayuda a ventilar y lava el CO dos, y una espiratoria, de cuatro a seis, que mantiene abiertos los alvéolos."
+  },
+  {
+   "id": "b032",
+   "t": 467.3,
+   "dur": 14.42,
+   "say": "¿Por qué es tan importante? Porque tiene evidencia categoría A: reduce la necesidad de intubación en más del sesenta por ciento y disminuye la mortalidad hospitalaria. Frente a un EPOC con acidosis respiratoria, la respuesta del examen es VMNI."
+  },
+  {
+   "id": "b033",
+   "t": 482.18,
+   "dur": 12.53,
+   "say": "Pero la VMNI es una prueba, no un destino. Se evalúa en una a dos horas. Si el pH sigue bajo siete coma veinticinco, si aparece encefalopatía o si el paciente empeora, la prueba fracasó."
+  },
+  {
+   "id": "b034",
+   "t": 495.15,
+   "dur": 21.94,
+   "say": "Y ahí va la intubación orotraqueal con ventilación mecánica invasiva. Sus criterios son: paro cardiorrespiratorio o apnea, compromiso grave de conciencia con Glasgow de ocho o menos, shock refractario, fatiga muscular extrema con respiración paradójica, y el fracaso de la VMNI. Fíjate que el paciente comprometido de conciencia no protege su vía aérea: en él la mascarilla no sirve."
+  },
+  {
+   "id": "b035",
+   "t": 518.14,
+   "dur": 12.5,
+   "say": "Las indicaciones de ventilación mecánica invasiva se reconocen y se derivan a la unidad de cuidados intensivos. Paro cardiorrespiratorio, obstrucción o pérdida de la protección de la vía aérea, con Glasgow de ocho o menos."
+  },
+  {
+   "id": "b036",
+   "t": 531.09,
+   "dur": 9.94,
+   "say": "Hipoxemia refractaria, con relación presión arterial de oxígeno sobre fracción inspirada de oxígeno menor de doscientos, a pesar de oxígeno de alto flujo o ventilación no invasiva."
+  },
+  {
+   "id": "b037",
+   "t": 541.48,
+   "dur": 8.71,
+   "say": "Acidosis respiratoria progresiva, con pH bajo siete coma veinticinco, o fracaso de la ventilación no invasiva, sin mejoría en una a dos horas."
+  },
+  {
+   "id": "b038",
+   "t": 550.64,
+   "dur": 6.14,
+   "say": "Fatiga muscular con respiración paradójica, shock, y agitación que impide la ventilación no invasiva."
+  },
+  {
+   "id": "b039",
+   "t": 557.24,
+   "dur": 9.22,
+   "say": "Se programa un modo asistido-controlado, con volumen corriente de seis a ocho mililitros por kilo de peso ideal, y presión meseta menor de treinta centímetros de agua."
+  },
+  {
+   "id": "b040",
+   "t": 566.9,
+   "dur": 14.95,
+   "say": "Frecuencia de doce a dieciséis, PEEP de cinco, fracción inspirada de oxígeno inicial alta con titulación a saturación de noventa y dos a noventa y seis por ciento, y relación inspiración espiración uno a dos; en los obstructivos, más tiempo de espiración para evitar el atrapamiento aéreo."
+  },
+  {
+   "id": "b041",
+   "t": 582.3,
+   "dur": 15.72,
+   "say": "Se controlan gases a los veinte a treinta minutos y se ajusta: la frecuencia según el pH y la presión de dióxido de carbono, y la fracción inspirada de oxígeno y la PEEP según la oxigenación. Las complicaciones inmediatas son hipotensión, neumotórax e intubación esofágica o selectiva."
+  },
+  {
+   "id": "b042",
+   "t": 599.07,
+   "dur": 15.36,
+   "say": "La intubación orotraqueal se prepara antes de dormir al paciente. Se preoxigena con bolsa y mascarilla con oxígeno al cien por ciento durante tres a cinco minutos, y se revisa todo el material: laringoscopio, tubo con balón, jeringa, aspirador, bougie y capnografía."
+  },
+  {
+   "id": "b043",
+   "t": 614.88,
+   "dur": 15.48,
+   "say": "Se da la inducción y el relajante, con secuencia rápida si hay riesgo de aspiración. Se hace laringoscopia con alineación de la vía aérea y se pasa el tubo bajo visión hasta que el balón cruza las cuerdas: a veintiún centímetros en la mujer y veintitrés en el hombre, medido a nivel de los dientes."
+  },
+  {
+   "id": "b044",
+   "t": 630.81,
+   "dur": 16.75,
+   "say": "Se confirma con capnografía, una onda sostenida, que es el método más confiable, además de la auscultación en ambos pulmones y el epigastrio, y la radiografía de tórax, con la punta del tubo a tres a cinco centímetros de la carina. Se fija y se infla el balón entre veinte y treinta centímetros de agua."
+  },
+  {
+   "id": "b045",
+   "t": 648.02,
+   "dur": 7.73,
+   "say": "Si falla, máximo tres intentos, y se pasa a una vía aérea alternativa, como la mascarilla laríngea, o a la cricotirotomía."
+  },
+  {
+   "id": "b046",
+   "t": 656.79,
+   "dur": 14.88,
+   "say": "La aspiración traqueal se hace con técnica estéril y preoxigenando. La sonda debe medir menos de la mitad del diámetro del tubo, se introduce sin aspirar hasta sentir resistencia y se retira aspirando de forma intermitente y rotando, en menos de diez a quince segundos por pasada."
+  },
+  {
+   "id": "b047",
+   "t": 672.12,
+   "dur": 11.09,
+   "say": "Se vigilan saturación, ritmo y presión, y se suspende si hay desaturación o bradicardia. Sus complicaciones son hipoxemia, broncoespasmo, arritmias, daño de mucosa e infección."
+  },
+  {
+   "id": "b048",
+   "t": 683.66,
+   "dur": 7.44,
+   "say": "La cricotirotomía, por la membrana cricotiroidea, es la vía aérea quirúrgica de emergencia cuando no se puede intubar ni ventilar."
+  },
+  {
+   "id": "b049",
+   "t": 691.55,
+   "dur": 12.79,
+   "say": "La traqueostomía es electiva: se plantea ante intubación prolongada, de más de diez a catorce días, obstrucción de la vía aérea superior y destete difícil, y se hace en pabellón o por técnica percutánea en la unidad de cuidados intensivos."
+  },
+  {
+   "id": "b050",
+   "t": 705.39,
+   "dur": 10.8,
+   "say": "La insuficiencia respiratoria crónica se define por una presión arterial de oxígeno menor de sesenta milímetros de mercurio, con o sin presión de dióxido de carbono sobre cuarenta y cinco, de forma estable."
+  },
+  {
+   "id": "b051",
+   "t": 716.64,
+   "dur": 9.46,
+   "say": "La clave que la separa de la aguda es la compensación renal: bicarbonato elevado y pH casi normal. Hay poliglobulia, cor pulmonale y cianosis."
+  },
+  {
+   "id": "b052",
+   "t": 726.55,
+   "dur": 8.5,
+   "say": "Las causas: EPOC avanzado, fibrosis pulmonar, síndrome de obesidad e hipoventilación, enfermedades neuromusculares y de la caja torácica."
+  },
+  {
+   "id": "b053",
+   "t": 735.5,
+   "dur": 8.57,
+   "say": "Oxigenoterapia domiciliaria más de quince horas al día, ventilación no invasiva domiciliaria si hay hipercapnia sintomática, rehabilitación y vacunas."
+  },
+  {
+   "id": "b054",
+   "t": 744.51,
+   "dur": 5.09,
+   "say": "Y cuando se descompensan, se tratan como insuficiencia respiratoria aguda tipo dos."
+  },
+  {
+   "id": "b055",
+   "t": 750.65,
+   "dur": 9.74,
+   "say": "En la hipoventilación el pulmón está sano, pero entra poco aire: se acumula CO dos y baja el oxígeno alveolar; el arterial baja lo mismo. El gradiente es normal."
+  },
+  {
+   "id": "b056",
+   "t": 760.85,
+   "dur": 12.14,
+   "say": "En el shunt el alvéolo no recibe aire, porque está tapado, colapsado o lleno de líquido: la sangre pasa sin oxigenarse. El gradiente sube, y darle oxígeno al cien por ciento casi no mejora la saturación."
+  },
+  {
+   "id": "b057",
+   "t": 774.05,
+   "dur": 4.39,
+   "say": "Ahora juntemos todo en un solo árbol, desde los gases hasta el soporte."
+  },
+  {
+   "id": "b058",
+   "t": 778.89,
+   "dur": 10.08,
+   "say": "Paciente con presión arterial de oxígeno bajo sesenta, respirando aire ambiental a nivel del mar. Tiene una insuficiencia respiratoria aguda, y ahora hay que saber de qué tipo."
+  },
+  {
+   "id": "b059",
+   "t": 789.42,
+   "dur": 4.82,
+   "say": "La primera pregunta es el CO dos. ¿Está sobre cuarenta y cinco?"
+  },
+  {
+   "id": "b060",
+   "t": 794.69,
+   "dur": 8.38,
+   "say": "Es una tipo uno, hipoxémica, con el gradiente elevado: el pulmón está dañado. Se da oxígeno titulado y se observa la respuesta."
+  },
+  {
+   "id": "b061",
+   "t": 803.52,
+   "dur": 9.72,
+   "say": "Si corrige, es desbalance ventilación perfusión o difusión. Cánula nasal para saturar noventa y dos a noventa y seis, y alto flujo si la PaFi baja de doscientos."
+  },
+  {
+   "id": "b062",
+   "t": 813.69,
+   "dur": 9.77,
+   "say": "Si no corrige ni con oxígeno al cien por ciento, es shunt: distrés respiratorio o edema masivo. Ese paciente necesita presión positiva y probablemente intubación."
+  },
+  {
+   "id": "b063",
+   "t": 823.91,
+   "dur": 5.83,
+   "say": "Es una tipo dos, hipercápnica. La segunda pregunta es el gradiente alvéolo arterial."
+  },
+  {
+   "id": "b064",
+   "t": 830.19,
+   "dur": 8.64,
+   "say": "Gradiente normal: el pulmón está sano y falla la bomba. Se ventila y se revierte la causa, como la naloxona en la sobredosis de opioides."
+  },
+  {
+   "id": "b065",
+   "t": 839.28,
+   "dur": 8.3,
+   "say": "Gradiente elevado con CO dos alto: el ejemplo típico es el EPOC exacerbado. ¿Tiene compromiso grave de conciencia, shock o paro?"
+  },
+  {
+   "id": "b066",
+   "t": 848.03,
+   "dur": 4.49,
+   "say": "Si no, VMNI BiPAP, y se reevalúa en una a dos horas."
+  },
+  {
+   "id": "b067",
+   "t": 852.97,
+   "dur": 7.2,
+   "say": "Si lo tiene, o si la VMNI fracasa, intubación orotraqueal y ventilación mecánica invasiva en la unidad de intensivo."
+  },
+  {
+   "id": "b068",
+   "t": 861.22,
+   "dur": 14.33,
+   "say": "Repasemos los mecanismos, que son la base de las preguntas. Hipoventilación pura, por opioides o un accidente cerebrovascular: CO dos alto, gradiente normal, y corrige con oxígeno. La trampa es pensar que el pulmón está enfermo."
+  },
+  {
+   "id": "b069",
+   "t": 876,
+   "dur": 9.91,
+   "say": "Desbalance ventilación perfusión, en la neumonía, la EPOC, el asma o el tromboembolismo: CO dos normal o bajo, gradiente elevado, y corrige fácilmente con oxígeno."
+  },
+  {
+   "id": "b070",
+   "t": 886.36,
+   "dur": 11.69,
+   "say": "Shunt, en el distrés o el edema masivo: gradiente muy elevado, y es refractario al oxígeno al cien por ciento. Es el único que no corrige, y lo retomamos en la próxima clase de distrés respiratorio."
+  },
+  {
+   "id": "b071",
+   "t": 898.5,
+   "dur": 9.36,
+   "say": "Alteración de la difusión, en la enfermedad pulmonar intersticial avanzada: gradiente elevado, hipoxemia que aparece primero con el esfuerzo, y corrige con oxígeno."
+  },
+  {
+   "id": "b072",
+   "t": 908.31,
+   "dur": 8.11,
+   "say": "Y la altura: gradiente normal y CO dos bajo, porque el paciente hiperventila para compensar. Corrige de inmediato con oxígeno."
+  },
+  {
+   "id": "b073",
+   "t": 917.47,
+   "dur": 23.5,
+   "say": "Vamos con un caso. Hombre de treinta años, encontrado con compromiso de conciencia junto a blísteres vacíos de un opioide. Glasgow siete, frecuencia respiratoria de seis por minuto, pupilas puntiformes, y pulmones que se auscultan normales. Gases con aire ambiental: pH siete coma veinticuatro, presión de oxígeno cincuenta y ocho, CO dos sesenta y cuatro, y bicarbonato veintiséis."
+  },
+  {
+   "id": "b074",
+   "t": 941.42,
+   "dur": 2.81,
+   "say": "¿Cuál es la conducta inmediata más adecuada?"
+  },
+  {
+   "id": "b075",
+   "t": 944.67,
+   "dur": 13.78,
+   "say": "Las alternativas: ventilación no invasiva con BiPAP, ventilar con bolsa mascarilla y dar naloxona, oxígeno por cánula a dos litros y observar, bicarbonato endovenoso, o un angio TAC por sospecha de tromboembolismo. Piénsalo."
+  },
+  {
+   "id": "b077",
+   "t": 962.1,
+   "dur": 27.02,
+   "say": "Es la B. Calcula el gradiente: ciento cincuenta menos sesenta y cuatro dividido por cero coma ocho da setenta, y setenta menos cincuenta y ocho da doce. Gradiente normal con CO dos alto: hipoventilación pura, el pulmón está sano y la bomba está apagada por el opioide. Se ventila y se revierte con naloxona. La BiPAP es el distractor tentador, pero con Glasgow siete el paciente no protege su vía aérea. Y el bicarbonato no trata una acidosis respiratoria."
+  },
+  {
+   "id": "b078",
+   "t": 990.17,
+   "dur": 30.24,
+   "say": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Hombre de setenta y dos años con EPOC severa, que en tres días aumenta su tos y disnea, con expectoración purulenta y fiebre, hasta tener disnea de reposo. Está agitado pero orientado, con musculatura accesoria, frecuencia respiratoria de cuarenta y saturación de ochenta y cuatro. Los gases: presión de oxígeno sesenta y cinco, CO dos cincuenta y cinco, pH siete coma veintinueve. Ya recibió broncodilatadores, antibióticos y corticoides."
+  },
+  {
+   "id": "b079",
+   "t": 1020.86,
+   "dur": 3.62,
+   "say": "¿Cuál es la conducta más adecuada para su manejo respiratorio?"
+  },
+  {
+   "id": "b080",
+   "t": 1024.94,
+   "dur": 11.83,
+   "say": "Las opciones: Venturi al cincuenta por ciento, mascarilla de no recirculación, naricera al veinticuatro por ciento, cánula nasal de alto flujo, o ventilación mecánica no invasiva. Piénsalo."
+  },
+  {
+   "id": "b082",
+   "t": 1040.42,
+   "dur": 23.57,
+   "say": "Es la E. Es exactamente la indicación de primera línea: EPOC exacerbado con acidosis hipercápnica, pH entre siete coma veinticinco y siete coma treinta y cinco, y el paciente vigil y orientado. Fíjate que cuatro alternativas son formas de dar más oxígeno, y ninguna lava el CO dos; en un retenedor, incluso lo empeoran. Lo que corrige la acidosis es ventilar, y aquí se ventila con BiPAP."
+  },
+  {
+   "id": "b083",
+   "t": 1065.04,
+   "dur": 8.57,
+   "say": "Cerremos con las reglas de oro. La insuficiencia respiratoria aguda es una presión de oxígeno bajo sesenta, con aire ambiental y a nivel del mar."
+  },
+  {
+   "id": "b084",
+   "t": 1074.06,
+   "dur": 7.7,
+   "say": "El CO dos sobre cuarenta y cinco la hace tipo dos, hipercápnica, y la delata la narcosis: cefalea, somnolencia y asterixis."
+  },
+  {
+   "id": "b085",
+   "t": 1082.21,
+   "dur": 7.9,
+   "say": "Hipoxemia con gradiente normal es un pulmón sano: hipoventilación o altura. Con gradiente elevado, el pulmón está dañado."
+  },
+  {
+   "id": "b086",
+   "t": 1090.56,
+   "dur": 7.39,
+   "say": "Y la hipoxemia que no corrige con oxígeno al cien por ciento es shunt, que es justo lo que define al distrés respiratorio de la próxima clase."
+  },
+  {
+   "id": "b087",
+   "t": 1098.4,
+   "dur": 4.44,
+   "say": "En el retenedor de CO dos, oxígeno con Venturi, sin excesos."
+  },
+  {
+   "id": "b088",
+   "t": 1103.29,
+   "dur": 16.27,
+   "say": "EPOC con acidosis hipercápnica: VMNI BiPAP, e intubación si hay compromiso grave de conciencia o fracasa la prueba. Si te llevas una sola idea de hoy: el CO dos te dice si falla la bomba, el gradiente te dice si falla el pulmón. Nos vemos en la próxima clase."
+  }
+ ]
+}

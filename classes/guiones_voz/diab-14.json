@@ -1,0 +1,451 @@
+{
+ "id": "diab-14",
+ "title": "Hipoglicemias",
+ "total": 930.4840000000004,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 24.26,
+   "say": "Bienvenidos. Hoy vemos la hipoglicemia, la urgencia endocrinológica más frecuente en la atención primaria y en el servicio de urgencia. En la clase anterior dijimos que la glibenclamida se suspende al hospitalizar por este riesgo; hoy vemos qué pasa cuando no se hizo a tiempo. El examen pregunta tres cosas: reconocerla, rescatarla según el estado de conciencia, y saber a quién no se puede dar de alta. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 31.11,
+   "dur": 12.98,
+   "say": "Partamos por la definición. La Asociación Americana de Diabetes la ordena en tres niveles. El nivel uno es el valor de alerta: glicemia bajo setenta. Todavía no es grave, pero ya obliga a actuar."
+  },
+  {
+   "id": "b003",
+   "t": 44.55,
+   "dur": 12.17,
+   "say": "El nivel dos es la hipoglicemia clínicamente significativa: bajo cincuenta y cuatro. Es el umbral donde el cerebro empieza a quedarse sin glucosa y aparecen los síntomas neuroglucopénicos, como la confusión o la cefalea."
+  },
+  {
+   "id": "b004",
+   "t": 57.17,
+   "dur": 16.9,
+   "say": "Y el nivel tres, la hipoglicemia severa, no se define por un número. Se define por la clínica: compromiso de conciencia, convulsiones, o un paciente que no puede tratarse solo y necesita que otro lo ayude. Esa diferencia se pregunta: el nivel tres es clínico, no bioquímico."
+  },
+  {
+   "id": "b005",
+   "t": 75.11,
+   "dur": 9.62,
+   "say": "En el paciente no diabético, o cuando estás estudiando la causa, la hipoglicemia se confirma con la tríada de Whipple. Primero, síntomas y signos compatibles."
+  },
+  {
+   "id": "b006",
+   "t": 85.19,
+   "dur": 8.14,
+   "say": "Segundo, una glicemia plasmática baja documentada: bajo cincuenta y cinco en el no diabético, o bajo setenta en el diabético en tratamiento."
+  },
+  {
+   "id": "b007",
+   "t": 93.77,
+   "dur": 10.56,
+   "say": "Y tercero, que los síntomas se resuelvan por completo e inmediatamente al administrar glucosa. Si falta alguno de los tres, no puedes afirmar que esos síntomas eran por hipoglicemia."
+  },
+  {
+   "id": "b008",
+   "t": 104.78,
+   "dur": 11.45,
+   "say": "Fíjate en la lógica: muchos cuadros dan sudoración y temblor, y un examen aislado puede salir bajo por error. Lo que da certeza es la combinación de los tres, y por eso el examen te la pide completa."
+  },
+  {
+   "id": "b009",
+   "t": 117.28,
+   "dur": 8.11,
+   "say": "Veamos por qué el paciente se siente como se siente. Cuando la glicemia cae, aparecen dos grupos de síntomas, y aparecen en orden."
+  },
+  {
+   "id": "b010",
+   "t": 125.84,
+   "dur": 14.66,
+   "say": "Primero, alrededor de setenta a sesenta y cinco, se activa el sistema autonómico como señal de alarma: sudoración fría y profusa, temblor, taquicardia, palpitaciones, palidez, ansiedad y un hambre intensa. Es el cuerpo avisando que hay que comer."
+  },
+  {
+   "id": "b011",
+   "t": 140.96,
+   "dur": 15.53,
+   "say": "Si nadie responde a esa alarma y la glicemia sigue bajando, bajo cincuenta y cuatro a cincuenta, el cerebro se queda sin su combustible. Aparecen cefalea, visión borrosa, confusión, disartria, conducta bizarra o agresiva, y al final convulsiones, sopor y coma."
+  },
+  {
+   "id": "b012",
+   "t": 156.93,
+   "dur": 18.17,
+   "say": "Y aquí está el detalle que se pregunta. Los betabloqueadores no cardioselectivos, como el propranolol, bloquean la taquicardia, las palpitaciones y el temblor. El paciente pierde su alarma y pasa directo a la neuroglucopenia. La excepción es la sudoración, que se mantiene: esa es la pista del examen."
+  },
+  {
+   "id": "b013",
+   "t": 176.15,
+   "dur": 8.62,
+   "say": "Pasemos al rescate, que es lo que más se pregunta. El manejo depende de una sola pregunta: ¿el paciente está consciente y puede tragar sin riesgo?"
+  },
+  {
+   "id": "b014",
+   "t": 185.22,
+   "dur": 12.89,
+   "say": "Si está consciente, se aplica la regla de los quince: quince gramos de azúcar de absorción rápida por boca, esperar quince minutos en reposo y repetir la glicemia. Si sigue bajo setenta, se repiten los quince gramos."
+  },
+  {
+   "id": "b015",
+   "t": 198.56,
+   "dur": 14.76,
+   "say": "Si está inconsciente, o la vía oral no es segura, está prohibido darle líquidos o comida por boca. El riesgo de broncoaspiración puede ser fatal. Parece de sentido común, pero en el examen aparece como distractor: darle jugo al paciente soporoso."
+  },
+  {
+   "id": "b016",
+   "t": 213.77,
+   "dur": 15.24,
+   "say": "Si tienes vía venosa, en el hospital o la urgencia, se administra glucosa al treinta por ciento en bolo endovenoso, veinte a cincuenta mililitros, que son dos a cuatro ampollas. Otra opción es glucosa al diez por ciento, ciento cincuenta a doscientos mililitros en bolo rápido."
+  },
+  {
+   "id": "b017",
+   "t": 229.46,
+   "dur": 11.47,
+   "say": "Y el bolo no termina el tratamiento. Se sigue de una infusión continua de suero glucosado al diez por ciento, a ochenta a cien mililitros por hora, y se repite el hemoglucotest a los diez o quince minutos."
+  },
+  {
+   "id": "b018",
+   "t": 241.38,
+   "dur": 12.62,
+   "say": "Si no hay vía venosa, por ejemplo en el domicilio, se usa glucagón un miligramo intramuscular o subcutáneo, o glucagón intranasal de tres miligramos si está disponible. Luego se canaliza una vía y se traslada al paciente."
+  },
+  {
+   "id": "b019",
+   "t": 255.05,
+   "dur": 13.32,
+   "say": "¿Qué son quince gramos? Ciento cincuenta mililitros de jugo azucarado o de bebida no light, tres a cuatro cucharaditas de azúcar disueltas en agua, o tres caramelos masticables. Azúcar simple, que se absorba rápido."
+  },
+  {
+   "id": "b020",
+   "t": 268.82,
+   "dur": 14.14,
+   "say": "Y cuando la glicemia ya supera setenta, una colación con carbohidratos complejos, como pan, galletas o leche, para que no vuelva a caer. Un sándwich con grasa como primera medida es un error: retarda la absorción justo cuando necesitas rapidez."
+  },
+  {
+   "id": "b021",
+   "t": 283.41,
+   "dur": 5.98,
+   "say": "El glucagón funciona estimulando la glucogenólisis: saca la glucosa guardada en el hígado como glucógeno."
+  },
+  {
+   "id": "b022",
+   "t": 289.83,
+   "dur": 12.58,
+   "say": "Entonces, si el hígado no tiene glucógeno, el glucagón no sirve. Eso pasa en la desnutrición severa, el ayuno prolongado y el alcoholismo agudo. En esos pacientes, la respuesta es glucosa endovenosa."
+  },
+  {
+   "id": "b023",
+   "t": 303.46,
+   "dur": 10.97,
+   "say": "Ante cualquier sospecha de hipoglicemia, lo primero es medir de inmediato la glicemia capilar, en la cara lateral del pulpejo, con las manos limpias y secas, como vimos en la clase de diabetes gestacional."
+  },
+  {
+   "id": "b024",
+   "t": 314.88,
+   "dur": 11.5,
+   "say": "Pero si el paciente está inconsciente y no hay glucómetro, no se retrasa el tratamiento. Se administra glucosa de forma empírica. El riesgo de esperar es mucho mayor que el de dar glucosa de más."
+  },
+  {
+   "id": "b025",
+   "t": 326.82,
+   "dur": 7.37,
+   "say": "Tras el rescate se repite la medición a los quince minutos y después cada una a dos horas, hasta mantener glicemias estables sobre setenta."
+  },
+  {
+   "id": "b026",
+   "t": 334.64,
+   "dur": 6.31,
+   "say": "Y un valor muy bajo, o la señal LO, que no concuerda con la clínica, se confirma con glicemia venosa."
+  },
+  {
+   "id": "b027",
+   "t": 342,
+   "dur": 11.95,
+   "say": "Ahora, la regla de oro de esta clase. La glibenclamida es la causa más común de hipoglicemias severas y prolongadas en adultos mayores en Chile. Su vida media llega a diez a dieciséis horas."
+  },
+  {
+   "id": "b028",
+   "t": 354.41,
+   "dur": 10.22,
+   "say": "Y además tiene metabolitos activos, que se acumulan en la falla renal, la deshidratación o la hipoalbuminemia. Es decir, justo en el adulto mayor frágil que suele usarla."
+  },
+  {
+   "id": "b029",
+   "t": 365.08,
+   "dur": 12.6,
+   "say": "El escenario típico: llega soporoso, recibe un bolo de glucosa endovenosa, y a los pocos minutos despierta lúcido y pide irse. El bolo arregló la glicemia de ese momento, pero la glibenclamida sigue circulando."
+  },
+  {
+   "id": "b030",
+   "t": 378.13,
+   "dur": 11.78,
+   "say": "Si lo das de alta, la hipoglicemia vuelve horas después, en su casa, sin nadie que la trate, con riesgo de daño neurológico o muerte. Darlo de alta porque despertó es el distractor clásico del examen."
+  },
+  {
+   "id": "b031",
+   "t": 390.36,
+   "dur": 18.67,
+   "say": "La conducta correcta: todo paciente con hipoglicemia por sulfonilureas, glibenclamida o glimepirida, se hospitaliza por veinticuatro a cuarenta y ocho horas, con infusión continua de suero glucosado al diez por ciento y glicemias capilares cada una a dos horas. Compáralo con la hipoglicemia por insulina en quien vuelve a comer bien: ese sí puede irse."
+  },
+  {
+   "id": "b032",
+   "t": 410.09,
+   "dur": 13.8,
+   "say": "Cerremos el tema con el enfrentamiento general del paciente con compromiso de conciencia, que no es solo del diabético. Primero el ABC: vía aérea, ventilación y circulación, con control cervical si hay trauma, monitoreo y una vía venosa."
+  },
+  {
+   "id": "b033",
+   "t": 424.34,
+   "dur": 18.77,
+   "say": "Segundo paso: glicemia capilar siempre y de inmediato, porque la hipoglicemia es una causa reversible. Si está bajo setenta, glucosa endovenosa. En alcohólicos o desnutridos se da antes tiamina, cien miligramos endovenosos. En niños, suero glucosado al diez por ciento, dos mililitros por kilo."
+  },
+  {
+   "id": "b034",
+   "t": 443.55,
+   "dur": 6.96,
+   "say": "Tercero, naloxona si hay pupilas puntiformes y bradipnea, que hacen sospechar opioides, y oxígeno si hay hipoxemia."
+  },
+  {
+   "id": "b035",
+   "t": 450.96,
+   "dur": 28.18,
+   "say": "Recién después se hace la historia, con alcohol, fármacos, trauma y convulsión, la temperatura, el Glasgow, las pupilas y los signos focales y meníngeos. Se piden gases, electrolitos, creatinina, pruebas hepáticas y electrocardiograma, y TAC de cerebro si hay focalidad, trauma o no aparece causa metabólica. La punción lumbar se reserva para sospecha de meningitis. En el diabético, piensa además en cetoacidosis, estado hiperosmolar, sepsis y acidosis láctica."
+  },
+  {
+   "id": "b036",
+   "t": 480.19,
+   "dur": 11.02,
+   "say": "Cambiemos de paciente. Una persona sin diabetes, con hipoglicemias espontáneas y tríada de Whipple confirmada. Aquí la pregunta no es cómo rescatarla, sino por qué le pasa."
+  },
+  {
+   "id": "b037",
+   "t": 491.66,
+   "dur": 8.4,
+   "say": "La clave es tomar una muestra crítica, en plena hipoglicemia, con glicemia bajo cincuenta y cinco. Medida en otro momento, no sirve."
+  },
+  {
+   "id": "b038",
+   "t": 500.51,
+   "dur": 10.27,
+   "say": "En esa misma muestra se mide la insulina plasmática, el péptido C, la proinsulina, y se buscan sulfonilureas en la orina. Con esos resultados se separan las causas."
+  },
+  {
+   "id": "b039",
+   "t": 511.23,
+   "dur": 12.58,
+   "say": "Y la lógica es una sola. El páncreas libera la insulina junto con el péptido C, en partes iguales. La insulina que viene de una jeringa no trae péptido C. Con esa idea resuelves casi todas las preguntas."
+  },
+  {
+   "id": "b040",
+   "t": 524.85,
+   "dur": 10.18,
+   "say": "Apliquemos la lógica. La muestra crítica muestra hipoglicemia con insulina alta. La pregunta es de dónde viene esa insulina, y la respuesta la da el péptido C."
+  },
+  {
+   "id": "b041",
+   "t": 535.48,
+   "dur": 14.3,
+   "say": "Si la insulina está muy alta pero el péptido C está indetectable, esa insulina no la hizo el páncreas: se la inyectaron. Es la hipoglicemia facticia por insulina exógena. Piensa en la persona con acceso a insulina, por ejemplo personal de salud."
+  },
+  {
+   "id": "b042",
+   "t": 550.23,
+   "dur": 8.86,
+   "say": "Si insulina y péptido C están ambos altos, el páncreas la está fabricando. Pero hay dos razones posibles, y las separa el screening de sulfonilureas."
+  },
+  {
+   "id": "b043",
+   "t": 559.54,
+   "dur": 7.54,
+   "say": "Si el screening es positivo, es una hipoglicemia facticia por sulfonilureas: el fármaco estimula al páncreas y simula un insulinoma."
+  },
+  {
+   "id": "b044",
+   "t": 567.53,
+   "dur": 14.47,
+   "say": "Si el screening es negativo, es un insulinoma, el tumor de células beta que secreta insulina de forma autónoma. Y una causa más, con otro patrón: la insuficiencia suprarrenal o el hipopituitarismo dan hipoglicemia con insulina baja y cortisol muy bajo."
+  },
+  {
+   "id": "b045",
+   "t": 583.05,
+   "dur": 13.06,
+   "say": "Mientras cae la glicemia, bajo setenta aparece la alarma adrenérgica: sudor, temblor, taquicardia y hambre. Bajo cincuenta y cuatro el cerebro se queda sin glucosa: confusión, conducta extraña, convulsión y coma."
+  },
+  {
+   "id": "b046",
+   "t": 603.65,
+   "dur": 10.85,
+   "say": "Con un betabloqueador no cardioselectivo se pierden el temblor y la taquicardia. Quedan el sudor y el hambre, y el paciente pasa casi directo a la confusión. El sudor es la pista."
+  },
+  {
+   "id": "b047",
+   "t": 624.85,
+   "dur": 4.87,
+   "say": "Ahora juntemos todo en el árbol que vas a usar frente a un paciente con hipoglicemia."
+  },
+  {
+   "id": "b048",
+   "t": 630.17,
+   "dur": 9.07,
+   "say": "Paciente con síntomas y un hemoglucotest bajo setenta. Primero se rescata según la conciencia, y después se decide el destino según el fármaco que la causó."
+  },
+  {
+   "id": "b049",
+   "t": 639.69,
+   "dur": 4.8,
+   "say": "¿Está consciente y puede tragar sin riesgo? Eso define el rescate."
+  },
+  {
+   "id": "b050",
+   "t": 644.94,
+   "dur": 9.91,
+   "say": "Si está consciente, quince gramos de azúcar simple por boca, control a los quince minutos, repetir si sigue bajo setenta, y luego una colación con carbohidratos complejos."
+  },
+  {
+   "id": "b051",
+   "t": 655.3,
+   "dur": 10.61,
+   "say": "Si está inconsciente, nada por boca. Con vía venosa, glucosa al treinta por ciento en bolo, veinte a cincuenta mililitros, y luego suero glucosado al diez por ciento en infusión."
+  },
+  {
+   "id": "b052",
+   "t": 666.36,
+   "dur": 14.54,
+   "say": "Una vez que despierta, la pregunta es qué la causó. Si fue por glibenclamida, se hospitaliza veinticuatro a cuarenta y ocho horas con suero glucosado al diez por ciento, aunque esté lúcido. Si fue por insulina y vuelve a comer bien, puede irse de alta."
+  },
+  {
+   "id": "b053",
+   "t": 681.36,
+   "dur": 10.66,
+   "say": "Si está inconsciente y no hay vía venosa, por ejemplo en su casa, glucagón un miligramo intramuscular o subcutáneo, y traslado a urgencia. Recuerda que no sirve si no hay glucógeno."
+  },
+  {
+   "id": "b054",
+   "t": 693.06,
+   "dur": 9.24,
+   "say": "Repasemos las trampas. Paciente consciente que traga bien: regla de los quince. El error es saltar de inmediato al glucagón o a la vía venosa."
+  },
+  {
+   "id": "b055",
+   "t": 702.75,
+   "dur": 8.14,
+   "say": "Inconsciente con vía venosa: glucosa al treinta por ciento en bolo y luego suero glucosado al diez. El error es darle algo por boca."
+  },
+  {
+   "id": "b056",
+   "t": 711.34,
+   "dur": 6.12,
+   "say": "Inconsciente sin vía, en su casa: glucagón un miligramo intramuscular o subcutáneo, y traslado."
+  },
+  {
+   "id": "b057",
+   "t": 717.91,
+   "dur": 8.64,
+   "say": "Hipoglicemia por glibenclamida, ya despierto: hospitalizar veinticuatro a cuarenta y ocho horas con suero glucosado. El alta es la trampa."
+  },
+  {
+   "id": "b058",
+   "t": 727,
+   "dur": 5.16,
+   "say": "Insulina alta con péptido C indetectable: insulina exógena, no insulinoma."
+  },
+  {
+   "id": "b059",
+   "t": 732.61,
+   "dur": 8.57,
+   "say": "Insulina y péptido C altos: antes de decir insulinoma, busca sulfonilureas en la orina. Solo si es negativo, es insulinoma."
+  },
+  {
+   "id": "b060",
+   "t": 741.63,
+   "dur": 7.75,
+   "say": "Y si el paciente está inconsciente y no hay glucómetro, se da glucosa empírica. La trampa es esperar el resultado antes de tratar."
+  },
+  {
+   "id": "b061",
+   "t": 750.43,
+   "dur": 23.09,
+   "say": "Vamos con un caso. Mujer de ochenta y un años, diabética tipo dos con glibenclamida cinco miligramos cada doce horas y enfermedad renal crónica. Su hija la encuentra somnolienta y sudorosa. En el SAPU está soporosa, con piel fría y un hemoglucotest de treinta y ocho. Recibe cuarenta mililitros de glucosa al treinta por ciento, despierta lúcida a los diez minutos y pide irse a su casa."
+  },
+  {
+   "id": "b062",
+   "t": 773.97,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b063",
+   "t": 776.82,
+   "dur": 13.44,
+   "say": "Las opciones: alta con colación y sin la dosis de la noche, observar dos horas y dar de alta, hospitalizar veinticuatro a cuarenta y ocho horas con suero glucosado, glucagón y a la casa, o alta enseñando la regla de los quince. Piénsalo."
+  },
+  {
+   "id": "b065",
+   "t": 793.91,
+   "dur": 22.01,
+   "say": "Es la C. Es una hipoglicemia por glibenclamida, en una adulta mayor con falla renal, donde los metabolitos activos se acumulan todavía más. El bolo la despertó, pero el fármaco sigue actuando. La B es la más tentadora porque parece prudente, pero dos horas no alcanzan: la hipoglicemia vuelve horas después. Todas las demás terminan en un alta, y esa es justamente la trampa."
+  },
+  {
+   "id": "b066",
+   "t": 816.96,
+   "dur": 21.22,
+   "say": "Ahora una pregunta real, del EUNACOM de agosto de dos mil veintiuno, que ya había salido casi igual en diciembre de dos mil diecinueve. Paciente de setenta y ocho años, diabético, con glibenclamida quince miligramos al día, que presenta convulsiones tónico clónicas subintrantes. Hace tres días tuvo una glicemia de ayuno de ciento ochenta y cinco, con electrolitos normales."
+  },
+  {
+   "id": "b067",
+   "t": 838.63,
+   "dur": 3.1,
+   "say": "¿Cuál es la causa más probable de sus convulsiones?"
+  },
+  {
+   "id": "b068",
+   "t": 842.18,
+   "dur": 7.56,
+   "say": "Las opciones: hipomagnesemia, hipernatremia, hipoglicemia, hipocalcemia o cetoacidosis. Piénsalo."
+  },
+  {
+   "id": "b070",
+   "t": 853.39,
+   "dur": 20.9,
+   "say": "Es la C, hipoglicemia. Adulto mayor con glibenclamida es el perfil clásico, y las convulsiones son neuroglucopenia. La trampa es la glicemia de ciento ochenta y cinco: te empuja a pensar en cetoacidosis, pero es de hace tres días, y no impide que hoy esté baja. Frente a cualquier compromiso neurológico en un diabético, lo primero es un hemoglucotest."
+  },
+  {
+   "id": "b071",
+   "t": 875.34,
+   "dur": 12.6,
+   "say": "Cerremos con las reglas de oro. La hipoglicemia se confirma con la tríada de Whipple: síntomas, glicemia baja documentada y alivio al dar glucosa. Y el nivel tres se define por la clínica, no por un número."
+  },
+  {
+   "id": "b072",
+   "t": 888.39,
+   "dur": 4.49,
+   "say": "El propranolol oculta la taquicardia y el temblor, pero no la sudoración."
+  },
+  {
+   "id": "b073",
+   "t": 893.33,
+   "dur": 2.54,
+   "say": "Consciente: regla de los quince."
+  },
+  {
+   "id": "b074",
+   "t": 896.32,
+   "dur": 6.6,
+   "say": "Inconsciente: nada por boca; glucosa al treinta por ciento endovenosa, o glucagón intramuscular si no hay vía."
+  },
+  {
+   "id": "b075",
+   "t": 903.37,
+   "dur": 6.5,
+   "say": "La hipoglicemia por glibenclamida se hospitaliza veinticuatro a cuarenta y ocho horas, aunque el paciente haya despertado."
+  },
+  {
+   "id": "b076",
+   "t": 910.33,
+   "dur": 14.21,
+   "say": "Y en el no diabético, insulina alta con péptido C indetectable es insulina inyectada. Si te llevas una sola idea de hoy: el bolo de glucosa despierta al paciente, pero no elimina la glibenclamida. Nos vemos en la próxima clase."
+  }
+ ]
+}

@@ -1,0 +1,487 @@
+{
+ "id": "nefro-19",
+ "title": "Complicaciones de la ERC",
+ "total": 867.57,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 20.81,
+   "say": "Bienvenidos. En la clase anterior vimos que el GES cubre la eritropoyetina, el hierro, la vitamina D y los quelantes de fósforo. Hoy vemos para qué sirve cada uno: las complicaciones de la enfermedad renal crónica. Y la idea que ordena todo es simple: el riñón no solo filtra, también fabrica. Cuando se pierde, falta lo que fabricaba."
+  },
+  {
+   "id": "b002",
+   "t": 27.66,
+   "dur": 9.6,
+   "say": "Cuando la filtración baja de sesenta, y sobre todo de treinta, no solo se acumulan toxinas. También se pierden las funciones endocrinas y metabólicas del riñón."
+  },
+  {
+   "id": "b003",
+   "t": 37.71,
+   "dur": 10.44,
+   "say": "La primera es la eritropoyetina. La fabrican las células peritubulares del riñón, y si hay menos riñón hay menos eritropoyetina. El resultado es una anemia crónica."
+  },
+  {
+   "id": "b004",
+   "t": 48.6,
+   "dur": 16.37,
+   "say": "La segunda es el metabolismo mineral. El riñón que filtra poco retiene fósforo, y además deja de activar la vitamina D. Las paratiroides responden, y aparece un hiperparatiroidismo secundario. Es lo que se llama CKD-MBD, el trastorno mineral y óseo de la enfermedad renal crónica."
+  },
+  {
+   "id": "b005",
+   "t": 65.42,
+   "dur": 11.88,
+   "say": "Y la tercera es el equilibrio ácido base. El riñón con menos nefronas fabrica menos amonio, excreta menos ácido, y el bicarbonato baja: una acidosis metabólica. Vamos una por una."
+  },
+  {
+   "id": "b006",
+   "t": 78.35,
+   "dur": 9.58,
+   "say": "La anemia de la enfermedad renal crónica es normocítica y normocrómica. No falta ningún ladrillo para fabricar glóbulos rojos; falta la orden de fabricarlos."
+  },
+  {
+   "id": "b007",
+   "t": 88.37,
+   "dur": 7.34,
+   "say": "Por eso es arregenerativa, con un índice reticulocitario bajo dos: la médula no está recibiendo el estímulo de la eritropoyetina."
+  },
+  {
+   "id": "b008",
+   "t": 96.17,
+   "dur": 9.65,
+   "say": "Desde la etapa tres se pesquisa con hemograma y perfil de hierro en forma periódica. Y el perfil de hierro no es un detalle: es el que decide el primer paso del tratamiento."
+  },
+  {
+   "id": "b009",
+   "t": 106.86,
+   "dur": 8.95,
+   "say": "Ahora el tratamiento. Si la causa es la falta de eritropoyetina, la tentación es darla de inmediato. Pero hay una regla de oro antes."
+  },
+  {
+   "id": "b010",
+   "t": 116.27,
+   "dur": 9.46,
+   "say": "Antes de indicar eritropoyetina es obligatorio evaluar los depósitos de hierro. La meta es una saturación de transferrina sobre veinte por ciento y una ferritina sobre cien."
+  },
+  {
+   "id": "b011",
+   "t": 126.17,
+   "dur": 16.56,
+   "say": "Si no se cumplen, primero se repone hierro, endovenoso u oral. En el paciente en hemodiálisis la meta de ferritina sube a doscientos. ¿Por qué? Porque dar eritropoyetina a un paciente ferropénico es ineficaz: le das la orden a la médula, pero no tiene con qué fabricar."
+  },
+  {
+   "id": "b012",
+   "t": 143.18,
+   "dur": 7.61,
+   "say": "Con el hierro repleto, recién ahí se inicia un agente estimulante de la eritropoyesis: eritropoyetina recombinante o darbepoetina."
+  },
+  {
+   "id": "b013",
+   "t": 151.24,
+   "dur": 6.98,
+   "say": "Y la meta no es normalizar. Se busca una hemoglobina entre diez y once coma cinco, con un máximo de doce."
+  },
+  {
+   "id": "b014",
+   "t": 158.67,
+   "dur": 14.81,
+   "say": "Nunca se intenta llevarla sobre trece. Los grandes ensayos, TREAT y CHOIR, mostraron que eso aumenta los eventos cardiovasculares graves: accidente cerebrovascular, infarto, y trombosis de la fístula arteriovenosa. Esa cifra se pregunta."
+  },
+  {
+   "id": "b015",
+   "t": 174.53,
+   "dur": 12.72,
+   "say": "Veamos el trastorno mineral. Todo empieza con la retención de fósforo al bajar la filtración. Ese fósforo estimula el factor de crecimiento fibroblástico veintitrés, el FGF veintitrés, y baja el calcio iónico."
+  },
+  {
+   "id": "b016",
+   "t": 187.7,
+   "dur": 10.73,
+   "say": "Al mismo tiempo, se pierde la enzima uno alfa hidroxilasa del riñón. Sin ella, la vitamina D no pasa a su forma activa, el calcitriol, y el intestino absorbe menos calcio."
+  },
+  {
+   "id": "b017",
+   "t": 198.88,
+   "dur": 11.06,
+   "say": "Hipocalcemia, hiperfosfatemia y falta de calcitriol: tres estímulos para las paratiroides, que responden aumentando masivamente la paratohormona. Eso es el hiperparatiroidismo secundario."
+  },
+  {
+   "id": "b018",
+   "t": 210.39,
+   "dur": 7.42,
+   "say": "Esa PTH alta saca calcio del hueso: resorción ósea acelerada, osteítis fibrosa quística, fragilidad y dolor óseo."
+  },
+  {
+   "id": "b019",
+   "t": 218.26,
+   "dur": 18.05,
+   "say": "Y ese calcio y fósforo terminan donde no deben: calcificaciones de la capa media de las arterias, y su forma más grave, la calcifilaxis. También explica el prurito urémico intratable. Mira esta piel: una úlcera necrótica y dolorosa, que aparece cuando el calcio y el fósforo se depositan en las arteriolas."
+  },
+  {
+   "id": "b020",
+   "t": 237.36,
+   "dur": 9.05,
+   "say": "Ahora el escenario típico del examen: un paciente en etapa tres o cuatro, con calcio y fósforo normales, y una PTH elevada. ¿Qué pides?"
+  },
+  {
+   "id": "b021",
+   "t": 246.86,
+   "dur": 8.59,
+   "say": "La respuesta es medir la vitamina D nutricional, la veinticinco hidroxi vitamina D. Su déficit es muy frecuente, y por sí solo empuja la PTH hacia arriba."
+  },
+  {
+   "id": "b022",
+   "t": 255.9,
+   "dur": 10.01,
+   "say": "Si está bajo treinta, se suplementa con colecalciferol, la vitamina D tres. En etapas moderadas, corregir ese déficit suele bastar para frenar la PTH."
+  },
+  {
+   "id": "b023",
+   "t": 266.36,
+   "dur": 8.14,
+   "say": "Si la PTH se mantiene elevada, viene el segundo escalón: calcitriol o análogos como el paricalcitol, o un calcimimético como el cinacalcet."
+  },
+  {
+   "id": "b024",
+   "t": 274.94,
+   "dur": 7.56,
+   "say": "La trampa es partir con calcitriol sin haber medido la veinticinco hidroxi vitamina D. Primero se descarta y se corrige el déficit nutricional."
+  },
+  {
+   "id": "b025",
+   "t": 283.55,
+   "dur": 7.63,
+   "say": "El otro frente es el fósforo. Se parte con dieta, restringiendo el fósforo a menos de ochocientos a mil miligramos al día."
+  },
+  {
+   "id": "b026",
+   "t": 291.63,
+   "dur": 12.65,
+   "say": "Y se agregan quelantes de fósforo. Un detalle que se pregunta: se toman estrictamente con las comidas, porque su trabajo es atrapar el fósforo de la comida dentro del intestino. En ayunas no tienen nada que atrapar."
+  },
+  {
+   "id": "b027",
+   "t": 304.73,
+   "dur": 9.05,
+   "say": "¿Cuál elegir? Depende del calcio. Si el paciente tiene hipocalcemia, carbonato o acetato de calcio, que además aportan calcio."
+  },
+  {
+   "id": "b028",
+   "t": 314.23,
+   "dur": 10.46,
+   "say": "Si tiene hipercalcemia o calcificaciones vasculares, se usa un quelante libre de calcio, como el sevelamer. Darle más calcio a ese paciente solo agravaría las calcificaciones."
+  },
+  {
+   "id": "b029",
+   "t": 325.74,
+   "dur": 11.54,
+   "say": "La tercera complicación es la acidosis metabólica. En las etapas intermedias, con menos nefronas, cae la síntesis de amonio en el túbulo proximal, y el riñón no alcanza a excretar el ácido del día."
+  },
+  {
+   "id": "b030",
+   "t": 337.74,
+   "dur": 15.12,
+   "say": "Para mantener la electroneutralidad, retiene cloro. Por eso, en estas etapas, la acidosis es hiperclorémica, con anion gap normal. Esto conecta con la clase de acidosis metabólica, y es exactamente lo que pregunta la segunda pregunta real de hoy."
+  },
+  {
+   "id": "b031",
+   "t": 353.31,
+   "dur": 11.86,
+   "say": "Solo en la etapa terminal, con filtración bajo quince, se acumulan fosfatos, sulfatos y uratos, y ahí el anion gap sube. Es la uremia de la regla nemotécnica de las acidosis con anion gap elevado."
+  },
+  {
+   "id": "b032",
+   "t": 365.61,
+   "dur": 11.64,
+   "say": "La acidosis no es solo un número. Favorece el catabolismo muscular y la desnutrición, la pérdida de masa ósea, que empeora el CKD-MBD, la hiperkalemia y la progresión de la enfermedad renal."
+  },
+  {
+   "id": "b033",
+   "t": 377.7,
+   "dur": 11.64,
+   "say": "Si el bicarbonato es menor de veintidós de forma sostenida, se da bicarbonato de sodio oral, de medio a un miliequivalente por kilo al día, con meta entre veintidós y veintiséis, y una dieta rica en frutas y verduras."
+  },
+  {
+   "id": "b034",
+   "t": 389.79,
+   "dur": 8.09,
+   "say": "Se vigila la sobrecarga de sodio, con edema o hipertensión. La acidosis grave, o la que viene con hiperkalemia, se deriva."
+  },
+  {
+   "id": "b035",
+   "t": 398.93,
+   "dur": 9.07,
+   "say": "La hiperkalemia es frecuente cuando la filtración baja de quince a treinta mililitros por minuto, y antes en la nefropatía diabética, por el hipoaldosteronismo hiporreninémico."
+  },
+  {
+   "id": "b036",
+   "t": 408.45,
+   "dur": 10.44,
+   "say": "La agravan la acidosis, la dieta rica en potasio y fármacos como los IECA y ARA dos, la espironolactona, los antiinflamatorios, los betabloqueadores, el trimetoprim y la heparina."
+  },
+  {
+   "id": "b037",
+   "t": 419.34,
+   "dur": 6.72,
+   "say": "Se descarta la pseudohiperkalemia por hemólisis y se toma un electrocardiograma: ondas T picudas y QRS ancho."
+  },
+  {
+   "id": "b038",
+   "t": 426.51,
+   "dur": 8.16,
+   "say": "El manejo crónico parte por la dieta baja en potasio: evitar plátano, cítricos, frutos secos y los sustitutos de sal con cloruro de potasio."
+  },
+  {
+   "id": "b039",
+   "t": 435.12,
+   "dur": 6.98,
+   "say": "Se corrige la acidosis, se usa un diurético de asa si hay sobrecarga de volumen, y se retiran los fármacos agravantes."
+  },
+  {
+   "id": "b040",
+   "t": 442.56,
+   "dur": 10.22,
+   "say": "Y se emplean resinas o captadores de potasio, como el poliestireno sulfonato de calcio, el patiromer o el ciclosilicato de sodio y zirconio, que permiten mantener el IECA o el ARA dos."
+  },
+  {
+   "id": "b041",
+   "t": 453.23,
+   "dur": 12.38,
+   "say": "Con potasio de seis coma cinco o más, o con cambios en el electrocardiograma, es una urgencia: gluconato de calcio, insulina con glucosa y salbutamol, como vimos en la clase de hiperkalemia. Y se deriva."
+  },
+  {
+   "id": "b042",
+   "t": 466.67,
+   "dur": 16.06,
+   "say": "La desnutrición afecta a treinta a cincuenta por ciento de los pacientes en diálisis. Sus causas son la anorexia urémica, la acidosis, la inflamación crónica, las restricciones dietéticas excesivas, la pérdida de aminoácidos y proteínas durante la diálisis, las comorbilidades y la depresión."
+  },
+  {
+   "id": "b043",
+   "t": 483.17,
+   "dur": 10.54,
+   "say": "Se evalúa con el peso y el índice de masa corporal, una pérdida de peso sobre cinco por ciento en tres meses, la albúmina, que es un marcador inespecífico, y la evaluación global subjetiva."
+  },
+  {
+   "id": "b044",
+   "t": 494.16,
+   "dur": 9.82,
+   "say": "El manejo es con nutricionista renal. La energía es de treinta a treinta y cinco kilocalorías por kilo al día, con suplementos orales o enterales si la ingesta no alcanza."
+  },
+  {
+   "id": "b045",
+   "t": 504.42,
+   "dur": 10.34,
+   "say": "Las proteínas dependen de la etapa. En la enfermedad renal G tres a G cinco sin diálisis, de cero coma seis a cero coma ocho gramos por kilo al día, de alto valor biológico."
+  },
+  {
+   "id": "b046",
+   "t": 515.22,
+   "dur": 8.76,
+   "say": "Pero en hemodiálisis se sube a uno a uno coma dos gramos por kilo, y en peritoneodiálisis a uno coma dos a uno coma tres, porque la diálisis pierde proteínas."
+  },
+  {
+   "id": "b047",
+   "t": 524.43,
+   "dur": 10.08,
+   "say": "La restricción proteica no se aplica al paciente que ya está desnutrido. Se corrigen la acidosis, la anemia y la depresión, y se asegura una dosis adecuada de diálisis."
+  },
+  {
+   "id": "b048",
+   "t": 535.56,
+   "dur": 10.15,
+   "say": "Cuando cae el filtrado aparecen las complicaciones: anemia por falta de eritropoyetina, enfermedad ósea por falta de calcitriol, acidosis, hiperkalemia e hipertensión con edema."
+  },
+  {
+   "id": "b049",
+   "t": 546.76,
+   "dur": 18.46,
+   "say": "El riñón sano fabrica eritropoyetina, que estimula a la médula ósea a producir glóbulos rojos. Cuando se pierde riñón, la eritropoyetina cae y aparece la anemia. Además falta calcitriol, el fósforo se retiene, sube la PTH y el hueso se enferma. Primero hierro, después eritropoyetina."
+  },
+  {
+   "id": "b050",
+   "t": 571.96,
+   "dur": 3.53,
+   "say": "Ahora pongamos las tres complicaciones en un solo árbol."
+  },
+  {
+   "id": "b051",
+   "t": 575.94,
+   "dur": 10.75,
+   "say": "Paciente con enfermedad renal crónica de etapa tres a cinco. En sus controles pides hemograma, perfil de hierro, calcio, fósforo, PTH y veinticinco hidroxi vitamina D."
+  },
+  {
+   "id": "b052",
+   "t": 587.14,
+   "dur": 3.17,
+   "say": "Según lo que encuentres, el camino es distinto."
+  },
+  {
+   "id": "b053",
+   "t": 590.76,
+   "dur": 5.45,
+   "say": "Si hay anemia, lo primero es mirar el hierro: ¿saturación sobre veinte y ferritina sobre cien?"
+  },
+  {
+   "id": "b054",
+   "t": 596.66,
+   "dur": 5.42,
+   "say": "Si no, se repone hierro, endovenoso u oral, antes de pensar en eritropoyetina."
+  },
+  {
+   "id": "b055",
+   "t": 602.53,
+   "dur": 7.63,
+   "say": "Con el hierro repleto, eritropoyetina o darbepoetina, con meta de hemoglobina entre diez y once coma cinco, nunca sobre trece."
+  },
+  {
+   "id": "b056",
+   "t": 610.61,
+   "dur": 5.76,
+   "say": "Si la PTH está alta, el primer examen es la veinticinco hidroxi vitamina D. ¿Está bajo treinta?"
+  },
+  {
+   "id": "b057",
+   "t": 616.82,
+   "dur": 4.97,
+   "say": "Si está baja, se suplementa con colecalciferol, y muchas veces eso basta."
+  },
+  {
+   "id": "b058",
+   "t": 622.24,
+   "dur": 5.69,
+   "say": "Si está normal o la PTH sigue alta, se pasa a calcitriol, paricalcitol o cinacalcet."
+  },
+  {
+   "id": "b059",
+   "t": 628.38,
+   "dur": 6.62,
+   "say": "Si el fósforo está alto, dieta baja en fósforo y un quelante con las comidas. El calcio decide cuál."
+  },
+  {
+   "id": "b060",
+   "t": 635.45,
+   "dur": 3.6,
+   "say": "Con hipocalcemia, carbonato o acetato de calcio."
+  },
+  {
+   "id": "b061",
+   "t": 639.5,
+   "dur": 5.06,
+   "say": "Con hipercalcemia o calcificaciones vasculares, sevelamer, un quelante sin calcio."
+  },
+  {
+   "id": "b062",
+   "t": 645.62,
+   "dur": 10.87,
+   "say": "Repasemos las metas. Hierro: saturación sobre veinte y ferritina sobre cien, o sobre doscientos en hemodiálisis. Y va antes de la eritropoyetina, nunca después."
+  },
+  {
+   "id": "b063",
+   "t": 656.94,
+   "dur": 10.87,
+   "say": "Hemoglobina: entre diez y once coma cinco. La trampa es buscar una hemoglobina normal, porque sobre trece aumentan el infarto, el accidente cerebrovascular y la trombosis de la fístula."
+  },
+  {
+   "id": "b064",
+   "t": 668.26,
+   "dur": 4.92,
+   "say": "Fósforo: hacia la normalidad, con dieta y quelantes tomados con las comidas."
+  },
+  {
+   "id": "b065",
+   "t": 673.63,
+   "dur": 8.28,
+   "say": "Calcio: en rango normal, evitando la hipercalcemia. Si sube, el quelante pasa a ser uno sin calcio, como el sevelamer."
+  },
+  {
+   "id": "b066",
+   "t": 682.36,
+   "dur": 8.11,
+   "say": "La veinticinco hidroxi vitamina D: sobre treinta, y si falta, colecalciferol. Es el primer examen ante una PTH alta."
+  },
+  {
+   "id": "b067",
+   "t": 690.92,
+   "dur": 10.1,
+   "say": "Y la PTH: en diálisis se acepta entre dos y nueve veces el límite normal. Si persiste alta pese a corregir lo anterior, calcitriol, paricalcitol o cinacalcet."
+  },
+  {
+   "id": "b068",
+   "t": 702.08,
+   "dur": 13.73,
+   "say": "Vamos al caso. Mujer de cincuenta y ocho años en hemodiálisis crónica, con una hemoglobina de ocho coma ocho y un volumen corpuscular normal. Su saturación de transferrina es de catorce por ciento y su ferritina, de sesenta y cinco."
+  },
+  {
+   "id": "b069",
+   "t": 716.25,
+   "dur": 3.34,
+   "say": "¿Cuál es la conducta inicial más adecuada para su anemia?"
+  },
+  {
+   "id": "b070",
+   "t": 720.04,
+   "dur": 9.96,
+   "say": "Las alternativas: hierro endovenoso hasta las metas, eritropoyetina en dosis plenas sola, transfusión inmediata, mielograma, o ácido fólico. Piénsalo."
+  },
+  {
+   "id": "b072",
+   "t": 733.65,
+   "dur": 22.34,
+   "say": "Es la A. La anemia es renal, pero tiene además una ferropenia: saturación bajo veinte y ferritina bajo doscientos, que es la meta en hemodiálisis. Primero se repone el hierro. La B es la trampa: la eritropoyetina es el tratamiento de la anemia renal, pero sin hierro la médula no tiene con qué responder. Y la transfusión no corresponde en una anemia crónica sin inestabilidad."
+  },
+  {
+   "id": "b073",
+   "t": 757.04,
+   "dur": 16.46,
+   "say": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Paciente de sesenta y cuatro años con insuficiencia renal crónica y un clearence de cuarenta. Tiene fósforo y calcio normales, una PTH de ciento veinte, más del doble de lo normal, y una TSH normal."
+  },
+  {
+   "id": "b074",
+   "t": 773.96,
+   "dur": 3.22,
+   "say": "¿Cuál es el examen de elección para proseguir el estudio?"
+  },
+  {
+   "id": "b075",
+   "t": 777.62,
+   "dur": 9.53,
+   "say": "Las opciones: veinticinco hidroxi vitamina D, T cuatro libre, calciuria de veinticuatro horas, magnesemia, o bicarbonato plasmático. Piénsalo."
+  },
+  {
+   "id": "b077",
+   "t": 790.8,
+   "dur": 24.38,
+   "say": "Es la A. Un clearence de cuarenta es una etapa tres b, y la PTH alta con calcio y fósforo normales es un hiperparatiroidismo secundario inicial. El primer paso es medir la veinticinco hidroxi vitamina D, porque si está baja, suplementarla puede bastar. La calciuria es el distractor: mide cuánto calcio se pierde, pero no cambia la conducta. Y la TSH normal te la dan para que no pienses en el tiroides."
+  },
+  {
+   "id": "b078",
+   "t": 816.24,
+   "dur": 10.18,
+   "say": "Cerremos con las reglas de oro. En la anemia renal, primero se repone el hierro, hasta una saturación sobre veinte y una ferritina sobre cien, o doscientos en hemodiálisis."
+  },
+  {
+   "id": "b079",
+   "t": 826.86,
+   "dur": 6.38,
+   "say": "Después, eritropoyetina, con meta de hemoglobina entre diez y once coma cinco, y nunca sobre trece."
+  },
+  {
+   "id": "b080",
+   "t": 833.7,
+   "dur": 5.78,
+   "say": "Ante una PTH alta en etapa tres o cuatro, el primer examen es la veinticinco hidroxi vitamina D."
+  },
+  {
+   "id": "b081",
+   "t": 839.93,
+   "dur": 6.82,
+   "say": "Los quelantes de fósforo van con las comidas: calcio si hay hipocalcemia, sevelamer si hay hipercalcemia o calcificaciones."
+  },
+  {
+   "id": "b082",
+   "t": 847.2,
+   "dur": 14.42,
+   "say": "Y la acidosis de la etapa tres y cuatro tiene anion gap normal. Si te llevas una sola idea de hoy: el riñón que se pierde deja de fabricar, y cada complicación se trata reponiendo lo que falta, en el orden correcto. Nos vemos en la próxima clase."
+  }
+ ]
+}

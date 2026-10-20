@@ -1,0 +1,283 @@
+{
+ "id": "hem-02",
+ "title": "Perfil de Cinética de Hierro",
+ "total": 612.8219999999999,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 25.49,
+   "say": "Bienvenidos. En la clase anterior dejamos una tarea: frente a una anemia microcítica, el siguiente paso es el perfil de hierro. Hoy aprendemos a leerlo. Es uno de los exámenes más preguntados del EUNACOM, y se entiende con una sola idea: la ferritina y la transferrina se mueven en sentido contrario, y la inflamación las cambia a las dos. Si entiendes eso, separas la ferropenia de la anemia de enfermedades crónicas sin memorizar tablas."
+  },
+  {
+   "id": "b002",
+   "t": 32.34,
+   "dur": 15.74,
+   "say": "Partamos por la fisiología. La ferritina es la proteína que guarda el hierro, y la que circula en el suero es un espejo de los depósitos del cuerpo. Si los depósitos se vacían, la ferritina baja. Por eso es el mejor parámetro para estimar cuánto hierro tiene el paciente."
+  },
+  {
+   "id": "b003",
+   "t": 48.53,
+   "dur": 19.22,
+   "say": "La transferrina, en cambio, es el camión que transporta el hierro en la sangre. Cuando falta hierro, el hígado fabrica más camiones para captar lo poco que queda. Por eso en la ferropenia pura la transferrina sube, y con ella la capacidad total de fijación de hierro, la TIBC. Ferritina abajo, transferrina arriba: se cruzan."
+  },
+  {
+   "id": "b004",
+   "t": 68.21,
+   "dur": 13.37,
+   "say": "Ahora mira qué pasa con la inflamación. Una infección, una artritis o un cáncer liberan interleucina seis, que estimula la hepcidina. La hepcidina encierra el hierro dentro de los macrófagos: hay hierro, pero no se puede usar."
+  },
+  {
+   "id": "b005",
+   "t": 82.02,
+   "dur": 19.39,
+   "say": "Y las dos proteínas se mueven al revés. La ferritina es un reactante de fase aguda positivo: sube con la inflamación. La transferrina es un reactante de fase aguda negativo: baja. Ferritina arriba, transferrina abajo. Esa es la huella de la anemia de enfermedades crónicas, y esa diferencia se pregunta mucho."
+  },
+  {
+   "id": "b006",
+   "t": 102.47,
+   "dur": 11.88,
+   "say": "Vamos a los números. La ferritina normal va de treinta a doscientos nanogramos por mililitro. Es el parámetro más sensible y específico para estimar los depósitos, siempre que no haya inflamación."
+  },
+  {
+   "id": "b007",
+   "t": 114.8,
+   "dur": 8.71,
+   "say": "Y una ferritina bajo treinta confirma la ferropenia. No necesitas biopsia de médula ni ningún examen invasivo para demostrar que faltan depósitos."
+  },
+  {
+   "id": "b008",
+   "t": 123.96,
+   "dur": 13.87,
+   "say": "La trampa es la inflamación. Como la ferritina es reactante de fase aguda, en un paciente con infección activa, artritis o cáncer, sube aunque los depósitos estén vacíos. Una ferritina normal puede estar escondiendo una ferropenia."
+  },
+  {
+   "id": "b009",
+   "t": 138.28,
+   "dur": 11.28,
+   "say": "Por eso, si la proteína C reactiva está alta, el corte se corre: una ferritina bajo cien todavía traduce ferropenia concomitante. Ojo con esto en el paciente reumatológico o con cáncer."
+  },
+  {
+   "id": "b010",
+   "t": 150.61,
+   "dur": 11.11,
+   "say": "La transferrina normal va de doscientos a trescientos sesenta miligramos por decilitro. Sube en la ferropenia pura, junto con la TIBC, y baja en la sepsis, la artritis, el cáncer y la uremia."
+  },
+  {
+   "id": "b011",
+   "t": 162.17,
+   "dur": 16.22,
+   "say": "La ferremia, o hierro sérico, va de cincuenta a ciento setenta microgramos por decilitro. Pero varía durante el día, y baja tanto en la ferropenia como en la inflamación. Como baja en las dos, no las separa. Por eso nunca se usa sola para decidir una conducta."
+  },
+  {
+   "id": "b012",
+   "t": 178.85,
+   "dur": 12.84,
+   "say": "La saturación de transferrina, el IST, se calcula dividiendo el hierro sérico por la TIBC y multiplicando por cien. Dice qué porcentaje de los camiones va cargado. Lo normal es entre veinte y cincuenta por ciento."
+  },
+  {
+   "id": "b013",
+   "t": 192.14,
+   "dur": 11.21,
+   "say": "Bajo quince a veinte por ciento, a la médula no le llega hierro suficiente: es ferropenia, absoluta o funcional. Sobre cuarenta y cinco a cincuenta, sobra hierro, y piensas en sobrecarga."
+  },
+  {
+   "id": "b014",
+   "t": 204.39,
+   "dur": 14.35,
+   "say": "Ahora los patrones que el examen usa para confundirte. Recuerda de la clase anterior que la otra causa de microcitosis es la talasemia. Ahí el problema es la globina, no el hierro, así que el perfil es normal, o incluso con leve sobrecarga."
+  },
+  {
+   "id": "b015",
+   "t": 219.2,
+   "dur": 9.55,
+   "say": "Y ojo: darle hierro a un paciente talasémico es una mala práctica que el examen castiga. Microcitosis no es sinónimo de ferropenia; la ferritina decide."
+  },
+  {
+   "id": "b016",
+   "t": 229.2,
+   "dur": 13.92,
+   "say": "En la hemocromatosis hereditaria, una mutación del gen HFE hace que el intestino absorba hierro de más. Los depósitos están sobresaturados: ferritina sobre quinientos a mil, saturación sobre cincuenta a sesenta por ciento y ferremia muy alta."
+  },
+  {
+   "id": "b017",
+   "t": 243.57,
+   "dur": 10.78,
+   "say": "Y la transferrina está baja o normal, porque el cuerpo no necesita salir a buscar más hierro. La clave para distinguirla de la inflamación es la saturación: en la hemocromatosis está muy alta."
+  },
+  {
+   "id": "b018",
+   "t": 254.79,
+   "dur": 15.02,
+   "say": "Por último, si ves una ferritina sobre tres mil, e incluso hasta diez mil, en un paciente con fiebre y artritis, piensa en la enfermedad de Still del adulto o en el síndrome de activación macrofágica. Ninguna otra enfermedad reumatológica común llega a esos números."
+  },
+  {
+   "id": "b019",
+   "t": 270.87,
+   "dur": 12.31,
+   "say": "La ferritina refleja los depósitos y la transferrina son los camiones. En la ferropenia, la ferritina baja y la transferrina sube. En la inflamación es al revés: la ferritina sube y la transferrina baja."
+  },
+  {
+   "id": "b020",
+   "t": 293.07,
+   "dur": 5.18,
+   "say": "Juntemos todo en un árbol, empezando por la ferritina, que es el parámetro que manda."
+  },
+  {
+   "id": "b021",
+   "t": 298.7,
+   "dur": 10.75,
+   "say": "Tienes una anemia y un perfil de hierro. No empieces por la ferremia: empieza por la ferritina, que estima los depósitos, y mírala junto con la PCR, porque la inflamación la infla."
+  },
+  {
+   "id": "b022",
+   "t": 309.9,
+   "dur": 3.12,
+   "say": "¿Dónde está la ferritina, y hay inflamación?"
+  },
+  {
+   "id": "b023",
+   "t": 313.47,
+   "dur": 10.08,
+   "say": "Bajo treinta, la ferropenia está confirmada, sin necesidad de médula. Lo esperable es transferrina alta y saturación baja. Y ahora hay que buscar la causa."
+  },
+  {
+   "id": "b024",
+   "t": 324,
+   "dur": 10.13,
+   "say": "Con la PCR alta el corte sube a cien. Bajo cien, con saturación bajo quince por ciento, además de la inflamación faltan depósitos: hay ferropenia concomitante."
+  },
+  {
+   "id": "b025",
+   "t": 334.58,
+   "dur": 9.17,
+   "say": "Sobre cien con inflamación y transferrina baja: anemia de enfermedad crónica. El hierro está secuestrado; se trata la enfermedad de base y no se da hierro."
+  },
+  {
+   "id": "b026",
+   "t": 344.2,
+   "dur": 4.92,
+   "say": "Sin inflamación y con ferritina normal o alta, mira la saturación de transferrina."
+  },
+  {
+   "id": "b027",
+   "t": 349.57,
+   "dur": 6.31,
+   "say": "Saturación sobre cincuenta a sesenta y ferritina muy alta: sobrecarga de hierro, hemocromatosis hereditaria."
+  },
+  {
+   "id": "b028",
+   "t": 356.33,
+   "dur": 4.9,
+   "say": "Perfil normal con microcitosis: piensa en rasgo talasémico, y no des hierro."
+  },
+  {
+   "id": "b029",
+   "t": 362.28,
+   "dur": 11.4,
+   "say": "Repasemos los patrones. Anemia ferropénica: ferritina bajo treinta, transferrina y TIBC altas, saturación muy baja y ferremia muy baja. Los depósitos están agotados."
+  },
+  {
+   "id": "b030",
+   "t": 374.13,
+   "dur": 13.3,
+   "say": "Anemia de enfermedad crónica: ferritina alta, transferrina baja, ferremia baja y saturación baja o normal. El hierro está, pero secuestrado por la hepcidina. El error clásico es ver la ferremia baja y dar hierro."
+  },
+  {
+   "id": "b031",
+   "t": 387.87,
+   "dur": 8.16,
+   "say": "Hemocromatosis: ferritina muy alta, transferrina baja o normal, y saturación y ferremia muy altas. Hay hierro de sobra."
+  },
+  {
+   "id": "b032",
+   "t": 396.48,
+   "dur": 7.2,
+   "say": "Rasgo talasémico menor: todo normal. Microcitosis con perfil normal no es ferropenia, y no se da hierro."
+  },
+  {
+   "id": "b033",
+   "t": 404.13,
+   "dur": 12.26,
+   "say": "Y la combinación que más confunde: inflamación con ferropenia. Si la PCR está alta, una ferritina bajo cien con saturación bajo quince por ciento te dice que, además de inflamación, faltan depósitos."
+  },
+  {
+   "id": "b034",
+   "t": 417.45,
+   "dur": 23.74,
+   "say": "Vamos con un caso. Mujer de cincuenta y cuatro años, con artritis reumatoide en tratamiento con metotrexato, consulta por astenia. Hemoglobina nueve coma cuatro, VCM ochenta y tres. Ferremia baja, transferrina ciento ochenta, baja. TIBC baja. Ferritina trescientos ochenta, alta. Saturación catorce por ciento, y PCR elevada."
+  },
+  {
+   "id": "b035",
+   "t": 441.63,
+   "dur": 3.22,
+   "say": "¿Cuál es el diagnóstico y la conducta más adecuada?"
+  },
+  {
+   "id": "b036",
+   "t": 445.3,
+   "dur": 12.84,
+   "say": "Las opciones: ferropenia con sulfato ferroso, anemia de enfermedades crónicas controlando la artritis y sin hierro, ferropenia más inflamación con hierro endovenoso, hemocromatosis, o rasgo talasémico. Piénsalo."
+  },
+  {
+   "id": "b038",
+   "t": 461.79,
+   "dur": 27.46,
+   "say": "Es la B. Mira las dos proteínas: ferritina arriba, transferrina abajo. Esa es la huella de la inflamación, y la PCR lo confirma. ¿Hay además ferropenia? No, porque aun con inflamación el corte es cien, y aquí la ferritina está en trescientos ochenta. El distractor tentador es la A: la ferremia y la saturación están bajas, pero ya vimos que la ferremia baja en las dos. El hierro está atrapado, no falta, y se trata la artritis."
+  },
+  {
+   "id": "b039",
+   "t": 490.3,
+   "dur": 21.6,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Mujer de cincuenta y dos años con artritis reumatoide, en tratamiento con antiinflamatorios, prednisona y metotrexato, con astenia y disnea progresiva. Creatinina uno coma seis, hemoglobina nueve coma siete, microcitosis en el frotis. El perfil muestra ferremia baja y transferrina baja."
+  },
+  {
+   "id": "b040",
+   "t": 512.35,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b041",
+   "t": 515.36,
+   "dur": 10.22,
+   "say": "Las opciones: anemia por enfermedades crónicas, mielodisplasia, anemia por insuficiencia renal crónica, hipoplasia medular, o mieloma múltiple. Piénsalo."
+  },
+  {
+   "id": "b043",
+   "t": 529.24,
+   "dur": 27.38,
+   "say": "Es la A, anemia por enfermedades crónicas. Fíjate que no te dan la ferritina, y no la necesitas: la transferrina baja ya te dice inflamación, porque en la ferropenia estaría alta. Y la microcitosis no te debe desviar: la enfermedad crónica suele ser normocítica, pero puede ser microcítica. El distractor tentador es la insuficiencia renal, por la creatinina elevada, pero el dato que el examen te está mostrando es el perfil de hierro: transferrina baja en una paciente con artritis."
+  },
+  {
+   "id": "b044",
+   "t": 557.67,
+   "dur": 8.26,
+   "say": "Cerremos con las reglas de oro. La ferritina manda: bajo treinta es ferropenia, y si hay inflamación, bajo cien todavía lo es."
+  },
+  {
+   "id": "b045",
+   "t": 566.38,
+   "dur": 10.22,
+   "say": "La ferritina y la transferrina se cruzan. En la ferropenia, ferritina abajo y transferrina arriba. En la inflamación, ferritina arriba y transferrina abajo."
+  },
+  {
+   "id": "b046",
+   "t": 577.05,
+   "dur": 3.67,
+   "say": "La ferremia baja en las dos, así que nunca decide sola."
+  },
+  {
+   "id": "b047",
+   "t": 581.17,
+   "dur": 8.64,
+   "say": "No se da hierro en el rasgo talasémico ni en la anemia de enfermedad crónica pura, y una saturación sobre cincuenta a sesenta por ciento te habla de hemocromatosis."
+  },
+  {
+   "id": "b048",
+   "t": 590.26,
+   "dur": 16.61,
+   "say": "Y cuando el perfil confirma ferropenia, el trabajo recién empieza: hay que buscar por dónde se perdió el hierro, que es la próxima clase. Si te llevas una sola idea de hoy: ferritina y transferrina se mueven al revés, y la inflamación las da vuelta a las dos. Nos vemos en la próxima clase."
+  }
+ ]
+}

@@ -1,0 +1,415 @@
+{
+ "id": "endo-02",
+ "title": "Hipotiroidismo Primario y Subclínico",
+ "total": 817.7859999999995,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 26.28,
+   "say": "Bienvenidos. En la clase anterior aprendimos a leer el perfil tiroideo. Hoy lo usamos para tratar la enfermedad endocrina más frecuente de la consulta: el hipotiroidismo primario, que tiene garantía GES y afecta a cerca de una de cada diez personas adultas en Chile, sobre todo mujeres. El examen pregunta cuatro cosas: a qué subclínico se trata, con qué dosis se parte, cómo se toma la levotiroxina y cuándo se controla. Vamos a verlas todas."
+  },
+  {
+   "id": "b002",
+   "t": 33.13,
+   "dur": 11.64,
+   "say": "Partamos por la causa. En Chile, y en cualquier país con buen aporte de yodo, la causa más frecuente de hipotiroidismo primario en el adulto es la tiroiditis crónica autoinmune, la enfermedad de Hashimoto."
+  },
+  {
+   "id": "b003",
+   "t": 45.22,
+   "dur": 15.55,
+   "say": "Es un ataque autoinmune: aparecen anticuerpos antiperoxidasa, los anti TPO, y antitiroglobulina, y los linfocitos infiltran la glándula y van destruyendo los folículos. La falla es lenta y progresiva, y por eso muchos pacientes pasan primero por una etapa subclínica."
+  },
+  {
+   "id": "b004",
+   "t": 61.22,
+   "dur": 8.3,
+   "say": "Hay otras causas que conviene buscar en la historia: una ablación previa con radioyodo o una tiroidectomía, y dos fármacos, la amiodarona y el litio."
+  },
+  {
+   "id": "b005",
+   "t": 69.98,
+   "dur": 11.57,
+   "say": "Por cualquiera de estos caminos, la T cuatro libre baja y la hipófisis responde subiendo la TSH. Es el patrón primario que vimos en la clase anterior, y por eso la TSH es el examen que lo detecta."
+  },
+  {
+   "id": "b006",
+   "t": 82.59,
+   "dur": 16.46,
+   "say": "La clínica se entiende con una sola idea: todo el metabolismo se enlentece. Mira este esquema: el frío, el corazón lento, el intestino perezoso, la piel seca. Astenia marcada, intolerancia al frío, constipación pertinaz, pensamiento lento y somnolencia."
+  },
+  {
+   "id": "b007",
+   "t": 99.51,
+   "dur": 9.29,
+   "say": "El peso sube, pero poco: dos a cinco kilos, por retención de líquido. Ojo, el hipotiroidismo no explica una obesidad mórbida por sí solo."
+  },
+  {
+   "id": "b008",
+   "t": 109.25,
+   "dur": 8.62,
+   "say": "Además, piel seca y descamativa, pelo quebradizo que se cae, voz ronca, y alteraciones menstruales, tanto reglas escasas como abundantes."
+  },
+  {
+   "id": "b009",
+   "t": 118.31,
+   "dur": 10.1,
+   "say": "Al examen hay bradicardia, y un signo que se pregunta: el reflejo aquiliano con la fase de relajación enlentecida. Es el signo físico más específico del hipotiroidismo."
+  },
+  {
+   "id": "b010",
+   "t": 128.87,
+   "dur": 11.47,
+   "say": "Mira esta cara: abotagada, con edema periorbitario duro, que no deja fóvea: eso es el mixedema. Y la tiroides puede estar aumentada, difusa, firme e indolora, o atrófica."
+  },
+  {
+   "id": "b011",
+   "t": 141.39,
+   "dur": 17.52,
+   "say": "El hipotiroidismo también altera los exámenes generales, y estas alteraciones se corrigen con levotiroxina, no con fármacos específicos. La primera es la dislipidemia: el hígado expresa menos receptores de LDL, y el colesterol total y el LDL suben, muchas veces sobre doscientos o doscientos cincuenta."
+  },
+  {
+   "id": "b012",
+   "t": 159.36,
+   "dur": 13.3,
+   "say": "Y aquí está la regla que se pregunta: no se parte con estatinas. Al normalizar la TSH, el perfil lipídico suele normalizarse por completo. Por eso ante una dislipidemia nueva, siempre se pide TSH."
+  },
+  {
+   "id": "b013",
+   "t": 173.1,
+   "dur": 8.02,
+   "say": "La segunda es la anemia, en el treinta a cuarenta por ciento de los casos. Lo habitual es normocítica, por menor estímulo a la médula."
+  },
+  {
+   "id": "b014",
+   "t": 181.57,
+   "dur": 11.35,
+   "say": "Pero puede ser microcítica, por reglas abundantes, o macrocítica, cuando se asocia a una anemia perniciosa, otra enfermedad autoinmune que acompaña al Hashimoto. Esa asociación se pregunta."
+  },
+  {
+   "id": "b015",
+   "t": 193.37,
+   "dur": 6.55,
+   "say": "La tercera es la hiponatremia hiposmolar euvolémica, por menor filtración renal y un exceso de hormona antidiurética."
+  },
+  {
+   "id": "b016",
+   "t": 200.37,
+   "dur": 9.53,
+   "say": "Y la cuarta, una CK elevada, por una miopatía proximal. Estas dos, llevadas al extremo, son parte del coma mixedematoso de la próxima clase."
+  },
+  {
+   "id": "b017",
+   "t": 210.95,
+   "dur": 11.23,
+   "say": "Ahora la pregunta que más se repite del tema: el hipotiroidismo subclínico, TSH alta con T cuatro libre normal. No todos se tratan, y el examen quiere saber si conoces los criterios."
+  },
+  {
+   "id": "b018",
+   "t": 222.63,
+   "dur": 12.02,
+   "say": "El primer corte es la TSH de diez. Con diez o más se trata siempre, aunque el paciente esté completamente asintomático, porque el riesgo de progresar a hipotiroidismo clínico y de daño cardiovascular es alto."
+  },
+  {
+   "id": "b019",
+   "t": 235.11,
+   "dur": 7.94,
+   "say": "Entre cuatro coma cinco y nueve coma nueve, lo que decide no es el número, sino el paciente. Hay que buscar factores agravantes."
+  },
+  {
+   "id": "b020",
+   "t": 243.5,
+   "dur": 20.4,
+   "say": "Se trata si hay embarazo o deseo de embarazo próximo, con meta de TSH bajo dos coma cinco; si hay anticuerpos anti TPO positivos, que predicen progresión de cerca de un cinco por ciento al año; si hay bocio; si hay síntomas, como ensayo terapéutico de tres a seis meses; o si hay dislipidemia grave o enfermedad cardiovascular establecida en menores de sesenta y cinco años."
+  },
+  {
+   "id": "b021",
+   "t": 264.35,
+   "dur": 5.59,
+   "say": "Si no hay ninguno de esos factores, no se trata: se observa y se controla la TSH."
+  },
+  {
+   "id": "b022",
+   "t": 270.99,
+   "dur": 12.43,
+   "say": "Hay un grupo en que la regla se invierte: el adulto mayor de setenta a ochenta años, asintomático, con TSH entre cuatro coma cinco y nueve coma nueve. En él, la conducta es observación con control anual."
+  },
+  {
+   "id": "b023",
+   "t": 283.88,
+   "dur": 6.96,
+   "say": "¿Por qué? Porque con los años la TSH sube de forma fisiológica, y ese valor no significa enfermedad."
+  },
+  {
+   "id": "b024",
+   "t": 291.29,
+   "dur": 10.46,
+   "say": "Y tratarlo no aporta beneficio, pero sí aumenta el riesgo de fibrilación auricular y de fracturas por osteoporosis. En el anciano asintomático, el sobretratamiento es el error."
+  },
+  {
+   "id": "b025",
+   "t": 302.2,
+   "dur": 12.6,
+   "say": "Y no confundas subclínico con tratar. Un joven con TSH de seis, T cuatro libre normal y ningún factor agravante tampoco recibe levotiroxina: se controla. Lo vas a ver en una pregunta real al final."
+  },
+  {
+   "id": "b026",
+   "t": 315.85,
+   "dur": 18.65,
+   "say": "Pasemos al tratamiento. La levotiroxina oral es la terapia de elección, y la dosis depende de quién es el paciente. El adulto joven, sin cardiopatía, parte con la dosis plena desde el primer día: uno coma seis microgramos por kilo de peso ideal al día, que suele quedar entre setenta y cinco y ciento veinticinco microgramos."
+  },
+  {
+   "id": "b027",
+   "t": 334.95,
+   "dur": 11.21,
+   "say": "El adulto mayor de sesenta a sesenta y cinco años, o el paciente con cardiopatía coronaria, parte bajo: veinticinco a cincuenta microgramos al día, y en el coronario grave, incluso doce coma cinco."
+  },
+  {
+   "id": "b028",
+   "t": 346.61,
+   "dur": 10.06,
+   "say": "Y se sube despacio, de doce coma cinco a veinticinco microgramos cada seis a ocho semanas, según la TSH. En inglés se resume como empezar bajo y avanzar lento."
+  },
+  {
+   "id": "b029",
+   "t": 357.11,
+   "dur": 14.62,
+   "say": "¿Por qué tanto cuidado? Porque la hormona tiroidea aumenta el consumo de oxígeno del corazón. Dar la dosis plena de golpe a un cardiópata puede desencadenar angina, un infarto o una fibrilación auricular. Esa es la alternativa trampa."
+  },
+  {
+   "id": "b030",
+   "t": 372.78,
+   "dur": 12.48,
+   "say": "La levotiroxina tiene un margen terapéutico estrecho y se absorbe mal si hay algo en el intestino. Por eso se toma en ayunas estricta, con un vaso de agua pura, sin gas, al menos treinta a sesenta minutos antes del desayuno."
+  },
+  {
+   "id": "b031",
+   "t": 385.71,
+   "dur": 6.05,
+   "say": "La alternativa es tomarla al acostarse, siempre que hayan pasado tres a cuatro horas desde la última comida."
+  },
+  {
+   "id": "b032",
+   "t": 392.21,
+   "dur": 10.61,
+   "say": "Y hay fármacos que la atrapan en el intestino o reducen su absorción, y deben separarse al menos cuatro horas: el sulfato ferroso, el carbonato de calcio y los antiácidos con aluminio o magnesio."
+  },
+  {
+   "id": "b033",
+   "t": 403.26,
+   "dur": 12.82,
+   "say": "También el sucralfato, la colestiramina y los inhibidores de la bomba de protones, como el omeprazol. Fíjate que muchos de estos los toman justamente las mujeres mayores con osteoporosis o anemia: la paciente típica del hipotiroidismo."
+  },
+  {
+   "id": "b034",
+   "t": 417.13,
+   "dur": 14.88,
+   "say": "Finalmente, el seguimiento. Cada vez que inicias o cambias la dosis, hay que esperar entre seis y ocho semanas antes de medir. Es el tiempo que necesita la TSH para llegar a un nuevo equilibrio. Medir a las dos semanas es un error clásico."
+  },
+  {
+   "id": "b035",
+   "t": 432.46,
+   "dur": 8.42,
+   "say": "Se controla con la TSH, y la meta estándar es entre cero coma cinco y dos coma cinco. Si está en meta, se mantiene la dosis."
+  },
+  {
+   "id": "b036",
+   "t": 441.33,
+   "dur": 13.44,
+   "say": "Si la TSH sigue alta, antes de subir la dosis pregunta cómo toma la pastilla. ¿La toma con el desayuno, con café con leche, junto al calcio o al hierro? Muchas veces el problema no es la dosis, sino la absorción."
+  },
+  {
+   "id": "b037",
+   "t": 455.22,
+   "dur": 10.3,
+   "say": "Corregida la forma de tomarla, se ajusta de doce coma cinco a veinticinco microgramos, y se vuelve a medir a las seis u ocho semanas. El ciclo se repite hasta llegar a la meta."
+  },
+  {
+   "id": "b038",
+   "t": 466.57,
+   "dur": 17.11,
+   "say": "El adulto joven sin cardiopatía parte con la dosis plena, uno coma seis microgramos por kilo. El mayor de sesenta a sesenta y cinco años, o el coronario, parte con veinticinco a cincuenta y sube de a poco cada seis a ocho semanas. Y siempre en ayunas, con agua, lejos del calcio y del hierro."
+  },
+  {
+   "id": "b039",
+   "t": 489.77,
+   "dur": 3.62,
+   "say": "Juntemos el diagnóstico y el tratamiento en un solo árbol."
+  },
+  {
+   "id": "b040",
+   "t": 493.84,
+   "dur": 7.78,
+   "say": "Paciente con una TSH alta. Lo primero es mirar la T cuatro libre, porque separa el hipotiroidismo clínico del subclínico."
+  },
+  {
+   "id": "b041",
+   "t": 502.07,
+   "dur": 3.12,
+   "say": "¿La T cuatro libre está baja o todavía normal?"
+  },
+  {
+   "id": "b042",
+   "t": 505.64,
+   "dur": 8.74,
+   "say": "T cuatro libre baja: hipotiroidismo primario clínico, que siempre se trata, con garantía GES. La dosis depende de quién es el paciente."
+  },
+  {
+   "id": "b043",
+   "t": 514.83,
+   "dur": 10.2,
+   "say": "Adulto joven sin cardiopatía: dosis plena desde el inicio, uno coma seis microgramos por kilo de peso ideal. En ayunas, y TSH a las seis u ocho semanas."
+  },
+  {
+   "id": "b044",
+   "t": 525.48,
+   "dur": 10.2,
+   "say": "Adulto mayor o coronario: veinticinco a cincuenta microgramos, y se sube despacio cada seis a ocho semanas. La dosis plena de golpe puede provocar isquemia o arritmia."
+  },
+  {
+   "id": "b045",
+   "t": 536.13,
+   "dur": 6.46,
+   "say": "T cuatro libre normal: hipotiroidismo subclínico. El primer corte es la TSH de diez."
+  },
+  {
+   "id": "b046",
+   "t": 543.03,
+   "dur": 4.39,
+   "say": "Con diez o más se trata siempre, aunque el paciente no tenga síntomas."
+  },
+  {
+   "id": "b047",
+   "t": 547.87,
+   "dur": 9.67,
+   "say": "Entre cuatro coma cinco y nueve coma nueve se buscan factores: embarazo, anticuerpos anti TPO, bocio, síntomas o enfermedad cardiovascular en menores de sesenta y cinco."
+  },
+  {
+   "id": "b048",
+   "t": 558,
+   "dur": 4.9,
+   "say": "Si hay un factor, se trata, con dosis bajas y ajuste según la TSH."
+  },
+  {
+   "id": "b049",
+   "t": 563.34,
+   "dur": 9.7,
+   "say": "Si no hay ninguno, se observa y se controla la TSH. Y en el mayor de setenta a ochenta asintomático, la observación anual es la conducta, no un descuido."
+  },
+  {
+   "id": "b050",
+   "t": 574.09,
+   "dur": 9.62,
+   "say": "Repasemos las trampas. Subclínico con TSH de diez o más: se trata siempre. El error es observar porque el paciente no tiene síntomas."
+  },
+  {
+   "id": "b051",
+   "t": 584.16,
+   "dur": 7.75,
+   "say": "Subclínico entre cuatro coma cinco y nueve coma nueve, sin factores agravantes: se controla. El error es tratar un número."
+  },
+  {
+   "id": "b052",
+   "t": 592.36,
+   "dur": 9.6,
+   "say": "Adulto mayor de setenta a ochenta, asintomático, con TSH bajo diez: observación anual. Tratarlo aumenta la fibrilación auricular y las fracturas."
+  },
+  {
+   "id": "b053",
+   "t": 602.41,
+   "dur": 7.44,
+   "say": "Coronario o adulto mayor: veinticinco a cincuenta microgramos y subir lento. La dosis plena de entrada es el distractor."
+  },
+  {
+   "id": "b054",
+   "t": 610.3,
+   "dur": 6.79,
+   "say": "Colesterol alto con hipotiroidismo: primero levotiroxina. Partir con estatinas es la respuesta incorrecta."
+  },
+  {
+   "id": "b055",
+   "t": 617.55,
+   "dur": 6.5,
+   "say": "Y la TSH que sigue alta en control: revisar la forma de tomarla y las interferencias antes de subir la dosis."
+  },
+  {
+   "id": "b056",
+   "t": 625.1,
+   "dur": 24.79,
+   "say": "Vamos al caso. Mujer de sesenta y dos años, hipertensa controlada, con seis meses de astenia, constipación y cuatro kilos más. Tiene bradicardia de cincuenta y cuatro, piel seca y fría, relajación aquiliana lenta, y una tiroides aumentada, firme e indolora. La TSH es de cuarenta y dos, la T cuatro libre está baja, el colesterol en doscientos sesenta y ocho, y los anti TPO fuertemente positivos."
+  },
+  {
+   "id": "b057",
+   "t": 650.34,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b058",
+   "t": 653.19,
+   "dur": 14.93,
+   "say": "Las opciones: dosis plena de levotiroxina con atorvastatina, cincuenta microgramos en ayunas con TSH a las seis u ocho semanas, repetir exámenes en tres meses, ecografía y punción, o cincuenta microgramos con TSH en dos semanas. Piénsalo."
+  },
+  {
+   "id": "b060",
+   "t": 671.77,
+   "dur": 24.82,
+   "say": "Es la B. Es un hipotiroidismo primario clínico por Hashimoto, y por su edad se parte con dosis baja, cincuenta microgramos en ayunas, controlando la TSH a las seis u ocho semanas. La A es la trampa doble: dosis plena en una paciente de sesenta y dos años, y una estatina que no hace falta, porque el colesterol baja al corregir la tiroides. Y la E falla en el tiempo: a las dos semanas la TSH todavía no se estabiliza."
+  },
+  {
+   "id": "b061",
+   "t": 697.64,
+   "dur": 21.17,
+   "say": "Ahora preguntas reales. Esta es del EUNACOM de agosto de dos mil veintiuno. Mujer de veintisiete años, en amenorrea por lactancia, con astenia, constipación, dificultad para concentrarse e intolerancia al frío, y no logra bajar de peso. Tiene piel seca y cabello ralo. La TSH es de catorce coma siete, con la T cuatro libre baja."
+  },
+  {
+   "id": "b062",
+   "t": 719.25,
+   "dur": 3.02,
+   "say": "¿Cuál es la conducta más adecuada en este momento?"
+  },
+  {
+   "id": "b063",
+   "t": 722.73,
+   "dur": 9.74,
+   "say": "Las opciones: iniciar levotiroxina, ecografía tiroidea, cintigrafía, captación de yodo, o repetir los exámenes en seis semanas. Piénsalo."
+  },
+  {
+   "id": "b065",
+   "t": 736.12,
+   "dur": 19.27,
+   "say": "Es la A. Síntomas, TSH alta y T cuatro libre baja: hipotiroidismo primario clínico, y se trata. Y aunque la T cuatro fuera normal, una TSH sobre diez igual obliga a tratar. Las imágenes son la trampa: la ecografía y la cintigrafía no cambian nada en un hipotiroidismo, y repetir el examen solo retrasa el tratamiento."
+  },
+  {
+   "id": "b066",
+   "t": 756.44,
+   "dur": 15.74,
+   "say": "Cerremos con las reglas de oro. Todo hipotiroidismo clínico se trata. En el subclínico, con TSH de diez o más, siempre; entre cuatro coma cinco y nueve coma nueve, solo si hay embarazo, anticuerpos, bocio, síntomas o enfermedad cardiovascular."
+  },
+  {
+   "id": "b067",
+   "t": 772.64,
+   "dur": 3.94,
+   "say": "Y el anciano asintomático con TSH bajo diez se observa."
+  },
+  {
+   "id": "b068",
+   "t": 777.02,
+   "dur": 7.56,
+   "say": "El joven parte con uno coma seis microgramos por kilo; el adulto mayor o el coronario, con veinticinco a cincuenta, subiendo lento."
+  },
+  {
+   "id": "b069",
+   "t": 785.03,
+   "dur": 4.54,
+   "say": "Se toma en ayunas con agua, lejos del hierro, el calcio y el omeprazol."
+  },
+  {
+   "id": "b070",
+   "t": 790.02,
+   "dur": 21.82,
+   "say": "Y la TSH se controla a las seis u ocho semanas. Si te llevas una sola idea de hoy: la levotiroxina se ajusta al paciente, no al número; el anciano y el coronario van lento, y una TSH que no baja casi siempre es un problema de cómo se toma. En la próxima clase vemos la forma extrema de esta enfermedad: el coma mixedematoso. Nos vemos en la próxima clase."
+  }
+ ]
+}

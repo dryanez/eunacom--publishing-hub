@@ -1,0 +1,529 @@
+{
+ "id": "neuro-11",
+ "title": "Enfermedad de Parkinson",
+ "total": 1069.905713684211,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 23.74,
+   "say": "Bienvenidos. Hoy empezamos el bloque de trastornos del movimiento con la enfermedad de Parkinson, la segunda enfermedad neurodegenerativa más frecuente del adulto mayor después del Alzheimer, y con garantía GES. En el examen se juegan tres cosas: reconocerla con la clínica, porque ningún examen la confirma; elegir el primer fármaco según la edad; y manejar las complicaciones de la levodopa con los años. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 30.59,
+   "dur": 11.62,
+   "say": "Partamos por el mecanismo. En el Parkinson se pierden, de forma progresiva, las neuronas dopaminérgicas de la pars compacta de la sustancia negra, que proyectan al estriado: el putamen y el caudado."
+  },
+  {
+   "id": "b003",
+   "t": 42.65,
+   "dur": 12.26,
+   "say": "El sello en la anatomía patológica son los cuerpos de Lewy: inclusiones dentro de la neurona, formadas por alfa-sinucleína mal plegada. Por eso al Parkinson se le llama una sinucleinopatía, y esa palabra va a volver."
+  },
+  {
+   "id": "b004",
+   "t": 55.37,
+   "dur": 11.02,
+   "say": "Un dato importante: los síntomas motores recién aparecen cuando se ha perdido entre el cincuenta y el setenta por ciento de esas neuronas. Es decir, la enfermedad lleva años avanzando en silencio."
+  },
+  {
+   "id": "b005",
+   "t": 66.83,
+   "dur": 14.16,
+   "say": "Sin dopamina se rompe el equilibrio de los ganglios basales. Se apaga la vía directa, la de los receptores D uno, que facilita el movimiento. Y se enciende la vía indirecta, la de los receptores D dos, que pasa por el núcleo subtalámico."
+  },
+  {
+   "id": "b006",
+   "t": 81.44,
+   "dur": 11.76,
+   "say": "El resultado neto es un freno excesivo sobre el tálamo motor y la corteza. Y ese freno es exactamente lo que ves en el paciente: bradicinesia y rigidez. El mecanismo te explica la clínica."
+  },
+  {
+   "id": "b007",
+   "t": 94.25,
+   "dur": 16.51,
+   "say": "Braak propuso que el proceso empieza años o décadas antes de los síntomas motores, lejos del cerebro: en el plexo entérico del intestino, en el núcleo motor dorsal del vago, y en el bulbo olfatorio. Por eso los primeros síntomas son la constipación, la pérdida del olfato y los trastornos del sueño REM."
+  },
+  {
+   "id": "b008",
+   "t": 111.21,
+   "dur": 10.18,
+   "say": "Luego asciende por el tronco hasta el mesencéfalo, donde está la sustancia negra. En los estadios tres y cuatro aparecen los síntomas motores, y es recién ahí cuando hacemos el diagnóstico."
+  },
+  {
+   "id": "b009",
+   "t": 121.84,
+   "dur": 15.05,
+   "say": "Y en los estadios cinco y seis alcanza las áreas límbicas y la neocorteza, y aparecen el deterioro cognitivo y las alucinaciones. Por eso, en el Parkinson, la demencia es tardía. Guarda eso, porque sirve para separarlo de otras enfermedades."
+  },
+  {
+   "id": "b010",
+   "t": 137.94,
+   "dur": 14.95,
+   "say": "Veamos el diagnóstico, que es clínico. Los criterios de la Movement Disorder Society parten por definir un parkinsonismo, y el requisito obligatorio es la bradicinesia: lentitud, con una disminución progresiva de la velocidad o la amplitud en movimientos repetidos."
+  },
+  {
+   "id": "b011",
+   "t": 153.34,
+   "dur": 16.61,
+   "say": "Se examina pidiendo golpetear el índice con el pulgar, pronosupinar o abrir y cerrar la mano: el movimiento se va haciendo más lento y más pequeño. Si no hay bradicinesia, no es Parkinson. También la escritura se va achicando a medida que escribe: mira esta muestra, es la micrografía."
+  },
+  {
+   "id": "b012",
+   "t": 170.51,
+   "dur": 19.78,
+   "say": "Y a la bradicinesia se suma al menos uno de dos signos. El primero, el temblor de reposo, de cuatro a seis por segundo, asimétrico al inicio, como si contara monedas. Aparece con la mano apoyada y cede cuando la mueve. Está en el setenta a ochenta por ciento, y típicamente respeta la cabeza, a diferencia del temblor esencial."
+  },
+  {
+   "id": "b013",
+   "t": 190.74,
+   "dur": 14.26,
+   "say": "El segundo, la rigidez: una resistencia plástica en todo el rango del movimiento pasivo. Si se combina con temblor, se sienten resaltes, la rueda dentada. Y aumenta si le pides que mueva la otra extremidad: la maniobra de Froment."
+  },
+  {
+   "id": "b014",
+   "t": 205.44,
+   "dur": 17.98,
+   "say": "Y lo que la familia nota primero: camina más lento, pierde el braceo de un lado, la cara se vuelve inexpresiva, la voz baja, y los pasos se acortan. Fíjate en la palabra asimetría: el Parkinson empieza de un lado. Mira esta postura: el paciente camina flectado, con pasos cortos y sin braceo."
+  },
+  {
+   "id": "b015",
+   "t": 223.87,
+   "dur": 8.18,
+   "say": "La inestabilidad postural, en cambio, es tardía. Si aparece en el primer año, es una bandera roja, que es justo lo que viene."
+  },
+  {
+   "id": "b016",
+   "t": 233.1,
+   "dur": 10.44,
+   "say": "El segundo paso son los criterios de exclusión absoluta. Si hay signos cerebelosos manifiestos, o una parálisis supranuclear de la mirada vertical hacia abajo, no es Parkinson."
+  },
+  {
+   "id": "b017",
+   "t": 243.99,
+   "dur": 10.54,
+   "say": "Tampoco si el paciente usa recientemente un bloqueador de dopamina, como un neuroléptico o la metoclopramida. Ahí es un parkinsonismo por fármacos, que vemos en la próxima clase."
+  },
+  {
+   "id": "b018",
+   "t": 254.98,
+   "dur": 13.3,
+   "say": "Y tampoco si no hay ninguna respuesta a dosis altas de levodopa, sobre seiscientos a mil miligramos al día. El Parkinson verdadero responde, y bien. También excluye una demencia frontotemporal en los primeros cinco años."
+  },
+  {
+   "id": "b019",
+   "t": 268.72,
+   "dur": 9.46,
+   "say": "El tercer paso son las banderas rojas: caídas recurrentes en los primeros tres años, o una progresión tan rápida que el paciente necesita silla de ruedas antes de cinco años."
+  },
+  {
+   "id": "b020",
+   "t": 278.63,
+   "dur": 10.32,
+   "say": "También una disautonomía grave precoz: hipotensión ortostática sintomática o incontinencia urinaria en el primer año. Y lo contrario: que no progrese en más de cinco años."
+  },
+  {
+   "id": "b021",
+   "t": 289.4,
+   "dur": 16.99,
+   "say": "Estas banderas obligan a descartar un Parkinson-plus, como la parálisis supranuclear progresiva o la atrofia multisistémica, o una causa secundaria. Por eso, aunque el diagnóstico es clínico, la resonancia es obligatoria: descarta un parkinsonismo vascular, una hidrocefalia o una lesión estructural."
+  },
+  {
+   "id": "b022",
+   "t": 307.44,
+   "dur": 12.89,
+   "say": "El temblor es solo la punta del iceberg. Debajo están los síntomas no motores, y los primeros son los prodrómicos, que conectan con Braak. La hiposmia, en más del ochenta a noventa por ciento, años antes del temblor."
+  },
+  {
+   "id": "b023",
+   "t": 320.78,
+   "dur": 16.22,
+   "say": "El trastorno conductual del sueño REM: se pierde la atonía normal de esa fase, y el paciente actúa sus sueños, con gritos, puñetazos y patadas. Tiene altísimo valor predictivo para una sinucleinopatía. Se trata con clonazepam o melatonina, y protegiendo la cama."
+  },
+  {
+   "id": "b024",
+   "t": 337.45,
+   "dur": 4.13,
+   "say": "Y la constipación pertinaz, por la disfunción del plexo del colon."
+  },
+  {
+   "id": "b025",
+   "t": 342.03,
+   "dur": 10.73,
+   "say": "Luego la disautonomía. La hipotensión ortostática, una caída de veinte de sistólica o diez de diastólica al ponerse de pie. Se trata con fludrocortisona o midodrina."
+  },
+  {
+   "id": "b026",
+   "t": 353.21,
+   "dur": 10.25,
+   "say": "También sialorrea, porque se enlentece la deglución automática, urgencia urinaria, disfunción eréctil y sudoración. Y en estos pacientes se evitan los anticolinérgicos."
+  },
+  {
+   "id": "b027",
+   "t": 363.91,
+   "dur": 5.83,
+   "say": "Y lo neuropsiquiátrico: depresión, hasta en el cuarenta a cincuenta por ciento, ansiedad y apatía."
+  },
+  {
+   "id": "b028",
+   "t": 370.19,
+   "dur": 10.03,
+   "say": "Los trastornos del control de impulsos, como la ludopatía, las compras compulsivas o la hipersexualidad, ligados a los agonistas dopaminérgicos. Esto se pregunta."
+  },
+  {
+   "id": "b029",
+   "t": 380.67,
+   "dur": 7.06,
+   "say": "Y la demencia, de perfil fronto-subcortical, con disfunción ejecutiva y lentitud del pensamiento, que aparece tarde."
+  },
+  {
+   "id": "b030",
+   "t": 388.78,
+   "dur": 26.69,
+   "say": "El trastorno conductual del sueño REM es solo uno de los trastornos del sueño. Ante un mal dormir, pregunta por ronquidos, pausas, piernas, somnolencia con la escala de Epworth, y alcohol, cafeína y fármacos. El insomnio crónico es dificultad para dormir al menos tres noches por semana durante tres meses, con deterioro diurno. Primero higiene del sueño y terapia cognitivo-conductual; zolpidem solo por períodos cortos, y sin benzodiacepinas en el adulto mayor."
+  },
+  {
+   "id": "b031",
+   "t": 415.92,
+   "dur": 20.4,
+   "say": "El síndrome de apnea obstructiva se sospecha en el obeso que ronca, con pausas presenciadas, somnolencia diurna, hipertensión difícil de controlar, fibrilación auricular o accidentes de tránsito. El cuestionario STOP-BANG con tres o más puntos lo sugiere, se confirma con poligrafía o polisomnografía, y se trata con baja de peso, evitar alcohol y sedantes, y CPAP."
+  },
+  {
+   "id": "b032",
+   "t": 436.77,
+   "dur": 16.73,
+   "say": "La narcolepsia es somnolencia diurna excesiva con ataques de sueño, cataplejía, que es la pérdida súbita del tono muscular con las emociones, alucinaciones al dormirse y parálisis del sueño. Se confirma con polisomnografía y test de latencias múltiples, y se trata con modafinilo u oxibato de sodio."
+  },
+  {
+   "id": "b033",
+   "t": 453.94,
+   "dur": 23.4,
+   "say": "El síndrome de piernas inquietas es la necesidad imperiosa de mover las piernas en reposo, de predominio vespertino, que mejora al caminar. Se asocia a déficit de hierro, insuficiencia renal, embarazo y fármacos como antihistamínicos y antidepresivos. Mides la ferritina y, si es menor de setenta y cinco, repones hierro; también sirven los gabapentinoides o los agonistas dopaminérgicos, con el riesgo de aumentación."
+  },
+  {
+   "id": "b034",
+   "t": 477.79,
+   "dur": 17.69,
+   "say": "Y las parasomnias del sueño no REM, como el sonambulismo y los terrores nocturnos, son de niños y adolescentes, con amnesia del episodio. Basta proteger el ambiente. Ante sospecha de apnea, narcolepsia, trastorno conductual REM o síntomas refractarios, se deriva a neurología o a medicina del sueño."
+  },
+  {
+   "id": "b035",
+   "t": 496.53,
+   "dur": 7.46,
+   "say": "Pasemos al tratamiento, con una idea de partida: es sintomático. Ningún fármaco ha demostrado frenar la enfermedad."
+  },
+  {
+   "id": "b036",
+   "t": 504.45,
+   "dur": 11.47,
+   "say": "La levodopa es el estándar de oro, la de mayor eficacia motora. Es un precursor: cruza la barrera hematoencefálica por un transportador de aminoácidos grandes, y en el estriado se convierte en dopamina."
+  },
+  {
+   "id": "b037",
+   "t": 516.37,
+   "dur": 11.74,
+   "say": "Siempre va junto a carbidopa o benserazida, que inhiben la descarboxilasa fuera del cerebro. Así la levodopa no se convierte en dopamina en la periferia, y se evitan las náuseas, los vómitos y la hipotensión."
+  },
+  {
+   "id": "b038",
+   "t": 528.55,
+   "dur": 14.64,
+   "say": "Y un detalle práctico que se pregunta: se toma lejos de las comidas ricas en proteínas, treinta a sesenta minutos antes o dos horas después. ¿Por qué? Porque los aminoácidos de la dieta compiten por el mismo transportador, en el intestino y en la barrera."
+  },
+  {
+   "id": "b039",
+   "t": 543.64,
+   "dur": 7.46,
+   "say": "Se parte con dosis bajas, por ejemplo cien con veinticinco miligramos tres veces al día, y se sube gradualmente según la respuesta."
+  },
+  {
+   "id": "b040",
+   "t": 552.16,
+   "dur": 8.5,
+   "say": "¿Con qué fármaco se parte? La pregunta clave es la edad: ¿tiene sesenta y cinco años o más, o tiene comorbilidades o deterioro cognitivo?"
+  },
+  {
+   "id": "b041",
+   "t": 561.1,
+   "dur": 12.07,
+   "say": "Si es así, se parte directamente con levodopa con carbidopa. En el adulto mayor es el fármaco más seguro desde lo neuropsiquiátrico: da menos alucinaciones, menos somnolencia y menos psicosis que los agonistas."
+  },
+  {
+   "id": "b042",
+   "t": 573.63,
+   "dur": 14.23,
+   "say": "En el paciente joven, menor de sesenta y cinco, con alta exigencia laboral y bajo riesgo psiquiátrico, se puede partir con un agonista dopaminérgico no ergolínico, como pramipexol o ropinirol, o con un inhibidor de la MAO-B, como rasagilina o selegilina."
+  },
+  {
+   "id": "b043",
+   "t": 588.31,
+   "dur": 8.57,
+   "say": "¿Para qué? Para postergar la levodopa y así retrasar la aparición de las fluctuaciones y las disquinesias, que son su complicación a largo plazo."
+  },
+  {
+   "id": "b044",
+   "t": 597.33,
+   "dur": 15,
+   "say": "Pero los agonistas tienen un precio: trastornos del control de impulsos, como la ludopatía o las compras compulsivas, y somnolencia. Por eso no se usan en el adulto mayor. Y la rasagilina, por su parte, no exige una dieta estricta sin tiramina."
+  },
+  {
+   "id": "b045",
+   "t": 613.38,
+   "dur": 10.87,
+   "say": "Los primeros tres a cinco años la respuesta a la levodopa es excelente y estable: la luna de miel. Después, más de la mitad de los pacientes desarrolla complicaciones motoras a los cinco años."
+  },
+  {
+   "id": "b046",
+   "t": 624.7,
+   "dur": 10.73,
+   "say": "¿Por qué? Porque quedan cada vez menos terminales que almacenen dopamina, y la levodopa en la sangre dura solo unos noventa minutos. El cerebro queda a merced de cada dosis."
+  },
+  {
+   "id": "b047",
+   "t": 635.88,
+   "dur": 10.39,
+   "say": "La primera es el deterioro de fin de dosis, el wearing-off. Cada dosis dura menos, dos a tres horas en vez de cuatro a cinco, y la rigidez y el temblor vuelven antes de la siguiente toma."
+  },
+  {
+   "id": "b048",
+   "t": 646.72,
+   "dur": 15.24,
+   "say": "Se maneja fraccionando la levodopa, en tomas más frecuentes, y agregando entacapona, doscientos miligramos con cada toma. Es un inhibidor de la COMT que prolonga la vida de la levodopa, y tiñe la orina de naranja. También sirven la rasagilina o un agonista."
+  },
+  {
+   "id": "b049",
+   "t": 662.41,
+   "dur": 9.46,
+   "say": "La segunda, las disquinesias de pico de dosis: movimientos coreicos o distónicos justo cuando la levodopa está en su nivel más alto. Aquí sobra dopamina."
+  },
+  {
+   "id": "b050",
+   "t": 672.31,
+   "dur": 11.64,
+   "say": "Se baja un poco la dosis de cada toma y se aumenta la frecuencia, y se agrega amantadina, un antagonista NMDA, que es el fármaco específico para las disquinesias. Da livedo reticularis."
+  },
+  {
+   "id": "b051",
+   "t": 684.4,
+   "dur": 10.42,
+   "say": "Y la tercera, el fenómeno on-off: cambios bruscos e impredecibles entre moverse bien y quedar inmóvil, y el congelamiento de la marcha. Se rescata con apomorfina subcutánea."
+  },
+  {
+   "id": "b052",
+   "t": 695.87,
+   "dur": 14.59,
+   "say": "Cuando las fluctuaciones son graves y las disquinesias no responden, existe la estimulación cerebral profunda: electrodos bilaterales en el núcleo subtalámico o el globo pálido interno. Fíjate que el núcleo subtalámico es la estación de la vía indirecta que vimos al comienzo."
+  },
+  {
+   "id": "b053",
+   "t": 710.91,
+   "dur": 7.44,
+   "say": "El requisito es que el paciente conserve la cognición y no tenga una depresión grave. Si hay demencia, no es candidato."
+  },
+  {
+   "id": "b054",
+   "t": 718.8,
+   "dur": 10.51,
+   "say": "La alternativa es la infusión enteral continua de gel de levodopa con carbidopa, por una gastrostomía. La idea es la misma: reemplazar las dosis en pulsos por un aporte continuo."
+  },
+  {
+   "id": "b055",
+   "t": 730.36,
+   "dur": 16.94,
+   "say": "Las neuronas de la sustancia nigra, en el mesencéfalo, envían dopamina al estriado: el caudado y el putamen. En el Parkinson esas neuronas mueren y la nigra se despigmenta. Los síntomas aparecen cuando ya falta más de la mitad. La levodopa repone la dopamina y el movimiento mejora."
+  },
+  {
+   "id": "b056",
+   "t": 748.36,
+   "dur": 4.18,
+   "say": "Juntemos el diagnóstico y el tratamiento en un solo árbol de decisión."
+  },
+  {
+   "id": "b057",
+   "t": 752.98,
+   "dur": 4.94,
+   "say": "Paciente que consulta por temblor o lentitud. Todo parte del examen."
+  },
+  {
+   "id": "b058",
+   "t": 758.38,
+   "dur": 3.89,
+   "say": "¿Hay bradicinesia, con decremento en los movimientos repetidos?"
+  },
+  {
+   "id": "b059",
+   "t": 762.72,
+   "dur": 6.24,
+   "say": "Sin bradicinesia no es Parkinson. Se busca otra causa del temblor, como el temblor esencial."
+  },
+  {
+   "id": "b060",
+   "t": 769.41,
+   "dur": 4.39,
+   "say": "Si hay bradicinesia, ¿se acompaña de temblor de reposo o de rigidez?"
+  },
+  {
+   "id": "b061",
+   "t": 774.25,
+   "dur": 13.92,
+   "say": "Es un parkinsonismo. ¿Usa bloqueadores de dopamina, o tiene caídas precoces, parálisis de la mirada vertical, signos cerebelosos o disautonomía grave temprana? Además, resonancia para descartar causas estructurales."
+  },
+  {
+   "id": "b062",
+   "t": 788.62,
+   "dur": 5.54,
+   "say": "Si hay alguna, piensa en un parkinsonismo por fármacos o en un Parkinson-plus, y se deriva."
+  },
+  {
+   "id": "b063",
+   "t": 794.61,
+   "dur": 8.47,
+   "say": "Si no hay ninguna, es un Parkinson idiopático, con garantía GES y confirmación por neurólogo. ¿Tiene sesenta y cinco años o más?"
+  },
+  {
+   "id": "b064",
+   "t": 803.53,
+   "dur": 4.85,
+   "say": "Si es mayor, levodopa con carbidopa, lejos de las comidas proteicas."
+  },
+  {
+   "id": "b065",
+   "t": 808.83,
+   "dur": 10.58,
+   "say": "Con los años aparecen las fluctuaciones: wearing-off, con fraccionamiento o entacapona; disquinesias, con amantadina; y si son refractarias y no hay demencia, estimulación cerebral profunda."
+  },
+  {
+   "id": "b066",
+   "t": 819.87,
+   "dur": 7.73,
+   "say": "Si es joven, se puede partir con un agonista o un inhibidor de la MAO-B, vigilando el control de impulsos, para postergar la levodopa."
+  },
+  {
+   "id": "b067",
+   "t": 828.64,
+   "dur": 10.82,
+   "say": "Repasemos las trampas. Temblor de reposo con bradicinesia, asimétrico: es Parkinson, y el diagnóstico es clínico. Esperar un examen que lo confirme es el error."
+  },
+  {
+   "id": "b068",
+   "t": 839.92,
+   "dur": 3.62,
+   "say": "Sin bradicinesia no hay Parkinson, aunque haya temblor."
+  },
+  {
+   "id": "b069",
+   "t": 843.99,
+   "dur": 7.87,
+   "say": "Parkinson en un mayor de sesenta y cinco: levodopa con carbidopa. El agonista es el error, por la psicosis y la somnolencia."
+  },
+  {
+   "id": "b070",
+   "t": 852.31,
+   "dur": 5.86,
+   "say": "Ludopatía o compras compulsivas después de iniciar tratamiento: sospecha del agonista dopaminérgico."
+  },
+  {
+   "id": "b071",
+   "t": 858.62,
+   "dur": 6.07,
+   "say": "El temblor vuelve antes de la próxima toma: wearing-off. Se fracciona o se agrega entacapona."
+  },
+  {
+   "id": "b072",
+   "t": 865.14,
+   "dur": 9.46,
+   "say": "Movimientos coreicos en el pico de la dosis: sobra dopamina. Se baja la dosis unitaria y se agrega amantadina. Subir la levodopa es el error."
+  },
+  {
+   "id": "b073",
+   "t": 875.05,
+   "dur": 6.67,
+   "say": "Y caídas precoces o parálisis de la mirada vertical: piensa en un Parkinson-plus, no en un Parkinson idiopático."
+  },
+  {
+   "id": "b074",
+   "t": 882.77,
+   "dur": 23.45,
+   "say": "Vamos con un caso. Hombre de sesenta y ocho años, con catorce meses de temblor en la mano derecha que aparece en reposo y cede al tomar una taza. Camina más lento. Al examen tiene hipomimia, voz baja, menos braceo a derecha, rigidez en rueda dentada y temblor de reposo a derecha, y el golpeteo de dedos se hace lento y pequeño. Sin caídas, alteraciones de la mirada ni disautonomía."
+  },
+  {
+   "id": "b075",
+   "t": 906.67,
+   "dur": 3.14,
+   "say": "¿Cuál es la conducta farmacológica más adecuada?"
+  },
+  {
+   "id": "b076",
+   "t": 910.26,
+   "dur": 11.02,
+   "say": "Las opciones: propranolol, pramipexol para postergar la levodopa, levodopa con carbidopa lejos de las proteínas, esperar a que aparezca inestabilidad, o amantadina. Piénsalo."
+  },
+  {
+   "id": "b078",
+   "t": 924.93,
+   "dur": 24.24,
+   "say": "Es la C. Tiene la bradicinesia obligatoria, más temblor de reposo y rigidez, asimétrico y sin banderas rojas: Parkinson. Y como tiene sesenta y ocho años, se parte con levodopa. El pramipexol es el distractor más tentador, pero es para el paciente joven, y en él da más psicosis y somnolencia. La amantadina es para las disquinesias, el propranolol es para el temblor esencial, y diferir el tratamiento no tiene sentido."
+  },
+  {
+   "id": "b079",
+   "t": 950.22,
+   "dur": 20.33,
+   "say": "Ahora las preguntas reales. La primera, del EUNACOM de diciembre de dos mil dieciocho. Hombre de cincuenta y cinco años, diabético de larga data, con temblor de reposo y lentitud para vestirse, y dificultad para iniciar la marcha: le cuesta partir, pero después camina a velocidad normal. Fuerza, reflejos y sensibilidad normales."
+  },
+  {
+   "id": "b080",
+   "t": 971,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b081",
+   "t": 974.01,
+   "dur": 9,
+   "say": "Las opciones: Parkinson, Alzheimer, polineuropatía diabética, polimialgia reumática o miopatía por cuerpos de inclusión. Piénsalo."
+  },
+  {
+   "id": "b083",
+   "t": 986.66,
+   "dur": 18,
+   "say": "Es la A. Temblor de reposo, bradicinesia y dificultad para iniciar la marcha: Parkinson clásico. La polineuropatía diabética es el distractor, puesto por la diabetes, pero con sensibilidad y reflejos normales no hay neuropatía. Y el Alzheimer es una demencia, que no explica el temblor ni la lentitud motora."
+  },
+  {
+   "id": "b084",
+   "t": 1005.71,
+   "dur": 8.95,
+   "say": "Cerremos con las reglas de oro. El Parkinson es clínico: bradicinesia obligatoria, más temblor de reposo o rigidez, asimétrico al inicio."
+  },
+  {
+   "id": "b085",
+   "t": 1015.12,
+   "dur": 9.77,
+   "say": "Caídas precoces o mirada vertical alterada te sacan del Parkinson idiopático. Y la constipación, la hiposmia y el trastorno del sueño REM lo anteceden por años."
+  },
+  {
+   "id": "b086",
+   "t": 1025.33,
+   "dur": 4.92,
+   "say": "Mayor de sesenta y cinco: levodopa con carbidopa, lejos de las proteínas."
+  },
+  {
+   "id": "b087",
+   "t": 1030.7,
+   "dur": 5.18,
+   "say": "Joven: un agonista o un inhibidor de la MAO-B, vigilando el control de impulsos."
+  },
+  {
+   "id": "b088",
+   "t": 1036.34,
+   "dur": 6.77,
+   "say": "Wearing-off: fraccionar y entacapona. Disquinesias de pico: bajar la dosis unitaria y amantadina."
+  },
+  {
+   "id": "b089",
+   "t": 1043.56,
+   "dur": 20.4,
+   "say": "Y el refractario sin demencia: estimulación cerebral profunda. Si te llevas una sola idea de hoy: el Parkinson se diagnostica con la bradicinesia, y el primer fármaco lo decide la edad. En la próxima clase vemos lo que imita al Parkinson: los parkinsonismos secundarios, por fármacos, y los Parkinson-plus. Nos vemos en la próxima clase."
+  }
+ ]
+}

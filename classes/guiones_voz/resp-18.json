@@ -1,0 +1,373 @@
+{
+ "id": "resp-18",
+ "title": "resp-18",
+ "total": 717.7447999999999,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 21.67,
+   "say": "Bienvenidos. Hoy vemos las enfermedades pulmonares intersticiales difusas, y en especial la fibrosis pulmonar idiopática. Si en la clase anterior el enemigo era una masa, hoy es todo el pulmón que se va endureciendo de a poco. El examen pregunta tres cosas: reconocer la clínica, leer el patrón del scanner y no caer en la trampa de los corticoides. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 28.52,
+   "dur": 16.1,
+   "say": "Empecemos por cómo consulta. El síntoma cardinal es una disnea de esfuerzo que se instala de forma insidiosa y avanza lento, a lo largo de meses o años. El paciente de a poco deja de subir escaleras o de cargar peso, y muchas veces no se da cuenta hasta que ya está limitado."
+  },
+  {
+   "id": "b003",
+   "t": 45.08,
+   "dur": 11.3,
+   "say": "Se acompaña de tos seca e irritativa. Fíjate que es seca: el intersticio que se engrosa no produce secreción. Eso ya la separa de la bronquitis crónica o de las bronquiectasias."
+  },
+  {
+   "id": "b004",
+   "t": 56.83,
+   "dur": 15.02,
+   "say": "Y el examen físico tiene dos signos que el EUNACOM ama. El primero son los crépitos secos tipo velcro: al final de la inspiración, en ambas bases, suenan como cuando despegas un velcro. Están en más del ochenta a noventa por ciento de los pacientes con fibrosis."
+  },
+  {
+   "id": "b005",
+   "t": 72.3,
+   "dur": 16.03,
+   "say": "El segundo es la acropaquia, los dedos en palillo de tambor con uñas en vidrio de reloj, presente en cerca de la mitad de las fibrosis pulmonares idiopáticas. Disnea progresiva, tos seca, crépitos en velcro y acropaquia: esa es la foto del examen. Mira estas manos."
+  },
+  {
+   "id": "b006",
+   "t": 90.38,
+   "dur": 9.12,
+   "say": "Con esa clínica, sospechas una enfermedad intersticial. Pero la clínica no te dice cuál. Para eso necesitas ver el pulmón por dentro."
+  },
+  {
+   "id": "b007",
+   "t": 99.95,
+   "dur": 11.04,
+   "say": "El examen de elección es la tomografía computarizada de alta resolución, la TACAR, sin contraste. No buscamos vasos, buscamos el dibujo del intersticio, y ese dibujo tiene nombre."
+  },
+  {
+   "id": "b008",
+   "t": 111.44,
+   "dur": 17.09,
+   "say": "Si el dibujo es de neumonía intersticial usual, el patrón NIU, con panal de abejas en las bases y bajo la pleura, estás frente al sello de la fibrosis pulmonar idiopática. Mira esta tomografía: el panal de abejas bajo la pleura. Y en esta radiografía, el patrón reticular de las bases."
+  },
+  {
+   "id": "b009",
+   "t": 128.98,
+   "dur": 11.74,
+   "say": "Y aquí viene un dato muy preguntado: si la TACAR muestra un patrón NIU definitivo en un paciente de más de sesenta años, sin otra causa, el diagnóstico está hecho. No se requiere biopsia pulmonar."
+  },
+  {
+   "id": "b010",
+   "t": 141.17,
+   "dur": 12.53,
+   "say": "Si en cambio predomina el vidrio esmerilado, el patrón es de neumonía intersticial no específica, la NINE. Ese patrón te obliga a buscar una causa secundaria, sobre todo una enfermedad del tejido conectivo, o un fármaco."
+  },
+  {
+   "id": "b011",
+   "t": 154.74,
+   "dur": 12.82,
+   "say": "Veamos cómo se define el patrón NIU, porque tiene cuatro componentes. El primero son opacidades reticulares, bajo la pleura y en las bases, en ambos pulmones. Mira estos esquemas del patrón intersticial."
+  },
+  {
+   "id": "b012",
+   "t": 168.01,
+   "dur": 8.78,
+   "say": "El segundo, y el más importante, es el panal de abejas: pequeños quistes apilados bajo la pleura. Es pulmón destruido y cicatrizado."
+  },
+  {
+   "id": "b013",
+   "t": 177.24,
+   "dur": 6.84,
+   "say": "El tercero son bronquiectasias y bronquiolectasias por tracción: la fibrosis se retrae y tira de los bronquios, que se dilatan."
+  },
+  {
+   "id": "b014",
+   "t": 184.53,
+   "dur": 9.53,
+   "say": "Y el cuarto es lo que no aparece: no hay nódulos difusos, ni condensaciones, ni vidrio esmerilado extenso. Si aparecen, ya no es un NIU típico."
+  },
+  {
+   "id": "b015",
+   "t": 194.51,
+   "dur": 16.34,
+   "say": "La NINE es otra cosa: predomina el vidrio esmerilado subpleural bilateral, y típicamente respeta la franja inmediatamente bajo la pleura. Es el patrón de la esclerodermia, el lupus y la artritis reumatoide. Mira esta tomografía: el vidrio esmerilado de la NINE, sin panal."
+  },
+  {
+   "id": "b016",
+   "t": 211.91,
+   "dur": 20.18,
+   "say": "Idiopática significa que no encontraste causa, así que primero hay que buscarla. Y la más preguntada es un fármaco: la amiodarona. Es la causa más frecuente de toxicidad pulmonar en cardiología, porque se acumula en el pulmón. Paciente con fibrilación auricular, en amiodarona, que empieza con disnea y tos seca: ahí está tu respuesta."
+  },
+  {
+   "id": "b017",
+   "t": 232.54,
+   "dur": 10.27,
+   "say": "Otros tres fármacos que debes reconocer son el metotrexato, la bleomicina y la nitrofurantoína en uso crónico. Cuando el culpable es un fármaco, el primer paso es suspenderlo."
+  },
+  {
+   "id": "b018",
+   "t": 243.26,
+   "dur": 8.14,
+   "say": "La segunda gran familia son las enfermedades del tejido conectivo, las que dan el patrón NINE: esclerosis sistémica, lupus y artritis reumatoide."
+  },
+  {
+   "id": "b019",
+   "t": 251.85,
+   "dur": 7.73,
+   "say": "Y el algoritmo del libro agrega la neumonitis por hipersensibilidad como otra causa secundaria a considerar cuando el patrón no es un NIU típico."
+  },
+  {
+   "id": "b020",
+   "t": 260.63,
+   "dur": 18.7,
+   "say": "Las neumoconiosis son enfermedades intersticiales por inhalar polvo mineral durante años. La silicosis, en minería, canteras, arenado o cerámica, da nódulos pequeños de predominio en los lóbulos superiores, con adenopatías hiliares en cáscara de huevo. Mira esta radiografía: los nódulos mal definidos arriba."
+  },
+  {
+   "id": "b021",
+   "t": 279.77,
+   "dur": 7.7,
+   "say": "Aumenta el riesgo de tuberculosis y de cáncer de pulmón. La neumoconiosis de los mineros del carbón se parece a la silicosis."
+  },
+  {
+   "id": "b022",
+   "t": 287.93,
+   "dur": 13.08,
+   "say": "La asbestosis produce fibrosis de las bases y placas pleurales calcificadas, y aumenta el riesgo de mesotelioma y de cáncer de pulmón, sobre todo en fumadores. Y en esta TACAR, la reticulación bajo la pleura, en las bases."
+  },
+  {
+   "id": "b023",
+   "t": 301.46,
+   "dur": 10.34,
+   "say": "La clínica es disnea de esfuerzo y tos tras años de exposición, con patrón restrictivo en la espirometría. El diagnóstico se basa en la historia ocupacional y la radiografía o la TACAR."
+  },
+  {
+   "id": "b024",
+   "t": 312.25,
+   "dur": 13.49,
+   "say": "No existe tratamiento que revierta la fibrosis: se retira al trabajador de la exposición, se trata la tuberculosis latente, se vigila el cáncer y se deriva. Son enfermedades profesionales, Ley dieciséis mil setecientos cuarenta y cuatro."
+  },
+  {
+   "id": "b025",
+   "t": 326.79,
+   "dur": 8.16,
+   "say": "Ahora el tratamiento, que es donde el examen pone su trampa más clásica. Tienes una fibrosis pulmonar idiopática con patrón NIU."
+  },
+  {
+   "id": "b026",
+   "t": 335.4,
+   "dur": 8.62,
+   "say": "La intuición dice: es una enfermedad del pulmón, démosle corticoides. Y durante años se usó la combinación de corticoides con azatioprina."
+  },
+  {
+   "id": "b027",
+   "t": 344.46,
+   "dur": 13.51,
+   "say": "Pero el estudio PANTHER mostró que esa combinación aumentaba la mortalidad. Por eso, en la fibrosis pulmonar idiopática, los corticoides están contraindicados. Si ves prednisona como respuesta en una FPI, descártala."
+  },
+  {
+   "id": "b028",
+   "t": 358.43,
+   "dur": 4.42,
+   "say": "El tratamiento actual son los antifibróticos: pirfenidona o nintedanib."
+  },
+  {
+   "id": "b029",
+   "t": 363.29,
+   "dur": 9.14,
+   "say": "Ojo con lo que hacen: no revierten la fibrosis, la frenan. Enlentecen la caída de la capacidad vital forzada y reducen las exacerbaciones agudas."
+  },
+  {
+   "id": "b030",
+   "t": 372.89,
+   "dur": 12.79,
+   "say": "Y el contraste: la NINE de las conectivopatías sí responde a los corticoides y a inmunosupresores como el micofenolato o la azatioprina. El mismo fármaco sirve en un patrón y daña en el otro. Por eso el patrón manda."
+  },
+  {
+   "id": "b031",
+   "t": 386.73,
+   "dur": 10.99,
+   "say": "La prevención sigue un orden: primero eliminar o sustituir el agente, y se prohíbe el asbesto. Después controlar el polvo en la fuente, humedeciendo, ventilando y extrayendo localizado."
+  },
+  {
+   "id": "b032",
+   "t": 398.17,
+   "dur": 9.36,
+   "say": "Los respiradores van al final de la lista. Y a los expuestos a sílice, asbesto o carbón se les hace vigilancia médica periódica con espirometría y radiografía."
+  },
+  {
+   "id": "b033",
+   "t": 407.98,
+   "dur": 10.32,
+   "say": "En la casa: no usar leña ni parafina sin ventilación, evitar el humo de tabaco ajeno, controlar la humedad y los mohos, y ventilar cuando se usan aerosoles, pinturas y solventes."
+  },
+  {
+   "id": "b034",
+   "t": 418.75,
+   "dur": 9.07,
+   "say": "Los inhalantes domésticos y laborales causan además asma ocupacional, neumonitis por hipersensibilidad, como el pulmón del granjero o de los criadores de aves, y EPOC."
+  },
+  {
+   "id": "b035",
+   "t": 428.87,
+   "dur": 14.47,
+   "say": "La fibrosis pulmonar idiopática parte en las bases y bajo la pleura, y avanza con quistes en panal de abejas. Es un hombre mayor de sesenta, con disnea progresiva y crépitos tipo velcro. Con un patrón NIU definitivo no se necesita biopsia."
+  },
+  {
+   "id": "b036",
+   "t": 451.07,
+   "dur": 5.35,
+   "say": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen."
+  },
+  {
+   "id": "b037",
+   "t": 456.87,
+   "dur": 8.81,
+   "say": "Paciente con disnea de esfuerzo que avanza en meses, tos seca, crépitos tipo velcro en las bases y acropaquia. Sospechas una enfermedad intersticial."
+  },
+  {
+   "id": "b038",
+   "t": 466.13,
+   "dur": 4.68,
+   "say": "Antes de llamarla idiopática, pregunta por fármacos que dañan el intersticio."
+  },
+  {
+   "id": "b039",
+   "t": 471.26,
+   "dur": 4.97,
+   "say": "Si usa amiodarona u otro fármaco tóxico para el pulmón, lo primero es suspenderlo."
+  },
+  {
+   "id": "b040",
+   "t": 476.68,
+   "dur": 4.27,
+   "say": "Si no hay causa evidente, la TACAR sin contraste define el patrón."
+  },
+  {
+   "id": "b041",
+   "t": 481.4,
+   "dur": 13.13,
+   "say": "Panal de abejas subpleural basal con bronquiectasias por tracción: patrón NIU, fibrosis pulmonar idiopática, sin biopsia en el mayor de sesenta. Se trata con pirfenidona o nintedanib; los corticoides están contraindicados."
+  },
+  {
+   "id": "b042",
+   "t": 494.98,
+   "dur": 9.02,
+   "say": "Vidrio esmerilado que respeta la zona subpleural: patrón NINE. Busca una conectivopatía; aquí sí responden los corticoides e inmunosupresores."
+  },
+  {
+   "id": "b043",
+   "t": 505.05,
+   "dur": 10.87,
+   "say": "Repasemos con la tabla. El paciente con NIU suele ser un hombre mayor de sesenta a sesenta y cinco años, fumador. El de la NINE, una mujer más joven, no fumadora."
+  },
+  {
+   "id": "b044",
+   "t": 516.38,
+   "dur": 6.26,
+   "say": "En el scanner, el NIU es panal de abejas con bronquiectasias por tracción; la NINE, vidrio esmerilado."
+  },
+  {
+   "id": "b045",
+   "t": 523.09,
+   "dur": 4.75,
+   "say": "El NIU compromete justo bajo la pleura; la NINE típicamente la respeta."
+  },
+  {
+   "id": "b046",
+   "t": 528.29,
+   "dur": 6.1,
+   "say": "Y lo más preguntado: en el NIU los corticoides están contraindicados; en la NINE, responden bien."
+  },
+  {
+   "id": "b047",
+   "t": 534.84,
+   "dur": 4.66,
+   "say": "Por eso el NIU se trata con antifibróticos, y la NINE con inmunosupresión."
+  },
+  {
+   "id": "b048",
+   "t": 539.94,
+   "dur": 6.74,
+   "say": "Y una trampa de conducta: con un NIU definitivo en un mayor de sesenta, pedir biopsia pulmonar es innecesario."
+  },
+  {
+   "id": "b049",
+   "t": 547.74,
+   "dur": 18.34,
+   "say": "Vamos a un caso. Hombre de sesenta y ocho años, con un año de disnea de esfuerzo que avanza lento, y tos seca. Satura noventa y uno, tiene acropaquia y crépitos secos en ambas bases, como un velcro. La TACAR muestra reticulación subpleural y quistes en panal de abejas en las bases, sin vidrio esmerilado."
+  },
+  {
+   "id": "b050",
+   "t": 566.52,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b051",
+   "t": 569.37,
+   "dur": 9,
+   "say": "Las opciones: biopsia quirúrgica, prednisona sola, prednisona con azatioprina, un antifibrótico, o broncodilatadores. Piénsalo."
+  },
+  {
+   "id": "b053",
+   "t": 582.02,
+   "dur": 18.7,
+   "say": "Es la D. La clínica y el patrón NIU definitivo en un mayor de sesenta hacen el diagnóstico de fibrosis pulmonar idiopática, sin biopsia; por eso cae la A. Y la B y la C son la trampa de siempre: los corticoides, solos o con azatioprina, aumentan la mortalidad en la FPI. Lo que corresponde es pirfenidona o nintedanib."
+  },
+  {
+   "id": "b054",
+   "t": 601.77,
+   "dur": 24.02,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de cincuenta y ocho años, hipertensa, con dos años de disnea que avanza hasta ser de pequeños esfuerzos, y algo de expectoración matinal. Fumó apenas cuatro cigarrillos al día. Satura noventa y tres, tiene crepitaciones bilaterales e hipocratismo digital. La radiografía original no la tenemos, pero la clínica basta."
+  },
+  {
+   "id": "b055",
+   "t": 626.24,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b056",
+   "t": 629.26,
+   "dur": 9.53,
+   "say": "Las opciones: asma alérgica, EPOC, bronquitis crónica por cigarrillo, fibrosis pulmonar idiopática, o insuficiencia cardíaca. Piénsalo."
+  },
+  {
+   "id": "b058",
+   "t": 642.44,
+   "dur": 20.35,
+   "say": "Es la D. Disnea progresiva de años, crepitaciones bilaterales y acropaquia es la foto de la fibrosis. El distractor es la bronquitis crónica, porque el enunciado mete expectoración y tabaco a propósito; pero cuatro cigarrillos al día no alcanzan para un EPOC, y ni el EPOC ni la bronquitis dan acropaquia. Cuando veas acropaquia con crépitos, piensa en el intersticio."
+  },
+  {
+   "id": "b059",
+   "t": 663.84,
+   "dur": 12.34,
+   "say": "Cerremos con las reglas de oro. Disnea de esfuerzo progresiva, tos seca, crépitos tipo velcro en las bases y acropaquia: enfermedad intersticial, y en el mayor de sesenta, fibrosis pulmonar idiopática."
+  },
+  {
+   "id": "b060",
+   "t": 676.63,
+   "dur": 9.07,
+   "say": "El examen de elección es la TACAR. Panal de abejas subpleural basal es patrón NIU, y si es definitivo en un mayor de sesenta, no hace falta biopsia."
+  },
+  {
+   "id": "b061",
+   "t": 686.15,
+   "dur": 4.92,
+   "say": "En la FPI los corticoides están contraindicados, porque aumentan la mortalidad."
+  },
+  {
+   "id": "b062",
+   "t": 691.52,
+   "dur": 5.42,
+   "say": "Se trata con pirfenidona o nintedanib, que frenan la caída de la capacidad vital forzada."
+  },
+  {
+   "id": "b063",
+   "t": 697.39,
+   "dur": 14.4,
+   "say": "Y antes de decir idiopática, busca la causa: si el paciente usa amiodarona, suspéndela. Si te llevas una sola idea de hoy: el patrón de la TACAR manda, y en el NIU los corticoides no se usan. Nos vemos en la próxima clase."
+  }
+ ]
+}

@@ -1,0 +1,661 @@
+{
+ "id": "neuro-01",
+ "title": "Accidente Cerebrovascular Isquémico",
+ "total": 1239.9479999999999,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 23.02,
+   "say": "Bienvenidos. Abrimos neurología con la urgencia neurológica más importante: el ataque cerebrovascular isquémico, una garantía GES y la principal causa de discapacidad adquirida en el adulto. Es un tema que se pregunta todos los años, y casi todas las preguntas se ordenan con tres ideas: descartar sangre con un TAC sin contraste, mirar el reloj, y cuidar la presión arterial. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 29.87,
+   "dur": 10.8,
+   "say": "Empecemos por el mecanismo, porque explica toda la urgencia de este tema. Una arteria cerebral se tapa de golpe, por un trombo o por un émbolo, y el tejido que irriga queda sin flujo."
+  },
+  {
+   "id": "b003",
+   "t": 41.12,
+   "dur": 14.42,
+   "say": "En el centro se forma el núcleo isquémico, donde el flujo cae bajo diez mililitros por cada cien gramos por minuto. Ahí se acaba el ATP, falla la bomba de sodio y potasio, y las neuronas mueren en minutos. Ese tejido ya no se recupera."
+  },
+  {
+   "id": "b004",
+   "t": 55.99,
+   "dur": 16.13,
+   "say": "Pero alrededor queda una zona distinta: la penumbra isquémica. Recibe algo de flujo por las colaterales, entre diez y veinte. Sus neuronas están silentes, no funcionan, pero siguen vivas. Por eso el déficit inicial puede ser mayor que el daño definitivo."
+  },
+  {
+   "id": "b005",
+   "t": 72.57,
+   "dur": 9,
+   "say": "Si reabres la arteria rápido, rescatas la penumbra. Todo lo que vamos a ver hoy, la trombolisis y la trombectomía, apunta a salvar esa zona."
+  },
+  {
+   "id": "b006",
+   "t": 82.02,
+   "dur": 11.69,
+   "say": "Y si no llegas a tiempo, el núcleo crece a costa de la penumbra. Se pierden cerca de un millón novecientas mil neuronas por minuto. De ahí la frase que tienes que recordar: tiempo es cerebro."
+  },
+  {
+   "id": "b007",
+   "t": 94.76,
+   "dur": 12.5,
+   "say": "La clasificación TOAST ordena las causas en cinco grupos. La primera es la aterosclerosis de grandes vasos: una estenosis de cincuenta por ciento o más, u oclusión, de la carótida interna o de los troncos intracraneales."
+  },
+  {
+   "id": "b008",
+   "t": 107.71,
+   "dur": 10.66,
+   "say": "La segunda es la cardioembolia: el émbolo viene del corazón, por una fibrilación auricular, un trombo mural después de un infarto, una miocardiopatía dilatada o una prótesis valvular mecánica."
+  },
+  {
+   "id": "b009",
+   "t": 118.82,
+   "dur": 12.46,
+   "say": "La tercera es la oclusión de pequeño vaso, el infarto lacunar: infartos de menos de quince milímetros en los ganglios basales, la cápsula interna o el tronco, por el daño que la hipertensión y la diabetes hacen en las arterias perforantes."
+  },
+  {
+   "id": "b010",
+   "t": 131.72,
+   "dur": 15.82,
+   "say": "La cuarta es otra etiología determinada. La más preguntada es la disección arterial, carotídea o vertebral, en el adulto joven después de un trauma cervical o una elongación brusca. También entran la vasculitis, la trombosis venosa cerebral y el síndrome antifosfolípidos."
+  },
+  {
+   "id": "b011",
+   "t": 147.99,
+   "dur": 5.66,
+   "say": "Y la quinta, la etiología indeterminada o criptogénica, cuando el estudio no encuentra la causa."
+  },
+  {
+   "id": "b012",
+   "t": 154.7,
+   "dur": 12.91,
+   "say": "Ahora, la clínica según el territorio, porque el examen te describe un paciente y te pregunta qué arteria es. La cerebral media da una hemiparesia y hemihipoestesia contralateral de predominio faciobraquial: cara y brazo más que pierna."
+  },
+  {
+   "id": "b013",
+   "t": 168.06,
+   "dur": 3.17,
+   "say": "Con desviación de la mirada hacia el lado de la lesión."
+  },
+  {
+   "id": "b014",
+   "t": 171.68,
+   "dur": 15.07,
+   "say": "Y la clave es la corteza. Si es el hemisferio dominante, afasia: de Broca, de Wernicke o global. Si es el no dominante, negligencia del hemiespacio y asomatognosia. Retén esto: la afasia te dice que la lesión es cortical."
+  },
+  {
+   "id": "b015",
+   "t": 187.2,
+   "dur": 4.99,
+   "say": "La cerebral anterior es al revés: la paresia es crural, la pierna más que el brazo."
+  },
+  {
+   "id": "b016",
+   "t": 192.65,
+   "dur": 10.61,
+   "say": "Y como irriga el lóbulo frontal, da abulia, mutismo acinético, reflejos arcaicos, incontinencia urinaria de origen frontal, apraxia de la marcha y pérdida de la inhibición social."
+  },
+  {
+   "id": "b017",
+   "t": 203.7,
+   "dur": 7.78,
+   "say": "La cerebral posterior irriga el lóbulo occipital, así que su signo es visual: una hemianopsia homónima contralateral con preservación macular."
+  },
+  {
+   "id": "b018",
+   "t": 211.93,
+   "dur": 7.32,
+   "say": "Puede dar alexia sin agrafia, agnosia visual, desorientación topográfica, y amnesia anterógrada si compromete el hipocampo."
+  },
+  {
+   "id": "b019",
+   "t": 220.3,
+   "dur": 11.57,
+   "say": "La circulación vertebrobasilar irriga el tronco y el cerebelo. Su sello es el síndrome cruzado: un par craneal afectado del mismo lado de la lesión, y una hemiparesia o hemihipoestesia del lado contrario."
+  },
+  {
+   "id": "b020",
+   "t": 232.32,
+   "dur": 7.58,
+   "say": "Se acompaña de vértigo central, ataxia severa, diplopía, disfagia y disartria, y la conciencia puede fluctuar hasta el coma."
+  },
+  {
+   "id": "b021",
+   "t": 240.35,
+   "dur": 10.18,
+   "say": "Y el infarto lacunar, el de pequeño vaso, da síndromes puros. El más típico es la hemiparesia motora pura, por una laguna en el brazo posterior de la cápsula interna."
+  },
+  {
+   "id": "b022",
+   "t": 250.98,
+   "dur": 8.09,
+   "say": "O un síndrome sensitivo puro, por una laguna en el tálamo. También existen la ataxia con hemiparesia y la disartria con mano torpe."
+  },
+  {
+   "id": "b023",
+   "t": 259.52,
+   "dur": 15.02,
+   "say": "Y fíjate en lo que no tiene, porque es lo que el examen usa para que lo reconozcas: no hay afasia, ni hemianopsia, ni negligencia. La laguna es profunda y no toca la corteza. Una hemiparesia pura, sin trastorno del lenguaje ni sensitivo, es lacunar."
+  },
+  {
+   "id": "b024",
+   "t": 275.59,
+   "dur": 23.06,
+   "say": "Cuando la lesión es del hemisferio dominante, el lenguaje se examina con cuatro preguntas: fluencia, comprensión, repetición y denominación. Con eso clasificas. La afasia de Broca es frontal inferior, rama superior de la cerebral media. Habla poco, con esfuerzo y telegráfica, entiende bien y el paciente sabe que no le sale: está frustrado. Suele tener hemiparesia derecha."
+  },
+  {
+   "id": "b025",
+   "t": 299.1,
+   "dur": 17.64,
+   "say": "La de Wernicke es temporal posterior, rama inferior de la cerebral media. Habla fluido, abundante, con jerga y parafasias, pero no entiende y no se da cuenta. Casi no tiene hemiparesia, así que lo pueden confundir con un cuadro psiquiátrico o con un delirium. Esa trampa se pregunta."
+  },
+  {
+   "id": "b026",
+   "t": 317.19,
+   "dur": 6.48,
+   "say": "En la de conducción se lesiona el fascículo arqueado. Habla fluido y entiende, pero no logra repetir."
+  },
+  {
+   "id": "b027",
+   "t": 324.12,
+   "dur": 7.08,
+   "say": "La global es la oclusión del tronco de la cerebral media o de la carótida interna: no habla, no entiende, y hay hemiplejía."
+  },
+  {
+   "id": "b028",
+   "t": 331.65,
+   "dur": 8.16,
+   "say": "En la anómica falla solo la denominación. Localiza poco, porque también aparece en las demencias y al recuperarse de otras afasias."
+  },
+  {
+   "id": "b029",
+   "t": 340.26,
+   "dur": 14.64,
+   "say": "Y en las transcorticales la repetición está conservada. Son infartos en zonas frontera, por hipoperfusión. Distingue siempre la afasia de la disartria: en la disartria solo se altera la articulación, y el contenido y la gramática son normales."
+  },
+  {
+   "id": "b030",
+   "t": 355.95,
+   "dur": 13.3,
+   "say": "La apraxia es no poder ejecutar un movimiento aprendido, aunque la fuerza, la sensibilidad y la comprensión estén normales. La ideomotora, la más común, es parietal izquierda: no puede imitar el gesto de peinarse o de saludar."
+  },
+  {
+   "id": "b031",
+   "t": 369.7,
+   "dur": 9.74,
+   "say": "La agnosia es no reconocer un estímulo con la sensación primaria intacta. Puede ser visual, de rostros, que es la prosopagnosia, o táctil, con astereognosia."
+  },
+  {
+   "id": "b032",
+   "t": 379.89,
+   "dur": 9.43,
+   "say": "La heminegligencia es parietal derecha. El paciente ignora su hemicuerpo izquierdo, no se afeita ese lado y minimiza su enfermedad, lo que se llama anosognosia."
+  },
+  {
+   "id": "b033",
+   "t": 389.78,
+   "dur": 8.02,
+   "say": "Y el síndrome de Gerstmann, del giro angular izquierdo, suma agrafia, acalculia, agnosia de los dedos y confusión entre derecha e izquierda."
+  },
+  {
+   "id": "b034",
+   "t": 398.24,
+   "dur": 10.92,
+   "say": "La conducta no cambia. Un déficit cortical de inicio súbito, con hora conocida, es código ACV: TAC sin contraste, angioTAC y evaluación inmediata para reperfundir."
+  },
+  {
+   "id": "b035",
+   "t": 409.61,
+   "dur": 8.45,
+   "say": "Ojo: un NIHSS bajo no descarta una discapacidad importante. Una afasia o una negligencia puntúan poco en la escala, pero incapacitan."
+  },
+  {
+   "id": "b036",
+   "t": 418.51,
+   "dur": 15.12,
+   "say": "Si se instala en semanas o meses, piensa en tumor, absceso o enfermedad neurodegenerativa. Y siempre descarta lo reversible: hipoglicemia, afasia postictal y delirium. Después, fonoaudiología, que rinde más si parte en las primeras semanas."
+  },
+  {
+   "id": "b037",
+   "t": 434.68,
+   "dur": 10.94,
+   "say": "Veamos cómo se reconoce. Fuera del hospital se usa la escala de Cincinnati, o FAST: asimetría facial, un brazo que cae al elevarlo, y el habla alterada, con disartria o afasia."
+  },
+  {
+   "id": "b038",
+   "t": 446.07,
+   "dur": 6.89,
+   "say": "Un solo signo ya da una probabilidad de ataque cerebrovascular de setenta y dos por ciento, y los tres, de ochenta y cinco."
+  },
+  {
+   "id": "b039",
+   "t": 453.41,
+   "dur": 14.14,
+   "say": "En urgencias el déficit se cuantifica con la escala NIHSS, del Instituto Nacional de Salud de Estados Unidos, que va de cero a cuarenta y dos puntos. Evalúa conciencia, mirada, campos visuales, fuerza, sensibilidad, lenguaje y negligencia."
+  },
+  {
+   "id": "b040",
+   "t": 468,
+   "dur": 9.29,
+   "say": "Bajo cinco es un ataque cerebrovascular menor. Entre cinco y quince es moderado, con mucha penumbra que salvar: el candidato prioritario a trombolisis."
+  },
+  {
+   "id": "b041",
+   "t": 477.74,
+   "dur": 13.15,
+   "say": "Con dieciséis o más, sospechas una oclusión de gran vaso, como la carótida terminal o el primer segmento de la cerebral media. Y sobre veintiuno es un infarto grave, con mortalidad sobre el cuarenta por ciento y riesgo de edema y herniación."
+  },
+  {
+   "id": "b042",
+   "t": 491.94,
+   "dur": 12.86,
+   "say": "Ahora el examen. Frente a un déficit focal agudo, el examen de elección es el TAC de encéfalo sin contraste, y tiene que estar hecho e informado en treinta minutos o menos desde el ingreso. Esa es la garantía GES."
+  },
+  {
+   "id": "b043",
+   "t": 505.25,
+   "dur": 15.14,
+   "say": "Y lo más importante es entender para qué lo pides. En las primeras horas, el objetivo del TAC no es ver el infarto: es descartar sangre. Si hay hemorragia, el trombolítico queda prohibido, y es otro tema, que vemos en la clase de hemorragia intracerebral."
+  },
+  {
+   "id": "b044",
+   "t": 520.85,
+   "dur": 14.16,
+   "say": "Si no hay sangre, fíjate en esto: el TAC es normal en hasta el sesenta o setenta por ciento de los infartos en las primeras horas. Un TAC normal no descarta el infarto. Al contrario, confirma que es isquémico y que puedes trombolizar."
+  },
+  {
+   "id": "b045",
+   "t": 535.46,
+   "dur": 16.2,
+   "say": "A veces se ven signos precoces sutiles: borramiento del núcleo lenticular, pérdida del ribete insular, surcos borrados, o la arteria cerebral media hiperdensa, que es el trombo mismo. El score ASPECTS, de cero a diez, mide cuánto territorio de la cerebral media ya está comprometido."
+  },
+  {
+   "id": "b046",
+   "t": 552.11,
+   "dur": 8.66,
+   "say": "Y con un NIHSS de seis o más, se agrega de inmediato una AngioTAC de cerebro y cuello, para buscar una oclusión de gran vaso que se pueda sacar con trombectomía."
+  },
+  {
+   "id": "b047",
+   "t": 561.22,
+   "dur": 7.7,
+   "say": "La trampa es esperar una resonancia magnética. Ve más, pero demora, y cada minuto de demora es penumbra que se pierde."
+  },
+  {
+   "id": "b048",
+   "t": 569.97,
+   "dur": 8.35,
+   "say": "Pasemos al tratamiento. La trombolisis intravenosa está indicada en todo ataque cerebrovascular isquémico con un déficit discapacitante."
+  },
+  {
+   "id": "b049",
+   "t": 578.78,
+   "dur": 14.11,
+   "say": "Y dentro de una ventana estricta de hasta cuatro horas y media. Ojo con cómo se cuenta: desde el inicio de los síntomas, o desde la última vez que el paciente fue visto asintomático. Si despertó con el déficit, la hora que cuenta es cuando se acostó."
+  },
+  {
+   "id": "b050",
+   "t": 593.34,
+   "dur": 9.22,
+   "say": "El primer fármaco es la alteplase: cero coma nueve miligramos por kilo, con un máximo de noventa miligramos. El diez por ciento va en bolo en un minuto."
+  },
+  {
+   "id": "b051",
+   "t": 603,
+   "dur": 9.82,
+   "say": "Y el noventa por ciento restante, en infusión durante sesenta minutos. Si durante la infusión aparece cefalea intensa, náuseas o cae el Glasgow, se suspende."
+  },
+  {
+   "id": "b052",
+   "t": 613.27,
+   "dur": 7.94,
+   "say": "El segundo es la tenecteplase: cero coma veinticinco miligramos por kilo, máximo veinticinco, en un bolo único de cinco a diez segundos."
+  },
+  {
+   "id": "b053",
+   "t": 621.66,
+   "dur": 9.43,
+   "say": "Tiene más afinidad por la fibrina y vida media más larga. Como es un solo bolo, es más rápida, y por eso se prefiere cuando el paciente va a ir a trombectomía."
+  },
+  {
+   "id": "b054",
+   "t": 632.15,
+   "dur": 12.48,
+   "say": "Antes de trombolizar hay un requisito que se pregunta mucho: la presión tiene que estar bajo ciento ochenta y cinco de sistólica y bajo ciento diez de diastólica. Si está más alta, primero la bajas, y recién ahí partes."
+  },
+  {
+   "id": "b055",
+   "t": 645.08,
+   "dur": 11.86,
+   "say": "Y después, se mantiene bajo ciento ochenta sobre ciento cinco durante las primeras veinticuatro horas. La razón es simple: con un trombolítico y presión alta, el riesgo es transformar el infarto en una hemorragia."
+  },
+  {
+   "id": "b056",
+   "t": 657.38,
+   "dur": 6.79,
+   "say": "Para bajarla se usa labetalol endovenoso, en bolos de diez a veinte miligramos repetibles, o nicardipino endovenoso."
+  },
+  {
+   "id": "b057",
+   "t": 664.62,
+   "dur": 6.77,
+   "say": "Y las contraindicaciones absolutas. Cualquier hemorragia intracraneal previa, en cualquier momento de la vida."
+  },
+  {
+   "id": "b058",
+   "t": 671.84,
+   "dur": 6.86,
+   "say": "Un traumatismo encefalocraneano grave o una cirugía craneoespinal en los últimos tres meses, o un sangrado interno activo."
+  },
+  {
+   "id": "b059",
+   "t": 679.16,
+   "dur": 10.61,
+   "say": "Una diátesis hemorrágica: plaquetas bajo cien mil, INR sobre uno coma siete o TTPA prolongado, o un anticoagulante oral directo en las últimas cuarenta y ocho horas con pruebas alteradas."
+  },
+  {
+   "id": "b060",
+   "t": 690.21,
+   "dur": 10.9,
+   "say": "Y un infarto extenso ya establecido, de más de un tercio del territorio de la cerebral media, o con ASPECTS bajo seis. Ahí ya no queda penumbra que salvar, y sí mucho riesgo de sangrar."
+  },
+  {
+   "id": "b061",
+   "t": 702.16,
+   "dur": 15.07,
+   "say": "La trombectomía mecánica es sacar el trombo con un catéter, por vía femoral o radial, con un stent retriever o por aspiración. Pero solo sirve si hay una oclusión de gran vaso: la carótida interna terminal o el primer segmento de la cerebral media, lo que te mostró la AngioTAC."
+  },
+  {
+   "id": "b062",
+   "t": 717.68,
+   "dur": 10.42,
+   "say": "La ventana estándar es de cero a seis horas, en mayores de dieciocho años, con NIHSS de seis o más, ASPECTS de seis o más, y un paciente que antes era independiente, con Rankin de cero a uno."
+  },
+  {
+   "id": "b063",
+   "t": 728.55,
+   "dur": 13.94,
+   "say": "Y existe una ventana extendida, de seis a veinticuatro horas, en pacientes seleccionados con neuroimagen avanzada según los ensayos DAWN y DEFUSE tres. Lo que se busca es el mismatch: un núcleo pequeño y una penumbra grande que todavía se puede salvar."
+  },
+  {
+   "id": "b064",
+   "t": 742.94,
+   "dur": 7.2,
+   "say": "Eso se hace en un centro terciario de referencia, así que tu rol como médico general es reconocer al candidato y derivarlo sin demora."
+  },
+  {
+   "id": "b065",
+   "t": 750.59,
+   "dur": 14.06,
+   "say": "Y aquí está el principio que el examen pregunta. Si el paciente es candidato a trombolisis y además tiene una oclusión de gran vaso, se tromboliza de inmediato y, en paralelo, se coordina el traslado a trombectomía. Eso es la terapia puente."
+  },
+  {
+   "id": "b066",
+   "t": 765.11,
+   "dur": 7.18,
+   "say": "La trampa es no dar el trombolítico mientras se decide el traslado. Jamás se demora el trombolítico esperando a hemodinamia."
+  },
+  {
+   "id": "b067",
+   "t": 773.33,
+   "dur": 21.38,
+   "say": "El paciente se hospitaliza en una unidad de tratamiento del ataque cerebral, la UTAC, que reduce la morbimortalidad en más de un veinticinco por ciento. Y ahora cambia la regla de la presión. Si el paciente no fue trombolizado, se tolera la hipertensión: solo se trata sobre doscientos veinte sobre ciento veinte, o si hay un infarto al miocardio, una disección aórtica o falla cardíaca."
+  },
+  {
+   "id": "b068",
+   "t": 795.17,
+   "dur": 11.9,
+   "say": "Y si hay que bajarla, como máximo un quince por ciento en veinticuatro horas. ¿Por qué? Porque la penumbra vive de la presión de las colaterales. Si la bajas bruscamente, la matas."
+  },
+  {
+   "id": "b069",
+   "t": 807.52,
+   "dur": 6,
+   "say": "Además, glicemia entre setenta y ciento ochenta, evitando tanto la hipoglicemia como la hiperglicemia."
+  },
+  {
+   "id": "b070",
+   "t": 813.97,
+   "dur": 9.17,
+   "say": "Normotermia, con paracetamol si pasa de treinta y siete y medio, porque la fiebre duplica el daño neuronal. Y saturación sobre noventa y cuatro por ciento."
+  },
+  {
+   "id": "b071",
+   "t": 823.59,
+   "dur": 14.18,
+   "say": "Aspirina, doscientos cincuenta miligramos oral en las primeras veinticuatro a cuarenta y ocho horas. Pero la regla de oro: si el paciente recibió trombolisis, la aspirina se posterga veinticuatro horas, y solo se inicia después de un TAC de control sin sangre."
+  },
+  {
+   "id": "b072",
+   "t": 838.22,
+   "dur": 15.94,
+   "say": "En el infarto menor, con NIHSS de tres o menos, no cardioembólico, va doble antiagregación: aspirina cien más clopidogrel setenta y cinco, con carga de trescientos, por veintiún días, y luego monoterapia. Lo retomamos en la próxima clase, con el ataque isquémico transitorio."
+  },
+  {
+   "id": "b073",
+   "t": 854.61,
+   "dur": 4.82,
+   "say": "Y atorvastatina ochenta miligramos precoz, independiente del colesterol basal."
+  },
+  {
+   "id": "b074",
+   "t": 860.48,
+   "dur": 18.74,
+   "say": "En el centro del infarto, el núcleo, el flujo cae bajo diez y las neuronas mueren en minutos. Alrededor queda la penumbra, con flujo entre diez y veinte: neuronas silentes pero vivas. Si no se reabre la arteria, el núcleo crece a costa de la penumbra. La trombólisis y la trombectomía buscan rescatarla."
+  },
+  {
+   "id": "b075",
+   "t": 882.68,
+   "dur": 7.97,
+   "say": "La primera tomografía suele ser casi normal. Un signo precoz es la arteria cerebral media blanca: es el trombo dentro de ella."
+  },
+  {
+   "id": "b076",
+   "t": 891.1,
+   "dur": 5.02,
+   "say": "Días después, el infarto se ve oscuro, en el territorio de la arteria ocluida."
+  },
+  {
+   "id": "b077",
+   "t": 896.57,
+   "dur": 11.5,
+   "say": "Y la angiotomografía muestra la oclusión de un gran vaso: en la flecha, la arteria cerebral media se corta, mientras la del otro lado sigue ramificándose. Ese paciente es candidato a trombectomía."
+  },
+  {
+   "id": "b078",
+   "t": 909.11,
+   "dur": 7.08,
+   "say": "Mira esta imagen: territorios vasculares. Fíjate en cómo se ve, porque así puede aparecer en el examen."
+  },
+  {
+   "id": "b079",
+   "t": 917.24,
+   "dur": 5.95,
+   "say": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en urgencias y en el examen."
+  },
+  {
+   "id": "b080",
+   "t": 923.64,
+   "dur": 9.98,
+   "say": "Paciente con un déficit neurológico focal de inicio súbito. Es una emergencia tiempo-dependiente, y se pide un TAC sin contraste, informado en treinta minutos o menos."
+  },
+  {
+   "id": "b081",
+   "t": 934.08,
+   "dur": 3.82,
+   "say": "La primera pregunta no es si hay infarto, sino si hay sangre."
+  },
+  {
+   "id": "b082",
+   "t": 938.34,
+   "dur": 6.96,
+   "say": "Si hay sangre, es un ataque cerebrovascular hemorrágico. El trombolítico está prohibido y el manejo es otro."
+  },
+  {
+   "id": "b083",
+   "t": 945.75,
+   "dur": 8.5,
+   "say": "Si no hay sangre, es isquémico, aunque el TAC sea normal. Ahora manda el reloj: ¿cuánto tiempo pasó desde la última vez que se le vio bien?"
+  },
+  {
+   "id": "b084",
+   "t": 954.7,
+   "dur": 16.97,
+   "say": "Dentro de cuatro horas y media, trombolisis intravenosa con alteplase o tenecteplase, con la presión bajo ciento ochenta y cinco sobre ciento diez. Si la AngioTAC muestra una oclusión de gran vaso, se traslada a trombectomía en paralelo: terapia puente. La aspirina espera veinticuatro horas."
+  },
+  {
+   "id": "b085",
+   "t": 972.12,
+   "dur": 5.64,
+   "say": "Fuera de la ventana del trombolítico, la pregunta es si hay una oclusión de gran vaso en la AngioTAC."
+  },
+  {
+   "id": "b086",
+   "t": 978.21,
+   "dur": 7.94,
+   "say": "Si la hay, se deriva a trombectomía: estándar hasta las seis horas, y hasta las veinticuatro en pacientes seleccionados con mismatch en la perfusión."
+  },
+  {
+   "id": "b087",
+   "t": 986.6,
+   "dur": 9.67,
+   "say": "Si no, hospitalización en la UTAC con aspirina doscientos cincuenta, estatina, e hipertensión permisiva: solo se baja la presión sobre doscientos veinte sobre ciento veinte."
+  },
+  {
+   "id": "b088",
+   "t": 997.32,
+   "dur": 9.02,
+   "say": "Repasemos las trampas. Déficit focal súbito: TAC sin contraste en treinta minutos o menos. El error es esperar una resonancia."
+  },
+  {
+   "id": "b089",
+   "t": 1006.8,
+   "dur": 7.32,
+   "say": "TAC normal a las dos horas: eso no descarta el infarto, confirma que no hay sangre. La conducta es trombolizar."
+  },
+  {
+   "id": "b090",
+   "t": 1014.57,
+   "dur": 8.74,
+   "say": "Candidato a trombolisis con presión de doscientos sobre ciento quince: primero labetalol hasta bajar de ciento ochenta y cinco sobre ciento diez, y luego se tromboliza."
+  },
+  {
+   "id": "b091",
+   "t": 1023.75,
+   "dur": 8.57,
+   "say": "En cambio, en el paciente no trombolizado con ciento noventa sobre cien, no se toca la presión. El error es normalizarla y matar la penumbra."
+  },
+  {
+   "id": "b092",
+   "t": 1032.77,
+   "dur": 5.02,
+   "say": "Si ya recibió trombolítico, la aspirina espera veinticuatro horas y un TAC de control."
+  },
+  {
+   "id": "b093",
+   "t": 1038.24,
+   "dur": 6.72,
+   "say": "Y con una oclusión de gran vaso en un candidato a trombolisis: terapia puente, trombolizar y trasladar, sin esperar."
+  },
+  {
+   "id": "b094",
+   "t": 1045.41,
+   "dur": 8.35,
+   "say": "En la clínica, la hemiparesia pura sin afasia ni trastorno sensitivo es lacunar. Si hubiera afasia, pensarías en la cerebral media."
+  },
+  {
+   "id": "b095",
+   "t": 1054.21,
+   "dur": 9.17,
+   "say": "Y el paciente que habla fluido pero dice cosas sin sentido, sin debilidad: es una afasia de Wernicke, un infarto temporal, no un cuadro psiquiátrico ni un delirium."
+  },
+  {
+   "id": "b096",
+   "t": 1064.43,
+   "dur": 18.31,
+   "say": "Vamos con un caso. Hombre de sesenta y siete años, hipertenso. Hace noventa minutos presentó de golpe afasia y hemiparesia derecha, con un NIHSS de trece. Su presión es de doscientos cinco sobre ciento quince, la glicemia normal, y el TAC sin contraste, informado a los veinticinco minutos, es normal."
+  },
+  {
+   "id": "b097",
+   "t": 1083.19,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b098",
+   "t": 1086.04,
+   "dur": 11.9,
+   "say": "Las opciones: alteplase de inmediato, labetalol hasta bajar de ciento ochenta y cinco sobre ciento diez y luego trombolisis, no tocar la presión, aspirina y UTAC, o pedir una resonancia. Piénsalo."
+  },
+  {
+   "id": "b100",
+   "t": 1101.59,
+   "dur": 22.2,
+   "say": "Es la B. Está en ventana, el TAC no muestra sangre y el déficit es importante: es candidato a trombolisis. Pero con doscientos cinco sobre ciento quince no puedes partir; primero bajas la presión con labetalol. La C es la trampa: la hipertensión permisiva es para el que no se tromboliza. Y la A olvida el requisito de la presión, que es justamente lo que evita la hemorragia."
+  },
+  {
+   "id": "b101",
+   "t": 1124.84,
+   "dur": 16.49,
+   "say": "Ahora preguntas reales. Esta es del EUNACOM de julio de dos mil diecinueve. Paciente de sesenta y siete años con hemiparesia derecha de inicio súbito hace dos horas, con dificultad para hablar. Tiene hemiparesia faciobraquiocrural derecha y afasia, y su TAC de cerebro es normal."
+  },
+  {
+   "id": "b102",
+   "t": 1141.78,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b103",
+   "t": 1144.63,
+   "dur": 8.52,
+   "say": "Las opciones: anticoagular con heparina, antiagregantes, resonancia magnética, embolectomía, o trombolisis. Piénsalo."
+  },
+  {
+   "id": "b105",
+   "t": 1156.8,
+   "dur": 21.22,
+   "say": "Es la E, trombolisis. El TAC normal no te dice que no hay infarto: te dice que no hay sangre. Con dos horas de evolución, está dentro de la ventana de cuatro horas y media. La C es el distractor tentador, porque la resonancia ve mejor el infarto, pero demora y no cambia la conducta. Y los antiagregantes llegan después, no antes del trombolítico."
+  },
+  {
+   "id": "b106",
+   "t": 1179.07,
+   "dur": 13.03,
+   "say": "Cerremos con las reglas de oro. Frente a un déficit focal súbito, TAC sin contraste en treinta minutos o menos. Su objetivo es descartar sangre, y un TAC normal no descarta el infarto: te autoriza a trombolizar."
+  },
+  {
+   "id": "b107",
+   "t": 1192.55,
+   "dur": 6.46,
+   "say": "En la clínica, la afasia te lleva a la corteza y a la cerebral media; la hemiparesia pura, a una laguna."
+  },
+  {
+   "id": "b108",
+   "t": 1199.46,
+   "dur": 6.72,
+   "say": "La trombolisis va hasta las cuatro horas y media, con la presión bajo ciento ochenta y cinco sobre ciento diez antes de partir."
+  },
+  {
+   "id": "b109",
+   "t": 1206.63,
+   "dur": 8.26,
+   "say": "Si hay una oclusión de gran vaso, trombectomía hasta las seis horas, o hasta veinticuatro con mismatch, y sin demorar el trombolítico: terapia puente."
+  },
+  {
+   "id": "b110",
+   "t": 1215.33,
+   "dur": 5.28,
+   "say": "Si no se tromboliza, hipertensión permisiva hasta doscientos veinte sobre ciento veinte."
+  },
+  {
+   "id": "b111",
+   "t": 1221.06,
+   "dur": 12.94,
+   "say": "Y la aspirina espera veinticuatro horas si hubo trombolítico. Si te llevas una sola idea de hoy: descarta sangre con el TAC, mira el reloj, y cuida la presión según si trombolizas o no. Nos vemos en la próxima clase."
+  }
+ ]
+}

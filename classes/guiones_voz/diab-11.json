@@ -1,0 +1,331 @@
+{
+ "id": "diab-11",
+ "title": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+ "total": 651.9839999999999,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 22.78,
+   "say": "Bienvenidos al bloque de insulinoterapia. Hoy vemos los tipos de insulina y cuándo se inicia en la diabetes tipo dos. Parece un tema de memoria, con tablas de horas, pero en el examen se usa para razonar: por qué un paciente hace una hipoglicemia a las tres de la mañana, o qué insulina corrige una glicemia después de comer. Y sobre todo, en qué momento dejamos de agregar pastillas y pasamos a la insulina."
+  },
+  {
+   "id": "b002",
+   "t": 29.63,
+   "dur": 8.52,
+   "say": "Partamos por la lógica. La insulina que indicamos intenta imitar lo que hace un páncreas sano, y el páncreas secreta insulina de dos maneras."
+  },
+  {
+   "id": "b003",
+   "t": 38.6,
+   "dur": 12.41,
+   "say": "La primera es un fondo constante, de día y de noche, que frena al hígado para que no libere glucosa. Eso lo imitan las insulinas basales: la NPH y los análogos de acción prolongada, como glargina y degludec."
+  },
+  {
+   "id": "b004",
+   "t": 51.45,
+   "dur": 11.5,
+   "say": "La segunda es un pulso cada vez que comemos. Eso lo imitan las insulinas prandiales: la cristalina, también llamada regular, y los análogos ultrarrápidos, como lispro, aspart o glulisina."
+  },
+  {
+   "id": "b005",
+   "t": 63.4,
+   "dur": 12.24,
+   "say": "Y de aquí sale una regla que usarás en toda la unidad: la basal controla la glicemia de ayuno; la prandial controla la glicemia después de la comida que cubre. Si sabes qué glicemia está alta, sabes qué insulina tocar."
+  },
+  {
+   "id": "b006",
+   "t": 76.69,
+   "dur": 13.3,
+   "say": "La NPH es la insulina basal clásica, la que más vas a usar en atención primaria. Es de acción intermedia: empieza a actuar en una a dos horas, tiene un peak marcado entre las cuatro y las diez horas, y dura de doce a dieciocho horas."
+  },
+  {
+   "id": "b007",
+   "t": 90.44,
+   "dur": 11.35,
+   "say": "Y ese peak es su punto débil. Es marcado y poco predecible, y es la principal causa de hipoglicemia nocturna cuando se inyecta en el momento equivocado. Lo vemos en detalle en un momento."
+  },
+  {
+   "id": "b008",
+   "t": 102.24,
+   "dur": 8.4,
+   "say": "Los análogos basales, como glargina y degludec, se absorben lento y no tienen un peak pronunciado. Se dice que tienen un perfil plano."
+  },
+  {
+   "id": "b009",
+   "t": 111.09,
+   "dur": 11.16,
+   "say": "Se inyectan una vez al día, a la misma hora, y duran veinticuatro horas o más; la degludec llega hasta cuarenta y dos. Como no tienen peak, reducen mucho el riesgo de hipoglicemia nocturna."
+  },
+  {
+   "id": "b010",
+   "t": 123.3,
+   "dur": 8.52,
+   "say": "La insulina cristalina, o regular, empieza a actuar entre treinta y sesenta minutos, hace su peak a las dos o tres horas y dura de seis a ocho horas."
+  },
+  {
+   "id": "b011",
+   "t": 132.27,
+   "dur": 13.73,
+   "say": "Como demora en partir, se inyecta treinta minutos antes de comer. Y tiene un dato que se pregunta: es la única insulina que se puede administrar por vía endovenosa, en bomba de infusión, como en la cetoacidosis o en la unidad de cuidados intensivos."
+  },
+  {
+   "id": "b012",
+   "t": 146.45,
+   "dur": 7.18,
+   "say": "Los análogos ultrarrápidos empiezan en diez a quince minutos, hacen su peak alrededor de la hora y duran de tres a cinco horas."
+  },
+  {
+   "id": "b013",
+   "t": 154.07,
+   "dur": 10.82,
+   "say": "Por eso se inyectan justo antes de comer, o incluso inmediatamente después. Esa es la diferencia práctica con la cristalina: una se pone media hora antes, la otra al sentarse a la mesa."
+  },
+  {
+   "id": "b014",
+   "t": 165.95,
+   "dur": 15.36,
+   "say": "Ahora usemos la farmacocinética. Si la NPH se inyecta con la cena, a las ocho de la noche, y su peak llega entre cuatro y diez horas después, cae justo en la madrugada, entre las dos y las cuatro. Y esa es la hora en que la glicemia fisiológica está más baja."
+  },
+  {
+   "id": "b015",
+   "t": 181.76,
+   "dur": 7.75,
+   "say": "Resultado: hipoglicemia nocturna. El paciente despierta con sudoración, temblor y palpitaciones a las tres de la mañana."
+  },
+  {
+   "id": "b016",
+   "t": 189.96,
+   "dur": 13.27,
+   "say": "La solución no es suspender la NPH. Es moverla: inyectarla al acostarse, entre las diez y las once de la noche. El peak se corre hacia las seis a ocho de la mañana, justo cuando el paciente despierta y toma desayuno."
+  },
+  {
+   "id": "b017",
+   "t": 203.68,
+   "dur": 12.5,
+   "say": "Así controla el ayuno sin producir hipoglicemia. Por eso la NPH nocturna siempre se indica al acostarse. Es una pregunta clásica: te dan la hora de la inyección y la hora de los síntomas, y tú sumas."
+  },
+  {
+   "id": "b018",
+   "t": 217.23,
+   "dur": 9.67,
+   "say": "Pasemos a la otra mitad de la clase: cuándo se inicia insulina en un diabético tipo dos. Hay cinco escenarios, y el examen pregunta sobre todo los dos primeros."
+  },
+  {
+   "id": "b019",
+   "t": 227.36,
+   "dur": 19.39,
+   "say": "El primero es la descompensación catabólica: hemoglobina glicosilada de nueve a diez por ciento o más, glicemias de ayuno sobre doscientos cincuenta a trescientos, poliuria, polidipsia, baja de peso involuntaria o cetonuria. Ese paciente está perdiendo peso porque le falta insulina, y la respuesta es darle insulina, aunque sea obeso y aunque recién debute."
+  },
+  {
+   "id": "b020",
+   "t": 247.2,
+   "dur": 13.78,
+   "say": "El segundo es la falla secundaria: un paciente con dos o tres orales a dosis óptimas, por ejemplo metformina con sulfonilurea, que después de tres meses sigue con la hemoglobina glicosilada sobre su meta. Seguir sumando pastillas no es la respuesta."
+  },
+  {
+   "id": "b021",
+   "t": 261.42,
+   "dur": 12.1,
+   "say": "El tercero es cuando los orales están contraindicados: enfermedad renal con filtración bajo treinta, donde la metformina está contraindicada, o falla hepática grave. Ahí la insulina es el hipoglicemiante más seguro."
+  },
+  {
+   "id": "b022",
+   "t": 273.97,
+   "dur": 13.34,
+   "say": "El cuarto es el embarazo, como vimos en la clase de la gestante. Y el quinto, la hospitalización por un evento agudo: infarto, accidente cerebrovascular, sepsis grave, cirugía mayor, o corticoides en dosis altas."
+  },
+  {
+   "id": "b023",
+   "t": 287.76,
+   "dur": 14.64,
+   "say": "En todos, la respuesta es insulina. Y en el paciente ambulatorio se parte simple: NPH al acostarse, diez unidades o cero coma uno a cero coma dos unidades por kilo, manteniendo la metformina. El ajuste lo vemos en la próxima clase."
+  },
+  {
+   "id": "b024",
+   "t": 303.45,
+   "dur": 8.54,
+   "say": "Unos datos prácticos que también se preguntan. La insulina cerrada se guarda en el refrigerador, entre dos y ocho grados, y nunca se congela."
+  },
+  {
+   "id": "b025",
+   "t": 312.45,
+   "dur": 9.48,
+   "say": "Una vez abierto el frasco o el lápiz, puede quedar a temperatura ambiente, hasta veinticinco a treinta grados, por un máximo de veintiocho a treinta días, lejos del calor y del sol."
+  },
+  {
+   "id": "b026",
+   "t": 322.38,
+   "dur": 18.14,
+   "say": "La insulina se inyecta subcutánea en abdomen, muslos, brazos o glúteos, rotando siempre el sitio. Si el paciente pincha siempre en el mismo punto, se forma un acúmulo de grasa fibrosa: la lipohipertrofia. Mira este abdomen: ese abultamiento es una lipohipertrofia, justo donde el paciente pincha siempre."
+  },
+  {
+   "id": "b027",
+   "t": 340.97,
+   "dur": 13.03,
+   "say": "Y ahí la insulina se absorbe de forma errática, con glicemias que suben y bajan sin explicación, y que se confunden con resistencia a la insulina. Ante un control inexplicable, revisa los sitios de inyección antes de subir la dosis."
+  },
+  {
+   "id": "b028",
+   "t": 355.05,
+   "dur": 10.63,
+   "say": "La NPH tiene un peak entre las cuatro y diez horas: puesta al acostarse, cubre la madrugada, pero ese peak puede dar hipoglicemia. La glargina es casi plana durante todo el día."
+  },
+  {
+   "id": "b029",
+   "t": 366.14,
+   "dur": 10.51,
+   "say": "Las prandiales dan un pulso con cada comida. La cristalina se pone media hora antes y su peak llega a las dos o tres horas; los análogos rápidos se ponen al comer y su peak llega en una hora."
+  },
+  {
+   "id": "b030",
+   "t": 377.7,
+   "dur": 3.74,
+   "say": "Resumamos las indicaciones de inicio en un árbol de decisión."
+  },
+  {
+   "id": "b031",
+   "t": 381.89,
+   "dur": 6.79,
+   "say": "Paciente con diabetes tipo dos en control. La pregunta es si sigue con orales o si ya es momento de insulina."
+  },
+  {
+   "id": "b032",
+   "t": 389.13,
+   "dur": 7.51,
+   "say": "¿Tiene síntomas catabólicos, glicemias de ayuno sobre doscientos cincuenta a trescientos, o hemoglobina glicosilada de nueve a diez o más?"
+  },
+  {
+   "id": "b033",
+   "t": 397.1,
+   "dur": 7.18,
+   "say": "Si la respuesta es sí, insulina de entrada, sin probar otra pastilla, aunque el paciente sea obeso o recién diagnosticado."
+  },
+  {
+   "id": "b034",
+   "t": 404.72,
+   "dur": 9.34,
+   "say": "Si no hay catabolismo, ¿sigue sobre su meta tras tres meses con dos o tres orales a dosis óptimas, o tiene los orales contraindicados, como una filtración bajo treinta?"
+  },
+  {
+   "id": "b035",
+   "t": 414.51,
+   "dur": 8.88,
+   "say": "Si es así, se inicia NPH al acostarse, diez unidades o cero coma uno a cero coma dos por kilo, manteniendo la metformina si no está contraindicada."
+  },
+  {
+   "id": "b036",
+   "t": 423.84,
+   "dur": 8.9,
+   "say": "Si no, se continúa con el tratamiento oral escalonado. Pero recuerda: el embarazo y la hospitalización aguda también son indicación de insulina."
+  },
+  {
+   "id": "b037",
+   "t": 433.79,
+   "dur": 9.86,
+   "say": "Repasemos los perfiles en una tabla. Ultrarrápida: parte en diez a quince minutos y dura de tres a cinco horas. Se inyecta justo antes de comer."
+  },
+  {
+   "id": "b038",
+   "t": 444.11,
+   "dur": 7.87,
+   "say": "Cristalina: parte en media hora a una hora y dura de seis a ocho. Treinta minutos antes de comer, y es la única endovenosa."
+  },
+  {
+   "id": "b039",
+   "t": 452.43,
+   "dur": 8.3,
+   "say": "NPH: peak de cuatro a diez horas. Al acostarse, o cada doce horas. El error es ponerla con la cena."
+  },
+  {
+   "id": "b040",
+   "t": 461.18,
+   "dur": 4.46,
+   "say": "Glargina: sin peak, una vez al día, siempre a la misma hora."
+  },
+  {
+   "id": "b041",
+   "t": 466.1,
+   "dur": 5.28,
+   "say": "Y degludec: sin peak, más de veinticuatro horas, con mayor flexibilidad de horario."
+  },
+  {
+   "id": "b042",
+   "t": 472.43,
+   "dur": 20.9,
+   "say": "Vamos con un caso. Hombre de cincuenta y seis años, diabético de ocho años, con metformina y glibenclamida a dosis altas y buena adherencia. Consulta por cansancio, baja de cinco kilos en dos meses y nicturia. Tiene una glicemia de ayuno de doscientos sesenta y cuatro, hemoglobina glicosilada de diez coma cuatro, creatinina normal y orina sin cetonas."
+  },
+  {
+   "id": "b043",
+   "t": 493.78,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b044",
+   "t": 496.63,
+   "dur": 12.5,
+   "say": "Las opciones: agregar sitagliptina, NPH al acostarse manteniendo la metformina, subir la glibenclamida, insulina cristalina endovenosa, o NPH con la cena suspendiendo la metformina. Piénsalo."
+  },
+  {
+   "id": "b046",
+   "t": 512.78,
+   "dur": 27.62,
+   "say": "Es la B. Tiene dos indicaciones a la vez: falla secundaria a dos orales, y síntomas catabólicos con hemoglobina glicosilada sobre diez. Agregar otra pastilla es la trampa más tentadora, pero no alcanza. Se inicia NPH al acostarse y se mantiene la metformina. La E falla dos veces: la NPH con la cena da hipoglicemia de madrugada, y la metformina no se suspende. La cristalina endovenosa es para el hospitalizado grave, no para este paciente."
+  },
+  {
+   "id": "b047",
+   "t": 541.46,
+   "dur": 16.13,
+   "say": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Hombre de treinta y tres años, obeso, que consulta por polidipsia y baja de seis kilos en dos meses. Tiene una glicemia de ayuno de doscientos cuarenta y cinco y una hemoglobina glicosilada de nueve coma dos."
+  },
+  {
+   "id": "b048",
+   "t": 558.04,
+   "dur": 2.81,
+   "say": "¿Cuál es el tratamiento inicial más adecuado?"
+  },
+  {
+   "id": "b049",
+   "t": 561.29,
+   "dur": 7.18,
+   "say": "Las opciones: metformina, sitagliptina, insulina, liraglutide o glibenclamida. Piénsalo."
+  },
+  {
+   "id": "b051",
+   "t": 572.12,
+   "dur": 23.18,
+   "say": "Es la C, insulina. Tiene síntomas catabólicos, polidipsia y baja de peso, y una hemoglobina glicosilada sobre nueve. Eso es déficit de insulina, y se trata con insulina desde el inicio. La metformina es la trampa: el paciente es obeso y joven, y suena a diabetes tipo dos típica que parte con metformina. Pero la baja de peso te está diciendo que al páncreas ya no le alcanza."
+  },
+  {
+   "id": "b052",
+   "t": 596.35,
+   "dur": 8.98,
+   "say": "Cerremos con las reglas de oro. La NPH tiene un peak de cuatro a diez horas: con la cena da hipoglicemia de madrugada, y por eso va al acostarse."
+  },
+  {
+   "id": "b053",
+   "t": 605.78,
+   "dur": 7.82,
+   "say": "La cristalina se pone treinta minutos antes de comer; la ultrarrápida, justo antes. Y la cristalina es la única endovenosa."
+  },
+  {
+   "id": "b054",
+   "t": 614.05,
+   "dur": 7.39,
+   "say": "Se inicia insulina ante una descompensación catabólica o hemoglobina glicosilada de nueve a diez o más, aunque el paciente sea obeso."
+  },
+  {
+   "id": "b055",
+   "t": 621.9,
+   "dur": 6.41,
+   "say": "También ante la falla de dos o tres orales, la filtración bajo treinta, el embarazo y la hospitalización aguda."
+  },
+  {
+   "id": "b056",
+   "t": 628.75,
+   "dur": 17.28,
+   "say": "Y se parte con NPH al acostarse más metformina. Si te llevas una sola idea de hoy: cuando el paciente baja de peso o las pastillas ya no alcanzan, la respuesta es insulina, y la NPH va al acostarse. En la próxima clase aprendemos a ajustarla. Nos vemos en la próxima clase."
+  }
+ ]
+}

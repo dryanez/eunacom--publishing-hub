@@ -1,0 +1,493 @@
+{
+ "id": "gastro-25",
+ "title": "Cirugía Pediátrica Digestiva",
+ "total": 993.66,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 21.96,
+   "say": "Bienvenidos. Hoy vemos cirugía pediátrica digestiva: las urgencias y las malformaciones del tubo digestivo en el niño. No ha salido en los exámenes de los últimos años, pero es foco prioritario del nuevo perfil EUNACOM. Y la buena noticia es que cada diagnóstico tiene una imagen clave, un dato único que resuelve la pregunta. Hoy vamos a aprender a reconocer esas imágenes."
+  },
+  {
+   "id": "b002",
+   "t": 28.81,
+   "dur": 16.01,
+   "say": "Partamos por el recién nacido. La primera urgencia es la enterocolitis necrotizante, y el dato que la gatilla está en el paciente: es un prematuro. La prematurez es el factor de riesgo principal. Si el enunciado te dice treinta semanas, ya tienes media respuesta."
+  },
+  {
+   "id": "b003",
+   "t": 45.27,
+   "dur": 13.32,
+   "say": "Aparece en los primeros días o semanas de vida, con una tríada: retención gástrica o vómitos, distensión abdominal y hematoquecia, es decir, sangre en las deposiciones. Aprende la tríada, porque el examen la describe tal cual."
+  },
+  {
+   "id": "b004",
+   "t": 59.04,
+   "dur": 14.78,
+   "say": "El examen es la radiografía de abdomen, y aquí está la imagen clave: mira esta radiografía, con la neumatosis intestinal, que es aire dentro de la pared del intestino. Es patognomónica. Si ves aire en la pared, no hay nada más que discutir."
+  },
+  {
+   "id": "b005",
+   "t": 74.27,
+   "dur": 11.21,
+   "say": "El tratamiento es médico: régimen cero, nutrición parenteral total, sonda para descomprimir y antibióticos endovenosos. Fíjate que la neumatosis por sí sola no es indicación de operar."
+  },
+  {
+   "id": "b006",
+   "t": 85.93,
+   "dur": 17.23,
+   "say": "Lo que cambia la conducta es el neumoperitoneo, porque significa que el intestino se perforó. Ahí se opera. También se opera si hay necrosis o si el niño se deteriora pese al tratamiento médico. En resumen: aire en la pared, tratamiento médico; aire libre en el peritoneo, cirugía."
+  },
+  {
+   "id": "b007",
+   "t": 104.21,
+   "dur": 13.87,
+   "say": "Subamos un poco la edad. Si el paciente ya no es un recién nacido, sino un lactante de seis a doce meses, previamente sano, la urgencia que tienes que pensar es la invaginación intestinal: un segmento del intestino que se mete dentro del siguiente."
+  },
+  {
+   "id": "b008",
+   "t": 118.53,
+   "dur": 13.66,
+   "say": "La clínica es muy característica. Crisis de llanto inconsolable con hiperflexión de las piernas, que van y vienen. Entre una crisis y otra, el niño queda decaído. Ese ritmo intermitente es el que te pone en la pista."
+  },
+  {
+   "id": "b009",
+   "t": 132.64,
+   "dur": 14.42,
+   "say": "Y la imagen clave: deposiciones en mermelada de grosella, que es sangre mezclada con moco. A veces además palpas una masa alargada, en salchicha. Lactante, crisis de llanto y mermelada de grosella: con eso ya tienes el diagnóstico."
+  },
+  {
+   "id": "b010",
+   "t": 147.51,
+   "dur": 14.98,
+   "say": "Se confirma con ecografía abdominal. Mira esta ecografía: el signo de la dona, o de la diana, con los anillos del intestino metido dentro del intestino, vistos en corte. Y este esquema muestra el segmento que se mete en el siguiente, como un telescopio."
+  },
+  {
+   "id": "b011",
+   "t": 162.94,
+   "dur": 13.58,
+   "say": "Y aquí está lo que se pregunta. El tratamiento de primera línea no es la cirugía: es la reducción neumática, o hidrostática, guiada por imagen. Se empuja el segmento invaginado de vuelta desde abajo, con aire o con líquido."
+  },
+  {
+   "id": "b012",
+   "t": 176.97,
+   "dur": 14.21,
+   "say": "La cirugía es la última opción, y queda para tres situaciones: cuando la reducción fracasa, cuando hay perforación, o cuando sospechas una causa anatómica de fondo. Si en una alternativa te ofrecen laparotomía de entrada en un lactante estable, desconfía."
+  },
+  {
+   "id": "b013",
+   "t": 192.23,
+   "dur": 15.02,
+   "say": "Pasemos al niño que sangra. El divertículo de Meckel es un resto del conducto onfalomesentérico en el íleon. Lo importante es lo que tiene dentro: mucosa gástrica ectópica. Esa mucosa secreta ácido, ulcera el íleon vecino, y sangra."
+  },
+  {
+   "id": "b014",
+   "t": 207.71,
+   "dur": 16.56,
+   "say": "Por eso se presenta como una hemorragia digestiva baja indolora y abundante en un niño pequeño, que puede llegar pálido y taquicárdico. Como vimos en la clase de hemorragia digestiva, es la causa que hay que pensar en el niño. Y a veces se inflama y da una diverticulitis que imita una apendicitis."
+  },
+  {
+   "id": "b015",
+   "t": 224.72,
+   "dur": 12.89,
+   "say": "El examen es la cintigrafía con pertecnetato de tecnecio, que capta justamente la mucosa gástrica ectópica. La colonoscopía sale normal, porque no llega al íleon donde está el divertículo. Ojo con esa trampa."
+  },
+  {
+   "id": "b016",
+   "t": 238.05,
+   "dur": 10.39,
+   "say": "Para recordarlo, la regla de los dos: lo tiene el dos por ciento de la población, está a dos pies de la válvula ileocecal, mide dos pulgadas de largo, y se presenta hacia los dos años."
+  },
+  {
+   "id": "b017",
+   "t": 248.9,
+   "dur": 11.02,
+   "say": "El contraste son los pólipos juveniles. Aquí el paciente es un escolar sano, con rectorragia escasa e intermitente. Son hamartomas, es decir, lesiones benignas."
+  },
+  {
+   "id": "b018",
+   "t": 260.36,
+   "dur": 7.97,
+   "say": "Y el examen sí es la colonoscopía, porque el pólipo está en el colon: con ella se diagnostica y se saca en el mismo acto, con polipectomía."
+  },
+  {
+   "id": "b019",
+   "t": 269.38,
+   "dur": 10.18,
+   "say": "Ahora juntemos todo, porque el examen te va a mostrar un niño con sangre en las deposiciones y te va a pedir que elijas. Hazte dos preguntas: qué edad tiene, y si le duele."
+  },
+  {
+   "id": "b020",
+   "t": 280.01,
+   "dur": 8.66,
+   "say": "Si es un prematuro de días, distendido y con retención gástrica, es enterocolitis necrotizante, y el examen es la radiografía buscando neumatosis."
+  },
+  {
+   "id": "b021",
+   "t": 289.12,
+   "dur": 9.07,
+   "say": "Si es un lactante de seis a doce meses con crisis de llanto, es decir, con dolor, y mermelada de grosella, es invaginación, y el examen es la ecografía."
+  },
+  {
+   "id": "b022",
+   "t": 298.64,
+   "dur": 9.94,
+   "say": "Si es un niño pequeño, con un sangrado abundante y sin dolor, es un Meckel, y el examen es la cintigrafía. La ausencia de dolor es lo que lo separa de la invaginación."
+  },
+  {
+   "id": "b023",
+   "t": 309.03,
+   "dur": 10.99,
+   "say": "Y si es un escolar sano con un sangrado escaso que va y viene, es un pólipo juvenil, y se resuelve con colonoscopía. Cuatro edades, cuatro diagnósticos, cuatro exámenes distintos."
+  },
+  {
+   "id": "b024",
+   "t": 321.07,
+   "dur": 11.38,
+   "say": "Vamos ahora a las malformaciones. La primera es la atresia duodenal: el duodeno está cerrado desde el nacimiento, así que el recién nacido vomita, y vomita bilioso, desde el primer día de vida."
+  },
+  {
+   "id": "b025",
+   "t": 332.9,
+   "dur": 18.36,
+   "say": "La imagen clave es la doble burbuja en la radiografía: una burbuja de aire en el estómago y otra en el duodeno, y nada más allá. Y un dato asociado que se pregunta: el síndrome de Down. El tratamiento es quirúrgico. Mira esta radiografía: las dos burbujas de aire, una en el estómago y otra en el duodeno."
+  },
+  {
+   "id": "b026",
+   "t": 351.71,
+   "dur": 10.2,
+   "say": "La atresia esofágica es más arriba: el esófago termina en fondo de saco. Por eso el recién nacido tiene sialorrea desde el nacimiento, la saliva no tiene por dónde bajar."
+  },
+  {
+   "id": "b027",
+   "t": 362.36,
+   "dur": 4.51,
+   "say": "Y el signo clave: intentas pasar una sonda y no progresa al estómago."
+  },
+  {
+   "id": "b028",
+   "t": 367.32,
+   "dur": 11.74,
+   "say": "Y la contraparte, el vómito sin bilis: la estenosis hipertrófica del píloro, con vómitos explosivos en un lactante de pocas semanas. Mira esta ecografía: el píloro engrosado y alargado."
+  },
+  {
+   "id": "b029",
+   "t": 380.1,
+   "dur": 15.31,
+   "say": "La tercera malformación es la hernia diafragmática congénita. Hay un defecto en el diafragma, y por ese defecto las asas intestinales suben al tórax. Mira esta radiografía: el hemitórax ocupado por asas intestinales con aire, con las sondas del recién nacido."
+  },
+  {
+   "id": "b030",
+   "t": 395.87,
+   "dur": 12.84,
+   "say": "El mecanismo explica la clínica. Con el intestino ocupando el tórax, el recién nacido tiene una dificultad respiratoria grave, y al auscultarlo escuchas ruidos hidroaéreos en el tórax, donde deberías escuchar murmullo pulmonar."
+  },
+  {
+   "id": "b031",
+   "t": 409.16,
+   "dur": 9.89,
+   "say": "Y al mirar el abdomen, lo encuentras excavado, vacío, porque su contenido se fue al tórax. Distrés respiratorio con abdomen excavado: esa es la imagen clave."
+  },
+  {
+   "id": "b032",
+   "t": 419.49,
+   "dur": 8.93,
+   "say": "Aquí está la trampa. Frente a un defecto anatómico uno piensa en cirugía, pero lo urgente es intubar y ventilar. Primero el aire."
+  },
+  {
+   "id": "b033",
+   "t": 428.87,
+   "dur": 12.91,
+   "say": "La reparación quirúrgica es diferida, cuando el niño ya está estabilizado. Y no la confundas con la hernia diafragmática traumática del adulto que vimos en la clase de hiato y diafragma: esa aparece después de un trauma toracoabdominal."
+  },
+  {
+   "id": "b034",
+   "t": 442.83,
+   "dur": 9.34,
+   "say": "Ahora el recién nacido que no evacua. La imagen clave de la enfermedad de Hirschsprung es el retraso en la eliminación del meconio: más de cuarenta y ocho horas sin que salga."
+  },
+  {
+   "id": "b035",
+   "t": 452.62,
+   "dur": 16.42,
+   "say": "Después vienen la distensión abdominal, como ves en esta radiografía con las asas dilatadas, y la constipación. Conecta esto con la clase de constipación en el niño: allá dijimos que siempre hay que descartar organicidad, y la pregunta que lo descarta es justamente si hubo retraso en la eliminación del meconio."
+  },
+  {
+   "id": "b036",
+   "t": 469.49,
+   "dur": 9.7,
+   "say": "El diagnóstico se confirma con biopsia rectal, que muestra la ausencia de células ganglionares. Ese segmento sin ganglios no se relaja, y funciona como un tapón."
+  },
+  {
+   "id": "b037",
+   "t": 479.63,
+   "dur": 4.78,
+   "say": "Por eso el tratamiento es sacar ese segmento: la resección del segmento agangliónico."
+  },
+  {
+   "id": "b038",
+   "t": 484.86,
+   "dur": 12.14,
+   "say": "Y el ano imperforado, que es lo más simple de todo: se diagnostica por inspección. La lección es que al recién nacido siempre hay que examinarle el ano. Si en un caso nadie lo miró, esa es la respuesta."
+  },
+  {
+   "id": "b039",
+   "t": 498.05,
+   "dur": 12.12,
+   "say": "En la radiografía simple de abdomen se revisa el patrón de gas, los niveles hidroaéreos y el aire fuera de la luz. La doble burbuja, con estómago y duodeno distendidos y sin gas más abajo, es una atresia duodenal."
+  },
+  {
+   "id": "b040",
+   "t": 510.62,
+   "dur": 10.34,
+   "say": "La neumatosis, o el gas en la vena porta, es una enterocolitis necrotizante. El neumoperitoneo, con aire bajo el diafragma, el signo de Rigler, es una perforación."
+  },
+  {
+   "id": "b041",
+   "t": 521.42,
+   "dur": 7.03,
+   "say": "Asas dilatadas sin gas distal son una obstrucción. Y un abdomen sin gas puede ser un vólvulo o una peritonitis."
+  },
+  {
+   "id": "b042",
+   "t": 528.9,
+   "dur": 13.92,
+   "say": "La radiografía de esófago, estómago y duodeno es el examen de la anatomía, no del reflujo. Se pide de urgencia ante vómitos biliosos del recién nacido o el lactante, para descartar una malrotación con vólvulo, que es una emergencia quirúrgica."
+  },
+  {
+   "id": "b043",
+   "t": 543.27,
+   "dur": 13.97,
+   "say": "En la malrotación, el duodeno no cruza la línea media, el ángulo de Treitz queda a la derecha y el contraste dibuja un tirabuzón. Mira este estudio contrastado: el medio de contraste dibuja asas enrolladas a un lado, sin la curva normal del duodeno."
+  },
+  {
+   "id": "b044",
+   "t": 557.69,
+   "dur": 18.7,
+   "say": "En la sospecha de Hirschsprung, la enema baritada muestra un segmento distal estrecho, una zona de transición en cono y el intestino dilatado por encima, con retención del bario a las veinticuatro horas. Mira esta enema: el recto estrecho y el colon dilatado por encima. Y esta otra, de perfil, con la zona de transición entre ambos."
+  },
+  {
+   "id": "b045",
+   "t": 576.83,
+   "dur": 10.42,
+   "say": "Se hace sin preparación previa, sin enemas ni tacto, y no reemplaza a la biopsia rectal, que confirma el diagnóstico. En el íleo meconial o la atresia ileal se ve un microcolon."
+  },
+  {
+   "id": "b046",
+   "t": 588.3,
+   "dur": 13.32,
+   "say": "El megacolon es la dilatación del colon, y tiene tres escenarios. El congénito es el Hirschsprung, por una aganglionosis del segmento distal. Mira este esquema: un colon muy dilatado que termina en un segmento distal estrecho."
+  },
+  {
+   "id": "b047",
+   "t": 602.07,
+   "dur": 12,
+   "say": "El chagásico, en el adulto de zona endémica, por destrucción de los plexos del intestino. Da constipación crónica, fecaloma y vólvulo del sigmoides, que se descomprime por rectosigmoidoscopía y se opera."
+  },
+  {
+   "id": "b048",
+   "t": 614.52,
+   "dur": 21.38,
+   "say": "Y el tóxico, en la colitis ulcerosa o por Clostridioides difficile: colon transverso de más de seis centímetros, con fiebre y shock. Régimen cero, sonda nasogástrica, corticoides y antibióticos endovenosos, y cirugía si no mejora. Aquí no se hace enema baritada ni colonoscopía. Se suma la pseudoobstrucción aguda de Ogilvie en pacientes graves."
+  },
+  {
+   "id": "b049",
+   "t": 636.95,
+   "dur": 14.59,
+   "say": "El íleon se mete dentro del colon, como un telescopio, y se palpa una masa en salchicha. El lactante tiene llanto en crisis, con un ritmo intermitente, y deposiciones en mermelada de grosella. Si hay neumoperitoneo o necrosis, se opera."
+  },
+  {
+   "id": "b050",
+   "t": 659.15,
+   "dur": 3.36,
+   "say": "Ahora pongamos todo en un solo árbol de decisión."
+  },
+  {
+   "id": "b051",
+   "t": 662.96,
+   "dur": 7.97,
+   "say": "Partimos de un niño con una urgencia digestiva. Lo primero que miramos es la edad, porque cada etapa tiene sus propios diagnósticos."
+  },
+  {
+   "id": "b052",
+   "t": 671.38,
+   "dur": 3.77,
+   "say": "¿Es un recién nacido de días, o un lactante o niño mayor?"
+  },
+  {
+   "id": "b053",
+   "t": 675.6,
+   "dur": 6.74,
+   "say": "En el recién nacido, preguntamos qué predomina: distensión con sangre, vómito bilioso, o meconio que no sale."
+  },
+  {
+   "id": "b054",
+   "t": 682.79,
+   "dur": 13.37,
+   "say": "Prematuro con distensión, retención gástrica y hematoquecia: radiografía de abdomen buscando neumatosis. Es enterocolitis necrotizante: régimen cero, nutrición parenteral y antibióticos, y cirugía si hay neumoperitoneo."
+  },
+  {
+   "id": "b055",
+   "t": 696.61,
+   "dur": 8.9,
+   "say": "Vómitos biliosos desde el primer día con doble burbuja en la radiografía: atresia duodenal, asociada a síndrome de Down. Se deriva a cirugía."
+  },
+  {
+   "id": "b056",
+   "t": 705.96,
+   "dur": 9.91,
+   "say": "Si el meconio no sale en cuarenta y ocho horas, pensamos en Hirschsprung. Se confirma con biopsia rectal, sin células ganglionares, y se reseca el segmento agangliónico."
+  },
+  {
+   "id": "b057",
+   "t": 716.33,
+   "dur": 3.86,
+   "say": "En el lactante o el niño que sangra, la pregunta es si le duele."
+  },
+  {
+   "id": "b058",
+   "t": 720.64,
+   "dur": 6.24,
+   "say": "Lactante de seis a doce meses con crisis de llanto y mermelada de grosella: ecografía con signo de la dona."
+  },
+  {
+   "id": "b059",
+   "t": 727.33,
+   "dur": 8.93,
+   "say": "La primera línea es la reducción neumática o hidrostática guiada por imagen. La cirugía queda para el fracaso, la perforación o una causa anatómica."
+  },
+  {
+   "id": "b060",
+   "t": 736.71,
+   "dur": 9.89,
+   "say": "Sangrado abundante e indoloro en un niño pequeño: divertículo de Meckel. El examen es la cintigrafía con pertecnetato de tecnecio, y el tratamiento, la resección."
+  },
+  {
+   "id": "b061",
+   "t": 747.65,
+   "dur": 11.76,
+   "say": "Repasemos en una tabla. Enterocolitis necrotizante: prematuro con neumatosis en la radiografía. Régimen cero, nutrición parenteral y antibióticos, y cirugía solo si perfora."
+  },
+  {
+   "id": "b062",
+   "t": 759.86,
+   "dur": 8.98,
+   "say": "Invaginación: lactante de seis a doce meses, mermelada de grosella y signo de la dona. Reducción neumática, y cirugía solo si falla."
+  },
+  {
+   "id": "b063",
+   "t": 769.28,
+   "dur": 7.78,
+   "say": "Divertículo de Meckel: sangrado indoloro y abundante en un niño pequeño. Cintigrafía con tecnecio, y luego resección."
+  },
+  {
+   "id": "b064",
+   "t": 777.51,
+   "dur": 5.9,
+   "say": "Atresia duodenal: vómito bilioso desde el primer día y doble burbuja. Cirugía."
+  },
+  {
+   "id": "b065",
+   "t": 783.86,
+   "dur": 6.77,
+   "say": "Hirschsprung: meconio que no sale en cuarenta y ocho horas y constipación. Biopsia rectal, y resección."
+  },
+  {
+   "id": "b066",
+   "t": 791.08,
+   "dur": 8.42,
+   "say": "Y la hernia diafragmática congénita: distrés respiratorio con abdomen excavado. Primero intubar y ventilar; la cirugía, después."
+  },
+  {
+   "id": "b067",
+   "t": 799.95,
+   "dur": 9.96,
+   "say": "Y la malrotación con vólvulo: vómito bilioso y un duodeno que no cruza la línea media en la radiografía de esófago, estómago y duodeno. Es urgente, y se opera."
+  },
+  {
+   "id": "b068",
+   "t": 810.96,
+   "dur": 18.6,
+   "say": "Vamos al caso. Lactante de nueve meses, previamente sano, con episodios de llanto inconsolable y flexión de las piernas cada quince a veinte minutos, decaído entre las crisis. En el pañal hay deposiciones con sangre y moco, y la ecografía muestra el signo de la dona. Está estable y sin signos peritoneales."
+  },
+  {
+   "id": "b069",
+   "t": 830.01,
+   "dur": 2.54,
+   "say": "¿Cuál es el tratamiento de primera línea?"
+  },
+  {
+   "id": "b070",
+   "t": 833.01,
+   "dur": 12.72,
+   "say": "Las alternativas: laparotomía de urgencia, reducción neumática guiada por imagen, colonoscopía con polipectomía, régimen cero con nutrición parenteral y antibióticos, o cintigrafía con tecnecio. Piénsalo."
+  },
+  {
+   "id": "b072",
+   "t": 849.38,
+   "dur": 23.11,
+   "say": "Es la B. La edad, las crisis de llanto, la mermelada de grosella y la dona te dan la invaginación sin ninguna duda. Y la primera línea es la reducción neumática. El distractor tentador es la laparotomía, porque suena a urgencia quirúrgica, pero en un lactante estable y sin peritonitis la cirugía es la última opción. Las demás alternativas son el tratamiento de otras entidades de esta clase."
+  },
+  {
+   "id": "b073",
+   "t": 873.54,
+   "dur": 22.44,
+   "say": "Ahora una pregunta real del examen, de diciembre de dos mil veinticinco. Recién nacido de diez días, que nació prematuro a las veintisiete semanas, alimentado por sonda nasogástrica. Hace dos días tiene distensión abdominal y le aumentó la retención de la leche en la sonda. La radiografía de abdomen muestra asas dilatadas, con zonas de la pared engrosadas y burbujas de aire en algunos segmentos."
+  },
+  {
+   "id": "b074",
+   "t": 896.43,
+   "dur": 6.05,
+   "say": "Además de suspender la fórmula láctea y asegurar hidratación endovenosa, ¿cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b075",
+   "t": 902.93,
+   "dur": 11.78,
+   "say": "Las opciones: cirugía inmediata, alimentar con fórmula hidrolizada por sonda, antibióticos de amplio espectro endovenosos, endoscopía digestiva alta, o suero glucosado por boca. Piénsalo."
+  },
+  {
+   "id": "b077",
+   "t": 918.36,
+   "dur": 21.31,
+   "say": "Es la C. El cuadro completo, el prematuro, la distensión, y la imagen clave, aire en la pared intestinal, es la enterocolitis necrotizante. Ya suspendieron la alimentación y están hidratando, así que lo que falta es agregar antibióticos de amplio espectro. Nada de alimentar, por ninguna vía, y la cirugía se reserva para cuando el tratamiento médico falla o hay perforación."
+  },
+  {
+   "id": "b078",
+   "t": 940.72,
+   "dur": 8.26,
+   "say": "Cerremos con las reglas de oro. Prematuro con neumatosis es enterocolitis necrotizante: tratamiento médico, y cirugía si perfora."
+  },
+  {
+   "id": "b079",
+   "t": 949.43,
+   "dur": 4.42,
+   "say": "Vómito bilioso desde el primer día con doble burbuja es atresia duodenal."
+  },
+  {
+   "id": "b080",
+   "t": 954.3,
+   "dur": 5.11,
+   "say": "Meconio que no sale en cuarenta y ocho horas es Hirschsprung, y se confirma con biopsia rectal."
+  },
+  {
+   "id": "b081",
+   "t": 959.86,
+   "dur": 4.22,
+   "say": "Y en la hernia diafragmática congénita, primero intubar y ventilar."
+  },
+  {
+   "id": "b082",
+   "t": 964.53,
+   "dur": 7.39,
+   "say": "Lactante con crisis de llanto y mermelada de grosella es invaginación, y la primera línea es la reducción neumática, no la cirugía."
+  },
+  {
+   "id": "b083",
+   "t": 972.37,
+   "dur": 15.34,
+   "say": "Sangrado abundante y sin dolor en un niño pequeño es Meckel, y se busca con cintigrafía. Si te llevas una sola idea de hoy: en cirugía pediátrica, cada diagnóstico tiene su imagen clave, y la edad del niño te dice cuál buscar. Nos vemos en la próxima clase."
+  }
+ ]
+}

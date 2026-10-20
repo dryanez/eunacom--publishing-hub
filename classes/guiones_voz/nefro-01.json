@@ -1,0 +1,511 @@
+{
+ "id": "nefro-01",
+ "title": "Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+ "total": 1008.9240000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 20.33,
+   "say": "Bienvenidos al bloque de nefrología. Partimos con la injuria renal aguda, uno de los temas centrales de urgencia en el EUNACOM. Casi todas sus preguntas se ordenan con tres preguntas simples: ¿hay obstrucción?, ¿el túbulo está sano o dañado?, y entonces, ¿le doy volumen o se lo restrinjo? Si respondes eso, tienes el tema. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 27.18,
+   "dur": 19.15,
+   "say": "La injuria renal aguda es la caída brusca de la función renal, en horas a días, con retención de productos nitrogenados y alteraciones del agua y los electrolitos. Para llamarla así, los criterios KDIGO exigen al menos uno de tres. El primero: que la creatinina suba cero coma tres miligramos por decilitro o más en cuarenta y ocho horas."
+  },
+  {
+   "id": "b003",
+   "t": 46.78,
+   "dur": 10.39,
+   "say": "El segundo: que la creatinina llegue a una vez y media su valor basal o más, dentro de los últimos siete días. Por eso siempre vale la pena buscar una creatinina previa del paciente."
+  },
+  {
+   "id": "b004",
+   "t": 57.62,
+   "dur": 12.72,
+   "say": "Y el tercero no mira la sangre, mira la orina: una diuresis menor de medio mililitro por kilo por hora durante seis horas seguidas. Fíjate que la oliguria sola ya define la injuria, aunque la creatinina todavía no suba."
+  },
+  {
+   "id": "b005",
+   "t": 70.79,
+   "dur": 10.9,
+   "say": "Luego se estratifica en tres estadios. Estadio uno: creatinina entre una vez y media y uno coma nueve veces la basal, o el alza de cero coma tres, u oliguria de seis a doce horas."
+  },
+  {
+   "id": "b006",
+   "t": 82.14,
+   "dur": 6.17,
+   "say": "Estadio dos: creatinina entre dos y dos coma nueve veces la basal, u oliguria de doce horas o más."
+  },
+  {
+   "id": "b007",
+   "t": 88.76,
+   "dur": 10.75,
+   "say": "Y estadio tres, el más grave: creatinina tres veces la basal o más, una creatinina de cuatro o más, anuria de doce horas, o que el paciente ya haya necesitado terapia de reemplazo renal."
+  },
+  {
+   "id": "b008",
+   "t": 100.56,
+   "dur": 12.1,
+   "say": "Ahora el mecanismo, porque explica casi todas las preguntas de fármacos. Cuando cae la presión de perfusión, por deshidratación o shock, el riñón no se queda quieto: tiene dos defensas para mantener su filtración."
+  },
+  {
+   "id": "b009",
+   "t": 113.1,
+   "dur": 10.56,
+   "say": "La primera está en la entrada del glomérulo. La arteriola aferente se dilata, gracias a las prostaglandinas y al óxido nítrico, para que entre la mayor cantidad posible de sangre al ovillo."
+  },
+  {
+   "id": "b010",
+   "t": 124.11,
+   "dur": 8.62,
+   "say": "La segunda está en la salida. La arteriola eferente se contrae, por acción de la angiotensina dos, y así sostiene la presión dentro del glomérulo."
+  },
+  {
+   "id": "b011",
+   "t": 133.18,
+   "dur": 7.85,
+   "say": "Entrada abierta, salida estrecha: con eso la filtración se mantiene aunque la presión haya bajado. Eso es la autorregulación."
+  },
+  {
+   "id": "b012",
+   "t": 141.48,
+   "dur": 22.22,
+   "say": "Y aquí está la trampa farmacológica. Los antiinflamatorios no esteroidales, los AINE, bloquean las prostaglandinas y cierran la entrada. Los IECA y los ARA dos bloquean la angiotensina y abren la salida. Si los juntas en un paciente deshidratado, desarmas las dos defensas a la vez. Súmale un diurético, que agrava la hipovolemia, y el riñón queda sin protección."
+  },
+  {
+   "id": "b013",
+   "t": 164.15,
+   "dur": 9.46,
+   "say": "Cuando la autorregulación fracasa, la filtración cae: es la injuria prerrenal. El riñón está sano, solo le falta perfusión, y todavía es reversible."
+  },
+  {
+   "id": "b014",
+   "t": 174.06,
+   "dur": 14.28,
+   "say": "Pero si la hipoperfusión se mantiene, el epitelio del túbulo proximal y de la porción gruesa del asa de Henle se queda sin oxígeno y muere. Pasamos de una falla prerrenal reversible a una necrosis tubular aguda establecida, que es justamente el tema de la próxima clase."
+  },
+  {
+   "id": "b015",
+   "t": 189.39,
+   "dur": 14.3,
+   "say": "Veamos el orden del estudio. Frente a toda alza aguda de creatinina, el primer paso no se discute: descartar una causa postrenal, obstructiva. Se hace con una ecografía renal y vesical, o simplemente palpando o sondeando la vejiga."
+  },
+  {
+   "id": "b016",
+   "t": 204.14,
+   "dur": 15.79,
+   "say": "Si encuentras hidronefrosis bilateral o un globo vesical, el diagnóstico está hecho, y el tratamiento es descomprimir: una sonda Foley, una cistostomía o la descompresión urológica de la vía alta. Ojo con el paciente monorreno: le basta obstruir un solo uréter para quedar anúrico."
+  },
+  {
+   "id": "b017",
+   "t": 220.38,
+   "dur": 8.4,
+   "say": "Si no hay obstrucción, queda separar lo prerrenal de lo intrínseco. Y la clave es una sola: preguntarle al túbulo si todavía funciona."
+  },
+  {
+   "id": "b018",
+   "t": 229.23,
+   "dur": 9.62,
+   "say": "Un túbulo sano, en un riñón mal perfundido, hace lo que tiene que hacer: está ávido de sodio, lo retiene todo y concentra la orina. Eso es lo prerrenal."
+  },
+  {
+   "id": "b019",
+   "t": 239.31,
+   "dur": 13.85,
+   "say": "Un túbulo necrótico ya no puede reabsorber. Pierde sodio en la orina, y la orina sale con una densidad cercana a uno coma cero diez, parecida al plasma: es la isostenuria. Esa diferencia es la que miden los índices urinarios."
+  },
+  {
+   "id": "b020",
+   "t": 254.21,
+   "dur": 15.26,
+   "say": "La obstrucción explica entre cinco y diez por ciento de las injurias renales agudas, y para que falle la función tiene que ser bilateral, o de un riñón único. Sospéchala ante anuria, o una diuresis que alterna entre poca y mucha, con globo vesical o dolor suprapúbico o lumbar."
+  },
+  {
+   "id": "b021",
+   "t": 269.92,
+   "dur": 17.88,
+   "say": "La causa más frecuente es la próstata, hiperplasia o cáncer, en el hombre mayor. Después vienen la litiasis bilateral o en riñón único, la estenosis uretral, la vejiga neurogénica, los tumores pélvicos, la fibrosis retroperitoneal y los coágulos. Y no olvides los anticolinérgicos y los opioides."
+  },
+  {
+   "id": "b022",
+   "t": 288.25,
+   "dur": 14.11,
+   "say": "La ecografía lo confirma: si ves hidronefrosis, el cuadro es obstructivo hasta que se demuestre lo contrario. Mira esta ecografía: la pelvis del riñón está dilatada y llena de orina. Y en esta tomografía, la hidronefrosis es bilateral."
+  },
+  {
+   "id": "b023",
+   "t": 302.81,
+   "dur": 7.75,
+   "say": "Si hay globo vesical, el primer paso es instalar una sonda Foley. Es simple, rápido y muchas veces resuelve el cuadro."
+  },
+  {
+   "id": "b024",
+   "t": 311.01,
+   "dur": 9.24,
+   "say": "Si la obstrucción es alta, o la sonda no la resuelve, se deriva de urgencia a Urología, que descomprime con un catéter doble jota o con una nefrostomía percutánea."
+  },
+  {
+   "id": "b025",
+   "t": 320.7,
+   "dur": 12.36,
+   "say": "Ojo con lo que viene después. Al descomprimir, el riñón puede orinar a chorros: más de doscientos mililitros por hora durante dos horas, o más de tres litros al día. Es la diuresis postobstructiva."
+  },
+  {
+   "id": "b026",
+   "t": 333.51,
+   "dur": 9.12,
+   "say": "Se repone volumen y se controlan sodio, potasio y magnesio. Y recuerda que mientras más precoz sea la descompresión, mejor se recupera la función renal."
+  },
+  {
+   "id": "b027",
+   "t": 343.68,
+   "dur": 13.87,
+   "say": "El índice de referencia es la fracción excretada de sodio, la FeNa, que compara el sodio y la creatinina en la orina y en el plasma. Si es menor de uno por ciento, y el sodio urinario menor de veinte, el túbulo está reteniendo sodio: es prerrenal."
+  },
+  {
+   "id": "b028",
+   "t": 358.01,
+   "dur": 7.73,
+   "say": "Si la FeNa es mayor de dos por ciento y el sodio urinario mayor de cuarenta, el túbulo está perdiendo sodio: es una necrosis tubular aguda."
+  },
+  {
+   "id": "b029",
+   "t": 366.18,
+   "dur": 13.58,
+   "say": "Ahora, ojo con esto, porque se pregunta. Si el paciente viene usando diuréticos de asa, como la furosemida, el diurético obliga al riñón a perder sodio. La FeNa sale alta aunque el cuadro sea prerrenal, y te engaña."
+  },
+  {
+   "id": "b030",
+   "t": 380.22,
+   "dur": 10.13,
+   "say": "En ese paciente se usa la fracción excretada de urea, la FeUrea. Menor de treinta y cinco por ciento confirma lo prerrenal; sobre cincuenta, habla de necrosis tubular."
+  },
+  {
+   "id": "b031",
+   "t": 390.8,
+   "dur": 11.98,
+   "say": "Hay otros datos que apuntan en el mismo sentido. La relación entre nitrógeno ureico y creatinina sobre veinte sugiere prerrenal, porque el túbulo sano reabsorbe urea; bajo quince, sugiere necrosis tubular."
+  },
+  {
+   "id": "b032",
+   "t": 403.22,
+   "dur": 10.85,
+   "say": "Y la orina concentrada, con osmolaridad sobre quinientos y densidad sobre uno coma cero veinte, es prerrenal. La necrosis tubular da osmolaridad bajo trescientos cincuenta e isostenuria."
+  },
+  {
+   "id": "b033",
+   "t": 415.12,
+   "dur": 7.3,
+   "say": "La relación entre el nitrógeno ureico y la creatinina, ambos en miligramos por decilitro, es normalmente de diez a quince por uno."
+  },
+  {
+   "id": "b034",
+   "t": 422.87,
+   "dur": 12.58,
+   "say": "En la injuria prerrenal, la hipoperfusión estimula la reabsorción de urea junto con sodio y agua, por acción de la hormona antidiurética, mientras la creatinina casi no se reabsorbe. Por eso la relación sube sobre veinte."
+  },
+  {
+   "id": "b035",
+   "t": 435.89,
+   "dur": 7.66,
+   "say": "En la necrosis tubular aguda, el túbulo dañado deja de reabsorber urea, y la relación se queda en diez a quince, o incluso menos."
+  },
+  {
+   "id": "b036",
+   "t": 444,
+   "dur": 9.26,
+   "say": "Pero ojo, porque también sube sin que sea prerrenal: con una hemorragia digestiva alta, con corticoides, con catabolismo intenso o con una dieta rica en proteínas."
+  },
+  {
+   "id": "b037",
+   "t": 453.71,
+   "dur": 5.02,
+   "say": "Y baja en la hepatopatía grave y en la desnutrición, porque el cuerpo fabrica menos urea."
+  },
+  {
+   "id": "b038",
+   "t": 459.18,
+   "dur": 8.28,
+   "say": "Por eso esta relación nunca se interpreta sola. Se lee junto con la fracción excretada de sodio, el sedimento y la clínica del paciente."
+  },
+  {
+   "id": "b039",
+   "t": 468.51,
+   "dur": 10.42,
+   "say": "El sedimento urinario, mirado al microscopio, entrega una respuesta casi inmediata. Los cilindros hialinos, acelulares, son normales y acompañan al estado prerrenal."
+  },
+  {
+   "id": "b040",
+   "t": 479.37,
+   "dur": 10.85,
+   "say": "Los cilindros granulosos oscuros, de color café, junto con células epiteliales tubulares libres, son el sello de la necrosis tubular aguda: son literalmente pedazos del túbulo que se desprendieron."
+  },
+  {
+   "id": "b041",
+   "t": 490.67,
+   "dur": 13.54,
+   "say": "Los cilindros hemáticos y los glóbulos rojos dismórficos confirman que el daño está en el glomérulo: es una glomerulonefritis aguda. Mira estos glóbulos rojos deformados en el sedimento: son los dismórficos, que pasaron por un glomérulo dañado."
+  },
+  {
+   "id": "b042",
+   "t": 504.66,
+   "dur": 13.94,
+   "say": "Y los cilindros leucocitarios con piuria estéril, es decir, glóbulos blancos en la orina con urocultivo negativo, apuntan a una nefritis intersticial aguda inmunoalérgica. Esta la vamos a ver a fondo en la próxima clase, junto a la necrosis tubular."
+  },
+  {
+   "id": "b043",
+   "t": 519.65,
+   "dur": 10.51,
+   "say": "Y aquí está la razón de todo este esfuerzo diagnóstico: el tratamiento de lo prerrenal y de la necrosis tubular es casi opuesto. A uno le das volumen; al otro, se lo restringes."
+  },
+  {
+   "id": "b044",
+   "t": 530.61,
+   "dur": 18.17,
+   "say": "En la injuria prerrenal, el pilar es expandir con cristaloides isotónicos, suero fisiológico al cero coma nueve o Ringer lactato, con un bolo inicial de quinientos a mil mililitros. Se guía por la respuesta: presión arterial media de sesenta y cinco o más, llene capilar y una diuresis de al menos medio mililitro por kilo por hora."
+  },
+  {
+   "id": "b045",
+   "t": 549.23,
+   "dur": 11.38,
+   "say": "Y al mismo tiempo se suspenden de inmediato los nefrotóxicos: los AINE, los IECA y ARA dos, los diuréticos y los aminoglucósidos. Es devolverle al riñón las defensas que vimos en el mecanismo."
+  },
+  {
+   "id": "b046",
+   "t": 561.06,
+   "dur": 13.08,
+   "say": "Y ojo con la trampa clásica: dar furosemida para forzar la diuresis en un paciente prerrenal hipovolémico. Suena activo, pero es un error grave: aumenta la depleción de volumen y empuja al riñón hacia la necrosis tubular isquémica."
+  },
+  {
+   "id": "b047",
+   "t": 574.59,
+   "dur": 10.68,
+   "say": "En cambio, si la necrosis tubular ya está establecida, el daño es del parénquima. Infundir más fluidos no va a revertir la falla, y lo único que consigues es un edema pulmonar."
+  },
+  {
+   "id": "b048",
+   "t": 585.72,
+   "dur": 13.15,
+   "say": "El manejo es de soporte: balance neutro, aportando las pérdidas insensibles, unos quinientos mililitros, más la diuresis del día. Además, ajustar todos los fármacos a la filtración residual y corregir los electrolitos."
+  },
+  {
+   "id": "b049",
+   "t": 599.32,
+   "dur": 7.32,
+   "say": "Y vigilar de cerca las indicaciones de diálisis de urgencia, la regla AEIOU, que veremos en detalle dos clases más adelante."
+  },
+  {
+   "id": "b050",
+   "t": 607.69,
+   "dur": 12.65,
+   "say": "Ordenemos el manejo por fases. Primero, la resucitación: llevar la presión arterial media a sesenta y cinco o más, con bolos de cristaloides de quinientos mililitros, y noradrenalina si el paciente está vasopléjico."
+  },
+  {
+   "id": "b051",
+   "t": 620.79,
+   "dur": 8.14,
+   "say": "Segundo, proteger el glomérulo: suspender AINE, IECA, ARA dos y diuréticos, y ajustar los antibióticos a la función renal."
+  },
+  {
+   "id": "b052",
+   "t": 629.37,
+   "dur": 8.16,
+   "say": "Tercero, medir. En el paciente inestable se instala una sonda Foley con recolección horaria, para detectar la oliguria de inmediato."
+  },
+  {
+   "id": "b053",
+   "t": 637.98,
+   "dur": 8.3,
+   "say": "Y cuarto, en la necrosis tubular anúrica, evitar la sobrecarga: restringir el aporte a las pérdidas insensibles más lo que orinó el día anterior."
+  },
+  {
+   "id": "b054",
+   "t": 647.34,
+   "dur": 18.14,
+   "say": "Cuando cae la presión, el riñón dilata la arteriola de entrada con prostaglandinas y contrae la de salida con angiotensina dos, para mantener la filtración. Por eso los antiinflamatorios, que bloquean las prostaglandinas, y los IECA, que bloquean la angiotensina, pueden precipitar la falla renal en un paciente con poco volumen."
+  },
+  {
+   "id": "b055",
+   "t": 666.53,
+   "dur": 5.35,
+   "say": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen."
+  },
+  {
+   "id": "b056",
+   "t": 672.33,
+   "dur": 11.06,
+   "say": "La creatinina subió cero coma tres o más en cuarenta y ocho horas, o una vez y media la basal, o cayó la diuresis. Es una injuria renal aguda por KDIGO. Ahora, el orden."
+  },
+  {
+   "id": "b057",
+   "t": 683.85,
+   "dur": 6.65,
+   "say": "Lo primero, siempre: ¿hay obstrucción? Ecografía renal y vesical, o buscar el globo vesical."
+  },
+  {
+   "id": "b058",
+   "t": 690.95,
+   "dur": 8.76,
+   "say": "Hidronefrosis o globo vesical: es postrenal. Se descomprime de inmediato, con sonda Foley, cistostomía o descompresión de la vía alta."
+  },
+  {
+   "id": "b059",
+   "t": 700.16,
+   "dur": 9.98,
+   "say": "Sin obstrucción, se le pregunta al túbulo. ¿La FeNa es menor de uno por ciento y el sodio urinario menor de veinte? Si usa diuréticos, mira la FeUrea."
+  },
+  {
+   "id": "b060",
+   "t": 710.59,
+   "dur": 10.82,
+   "say": "El túbulo retiene sodio: es prerrenal. Cristaloides isotónicos y suspender AINE, IECA, ARA dos y diuréticos. Nunca furosemida para forzar la diuresis."
+  },
+  {
+   "id": "b061",
+   "t": 721.86,
+   "dur": 5.83,
+   "say": "El túbulo pierde sodio: el daño es intrínseco. El sedimento te dice dónde está."
+  },
+  {
+   "id": "b062",
+   "t": 728.15,
+   "dur": 10.13,
+   "say": "Cilindros granulosos pardos y células tubulares: necrosis tubular aguda. Soporte con balance neutro, ajuste de fármacos y vigilancia de los criterios de diálisis."
+  },
+  {
+   "id": "b063",
+   "t": 738.72,
+   "dur": 8.02,
+   "say": "Cilindros hemáticos y hematíes dismórficos: el daño está en el glomérulo. Es una glomerulonefritis, y se deriva a nefrología."
+  },
+  {
+   "id": "b064",
+   "t": 747.19,
+   "dur": 9.19,
+   "say": "Cilindros leucocitarios con piuria estéril: nefritis intersticial aguda. Lo primero es suspender el fármaco culpable, como veremos en la próxima clase."
+  },
+  {
+   "id": "b065",
+   "t": 757.43,
+   "dur": 7.58,
+   "say": "Repasemos la tabla que más se pregunta. La FeNa: bajo uno por ciento en lo prerrenal, sobre dos en la necrosis tubular."
+  },
+  {
+   "id": "b066",
+   "t": 765.47,
+   "dur": 10.97,
+   "say": "Si el paciente usa diuréticos, cambias a la FeUrea: bajo treinta y cinco es prerrenal, sobre cincuenta es necrosis tubular. El error es confiar en la FeNa de un paciente con furosemida."
+  },
+  {
+   "id": "b067",
+   "t": 776.88,
+   "dur": 5.23,
+   "say": "El sodio urinario: bajo veinte en lo prerrenal, sobre cuarenta en la necrosis tubular."
+  },
+  {
+   "id": "b068",
+   "t": 782.57,
+   "dur": 6.43,
+   "say": "La relación nitrógeno ureico sobre creatinina: mayor de veinte en lo prerrenal, menor de quince en la necrosis."
+  },
+  {
+   "id": "b069",
+   "t": 789.45,
+   "dur": 10.32,
+   "say": "La orina prerrenal está concentrada: osmolaridad sobre quinientos y densidad sobre uno coma cero veinte. La necrótica es isostenúrica, con densidad de uno coma cero diez."
+  },
+  {
+   "id": "b070",
+   "t": 800.22,
+   "dur": 7.08,
+   "say": "Y el sedimento: cilindros hialinos en lo prerrenal; cilindros granulosos pardos y células tubulares en la necrosis tubular."
+  },
+  {
+   "id": "b071",
+   "t": 808.35,
+   "dur": 26.3,
+   "say": "Vamos con un caso. Hombre de sesenta y ocho años, hipertenso y diabético, que toma enalapril e hidroclorotiazida. Lleva cuatro días con diarrea profusa y vómitos. Llega somnoliento, con presión de ochenta y cinco cincuenta, taquicárdico y con mucosas secas. La creatinina es tres coma cuatro, cuando hace un mes era uno. El sodio urinario es doce, la FeNa sale bajo uno por ciento, y el sedimento tiene cilindros hialinos."
+  },
+  {
+   "id": "b072",
+   "t": 835.1,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b073",
+   "t": 837.95,
+   "dur": 12.98,
+   "say": "Las alternativas: furosemida para restablecer la diuresis, suspender los fármacos e hidratar con suero fisiológico, restringir el aporte de agua, hemodiálisis de urgencia por la creatinina, o biopsia renal. Piénsalo."
+  },
+  {
+   "id": "b075",
+   "t": 854.59,
+   "dur": 25.85,
+   "say": "Es la B. La creatinina subió más de tres veces, así que es estadio tres, y todo dice prerrenal: FeNa baja, sodio urinario bajo y cilindros hialinos. Además tiene la combinación que desarma la autorregulación: deshidratación, IECA y diurético. Se suspenden y se hidrata. La trampa es la furosemida, que agravaría el shock. Y la restricción hídrica es el manejo de la necrosis tubular, no de este paciente."
+  },
+  {
+   "id": "b076",
+   "t": 881.48,
+   "dur": 25.03,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Paciente de setenta años, diabético e hipertenso, con metformina, losartán e hidroclorotiazida. Cuatro días de vómitos y diarrea, con menos orina. Está bradipsíquico, con presión de cien cincuenta y taquicardia. Creatinina dos, nitrógeno ureico setenta y ocho, FeNa cero coma cinco por ciento, y un potasio muy bajo, de dos."
+  },
+  {
+   "id": "b077",
+   "t": 906.97,
+   "dur": 2.86,
+   "say": "¿Qué fluido debe administrarse inicialmente?"
+  },
+  {
+   "id": "b078",
+   "t": 910.27,
+   "dur": 9.36,
+   "say": "Las opciones: suero glucosado al cinco por ciento, Ringer lactato, albúmina al cinco por ciento, suero glucosalino, o bicarbonato. Piénsalo."
+  },
+  {
+   "id": "b080",
+   "t": 923.28,
+   "dur": 24.29,
+   "say": "Es la B, Ringer lactato. Fíjate que es casi el mismo paciente del caso anterior: deshidratado, con un ARA dos y una tiazida, y una FeNa bajo uno. Es prerrenal, y lo primero es reponer la volemia con un cristaloide isotónico. El suero fisiológico no aparecía, así que el Ringer es la respuesta. El suero glucosado es el distractor: el agua libre no se queda en el intravascular y no corrige el shock."
+  },
+  {
+   "id": "b081",
+   "t": 948.62,
+   "dur": 8.88,
+   "say": "Cerremos con las reglas de oro. Frente a una injuria renal aguda, lo primero es descartar la obstrucción, con ecografía o buscando el globo vesical."
+  },
+  {
+   "id": "b082",
+   "t": 957.95,
+   "dur": 7.92,
+   "say": "Después se le pregunta al túbulo: FeNa bajo uno es prerrenal, y si el paciente usa diuréticos, se mira la FeUrea, bajo treinta y cinco."
+  },
+  {
+   "id": "b083",
+   "t": 966.32,
+   "dur": 6.19,
+   "say": "Y el sedimento lo confirma: cilindros hialinos en lo prerrenal, granulosos pardos en la necrosis tubular."
+  },
+  {
+   "id": "b084",
+   "t": 972.96,
+   "dur": 7.58,
+   "say": "Recuerda la combinación peligrosa: AINE que cierran la entrada, IECA o ARA dos que abren la salida, en un paciente deshidratado."
+  },
+  {
+   "id": "b085",
+   "t": 981,
+   "dur": 5.88,
+   "say": "La prerrenal se trata con cristaloides isotónicos y suspendiendo nefrotóxicos, nunca con furosemida."
+  },
+  {
+   "id": "b086",
+   "t": 987.33,
+   "dur": 15.65,
+   "say": "La necrosis tubular establecida se trata con balance neutro, porque el volumen ya no la revierte. Si te llevas una sola idea de hoy: el túbulo sano pide volumen, y el túbulo dañado lo rechaza; por eso primero hay que saber cuál tienes. Nos vemos en la próxima clase."
+  }
+ ]
+}

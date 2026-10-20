@@ -1,0 +1,481 @@
+{
+ "id": "hem-16",
+ "title": "Leucemias Agudas",
+ "total": 909.4080000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 23.26,
+   "say": "Bienvenidos. Hoy entramos a la oncohematología con las leucemias agudas: la mieloide aguda y la linfoblástica aguda. Es uno de los temas más preguntados del bloque. Y el examen pregunta casi siempre lo mismo: reconocer el cuadro clínico, saber qué examen confirma, distinguir la mieloide de la linfoide, y actuar de inmediato en la leucemia promielocítica, que conecta directamente con la CID de la clase anterior."
+  },
+  {
+   "id": "b002",
+   "t": 30.11,
+   "dur": 12.6,
+   "say": "Partamos por el mecanismo. En la leucemia aguda, un progenitor de la médula sufre un bloqueo madurativo: se queda detenido en una etapa muy temprana. Además prolifera sin control y resiste la apoptosis."
+  },
+  {
+   "id": "b003",
+   "t": 43.16,
+   "dur": 8.69,
+   "say": "Esas células inmaduras son los blastos. Se acumulan rápido en la médula, la colapsan, y además liberan señales que inhiben la producción normal."
+  },
+  {
+   "id": "b004",
+   "t": 52.29,
+   "dur": 19.58,
+   "say": "El resultado es una insuficiencia medular aguda, y se traduce en tres síndromes a la vez. Anemia: astenia, palidez y taquicardia. Neutropenia: fiebre e infecciones bacterianas o por hongos. Y trombocitopenia: petequias, equimosis, gingivorragia y epistaxis, típicamente con plaquetas bajo veinte mil."
+  },
+  {
+   "id": "b005",
+   "t": 72.33,
+   "dur": 12,
+   "say": "Y los blastos no se quedan en la médula: invaden otros órganos. Eso da los dolores óseos, el hígado y el bazo grandes, las adenopatías y, en algunos subtipos mieloides, la hiperplasia de las encías."
+  },
+  {
+   "id": "b006",
+   "t": 85.38,
+   "dur": 12.12,
+   "say": "Veamos cómo llega el paciente. La clave es la suma: anemia, fiebre y sangrado al mismo tiempo, instalados en pocas semanas. Cuando un caso junta las tres cosas, piensa en leucemia aguda."
+  },
+  {
+   "id": "b007",
+   "t": 97.95,
+   "dur": 8.14,
+   "say": "Fíjate en el tiempo. No son años de síntomas, como en las leucemias crónicas que veremos después. Son semanas."
+  },
+  {
+   "id": "b008",
+   "t": 106.53,
+   "dur": 9,
+   "say": "Luego mira la infiltración. El dolor óseo intenso, nocturno, por expansión del periostio, es muy frecuente en el niño con leucemia linfoblástica."
+  },
+  {
+   "id": "b009",
+   "t": 115.98,
+   "dur": 5.38,
+   "say": "La hepatoesplenomegalia y las adenopatías cervicales también orientan más a la linfoblástica."
+  },
+  {
+   "id": "b010",
+   "t": 121.81,
+   "dur": 10.51,
+   "say": "Y la hiperplasia de las encías es típica de los subtipos mielomonocítico y monocítico de la mieloide, la eme cuatro y la eme cinco. Mira estas encías engrosadas por la infiltración."
+  },
+  {
+   "id": "b011",
+   "t": 132.77,
+   "dur": 9.02,
+   "say": "Y una distinción que ya vimos: si solo caen las plaquetas, con el resto del hemograma normal, piensa en PTI. En la leucemia aguda caen varias series."
+  },
+  {
+   "id": "b012",
+   "t": 142.85,
+   "dur": 11.52,
+   "say": "Ahora el estudio. El primer examen es el hemograma con frotis. Y ojo, que los leucocitos pueden estar altos, normales o bajos: lo que importa es ver blastos en la sangre periférica."
+  },
+  {
+   "id": "b013",
+   "t": 154.82,
+   "dur": 10.63,
+   "say": "Blastos en la sangre periférica son una urgencia oncohematológica: se deriva de inmediato a un centro terciario. En Chile, las leucemias tienen garantía GES en todas las edades."
+  },
+  {
+   "id": "b014",
+   "t": 165.9,
+   "dur": 12.94,
+   "say": "El examen que confirma es el mielograma, junto con la biopsia de médula ósea. El criterio de la Organización Mundial de la Salud es claro: veinte por ciento o más de blastos en la médula o en la sangre. Ese número se pregunta."
+  },
+  {
+   "id": "b015",
+   "t": 179.28,
+   "dur": 7.78,
+   "say": "Después se define la estirpe con la morfología, la citoquímica con mieloperoxidasa, y la citometría de flujo: ¿es mieloide o linfoide?"
+  },
+  {
+   "id": "b016",
+   "t": 187.51,
+   "dur": 12.86,
+   "say": "Y un detalle fino: hay alteraciones genéticas que diagnostican leucemia mieloide aguda aunque los blastos no lleguen al veinte por ciento. Son la translocación ocho veintiuno, la inversión del dieciséis y la translocación quince diecisiete."
+  },
+  {
+   "id": "b017",
+   "t": 201.42,
+   "dur": 13.46,
+   "say": "Comparemos las dos. La edad es la primera pista: la mieloide aguda es la leucemia aguda del adulto mayor, con una mediana de sesenta y ocho años. La linfoblástica es la del niño, con un pico entre los dos y los cinco años."
+  },
+  {
+   "id": "b018",
+   "t": 215.34,
+   "dur": 19.75,
+   "say": "En el frotis, el mieloblasto es grande, con citoplasma amplio y gránulos azurófilos. El linfoblasto es más pequeño, con poco citoplasma y sin gránulos. Mira este frotis: linfoblastos rodeados de glóbulos rojos normales, para que compares el tamaño. Y aquí, blastos tipo Burkitt, con citoplasma basófilo y vacuolas."
+  },
+  {
+   "id": "b019",
+   "t": 235.54,
+   "dur": 9.14,
+   "say": "Los bastones de Auer solo existen en la mieloide. Mira estos blastos: los bastones son patognomónicos, y si los ves, descartaste una linfoblástica."
+  },
+  {
+   "id": "b020",
+   "t": 245.13,
+   "dur": 10.68,
+   "say": "La mieloide es positiva para mieloperoxidasa y Sudán negro. La linfoblástica es negativa para mieloperoxidasa y expresa la enzima TdT en más del noventa y cinco por ciento de los casos."
+  },
+  {
+   "id": "b021",
+   "t": 256.26,
+   "dur": 7.61,
+   "say": "La mieloide infiltra encías y piel. La linfoblástica prefiere las meninges y los testículos, y eso cambia su tratamiento."
+  },
+  {
+   "id": "b022",
+   "t": 264.32,
+   "dur": 8.66,
+   "say": "Cada una tiene su emergencia: en la mieloide, la promielocítica con CID; en la linfoblástica, el síndrome de lisis tumoral al empezar la quimioterapia."
+  },
+  {
+   "id": "b023",
+   "t": 273.44,
+   "dur": 9.91,
+   "say": "Y el pronóstico es muy distinto: la linfoblástica infantil se cura en más del ochenta y cinco a noventa por ciento; la mieloide del adulto tiene una sobrevida de treinta a cuarenta por ciento."
+  },
+  {
+   "id": "b024",
+   "t": 284.4,
+   "dur": 12.07,
+   "say": "Vamos un poco más fino con los marcadores. Los bastones de Auer son estructuras cristalinas lineales, hechas de lisosomas fusionados y peroxidasa. Por eso se asocian a la mieloperoxidasa positiva."
+  },
+  {
+   "id": "b025",
+   "t": 296.92,
+   "dur": 6.96,
+   "say": "En la citometría, la mieloide expresa CD trece, CD treinta y tres, CD ciento diecisiete y mieloperoxidasa."
+  },
+  {
+   "id": "b026",
+   "t": 304.33,
+   "dur": 6.96,
+   "say": "La linfoblástica tiene la TdT, la desoxinucleotidil transferasa terminal, una enzima nuclear propia del linfoblasto."
+  },
+  {
+   "id": "b027",
+   "t": 311.74,
+   "dur": 6.77,
+   "say": "La de estirpe B expresa CD diecinueve, CD veinte, CD veintidós y el CD diez, que es el antígeno CALLA."
+  },
+  {
+   "id": "b028",
+   "t": 318.96,
+   "dur": 3.41,
+   "say": "Y la de estirpe T expresa CD tres y CD siete."
+  },
+  {
+   "id": "b029",
+   "t": 323.42,
+   "dur": 13.97,
+   "say": "Ahora la leucemia que más se pregunta: la promielocítica aguda, la eme tres. Su marca es la translocación quince diecisiete, que forma el gen de fusión PML-RARA. Esa proteína anómala impide que el promielocito madure."
+  },
+  {
+   "id": "b030",
+   "t": 337.83,
+   "dur": 7.51,
+   "say": "Esos promielocitos están llenos de gránulos con sustancias procoagulantes. Y cuando se rompen, las liberan a la sangre."
+  },
+  {
+   "id": "b031",
+   "t": 345.8,
+   "dur": 12.5,
+   "say": "El resultado es lo que vimos la clase pasada: una coagulación intravascular diseminada, en este caso hiperfibrinolítica, con el fibrinógeno muy bajo. El paciente puede morir en horas por una hemorragia cerebral o pulmonar."
+  },
+  {
+   "id": "b032",
+   "t": 358.75,
+   "dur": 20.04,
+   "say": "Por eso la conducta es inmediata. Ante la simple sospecha, blastos con muchos bastones de Auer, sangrado y fibrinógeno bajo, se inicia de inmediato ácido todo-trans-retinoico, el ATRA, junto con trióxido de arsénico o quimioterapia con antraciclinas. No se espera la confirmación por PCR o FISH. Esa es la trampa clásica."
+  },
+  {
+   "id": "b033",
+   "t": 379.24,
+   "dur": 19.85,
+   "say": "¿Por qué funciona? El ATRA supera el bloqueo y obliga a los promielocitos a madurar a neutrófilos, así dejan de liberar procoagulantes, y la CID se resuelve en cuarenta y ocho a setenta y dos horas. Hay que vigilar el síndrome de diferenciación, que se trata con dexametasona. Y la buena noticia: la eme tres se cura en más del noventa por ciento."
+  },
+  {
+   "id": "b034",
+   "t": 400.14,
+   "dur": 10.42,
+   "say": "Pasemos a la linfoblástica. Es la neoplasia maligna más común de la infancia, y representa el ochenta por ciento de las leucemias del niño, con un pico entre los dos y los cinco años."
+  },
+  {
+   "id": "b035",
+   "t": 411,
+   "dur": 8.71,
+   "say": "En Chile se trata con el protocolo nacional PINDA, con garantía GES, y la sobrevida libre de enfermedad a cinco años supera el ochenta y cinco a noventa por ciento."
+  },
+  {
+   "id": "b036",
+   "t": 420.17,
+   "dur": 7.34,
+   "say": "La inducción combina vincristina, dexametasona, L-asparaginasa y daunorrubicina, para erradicar los blastos de la médula."
+  },
+  {
+   "id": "b037",
+   "t": 427.96,
+   "dur": 8.3,
+   "say": "Y siempre lleva profilaxis del sistema nervioso central con quimioterapia intratecal: metotrexato, citarabina y dexametasona por punción lumbar."
+  },
+  {
+   "id": "b038",
+   "t": 436.71,
+   "dur": 12.07,
+   "say": "¿Por qué la intratecal es obligatoria? Porque los linfoblastos infiltran temprano las meninges y los testículos, que son santuarios a los que la quimioterapia sistémica no llega. Ahí se esconden las recaídas."
+  },
+  {
+   "id": "b039",
+   "t": 449.24,
+   "dur": 6.34,
+   "say": "Y al iniciar la quimioterapia, vigila el síndrome de lisis tumoral, que veremos en detalle en una clase próxima."
+  },
+  {
+   "id": "b040",
+   "t": 456.62,
+   "dur": 10.66,
+   "say": "La mieloide aguda del adulto se induce con el esquema siete más tres: citarabina en infusión continua por siete días y daunorrubicina por tres días. El objetivo es la remisión completa."
+  },
+  {
+   "id": "b041",
+   "t": 467.73,
+   "dur": 9.05,
+   "say": "El precio es una aplasia profunda de tres a cuatro semanas, que requiere soporte intensivo. Ahí aparece la neutropenia febril, que también tiene su clase."
+  },
+  {
+   "id": "b042",
+   "t": 477.23,
+   "dur": 14.76,
+   "say": "Después, la genética define qué sigue. En el riesgo favorable, como la translocación ocho veintiuno, la inversión del dieciséis o la mutación NPM uno sin FLT tres, se consolida con citarabina en altas dosis, sin trasplante en la primera remisión."
+  },
+  {
+   "id": "b043",
+   "t": 492.44,
+   "dur": 9.07,
+   "say": "En el riesgo adverso, con cariotipo complejo, monosomías o TP cincuenta y tres mutado, el trasplante alogénico es obligatorio en la primera remisión completa."
+  },
+  {
+   "id": "b044",
+   "t": 501.96,
+   "dur": 13.2,
+   "say": "El trasplante alogénico de progenitores hematopoyéticos es el tratamiento curativo definitivo en la mieloide de riesgo intermedio o alto, sobre todo en menores de sesenta años con donante compatible. Cura por el efecto injerto contra leucemia."
+  },
+  {
+   "id": "b045",
+   "t": 516.21,
+   "dur": 19.8,
+   "say": "El mielograma es el examen que confirma la leucemia aguda, con veinte por ciento o más de blastos. Se completa con citometría de flujo, citogenética y biología molecular, buscando la translocación quince diecisiete, el BCR-ABL uno, F L T tres y N P M uno. Si el aspirado sale seco, se agrega la biopsia osteomedular."
+  },
+  {
+   "id": "b046",
+   "t": 536.46,
+   "dur": 12.46,
+   "say": "Esto es de conducta: el mielograma no lo haces tú en atención primaria, y tampoco se posterga por plaquetopenia o por fiebre. La sospecha de leucemia aguda es una urgencia de derivación inmediata a un centro con hematología."
+  },
+  {
+   "id": "b047",
+   "t": 549.36,
+   "dur": 5.9,
+   "say": "Y si sospechas una leucemia promielocítica, el ATRA se inicia sin esperar el resultado del mielograma."
+  },
+  {
+   "id": "b048",
+   "t": 555.72,
+   "dur": 7.51,
+   "say": "La quimioterapia intratecal la administra el hematólogo o el oncólogo por punción lumbar, con metotrexato, citarabina y un corticoide."
+  },
+  {
+   "id": "b049",
+   "t": 563.68,
+   "dur": 9.46,
+   "say": "Se indica como profilaxis del sistema nervioso central en toda leucemia linfoblástica, y en la mieloide de alto riesgo, como la hiperleucocitosis o el subtipo monocítico."
+  },
+  {
+   "id": "b050",
+   "t": 573.59,
+   "dur": 12.65,
+   "say": "Y como tratamiento cuando hay infiltración de las meninges: cefalea, compromiso de pares craneales o blastos en el líquido cefalorraquídeo. También la reciben los linfomas agresivos de alto riesgo, como el Burkitt y el linfoblástico."
+  },
+  {
+   "id": "b051",
+   "t": 586.68,
+   "dur": 10.87,
+   "say": "La punción lumbar en un paciente leucémico se coordina con hematología, porque antes hay que corregir la plaquetopenia y la coagulopatía. No se hace de rutina en un paciente que no está estabilizado."
+  },
+  {
+   "id": "b052",
+   "t": 598.61,
+   "dur": 15.96,
+   "say": "En la leucemia aguda, un progenitor se queda detenido y prolifera sin control. Los blastos llenan la médula y desplazan a las células normales: aparece la anemia, la neutropenia con fiebre y la trombocitopenia con sangrado. Se confirma con veinte por ciento o más de blastos."
+  },
+  {
+   "id": "b053",
+   "t": 620.81,
+   "dur": 5.54,
+   "say": "Juntemos todo en un árbol de decisión, desde el paciente con insuficiencia medular hasta la conducta."
+  },
+  {
+   "id": "b054",
+   "t": 626.8,
+   "dur": 6.7,
+   "say": "Paciente con anemia, fiebre y sangrado instalados en semanas. Sospecha insuficiencia medular aguda."
+  },
+  {
+   "id": "b055",
+   "t": 633.95,
+   "dur": 5.47,
+   "say": "El primer examen es el hemograma con frotis. ¿Hay blastos en la sangre periférica?"
+  },
+  {
+   "id": "b056",
+   "t": 639.87,
+   "dur": 6.43,
+   "say": "Si no hay blastos, estudia otras causas de citopenia, como el PTI, la aplasia o la anemia megaloblástica."
+  },
+  {
+   "id": "b057",
+   "t": 646.75,
+   "dur": 8.98,
+   "say": "Si hay blastos, se deriva de urgencia. Pero antes, una pregunta que salva vidas: ¿hay bastones de Auer abundantes con sangrado y fibrinógeno bajo?"
+  },
+  {
+   "id": "b058",
+   "t": 656.18,
+   "dur": 6.86,
+   "say": "Sospecha de leucemia promielocítica: ATRA de inmediato, con crioprecipitado y plaquetas, sin esperar la genética."
+  },
+  {
+   "id": "b059",
+   "t": 663.49,
+   "dur": 17.38,
+   "say": "Si no, derivación urgente a un centro terciario con garantía GES, mielograma para confirmar el veinte por ciento de blastos, y citometría para definir la estirpe. La mieloide va a inducción siete más tres, con trasplante si el riesgo es intermedio o alto; la linfoblástica, a protocolo con profilaxis intratecal."
+  },
+  {
+   "id": "b060",
+   "t": 681.92,
+   "dur": 10.2,
+   "say": "Repasemos las trampas. Anemia, fiebre y sangrado instalados en semanas: el primer examen es el hemograma con frotis. El error es quedarse en una infección."
+  },
+  {
+   "id": "b061",
+   "t": 692.57,
+   "dur": 6.14,
+   "say": "Blastos en la sangre: derivación urgente y mielograma. Nunca se controla en unas semanas."
+  },
+  {
+   "id": "b062",
+   "t": 699.16,
+   "dur": 7.75,
+   "say": "La confirmación es el mielograma, con veinte por ciento de blastos o más. El hemograma inicia el estudio, pero no confirma."
+  },
+  {
+   "id": "b063",
+   "t": 707.36,
+   "dur": 2.69,
+   "say": "Bastones de Auer: siempre mieloide."
+  },
+  {
+   "id": "b064",
+   "t": 710.5,
+   "dur": 11.88,
+   "say": "Bastones de Auer abundantes, sangrado y fibrinógeno bajo: ATRA inmediato con soporte de la CID. Estas son las células de una leucemia promielocítica. El error que mata es esperar el PCR."
+  },
+  {
+   "id": "b065",
+   "t": 722.83,
+   "dur": 8.26,
+   "say": "Linfoblástica infantil: quimioterapia con profilaxis intratecal. Omitir la profilaxis deja a los blastos escondidos en las meninges."
+  },
+  {
+   "id": "b066",
+   "t": 732.14,
+   "dur": 25.58,
+   "say": "Vamos con un caso. Mujer de veinticuatro años con dos semanas de astenia severa, fiebre y gingivorragia profusa. Está pálida, con petequias, sin adenopatías. Hemoglobina de seis coma nueve, treinta y dos mil leucocitos con sesenta y cinco por ciento de blastos grandes, con gránulos y muchos bastones de Auer, y dieciséis mil plaquetas. INR de uno coma ocho, fibrinógeno de ochenta y cinco y dímero D sobre quince mil."
+  },
+  {
+   "id": "b067",
+   "t": 758.17,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b068",
+   "t": 761.02,
+   "dur": 11.02,
+   "say": "Las opciones son: esperar el PCR de la translocación, iniciar ATRA de inmediato con crioprecipitado y plaquetas, heparina, quimioterapia intratecal, o plasmaféresis. Piénsalo."
+  },
+  {
+   "id": "b070",
+   "t": 775.69,
+   "dur": 25.2,
+   "say": "La respuesta es la B. Son blastos mieloides, por los bastones de Auer, y tiene una CID con fibrinógeno bajo: es una promielocítica hasta demostrar lo contrario. Se inicia ATRA ya, con crioprecipitado y plaquetas como soporte. El distractor tentador es esperar el PCR: suena riguroso, pero la paciente puede morir de una hemorragia cerebral mientras tanto. La heparina empeora el sangrado, y la intratecal es de la linfoblástica."
+  },
+  {
+   "id": "b071",
+   "t": 801.94,
+   "dur": 19.37,
+   "say": "Ahora las preguntas reales. La primera, del EUNACOM de julio de dos mil diecisiete. Paciente de veinticinco años con tres semanas de compromiso del estado general, fiebre de hasta treinta y ocho grados, astenia y equimosis ante traumatismos mínimos. Está pálida, con esplenomegalia, y abundantes petequias y equimosis."
+  },
+  {
+   "id": "b072",
+   "t": 821.75,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b073",
+   "t": 824.77,
+   "dur": 7.87,
+   "say": "Las opciones son: leucemia aguda, mononucleosis, linfoma, síndrome hemolítico urémico, o CID. Piénsalo."
+  },
+  {
+   "id": "b075",
+   "t": 836.29,
+   "dur": 17.9,
+   "say": "Es la A, leucemia aguda. Suma los tres síndromes: palidez por anemia, fiebre por neutropenia y petequias por trombocitopenia, instalados en semanas. Eso es insuficiencia medular aguda. La mononucleosis es el distractor, porque da fiebre y bazo grande, pero no explica el sangrado."
+  },
+  {
+   "id": "b076",
+   "t": 855.25,
+   "dur": 7.82,
+   "say": "Cerremos con las reglas de oro. Anemia, fiebre y sangrado en semanas es insuficiencia medular aguda hasta demostrar lo contrario."
+  },
+  {
+   "id": "b077",
+   "t": 863.52,
+   "dur": 5.45,
+   "say": "El hemograma inicia el estudio y el mielograma confirma, con veinte por ciento de blastos o más."
+  },
+  {
+   "id": "b078",
+   "t": 869.42,
+   "dur": 6.91,
+   "say": "Los bastones de Auer son siempre mieloides. La mieloide es del adulto mayor; la linfoblástica, del niño."
+  },
+  {
+   "id": "b079",
+   "t": 876.78,
+   "dur": 4.56,
+   "say": "La linfoblástica siempre lleva profilaxis intratecal, por los santuarios."
+  },
+  {
+   "id": "b080",
+   "t": 881.79,
+   "dur": 4.99,
+   "say": "Y en la mieloide de riesgo alto, el trasplante alogénico es el tratamiento curativo."
+  },
+  {
+   "id": "b081",
+   "t": 887.23,
+   "dur": 16.22,
+   "say": "Si te llevas una sola idea de hoy: bastones de Auer con sangrado y fibrinógeno bajo es una promielocítica, y el ATRA se inicia de inmediato, sin esperar la genética. En la próxima clase veremos las leucemias crónicas, la mieloide y la linfática. Nos vemos en la próxima clase."
+  }
+ ]
+}

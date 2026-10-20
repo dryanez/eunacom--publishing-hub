@@ -1,0 +1,373 @@
+{
+ "id": "reuma-12",
+ "title": "Esclerosis Sistémica",
+ "total": 774.3720000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 30.46,
+   "say": "Bienvenidos. Hoy revisamos la esclerosis sistémica o esclerodermia, una conectivopatía compleja caracterizada por vasculopatía obliterante y fibrosis tisular progresiva. Aprenderemos a diferenciar con precisión la forma cutánea difusa con anticuerpos anti-Scl setenta y riesgo de fibrosis pulmonar, de la forma limitada o síndrome de CREST con anticuerpos anticentrómero e hipertensión pulmonar tardía. Además, abordaremos la temida crisis renal esclerodérmica y la prohibición estricta de corticoides en dosis altas. Comencemos."
+  },
+  {
+   "id": "b002",
+   "t": 37.31,
+   "dur": 13.97,
+   "say": "La enfermedad comienza en los pequeños vasos. Se produce una lesión endotelial precoz con pérdida progresiva de capilares y proliferación concéntrica de la íntima, lo que condiciona vasoespasmo severo e isquemia tisular crónica en los dedos y órganos nobles."
+  },
+  {
+   "id": "b003",
+   "t": 51.72,
+   "dur": 14.5,
+   "say": "Los linfocitos infiltrantes liberan citoquinas profibróticas como el factor de crecimiento transformante beta. Esto induce la transformación permanente de los fibroblastos en miofibroblastos hiperactivos, incapaces de responder a las señales habituales de apoptosis celular."
+  },
+  {
+   "id": "b004",
+   "t": 66.67,
+   "dur": 12.34,
+   "say": "Estos miofibroblastos sintetizan grandes cantidades de colágeno en la dermis, en el intersticio pulmonar, en las arterias renales y en la capa muscular del tubo digestivo, conduciendo a rigidez progresiva y falla funcional multiorgánica."
+  },
+  {
+   "id": "b005",
+   "t": 80.06,
+   "dur": 12.94,
+   "say": "En la forma difusa el engrosamiento cutáneo avanza rápidamente afectando antebrazos, brazos, muslos, tórax y abdomen. Comienza con una fase edematosa de dedos hinchados y progresa a induración pétrea difusa en pocos meses."
+  },
+  {
+   "id": "b006",
+   "t": 93.44,
+   "dur": 9.7,
+   "say": "El fenómeno de Raynaud aparece de forma simultánea o apenas meses antes que los cambios cutáneos, acompañándose de compromiso temprano y grave de pulmones, riñones y miocardio."
+  },
+  {
+   "id": "b007",
+   "t": 103.59,
+   "dur": 9.91,
+   "say": "En la forma limitada el engrosamiento de la piel se detiene en los codos y las rodillas, respetando estrictamente el tronco y el abdomen, con una evolución mucho más lenta y larvada en el tiempo."
+  },
+  {
+   "id": "b008",
+   "t": 113.95,
+   "dur": 19.61,
+   "say": "El acrónimo CREST resume sus cinco hallazgos cardinales: calcinosis cutánea en pulpejos de dedos, fenómeno de Raynaud de muy larga data, esofagopatía por atrofia muscular con reflujo severo, esclerodactilia y telangiectasias faciales y labiales muy prominentes. Mira estas manos: los dedos engrosados, tensos y semiflexionados son la esclerodactilia."
+  },
+  {
+   "id": "b009",
+   "t": 134.61,
+   "dur": 12,
+   "say": "El anticuerpo anti-Scl setenta, dirigido contra la topoisomerasa uno, es característico de la esclerosis difusa. Su presencia predice fuertemente el desarrollo de fibrosis pulmonar intersticial severa."
+  },
+  {
+   "id": "b010",
+   "t": 147.06,
+   "dur": 11.5,
+   "say": "Por el contrario, los anticuerpos anticentrómero están presentes en más del setenta por ciento de los pacientes con esclerosis limitada o síndrome de CREST, marcando un curso cutáneo benigno pero con vigilancia pulmonar."
+  },
+  {
+   "id": "b011",
+   "t": 159,
+   "dur": 11.18,
+   "say": "Los anticuerpos anti-ARN polimerasa tres se asocian al mayor riesgo de crisis renal hipertensiva, mientras que los pacientes anticentrómero tienen riesgo de hipertensión pulmonar tardía tras diez a quince años."
+  },
+  {
+   "id": "b012",
+   "t": 171.24,
+   "dur": 12.31,
+   "say": "El roce tendinoso es un crujido palpable al mover los tendones inflamados dentro de sus vainas engrosadas. Su presencia en la esclerosis difusa es un predictor independiente de rápida progresión cutánea y crisis renal inminente."
+  },
+  {
+   "id": "b013",
+   "t": 184,
+   "dur": 10.15,
+   "say": "La induración de la dermis periarticular provoca flexión fija de las articulaciones interfalángicas, con pérdida de la capacidad de prensión manual si no se interviene con fisioterapia precoz."
+  },
+  {
+   "id": "b014",
+   "t": 194.6,
+   "dur": 16.22,
+   "say": "La isquemia microvascular crónica y severa en los pulpejos produce reabsorción ósea de los penachos de las falanges distales, llamada acroosteólisis, visible con claridad en las radiografías de manos. Mira estos dedos: las puntas moradas y necróticas muestran hasta dónde llega la isquemia de los pulpejos."
+  },
+  {
+   "id": "b015",
+   "t": 211.28,
+   "dur": 9.55,
+   "say": "En el CREST los depósitos subcutáneos de sales de calcio pueden erosionar la piel y expulsar un material blanquecino como tiza, con alto riesgo de sobreinfección bacteriana secundaria."
+  },
+  {
+   "id": "b016",
+   "t": 221.88,
+   "dur": 11.28,
+   "say": "La fibrosis pulmonar intersticial es la principal causa de muerte global en la esclerosis difusa. Se manifiesta por disnea progresiva, tos seca y estertores crepitantes secos en las bases pulmonares."
+  },
+  {
+   "id": "b017",
+   "t": 233.61,
+   "dur": 10.54,
+   "say": "El tratamiento de primera línea para frenar la fibrosis activa es el micofenolato mofetilo, asociando el antifibrótico nintedanib si la pérdida de capacidad vital forzada persiste en la espirometría."
+  },
+  {
+   "id": "b018",
+   "t": 244.59,
+   "dur": 9.89,
+   "say": "En la esclerosis limitada surge una hipertensión arterial pulmonar del grupo uno por cierre progresivo de las arterias pulmonares pequeñas, con parénquima pulmonar limpio en la tomografía."
+  },
+  {
+   "id": "b019",
+   "t": 254.93,
+   "dur": 8.66,
+   "say": "Todo paciente con CREST exige tamizaje anual con ecocardiograma Doppler para pesquisar sobrecarga ventricular derecha precoz antes de que aparezca disnea invalidante."
+  },
+  {
+   "id": "b020",
+   "t": 264.65,
+   "dur": 11.83,
+   "say": "La esclerodermia es una de las causas más importantes de enfermedad intersticial, pero debes sospecharla en cualquier paciente con disnea de esfuerzo progresiva, tos seca persistente, crépitos tipo velcro en las bases y acropaquia."
+  },
+  {
+   "id": "b021",
+   "t": 276.93,
+   "dur": 12.58,
+   "say": "La espirometría muestra un patrón restrictivo, con capacidad vital forzada disminuida y relación normal o elevada. La difusión de monóxido de carbono, la DLCO, está baja, a veces antes que la capacidad vital."
+  },
+  {
+   "id": "b022",
+   "t": 289.95,
+   "dur": 24.36,
+   "say": "La radiografía muestra un patrón reticular bibasal, pero el examen de elección es el TAC de tórax de alta resolución. El patrón NIU, o neumonía intersticial usual, muestra panalización, bronquiectasias de tracción y predominio subpleural basal. El patrón NINE muestra vidrio esmerilado simétrico respetando la zona subpleural, y es el frecuente en la esclerodermia. Mira este corte: el vidrio esmerilado en ambos pulmones."
+  },
+  {
+   "id": "b023",
+   "t": 314.76,
+   "dur": 4.49,
+   "say": "No olvides interrogar por exposiciones y fármacos, que veremos enseguida."
+  },
+  {
+   "id": "b024",
+   "t": 320.3,
+   "dur": 11.98,
+   "say": "Las causas principales son la fibrosis pulmonar idiopática, en varones mayores de sesenta años y tabaquistas, y las conectivopatías: esclerosis sistémica, artritis reumatoide, miositis y síndrome de Sjögren."
+  },
+  {
+   "id": "b025",
+   "t": 332.73,
+   "dur": 12.24,
+   "say": "También la neumonitis por hipersensibilidad, por aves, hongos o humedad, las neumoconiosis como asbestosis y silicosis, los fármacos como amiodarona, nitrofurantoína, metotrexato y bleomicina, y la sarcoidosis."
+  },
+  {
+   "id": "b026",
+   "t": 345.42,
+   "dur": 11.23,
+   "say": "El manejo inicial es retirar el agente o la exposición, suspender el tabaco, dar oxígeno si hay hipoxemia y vacunar contra influenza y neumococo. Y se deriva a neumología para confirmar y tratar."
+  },
+  {
+   "id": "b027",
+   "t": 357.1,
+   "dur": 17.88,
+   "say": "En la enfermedad de las conectivopatías y en la neumonitis por hipersensibilidad se usa inmunosupresión, con corticoides más micofenolato o ciclofosfamida. En la fibrosis pulmonar idiopática y en las fibrosis progresivas, antifibróticos: nintedanib o pirfenidona. Y trasplante pulmonar en casos seleccionados."
+  },
+  {
+   "id": "b028",
+   "t": 375.43,
+   "dur": 7.99,
+   "say": "Pero recuerda la regla de oro de esta clase: en la esclerodermia los corticoides en dosis altas están contraindicados por el riesgo de crisis renal."
+  },
+  {
+   "id": "b029",
+   "t": 384.47,
+   "dur": 10.56,
+   "say": "La crisis renal esclerodérmica es una emergencia médica devastadora caracterizada por una elevación súbita y masiva de la presión arterial, con cefalea intensa, encefalopatía y edema pulmonar."
+  },
+  {
+   "id": "b030",
+   "t": 395.48,
+   "dur": 9.55,
+   "say": "La isquemia renal desencadena una secreción masiva de renina, con alza acelerada de creatinina sérica y anemia hemolítica microangiopática con esquistocitos en el frotis sanguíneo."
+  },
+  {
+   "id": "b031",
+   "t": 405.48,
+   "dur": 14.76,
+   "say": "El tratamiento que salva la vida y rescata los riñones del paciente es el inicio perentorio de un inhibidor de la enzima convertidora, de preferencia captopril oral de acción corta, titulando rápidamente cada ocho horas para frenar la vasoconstricción masiva mediada por angiotensina dos."
+  },
+  {
+   "id": "b032",
+   "t": 420.69,
+   "dur": 9.89,
+   "say": "El uso oportuno de IECA redujo la mortalidad de un noventa a menos del veinte por ciento. No debe suspenderse el fármaco aunque la creatinina suba transitoriamente al iniciar."
+  },
+  {
+   "id": "b033",
+   "t": 431.63,
+   "dur": 11.86,
+   "say": "Esta es una regla de oro de prohibición que interroga siempre el examen: el uso de corticoides en dosis moderadas o altas, como prednisona mayor a quince miligramos al día, está contraindicado en la esclerosis sistémica difusa."
+  },
+  {
+   "id": "b034",
+   "t": 443.94,
+   "dur": 13.75,
+   "say": "Los glucocorticoides en dosis altas son el principal factor precipitante demostrado de crisis renal esclerodérmica yatrogénica. Si el paciente tiene dolor articular, deben preferirse analgésicos o dosis mínimas bajo estricto monitoreo tensional."
+  },
+  {
+   "id": "b035",
+   "t": 458.74,
+   "dur": 11.52,
+   "say": "Más del noventa por ciento de los pacientes presenta atrofia del músculo liso en el esófago distal, con hipotonía del esfínter inferior que provoca reflujo ácido severo, esofagitis péptica y disfagia motora a sólidos."
+  },
+  {
+   "id": "b036",
+   "t": 470.71,
+   "dur": 9.43,
+   "say": "El tratamiento exige inhibidores de bomba de protones a dosis altas continuas junto a medidas antirreflujo estrictas para prevenir estenosis esofágica y aspiración pulmonar oculta."
+  },
+  {
+   "id": "b037",
+   "t": 480.59,
+   "dur": 10.2,
+   "say": "En la fase edematosa e indurativa temprana de la piel, el metotrexato en dosis de quince a veinte miligramos semanales ha demostrado frenar la progresión del puntaje cutáneo modificado de Rodnan."
+  },
+  {
+   "id": "b038",
+   "t": 491.24,
+   "dur": 13.61,
+   "say": "Se debe indicar terapia kinésica precoz para prevenir la microstomía por rigidez peribucal y las contracturas fijas en flexión de los dedos de las manos. Mira esta cara: la boca se achica y se pliega, y el paciente ya no logra abrirla del todo."
+  },
+  {
+   "id": "b039",
+   "t": 505.9,
+   "dur": 10.37,
+   "say": "La caída aislada de la difusión de monóxido de carbono en la espirometría completa es el primer signo de alarma de hipertensión pulmonar o fibrosis incipiente, precediendo a los cambios en las imágenes."
+  },
+  {
+   "id": "b040",
+   "t": 516.72,
+   "dur": 8.64,
+   "say": "Una caída del diez por ciento o más en la capacidad vital forzada define progresión rápida de la fibrosis pulmonar y obliga a escalar a agentes antifibróticos."
+  },
+  {
+   "id": "b041",
+   "t": 525.81,
+   "dur": 11.57,
+   "say": "Todo paciente con esclerosis difusa debe tener un tensiómetro validado en casa para controlar su presión periódicamente. Cualquier alza persistente sobre ciento cuarenta con noventa exige consulta médica urgente."
+  },
+  {
+   "id": "b042",
+   "t": 538.43,
+   "dur": 9.5,
+   "say": "Comparemos ambas formas. Difusa: afecta tronco y zonas proximales. Limitada o CREST: respeta estrictamente tronco y muslos."
+  },
+  {
+   "id": "b043",
+   "t": 548.38,
+   "dur": 5.02,
+   "say": "El fenómeno de Raynaud es simultáneo en la difusa y precede por décadas en la limitada."
+  },
+  {
+   "id": "b044",
+   "t": 553.85,
+   "dur": 6.22,
+   "say": "Autoanticuerpos: anti-Scl setenta en la forma difusa y anticuerpos anticentrómero en el síndrome de CREST."
+  },
+  {
+   "id": "b045",
+   "t": 560.51,
+   "dur": 5.57,
+   "say": "Pulmón: fibrosis pulmonar intersticial en la difusa e hipertensión pulmonar tardía en el CREST."
+  },
+  {
+   "id": "b046",
+   "t": 566.53,
+   "dur": 6.34,
+   "say": "Crisis renal: típica de la difusa, gatillada por corticoides y tratada de urgencia con captopril oral."
+  },
+  {
+   "id": "b047",
+   "t": 573.92,
+   "dur": 18.94,
+   "say": "En la forma limitada, el engrosamiento de la piel se detiene en los codos y las rodillas, con CREST y anticuerpos anticentrómero. En la difusa avanza rápido al tronco, y el colágeno se deposita también en el pulmón y el riñón: el anti Scl setenta predice fibrosis pulmonar intersticial, y el anti ARN polimerasa tres, crisis renal."
+  },
+  {
+   "id": "b048",
+   "t": 596.12,
+   "dur": 14.47,
+   "say": "Caso clínico de urgencia. Mujer de cincuenta y cuatro años con esclerosis difusa tratada con prednisona veinte miligramos al día que ingresa con presión de doscientos diez con ciento veinticinco, creatinina en tres coma dos, esquistocitos en frotis y plaquetopenia."
+  },
+  {
+   "id": "b049",
+   "t": 611.04,
+   "dur": 7.25,
+   "say": "¿Cuál es el diagnóstico de esta emergencia médica, cuál fue el factor desencadenante y qué fármaco es el tratamiento de elección inmediato?"
+  },
+  {
+   "id": "b050",
+   "t": 618.74,
+   "dur": 15.5,
+   "say": "Las alternativas: crisis renal esclerodérmica gatillada por prednisona y tratada con captopril oral, glomerulonefritis postestreptocócica, púrpura trombótica trombocitopénica sola, nefritis lúpica con ciclofosfamida, o estenosis de arteria renal. Piénsalo."
+  },
+  {
+   "id": "b052",
+   "t": 637.89,
+   "dur": 16.01,
+   "say": "La respuesta correcta es la A. Es una crisis renal esclerodérmica clásica, precipitada por la dosis alta de prednisona. El tratamiento de elección inmediata son los inhibidores de la ECA, específicamente captopril oral a dosis crecientes para bloquear el sistema renina angiotensina."
+  },
+  {
+   "id": "b053",
+   "t": 654.95,
+   "dur": 11.23,
+   "say": "Pregunta real del EUNACOM dos mil dieciocho, pregunta once. Paciente con esclerosis sistémica difusa que toma prednisona y consulta por crisis hipertensiva con alza de creatinina y esquistocitos."
+  },
+  {
+   "id": "b054",
+   "t": 666.63,
+   "dur": 4.97,
+   "say": "¿Cuál es el tratamiento antihipertensivo de elección indispensable para esta emergencia médica?"
+  },
+  {
+   "id": "b055",
+   "t": 672.05,
+   "dur": 12.55,
+   "say": "Las opciones: nitroprusiato de sodio en infusión exclusiva, inhibidor de la ECA como captopril oral en dosis crecientes, metilprednisolona endovenosa, amlodipino con diurético, o furosemida en bolo. Piénsalo."
+  },
+  {
+   "id": "b057",
+   "t": 688.25,
+   "dur": 11.83,
+   "say": "La respuesta correcta es la B. Los inhibidores de la enzima convertidora, de preferencia captopril oral, son el tratamiento de elección absoluta que bloquea la renina y salva el riñón en la crisis renal esclerodérmica."
+  },
+  {
+   "id": "b058",
+   "t": 701.13,
+   "dur": 11.18,
+   "say": "Cerramos con las tres reglas de oro. Primero: la forma difusa compromete el tronco, porta anticuerpos anti-Scl setenta y su principal causa de muerte es la fibrosis pulmonar intersticial."
+  },
+  {
+   "id": "b059",
+   "t": 712.77,
+   "dur": 7.7,
+   "say": "La forma limitada respeta el tronco, conforma el síndrome de CREST con anticuerpos anticentrómero y desarrolla hipertensión pulmonar tardía."
+  },
+  {
+   "id": "b060",
+   "t": 720.92,
+   "dur": 10.46,
+   "say": "Segundo: la crisis renal esclerodérmica cursa con hipertensión maligna, alza de creatinina y esquistocitos, y su tratamiento indiscutido de elección es el captopril oral a dosis plenas."
+  },
+  {
+   "id": "b061",
+   "t": 731.83,
+   "dur": 7.66,
+   "say": "Los corticoides en dosis sobre quince miligramos al día están terminantemente prohibidos en esclerosis difusa porque precipitan la crisis renal."
+  },
+  {
+   "id": "b062",
+   "t": 739.94,
+   "dur": 8.33,
+   "say": "Tercero: el compromiso esofágico por atrofia muscular lisa produce reflujo grave y disfagia motora, requiriendo inhibidores de bomba a dosis dobles."
+  },
+  {
+   "id": "b063",
+   "t": 748.72,
+   "dur": 19.7,
+   "say": "Todo paciente exige ecocardiograma anual para pesquisar hipertensión pulmonar. Si te llevas una sola idea de hoy: la difusa tiene anti-Scl setenta y mata por fibrosis pulmonar, el CREST tiene anticentrómero y hace hipertensión pulmonar tardía, y la crisis renal se rescata con captopril y jamás con corticoides. Nos vemos en la próxima clase."
+  }
+ ]
+}

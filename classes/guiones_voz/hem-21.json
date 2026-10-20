@@ -1,0 +1,427 @@
+{
+ "id": "hem-21",
+ "title": "Neutropenia Febril en Oncología",
+ "total": 837.4620000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 25.51,
+   "say": "Bienvenidos. Hoy entramos a las urgencias oncohematológicas con la más frecuente y la más letal: la neutropenia febril. Ya vimos que la quimioterapia vacía la médula; hoy vemos qué pasa cuando aparece la fiebre. El examen pregunta cuatro cosas: la definición exacta, la hora de oro, el puntaje MASCC y el antibiótico de elección. Y hay una sola idea que ordena todo: la fiebre puede ser el único signo de una sepsis que te mata en horas."
+  },
+  {
+   "id": "b002",
+   "t": 32.36,
+   "dur": 19.44,
+   "say": "Partamos por la definición, porque se pregunta con números exactos. El escenario es un paciente con quimioterapia. Los neutrófilos caen a su punto más bajo, el nadir, entre el día siete y el día catorce después del ciclo. Si un paciente consulta con fiebre diez días después de su quimioterapia, ya sabes lo que tienes que sospechar."
+  },
+  {
+   "id": "b003",
+   "t": 52.25,
+   "dur": 14.35,
+   "say": "El primer criterio es el hematológico: un recuento absoluto de neutrófilos, el RAN, menor de quinientos por microlitro. O menor de mil, si se espera que caiga bajo quinientos en las próximas veinticuatro a cuarenta y ocho horas, como pasa justo antes del nadir."
+  },
+  {
+   "id": "b004",
+   "t": 67.05,
+   "dur": 9.36,
+   "say": "El segundo es la fiebre: una toma única de treinta y ocho coma tres o más, o de treinta y ocho o más sostenida por una hora, o registrada dos veces separadas por una hora."
+  },
+  {
+   "id": "b005",
+   "t": 76.86,
+   "dur": 7.85,
+   "say": "Cuando coinciden los dos, es una neutropenia febril. Y no es un diagnóstico para pensar con calma: es una emergencia médica."
+  },
+  {
+   "id": "b006",
+   "t": 85.16,
+   "dur": 14.21,
+   "say": "Si el recuento es menor de cien, hablamos de neutropenia profunda. Ahí el riesgo de que los bacilos gramnegativos del intestino pasen a la sangre y produzcan un shock séptico crece de forma exponencial, y cada hora de retraso del antibiótico aumenta la mortalidad."
+  },
+  {
+   "id": "b007",
+   "t": 100.42,
+   "dur": 12.31,
+   "say": "El examen muchas veces no te da el RAN: te da los leucocitos y la fórmula, y tienes que calcularlo. Multiplicas los leucocitos totales por la suma del porcentaje de segmentados y de baciliformes, y divides por cien."
+  },
+  {
+   "id": "b008",
+   "t": 113.18,
+   "dur": 14.06,
+   "say": "Un ejemplo. Ochocientos leucocitos, con diez por ciento de segmentados y dos de baciliformes. Eso es doce por ciento de ochocientos: noventa y seis neutrófilos. Menos de cien, así que es una neutropenia profunda."
+  },
+  {
+   "id": "b009",
+   "t": 127.7,
+   "dur": 12.29,
+   "say": "Y ojo con la trampa. Un paciente con mil leucocitos, pero con noventa por ciento de linfocitos, tiene apenas cien neutrófilos. No mires los leucocitos totales: calcula siempre los neutrófilos."
+  },
+  {
+   "id": "b010",
+   "t": 141.03,
+   "dur": 13.8,
+   "say": "Ahora, ¿de dónde viene la infección? En más del setenta y cinco por ciento, de la propia flora del paciente. La quimioterapia ulcera la boca y el intestino, eso es la mucositis, y por esas úlceras las bacterias pasan a la sangre."
+  },
+  {
+   "id": "b011",
+   "t": 155.28,
+   "dur": 12.65,
+   "say": "Los más letales son los bacilos gramnegativos: Pseudomonas aeruginosa, Escherichia coli, Klebsiella y Enterobacter. Por eso el antibiótico empírico siempre tiene que cubrir Pseudomonas. Guarda esta idea."
+  },
+  {
+   "id": "b012",
+   "t": 168.38,
+   "dur": 10.56,
+   "say": "Los cocos grampositivos también son muy comunes, por los catéteres venosos centrales que llevan estos pacientes: Staphylococcus epidermidis, Staphylococcus aureus y Streptococcus viridans."
+  },
+  {
+   "id": "b013",
+   "t": 179.39,
+   "dur": 12.82,
+   "say": "Y ahora lo más importante. La inflamación la hacen los neutrófilos. Si no hay neutrófilos, no hay pus, la celulitis no se pone roja ni se hincha, y la neumonía precoz no muestra infiltrado en la radiografía."
+  },
+  {
+   "id": "b014",
+   "t": 192.66,
+   "dur": 13.2,
+   "say": "Entonces, muchas veces la fiebre es el único signo de una infección bacteriana masiva. Un paciente neutropénico con fiebre y buen aspecto puede estar en shock en pocas horas. Por eso no se espera encontrar el foco para tratar."
+  },
+  {
+   "id": "b015",
+   "t": 206.91,
+   "dur": 16.78,
+   "say": "Para decidir quién puede tratarse en su casa, la Sociedad Multinacional de Cuidados de Soporte en Cáncer validó el puntaje MASCC. Suma cinco puntos si los síntomas son leves o no hay, y tres si son moderados. Cinco más si no hay hipotensión, es decir, presión sistólica sobre noventa."
+  },
+  {
+   "id": "b016",
+   "t": 224.13,
+   "dur": 8.23,
+   "say": "Cuatro si no tiene una EPOC descompensada. Y cuatro si es un tumor sólido, o una neoplasia hematológica sin infección por hongos previa."
+  },
+  {
+   "id": "b017",
+   "t": 232.82,
+   "dur": 7.78,
+   "say": "Tres si no está deshidratado al punto de necesitar sueros, tres si la fiebre empezó estando ambulatorio, y dos si tiene menos de sesenta años."
+  },
+  {
+   "id": "b018",
+   "t": 241.04,
+   "dur": 10.22,
+   "say": "Veintiún puntos o más es bajo riesgo: menos de cinco por ciento de complicaciones y mortalidad menor de uno por ciento. Estos pacientes pueden tratarse por boca, en su casa."
+  },
+  {
+   "id": "b019",
+   "t": 251.72,
+   "dur": 9.6,
+   "say": "Pero solo si están estables, sin falla de órganos, con apoyo familiar y a menos de una hora de poder reconsultar. Y se controlan de cerca a las veinticuatro horas."
+  },
+  {
+   "id": "b020",
+   "t": 261.77,
+   "dur": 9.82,
+   "say": "Bajo veintiún puntos es alto riesgo, y la hospitalización es obligatoria, en aislamiento protector o en la unidad de paciente crítico, con antibióticos endovenosos de amplio espectro."
+  },
+  {
+   "id": "b021",
+   "t": 272.63,
+   "dur": 14.4,
+   "say": "Llegamos a la regla de oro de la clase. Todo paciente con neutropenia febril de alto riesgo debe recibir la primera dosis de antibiótico endovenoso en menos de sesenta minutos desde que llega a urgencias. Es la hora de oro, y ordena todo lo que haces."
+  },
+  {
+   "id": "b022",
+   "t": 287.48,
+   "dur": 8.69,
+   "say": "Primero, una anamnesis corta y dirigida: cuándo fue el último ciclo de quimioterapia, si tiene catéter, y si hay algún foco respiratorio o urinario."
+  },
+  {
+   "id": "b023",
+   "t": 296.62,
+   "dur": 10.22,
+   "say": "Luego, un examen físico rápido pero prolijo de los sitios donde la infección se esconde: la boca y la faringe, el sitio de inserción del catéter, y la zona perianal, solo mirando."
+  },
+  {
+   "id": "b024",
+   "t": 307.29,
+   "dur": 11.47,
+   "say": "Y aquí está la prohibición que el examen adora. Está estrictamente prohibido el tacto rectal, y también el termómetro rectal. El microtrauma de la mucosa puede provocar una bacteriemia fatal."
+  },
+  {
+   "id": "b025",
+   "t": 319.22,
+   "dur": 5.98,
+   "say": "Después, dos sets de hemocultivos periféricos, y además uno por cada lumen del catéter si lo tiene."
+  },
+  {
+   "id": "b026",
+   "t": 325.64,
+   "dur": 13.56,
+   "say": "E inmediatamente, el antibiótico endovenoso. No se espera la radiografía de tórax, ni el resultado de los exámenes, ni el traslado a otro centro. Esa demora es la respuesta incorrecta en casi todas las preguntas del tema."
+  },
+  {
+   "id": "b027",
+   "t": 340.25,
+   "dur": 11.11,
+   "say": "Pasemos al antibiótico. En el paciente de alto riesgo, la elección es la monoterapia antipseudomónica endovenosa. La primera opción es el cefepime, dos gramos cada ocho horas."
+  },
+  {
+   "id": "b028",
+   "t": 351.81,
+   "dur": 8.76,
+   "say": "O piperacilina con tazobactam, cuatro coma cinco gramos cada seis horas. Las dos cubren Pseudomonas, que era la idea que te pedí guardar."
+  },
+  {
+   "id": "b029",
+   "t": 361.02,
+   "dur": 8.3,
+   "say": "El meropenem, un gramo cada ocho horas, se reserva para el shock séptico o la sospecha de bacterias productoras de betalactamasas de espectro extendido."
+  },
+  {
+   "id": "b030",
+   "t": 369.78,
+   "dur": 12.91,
+   "say": "Y ojo, porque aquí las preguntas antiguas te pueden confundir. Ya no se recomienda sumar de rutina un aminoglucósido, como la amikacina: es nefrotóxico y no mejora la sobrevida. La monoterapia es suficiente."
+  },
+  {
+   "id": "b031",
+   "t": 383.14,
+   "dur": 13.56,
+   "say": "En el paciente de bajo riesgo bien seleccionado, el esquema es oral: ciprofloxacino, quinientos a setecientos cincuenta miligramos cada doce horas, más amoxicilina con ácido clavulánico, ochocientos setenta y cinco miligramos cada ocho horas."
+  },
+  {
+   "id": "b032",
+   "t": 397.75,
+   "dur": 10.61,
+   "say": "La vancomicina no se incluye de rutina en el esquema inicial. Se agrega solo con indicaciones precisas. La primera: inestabilidad hemodinámica, el shock séptico."
+  },
+  {
+   "id": "b033",
+   "t": 408.81,
+   "dur": 6.58,
+   "say": "La segunda: infección evidente del catéter venoso central, con eritema, flebitis o secreción en el trayecto."
+  },
+  {
+   "id": "b034",
+   "t": 415.83,
+   "dur": 5.33,
+   "say": "La tercera: colonización conocida por Staphylococcus aureus resistente a meticilina."
+  },
+  {
+   "id": "b035",
+   "t": 421.61,
+   "dur": 11.47,
+   "say": "Y la cuarta y quinta: una mucositis grave, grado tres o cuatro, en un paciente que recibió profilaxis con fluoroquinolonas, por el riesgo de Streptococcus viridans resistente; y una neumonía documentada."
+  },
+  {
+   "id": "b036",
+   "t": 433.53,
+   "dur": 6.67,
+   "say": "Si se agregó por inestabilidad y a las cuarenta y ocho a setenta y dos horas no hay grampositivos en los cultivos, se suspende."
+  },
+  {
+   "id": "b037",
+   "t": 440.66,
+   "dur": 6.02,
+   "say": "Y si el catéter causa una bacteriemia por Staphylococcus aureus o por Candida, el catéter se retira."
+  },
+  {
+   "id": "b038",
+   "t": 447.73,
+   "dur": 11.16,
+   "say": "Y si el paciente sigue con fiebre, ¿qué haces? Esta tabla ordena el tiempo. En la hora cero, hemocultivos y cefepime o piperacilina con tazobactam antes de sesenta minutos."
+  },
+  {
+   "id": "b039",
+   "t": 459.34,
+   "dur": 12.41,
+   "say": "A las cuarenta y ocho a setenta y dos horas, si sigue febril pero estable, no se cambia nada a ciegas. La fiebre en el neutropénico dura en promedio cuatro a cinco días. Se revisan los cultivos y se mantiene."
+  },
+  {
+   "id": "b040",
+   "t": 472.2,
+   "dur": 6.67,
+   "say": "En cambio, si se deteriora o se inestabiliza, se escala a meropenem más vancomicina y se buscan focos nuevos."
+  },
+  {
+   "id": "b041",
+   "t": 479.32,
+   "dur": 18,
+   "say": "Y si al cuarto a séptimo día sigue con fiebre pese a antibióticos adecuados y cultivos negativos, piensa en hongos. Se pide un scanner de tórax de alta resolución buscando nódulos con signo del halo, y galactomanano de Aspergillus en suero, y se inicia un antifúngico: voriconazol, caspofungina o anfotericina B liposomal."
+  },
+  {
+   "id": "b042",
+   "t": 498.37,
+   "dur": 12.07,
+   "say": "Los neutrófilos caen al mínimo entre el día siete y el catorce. Con menos de quinientos y fiebre, la primera dosis de antibiótico endovenoso, como el cefepime, va antes de sesenta minutos, sin esperar el foco."
+  },
+  {
+   "id": "b043",
+   "t": 520.57,
+   "dur": 5.66,
+   "say": "Juntemos todo en un árbol de decisión, partiendo del paciente con fiebre después de la quimioterapia."
+  },
+  {
+   "id": "b044",
+   "t": 526.68,
+   "dur": 5.98,
+   "say": "Paciente en quimioterapia que consulta con fiebre. Asume que está en el nadir y actúa rápido."
+  },
+  {
+   "id": "b045",
+   "t": 533.11,
+   "dur": 5.9,
+   "say": "Calcula el recuento absoluto de neutrófilos y confirma la fiebre. ¿Cumple los dos criterios?"
+  },
+  {
+   "id": "b046",
+   "t": 539.46,
+   "dur": 5.76,
+   "say": "Si no cumple los criterios, estudias la fiebre como en cualquier paciente, con controles cercanos."
+  },
+  {
+   "id": "b047",
+   "t": 545.67,
+   "dur": 12.72,
+   "say": "Si cumple, es una neutropenia febril: dos sets de hemocultivos y antibiótico endovenoso antes de sesenta minutos, sin tacto rectal y sin esperar imágenes. Con el antibiótico en marcha, calculas el puntaje MASCC."
+  },
+  {
+   "id": "b048",
+   "t": 558.84,
+   "dur": 8.14,
+   "say": "Veintiuno o más, estable y con apoyo: ciprofloxacino más amoxicilina con clavulánico por boca, con control a las veinticuatro horas."
+  },
+  {
+   "id": "b049",
+   "t": 567.43,
+   "dur": 11.14,
+   "say": "Bajo veintiuno: hospitalización en aislamiento protector, con cefepime o piperacilina con tazobactam. Si al cuarto a séptimo día sigue con fiebre y cultivos negativos, busca hongos."
+  },
+  {
+   "id": "b050",
+   "t": 579.02,
+   "dur": 5.06,
+   "say": "Si está en shock séptico, va a cuidados intensivos con meropenem más vancomicina."
+  },
+  {
+   "id": "b051",
+   "t": 585.13,
+   "dur": 11.81,
+   "say": "Repasemos las trampas. Fiebre a los diez días de la quimioterapia: estás en el nadir, y lo primero es un hemograma con el recuento de neutrófilos. Mandarlo a la casa con antipiréticos es el error."
+  },
+  {
+   "id": "b052",
+   "t": 597.39,
+   "dur": 9.94,
+   "say": "Neutropenia febril sin foco: antibiótico endovenoso en menos de una hora. Esperar la radiografía o los cultivos es la trampa, porque sin neutrófilos no hay signos."
+  },
+  {
+   "id": "b053",
+   "t": 607.77,
+   "dur": 5.64,
+   "say": "En el examen, la zona perianal solo se mira. El tacto rectal está prohibido."
+  },
+  {
+   "id": "b054",
+   "t": 613.86,
+   "dur": 8.06,
+   "say": "Alto riesgo: monoterapia con cefepime o piperacilina con tazobactam. Sumar de rutina amikacina o vancomicina es el error."
+  },
+  {
+   "id": "b055",
+   "t": 622.38,
+   "dur": 7.92,
+   "say": "Bajo riesgo, estable y con apoyo: ciprofloxacino más amoxicilina con clavulánico por boca, con control a las veinticuatro horas."
+  },
+  {
+   "id": "b056",
+   "t": 630.75,
+   "dur": 9.67,
+   "say": "Y fiebre persistente pese a antibióticos de amplio espectro, sin foco: se buscan hongos y se inicia antifúngico. Suspender los antibióticos y observar es el error."
+  },
+  {
+   "id": "b057",
+   "t": 641.47,
+   "dur": 23.81,
+   "say": "Vamos con un caso. Mujer de cincuenta y tres años con cáncer de mama, cuyo último ciclo de quimioterapia fue hace diez días. Consulta por fiebre de treinta y ocho coma seis y calofríos. No tiene foco evidente. Presión normal, frecuencia de ciento dos, y al llegar tiene treinta y siete coma ocho. Leucocitos ochocientos, con diez por ciento de segmentados y dos de baciliformes."
+  },
+  {
+   "id": "b058",
+   "t": 665.73,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b059",
+   "t": 668.58,
+   "dur": 17.62,
+   "say": "Tienes cinco opciones. Esperar la radiografía y el urocultivo. Hacer un tacto rectal. Hemocultivos y cefepime en menos de una hora. Ceftazidima, amikacina y vancomicina. O paracetamol y control, porque ahora está afebril. Piénsalo."
+  },
+  {
+   "id": "b061",
+   "t": 689.84,
+   "dur": 25.87,
+   "say": "La respuesta es la C. Calcula: doce por ciento de ochocientos son noventa y seis neutrófilos, una neutropenia profunda en pleno nadir, y ya tuvo fiebre de treinta y ocho coma seis. Hemocultivos y cefepime antes de sesenta minutos. El distractor tentador es la E, porque ahora está afebril. Pero la fiebre ya se registró, y en un neutropénico esperar es peligroso. El tacto rectal está prohibido, y la amikacina y la vancomicina no van de rutina."
+  },
+  {
+   "id": "b062",
+   "t": 716.77,
+   "dur": 17.21,
+   "say": "Ahora preguntas reales. La primera es del EUNACOM de diciembre de dos mil veinticinco. Niño de siete años con leucemia linfoblástica aguda, que inició su quimioterapia hace siete días. Consulta por fiebre de treinta y ocho coma cinco y malestar general, con un examen físico sin foco."
+  },
+  {
+   "id": "b063",
+   "t": 734.42,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b064",
+   "t": 737.27,
+   "dur": 12.1,
+   "say": "Las opciones son: ceftriaxona intramuscular y control en veinticuatro horas, antipiréticos y control, antibióticos de amplio espectro endovenosos, serología para virus, o amoxicilina oral. Piénsalo."
+  },
+  {
+   "id": "b066",
+   "t": 753.02,
+   "dur": 21.41,
+   "say": "Es la C, antibióticos de amplio espectro por vía endovenosa. Siete días después de la quimioterapia está entrando al nadir, y la fiebre sin foco es una neutropenia febril hasta demostrar lo contrario. El distractor tentador es la ceftriaxona intramuscular con control, porque suena a tratar. Pero no cubre Pseudomonas, y mandarlo a la casa sin estratificar el riesgo es peligroso."
+  },
+  {
+   "id": "b067",
+   "t": 775.48,
+   "dur": 10.42,
+   "say": "Cerremos con las reglas de oro. Neutropenia febril es un recuento de neutrófilos menor de quinientos, más fiebre de treinta y ocho coma tres, o de treinta y ocho sostenida por una hora."
+  },
+  {
+   "id": "b068",
+   "t": 786.34,
+   "dur": 5.4,
+   "say": "Sin neutrófilos no hay pus ni infiltrado. La fiebre puede ser el único signo."
+  },
+  {
+   "id": "b069",
+   "t": 792.19,
+   "dur": 6.36,
+   "say": "Hemocultivos y antibiótico endovenoso en menos de sesenta minutos, sin esperar imágenes, y nunca tacto rectal."
+  },
+  {
+   "id": "b070",
+   "t": 799,
+   "dur": 5.52,
+   "say": "MASCC de veintiuno o más permite tratar por boca en la casa; bajo veintiuno se hospitaliza."
+  },
+  {
+   "id": "b071",
+   "t": 804.97,
+   "dur": 9.29,
+   "say": "Monoterapia antipseudomónica con cefepime o piperacilina con tazobactam. La vancomicina solo con indicación, y el aminoglucósido ya no va de rutina."
+  },
+  {
+   "id": "b072",
+   "t": 814.71,
+   "dur": 16.8,
+   "say": "Si te llevas una sola idea de hoy: el neutropénico con fiebre recibe su antibiótico antipseudomónico antes de una hora, aunque se vea bien. En la próxima clase seguimos con las urgencias oncológicas: la lisis tumoral, la hipercalcemia y la compresión medular. Nos vemos en la próxima clase."
+  }
+ ]
+}

@@ -1,0 +1,475 @@
+{
+ "id": "nefro-05",
+ "title": "Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+ "total": 985.722,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 24.41,
+   "say": "Bienvenidos. Hoy abrimos el bloque de trastornos del sodio y del agua con la hiponatremia, el trastorno electrolítico más común en el paciente hospitalizado. En el examen se pregunta una y otra vez lo mismo: cuándo dar suero hipertónico al tres por ciento, y qué tan rápido se puede subir el sodio sin dañar el cerebro. Si en las clases de injuria renal aprendiste a leer el sodio urinario, hoy lo vas a usar de nuevo. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 31.26,
+   "dur": 11.52,
+   "say": "Partamos por una idea que ordena todo el tema. La hiponatremia casi nunca es un problema de falta de sodio: es un problema de agua. Sobra agua libre en relación con el sodio que hay en el cuerpo."
+  },
+  {
+   "id": "b003",
+   "t": 43.23,
+   "dur": 12.86,
+   "say": "Ese exceso de agua deja al plasma hipotónico. Y como el agua se mueve hacia donde hay más solutos, entra a las células. La célula que más nos preocupa es la neurona, porque vive dentro de una caja rígida: el cráneo."
+  },
+  {
+   "id": "b004",
+   "t": 56.54,
+   "dur": 11.93,
+   "say": "Si la hiponatremia se instala rápido, en menos de cuarenta y ocho horas, la neurona se hincha y aparece el edema cerebral. Ese es el paciente que convulsiona o cae en coma, y el que tiene riesgo de enclavamiento."
+  },
+  {
+   "id": "b005",
+   "t": 68.92,
+   "dur": 15.91,
+   "say": "Pero si la hiponatremia se instala lento, el cerebro se defiende. En unas cuarenta y ocho horas saca de sus células osmolitos orgánicos, como el mioinositol, la taurina y el glutamato, y así deja de hincharse. Por eso la hiponatremia crónica puede dar muy pocos síntomas."
+  },
+  {
+   "id": "b006",
+   "t": 85.28,
+   "dur": 19.63,
+   "say": "Y aquí está la trampa del tema. Ese cerebro adaptado ya no tiene osmolitos. Si subes el sodio muy rápido, el plasma se vuelve hipertónico de golpe, le saca agua a los oligodendrocitos y destruye la mielina del puente. Eso es la desmielinización osmótica. Guarda esta idea, porque decide la velocidad de corrección."
+  },
+  {
+   "id": "b007",
+   "t": 105.96,
+   "dur": 11.3,
+   "say": "Frente a un sodio bajo ciento treinta y cinco, el primer paso no es tratar: es calcular o medir la osmolaridad plasmática. Se estima con dos veces el sodio más la glicemia dividida por dieciocho."
+  },
+  {
+   "id": "b008",
+   "t": 117.72,
+   "dur": 15.5,
+   "say": "Si la osmolaridad es normal, entre doscientos ochenta y doscientos noventa y cinco, no hay un problema de agua. Es una pseudohiponatremia, un artefacto de laboratorio por triglicéridos muy altos o por exceso de proteínas, como en el mieloma múltiple. No se trata el sodio."
+  },
+  {
+   "id": "b009",
+   "t": 133.67,
+   "dur": 15.5,
+   "say": "Si la osmolaridad está alta, sobre doscientos noventa y cinco, hay otro soluto que arrastra agua al plasma y diluye el sodio. El clásico es la hiperglicemia. Para saber el sodio real, se suma uno coma seis a dos miliequivalentes por cada cien de glicemia sobre cien."
+  },
+  {
+   "id": "b010",
+   "t": 149.63,
+   "dur": 11.57,
+   "say": "Y si la osmolaridad está baja, menos de doscientos setenta y cinco, recién ahí tienes una hiponatremia hipotónica verdadera. Esa es la que se estudia y se trata, y es la que vamos a ver el resto de la clase."
+  },
+  {
+   "id": "b011",
+   "t": 162.24,
+   "dur": 12.36,
+   "say": "Una vez confirmada la hipotónica, la clasificas con dos preguntas. La primera es el tiempo. Aguda es la de menos de cuarenta y ocho horas: el cerebro no alcanzó a adaptarse, y el riesgo es el edema."
+  },
+  {
+   "id": "b012",
+   "t": 175.05,
+   "dur": 12.53,
+   "say": "Crónica es la de cuarenta y ocho horas o más. Y ojo con este detalle: si no sabes cuándo empezó, la tratas como crónica. En la crónica el riesgo cambia de lado: el peligro es corregir demasiado rápido."
+  },
+  {
+   "id": "b013",
+   "t": 188.03,
+   "dur": 9.24,
+   "say": "La segunda pregunta es cuánto. Leve, entre ciento treinta y ciento treinta y cuatro. Moderada, entre ciento veinticinco y ciento veintinueve."
+  },
+  {
+   "id": "b014",
+   "t": 197.72,
+   "dur": 13.94,
+   "say": "Y severa, bajo ciento veinticinco. Pero fíjate: lo que define la urgencia no es el número, son los síntomas neurológicos. Un paciente con ciento dieciocho que conversa no es lo mismo que uno con ciento veinticuatro que convulsiona."
+  },
+  {
+   "id": "b015",
+   "t": 212.72,
+   "dur": 15.02,
+   "say": "Ahora, la causa. Aquí la herramienta es el examen físico: ¿cómo está el volumen extracelular? Hipovolémico, euvolémico o hipervolémico. Y después, como en la injuria renal, el sodio urinario te dice dónde está el problema."
+  },
+  {
+   "id": "b016",
+   "t": 228.19,
+   "dur": 12.48,
+   "say": "El paciente hipovolémico tiene mucosas secas y ortostatismo. Si su sodio urinario es menor de veinte, el riñón está ahorrando sodio como debe, así que la pérdida es extrarrenal: vómitos, diarrea o tercer espacio."
+  },
+  {
+   "id": "b017",
+   "t": 241.12,
+   "dur": 13.66,
+   "say": "Si con esa misma hipovolemia el sodio urinario es mayor de veinte, el que pierde sodio es el riñón. Las causas son los diuréticos tiazídicos, el déficit de mineralocorticoides, como en la enfermedad de Addison, y la nefropatía perdedora de sal."
+  },
+  {
+   "id": "b018",
+   "t": 255.23,
+   "dur": 17.98,
+   "say": "El paciente euvolémico no tiene edema ni signos de deshidratación. Aquí la causa principal es el síndrome de secreción inapropiada de hormona antidiurética, el SIADH, con sodio urinario sobre cuarenta y orina concentrada. Antes de decir SIADH, descarta el hipotiroidismo severo y la insuficiencia suprarrenal secundaria."
+  },
+  {
+   "id": "b019",
+   "t": 273.65,
+   "dur": 15.14,
+   "say": "En la misma rama está la polidipsia psicógena y el bebedor de cerveza. La diferencia con el SIADH está en la orina: aquí está máximamente diluida, con osmolaridad urinaria bajo cien y sodio urinario bajo veinte. Este contraste lo profundizamos en la próxima clase."
+  },
+  {
+   "id": "b020",
+   "t": 289.25,
+   "dur": 17.98,
+   "say": "Y el hipervolémico tiene edema o ascitis: insuficiencia cardíaca, cirrosis o síndrome nefrótico. Aunque le sobra agua y sodio, su volumen arterial efectivo está bajo, y por eso el riñón retiene sodio: el sodio urinario es menor de veinte. Esto conecta con lo que vimos en síndrome cardiorrenal y hepatorrenal."
+  },
+  {
+   "id": "b021",
+   "t": 308.27,
+   "dur": 16.42,
+   "say": "Veamos las causas que más aparecen en los casos. La primera, las tiazidas, como la hidroclorotiazida. Actúan en el túbulo contorneado distal, que es justamente el segmento que diluye la orina. Si lo bloqueas, el riñón pierde la capacidad de eliminar agua libre."
+  },
+  {
+   "id": "b022",
+   "t": 325.14,
+   "dur": 18.53,
+   "say": "¿Y por qué dan más hiponatremia que la furosemida? Porque la tiazida no toca el asa de Henle, entonces la médula sigue concentrada y la hormona antidiurética sigue reabsorbiendo agua. La furosemida, en cambio, borra ese gradiente. Por eso las tiazidas son la causa farmacológica más frecuente de hiponatremia grave."
+  },
+  {
+   "id": "b023",
+   "t": 344.12,
+   "dur": 8.81,
+   "say": "La segunda son los fármacos que producen SIADH: los inhibidores selectivos de la recaptura de serotonina, como la sertralina y el citalopram, y la carbamazepina."
+  },
+  {
+   "id": "b024",
+   "t": 353.37,
+   "dur": 9.38,
+   "say": "Y la combinación que más se repite es la adulta mayor hipertensa y deprimida, que toma una tiazida y un ISRS al mismo tiempo. Dos mecanismos que suman."
+  },
+  {
+   "id": "b025",
+   "t": 363.21,
+   "dur": 10.46,
+   "say": "Y la tercera es el cáncer pulmonar de células pequeñas, que fabrica hormona antidiurética por su cuenta. Fumador, hiponatremia y confusión: piensa en SIADH paraneoplásico."
+  },
+  {
+   "id": "b026",
+   "t": 374.72,
+   "dur": 12.1,
+   "say": "Pasemos a la urgencia, que es lo más preguntado. Convulsiones, estupor, coma, somnolencia profunda o bradipnea. Con cualquiera de estos síntomas, la hiponatremia es una emergencia vital."
+  },
+  {
+   "id": "b027",
+   "t": 387.27,
+   "dur": 7.18,
+   "say": "¿Por qué? Por lo que vimos al principio: el cerebro está hinchado dentro del cráneo, y el riesgo es el enclavamiento."
+  },
+  {
+   "id": "b028",
+   "t": 394.89,
+   "dur": 14.74,
+   "say": "La conducta es inmediata: bolo de suero salino hipertónico al tres por ciento, de cien a ciento cincuenta mililitros, en diez a veinte minutos. Fíjate que no es suero fisiológico. Es hipertónico, porque necesitas sacar agua del cerebro rápido."
+  },
+  {
+   "id": "b029",
+   "t": 410.08,
+   "dur": 5.83,
+   "say": "Si los síntomas persisten, el bolo se repite hasta dos veces más, cada veinte a treinta minutos."
+  },
+  {
+   "id": "b030",
+   "t": 416.36,
+   "dur": 14.02,
+   "say": "Y la meta es modesta: subir el sodio cuatro a seis miliequivalentes por litro. No buscas normalizarlo. Esa pequeña subida basta para reducir el edema y cortar las convulsiones. Lo que viene después ya es corrección lenta."
+  },
+  {
+   "id": "b031",
+   "t": 431.43,
+   "dur": 12.6,
+   "say": "Ahora, el número que tienes que saber de memoria. En la hiponatremia crónica, el sodio no debe subir más de ocho a diez miliequivalentes por litro en las primeras veinticuatro horas, ni más de dieciocho en cuarenta y ocho horas."
+  },
+  {
+   "id": "b032",
+   "t": 444.48,
+   "dur": 6.74,
+   "say": "Y para cumplirlo no basta con calcular: hay que medir. Se controla la natremia cada cuatro a seis horas."
+  },
+  {
+   "id": "b033",
+   "t": 451.67,
+   "dur": 6.07,
+   "say": "En algunos pacientes el límite es todavía más estricto: seis a ocho miliequivalentes en veinticuatro horas."
+  },
+  {
+   "id": "b034",
+   "t": 458.19,
+   "dur": 14.74,
+   "say": "¿Quiénes son? El alcohólico crónico, el desnutrido severo, el cirrótico avanzado, el que tiene hipokalemia, y el que parte con un sodio menor de ciento cinco. Si en el caso aparece uno de ellos, busca la alternativa con el límite más bajo."
+  },
+  {
+   "id": "b035",
+   "t": 473.98,
+   "dur": 14.74,
+   "say": "Volvamos a la conexión que dejamos pendiente. Si el sodio sube más rápido que el límite, el plasma se hipertoniza bruscamente y deshidrata a los oligodendrocitos, que pierden la mielina, sobre todo en el puente. Eso es la mielinolisis pontina central."
+  },
+  {
+   "id": "b036",
+   "t": 489.17,
+   "dur": 15.29,
+   "say": "Lo traicionero es que no aparece de inmediato. El paciente mejora con la corrección, y dos a seis días después aparece disartria, disfagia, compromiso de conciencia y cuadriparesia. Así se ve en la resonancia: las flechas marcan la lesión en el centro del puente."
+  },
+  {
+   "id": "b037",
+   "t": 504.9,
+   "dur": 11.57,
+   "say": "En su forma más grave, el síndrome de enclaustramiento: el paciente está despierto pero no puede moverse ni hablar. Y es irreversible. Por eso la velocidad de corrección se pregunta tanto."
+  },
+  {
+   "id": "b038",
+   "t": 516.92,
+   "dur": 13.61,
+   "say": "¿Cómo ocurre la sobrecorrección accidental? El caso típico es el hipovolémico que recibe suero fisiológico. Al recuperar el volumen se apaga de golpe la hormona antidiurética, el riñón elimina agua a chorros y el sodio se dispara."
+  },
+  {
+   "id": "b039",
+   "t": 530.98,
+   "dur": 16.3,
+   "say": "Si eso pasa, hay que frenar y volver a bajar el sodio. Se suspende el suero salino, se infunde suero glucosado al cinco por ciento, a tres a cinco mililitros por kilo por hora, y se agrega desmopresina, uno a dos microgramos cada seis a ocho horas, para que el riñón vuelva a retener agua."
+  },
+  {
+   "id": "b040",
+   "t": 548.33,
+   "dur": 14.76,
+   "say": "Si el paciente no tiene síntomas graves, no hay suero hipertónico: se trata la causa según la volemia. El hipovolémico recibe suero fisiológico al cero coma nueve por ciento, para restaurar la perfusión. Y ya sabes que hay que vigilar la sobrecorrección."
+  },
+  {
+   "id": "b041",
+   "t": 563.54,
+   "dur": 7.92,
+   "say": "El SIADH se trata con restricción de líquidos libres, bajo ochocientos a mil mililitros al día, más cápsulas de cloruro de sodio o furosemida."
+  },
+  {
+   "id": "b042",
+   "t": 571.91,
+   "dur": 9.12,
+   "say": "Y el edematoso, con insuficiencia cardíaca o cirrosis, se trata con restricción hídrica y diurético de asa, la furosemida, que obliga a eliminar agua libre."
+  },
+  {
+   "id": "b043",
+   "t": 581.48,
+   "dur": 10.78,
+   "say": "Para calcular cuánto va a subir el sodio con un litro de una solución, se usa la fórmula de Adrogué-Madias: el sodio de la solución menos el sodio actual, dividido por el agua corporal total más uno."
+  },
+  {
+   "id": "b044",
+   "t": 592.7,
+   "dur": 9.22,
+   "say": "Los datos que necesitas: un litro de suero al tres por ciento aporta quinientos trece miliequivalentes de sodio, y un litro de suero fisiológico, ciento cincuenta y cuatro."
+  },
+  {
+   "id": "b045",
+   "t": 602.37,
+   "dur": 7.27,
+   "say": "Y el agua corporal total se estima como cero coma seis por el peso en los hombres, y cero coma cinco por el peso en mujeres y ancianos."
+  },
+  {
+   "id": "b046",
+   "t": 610.69,
+   "dur": 12.29,
+   "say": "Cuando el plasma se vuelve hipotónico, el agua entra a la neurona y el cerebro se hincha dentro de un cráneo que no se expande. Eso es el edema cerebral de la hiponatremia aguda, y se trata con salino hipertónico al tres por ciento."
+  },
+  {
+   "id": "b047",
+   "t": 632.29,
+   "dur": 8.5,
+   "say": "Si la hiponatremia lleva más de cuarenta y ocho horas, la neurona expulsa osmolitos y recupera su tamaño. El paciente tiene pocos síntomas."
+  },
+  {
+   "id": "b048",
+   "t": 653.89,
+   "dur": 10.8,
+   "say": "Pero esa neurona adaptada es frágil. Si subes el sodio muy rápido, el agua sale de golpe y se daña la mielina. Por eso el máximo es de ocho a diez en veinticuatro horas."
+  },
+  {
+   "id": "b049",
+   "t": 676.09,
+   "dur": 5.35,
+   "say": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en el examen."
+  },
+  {
+   "id": "b050",
+   "t": 681.89,
+   "dur": 7.2,
+   "say": "Paciente con sodio bajo ciento treinta y cinco. Antes de tratar, la primera pregunta es la osmolaridad plasmática."
+  },
+  {
+   "id": "b051",
+   "t": 689.54,
+   "dur": 6.84,
+   "say": "Osmolaridad normal: pseudohiponatremia por triglicéridos o proteínas altas. No se trata el sodio."
+  },
+  {
+   "id": "b052",
+   "t": 696.83,
+   "dur": 10.78,
+   "say": "Osmolaridad alta: hay otro soluto, casi siempre la glucosa. Se corrige el sodio sumando uno coma seis a dos por cada cien de glicemia sobre cien, y se trata la hiperglicemia."
+  },
+  {
+   "id": "b053",
+   "t": 708.06,
+   "dur": 7.82,
+   "say": "Osmolaridad baja: hiponatremia hipotónica verdadera. Ahora la pregunta que manda: ¿hay síntomas neurológicos graves?"
+  },
+  {
+   "id": "b054",
+   "t": 716.33,
+   "dur": 12.29,
+   "say": "Si convulsiona o está en coma, bolo de suero hipertónico al tres por ciento, cien a ciento cincuenta mililitros, repetible hasta dos veces más. La meta es subir cuatro a seis, sin pasar de ocho a diez en el día."
+  },
+  {
+   "id": "b055",
+   "t": 729.07,
+   "dur": 3.86,
+   "say": "Sin síntomas graves, el tratamiento lo decide la volemia."
+  },
+  {
+   "id": "b056",
+   "t": 733.38,
+   "dur": 6.74,
+   "say": "Hipovolémico: suero fisiológico, vigilando que el sodio no suba de más cuando se apague la hormona antidiurética."
+  },
+  {
+   "id": "b057",
+   "t": 740.58,
+   "dur": 9.14,
+   "say": "Euvolémico con sodio urinario alto: SIADH. Restricción de agua libre bajo ochocientos a mil mililitros al día, y suspender el fármaco que lo causa."
+  },
+  {
+   "id": "b058",
+   "t": 750.17,
+   "dur": 3.89,
+   "say": "Hipervolémico con edema: restricción hídrica y furosemida."
+  },
+  {
+   "id": "b059",
+   "t": 755.11,
+   "dur": 12.29,
+   "say": "Repasemos las trampas. Hiponatremia con convulsiones: bolo de suero hipertónico al tres por ciento. El error es dar suero fisiológico, o indicar solo restricción hídrica en un paciente que convulsiona."
+  },
+  {
+   "id": "b060",
+   "t": 767.85,
+   "dur": 6.7,
+   "say": "Sodio bajo con osmolaridad normal: es una pseudohiponatremia. El error es tratar un número que no es real."
+  },
+  {
+   "id": "b061",
+   "t": 774.99,
+   "dur": 7.68,
+   "say": "Hiponatremia crónica: no más de ocho a diez en veinticuatro horas. El error es intentar normalizar el sodio el primer día."
+  },
+  {
+   "id": "b062",
+   "t": 783.12,
+   "dur": 6.53,
+   "say": "Alcohólico o desnutrido: el límite baja a seis a ocho. El error es aplicarle el límite estándar."
+  },
+  {
+   "id": "b063",
+   "t": 790.1,
+   "dur": 7.39,
+   "say": "Sobrecorrección accidental: suero glucosado más desmopresina para volver a bajar el sodio. Quedarse esperando no basta."
+  },
+  {
+   "id": "b064",
+   "t": 797.94,
+   "dur": 8.62,
+   "say": "Y el euvolémico con sodio urinario alto es un SIADH: se restringe el agua. Hidratarlo con suero fisiológico puede bajar todavía más el sodio."
+  },
+  {
+   "id": "b065",
+   "t": 807.61,
+   "dur": 19.9,
+   "say": "Vamos con un caso. Mujer de setenta y cuatro años, hipertensa y deprimida, que toma hidroclorotiazida y citalopram. Hace media hora tuvo una convulsión generalizada y ahora está en sopor, sin deshidratación ni edema. Su sodio es ciento doce, con osmolaridad plasmática baja, sodio urinario de sesenta y ocho y orina concentrada."
+  },
+  {
+   "id": "b066",
+   "t": 827.96,
+   "dur": 2.81,
+   "say": "¿Cuál es la conducta inmediata más adecuada?"
+  },
+  {
+   "id": "b067",
+   "t": 831.21,
+   "dur": 10.99,
+   "say": "Las alternativas: restricción hídrica, suero fisiológico, bolo de suero al tres por ciento, furosemida, o suero al tres por ciento hasta normalizar el sodio en un día. Piénsalo."
+  },
+  {
+   "id": "b069",
+   "t": 845.86,
+   "dur": 23.81,
+   "say": "Es la C. Hiponatremia hipotónica, euvolémica, con dos causas que suman: la tiazida y el citalopram. Pero lo que decide la conducta es la convulsión: eso es edema cerebral, y la respuesta es el bolo de suero hipertónico. La restricción hídrica sería correcta si estuviera asintomática. Y la trampa es la E: el suero hipertónico es correcto, pero normalizar el sodio en un día rompe el límite y arriesga la desmielinización."
+  },
+  {
+   "id": "b070",
+   "t": 870.71,
+   "dur": 18.62,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Hombre de setenta y dos años, fumador importante, con un cáncer pulmonar de células pequeñas sin tratamiento. Lleva siete días con cefalea y tendencia a la desorientación. Su sodio es ciento veintiuno, y no tiene focalidad neurológica."
+  },
+  {
+   "id": "b071",
+   "t": 889.79,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b072",
+   "t": 892.81,
+   "dur": 8.64,
+   "say": "Las opciones: SIADH, metástasis cerebrales, síndrome carcinoide, accidente vascular encefálico, o hipercalcemia. Piénsalo."
+  },
+  {
+   "id": "b074",
+   "t": 905.1,
+   "dur": 20.28,
+   "say": "Es la A, SIADH. El cáncer de células pequeñas es la causa paraneoplásica clásica: el tumor fabrica hormona antidiurética. La cefalea y la desorientación las explica el sodio bajo. El distractor tentador son las metástasis cerebrales, porque el paciente tiene cáncer, pero no hay focalidad, y el sodio de ciento veintiuno ya explica todo."
+  },
+  {
+   "id": "b075",
+   "t": 926.43,
+   "dur": 8.98,
+   "say": "Cerremos con las reglas de oro. Antes de tratar, confirma que es hipotónica: con osmolaridad normal o alta, no es una hiponatremia verdadera."
+  },
+  {
+   "id": "b076",
+   "t": 935.85,
+   "dur": 7.92,
+   "say": "Después, la volemia y el sodio urinario te dan la causa. Euvolémico con sodio urinario alto y orina concentrada: SIADH."
+  },
+  {
+   "id": "b077",
+   "t": 944.22,
+   "dur": 6.48,
+   "say": "Si hay convulsiones o coma, bolo de suero hipertónico al tres por ciento, de cien a ciento cincuenta mililitros."
+  },
+  {
+   "id": "b078",
+   "t": 951.15,
+   "dur": 3.34,
+   "say": "La meta es subir cuatro a seis, no normalizar."
+  },
+  {
+   "id": "b079",
+   "t": 954.94,
+   "dur": 6.07,
+   "say": "Nunca más de ocho a diez miliequivalentes en veinticuatro horas, y seis a ocho en alcohólicos y desnutridos."
+  },
+  {
+   "id": "b080",
+   "t": 961.46,
+   "dur": 18.31,
+   "say": "Si te pasas, suero glucosado y desmopresina. Si te llevas una sola idea de hoy: en la hiponatremia, los síntomas deciden si das suero hipertónico, y el reloj decide qué tan rápido subes el sodio. En la próxima clase separamos el SIADH del síndrome perdedor de sal cerebral. Nos vemos en la próxima clase."
+  }
+ ]
+}

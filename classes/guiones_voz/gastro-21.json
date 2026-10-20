@@ -1,0 +1,457 @@
+{
+ "id": "gastro-21",
+ "title": "Hemorragia Digestiva Alta y Baja",
+ "total": 908.5440000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 24.22,
+   "say": "Bienvenidos. Hoy vemos la hemorragia digestiva, alta y baja. Es un tema de urgencia y de alta rentabilidad, con dos errores clásicos que anulan la respuesta: esperar el hematocrito para decidir, y olvidar la regla del diez por ciento. Además junta piezas que ya viste, como la úlcera, las várices y el Mallory-Weiss, bajo una sola lógica: primero estabilizar, después buscar la causa. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 31.07,
+   "dur": 10.87,
+   "say": "Partamos por las definiciones, porque todo el algoritmo depende de ellas. La frontera entre una hemorragia alta y una baja es una sola: el ángulo de Treitz, donde el duodeno se une al yeyuno."
+  },
+  {
+   "id": "b003",
+   "t": 42.39,
+   "dur": 6.65,
+   "say": "Todo lo que sangra antes del Treitz, es decir, esófago, estómago y duodeno, es una hemorragia digestiva alta."
+  },
+  {
+   "id": "b004",
+   "t": 49.49,
+   "dur": 14.28,
+   "say": "Y se manifiesta con hematemesis, que es vomitar sangre, o con melena: una deposición negra, alquitranada. ¿Por qué negra? Porque es sangre digerida, y para eso necesita tiempo: al menos ocho horas de tránsito por el intestino."
+  },
+  {
+   "id": "b005",
+   "t": 64.22,
+   "dur": 9.17,
+   "say": "Lo que sangra después del Treitz es una hemorragia digestiva baja. Aquí la sangre no alcanza a digerirse, y sale roja: hematoquecia, o rectorragia."
+  },
+  {
+   "id": "b006",
+   "t": 73.83,
+   "dur": 20.88,
+   "say": "Pero ojo con la excepción, que es la base de una de las trampas de hoy. Una hemorragia alta masiva, con un tránsito acelerado, no le da tiempo a la sangre para digerirse, y también sale roja. Es decir, la hematoquecia no siempre es baja. En cambio, la melena casi siempre te habla de un origen alto. Guarda esta idea, porque vuelve al final."
+  },
+  {
+   "id": "b007",
+   "t": 95.76,
+   "dur": 11.78,
+   "say": "Ahora la pregunta más importante del tema: ¿cómo sé si la hemorragia es grave? Piensa en qué se pierde. En un sangrado agudo se va sangre completa: plasma y glóbulos rojos, en la misma proporción."
+  },
+  {
+   "id": "b008",
+   "t": 108,
+   "dur": 19.61,
+   "say": "Entonces, ¿qué le pasa al hematocrito? Nada, al principio. Si pierdes todo en proporción, la proporción no cambia. El hematocrito cae recién horas después, cuando el líquido del intersticio entra a los vasos y diluye los glóbulos rojos que quedan. Por eso, esperar el hematocrito para decidir es el primer error clásico."
+  },
+  {
+   "id": "b009",
+   "t": 128.06,
+   "dur": 11.69,
+   "say": "¿Qué mide la gravedad, entonces? La hemodinamia. Lo primero que aparece es la taquicardia: el corazón compensa la pérdida latiendo más rápido. Es el signo más precoz."
+  },
+  {
+   "id": "b010",
+   "t": 140.19,
+   "dur": 9.43,
+   "say": "Si la pérdida sigue, aparece el ortostatismo: acostado se ve bien, pero al sentarlo o pararlo cae la presión. La compensación empieza a quedarse corta."
+  },
+  {
+   "id": "b011",
+   "t": 150.08,
+   "dur": 11.28,
+   "say": "Y al final, la hipotensión: el paciente está en shock. Memoriza esa secuencia en orden, taquicardia, ortostatismo, hipotensión, porque es la escala de gravedad que te pide el examen."
+  },
+  {
+   "id": "b012",
+   "t": 162.41,
+   "dur": 10.18,
+   "say": "El manejo inicial es el mismo para la hemorragia alta y la baja, y parte antes de saber dónde sangra. Primero, dos vías venosas gruesas, para poder pasar volumen rápido."
+  },
+  {
+   "id": "b013",
+   "t": 173.03,
+   "dur": 6.53,
+   "say": "Y por esas vías, cristaloides: suero fisiológico o Ringer. Esa es la reanimación inicial."
+  },
+  {
+   "id": "b014",
+   "t": 180.01,
+   "dur": 16.37,
+   "say": "Fíjate en lo que no dijimos: transfusión. La transfusión no es la reanimación inicial. Se reserva para dos situaciones: la anemia que persiste después de reponer volumen, o el sangrado masivo. Si una alternativa te ofrece transfundir como primer paso, desconfía."
+  },
+  {
+   "id": "b015",
+   "t": 196.83,
+   "dur": 15.14,
+   "say": "Una vez estabilizado, recién ahí viene el examen: endoscopía alta o colonoscopía, según el caso. Y ambas son diagnósticas y terapéuticas: en el mismo acto encuentran el punto que sangra y lo detienen. Estabilizar primero, endoscopiar después."
+  },
+  {
+   "id": "b016",
+   "t": 213.02,
+   "dur": 15.53,
+   "say": "Veamos las causas de hemorragia alta, y cómo cada una suma algo propio al suero y la endoscopía. La primera son las várices esofágicas. La pista es un paciente cirrótico, con un sangrado masivo y la protrombina baja. Es la hemorragia alta más grave."
+  },
+  {
+   "id": "b017",
+   "t": 229,
+   "dur": 8.38,
+   "say": "Además de la reanimación, se agrega terlipresina endovenosa, que baja la presión en el territorio portal y así ayuda a frenar el sangrado de las várices."
+  },
+  {
+   "id": "b018",
+   "t": 237.83,
+   "dur": 14.11,
+   "say": "Se agregan antibióticos, como profilaxis de peritonitis bacteriana espontánea. Conecta esto con la clase de daño hepático crónico: el cirrótico tiene ascitis que se infecta con facilidad, y el sangrado es justamente uno de los momentos de mayor riesgo."
+  },
+  {
+   "id": "b019",
+   "t": 252.39,
+   "dur": 6.53,
+   "say": "Y si la cirrosis es por alcohol, tiamina. Es un detalle que el examen pone en la alternativa completa."
+  },
+  {
+   "id": "b020",
+   "t": 259.37,
+   "dur": 11.35,
+   "say": "Y la endoscopía, que aquí es terapéutica: ligadura de las várices, idealmente en las primeras doce horas. Mira esta endoscopía: es una várice esofágica con la banda de ligadura ya puesta."
+  },
+  {
+   "id": "b021",
+   "t": 271.17,
+   "dur": 13.03,
+   "say": "Y una vez superado el episodio, no termina ahí. Como vimos en la clase de hipertensión portal, la profilaxis secundaria es propranolol más ligadura, porque un paciente que ya sangró por várices tiene alto riesgo de volver a sangrar."
+  },
+  {
+   "id": "b022",
+   "t": 285.25,
+   "dur": 9.58,
+   "say": "La segunda causa es la úlcera gastroduodenal, que ya conoces de la clase de úlcera péptica. La pista es un paciente con síndrome ulceroso previo que ahora hace melena."
+  },
+  {
+   "id": "b023",
+   "t": 295.28,
+   "dur": 17.93,
+   "say": "Aquí lo que se agrega es el IBP endovenoso en dosis alta, y la endoscopía hace terapia hemostática según la clasificación de Forrest, que ordena las úlceras según su riesgo de volver a sangrar. Mira esta úlcera con sangrado activo, y en esta otra el vaso visible en el fondo: ambas son de alto riesgo y se tratan en la misma endoscopía."
+  },
+  {
+   "id": "b024",
+   "t": 313.65,
+   "dur": 7.56,
+   "say": "Y una vez que pasó la urgencia, se erradica el Helicobacter pylori. Si no, la úlcera vuelve, y con ella el sangrado."
+  },
+  {
+   "id": "b025",
+   "t": 321.66,
+   "dur": 24.5,
+   "say": "En esta endoscopía se ve un desgarro de la mucosa en la unión gastroesofágica, con sangrado fresco. La tercera es el Mallory-Weiss, y aquí el orden de los síntomas es el diagnóstico: primero vómitos alimentarios, y después hematemesis. Suele ser autolimitado y de buen pronóstico: si está estable, se observa. No lo confundas con el Boerhaave de la clase de perforaciones, donde los vómitos terminan en dolor torácico y perforación."
+  },
+  {
+   "id": "b026",
+   "t": 346.62,
+   "dur": 9.5,
+   "say": "Y por último, la lesión de Dieulafoy y la angiodisplasia: sangrados recurrentes sin una lesión evidente a primera vista. Se tratan con hemostasia endoscópica."
+  },
+  {
+   "id": "b027",
+   "t": 357.17,
+   "dur": 13.32,
+   "say": "Pasemos a la hemorragia baja. La causa más frecuente de hemorragia digestiva baja masiva es la enfermedad diverticular. Si te preguntan por la causa más común de un sangrado rojo y abundante en un adulto, esa es la respuesta."
+  },
+  {
+   "id": "b028",
+   "t": 370.94,
+   "dur": 3.94,
+   "say": "Después vienen las angiodisplasias, típicas del adulto mayor."
+  },
+  {
+   "id": "b029",
+   "t": 375.33,
+   "dur": 6.48,
+   "say": "Y completan la lista el cáncer de colon, que nunca puedes olvidar en un adulto que sangra, y las hemorroides internas."
+  },
+  {
+   "id": "b030",
+   "t": 382.26,
+   "dur": 9.55,
+   "say": "Y en el niño, la causa clásica es el divertículo de Meckel: un sangrado bajo, abundante e indoloro. Lo vamos a retomar en la clase de cirugía pediátrica."
+  },
+  {
+   "id": "b031",
+   "t": 392.26,
+   "dur": 12.02,
+   "say": "Y recuerda la clase anterior: un adulto mayor con dolor cólico izquierdo y hematoquecia, después de un episodio de hipotensión, es una colitis isquémica. Lo que la delata es el dolor y el antecedente de hipotensión."
+  },
+  {
+   "id": "b032",
+   "t": 405.33,
+   "dur": 9.24,
+   "say": "Ahora el algoritmo de la hemorragia baja. Como siempre, lo primero es reanimar, y después la pregunta que ordena todo: ¿el paciente está estable o inestable?"
+  },
+  {
+   "id": "b033",
+   "t": 415.02,
+   "dur": 10.13,
+   "say": "Si la hemorragia no es masiva y el paciente está estable, hay tiempo. Se prepara el colon, y se hace la colonoscopía dentro de las veinticuatro horas, que diagnostica y trata."
+  },
+  {
+   "id": "b034",
+   "t": 425.6,
+   "dur": 16.06,
+   "say": "Si la hemorragia es masiva y el paciente está inestable, no hay tiempo para preparar: colonoscopía urgente. El problema es que con tanta sangre, muchas veces no se ve de dónde viene. Y recuerda que inestable, otra vez, lo dicen el pulso y la presión, no el laboratorio."
+  },
+  {
+   "id": "b035",
+   "t": 442.11,
+   "dur": 20.59,
+   "say": "Y aquí aparece el segundo error clásico. Si la colonoscopía no encuentra el origen, el siguiente paso no es repetirla ni operar: es una endoscopía alta. ¿Por qué? Recuerda la excepción del principio: cerca del diez por ciento de las hemorragias que parecen bajas son en realidad altas con tránsito rápido. Esa es la regla del diez por ciento."
+  },
+  {
+   "id": "b036",
+   "t": 463.15,
+   "dur": 10.9,
+   "say": "Si la endoscopía alta tampoco la localiza, se sigue con angio-TAC o angiografía. La angiografía tiene la ventaja de que puede embolizar el vaso que sangra, o sea, tratar en el mismo acto."
+  },
+  {
+   "id": "b037",
+   "t": 474.5,
+   "dur": 6.94,
+   "say": "Para los sangrados más lentos, que la angiografía no alcanza a ver, existe la cintigrafía con glóbulos rojos marcados."
+  },
+  {
+   "id": "b038",
+   "t": 481.88,
+   "dur": 13.32,
+   "say": "Y si todo falla y el paciente sigue inestable, cirugía, que habitualmente es una hemicolectomía derecha. Fíjate en el orden: la cirugía es el último escalón, nunca el siguiente paso después de una colonoscopía que no encontró nada."
+  },
+  {
+   "id": "b039",
+   "t": 496.25,
+   "dur": 12.86,
+   "say": "Los tumores del intestino delgado son raros, menos del cinco por ciento de los tumores digestivos, y se diagnostican tarde. Se presentan como anemia, hemorragia digestiva baja oculta o recurrente, dolor cólico u obstrucción."
+  },
+  {
+   "id": "b040",
+   "t": 509.57,
+   "dur": 4.85,
+   "say": "El adenocarcinoma, más frecuente en el Crohn, la celiaquía y las poliposis."
+  },
+  {
+   "id": "b041",
+   "t": 514.86,
+   "dur": 12.43,
+   "say": "El tumor neuroendocrino o carcinoide, el más frecuente en el íleon. Sus metástasis hepáticas dan el síndrome carcinoide: rubor, diarrea y broncoespasmo, y se mide el ácido cinco hidroxiindolacético en la orina."
+  },
+  {
+   "id": "b042",
+   "t": 527.75,
+   "dur": 4.1,
+   "say": "El linfoma, típico de la celiaquía refractaria, y el GIST."
+  },
+  {
+   "id": "b043",
+   "t": 532.3,
+   "dur": 9.77,
+   "say": "Cuando la endoscopía alta y la colonoscopía son normales en una hemorragia oscura, se estudia el delgado con cápsula endoscópica, enteroscopía, enteroTAC o enteroresonancia."
+  },
+  {
+   "id": "b044",
+   "t": 542.52,
+   "dur": 14.35,
+   "say": "El tratamiento es la resección quirúrgica con linfadenectomía. Los neuroendocrinos metastásicos se manejan con análogos de somatostatina, y el GIST con imatinib. Tú sospechas ante una anemia ferropénica o una hemorragia sin causa, y derivas."
+  },
+  {
+   "id": "b045",
+   "t": 557.92,
+   "dur": 14.76,
+   "say": "El ángulo de Treitz divide la hemorragia digestiva. Sobre él, en el esófago, el estómago o el duodeno, la hemorragia es alta: hematemesis y melena, que es sangre digerida y negra. Bajo él, es baja: hematoquecia, sangre roja."
+  },
+  {
+   "id": "b046",
+   "t": 580.12,
+   "dur": 14.06,
+   "say": "La clasificación de Forrest ordena las úlceras según su riesgo de volver a sangrar. En el otro extremo, esta úlcera de fondo blanquecino, de fibrina, tiene bajo riesgo de resangrar. La de fondo limpio no necesita terapia endoscópica."
+  },
+  {
+   "id": "b047",
+   "t": 595.23,
+   "dur": 3.36,
+   "say": "Ahora pongamos todo en un solo árbol de decisión."
+  },
+  {
+   "id": "b048",
+   "t": 599.04,
+   "dur": 11.14,
+   "say": "Partimos del paciente que sangra. Antes de cualquier pregunta diagnóstica se estabiliza: dos vías venosas gruesas y cristaloides, mirando la frecuencia cardíaca y la presión, no el hematocrito."
+  },
+  {
+   "id": "b049",
+   "t": 610.63,
+   "dur": 9.12,
+   "say": "Con el paciente reanimado, la pregunta es dónde sangra. Hematemesis o melena apuntan a una hemorragia alta; hematoquecia o rectorragia, a una baja."
+  },
+  {
+   "id": "b050",
+   "t": 620.2,
+   "dur": 7.54,
+   "say": "En la hemorragia alta, la pregunta que cambia el tratamiento es si el paciente es cirrótico, porque entonces lo más probable son las várices."
+  },
+  {
+   "id": "b051",
+   "t": 628.19,
+   "dur": 9.74,
+   "say": "En el cirrótico: terlipresina, antibióticos como profilaxis de peritonitis bacteriana espontánea, tiamina si es alcohólico, y endoscopía con ligadura de las várices."
+  },
+  {
+   "id": "b052",
+   "t": 638.38,
+   "dur": 10.3,
+   "say": "Si no es cirrótico, la causa más probable es la úlcera: IBP endovenoso en dosis alta, endoscopía con terapia según la clasificación de Forrest, y luego erradicar el Helicobacter."
+  },
+  {
+   "id": "b053",
+   "t": 649.13,
+   "dur": 5.54,
+   "say": "En la hemorragia baja, la pregunta es la estabilidad, porque define el orden de los exámenes."
+  },
+  {
+   "id": "b054",
+   "t": 655.12,
+   "dur": 5.38,
+   "say": "Si está estable, se prepara el colon y se hace la colonoscopía dentro de veinticuatro horas."
+  },
+  {
+   "id": "b055",
+   "t": 660.95,
+   "dur": 11.38,
+   "say": "Si está inestable, colonoscopía urgente. Si no encuentra el origen, endoscopía alta por la regla del diez por ciento, luego angio-TAC o angiografía, y la cirugía como último recurso."
+  },
+  {
+   "id": "b056",
+   "t": 673.37,
+   "dur": 12.82,
+   "say": "Repasemos en una tabla lo que cada causa de hemorragia alta agrega al suero y la endoscopía. Várices: cirrótico, sangrado masivo, protrombina baja. Se agrega terlipresina, antibióticos y tiamina."
+  },
+  {
+   "id": "b057",
+   "t": 686.64,
+   "dur": 7.92,
+   "say": "Úlcera: síndrome ulceroso previo y melena. Se agrega IBP endovenoso en dosis alta, y después se erradica el Helicobacter."
+  },
+  {
+   "id": "b058",
+   "t": 695.01,
+   "dur": 7.22,
+   "say": "Mallory-Weiss: primero vómitos, después sangre. Suele ser autolimitado, y si está estable, se observa."
+  },
+  {
+   "id": "b059",
+   "t": 702.68,
+   "dur": 6,
+   "say": "Y Dieulafoy o angiodisplasia: sangrado recurrente sin lesión evidente, con hemostasia endoscópica."
+  },
+  {
+   "id": "b060",
+   "t": 709.13,
+   "dur": 9.22,
+   "say": "Y dos trampas que cruzan todo el tema. Un paciente taquicárdico con hematocrito normal tiene una hemorragia grave: se reanima ya, sin esperar el control."
+  },
+  {
+   "id": "b061",
+   "t": 718.8,
+   "dur": 9.38,
+   "say": "Y una hemorragia baja masiva con una colonoscopía que no encuentra nada puede ser una alta con tránsito rápido: el siguiente paso es la endoscopía alta, no la laparotomía."
+  },
+  {
+   "id": "b062",
+   "t": 728.63,
+   "dur": 9.29,
+   "say": "Y la anemia o el sangrado oculto con endoscopía y colonoscopía normales: hay que estudiar el intestino delgado, con cápsula endoscópica o enteroscopía, y derivar."
+  },
+  {
+   "id": "b063",
+   "t": 738.97,
+   "dur": 16.75,
+   "say": "Vamos al caso. Hombre de cincuenta y cinco años con cirrosis por alcohol, que llega por vómitos de abundante sangre roja. Está pálido y sudoroso, con frecuencia cardíaca de ciento veinte y presión de ochenta y cinco con cincuenta. El hematocrito informado es de treinta y ocho por ciento."
+  },
+  {
+   "id": "b064",
+   "t": 756.17,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b065",
+   "t": 759.02,
+   "dur": 14.59,
+   "say": "Las alternativas: esperar un hematocrito de control, transfundir como primera medida, reanimar con cristaloides y agregar terlipresina, antibióticos, tiamina y ligadura, dar IBP con endoscopía electiva, o colonoscopía urgente. Piénsalo."
+  },
+  {
+   "id": "b067",
+   "t": 777.26,
+   "dur": 24.7,
+   "say": "Es la C. El paciente está taquicárdico e hipotenso: es una hemorragia grave, aunque el hematocrito sea normal, porque perdió sangre completa. Y es cirrótico, así que son várices. Por eso la alternativa completa: reanimar, terlipresina, antibióticos, tiamina y ligadura. La trampa más tentadora es la A, que se apoya en el hematocrito normal. Y la B falla porque transfundir no es la reanimación inicial."
+  },
+  {
+   "id": "b068",
+   "t": 803.01,
+   "dur": 8.09,
+   "say": "Ahora un caso representativo del banco EUNACOM. Es corto y directo: al momento de la presentación de una hemorragia digestiva alta."
+  },
+  {
+   "id": "b069",
+   "t": 811.55,
+   "dur": 3.94,
+   "say": "¿Cuál de los siguientes parámetros determina mejor la gravedad del cuadro?"
+  },
+  {
+   "id": "b070",
+   "t": 815.93,
+   "dur": 10.56,
+   "say": "Las opciones: el hematocrito, la hemoglobina, la frecuencia cardíaca y la presión arterial, el volumen estimado de la hematemesis, o el recuento de plaquetas. Piénsalo."
+  },
+  {
+   "id": "b072",
+   "t": 830.14,
+   "dur": 23.4,
+   "say": "La respuesta es la C. Fíjate en la frase clave del enunciado: al momento de la presentación. En ese momento se perdió sangre completa, y el hematocrito y la hemoglobina todavía no cambian. Por eso son los distractores más tentadores: son números, y parecen objetivos, pero llegan tarde. El volumen de la hematemesis tampoco sirve: es una estimación, no una medida. La que manda es la hemodinamia."
+  },
+  {
+   "id": "b073",
+   "t": 854.59,
+   "dur": 8.38,
+   "say": "Cerremos con las reglas de oro. La gravedad la marca la hemodinamia, no el hematocrito: taquicardia, ortostatismo, hipotensión."
+  },
+  {
+   "id": "b074",
+   "t": 863.42,
+   "dur": 5.83,
+   "say": "Se reanima con dos vías gruesas y cristaloides. La transfusión no es el primer paso."
+  },
+  {
+   "id": "b075",
+   "t": 869.7,
+   "dur": 5.62,
+   "say": "En las várices se agrega terlipresina, antibióticos, tiamina si es alcohólico, y ligadura."
+  },
+  {
+   "id": "b076",
+   "t": 875.77,
+   "dur": 5.64,
+   "say": "En la úlcera, IBP endovenoso y terapia endoscópica, y después erradicar el Helicobacter."
+  },
+  {
+   "id": "b077",
+   "t": 881.86,
+   "dur": 20.74,
+   "say": "En la hemorragia baja masiva, si la colonoscopía no localiza, el siguiente paso es la endoscopía alta. Y la causa más frecuente de hemorragia baja masiva es la diverticular; en el niño, el Meckel. Si te llevas una sola idea de hoy: primero se mira el pulso y la presión, después el endoscopio, y nunca el hematocrito. Nos vemos en la próxima clase."
+  }
+ ]
+}

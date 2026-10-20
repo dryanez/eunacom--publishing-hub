@@ -1,0 +1,409 @@
+{
+ "id": "hem-10",
+ "title": "Microangiopatías Trombóticas (MAT)",
+ "total": 813.2352000000001,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 26.38,
+   "say": "Bienvenidos. Cerramos el bloque de anemias hemolíticas con las microangiopatías trombóticas: el púrpura trombocitopénico trombótico, o PTT, y el síndrome hemolítico urémico, o SHU. En las clases anteriores el glóbulo se rompía por anticuerpos o por un defecto propio; aquí se rompe a golpes, contra trombos en los vasos pequeños. Es una emergencia, y el examen pregunta tres cosas: reconocerla, indicar la plasmaféresis y no transfundir plaquetas."
+  },
+  {
+   "id": "b002",
+   "t": 33.23,
+   "dur": 8.69,
+   "say": "Partamos por la idea común. En una microangiopatía trombótica se forman microtrombos de plaquetas en las arteriolas y capilares de muchos órganos."
+  },
+  {
+   "id": "b003",
+   "t": 42.36,
+   "dur": 17.57,
+   "say": "Esos trombos consumen plaquetas, así que el paciente tiene trombocitopenia. Parece una paradoja: está formando trombos y a la vez le faltan plaquetas. No lo es: le faltan justamente porque se están gastando en los trombos. Y con pocas plaquetas aparecen petequias: mira estas piernas."
+  },
+  {
+   "id": "b004",
+   "t": 61.23,
+   "dur": 21.22,
+   "say": "Y los glóbulos rojos, al pasar a gran velocidad por esas redes de trombos, se rompen. Los fragmentos se ven en el frotis como esquistocitos, o glóbulos en casco. Es una hemólisis mecánica, con Coombs negativo. Mira este frotis: glóbulos rojos fragmentados. Y en este otro hay esquistocitos por todos lados, partidos por los microtrombos."
+  },
+  {
+   "id": "b005",
+   "t": 82.89,
+   "dur": 5.33,
+   "say": "Además, los trombos tapan la circulación de los órganos: cerebro, riñón y corazón."
+  },
+  {
+   "id": "b006",
+   "t": 88.67,
+   "dur": 12.46,
+   "say": "Hay dos causas clásicas. El PTT, típico del adulto, por falta de una enzima llamada ADAMTS trece. Y el SHU, típico del niño, por la toxina Shiga. Veamos cada una."
+  },
+  {
+   "id": "b007",
+   "t": 102.18,
+   "dur": 15.5,
+   "say": "Veamos el PTT. El endotelio libera el factor von Willebrand en multímeros ultralargos, y una enzima del plasma, la ADAMTS trece, los corta. Funciona como una tijera. En el PTT, la actividad de esa enzima cae bajo el diez por ciento."
+  },
+  {
+   "id": "b008",
+   "t": 118.13,
+   "dur": 10.97,
+   "say": "¿Por qué cae? En el noventa y cinco por ciento de los adultos es autoinmune: hay autoanticuerpos IgG que neutralizan la enzima. Guarda este dato, porque explica el tratamiento."
+  },
+  {
+   "id": "b009",
+   "t": 129.55,
+   "dur": 13.85,
+   "say": "Sin la tijera, los multímeros gigantes quedan anclados al endotelio, se despliegan con el flujo de la sangre, y atrapan y activan plaquetas en forma espontánea y masiva. Así se forman los microtrombos, sobre todo en cerebro, corazón y riñón."
+  },
+  {
+   "id": "b010",
+   "t": 143.85,
+   "dur": 17.62,
+   "say": "Y aquí está el dato de laboratorio que más se pregunta. Los trombos son de plaquetas, no se consumen factores de coagulación. Por eso el tiempo de protrombina, el TTPK y el fibrinógeno son normales. Eso separa al PTT de la coagulación intravascular diseminada, donde sí están alterados."
+  },
+  {
+   "id": "b011",
+   "t": 162.51,
+   "dur": 10.06,
+   "say": "La forma clásica del PTT se describe con la péntada de Moschcowitz. Primero, trombocitopenia grave, habitualmente bajo veinte a treinta mil, con púrpura petequial."
+  },
+  {
+   "id": "b012",
+   "t": 173.02,
+   "dur": 10.37,
+   "say": "Segundo, anemia hemolítica microangiopática: Coombs negativo, reticulocitos altos, LDH altísima, sobre mil, y esquistocitos sobre uno a dos por ciento en el frotis."
+  },
+  {
+   "id": "b013",
+   "t": 183.84,
+   "dur": 12.6,
+   "say": "Tercero, síntomas neurológicos fluctuantes y bizarros, en más de dos tercios de los casos: cefalea, desorientación, afasia transitoria, convulsiones, paresias o coma. Que vayan y vengan es muy típico."
+  },
+  {
+   "id": "b014",
+   "t": 196.89,
+   "dur": 10.37,
+   "say": "Y cuarto y quinto: fiebre sin foco, en la mitad de los casos, y compromiso renal leve a moderado. Fíjate: en el PTT el riñón se afecta poco; manda el cerebro."
+  },
+  {
+   "id": "b015",
+   "t": 207.7,
+   "dur": 14.69,
+   "say": "Pero ojo: hoy no se exigen los cinco elementos. Trombocitopenia más anemia con esquistocitos, sin otra causa evidente, es suficiente para sospechar un PTT e iniciar el tratamiento urgente. Si esperas la péntada completa, llegas tarde."
+  },
+  {
+   "id": "b016",
+   "t": 223.44,
+   "dur": 10.87,
+   "say": "Pasemos al SHU típico. La historia empieza con una diarrea con sangre, por Escherichia coli enterohemorrágica, el serotipo clásico O ciento cincuenta y siete, o por Shigella dysenteriae."
+  },
+  {
+   "id": "b017",
+   "t": 234.76,
+   "dur": 9.53,
+   "say": "Estas bacterias producen la toxina Shiga, que daña directamente el endotelio del glomérulo. Fíjate que aquí no hay déficit de ADAMTS trece: el mecanismo es otro."
+  },
+  {
+   "id": "b018",
+   "t": 244.74,
+   "dur": 6.53,
+   "say": "El resultado es la tríada del SHU: anemia hemolítica microangiopática, trombocitopenia y falla renal aguda."
+  },
+  {
+   "id": "b019",
+   "t": 251.72,
+   "dur": 10.1,
+   "say": "Y aquí el órgano que manda es el riñón, con una falla renal aguda grave y oligoanúrica. El compromiso neurológico es infrecuente. Es el espejo del PTT."
+  },
+  {
+   "id": "b020",
+   "t": 262.27,
+   "dur": 12.53,
+   "say": "El paciente típico es un lactante o niño pequeño, de uno a cinco años, que hace el cuadro cinco a diez días después de la diarrea. Niño, diarrea con sangre, y días después palidez, petequias y poca orina: SHU."
+  },
+  {
+   "id": "b021",
+   "t": 275.85,
+   "dur": 11.66,
+   "say": "Ahora juntemos la diferencia que más se pregunta. Tienes esquistocitos y plaquetas bajas. El primer corte lo dan las pruebas de coagulación: tiempo de protrombina, TTPK y fibrinógeno."
+  },
+  {
+   "id": "b022",
+   "t": 287.97,
+   "dur": 13.34,
+   "say": "Si están alteradas, con tiempos prolongados, fibrinógeno bajo y dímero D muy alto, es una coagulación intravascular diseminada, en un paciente crítico, séptico o politraumatizado. Esa la vemos más adelante en el curso."
+  },
+  {
+   "id": "b023",
+   "t": 301.76,
+   "dur": 3.7,
+   "say": "Si están normales, es una microangiopatía trombótica."
+  },
+  {
+   "id": "b024",
+   "t": 305.91,
+   "dur": 13.25,
+   "say": "Y el segundo corte es la edad y el órgano que domina. Adulto, más frecuente una mujer joven, con compromiso neurológico: PTT. Niño pequeño, después de una diarrea con sangre, con falla renal: SHU."
+  },
+  {
+   "id": "b025",
+   "t": 320.2,
+   "dur": 17.45,
+   "say": "Vamos al tratamiento. El PTT sin tratamiento oportuno tiene una mortalidad sobre noventa por ciento. El pilar es la plasmaféresis, o recambio plasmático terapéutico, diario y en una UCI. Saca los autoanticuerpos y los multímeros gigantes, y aporta plasma con ADAMTS trece normal."
+  },
+  {
+   "id": "b026",
+   "t": 338.1,
+   "dur": 8.83,
+   "say": "Si la plasmaféresis se retrasa, por ejemplo por un traslado, se infunde plasma fresco congelado, quince a treinta mililitros por kilo al día, mientras tanto."
+  },
+  {
+   "id": "b027",
+   "t": 347.38,
+   "dur": 12.86,
+   "say": "Al mismo tiempo, corticoides en dosis altas, metilprednisolona endovenosa o prednisona a un miligramo por kilo al día, para frenar la producción del autoanticuerpo. En centros terciarios se agregan caplacizumab y rituximab."
+  },
+  {
+   "id": "b028",
+   "t": 360.7,
+   "dur": 8.11,
+   "say": "En el SHU, en cambio, no hay anticuerpo que sacar. El tratamiento es de soporte hidroelectrolítico, con diálisis si hay oliguria."
+  },
+  {
+   "id": "b029",
+   "t": 369.26,
+   "dur": 13.73,
+   "say": "Y la regla que salva vidas: está contraindicado transfundir plaquetas en una microangiopatía, tanto PTT como SHU. Las plaquetas nuevas se pegan a los multímeros y alimentan más trombos en el cerebro y el corazón. Es echar leña al fuego."
+  },
+  {
+   "id": "b030",
+   "t": 383.44,
+   "dur": 9.72,
+   "say": "La única excepción es una hemorragia intracraneal activa que amenaza la vida. Las plaquetas en veinte mil tientan a transfundir, pero en este paciente es la respuesta incorrecta."
+  },
+  {
+   "id": "b031",
+   "t": 394.21,
+   "dur": 17.11,
+   "say": "Un niño pequeño con diarrea, a menudo con sangre, tres a siete días antes, que ahora está pálido, con petequias y poca orina. En el laboratorio, anemia con esquistocitos, plaquetas bajas, Coombs negativo y urea y creatinina altas. El diagnóstico es clínico y de laboratorio."
+  },
+  {
+   "id": "b032",
+   "t": 411.77,
+   "dur": 13.03,
+   "say": "Se deriva de inmediato a un centro con cuidados intensivos pediátricos y nefrología con diálisis. La búsqueda de la toxina Shiga, por coprocultivo o reacción en cadena de la polimerasa, confirma la causa, pero no retrasa nada."
+  },
+  {
+   "id": "b033",
+   "t": 425.25,
+   "dur": 8.88,
+   "say": "Mientras se traslada, se controla estrictamente el balance hídrico, la diuresis, el peso y la presión arterial, y se vigilan la hiperkalemia y la acidosis."
+  },
+  {
+   "id": "b034",
+   "t": 434.58,
+   "dur": 8.21,
+   "say": "La hidratación isotónica precoz protege el riñón, pero con cuidado: la hipovolemia agrava el daño, y la sobrecarga produce edema e hipertensión."
+  },
+  {
+   "id": "b035",
+   "t": 443.24,
+   "dur": 10.3,
+   "say": "Se transfunden glóbulos rojos, lentamente, si la anemia es grave o hay inestabilidad. Las plaquetas no se transfunden, salvo sangrado grave o un procedimiento invasivo."
+  },
+  {
+   "id": "b036",
+   "t": 453.99,
+   "dur": 12.98,
+   "say": "Ojo con esto, porque se pregunta: en la diarrea por E. coli productora de toxina Shiga no se usan antibióticos, ni antidiarreicos, ni antiinflamatorios. Los antibióticos pueden liberar más toxina y aumentar el riesgo de SHU."
+  },
+  {
+   "id": "b037",
+   "t": 467.42,
+   "dur": 9.36,
+   "say": "Una parte importante de los niños necesita diálisis en la fase aguda, y la mayoría recupera la función renal. El seguimiento de largo plazo lo hace nefrología."
+  },
+  {
+   "id": "b038",
+   "t": 477.83,
+   "dur": 20.4,
+   "say": "La ADAMTS trece corta el factor von Willebrand como una tijera. En el PTT falta, y los multímeros gigantes quedan anclados al endotelio y atrapan plaquetas: se forman microtrombos, caen las plaquetas, y los glóbulos rojos se rompen al pasar, formando esquistocitos. Como no se consumen factores, el TP, el TTPK y el fibrinógeno son normales."
+  },
+  {
+   "id": "b039",
+   "t": 501.03,
+   "dur": 4.85,
+   "say": "Ahora juntemos todo en el árbol de urgencia frente a una sospecha de microangiopatía."
+  },
+  {
+   "id": "b040",
+   "t": 506.33,
+   "dur": 8.9,
+   "say": "Paciente con plaquetas bajas, anemia hemolítica con esquistocitos, LDH alta y Coombs negativo. Pensar en microangiopatía y actuar rápido."
+  },
+  {
+   "id": "b041",
+   "t": 515.68,
+   "dur": 6.17,
+   "say": "Lo primero es mirar la coagulación: ¿están normales el tiempo de protrombina, el TTPK y el fibrinógeno?"
+  },
+  {
+   "id": "b042",
+   "t": 522.3,
+   "dur": 8.66,
+   "say": "Si están alterados, con fibrinógeno bajo y dímero D alto, es una CID: se trata la sepsis o la causa, y se repone con plasma o crioprecipitado."
+  },
+  {
+   "id": "b043",
+   "t": 531.41,
+   "dur": 6.34,
+   "say": "Si están normales, es una microangiopatía trombótica. Ahora mira la edad y qué órgano manda."
+  },
+  {
+   "id": "b044",
+   "t": 538.2,
+   "dur": 7.9,
+   "say": "Adulto con síntomas neurológicos fluctuantes: PTT. Plasmaféresis diaria urgente en UCI y corticoides en dosis altas."
+  },
+  {
+   "id": "b045",
+   "t": 546.55,
+   "dur": 6.74,
+   "say": "Si la plasmaféresis se demora, plasma fresco congelado, quince a treinta mililitros por kilo al día, mientras tanto."
+  },
+  {
+   "id": "b046",
+   "t": 553.74,
+   "dur": 6.7,
+   "say": "Niño con diarrea con sangre y falla renal: SHU. Soporte hidroelectrolítico y diálisis si hay oliguria."
+  },
+  {
+   "id": "b047",
+   "t": 560.89,
+   "dur": 5.33,
+   "say": "Y en ambos casos, no se transfunden plaquetas, salvo una hemorragia intracraneal activa."
+  },
+  {
+   "id": "b048",
+   "t": 567.26,
+   "dur": 11.76,
+   "say": "Repasemos las tres. El paciente: el PTT es del adulto, más en mujeres jóvenes; el SHU, del niño de uno a cinco años; la CID, del paciente crítico, séptico o politraumatizado."
+  },
+  {
+   "id": "b049",
+   "t": 579.47,
+   "dur": 6.82,
+   "say": "El mecanismo: falta de ADAMTS trece por anticuerpos, toxina Shiga, y consumo masivo de factores de coagulación."
+  },
+  {
+   "id": "b050",
+   "t": 586.74,
+   "dur": 7.46,
+   "say": "El órgano que manda: el cerebro en el PTT, el riñón en el SHU, y en la CID, todo el organismo, con hemorragia y trombosis."
+  },
+  {
+   "id": "b051",
+   "t": 594.65,
+   "dur": 6.62,
+   "say": "La coagulación: normal en el PTT y en el SHU, alterada en la CID. Ese es el dato que separa."
+  },
+  {
+   "id": "b052",
+   "t": 601.73,
+   "dur": 8.69,
+   "say": "Y el tratamiento: plasmaféresis y corticoides en el PTT; soporte y diálisis en el SHU; tratar la causa y reponer con plasma o crioprecipitado en la CID."
+  },
+  {
+   "id": "b053",
+   "t": 610.87,
+   "dur": 10.3,
+   "say": "El error que más se castiga en las microangiopatías es transfundir plaquetas. En la CID, en cambio, el error es tratar solo los exámenes y olvidar la sepsis o la causa de fondo."
+  },
+  {
+   "id": "b054",
+   "t": 622.21,
+   "dur": 30.55,
+   "say": "Vamos con un caso. Mujer de treinta y seis años, previamente sana, con veinticuatro horas de desorientación que va y viene, y cefalea. Está febril, confusa, con petequias, sin focalidad motora. Hemoglobina de siete coma dos, plaquetas de dieciocho mil, LDH de mil cuatrocientos cincuenta, bilirrubina indirecta alta y creatinina de uno coma seis. El tiempo de protrombina, el TTPK y el fibrinógeno son normales. Hay tres coma cinco por ciento de esquistocitos y el Coombs es negativo."
+  },
+  {
+   "id": "b055",
+   "t": 653.21,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b056",
+   "t": 656.06,
+   "dur": 11.59,
+   "say": "Las opciones son: transfundir plaquetas, plasmaféresis urgente con corticoides, plasma y crioprecipitado buscando sepsis, hemodiálisis de urgencia, o inmunoglobulina como en la PTI. Piénsalo."
+  },
+  {
+   "id": "b058",
+   "t": 671.31,
+   "dur": 24.12,
+   "say": "Es la B. Tiene la péntada completa: plaquetas bajas, hemólisis con esquistocitos, cerebro fluctuante, fiebre y riñón leve, con coagulación normal. Es un PTT: plasmaféresis urgente en UCI y corticoides. La A es la trampa mortal: con dieciocho mil plaquetas y petequias dan ganas de transfundir, pero eso alimenta los trombos. La C sería para una CID, y aquí la coagulación es normal."
+  },
+  {
+   "id": "b059",
+   "t": 696.48,
+   "dur": 21.62,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecinueve. Paciente de veinticuatro años con cefalea, desorientación e ictericia. Presión de ciento sesenta con cien y edema de extremidades. Bilirrubina de doce, LDH de dos mil cien, creatinina de tres coma cinco, hemoglobina de siete, plaquetas de cincuenta mil, y esquistocitos en el frotis."
+  },
+  {
+   "id": "b060",
+   "t": 718.55,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b061",
+   "t": 721.57,
+   "dur": 10.22,
+   "say": "Las opciones son: púrpura trombocitopénico inmune, síndrome de Evans, anemia hemolítica autoinmune, púrpura trombótico trombocitopénico, o lupus. Piénsalo."
+  },
+  {
+   "id": "b063",
+   "t": 735.44,
+   "dur": 22.8,
+   "say": "Es la D, PTT. Plaquetas bajas, hemólisis con esquistocitos, riñón comprometido y un cerebro confuso: son los elementos de la péntada. El distractor tentador es el síndrome de Evans, que también junta hemólisis y plaquetas bajas, pero es autoinmune, con Coombs positivo, y no da esquistocitos ni falla renal. Los esquistocitos son la palabra clave: hemólisis mecánica."
+  },
+  {
+   "id": "b064",
+   "t": 759.29,
+   "dur": 9.55,
+   "say": "Cerremos con las reglas de oro. Esquistocitos con plaquetas bajas y Coombs negativo: microangiopatía trombótica, y no esperas la péntada completa para actuar."
+  },
+  {
+   "id": "b065",
+   "t": 769.29,
+   "dur": 5.4,
+   "say": "Si el tiempo de protrombina, el TTPK y el fibrinógeno son normales, no es una CID."
+  },
+  {
+   "id": "b066",
+   "t": 775.14,
+   "dur": 3.86,
+   "say": "Adulto con síntomas neurológicos que van y vienen: PTT."
+  },
+  {
+   "id": "b067",
+   "t": 779.46,
+   "dur": 4.42,
+   "say": "Niño con diarrea con sangre y, días después, falla renal: SHU."
+  },
+  {
+   "id": "b068",
+   "t": 784.32,
+   "dur": 5.64,
+   "say": "El PTT se trata con plasmaféresis urgente y corticoides; el SHU, con soporte y diálisis."
+  },
+  {
+   "id": "b069",
+   "t": 790.41,
+   "dur": 16.87,
+   "say": "Y nunca transfundes plaquetas. Si te llevas una sola idea de hoy: esquistocitos, plaquetas bajas y coagulación normal es una emergencia que se trata con plasmaféresis, no con plaquetas. En la próxima clase entramos a la hemostasia y sus exámenes. Nos vemos en la próxima clase."
+  }
+ ]
+}

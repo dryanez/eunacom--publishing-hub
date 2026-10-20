@@ -1,0 +1,349 @@
+{
+ "id": "endo-07",
+ "title": "Manejo Terapéutico Comparado",
+ "total": 639.908,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 18.53,
+   "say": "Bienvenidos. En la clase anterior diagnosticamos el hipertiroidismo; hoy decidimos cómo tratarlo. Hay tres caminos: fármacos, radioyodo y cirugía. El examen no pregunta cuál es mejor en general, sino cuál corresponde a cada paciente, y qué hay que hacer antes de cada uno. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 25.38,
+   "dur": 13.85,
+   "say": "Empecemos por los fármacos. El tiamazol es el de primera elección en Chile para la enfermedad de Graves. Tiene vida media larga, así que basta una sola toma diaria de diez a treinta miligramos, y es más potente miligramo a miligramo."
+  },
+  {
+   "id": "b003",
+   "t": 39.68,
+   "dur": 5.76,
+   "say": "Y se tolera mejor: el riesgo de falla hepática fulminante es mucho menor que con el propiltiouracilo."
+  },
+  {
+   "id": "b004",
+   "t": 45.89,
+   "dur": 11.9,
+   "say": "Su gran ventaja es que conserva la glándula. Su límite: logra la remisión en cerca de cuarenta a cincuenta por ciento, y la otra mitad recae. Esa recaída es la que después nos lleva al radioyodo."
+  },
+  {
+   "id": "b005",
+   "t": 58.24,
+   "dur": 5.54,
+   "say": "El propiltiouracilo tiene vida media corta y se da cincuenta a cien miligramos cada ocho horas."
+  },
+  {
+   "id": "b006",
+   "t": 64.23,
+   "dur": 10.87,
+   "say": "Y queda acotado a dos escenarios: el primer trimestre del embarazo, para evitar la embriopatía del tiamazol, y la tormenta tiroidea, porque además frena la conversión periférica de T cuatro a T tres."
+  },
+  {
+   "id": "b007",
+   "t": 75.56,
+   "dur": 7.54,
+   "say": "Los dos comparten el riesgo de agranulocitosis, que vimos la clase pasada. El PTU suma el de hepatitis fulminante."
+  },
+  {
+   "id": "b008",
+   "t": 84.14,
+   "dur": 11.81,
+   "say": "Veamos la lógica de la decisión. Confirmado el hipertiroidismo, si el paciente tiene síntomas adrenérgicos, se inicia betabloqueo con propranolol o atenolol, sea cual sea el camino que elijas después."
+  },
+  {
+   "id": "b009",
+   "t": 96.4,
+   "dur": 13.49,
+   "say": "Si es un primer episodio de Graves, sobre todo en un paciente joven, se parte con tiamazol por doce a dieciocho meses, esperando la remisión. Mira esta gammagrafía: en Graves toda la glándula capta, de forma difusa y aumentada."
+  },
+  {
+   "id": "b010",
+   "t": 110.34,
+   "dur": 7.27,
+   "say": "Si después de un ciclo completo el paciente recae, ya no insistimos con otro ciclo largo: pasamos a un tratamiento definitivo."
+  },
+  {
+   "id": "b011",
+   "t": 118.06,
+   "dur": 24.22,
+   "say": "Ahora, el bocio multinodular tóxico y el adenoma tóxico son otra historia. En esta gammagrafía un nódulo capta mucho y apaga al resto: adenoma tóxico. Y aquí hay varias zonas que captan y otras que no: bocio multinodular tóxico. Se deben a mutaciones del receptor, no a un anticuerpo, y no logran remisión a largo plazo con fármacos. Por eso el tratamiento definitivo es obligatorio desde el comienzo."
+  },
+  {
+   "id": "b012",
+   "t": 142.73,
+   "dur": 6.98,
+   "say": "Y el tratamiento definitivo tiene dos opciones: radioyodo o cirugía. Veamos cuándo corresponde cada uno."
+  },
+  {
+   "id": "b013",
+   "t": 150.76,
+   "dur": 10.25,
+   "say": "El radioyodo se toma por vía oral, la tiroides lo capta, y su radiación beta destruye de forma selectiva el tejido que está funcionando de más, en un plazo de seis a dieciséis semanas."
+  },
+  {
+   "id": "b014",
+   "t": 161.46,
+   "dur": 9.98,
+   "say": "Es el tratamiento de elección en Chile para la recidiva de Graves, para el bocio multinodular tóxico y el adenoma tóxico, y para el paciente cuyas comorbilidades contraindican la cirugía."
+  },
+  {
+   "id": "b015",
+   "t": 171.89,
+   "dur": 9.02,
+   "say": "Las contraindicaciones absolutas son el embarazo y la lactancia. Por eso toda mujer en edad fértil necesita una beta-hCG negativa antes de la dosis."
+  },
+  {
+   "id": "b016",
+   "t": 181.37,
+   "dur": 5.5,
+   "say": "Y debe usar anticoncepción eficaz por al menos seis meses después, antes de buscar un embarazo."
+  },
+  {
+   "id": "b017",
+   "t": 187.31,
+   "dur": 7.51,
+   "say": "Si hay orbitopatía activa moderada a grave, el radioyodo la puede empeorar, y exige corticoterapia profiláctica al mismo tiempo."
+  },
+  {
+   "id": "b018",
+   "t": 195.27,
+   "dur": 15.43,
+   "say": "Y el concepto que más se pregunta: la mayoría queda hipotiroidea, más del ochenta a noventa por ciento. Eso no es una complicación ni un fracaso; es el objetivo. Cambiamos una enfermedad difícil de controlar por una que se maneja con una pastilla de levotiroxina al día."
+  },
+  {
+   "id": "b019",
+   "t": 211.76,
+   "dur": 11.47,
+   "say": "La cirugía va primero cuando hay compresión: disfagia, disfonía, estridor, o compresión traqueal demostrada en el TAC. Un bocio que aprieta no se trata esperando semanas a que haga efecto el radioyodo."
+  },
+  {
+   "id": "b020",
+   "t": 223.68,
+   "dur": 6.55,
+   "say": "Cuando el bocio es masivo, sobre ochenta gramos: mira este bocio gigante, que puede desviar la tráquea y comprimir."
+  },
+  {
+   "id": "b021",
+   "t": 230.68,
+   "dur": 8.86,
+   "say": "Cuando coexiste un nódulo sospechoso de malignidad, con citología Bethesda cuatro, cinco o seis. Eso lo veremos en la clase de nódulo tiroideo."
+  },
+  {
+   "id": "b022",
+   "t": 239.99,
+   "dur": 5.42,
+   "say": "Y en la orbitopatía moderada a severa, cuando el radioyodo se rechaza o está contraindicado."
+  },
+  {
+   "id": "b023",
+   "t": 245.86,
+   "dur": 8.26,
+   "say": "Su gran ventaja es la resolución inmediata. Y, como el radioyodo, deja al paciente hipotiroideo, con levotiroxina de por vida."
+  },
+  {
+   "id": "b024",
+   "t": 255.17,
+   "dur": 10.01,
+   "say": "Esta es una regla EUNACOM. Si operas a un paciente tirotóxico, la manipulación de la glándula libera hormona a la sangre y puede desencadenar una tormenta tiroidea en pabellón."
+  },
+  {
+   "id": "b025",
+   "t": 265.62,
+   "dur": 5.88,
+   "say": "Por eso el paciente debe llegar en eutiroidismo químico: se da tiamazol hasta normalizar la T cuatro libre."
+  },
+  {
+   "id": "b026",
+   "t": 271.95,
+   "dur": 9.07,
+   "say": "Y además, siete a diez días antes de la cirugía, se indica solución de Lugol o solución saturada de yoduro de potasio, tres a cinco gotas cada ocho horas."
+  },
+  {
+   "id": "b027",
+   "t": 281.48,
+   "dur": 11.52,
+   "say": "¿Por qué yodo, si es un hipertiroidismo? Porque una dosis alta de yodo frena de forma transitoria la secreción de hormona, el efecto Wolff-Chaikoff, y además reduce mucho la vascularización de la glándula."
+  },
+  {
+   "id": "b028",
+   "t": 293.45,
+   "dur": 7.44,
+   "say": "El resultado es un paciente eutiroideo, con una tiroides menos vascularizada: menos riesgo de tormenta y menos sangrado en la cirugía."
+  },
+  {
+   "id": "b029",
+   "t": 301.94,
+   "dur": 14.33,
+   "say": "La tiroidectomía tiene dos complicaciones que tienes que reconocer. La primera es el hipoparatiroidismo, por extirpación o isquemia de las paratiroides, que se manifiesta como hipocalcemia. Puede ser transitorio, y es permanente en uno a dos por ciento."
+  },
+  {
+   "id": "b030",
+   "t": 316.71,
+   "dur": 5.02,
+   "say": "La segunda es la lesión del nervio laríngeo recurrente, que se manifiesta como disfonía."
+  },
+  {
+   "id": "b031",
+   "t": 322.18,
+   "dur": 5.26,
+   "say": "Y los controles: con fármacos, perfil tiroideo a las cuatro a seis semanas de iniciar."
+  },
+  {
+   "id": "b032",
+   "t": 327.89,
+   "dur": 7.54,
+   "say": "Después de radioyodo o cirugía, TSH al menos anual, porque el hipotiroidismo es la regla, y hay que tratarlo apenas aparezca."
+  },
+  {
+   "id": "b033",
+   "t": 336.47,
+   "dur": 19.54,
+   "say": "El yodo entra a la tiroides y la peroxidasa lo usa para fabricar hormona. El tiamazol bloquea esa enzima, y la hormona que sale cae; es la primera elección, pero la mitad recae. El propiltiouracilo queda para el primer trimestre y la tormenta. Y el radioyodo destruye la glándula: es la opción tras la recaída, y deja hipotiroidismo."
+  },
+  {
+   "id": "b034",
+   "t": 360.67,
+   "dur": 4.18,
+   "say": "Pongamos todo en un árbol, como vas a razonar frente al enunciado."
+  },
+  {
+   "id": "b035",
+   "t": 365.3,
+   "dur": 7.34,
+   "say": "Paciente con hipertiroidismo confirmado. Si tiene síntomas adrenérgicos, parte el betabloqueo mientras decides."
+  },
+  {
+   "id": "b036",
+   "t": 373.09,
+   "dur": 4.68,
+   "say": "La primera pregunta es la causa, porque lo nodular no remite con fármacos."
+  },
+  {
+   "id": "b037",
+   "t": 378.22,
+   "dur": 7.08,
+   "say": "Primer episodio de Graves: tiamazol por doce a dieciocho meses, o propiltiouracilo si cursa el primer trimestre del embarazo."
+  },
+  {
+   "id": "b038",
+   "t": 385.75,
+   "dur": 10.8,
+   "say": "Recidiva de Graves, bocio multinodular o adenoma tóxico: tratamiento definitivo. Ahora pregunta si hay compresión, bocio masivo, sospecha de cáncer u orbitopatía severa."
+  },
+  {
+   "id": "b039",
+   "t": 397,
+   "dur": 7.22,
+   "say": "Si hay alguno de ellos: tiroidectomía total, preparada con tiamazol hasta el eutiroidismo y Lugol los siete a diez días previos."
+  },
+  {
+   "id": "b040",
+   "t": 404.68,
+   "dur": 11.95,
+   "say": "Si no hay ninguno, el radioyodo es la opción, siempre que no haya embarazo ni lactancia: beta-hCG negativa antes, anticoncepción por seis meses después, y TSH anual, porque vendrá el hipotiroidismo."
+  },
+  {
+   "id": "b041",
+   "t": 417.68,
+   "dur": 10.1,
+   "say": "Repasemos. Tiamazol: su riesgo clave es la agranulocitosis y la recidiva de la mitad. Se usa en el primer episodio de Graves y para preparar la cirugía."
+  },
+  {
+   "id": "b042",
+   "t": 428.23,
+   "dur": 6.05,
+   "say": "Propiltiouracilo: riesgo de hepatitis fulminante. Solo primer trimestre y tormenta."
+  },
+  {
+   "id": "b043",
+   "t": 434.73,
+   "dur": 15.31,
+   "say": "Radioyodo: deja hipotiroidismo, que es lo esperado, y puede empeorar la orbitopatía activa. Se usa en la recidiva de Graves, en el bocio multinodular, en el adenoma tóxico y en el paciente de alto riesgo quirúrgico. Y nunca en embarazo ni lactancia."
+  },
+  {
+   "id": "b044",
+   "t": 450.49,
+   "dur": 11.59,
+   "say": "Tiroidectomía total: hipoparatiroidismo y lesión del recurrente. Se usa en el bocio grande o compresivo, en la sospecha de cáncer y en la orbitopatía severa, siempre preparada con tiamazol y Lugol."
+  },
+  {
+   "id": "b045",
+   "t": 463.13,
+   "dur": 17.33,
+   "say": "Vamos al caso. Mujer de treinta y cuatro años con Graves, que recae seis meses después de completar dieciocho meses de tiamazol. No fuma, no tiene orbitopatía, y su tiroides es de treinta y cinco gramos, sin nódulos. Quiere embarazarse el próximo año, y se decide radioyodo."
+  },
+  {
+   "id": "b046",
+   "t": 480.91,
+   "dur": 3.74,
+   "say": "¿Cuál es la indicación más importante asociada a esta terapia?"
+  },
+  {
+   "id": "b047",
+   "t": 485.11,
+   "dur": 12.05,
+   "say": "Las alternativas: prednisona profiláctica, beta-hCG negativa y anticoncepción por seis meses, Lugol antes del radioyodo, volver al tiamazol, o evitar la levotiroxina después. Piénsalo."
+  },
+  {
+   "id": "b049",
+   "t": 500.8,
+   "dur": 25.08,
+   "say": "Es la B. Recidiva, sin orbitopatía y sin bocio compresivo: el radioyodo está bien indicado. Y como quiere embarazarse, lo fundamental es descartar un embarazo actual y asegurar anticoncepción por al menos seis meses. La prednisona es tentadora, pero es para la orbitopatía activa, y ella no tiene. El Lugol pertenece a la preparación de la cirugía. Y la levotiroxina la va a necesitar, justamente para embarazarse eutiroidea."
+  },
+  {
+   "id": "b050",
+   "t": 526.93,
+   "dur": 22.68,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro, sobre la complicación que acabamos de ver. Mujer de veintinueve años, operada de la tiroides hace cinco meses. Tiene una semana de astenia, nerviosismo y palpitaciones, y hoy convulsionó. Está lúcida y sin focalidad. En los exámenes, calcio de seis coma tres, fósforo alto y albúmina normal."
+  },
+  {
+   "id": "b051",
+   "t": 550.06,
+   "dur": 2.76,
+   "say": "¿Cuál es la conducta inicial más adecuada?"
+  },
+  {
+   "id": "b052",
+   "t": 553.27,
+   "dur": 8.21,
+   "say": "Las opciones: suero fisiológico, TAC de cerebro, calcio endovenoso, lorazepam endovenoso, o calcitonina. Piénsalo."
+  },
+  {
+   "id": "b054",
+   "t": 565.13,
+   "dur": 23.35,
+   "say": "Es la C, calcio endovenoso. Tiroidectomía previa, calcio bajo con fósforo alto y albúmina normal: hipoparatiroidismo postquirúrgico, y la convulsión lo hace una urgencia. Se trata con gluconato de calcio endovenoso, que verás en detalle en la clase de hipocalcemia. El distractor es el nerviosismo y las palpitaciones, que te empujan a pensar en la tiroides; pero lo que explica la convulsión es el calcio."
+  },
+  {
+   "id": "b055",
+   "t": 589.53,
+   "dur": 7.15,
+   "say": "Cerremos con las reglas de oro. Tiamazol de elección; propiltiouracilo solo en el primer trimestre y en la tormenta."
+  },
+  {
+   "id": "b056",
+   "t": 597.14,
+   "dur": 5.74,
+   "say": "El bocio multinodular y el adenoma tóxico no remiten con fármacos: van a tratamiento definitivo."
+  },
+  {
+   "id": "b057",
+   "t": 603.32,
+   "dur": 5.04,
+   "say": "El radioyodo nunca en embarazo ni lactancia, y con anticoncepción por seis meses."
+  },
+  {
+   "id": "b058",
+   "t": 608.81,
+   "dur": 4.49,
+   "say": "Y el hipotiroidismo después del radioyodo no es una falla: es el objetivo."
+  },
+  {
+   "id": "b059",
+   "t": 613.75,
+   "dur": 20.21,
+   "say": "A pabellón se llega eutiroideo y con Lugol los siete a diez días previos. Si te llevas una sola idea de hoy: cada terapia tiene su paciente, y cada una exige algo antes, una beta-hCG para el radioyodo y el Lugol para la cirugía. En la próxima clase vemos qué pasa cuando todo esto falla: la tormenta tiroidea. Nos vemos en la próxima clase."
+  }
+ ]
+}

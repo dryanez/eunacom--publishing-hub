@@ -1,0 +1,409 @@
+{
+ "id": "infecto-02",
+ "title": "Meningitis Aguda Bacteriana y Viral",
+ "total": 797.2480000000003,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 24.02,
+   "say": "Bienvenidos. En la clase anterior vimos que en la sepsis el antibiótico no puede esperar. Hoy aplicamos esa misma regla al sistema nervioso central con la meningitis aguda, bacteriana y viral. El examen pregunta dos cosas una y otra vez: cuándo se pide una TAC antes de la punción lumbar, sin atrasar nunca el antibiótico, y cómo se lee el líquido cefalorraquídeo para separar bacteria de virus. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 30.87,
+   "dur": 15.02,
+   "say": "Partamos por los culpables. La meningitis bacteriana de la comunidad la producen principalmente dos agentes: el Streptococcus pneumoniae, el neumococo, y la Neisseria meningitidis, el meningococo. Esos dos nombres te van a acompañar toda la clase."
+  },
+  {
+   "id": "b003",
+   "t": 46.35,
+   "dur": 8.76,
+   "say": "La bacteria llega al espacio subaracnoideo, que es donde circula el líquido cefalorraquídeo. Y ahí se desencadena una respuesta inflamatoria masiva."
+  },
+  {
+   "id": "b004",
+   "t": 55.56,
+   "dur": 10.06,
+   "say": "Esa inflamación produce edema cerebral de los tres tipos a la vez: vasogénico, citotóxico e intersticial. El cerebro se hincha dentro de una caja que no se puede expandir."
+  },
+  {
+   "id": "b005",
+   "t": 66.06,
+   "dur": 10.03,
+   "say": "Por eso la presión intracraneana sube rápido, y con ella el riesgo de isquemia cerebral. Esto explica por qué la meningitis bacteriana es una emergencia de horas, no de días."
+  },
+  {
+   "id": "b006",
+   "t": 76.55,
+   "dur": 14.95,
+   "say": "Y guarda esta última idea, porque de aquí sale la pregunta más repetida del tema. Si dentro del cráneo hay un efecto de masa y sacas líquido por abajo con una punción lumbar, el cerebro se puede desplazar hacia abajo. Eso es la herniación cerebral, y es fatal."
+  },
+  {
+   "id": "b007",
+   "t": 92.55,
+   "dur": 15.24,
+   "say": "Veamos cómo llega el paciente. La tríada clásica es fiebre, cefalea y rigidez de nuca. La rigidez se explica por la inflamación de las meninges: mira cómo el cuello flectado encuentra resistencia, porque mover el cuello estira una membrana inflamada, y eso duele."
+  },
+  {
+   "id": "b008",
+   "t": 108.24,
+   "dur": 7.9,
+   "say": "Pero ojo: la tríada completa aparece en menos de la mitad de los casos. No esperes tenerla entera para sospechar la enfermedad."
+  },
+  {
+   "id": "b009",
+   "t": 116.58,
+   "dur": 8.54,
+   "say": "Lo contrario, en cambio, es muy útil. Si el paciente no tiene ninguno de los tres elementos, prácticamente se descarta la meningitis."
+  },
+  {
+   "id": "b010",
+   "t": 125.58,
+   "dur": 15.24,
+   "say": "Al examen buscas los signos meníngeos, Kernig y Brudzinski, que son maniobras que estiran las meninges inflamadas. Mira el signo de Kernig: con la cadera flectada, extender la rodilla duele y ofrece resistencia. Los vas a ver en casi todos los enunciados."
+  },
+  {
+   "id": "b011",
+   "t": 141.27,
+   "dur": 8.33,
+   "say": "Y suele acompañarse de fotofobia y vómitos. Si además hay compromiso de conciencia, piensa que la presión intracraneana ya está subiendo."
+  },
+  {
+   "id": "b012",
+   "t": 150.65,
+   "dur": 15.1,
+   "say": "La punción lumbar es el estudio de elección, pero antes tienes que preguntarte si hay riesgo de herniación. La primera bandera roja es el déficit neurológico focal: una paresia, una asimetría facial, una afasia. Eso te hace pensar en algo que ocupa espacio."
+  },
+  {
+   "id": "b013",
+   "t": 166.19,
+   "dur": 4.73,
+   "say": "La segunda es una crisis convulsiva de inicio reciente, de menos de una semana."
+  },
+  {
+   "id": "b014",
+   "t": 171.37,
+   "dur": 5.02,
+   "say": "La tercera, un compromiso de conciencia profundo, con un Glasgow menor de diez."
+  },
+  {
+   "id": "b015",
+   "t": 176.84,
+   "dur": 11.52,
+   "say": "Y la cuarta, el papiledema en el fondo de ojo, o una inmunodepresión severa, como un paciente con VIH y recuento de CD cuatro bajo. Cualquiera de estas banderas obliga a una TAC antes de puncionar."
+  },
+  {
+   "id": "b016",
+   "t": 188.81,
+   "dur": 13.75,
+   "say": "Pero aquí está la regla de oro, la que decide la pregunta. Si el paciente necesita TAC, nunca esperas la imagen para tratar. Tomas hemocultivos, administras dexametasona y antibióticos empíricos endovenosos de inmediato."
+  },
+  {
+   "id": "b017",
+   "t": 203.01,
+   "dur": 11.18,
+   "say": "Y recién después lo trasladas a la TAC. Si la imagen no muestra efecto de masa, se hace la punción lumbar. Los hemocultivos que tomaste antes te siguen sirviendo para identificar el germen."
+  },
+  {
+   "id": "b018",
+   "t": 214.64,
+   "dur": 12.91,
+   "say": "La trampa es la alternativa que dice trasladar a TAC sin administrar fármacos para no interferir con los cultivos. Suena ordenada, pero es incorrecta: en una meningitis bacteriana, cada hora sin antibiótico cuesta cerebro."
+  },
+  {
+   "id": "b019",
+   "t": 228.6,
+   "dur": 10.13,
+   "say": "Pasemos al tratamiento, y partimos por el corticoide, porque el orden se pregunta. Dexametasona endovenosa, diez miligramos cada seis horas, por cuatro días."
+  },
+  {
+   "id": "b020",
+   "t": 239.18,
+   "dur": 15.65,
+   "say": "Se administra quince a veinte minutos antes, o junto con, la primera dosis de antibiótico. ¿Por qué ahí? Porque su objetivo es frenar la inflamación que desencadena la bacteria al morir. Reduce las secuelas auditivas y la mortalidad en la meningitis por neumococo."
+  },
+  {
+   "id": "b021",
+   "t": 255.28,
+   "dur": 9.55,
+   "say": "El esquema estándar, entre los tres meses y los cincuenta años, es ceftriaxona, dos gramos cada doce horas endovenosa, que cubre a los dos agentes que vimos al comienzo."
+  },
+  {
+   "id": "b022",
+   "t": 265.28,
+   "dur": 7.25,
+   "say": "Más vancomicina, quince a veinte miligramos por kilo cada doce horas endovenosa, para cubrir al neumococo con resistencia."
+  },
+  {
+   "id": "b023",
+   "t": 272.98,
+   "dur": 10.03,
+   "say": "Y el dato que más se pregunta del tratamiento. En mayores de cincuenta años, embarazadas e inmunodeprimidos se agrega ampicilina, dos gramos cada cuatro horas endovenosa."
+  },
+  {
+   "id": "b024",
+   "t": 283.46,
+   "dur": 12.79,
+   "say": "¿Por qué? Porque en esos pacientes aparece la Listeria monocytogenes, que es intrínsecamente resistente a las cefalosporinas. Si olvidas la ampicilina en un paciente de sesenta años, dejaste un agente sin cubrir."
+  },
+  {
+   "id": "b025",
+   "t": 297.3,
+   "dur": 9.7,
+   "say": "Ahora, lo segundo que el examen siempre pregunta: cómo leer el líquido cefalorraquídeo. La punción no solo confirma la meningitis, también te orienta a la causa."
+  },
+  {
+   "id": "b026",
+   "t": 307.45,
+   "dur": 9.77,
+   "say": "Y el dato que más discrimina es la glucosa, comparada con la glicemia del mismo momento. Lo normal es que la glucosa del líquido sea más del sesenta por ciento de la sanguínea."
+  },
+  {
+   "id": "b027",
+   "t": 317.67,
+   "dur": 13.44,
+   "say": "En la meningitis bacteriana, la bacteria y los neutrófilos consumen glucosa, así que la razón cae bajo cero coma cuatro. Se acompaña de pleocitosis con más del ochenta por ciento de polimorfonucleares y proteínas muy elevadas, sobre cien."
+  },
+  {
+   "id": "b028",
+   "t": 331.56,
+   "dur": 13.56,
+   "say": "En la meningitis viral, en cambio, la glucosa es normal. Hay predominio de mononucleares, y las proteínas suben solo levemente. Si te quedas con un solo dato: glucosa baja es bacteria; glucosa normal es virus."
+  },
+  {
+   "id": "b029",
+   "t": 346.17,
+   "dur": 16.37,
+   "say": "La meningococcemia es la sepsis por Neisseria meningitidis, con o sin meningitis. Fiebre alta de inicio brusco, mialgias y petequias que en horas se convierten en equimosis y púrpura fulminante; mira esta púrpura extensa que no blanquea. Hay hipotensión y coagulación intravascular."
+  },
+  {
+   "id": "b030",
+   "t": 362.99,
+   "dur": 7.97,
+   "say": "Si además hay hemorragia suprarrenal bilateral, es el síndrome de Waterhouse-Friderichsen: shock refractario por insuficiencia suprarrenal aguda."
+  },
+  {
+   "id": "b031",
+   "t": 371.4,
+   "dur": 10.15,
+   "say": "Ante la sospecha no se espera la punción lumbar: hemocultivos, ceftriaxona dos gramos endovenosa de inmediato, volumen, y UCI. Corticoide si el shock es refractario."
+  },
+  {
+   "id": "b032",
+   "t": 382.01,
+   "dur": 7.54,
+   "say": "Se aísla por gotitas hasta las veinticuatro horas de tratamiento, se notifica de inmediato y se da quimioprofilaxis a los contactos íntimos."
+  },
+  {
+   "id": "b033",
+   "t": 390.59,
+   "dur": 8.86,
+   "say": "Antes de la punción lumbar descartas efecto de masa, infección en la piel del sitio y coagulopatía: plaquetas bajo cincuenta mil o INR sobre uno coma cinco."
+  },
+  {
+   "id": "b034",
+   "t": 399.9,
+   "dur": 8.66,
+   "say": "Paciente de lado en posición fetal. El espacio entre ele tres y ele cuatro se ubica con la línea que une ambas crestas ilíacas, la línea de Tuffier."
+  },
+  {
+   "id": "b035",
+   "t": 409.01,
+   "dur": 11.62,
+   "say": "Con asepsia y anestesia local, entras con el bisel paralelo a las fibras de la duramadre. Mides la presión de apertura, normal de diez a veinte, y recoges cuatro tubos, más una glicemia simultánea."
+  },
+  {
+   "id": "b036",
+   "t": 421.08,
+   "dur": 8.69,
+   "say": "La complicación más frecuente es la cefalea postpunción. Se trata con reposo, hidratación y cafeína; si persiste, parche hemático."
+  },
+  {
+   "id": "b037",
+   "t": 430.22,
+   "dur": 8.21,
+   "say": "El líquido se procesa de inmediato y a temperatura ambiente. No se refrigera, porque el meningococo y el Haemophilus son lábiles al frío."
+  },
+  {
+   "id": "b038",
+   "t": 438.87,
+   "dur": 14.42,
+   "say": "Se siembra en agar sangre y agar chocolate. El Gram directo orienta en minutos; mira este Gram del líquido, con neutrófilos y cocos entre ellos. Diplococos grampositivos lanceolados son neumococo; diplococos gramnegativos, meningococo."
+  },
+  {
+   "id": "b039",
+   "t": 453.75,
+   "dur": 8.62,
+   "say": "En un paciente inmunodeprimido, otra tinción útil es la tinta china. Mira estas levaduras con una cápsula clara alrededor: es el criptococo."
+  },
+  {
+   "id": "b040",
+   "t": 463.41,
+   "dur": 19.27,
+   "say": "El neumococo y el meningococo inflaman las meninges. En el líquido, la bacteriana tiene polimorfonucleares, glucosa bajo cero coma cuatro de la sanguínea, y proteínas sobre cien. La viral tiene mononucleares y glucosa normal. Y mononucleares con glucosa muy baja, bajo cero coma tres, hacen pensar en tuberculosis."
+  },
+  {
+   "id": "b041",
+   "t": 486.61,
+   "dur": 4.99,
+   "say": "Juntemos todo en un solo árbol de decisión, tal como lo vas a razonar en la urgencia."
+  },
+  {
+   "id": "b042",
+   "t": 492.06,
+   "dur": 9.65,
+   "say": "Paciente con fiebre, cefalea y rigidez de nuca. Sospechas meningitis, y la primera decisión no es el antibiótico, sino si puedes puncionar de inmediato."
+  },
+  {
+   "id": "b043",
+   "t": 502.15,
+   "dur": 7.25,
+   "say": "Buscas las banderas rojas: focalidad, convulsión reciente, Glasgow bajo diez, papiledema o inmunodepresión severa."
+  },
+  {
+   "id": "b044",
+   "t": 509.85,
+   "dur": 9.77,
+   "say": "Si hay alguna, tomas hemocultivos, das dexametasona y antibióticos de inmediato, y recién después vas a la TAC. La punción se hace si la imagen lo permite."
+  },
+  {
+   "id": "b045",
+   "t": 520.07,
+   "dur": 6.07,
+   "say": "Si no hay ninguna, se hace la punción lumbar de inmediato y se inicia el tratamiento sin esperar resultados."
+  },
+  {
+   "id": "b046",
+   "t": 526.59,
+   "dur": 4.58,
+   "say": "Para elegir el esquema, la pregunta es si el paciente tiene riesgo de Listeria."
+  },
+  {
+   "id": "b047",
+   "t": 531.63,
+   "dur": 5.9,
+   "say": "Si no lo tiene, ceftriaxona más vancomicina, con dexametasona antes o junto al antibiótico."
+  },
+  {
+   "id": "b048",
+   "t": 537.98,
+   "dur": 6.02,
+   "say": "Si lo tiene, al mismo esquema le agregas ampicilina, porque la Listeria no responde a cefalosporinas."
+  },
+  {
+   "id": "b049",
+   "t": 545.05,
+   "dur": 16.73,
+   "say": "Repasemos el citoquímico completo, porque cada casilla puede ser una pregunta. La presión de apertura normal es de diez a veinte centímetros de agua. En la bacteriana sube sobre veinticinco, en la viral es normal o sube poco, y en la tuberculosa o fúngica sube mucho, sobre treinta."
+  },
+  {
+   "id": "b050",
+   "t": 562.23,
+   "dur": 11.83,
+   "say": "Los leucocitos: normal, menos de cinco. La bacteriana tiene muchísimos, de mil a diez mil o más. La viral y la tuberculosa tienen una cantidad moderada, de decenas a cientos."
+  },
+  {
+   "id": "b051",
+   "t": 574.51,
+   "dur": 11.18,
+   "say": "El tipo de célula: polimorfonucleares en la bacteriana; mononucleares en la viral y también en la tuberculosa. Ojo con esto, porque el predominio mononuclear solo no basta para decir virus."
+  },
+  {
+   "id": "b052",
+   "t": 586.15,
+   "dur": 15.55,
+   "say": "Y ahí entra la glucosa, que desempata. La viral la respeta; la bacteriana la baja bajo cero coma cuatro; y la tuberculosa o fúngica la baja todavía más, bajo cero coma tres. Mononucleares con glucosa muy baja no es virus: piensa en tuberculosis."
+  },
+  {
+   "id": "b053",
+   "t": 602.15,
+   "dur": 8.52,
+   "say": "Las proteínas: normal, menos de cuarenta y cinco. Muy elevadas en la bacteriana y en la tuberculosa, y apenas aumentadas en la viral."
+  },
+  {
+   "id": "b054",
+   "t": 611.72,
+   "dur": 25.63,
+   "say": "Vamos con un caso. Mujer de cincuenta y cuatro años con un día de cefalea, fiebre de treinta y nueve, fotofobia y vómitos. Tiene Glasgow catorce, sin focalidad, fondo de ojo normal y signos meníngeos. Se punciona de inmediato: líquido turbio, presión alta, cuatro mil doscientos leucocitos con noventa y dos por ciento de polimorfonucleares, glucosa de dieciocho con una glicemia de ciento diez, y proteínas de doscientos ochenta."
+  },
+  {
+   "id": "b055",
+   "t": 637.8,
+   "dur": 2.9,
+   "say": "¿Cuál es el tratamiento empírico más adecuado?"
+  },
+  {
+   "id": "b056",
+   "t": 641.16,
+   "dur": 11.16,
+   "say": "Las opciones son: ceftriaxona con vancomicina; dexametasona con ceftriaxona, vancomicina y ampicilina; aciclovir; ceftriaxona sola; o esperar el cultivo. Piénsalo."
+  },
+  {
+   "id": "b058",
+   "t": 655.97,
+   "dur": 20.66,
+   "say": "La respuesta es la B. El líquido es bacteriano sin duda: neutrófilos y una glucosa que no llega ni a la quinta parte de la glicemia. Y el detalle es la edad: tiene cincuenta y cuatro años, así que hay que cubrir Listeria con ampicilina. La A es el distractor tentador, porque es el esquema correcto para una persona de treinta, pero aquí le falta la ampicilina."
+  },
+  {
+   "id": "b059",
+   "t": 677.68,
+   "dur": 18.43,
+   "say": "Ahora las preguntas reales. La primera es del EUNACOM de julio de dos mil trece. Mujer de veintitrés años con un día de compromiso del estado general, fiebre y somnolencia progresiva. Al examen tiene treinta y ocho y medio de temperatura, petequias y equimosis en las extremidades, y rigidez de nuca sin focalidad."
+  },
+  {
+   "id": "b060",
+   "t": 696.56,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b061",
+   "t": 699.58,
+   "dur": 8.06,
+   "say": "Las opciones son: meningitis tuberculosa, meningocócica, neumocócica, por Listeria, o herpética. Piénsalo."
+  },
+  {
+   "id": "b063",
+   "t": 711.29,
+   "dur": 24.14,
+   "say": "Es la B, meningitis meningocócica. El cuadro de un día con fiebre y rigidez de nuca es una meningitis bacteriana aguda, y lo que define el agente es la piel: las petequias y equimosis son la meningococcemia. El neumococo es el distractor, porque es el agente más frecuente, pero no da ese compromiso cutáneo. Esta pregunta se ha repetido casi igual, preguntando directamente el agente: Neisseria meningitidis."
+  },
+  {
+   "id": "b064",
+   "t": 736.49,
+   "dur": 9.05,
+   "say": "Cerremos con las reglas de oro. Focalidad, convulsión reciente, Glasgow bajo diez, papiledema o inmunodepresión: TAC antes de puncionar."
+  },
+  {
+   "id": "b065",
+   "t": 745.99,
+   "dur": 7.54,
+   "say": "Pero nunca esperas la imagen para tratar. Primero hemocultivos, dexametasona y antibióticos; después, la TAC."
+  },
+  {
+   "id": "b066",
+   "t": 753.97,
+   "dur": 5.59,
+   "say": "El esquema es ceftriaxona más vancomicina, con dexametasona antes o junto con el antibiótico."
+  },
+  {
+   "id": "b067",
+   "t": 760.01,
+   "dur": 5.78,
+   "say": "Y en mayores de cincuenta, embarazadas e inmunodeprimidos, se agrega ampicilina por la Listeria."
+  },
+  {
+   "id": "b068",
+   "t": 766.25,
+   "dur": 4.13,
+   "say": "En el líquido: polimorfonucleares con glucosa baja es bacteria."
+  },
+  {
+   "id": "b069",
+   "t": 770.83,
+   "dur": 20.47,
+   "say": "Mononucleares con glucosa normal es virus; y si la glucosa está muy baja, piensa en tuberculosis. Si te llevas una sola idea de hoy: el antibiótico nunca espera a la TAC, y en el líquido, la glucosa separa bacteria de virus. La próxima clase vemos qué pasa cuando el virus no se queda en las meninges y entra al cerebro. Nos vemos en la próxima clase."
+  }
+ ]
+}

@@ -1,0 +1,373 @@
+{
+ "id": "hem-09",
+ "title": "Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+ "total": 738.5820000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 23.04,
+   "say": "Bienvenidos. En la clase anterior vimos defectos de la membrana y de las enzimas del glóbulo rojo. Hoy llegamos al último lugar donde puede fallar: la hemoglobina misma. Vemos las talasemias y la anemia de células falciformes. Y el examen pregunta sobre todo una cosa: reconocer el rasgo talasémico, esa microcitosis que parece ferropenia pero no lo es, y en la que dar hierro es un error."
+  },
+  {
+   "id": "b002",
+   "t": 29.89,
+   "dur": 10.01,
+   "say": "Partamos con un mapa. La hemoglobina adulta tiene cadenas alfa y beta, y las dos enfermedades de hoy nacen de mutaciones en el gen de la beta-globina, en el cromosoma once."
+  },
+  {
+   "id": "b003",
+   "t": 40.35,
+   "dur": 17.64,
+   "say": "La mutación puede fallar de dos maneras. En la talasemia, la cadena beta es normal, pero se fabrica en menor cantidad o no se fabrica. Es un defecto de cantidad. En la alfa talasemia, por ejemplo, mira estos glóbulos con inclusiones en pelota de golf: son los cuerpos de hemoglobina H."
+  },
+  {
+   "id": "b004",
+   "t": 58.44,
+   "dur": 10.82,
+   "say": "En la drepanocitosis ocurre lo contrario: la cadena se fabrica, pero con un error en su estructura. Esa hemoglobina anormal es la hemoglobina S. Es un defecto de calidad."
+  },
+  {
+   "id": "b005",
+   "t": 69.71,
+   "dur": 7.97,
+   "say": "Y aunque son distintas, las dos se confirman con el mismo examen: la electroforesis de hemoglobina. Veamos primero la talasemia."
+  },
+  {
+   "id": "b006",
+   "t": 78.73,
+   "dur": 8.52,
+   "say": "La talasemia beta se debe a mutaciones que disminuyen la síntesis de cadena beta, llamadas beta más, o que la anulan por completo, llamadas beta cero."
+  },
+  {
+   "id": "b007",
+   "t": 87.7,
+   "dur": 14.81,
+   "say": "Si solo un gen está afectado, el portador heterocigoto, tenemos el rasgo talasémico menor. Es asintomático y casi siempre se descubre por casualidad en un hemograma de rutina. Este es el paciente que vas a ver en tu consulta, y el que pregunta el examen."
+  },
+  {
+   "id": "b008",
+   "t": 102.96,
+   "dur": 11.86,
+   "say": "En el otro extremo está el homocigoto beta cero, que no fabrica ninguna cadena beta. Las cadenas alfa quedan sin pareja, se acumulan y precipitan dentro del eritroblasto, que muere antes de salir de la médula."
+  },
+  {
+   "id": "b009",
+   "t": 115.26,
+   "dur": 9.98,
+   "say": "Eso es la talasemia mayor, o anemia de Cooley: una eritropoyesis ineficaz profunda más una hemólisis extrema. Se manifiesta desde el primer año de vida con anemia grave."
+  },
+  {
+   "id": "b010",
+   "t": 126.3,
+   "dur": 16.75,
+   "say": "Veamos el hemograma del rasgo, porque es la clave del tema. Lo primero es una desproporción: una microcitosis muy marcada, con volumen corpuscular entre sesenta y setenta y dos, pero con una hemoglobina normal o apenas baja, entre diez y doce. Mucha microcitosis para tan poca anemia."
+  },
+  {
+   "id": "b011",
+   "t": 143.5,
+   "dur": 15.17,
+   "say": "Y lo segundo, que es lo que más discrimina: el recuento de glóbulos rojos está normal o alto, sobre cinco o cinco y medio millones. La médula fabrica muchos glóbulos, pero cada uno es pequeño. En la ferropenia, en cambio, faltan glóbulos."
+  },
+  {
+   "id": "b012",
+   "t": 159.12,
+   "dur": 11.52,
+   "say": "De ahí sale el índice de Mentzer: divides el volumen corpuscular por el recuento de glóbulos rojos en millones. Si da menos de trece, orienta a talasemia; si da más de trece, a ferropenia."
+  },
+  {
+   "id": "b013",
+   "t": 171.09,
+   "dur": 17.9,
+   "say": "El ancho de distribución eritrocitaria, el RDW, es normal: todos los glóbulos son igual de pequeños. En la ferropenia está alto, porque conviven glóbulos de distintos tamaños. Y en el frotis, mira estos dianocitos: glóbulos con una mancha central oscura, típicos de las talasemias."
+  },
+  {
+   "id": "b014",
+   "t": 189.44,
+   "dur": 14.5,
+   "say": "Y el perfil de hierro es normal, con ferritina normal. Aquí está la trampa: si ves microcitosis y das hierro sin mirar la ferritina, estás tratando una deficiencia que no existe, y generas sobrecarga de hierro. Es un error grave de examen."
+  },
+  {
+   "id": "b015",
+   "t": 204.99,
+   "dur": 8.52,
+   "say": "Volvamos a la talasemia mayor. Desde el primer año de vida, el niño tiene una anemia grave que depende de transfusiones crónicas y periódicas."
+  },
+  {
+   "id": "b016",
+   "t": 213.96,
+   "dur": 12.96,
+   "say": "La médula trata de compensar y se expande: eso deforma los huesos del cráneo y la cara, y da la facies de ardilla. Mira este cráneo en cepillo, con la médula expandida. Además, hay hepatoesplenomegalia masiva."
+  },
+  {
+   "id": "b017",
+   "t": 227.37,
+   "dur": 10.51,
+   "say": "Y cada transfusión trae hierro que el cuerpo no puede eliminar. Con los años aparece una hemocromatosis transfusional, con cirrosis, miocardiopatía y diabetes, que puede ser letal."
+  },
+  {
+   "id": "b018",
+   "t": 238.33,
+   "dur": 10.44,
+   "say": "Por eso estos pacientes necesitan quelantes de hierro, deferoxamina o deferasirox. Fíjate en la paradoja: el talasémico no necesita hierro, lo que necesita es sacárselo."
+  },
+  {
+   "id": "b019",
+   "t": 249.82,
+   "dur": 15.02,
+   "say": "Pasemos a la drepanocitosis, o anemia de células falciformes. Es autosómica recesiva, y se debe a una sola mutación puntual: en la posición seis de la cadena beta, el ácido glutámico se cambia por valina. Esa hemoglobina es la hemoglobina S."
+  },
+  {
+   "id": "b020",
+   "t": 265.29,
+   "dur": 14.69,
+   "say": "Mientras está oxigenada se comporta bien. Pero con hipoxia, acidosis o deshidratación, la hemoglobina S desoxigenada se polimeriza y forma fibras rígidas. Recuerda esos tres gatillantes, porque el tratamiento apunta justo a revertirlos."
+  },
+  {
+   "id": "b021",
+   "t": 280.43,
+   "dur": 6.65,
+   "say": "Esas fibras deforman el glóbulo en forma de hoz o medialuna: mira estos drepanocitos, rígidos y sin flexibilidad."
+  },
+  {
+   "id": "b022",
+   "t": 287.53,
+   "dur": 16.49,
+   "say": "Un glóbulo rígido tapa los capilares. De ahí salen las crisis vasooclusivas dolorosas, con dolor óseo intolerable en fémur, columna o tórax; el síndrome torácico agudo, con infiltrados, disnea y dolor torácico, que es la principal causa de muerte en adultos; y el priapismo isquémico."
+  },
+  {
+   "id": "b023",
+   "t": 304.47,
+   "dur": 23.93,
+   "say": "Y la complicación que conecta con la clase anterior: los microinfartos repetidos en el bazo lo van atrofiando, hasta dejar una asplenia funcional hacia los cinco o seis años. Es la autoesplenectomía, y la delata este punto violeta dentro de un glóbulo: un cuerpo de Howell-Jolly, un resto nuclear que el bazo ya no limpia. Igual que el esplenectomizado, este niño queda expuesto a sepsis fulminante por neumococo, Haemophilus y Salmonella."
+  },
+  {
+   "id": "b024",
+   "t": 329.45,
+   "dur": 15.26,
+   "say": "La confirmación de ambas es la electroforesis de hemoglobina, por cromatografía líquida de alta resolución o por enfoque isoeléctrico. En el rasgo talasémico beta, el hallazgo que la confirma es la hemoglobina A dos sobre tres coma cinco por ciento, habitualmente entre cuatro y siete."
+  },
+  {
+   "id": "b025",
+   "t": 345.16,
+   "dur": 9.91,
+   "say": "A veces también sube un poco la hemoglobina fetal. La lógica es simple: si falta cadena beta, el cuerpo usa las otras cadenas para armar hemoglobinas alternativas."
+  },
+  {
+   "id": "b026",
+   "t": 355.52,
+   "dur": 9.26,
+   "say": "En la anemia falciforme homocigota, la electroforesis muestra un pico mayoritario de hemoglobina S, sobre setenta a noventa por ciento, y no hay hemoglobina A uno."
+  },
+  {
+   "id": "b027",
+   "t": 365.84,
+   "dur": 14.74,
+   "say": "Veamos la crisis vasooclusiva en urgencias. Lo primero es hidratación endovenosa vigorosa con cristaloides isotónicos. ¿Por qué? Porque revierte la deshidratación, uno de los gatillantes, y ayuda a despolimerizar la hemoglobina S."
+  },
+  {
+   "id": "b028",
+   "t": 381.02,
+   "dur": 9.96,
+   "say": "Segundo, analgesia inmediata y escalonada con opioides potentes, morfina endovenosa o fentanilo. El dolor es isquémico e intolerable; no se le deja esperando."
+  },
+  {
+   "id": "b029",
+   "t": 391.43,
+   "dur": 5.09,
+   "say": "Tercero, oxígeno, pero solo si la saturación está bajo noventa y dos por ciento."
+  },
+  {
+   "id": "b030",
+   "t": 396.97,
+   "dur": 9.77,
+   "say": "Y cuarto, antibiótico empírico inmediato si hay una infección intercurrente, con ceftriaxona, que cubre al neumococo. Recuerda que este paciente no tiene bazo."
+  },
+  {
+   "id": "b031",
+   "t": 407.19,
+   "dur": 12.1,
+   "say": "A largo plazo, el tratamiento modificador es la hidroxiurea. Estimula la síntesis de hemoglobina fetal, que no se polimeriza, y así reduce en más de la mitad las crisis dolorosas y el síndrome torácico agudo."
+  },
+  {
+   "id": "b032",
+   "t": 420.33,
+   "dur": 16.9,
+   "say": "El glóbulo normal es flexible y pasa por el capilar. Con poco oxígeno, la hemoglobina S polimeriza y el glóbulo se deforma en hoz rígida. Las hoces se atascan en el capilar: sin flujo hay isquemia, crisis de dolor e infartos. Y se rompen, produciendo hemólisis y anemia."
+  },
+  {
+   "id": "b033",
+   "t": 438.28,
+   "dur": 4.25,
+   "say": "Ahora juntemos todo en el árbol que usarás frente a una microcitosis."
+  },
+  {
+   "id": "b034",
+   "t": 442.98,
+   "dur": 6.74,
+   "say": "Tienes un hemograma con microcitosis. Antes de indicar hierro, hay que decidir si realmente falta hierro."
+  },
+  {
+   "id": "b035",
+   "t": 450.17,
+   "dur": 5.71,
+   "say": "Mira la ferritina, el recuento de glóbulos rojos, el RDW y el índice de Mentzer."
+  },
+  {
+   "id": "b036",
+   "t": 456.33,
+   "dur": 5.95,
+   "say": "Ferritina baja, pocos glóbulos, RDW alto y Mentzer sobre trece: ferropenia."
+  },
+  {
+   "id": "b037",
+   "t": 462.74,
+   "dur": 4.8,
+   "say": "Hierro oral y buscar la causa del sangrado, como vimos en la clase de ferropenia."
+  },
+  {
+   "id": "b038",
+   "t": 467.99,
+   "dur": 9.62,
+   "say": "Ferritina normal, glóbulos altos, RDW normal y Mentzer bajo trece: sospecha de rasgo talasémico. Pides electroforesis de hemoglobina."
+  },
+  {
+   "id": "b039",
+   "t": 478.06,
+   "dur": 7.34,
+   "say": "Hemoglobina A dos sobre tres coma cinco: rasgo talasémico beta. Se suspende el hierro y se da asesoría genética."
+  },
+  {
+   "id": "b040",
+   "t": 485.85,
+   "dur": 10.01,
+   "say": "Si en cambio es un lactante con anemia grave desde el primer año, hepatoesplenomegalia y facies de ardilla, piensa en talasemia mayor: transfusiones crónicas y quelantes, con hematología."
+  },
+  {
+   "id": "b041",
+   "t": 496.91,
+   "dur": 11.11,
+   "say": "Repasemos la comparación que más se pregunta. En la ferropenia, el volumen corpuscular baja en proporción a la anemia. En el rasgo, baja mucho más de lo que la anemia justifica."
+  },
+  {
+   "id": "b042",
+   "t": 508.47,
+   "dur": 4.87,
+   "say": "Los glóbulos rojos: bajos en la ferropenia, normales o altos en el rasgo."
+  },
+  {
+   "id": "b043",
+   "t": 513.8,
+   "dur": 5.09,
+   "say": "El índice de Mentzer: sobre trece orienta a ferropenia, bajo trece a talasemia."
+  },
+  {
+   "id": "b044",
+   "t": 519.33,
+   "dur": 5.62,
+   "say": "El RDW: alto en la ferropenia, sobre quince por ciento, y normal en el rasgo."
+  },
+  {
+   "id": "b045",
+   "t": 525.4,
+   "dur": 4.82,
+   "say": "La ferritina: baja en la ferropenia, bajo treinta, y normal en el rasgo."
+  },
+  {
+   "id": "b046",
+   "t": 530.67,
+   "dur": 6.07,
+   "say": "La electroforesis: normal en la ferropenia, y con hemoglobina A dos sobre tres coma cinco en el rasgo."
+  },
+  {
+   "id": "b047",
+   "t": 537.2,
+   "dur": 11.04,
+   "say": "Y la conducta: en la ferropenia, hierro oral y buscar la causa del sangrado. En el rasgo, asesoría genética y nada de hierro. Esa es la respuesta que el examen busca."
+  },
+  {
+   "id": "b048",
+   "t": 549.29,
+   "dur": 26.45,
+   "say": "Vamos con un caso. Hombre de veintiséis años, asintomático, de ascendencia italiana, en un examen preventivo. Hemoglobina de once coma ocho, volumen corpuscular de sesenta y cuatro, glóbulos rojos de cinco coma ocho millones, y RDW normal. Otro médico le dio sulfato ferroso por tres meses, y el hemograma quedó idéntico. Hoy la ferritina es ciento cuarenta, normal, con saturación de transferrina de treinta y dos por ciento."
+  },
+  {
+   "id": "b049",
+   "t": 576.18,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b050",
+   "t": 579.03,
+   "dur": 11.98,
+   "say": "Las opciones son: pasar a hierro endovenoso, suspender el hierro y pedir electroforesis, estudiar sangrado con endoscopía y colonoscopía, duplicar el sulfato ferroso, o biopsia de médula. Piénsalo."
+  },
+  {
+   "id": "b052",
+   "t": 594.66,
+   "dur": 26.3,
+   "say": "Es la B. Mira la desproporción: un volumen de sesenta y cuatro con hemoglobina casi normal, glóbulos rojos altos, y un Mentzer de sesenta y cuatro dividido por cinco coma ocho, que da once, bajo trece. RDW y ferritina normales: es un rasgo talasémico. Se suspende el hierro y se pide electroforesis buscando la hemoglobina A dos alta. El hierro endovenoso tienta porque el oral no funcionó, pero no funcionó porque nunca faltó hierro."
+  },
+  {
+   "id": "b053",
+   "t": 622.01,
+   "dur": 14.38,
+   "say": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Niño de nueve meses con palidez. Su hemograma muestra hemoglobina de nueve, volumen corpuscular de sesenta y ocho, blancos normales y plaquetas de cuatrocientas cincuenta mil."
+  },
+  {
+   "id": "b054",
+   "t": 636.84,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b055",
+   "t": 639.86,
+   "dur": 10.22,
+   "say": "Las opciones son: anemia ferropriva, anemia de enfermedades crónicas, trombocitosis esencial, hemoglobinopatía, o microesferocitosis familiar. Piénsalo."
+  },
+  {
+   "id": "b057",
+   "t": 653.73,
+   "dur": 24.38,
+   "say": "Es la A, anemia ferropriva. A los nueve meses, las reservas de hierro del nacimiento se agotan, y la microcitosis con plaquetas en el límite alto es la ferropenia clásica del lactante. La hemoglobinopatía es el distractor tentador después de esta clase, pero es mucho menos frecuente, y aquí no tienes ningún dato que la sugiera: ni glóbulos rojos altos, ni RDW normal, ni ferritina normal. Lo frecuente primero."
+  },
+  {
+   "id": "b058",
+   "t": 679.17,
+   "dur": 11.3,
+   "say": "Cerremos con las reglas de oro. Microcitosis marcada con poca anemia, glóbulos rojos altos, RDW normal y ferritina normal: rasgo talasémico, con Mentzer bajo trece."
+  },
+  {
+   "id": "b059",
+   "t": 690.92,
+   "dur": 5.5,
+   "say": "Se confirma con electroforesis, buscando la hemoglobina A dos sobre tres coma cinco por ciento."
+  },
+  {
+   "id": "b060",
+   "t": 696.87,
+   "dur": 3.89,
+   "say": "Y nunca le des hierro: no le falta, y lo sobrecargas."
+  },
+  {
+   "id": "b061",
+   "t": 701.2,
+   "dur": 6.38,
+   "say": "La talasemia mayor debuta en el primer año con anemia grave, depende de transfusiones y necesita quelantes de hierro."
+  },
+  {
+   "id": "b062",
+   "t": 708.04,
+   "dur": 7.68,
+   "say": "En la crisis falciforme: volumen, opioides, oxígeno si la saturación está bajo noventa y dos, y ceftriaxona si hay infección."
+  },
+  {
+   "id": "b063",
+   "t": 716.17,
+   "dur": 16.46,
+   "say": "A largo plazo, hidroxiurea. Si te llevas una sola idea de hoy: frente a una microcitosis, mira los glóbulos rojos y la ferritina antes de dar hierro. En la próxima clase cerramos las hemolíticas con las microangiopatías trombóticas. Nos vemos en la próxima clase."
+  }
+ ]
+}

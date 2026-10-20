@@ -1,0 +1,625 @@
+{
+ "id": "nefro-18",
+ "title": "Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
+ "total": 1188.624,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 22.13,
+   "say": "Bienvenidos al bloque de enfermedad renal crónica. Es de los temas más rentables del examen, y casi todas las preguntas caen en tres decisiones: cuándo indicar un IECA, qué hacer si la creatinina sube después de indicarlo, y cuándo el paciente entra al GES. En la clase anterior vimos un riñón que terminaba cicatrizado; hoy vemos qué pasa con todos los riñones que llegan a ese punto, y cómo evitar que lleguen."
+  },
+  {
+   "id": "b002",
+   "t": 28.98,
+   "dur": 17.11,
+   "say": "Partamos por quién llega a esto. La primera causa de enfermedad renal crónica terminal, en Chile y en el mundo, es la nefropatía diabética. La segunda es la hipertensión, con la nefroangioesclerosis. Por eso casi todos los casos del examen son un diabético o un hipertenso en control."
+  },
+  {
+   "id": "b003",
+   "t": 46.54,
+   "dur": 12.14,
+   "say": "La enfermedad renal crónica se define con dos criterios, y basta uno. El primero es de función: una filtración glomerular estimada bajo sesenta, calculada con la ecuación CKD-EPI a partir de la creatinina."
+  },
+  {
+   "id": "b004",
+   "t": 59.13,
+   "dur": 13.22,
+   "say": "El segundo es de estructura: algún marcador de daño renal, aunque la filtración sea normal. El más importante es la albuminuria, pero también cuentan el sedimento alterado, las imágenes y la biopsia. Los vemos enseguida."
+  },
+  {
+   "id": "b005",
+   "t": 72.81,
+   "dur": 12.94,
+   "say": "Y lo que convierte cualquiera de los dos en crónico es el tiempo: más de tres meses. Esa es la diferencia con la injuria renal aguda que vimos al inicio del libro. Una creatinina alta aislada no es enfermedad renal crónica."
+  },
+  {
+   "id": "b006",
+   "t": 86.19,
+   "dur": 8.11,
+   "say": "Cumplido eso, tienes una enfermedad renal crónica, y se etapifica con dos letras: la G, de filtración, y la A, de albuminuria."
+  },
+  {
+   "id": "b007",
+   "t": 95.36,
+   "dur": 8.98,
+   "say": "El marcador de daño que más se pregunta es la albuminuria persistente: una razón albúmina creatinina en una muestra aislada de orina de treinta miligramos por gramo o más."
+  },
+  {
+   "id": "b008",
+   "t": 104.78,
+   "dur": 11.04,
+   "say": "En muchas preguntas chilenas te dan el índice proteinuria creatininuria. Desde cero coma dos ya es anormal. Grábate ese número, porque las preguntas reales de esta clase lo usan."
+  },
+  {
+   "id": "b009",
+   "t": 116.27,
+   "dur": 8.47,
+   "say": "Otros marcadores: un sedimento patológico persistente, con hematuria dismórfica o cilindros, y las alteraciones electrolíticas de origen tubular."
+  },
+  {
+   "id": "b010",
+   "t": 125.19,
+   "dur": 9.86,
+   "say": "También las alteraciones en la biopsia o en la ecografía: riñones pequeños, de menos de nueve centímetros, pérdida de la relación córtico medular, o riñones poliquísticos."
+  },
+  {
+   "id": "b011",
+   "t": 135.51,
+   "dur": 5.28,
+   "say": "Y el antecedente de trasplante renal, que por definición ya es enfermedad renal crónica."
+  },
+  {
+   "id": "b012",
+   "t": 141.84,
+   "dur": 15.38,
+   "say": "La clasificación KDIGO es bidimensional. En el eje G, la G uno es una filtración de noventa o más, y la G dos, de sesenta a ochenta y nueve. Fíjate que en estas dos la filtración no alcanza a definir la enfermedad: solo son ERC si hay un marcador de daño."
+  },
+  {
+   "id": "b013",
+   "t": 157.67,
+   "dur": 7.06,
+   "say": "La etapa tres se divide en dos: la tres a, de cuarenta y cinco a cincuenta y nueve, y la tres b, de treinta a cuarenta y cuatro."
+  },
+  {
+   "id": "b014",
+   "t": 165.18,
+   "dur": 12.05,
+   "say": "La G cuatro, de quince a veintinueve, es la falla renal severa, y la G cinco, bajo quince, es la falla renal terminal. El corte de treinta, que separa la tres de la cuatro, es el que abre el GES."
+  },
+  {
+   "id": "b015",
+   "t": 177.68,
+   "dur": 5.33,
+   "say": "En el eje A, la A uno es una albuminuria bajo treinta, normal o levemente aumentada."
+  },
+  {
+   "id": "b016",
+   "t": 183.45,
+   "dur": 17.28,
+   "say": "La A dos, de treinta a trescientos, es la antigua microalbuminuria; y la A tres, sobre trescientos, la macroalbuminuria. Y el riesgo sube con los dos ejes: a peor filtración y a más albuminuria, más riesgo. Por eso un paciente se describe con las dos letras, por ejemplo G tres a A dos."
+  },
+  {
+   "id": "b017",
+   "t": 201.78,
+   "dur": 16.8,
+   "say": "Además de la filtración estimada, existe el clearance de creatinina medido en orina de veinticuatro horas. Se calcula multiplicando la creatinina urinaria por el volumen urinario por minuto, y dividiendo por la creatinina plasmática. El valor normal es de noventa a ciento veinte mililitros por minuto."
+  },
+  {
+   "id": "b018",
+   "t": 219.03,
+   "dur": 9.24,
+   "say": "Pero ojo: sobreestima la filtración real entre diez y veinte por ciento, porque la creatinina también se secreta en el túbulo, y más aún en la enfermedad renal avanzada."
+  },
+  {
+   "id": "b019",
+   "t": 228.72,
+   "dur": 11.93,
+   "say": "Una colección es confiable si la creatinina urinaria de veinticuatro horas es de veinte a veinticinco miligramos por kilo en hombres, y de quince a veinte en mujeres. Cifras menores sugieren que la recolección quedó incompleta."
+  },
+  {
+   "id": "b020",
+   "t": 241.1,
+   "dur": 12.29,
+   "say": "Si no hay orina, se puede estimar con la fórmula de Cockcroft y Gault: ciento cuarenta menos la edad, por el peso en kilos, dividido por setenta y dos veces la creatinina, y se multiplica por cero coma ochenta y cinco en mujeres."
+  },
+  {
+   "id": "b021",
+   "t": 253.84,
+   "dur": 4.06,
+   "say": "Esta fórmula es útil sobre todo para ajustar dosis de fármacos."
+  },
+  {
+   "id": "b022",
+   "t": 258.35,
+   "dur": 8.28,
+   "say": "Se prefiere medirlo cuando la filtración estimada es poco confiable: con masa muscular extrema, como en amputados, desnutridos u obesos mórbidos."
+  },
+  {
+   "id": "b023",
+   "t": 267.08,
+   "dur": 7.49,
+   "say": "También en el embarazo, con dieta vegetariana estricta o suplementos de creatina, en la cirrosis y en la evaluación de un donante renal."
+  },
+  {
+   "id": "b024",
+   "t": 275.61,
+   "dur": 13.13,
+   "say": "Vamos a la nefroprotección. El objetivo en las etapas precoces, de la G uno a la G tres, es retardar la llegada a diálisis. Y la indicación clave es la albuminuria A dos o A tres, tenga o no hipertensión el paciente."
+  },
+  {
+   "id": "b025",
+   "t": 289.19,
+   "dur": 13.01,
+   "say": "Ese paciente tiene que recibir un bloqueador del sistema renina angiotensina: un IECA, como enalapril, o un ARA dos, como losartán. Es la primera línea, y es la respuesta de la mayoría de las preguntas reales de este tema."
+  },
+  {
+   "id": "b026",
+   "t": 302.65,
+   "dur": 10.03,
+   "say": "¿Por qué funcionan? Porque dilatan selectivamente la arteriola eferente, la de salida del glomérulo. Al abrir la salida, baja la presión dentro del glomérulo."
+  },
+  {
+   "id": "b027",
+   "t": 313.13,
+   "dur": 9.38,
+   "say": "Y con menos presión intraglomerular, se filtra menos proteína y el glomérulo se daña más lento. Por eso protegen el riñón más allá de bajar la presión arterial."
+  },
+  {
+   "id": "b028",
+   "t": 322.97,
+   "dur": 16.49,
+   "say": "Pero ese mismo mecanismo tiene una consecuencia. Si baja la presión del glomérulo, baja un poco la filtración, y la creatinina sube. Un aumento de hasta un treinta por ciento sobre la basal es esperable, y no es motivo para suspender. También puede subir un poco el potasio."
+  },
+  {
+   "id": "b029",
+   "t": 339.9,
+   "dur": 12.31,
+   "say": "Solo si la creatinina sube más de un treinta por ciento, o el potasio pasa de cinco coma cinco, se ajusta o se pausa el fármaco. Suspender un IECA por un alza pequeña de creatinina es la respuesta incorrecta clásica."
+  },
+  {
+   "id": "b030",
+   "t": 353.27,
+   "dur": 13.7,
+   "say": "Al IECA se suman los inhibidores del cotransportador sodio glucosa tipo dos, como dapagliflozina y empagliflozina. Reducen entre un treinta y cinco y un cuarenta por ciento el riesgo de duplicar la creatinina, de muerte renal o de llegar a diálisis."
+  },
+  {
+   "id": "b031",
+   "t": 367.42,
+   "dur": 9.91,
+   "say": "Y lo hacen en diabéticos y también en no diabéticos con enfermedad renal y albuminuria. Actúan por natriuresis en la mácula densa, restaurando el control túbulo glomerular."
+  },
+  {
+   "id": "b032",
+   "t": 377.78,
+   "dur": 10.78,
+   "say": "La meta de presión es bajo ciento treinta con ochenta. Las guías KDIGO de dos mil veinticuatro proponen incluso una sistólica bajo ciento veinte, si se mide en forma automatizada y en reposo."
+  },
+  {
+   "id": "b033",
+   "t": 389.01,
+   "dur": 9.67,
+   "say": "Y todo esto va con control metabólico y cardiovascular estricto: control de la glicemia, estatinas con meta de colesterol LDL bajo setenta, y restricción de sodio."
+  },
+  {
+   "id": "b034",
+   "t": 399.73,
+   "dur": 8.69,
+   "say": "En la etapa tres hay que revisar los fármacos. El que más se pregunta es la metformina: se ajusta la dosis cuando la filtración baja de cuarenta y cinco."
+  },
+  {
+   "id": "b035",
+   "t": 408.87,
+   "dur": 10.7,
+   "say": "Y se suspende obligatoriamente cuando baja de treinta, por el riesgo de acidosis láctica. Si ves un paciente en etapa cuatro o cinco que sigue con metformina, la respuesta es suspenderla."
+  },
+  {
+   "id": "b036",
+   "t": 420.02,
+   "dur": 10.8,
+   "say": "Los antiinflamatorios no esteroidales, los AINE, se suspenden de por vida en el paciente con enfermedad renal crónica. En la última clase del libro vemos en detalle el ajuste de fármacos."
+  },
+  {
+   "id": "b037",
+   "t": 431.27,
+   "dur": 9.72,
+   "say": "Además, desde la etapa tres se buscan la anemia y el trastorno mineral óseo. Son las complicaciones de la enfermedad renal crónica, y son el tema de la próxima clase."
+  },
+  {
+   "id": "b038",
+   "t": 442.04,
+   "dur": 10.49,
+   "say": "Ahora el GES. El problema de salud GES número uno cubre la enfermedad renal crónica etapas cuatro y cinco. Es decir, se activa cuando la filtración baja de treinta."
+  },
+  {
+   "id": "b039",
+   "t": 452.98,
+   "dur": 7.58,
+   "say": "Lo primero que hace el médico, esté donde esté, es notificar el caso GES. Aplica a pacientes de Fonasa y de Isapre."
+  },
+  {
+   "id": "b040",
+   "t": 461.01,
+   "dur": 7.73,
+   "say": "Y derivar al nefrólogo del nivel secundario, que tiene un plazo máximo de treinta días para atenderlo. Ese plazo se pregunta."
+  },
+  {
+   "id": "b041",
+   "t": 469.19,
+   "dur": 11.78,
+   "say": "En la etapa cuatro además empieza la preparación para la diálisis: educación sobre las terapias de reemplazo, y la confección de una fístula arteriovenosa autóloga, al menos seis meses antes de la fecha estimada de diálisis."
+  },
+  {
+   "id": "b042",
+   "t": 481.43,
+   "dur": 10.51,
+   "say": "Y en la etapa cinco, el GES garantiza la terapia de reemplazo: hemodiálisis crónica o peritoneodiálisis, los medicamentos de soporte, y el ingreso a la lista de espera de trasplante renal."
+  },
+  {
+   "id": "b043",
+   "t": 492.99,
+   "dur": 5.02,
+   "say": "La fístula habitual es la radiocefálica de Brescia Cimino, en el brazo no dominante."
+  },
+  {
+   "id": "b044",
+   "t": 498.45,
+   "dur": 20.11,
+   "say": "¿Por qué seis meses antes? Porque la vena conectada a la arteria tiene que madurar: se dilata y engruesa su pared con el flujo arterial, hasta soportar punciones repetidas con agujas gruesas. Ese proceso tarda meses. Mira esta fístula ya madura: la vena del antebrazo, dilatada y engrosada, se palpa con frémito y se puede puncionar."
+  },
+  {
+   "id": "b045",
+   "t": 519.02,
+   "dur": 10.82,
+   "say": "Si la fístula no está lista, el paciente entra a diálisis con un catéter venoso central transitorio, que se asocia a bacteriemias y a estenosis venosa central. Eso es lo que se quiere evitar."
+  },
+  {
+   "id": "b046",
+   "t": 530.29,
+   "dur": 8.81,
+   "say": "En la etapa cinco, la hemodiálisis crónica es de tres sesiones a la semana, de cuatro horas cada una. La alternativa es la peritoneodiálisis."
+  },
+  {
+   "id": "b047",
+   "t": 539.55,
+   "dur": 16.82,
+   "say": "El GES también cubre la eritropoyetina, el hierro endovenoso, los análogos de vitamina D y los quelantes de fósforo, y la incorporación a la lista de trasplante. Todos esos fármacos los vamos a entender en la próxima clase. Antes de eso, el nefrólogo también vacuna contra la hepatitis B."
+  },
+  {
+   "id": "b048",
+   "t": 557.42,
+   "dur": 16.85,
+   "say": "Veamos qué puede salir mal en la diálisis. En la hemodiálisis, la complicación más frecuente durante la sesión es la hipotensión, por exceso de ultrafiltración. Se suspende la ultrafiltración, se coloca al paciente en Trendelenburg y se administran cien a doscientos cincuenta mililitros de suero fisiológico."
+  },
+  {
+   "id": "b049",
+   "t": 574.72,
+   "dur": 13.25,
+   "say": "Siguen los calambres, las náuseas, la cefalea y las arritmias. En las primeras sesiones puede aparecer el síndrome de desequilibrio dialítico: cefalea, vómitos y convulsiones, por edema cerebral al bajar la urea muy rápido."
+  },
+  {
+   "id": "b050",
+   "t": 588.42,
+   "dur": 16.75,
+   "say": "Del acceso vascular, la bacteriemia por catéter es la principal causa de infección, y el agente es el estafilococo dorado. La trombosis o estenosis de la fístula se reconoce porque se pierden el frémito y el soplo. También hay aneurisma, isquemia distal por robo y estenosis venosa central."
+  },
+  {
+   "id": "b051",
+   "t": 605.62,
+   "dur": 7.3,
+   "say": "A largo plazo dominan la enfermedad cardiovascular, la desnutrición, la anemia y las alteraciones del metabolismo mineral y óseo."
+  },
+  {
+   "id": "b052",
+   "t": 613.37,
+   "dur": 10.06,
+   "say": "Aparece la amiloidosis por beta dos microglobulina, con síndrome del túnel carpiano y artropatía. Y las hepatitis B y C, por eso se vacuna contra la hepatitis B."
+  },
+  {
+   "id": "b053",
+   "t": 623.87,
+   "dur": 14.11,
+   "say": "En la peritoneodiálisis, la complicación principal es la peritonitis: dolor abdominal y líquido de drenaje turbio. Se confirma con más de cien leucocitos por microlitro, con más de cincuenta por ciento de polimorfonucleares, y se toma Gram y cultivo."
+  },
+  {
+   "id": "b054",
+   "t": 638.43,
+   "dur": 11.42,
+   "say": "Se trata con antibióticos intraperitoneales empíricos, vancomicina o cefazolina más ceftazidima o gentamicina, ajustados al cultivo. Si no responde en cinco días, se retira el catéter."
+  },
+  {
+   "id": "b055",
+   "t": 650.31,
+   "dur": 10.27,
+   "say": "Otras complicaciones son las hernias y fugas, la hiperglicemia, la hipertrigliceridemia y el aumento de peso por la glucosa del dializado, y la falla de ultrafiltración por esclerosis peritoneal."
+  },
+  {
+   "id": "b056",
+   "t": 661.63,
+   "dur": 11.21,
+   "say": "El trasplante renal es el tratamiento de elección de la enfermedad renal crónica etapa cinco, con mejor sobrevida y calidad de vida que la diálisis. Se indica a todo paciente sin contraindicaciones."
+  },
+  {
+   "id": "b057",
+   "t": 673.29,
+   "dur": 5.5,
+   "say": "Idealmente se hace antes de iniciar diálisis, con filtración bajo veinte mililitros por minuto."
+  },
+  {
+   "id": "b058",
+   "t": 679.23,
+   "dur": 12.74,
+   "say": "El injerto viene de un donante vivo, que da mejor sobrevida del injerto, o de un donante fallecido, con lista de espera garantizada por el GES. Se estudia compatibilidad ABO, HLA, prueba cruzada y serología viral."
+  },
+  {
+   "id": "b059",
+   "t": 692.43,
+   "dur": 9.07,
+   "say": "No se trasplanta a un paciente con neoplasia activa o reciente, ni con infección activa no controlada, como tuberculosis activa, sepsis o VIH sin control."
+  },
+  {
+   "id": "b060",
+   "t": 701.95,
+   "dur": 10.03,
+   "say": "Tampoco con enfermedad cardiovascular o pulmonar grave, expectativa de vida corta, consumo activo de sustancias, o mala adherencia o enfermedad psiquiátrica grave no controlada."
+  },
+  {
+   "id": "b061",
+   "t": 713.03,
+   "dur": 7.08,
+   "say": "El rechazo puede ser de tres tipos. El hiperagudo ocurre en minutos a horas, por anticuerpos preformados."
+  },
+  {
+   "id": "b062",
+   "t": 720.56,
+   "dur": 8.71,
+   "say": "El agudo celular aparece en semanas a meses: sube la creatinina, se confirma con biopsia del injerto y se trata con bolos de metilprednisolona o timoglobulina."
+  },
+  {
+   "id": "b063",
+   "t": 729.72,
+   "dur": 4.2,
+   "say": "Y el crónico, de años, con fibrosis progresiva del injerto."
+  },
+  {
+   "id": "b064",
+   "t": 734.37,
+   "dur": 6.24,
+   "say": "La inmunosupresión de mantención es triple: tacrolimus, o ciclosporina, más micofenolato y prednisona."
+  },
+  {
+   "id": "b065",
+   "t": 741.06,
+   "dur": 12.98,
+   "say": "Sus efectos adversos: nefrotoxicidad por los inhibidores de calcineurina, diabetes postrasplante, hipertensión, dislipidemia, temblor, hiperkalemia y osteoporosis. El micofenolato da mielosupresión y diarrea."
+  },
+  {
+   "id": "b066",
+   "t": 754.5,
+   "dur": 10.75,
+   "say": "En la atención general, se evitan los antiinflamatorios, y se recuerda que los macrólidos, los azoles y el diltiazem elevan el tacrolimus. El control se hace en el centro de trasplante."
+  },
+  {
+   "id": "b067",
+   "t": 765.7,
+   "dur": 11.11,
+   "say": "Las infecciones oportunistas son el citomegalovirus, entre uno y seis meses después, la nefropatía por virus BK, el Pneumocystis, con profilaxis de cotrimoxazol, y las infecciones urinarias."
+  },
+  {
+   "id": "b068",
+   "t": 777.26,
+   "dur": 10.61,
+   "say": "Entre las neoplasias, el cáncer de piel y el linfoma postrasplante. Y las complicaciones quirúrgicas: estenosis ureteral, fístula urinaria, linfocele y trombosis vascular."
+  },
+  {
+   "id": "b069",
+   "t": 788.92,
+   "dur": 8.14,
+   "say": "La dieta también nefroprotege. En todas las etapas, sodio bajo dos gramos al día, que equivale a menos de cinco gramos de sal."
+  },
+  {
+   "id": "b070",
+   "t": 797.51,
+   "dur": 12.34,
+   "say": "En las etapas tres a cinco que todavía no se dializan, restricción moderada de proteínas, de cero coma seis a cero coma ocho gramos por kilo al día. Así baja la carga de toxinas nitrogenadas y la presión glomerular."
+  },
+  {
+   "id": "b071",
+   "t": 810.29,
+   "dur": 6.72,
+   "say": "Y en las etapas avanzadas se restringe el fósforo, que está en los lácteos, las bebidas cola y los alimentos procesados."
+  },
+  {
+   "id": "b072",
+   "t": 817.46,
+   "dur": 7.87,
+   "say": "Y el potasio, que está en los frutos secos, el plátano y los cítricos. El riñón que ya no filtra no alcanza a eliminarlos."
+  },
+  {
+   "id": "b073",
+   "t": 826.38,
+   "dur": 13.22,
+   "say": "La enfermedad renal crónica se etapifica con dos números: el filtrado, de G uno a G cinco, y la albuminuria, de A uno a A tres. El cruce da un color de riesgo, y ese color decide la frecuencia de control y la derivación."
+  },
+  {
+   "id": "b074",
+   "t": 840.66,
+   "dur": 17.76,
+   "say": "A medida que se pierden nefronas cae la filtración y el paciente baja de etapa. Las que sobreviven hiperfiltran, con más presión dentro del glomérulo y más albuminuria. El IECA o ARA dos dilata la arteriola eferente, baja esa presión y frena la proteinuria. Bajo treinta de filtración entra el GES."
+  },
+  {
+   "id": "b075",
+   "t": 865.86,
+   "dur": 3.89,
+   "say": "Juntemos todo en un árbol: dos preguntas deciden el manejo."
+  },
+  {
+   "id": "b076",
+   "t": 870.2,
+   "dur": 9.62,
+   "say": "Paciente con enfermedad renal crónica confirmada: filtración bajo sesenta o un marcador de daño, por más de tres meses. Dos preguntas deciden el manejo."
+  },
+  {
+   "id": "b077",
+   "t": 880.27,
+   "dur": 6.22,
+   "say": "La primera pregunta: ¿tiene albuminuria moderada o severa, una razón albúmina creatinina de treinta o más?"
+  },
+  {
+   "id": "b078",
+   "t": 886.94,
+   "dur": 9.98,
+   "say": "Si la tiene, bloqueo del sistema renina angiotensina con IECA o ARA dos, más un inhibidor del cotransportador sodio glucosa, con meta de presión bajo ciento treinta con ochenta."
+  },
+  {
+   "id": "b079",
+   "t": 897.37,
+   "dur": 3.58,
+   "say": "La segunda pregunta es la filtración: ¿bajó de treinta?"
+  },
+  {
+   "id": "b080",
+   "t": 901.4,
+   "dur": 8.02,
+   "say": "Si no, sigue en atención primaria, controlando filtración y albuminuria cada seis a doce meses, y ajustando fármacos como la metformina."
+  },
+  {
+   "id": "b081",
+   "t": 909.86,
+   "dur": 7.73,
+   "say": "Si bajó de treinta, se notifica GES y se deriva al nefrólogo en treinta días, con preparación de la fístula y vacuna contra la hepatitis B."
+  },
+  {
+   "id": "b082",
+   "t": 918.04,
+   "dur": 13.82,
+   "say": "Si la albuminuria es A uno, lo central es el control metabólico y cardiovascular: glicemia, estatinas, sodio bajo dos gramos y nada de antiinflamatorios. Y la misma segunda pregunta: si la filtración baja de treinta, entra el GES."
+  },
+  {
+   "id": "b083",
+   "t": 932.31,
+   "dur": 5.52,
+   "say": "Filtración bajo treinta: notificar GES y derivar al nefrólogo, igual que en la otra rama."
+  },
+  {
+   "id": "b084",
+   "t": 938.88,
+   "dur": 11.35,
+   "say": "Repasemos las trampas. Diabético con proteinuria, aunque su presión esté casi normal: IECA o ARA dos. El error es mantener el tratamiento porque la presión no parece tan alta."
+  },
+  {
+   "id": "b085",
+   "t": 950.69,
+   "dur": 8.76,
+   "say": "Creatinina que sube menos de un treinta por ciento después del IECA, con potasio normal: se mantiene y se controla. Suspenderlo es la trampa."
+  },
+  {
+   "id": "b086",
+   "t": 959.9,
+   "dur": 6.34,
+   "say": "Si sube más de un treinta por ciento, o el potasio pasa de cinco coma cinco, ahí sí se ajusta o se pausa."
+  },
+  {
+   "id": "b087",
+   "t": 966.68,
+   "dur": 11.52,
+   "say": "Filtración bajo treinta en atención primaria: notificar GES y derivar al nefrólogo, que atiende en treinta días. Ni esperar un año, ni dializar de inmediato a un paciente sin síntomas urémicos."
+  },
+  {
+   "id": "b088",
+   "t": 978.65,
+   "dur": 8.04,
+   "say": "Etapa cuatro que va hacia la diálisis: fístula al menos seis meses antes. Esperar hasta necesitar un catéter central es el error."
+  },
+  {
+   "id": "b089",
+   "t": 987.14,
+   "dur": 5.02,
+   "say": "Y metformina con filtración bajo treinta: se suspende, por la acidosis láctica."
+  },
+  {
+   "id": "b090",
+   "t": 992.61,
+   "dur": 13.39,
+   "say": "Paciente en peritoneodiálisis con dolor y líquido turbio: más de cien leucocitos con más de cincuenta por ciento de polimorfonucleares, y antibióticos intraperitoneales empíricos. El catéter se retira solo si no responde en cinco días."
+  },
+  {
+   "id": "b091",
+   "t": 1006.45,
+   "dur": 7.56,
+   "say": "Y la hipotensión durante la hemodiálisis: se suspende la ultrafiltración, se coloca al paciente en Trendelenburg y se da suero fisiológico."
+  },
+  {
+   "id": "b092",
+   "t": 1015.06,
+   "dur": 22.37,
+   "say": "Vamos al caso. Hombre de cincuenta y cuatro años, diabético hace catorce años e hipertenso, con metformina y amlodipino. Está asintomático. Presión de ciento cuarenta y dos con ochenta y ocho, y retinopatía diabética. La filtración estimada es de cincuenta y dos, el potasio es normal, y la razón albúmina creatinina es de ciento ochenta, confirmada en dos muestras."
+  },
+  {
+   "id": "b093",
+   "t": 1037.88,
+   "dur": 3.43,
+   "say": "¿Cuál es la conducta más adecuada para proteger su riñón?"
+  },
+  {
+   "id": "b094",
+   "t": 1041.76,
+   "dur": 14.26,
+   "say": "Las alternativas: suspender la metformina e iniciar insulina, agregar hidroclorotiazida, iniciar IECA o ARA dos más un inhibidor del cotransportador sodio glucosa, derivar por GES para fístula, o mantener y repetir en un año. Piénsalo."
+  },
+  {
+   "id": "b096",
+   "t": 1059.67,
+   "dur": 23.14,
+   "say": "Es la C. Primero etapifica: filtración de cincuenta y dos es G tres a, y albuminuria de ciento ochenta es A dos. Esa albuminuria es la indicación de IECA o ARA dos, más el inhibidor del cotransportador. La A es la trampa: con cincuenta y dos de filtración la metformina se mantiene; se ajusta bajo cuarenta y cinco y se suspende bajo treinta. Y la D llega antes de tiempo: el GES empieza bajo treinta."
+  },
+  {
+   "id": "b097",
+   "t": 1083.85,
+   "dur": 19.01,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil trece. Paciente de cuarenta y seis años, diabético, con metformina, asintomático. Presión de ciento treinta y ocho con ochenta y tres. Hemoglobina glicosilada de seis coma nueve, índice proteinuria creatininuria de cero coma tres, y creatinina normal."
+  },
+  {
+   "id": "b098",
+   "t": 1103.31,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b099",
+   "t": 1106.16,
+   "dur": 10.3,
+   "say": "Las opciones: aumentar la metformina, iniciar hidroclorotiazida, iniciar enalapril, cambiar a insulina, o mantener y reforzar dieta y ejercicio. Piénsalo."
+  },
+  {
+   "id": "b101",
+   "t": 1120.11,
+   "dur": 20.04,
+   "say": "Es la C, enalapril. El número que decide es el índice de cero coma tres: desde cero coma dos es proteinuria, un marcador de daño renal, y eso indica IECA aunque la presión esté casi en meta. La E es la trampa, porque la glicemia está bien controlada y todo parece en orden. Pero la pregunta no es por el azúcar, es por el riñón."
+  },
+  {
+   "id": "b102",
+   "t": 1141.2,
+   "dur": 11.26,
+   "say": "Cerremos con las reglas de oro. Enfermedad renal crónica es filtración bajo sesenta, o un marcador de daño, por más de tres meses. Y se describe con dos letras: G y A."
+  },
+  {
+   "id": "b103",
+   "t": 1152.9,
+   "dur": 9.53,
+   "say": "Toda albuminuria A dos o A tres, o un índice proteinuria creatininuria desde cero coma dos, lleva IECA o ARA dos, más un inhibidor del cotransportador sodio glucosa."
+  },
+  {
+   "id": "b104",
+   "t": 1162.88,
+   "dur": 4.8,
+   "say": "Y si la creatinina sube menos de un treinta por ciento, el IECA se mantiene."
+  },
+  {
+   "id": "b105",
+   "t": 1168.13,
+   "dur": 14.54,
+   "say": "Bajo treinta de filtración entra el GES: nefrólogo en treinta días y fístula seis meses antes de dializar. Si te llevas una sola idea de hoy: la albuminuria indica el IECA, y el treinta de filtración abre el GES. Nos vemos en la próxima clase."
+  }
+ ]
+}

@@ -1,0 +1,355 @@
+{
+ "id": "resp-01",
+ "title": "resp-01",
+ "total": 654.0479999999999,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 22.39,
+   "say": "Bienvenidos a la primera clase de neumología. Partimos por la espirometría, porque es la llave de todo el bloque: con ella se confirma el asma y la EPOC, que son las dos garantías GES que vienen en las próximas clases. Y la buena noticia es que el examen siempre pregunta lo mismo: si hay obstrucción, si revierte con el broncodilatador, y qué hacer cuando la espirometría sugiere restricción. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 29.24,
+   "dur": 11.06,
+   "say": "La espirometría mide tres cosas. La primera es el volumen espiratorio forzado en el primer segundo, el VEF uno: cuánto aire logra sacar el paciente en el primer segundo de un soplido máximo."
+  },
+  {
+   "id": "b003",
+   "t": 40.76,
+   "dur": 7.49,
+   "say": "La segunda es la capacidad vital forzada, la CVF: todo el aire que sale, desde la inspiración máxima hasta vaciar el pulmón."
+  },
+  {
+   "id": "b004",
+   "t": 48.69,
+   "dur": 8.59,
+   "say": "Y la tercera es la relación entre ambas, el índice de Tiffeneau. Esta relación es la que más importa, porque es la que define si hay obstrucción."
+  },
+  {
+   "id": "b005",
+   "t": 57.74,
+   "dur": 6.58,
+   "say": "Antes de interpretar, la prueba tiene que ser válida: al menos tres maniobras reproducibles, con esfuerzo máximo."
+  },
+  {
+   "id": "b006",
+   "t": 64.76,
+   "dur": 10.94,
+   "say": "Y una meseta espiratoria de seis segundos o más. Si el paciente corta el soplido antes, la CVF sale falsamente baja, y puedes terminar sospechando una restricción que no existe."
+  },
+  {
+   "id": "b007",
+   "t": 76.76,
+   "dur": 24.31,
+   "say": "Ahora el primer paso de la lectura. Hay patrón obstructivo cuando la relación VEF uno sobre CVF es menor de cero coma setenta, o está bajo el límite inferior de normalidad. La lógica es simple: en la obstrucción el aire sale lento, entonces en el primer segundo sale una fracción menor del total. Mira estas tres curvas flujo-volumen: la obstructiva se hunde y se vuelve cóncava, y la restrictiva es una normal en miniatura."
+  },
+  {
+   "id": "b008",
+   "t": 101.52,
+   "dur": 9.5,
+   "say": "Y ojo: sin relación baja no hay obstrucción, aunque el VEF uno esté bajo. Un VEF uno bajo con relación normal es otra historia, que vemos al final."
+  },
+  {
+   "id": "b009",
+   "t": 111.47,
+   "dur": 11.21,
+   "say": "Una vez que sabes que hay obstrucción, la severidad se gradúa solo con el VEF uno después del broncodilatador. Leve, ochenta por ciento o más; moderada, entre cincuenta y setenta y nueve."
+  },
+  {
+   "id": "b010",
+   "t": 123.13,
+   "dur": 11.78,
+   "say": "Grave, entre treinta y cuarenta y nueve; y muy grave, bajo treinta. Fíjate en la división de tareas, porque se pregunta: la relación dice si hay obstrucción, y el VEF uno dice cuán grave es."
+  },
+  {
+   "id": "b011",
+   "t": 135.96,
+   "dur": 7.82,
+   "say": "Segundo paso. Ya sabemos que hay obstrucción; ahora la pregunta es si revierte, porque eso es lo que separa el asma de la EPOC."
+  },
+  {
+   "id": "b012",
+   "t": 144.24,
+   "dur": 7.68,
+   "say": "Para eso se administran cuatrocientos microgramos de salbutamol en aerosol con aerocámara, y se repite la espirometría a los quince minutos."
+  },
+  {
+   "id": "b013",
+   "t": 152.37,
+   "dur": 8.54,
+   "say": "La respuesta es positiva cuando el VEF uno o la CVF suben doce por ciento o más, y además doscientos mililitros o más, respecto del valor basal."
+  },
+  {
+   "id": "b014",
+   "t": 161.36,
+   "dur": 9.07,
+   "say": "Si la prueba es positiva y la relación se normaliza, la obstrucción es reversible, y eso confirma asma bronquial. Es un bronquio que se contrae y se relaja."
+  },
+  {
+   "id": "b015",
+   "t": 170.88,
+   "dur": 16.58,
+   "say": "Si la obstrucción persiste después del broncodilatador en un fumador, es una obstrucción fija, y eso confirma EPOC. Un matiz del libro: hasta un tercio de los pacientes con EPOC tiene algo de reversibilidad parcial, así que lo que manda es que la relación siga bajo cero coma setenta después del broncodilatador."
+  },
+  {
+   "id": "b016",
+   "t": 187.92,
+   "dur": 16.56,
+   "say": "Y la trampa de cálculo. Se exigen las dos condiciones a la vez, el porcentaje y los mililitros. Por ejemplo, un VEF uno que pasa de uno coma sesenta a uno coma setenta y dos litros subió ciento veinte mililitros, apenas siete coma cinco por ciento: no es respuesta positiva."
+  },
+  {
+   "id": "b017",
+   "t": 205.53,
+   "dur": 10.03,
+   "say": "Tercer paso. ¿Qué pasa si la relación es normal, cero coma setenta o más? No hay obstrucción. Pero todavía falta mirar la CVF."
+  },
+  {
+   "id": "b018",
+   "t": 216.01,
+   "dur": 12.43,
+   "say": "Si la CVF está bajo el ochenta por ciento del predicho, el pulmón está sacando menos aire en total. La espirometría sugiere una posible alteración restrictiva, o lo que se llama un defecto ventilatorio no obstructivo."
+  },
+  {
+   "id": "b019",
+   "t": 228.89,
+   "dur": 15.19,
+   "say": "Y aquí está la regla de oro de esta clase: la espirometría nunca confirma restricción. Para confirmarla hay que medir los volúmenes pulmonares estáticos con una pletismografía corporal, y demostrar una capacidad pulmonar total, la CPT, bajo el ochenta por ciento."
+  },
+  {
+   "id": "b020",
+   "t": 244.53,
+   "dur": 11.4,
+   "say": "Lo mismo vale para el patrón mixto: relación baja y CVF baja a la vez. La espirometría no alcanza a separar cuánto es obstrucción y cuánto restricción, y también se resuelve con pletismografía."
+  },
+  {
+   "id": "b021",
+   "t": 256.38,
+   "dur": 10.06,
+   "say": "La trampa es saltarse ese paso: ver una CVF baja y diagnosticar una fibrosis pulmonar, o empezar un tratamiento. Primero se confirma la restricción con la CPT."
+  },
+  {
+   "id": "b022",
+   "t": 267.49,
+   "dur": 12.7,
+   "say": "Hay un paciente que se te va a aparecer: tiene tos, disnea o sibilancias que van y vienen, pero la espirometría salió normal y no revierte con broncodilatador. Entre crisis, el asmático puede tener la curva perfecta."
+  },
+  {
+   "id": "b023",
+   "t": 280.64,
+   "dur": 11.04,
+   "say": "Para eso existe la prueba de provocación bronquial. Se hace inhalar metacolina en concentraciones crecientes, con una espirometría después de cada dosis, y se mide cuánto cuesta que el bronquio se cierre."
+  },
+  {
+   "id": "b024",
+   "t": 292.13,
+   "dur": 4.63,
+   "say": "Es positiva si el VEF uno cae veinte por ciento o más respecto del basal."
+  },
+  {
+   "id": "b025",
+   "t": 297.21,
+   "dur": 8.95,
+   "say": "Y aquí está su valor: una prueba negativa, en un paciente que no usa tratamiento, prácticamente descarta asma. Es una prueba de exclusión."
+  },
+  {
+   "id": "b026",
+   "t": 306.61,
+   "dur": 9.79,
+   "say": "Ojo con el sentido contrario: una prueba positiva no confirma el asma por sí sola, porque también puede dar positiva en rinitis alérgica, en EPOC o después de una infección viral."
+  },
+  {
+   "id": "b027",
+   "t": 316.85,
+   "dur": 12.07,
+   "say": "La realiza el especialista, en un laboratorio de función pulmonar, con VEF uno basal sobre setenta por ciento y sin una crisis reciente. Tú no la haces: la interpretas y la usas en el algoritmo diagnóstico."
+  },
+  {
+   "id": "b028",
+   "t": 329.97,
+   "dur": 10.51,
+   "say": "Mira cómo se dibuja la curva normal: el flujo sube muy rápido a un pico, y después baja en línea recta hasta vaciar el pulmón. Abajo, la inspiración forma un semicírculo."
+  },
+  {
+   "id": "b029",
+   "t": 340.94,
+   "dur": 9.26,
+   "say": "En la obstrucción el pico es más bajo y la rama de bajada se hunde hacia adentro, como una cuchara. Esa concavidad es la vía aérea que se cierra antes de tiempo."
+  },
+  {
+   "id": "b030",
+   "t": 350.65,
+   "dur": 8.33,
+   "say": "En la restricción la forma se conserva, pero toda la curva es más pequeña: el pulmón no se llena. La capacidad vital forzada está baja."
+  },
+  {
+   "id": "b031",
+   "t": 360.03,
+   "dur": 6.07,
+   "say": "Ahora juntemos los tres pasos en un solo árbol, en el orden en que vas a leer cualquier espirometría del examen."
+  },
+  {
+   "id": "b032",
+   "t": 366.55,
+   "dur": 6.36,
+   "say": "Tienes una espirometría válida, con prueba broncodilatadora. Siempre la lees en el mismo orden."
+  },
+  {
+   "id": "b033",
+   "t": 373.36,
+   "dur": 5.9,
+   "say": "Primero la relación: ¿está bajo cero coma setenta? Esa pregunta abre dos caminos."
+  },
+  {
+   "id": "b034",
+   "t": 379.71,
+   "dur": 7.85,
+   "say": "Hay obstrucción. Ahora, ¿el VEF uno o la CVF suben doce por ciento y doscientos mililitros con el broncodilatador?"
+  },
+  {
+   "id": "b035",
+   "t": 388.01,
+   "dur": 3.84,
+   "say": "Si revierte y la relación se normaliza, es asma bronquial."
+  },
+  {
+   "id": "b036",
+   "t": 392.3,
+   "dur": 8.21,
+   "say": "Si la relación sigue baja después del broncodilatador en un fumador, es EPOC. La severidad la da el VEF uno post broncodilatador."
+  },
+  {
+   "id": "b037",
+   "t": 400.96,
+   "dur": 5.66,
+   "say": "Si además la CVF está baja, puede ser un patrón mixto, y se aclara con pletismografía."
+  },
+  {
+   "id": "b038",
+   "t": 407.07,
+   "dur": 5.16,
+   "say": "Sin obstrucción, mira la CVF. ¿Está bajo el ochenta por ciento?"
+  },
+  {
+   "id": "b039",
+   "t": 412.68,
+   "dur": 3.72,
+   "say": "Si la CVF es normal, la espirometría es normal."
+  },
+  {
+   "id": "b040",
+   "t": 416.85,
+   "dur": 8.11,
+   "say": "Si la CVF está baja, solo sugiere restricción. Se confirma con pletismografía, con una CPT bajo ochenta por ciento."
+  },
+  {
+   "id": "b041",
+   "t": 426.02,
+   "dur": 10.15,
+   "say": "Repasemos los patrones. Normal: relación de cero coma setenta o más y CVF de ochenta por ciento o más. Con eso la espirometría es concluyente."
+  },
+  {
+   "id": "b042",
+   "t": 436.62,
+   "dur": 8.16,
+   "say": "Obstructivo reversible: relación baja que mejora con el broncodilatador, doce por ciento y doscientos mililitros. Eso es asma."
+  },
+  {
+   "id": "b043",
+   "t": 445.23,
+   "dur": 7.75,
+   "say": "Obstructivo fijo: la relación sigue bajo cero coma setenta después del broncodilatador. En un fumador, eso es EPOC."
+  },
+  {
+   "id": "b044",
+   "t": 453.43,
+   "dur": 10.32,
+   "say": "Sugerente de restricción: relación normal con CVF baja. La trampa es darla por confirmada; la confirma la pletismografía, con CPT bajo ochenta por ciento."
+  },
+  {
+   "id": "b045",
+   "t": 464.2,
+   "dur": 6.38,
+   "say": "Y el mixto: relación baja y CVF baja a la vez. También necesita pletismografía."
+  },
+  {
+   "id": "b046",
+   "t": 471.63,
+   "dur": 23.83,
+   "say": "Vamos con un caso. Hombre de cincuenta y cuatro años, fumador de veinticinco paquetes año, con disnea de esfuerzo progresiva. La relación basal es cero coma cincuenta y ocho, el VEF uno está en cincuenta y dos por ciento del predicho y la CVF en setenta y ocho. Después del salbutamol, el VEF uno sube ciento veinte mililitros, un siete coma cinco por ciento, y la relación queda en cero coma sesenta."
+  },
+  {
+   "id": "b047",
+   "t": 495.92,
+   "dur": 2.59,
+   "say": "¿Cuál es la interpretación más adecuada?"
+  },
+  {
+   "id": "b048",
+   "t": 498.96,
+   "dur": 10.87,
+   "say": "Las opciones: asma con prueba broncodilatadora positiva, EPOC moderada, restricción confirmada por la CVF baja, EPOC muy grave, o espirometría normal. Piénsalo."
+  },
+  {
+   "id": "b050",
+   "t": 513.48,
+   "dur": 27.34,
+   "say": "Es la B. Aplica los tres pasos. La relación es baja: hay obstrucción. Sube ciento veinte mililitros y siete coma cinco por ciento, no cumple ninguna de las dos condiciones: es fija, y en un fumador es EPOC. Y la severidad la da el VEF uno post broncodilatador, cincuenta y dos por ciento: moderada. La A es el distractor tentador porque algo mejoró, pero no alcanzó el umbral. Y la C cae porque la CVF baja nunca confirma restricción."
+  },
+  {
+   "id": "b051",
+   "t": 541.87,
+   "dur": 23.42,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil diecisiete. Mujer de cuarenta y cinco años, fumadora activa de cuarenta paquetes año, con tos, disnea y crisis de sibilancias con el ejercicio y las infecciones. La relación basal es sesenta y dos por ciento y el VEF uno dos coma cuatro litros. Después del salbutamol, la relación sube a setenta y cuatro y el VEF uno a tres coma seis litros."
+  },
+  {
+   "id": "b052",
+   "t": 565.74,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b053",
+   "t": 568.76,
+   "dur": 7.2,
+   "say": "Las opciones: asma, EPOC, fibrosis pulmonar, bronquiectasias o bronquitis crónica. Piénsalo."
+  },
+  {
+   "id": "b055",
+   "t": 579.61,
+   "dur": 21.41,
+   "say": "Es la A, asma. Hay obstrucción, y el VEF uno sube un litro doscientos, un cincuenta por ciento, y la relación se normaliza: es reversible. El distractor es la EPOC, porque la paciente fuma cuarenta paquetes año. Pero el tabaco no decide el diagnóstico; lo decide la espirometría. Una obstrucción que se normaliza con el broncodilatador es asma."
+  },
+  {
+   "id": "b056",
+   "t": 602.07,
+   "dur": 8.93,
+   "say": "Cerremos con las reglas de oro. La relación bajo cero coma setenta define la obstrucción, y el VEF uno post broncodilatador gradúa la severidad."
+  },
+  {
+   "id": "b057",
+   "t": 611.44,
+   "dur": 6.29,
+   "say": "La prueba broncodilatadora es positiva con doce por ciento y doscientos mililitros, las dos condiciones a la vez."
+  },
+  {
+   "id": "b058",
+   "t": 618.18,
+   "dur": 9.74,
+   "say": "Reversible es asma, y fija, en un fumador, es EPOC. Justamente las dos clases que vienen: la crisis asmática y el asma crónica, y después la EPOC."
+  },
+  {
+   "id": "b059",
+   "t": 628.38,
+   "dur": 3.94,
+   "say": "Relación normal con CVF baja solo sugiere restricción."
+  },
+  {
+   "id": "b060",
+   "t": 632.76,
+   "dur": 15.34,
+   "say": "Y la confirma la pletismografía, con CPT bajo ochenta por ciento. Si te llevas una sola idea de hoy: la relación define la obstrucción, el broncodilatador separa asma de EPOC, y la espirometría nunca confirma restricción. Nos vemos en la próxima clase."
+  }
+ ]
+}

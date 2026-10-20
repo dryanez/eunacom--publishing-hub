@@ -1,0 +1,409 @@
+{
+ "id": "diab-07",
+ "title": "Hipoglucemiantes Orales Clásicos",
+ "total": 748.1919999999999,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 22.01,
+   "say": "Bienvenidos. En la clase anterior armamos la escalera del tratamiento, y sus dos primeros peldaños eran la metformina y la glibenclamida. Hoy los miramos de cerca, porque el examen no pregunta tanto cuándo usarlos, sino cuándo no: la metformina tiene un límite renal estricto, y la glibenclamida produce una de las hipoglicemias más peligrosas de la medicina. Partamos por la metformina."
+  },
+  {
+   "id": "b002",
+   "t": 28.86,
+   "dur": 7.25,
+   "say": "¿Recuerdas la AMPK de la clase de ejercicio? La metformina activa esa misma enzima, pero sobre todo en el hígado."
+  },
+  {
+   "id": "b003",
+   "t": 36.56,
+   "dur": 8.98,
+   "say": "Al activarla, frena la gluconeogénesis y la glucogenólisis. Es decir, el hígado deja de fabricar glucosa y de liberar la que tenía guardada."
+  },
+  {
+   "id": "b004",
+   "t": 45.98,
+   "dur": 11.88,
+   "say": "El resultado es una caída importante de la producción hepática de glucosa. Ese es su efecto principal, y explica por qué la metformina es tan buena para bajar la glicemia de ayuno, que depende del hígado durante la noche."
+  },
+  {
+   "id": "b005",
+   "t": 58.31,
+   "dur": 4.39,
+   "say": "En menor medida, también aumenta la captación de glucosa en el músculo."
+  },
+  {
+   "id": "b006",
+   "t": 63.15,
+   "dur": 12.67,
+   "say": "Y fíjate en lo que no hace: no estimula al páncreas a liberar insulina. Por eso, usada sola, no produce hipoglicemia. Guarda este contraste, porque la glibenclamida hace exactamente lo contrario."
+  },
+  {
+   "id": "b007",
+   "t": 76.88,
+   "dur": 8.98,
+   "say": "Ahora, la regla que más se pregunta. La metformina se elimina por el riñón, así que lo que decide la dosis es la velocidad de filtración glomerular."
+  },
+  {
+   "id": "b008",
+   "t": 86.3,
+   "dur": 6.7,
+   "say": "Con una filtración de cuarenta y cinco o más, se usa a dosis plena, hasta dos mil quinientos cincuenta miligramos al día."
+  },
+  {
+   "id": "b009",
+   "t": 93.45,
+   "dur": 9.53,
+   "say": "Entre treinta y cuarenta y cuatro, se reduce a un máximo de mil miligramos al día, es decir, quinientos cada doce horas, y se controla la función renal cada tres meses."
+  },
+  {
+   "id": "b010",
+   "t": 103.43,
+   "dur": 7.3,
+   "say": "Y bajo treinta, es una contraindicación absoluta. Se suspende de inmediato, sin bajar la dosis ni esperar."
+  },
+  {
+   "id": "b011",
+   "t": 111.17,
+   "dur": 13.58,
+   "say": "¿Por qué tan estricto? Porque si el riñón no la elimina, se acumula y produce acidosis láctica, un cuadro con una mortalidad de treinta a cincuenta por ciento. Es rara, pero es letal, y por eso el corte de treinta no se discute."
+  },
+  {
+   "id": "b012",
+   "t": 125.21,
+   "dur": 11.76,
+   "say": "Hay además dos situaciones en que se suspende transitoriamente, cuarenta y ocho horas antes: un estudio con medio de contraste yodado endovenoso, y una cirugía mayor. Las dos pueden dañar el riñón de golpe."
+  },
+  {
+   "id": "b013",
+   "t": 138.02,
+   "dur": 8.66,
+   "say": "Resumamos el perfil de la metformina. En el peso es neutra, o incluso baja uno a dos kilos, lo que la hace ideal en un paciente con obesidad."
+  },
+  {
+   "id": "b014",
+   "t": 147.13,
+   "dur": 9.07,
+   "say": "Y en el adulto mayor sigue siendo de elección, siempre que su función renal lo permita. Lo que limita la metformina en el anciano no es la edad, es el riñón."
+  },
+  {
+   "id": "b015",
+   "t": 156.65,
+   "dur": 9.62,
+   "say": "Su efecto adverso cardinal es digestivo: diarrea, náuseas y meteorismo. Como vimos en la clase anterior, se evita titulando lento y tomándola con las comidas."
+  },
+  {
+   "id": "b016",
+   "t": 166.73,
+   "dur": 9.14,
+   "say": "Y a largo plazo, el déficit de vitamina B doce. Si un diabético con años de metformina aparece con anemia o neuropatía, acuérdate de este dato."
+  },
+  {
+   "id": "b017",
+   "t": 176.92,
+   "dur": 9.12,
+   "say": "Vamos con la glibenclamida, la sulfonilurea de la canasta GES. Es un secretagogo de insulina: su trabajo es obligar al páncreas a liberar insulina."
+  },
+  {
+   "id": "b018",
+   "t": 186.49,
+   "dur": 8.66,
+   "say": "Se une al receptor SUR uno de la célula beta y cierra los canales de potasio dependientes de ATP. Al cerrarse, la membrana se despolariza."
+  },
+  {
+   "id": "b019",
+   "t": 195.6,
+   "dur": 11.18,
+   "say": "Y la célula libera en forma masiva la insulina que tenía guardada. El punto clave es que lo hace en forma independiente de la concentración de glucosa. La glibenclamida no mira la glicemia."
+  },
+  {
+   "id": "b020",
+   "t": 207.24,
+   "dur": 13.22,
+   "say": "Entonces, aunque la glicemia ya esté baja, el paciente sigue liberando insulina. Eso es la hipoglicemia, y es el efecto adverso más temido de este fármaco. Compáralo con la metformina, que no toca el páncreas."
+  },
+  {
+   "id": "b021",
+   "t": 220.91,
+   "dur": 15.22,
+   "say": "Y hay un segundo problema. La glibenclamida tiene metabolitos activos que se eliminan por el riñón. En un adulto mayor o en un paciente con falla renal, se acumulan, y la hipoglicemia puede durar veinticuatro a cuarenta y ocho horas continuas, aunque le pongas glucosa."
+  },
+  {
+   "id": "b022",
+   "t": 237.18,
+   "dur": 7.61,
+   "say": "Los efectos adversos de la glibenclamida son tres. El primero, ya lo vimos: hipoglicemias severas y prolongadas."
+  },
+  {
+   "id": "b023",
+   "t": 245.24,
+   "dur": 8.23,
+   "say": "El segundo, el aumento de peso, de dos a cuatro kilos en promedio, por la insulina alta que produce. Es lo opuesto a la metformina."
+  },
+  {
+   "id": "b024",
+   "t": 253.92,
+   "dur": 5.86,
+   "say": "Y el tercero, que con los años agota la reserva de la célula beta, de tanto obligarla a trabajar."
+  },
+  {
+   "id": "b025",
+   "t": 260.22,
+   "dur": 10.92,
+   "say": "¿A quién no se le da? Al adulto mayor: los criterios de Beers la marcan como un fármaco a evitar. Es el paciente que más acumula metabolitos y el que peor tolera una hipoglicemia."
+  },
+  {
+   "id": "b026",
+   "t": 271.59,
+   "dur": 14.71,
+   "say": "Y al paciente con falla renal: con una filtración entre treinta y cuarenta y cuatro se usa con precaución o se evita, y bajo treinta está contraindicada, por hipoglicemia refractaria. Fíjate que bajo treinta se caen los dos fármacos de esta clase, cada uno por su motivo."
+  },
+  {
+   "id": "b027",
+   "t": 287.36,
+   "dur": 10.7,
+   "say": "Y esto nos lleva a la regla de oro de urgencia de esta clase. Llega un paciente usuario de glibenclamida con una hipoglicemia severa: glicemia bajo cincuenta, o compromiso de conciencia."
+  },
+  {
+   "id": "b028",
+   "t": 298.51,
+   "dur": 8.23,
+   "say": "Se le pone un bolo de glucosa endovenosa, y el paciente despierta en minutos, con una glicemia normal. Se siente bien y pide irse."
+  },
+  {
+   "id": "b029",
+   "t": 307.19,
+   "dur": 13.8,
+   "say": "Darle el alta es un error fatal. Piensa en el mecanismo: el fármaco y sus metabolitos siguen circulando, y siguen obligando al páncreas a liberar insulina. Apenas se termine el azúcar del bolo, vuelve a caer en coma hipoglicémico."
+  },
+  {
+   "id": "b030",
+   "t": 321.44,
+   "dur": 7.92,
+   "say": "Por eso el paciente se hospitaliza en observación, con una infusión continua de suero glucosado al diez por ciento, durante al menos veinticuatro horas."
+  },
+  {
+   "id": "b031",
+   "t": 329.81,
+   "dur": 8.62,
+   "say": "Y la glibenclamida se suspende en forma definitiva. Esa es la respuesta completa: hospitalizar, glucosa continua y suspender el fármaco."
+  },
+  {
+   "id": "b032",
+   "t": 339.48,
+   "dur": 19.54,
+   "say": "Volvamos a la acidosis láctica, ahora como urgencia. Es muy infrecuente, de tres a diez casos por cien mil pacientes al año, pero casi siempre hay un factor que reduce la depuración de la metformina o sube el lactato: insuficiencia renal aguda, sepsis, shock, hipoxemia, insuficiencia hepática, alcoholismo agudo o un medio de contraste yodado."
+  },
+  {
+   "id": "b033",
+   "t": 359.46,
+   "dur": 13.97,
+   "say": "La clínica es inespecífica: náuseas, vómitos, dolor abdominal, respiración de Kussmaul, hipotensión y compromiso de conciencia. Por eso lo que te lleva al diagnóstico es el contexto: un usuario de metformina con falla renal o sepsis."
+  },
+  {
+   "id": "b034",
+   "t": 373.88,
+   "dur": 15.43,
+   "say": "El diagnóstico es de laboratorio: acidosis metabólica con anión gap elevado, pH bajo siete treinta y cinco y lactato sobre cinco milimoles por litro. Fíjate en lo que la distingue de la cetoacidosis diabética: la glicemia está normal o poco elevada y la cetonemia es negativa."
+  },
+  {
+   "id": "b035",
+   "t": 389.76,
+   "dur": 8.59,
+   "say": "El manejo inicial es suspender la metformina, hospitalizar de inmediato en una unidad crítica y tratar la causa, con cristaloides, oxígeno y monitoreo."
+  },
+  {
+   "id": "b036",
+   "t": 398.81,
+   "dur": 22.13,
+   "say": "El bicarbonato se reserva para pH bajo siete coma uno con inestabilidad. La hemodiálisis, que elimina metformina y lactato, se indica con pH bajo siete, lactato muy alto, falla renal severa o mala respuesta. La mortalidad llega a treinta a cincuenta por ciento, y la prevención es respetar el ajuste por filtración y suspender el fármaco ante contraste, sepsis o deshidratación."
+  },
+  {
+   "id": "b037",
+   "t": 421.98,
+   "dur": 20.11,
+   "say": "La metformina actúa en el hígado: frena la gluconeogénesis y cae la glucosa que sale del hígado. No toca el páncreas, así que sola no da hipoglicemia. La glibenclamida, en cambio, obliga a la célula beta a liberar insulina aunque la glicemia ya esté normal, y por eso puede llevar a la hipoglicemia, sobre todo en el adulto mayor y en el enfermo renal."
+  },
+  {
+   "id": "b038",
+   "t": 445.18,
+   "dur": 7.15,
+   "say": "Juntemos las dos decisiones de la clase en un solo árbol: qué fármaco puede usar este paciente, y qué hacer si hace una hipoglicemia."
+  },
+  {
+   "id": "b039",
+   "t": 452.79,
+   "dur": 9.43,
+   "say": "Paciente diabético tipo dos que usa metformina, glibenclamida o ambas. Dos preguntas ordenan la conducta: si hay una urgencia, y cómo está el riñón."
+  },
+  {
+   "id": "b040",
+   "t": 462.67,
+   "dur": 3.84,
+   "say": "Primero, la urgencia: ¿llega con una hipoglicemia severa?"
+  },
+  {
+   "id": "b041",
+   "t": 466.96,
+   "dur": 11.4,
+   "say": "Si usa glibenclamida, bolo de glucosa y luego hospitalizar con suero glucosado al diez por ciento continuo por al menos veinticuatro horas, y suspender la glibenclamida. Nunca de alta tras el bolo."
+  },
+  {
+   "id": "b042",
+   "t": 478.81,
+   "dur": 3.65,
+   "say": "Si no hay urgencia, la siguiente pregunta es el riñón."
+  },
+  {
+   "id": "b043",
+   "t": 482.91,
+   "dur": 3.65,
+   "say": "Con cuarenta y cinco o más, metformina a dosis plena."
+  },
+  {
+   "id": "b044",
+   "t": 487,
+   "dur": 8.52,
+   "say": "Pero aunque el riñón esté bien, en el adulto mayor la glibenclamida se evita, y si está sobretratado, se suspende. La metformina se queda."
+  },
+  {
+   "id": "b045",
+   "t": 495.97,
+   "dur": 7.94,
+   "say": "Entre treinta y cuarenta y cuatro, metformina hasta mil miligramos, control renal cada tres meses, y la glibenclamida con precaución o evitarla."
+  },
+  {
+   "id": "b046",
+   "t": 504.37,
+   "dur": 7.06,
+   "say": "Bajo treinta, se suspenden las dos: la metformina por acidosis láctica y la glibenclamida por hipoglicemia refractaria."
+  },
+  {
+   "id": "b047",
+   "t": 512.47,
+   "dur": 9.24,
+   "say": "Comparemos los dos en una tabla, que es como el examen los enfrenta. En el mecanismo, la metformina frena al hígado; la glibenclamida obliga al páncreas."
+  },
+  {
+   "id": "b048",
+   "t": 522.16,
+   "dur": 5.93,
+   "say": "Por eso la metformina no da hipoglicemia en monoterapia, y la glibenclamida sí, prolongada y grave."
+  },
+  {
+   "id": "b049",
+   "t": 528.54,
+   "dur": 4.82,
+   "say": "En el peso, la metformina es neutra o lo baja; la glibenclamida lo sube."
+  },
+  {
+   "id": "b050",
+   "t": 533.82,
+   "dur": 7.37,
+   "say": "Con filtración de treinta a cuarenta y cuatro, la metformina baja a mil miligramos, y la glibenclamida se usa con precaución o se evita."
+  },
+  {
+   "id": "b051",
+   "t": 541.63,
+   "dur": 7.54,
+   "say": "Bajo treinta, las dos están contraindicadas: la metformina por acidosis láctica, la glibenclamida por hipoglicemia refractaria."
+  },
+  {
+   "id": "b052",
+   "t": 549.62,
+   "dur": 5.93,
+   "say": "En el adulto mayor, la metformina es de elección si el riñón lo permite, y la glibenclamida se evita."
+  },
+  {
+   "id": "b053",
+   "t": 556,
+   "dur": 6.26,
+   "say": "Y el efecto adverso cardinal: digestivo para la metformina, hipoglicemia grave para la glibenclamida."
+  },
+  {
+   "id": "b054",
+   "t": 562.71,
+   "dur": 14.78,
+   "say": "Y la urgencia: usuario de metformina con falla renal aguda o sepsis, vómitos y respiración de Kussmaul. Si el lactato está alto y las cetonas negativas, es acidosis láctica: se suspende y se deriva. La trampa es tratarla como cetoacidosis."
+  },
+  {
+   "id": "b055",
+   "t": 578.55,
+   "dur": 17.9,
+   "say": "Vamos con un caso. Mujer de setenta y seis años, diabética hace quince años, con glibenclamida y metformina. Llega en ambulancia con compromiso de conciencia y sudoración, y una glicemia de treinta y seis. Con dos ampollas de glucosa endovenosa despierta, y la glicemia sube a ciento diez."
+  },
+  {
+   "id": "b056",
+   "t": 596.9,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b057",
+   "t": 599.75,
+   "dur": 12.53,
+   "say": "Las opciones: alta con colación, alta bajando la glibenclamida a la mitad, hospitalizar con suero glucosado y suspender la glibenclamida, glucagón y alta, o suspender la metformina y dar el alta. Piénsalo."
+  },
+  {
+   "id": "b059",
+   "t": 615.93,
+   "dur": 22.54,
+   "say": "Es la C. Es una hipoglicemia por glibenclamida en una adulta mayor, que acumula los metabolitos. Cuando se acabe el bolo, vuelve a caer. Se hospitaliza con glucosa continua por veinticuatro horas y se suspende la glibenclamida. La B es la trampa más tentadora: suena prudente, pero se va de alta con el fármaco circulando. Y la E culpa a la metformina, que no produce hipoglicemia."
+  },
+  {
+   "id": "b060",
+   "t": 639.51,
+   "dur": 18.29,
+   "say": "Ahora las preguntas reales. La primera, del EUNACOM de agosto de dos mil veintiuno, es el caso que te anuncié en la clase anterior. Paciente de ochenta y cinco años, con deterioro funcional y cognitivo inicial, con metformina y glibenclamida. Creatinina normal y hemoglobina glicosilada de seis coma nueve."
+  },
+  {
+   "id": "b061",
+   "t": 658.25,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b062",
+   "t": 661.1,
+   "dur": 9.89,
+   "say": "Las opciones: suspender la glibenclamida, bajarla a una vez al día, suspender la metformina, bajar la metformina, o mantener sin cambios. Piénsalo."
+  },
+  {
+   "id": "b064",
+   "t": 674.64,
+   "dur": 21.24,
+   "say": "Es la A. Con cincuenta y nueve años la respuesta era mantener. Pero este es un adulto mayor frágil, que además está bien controlado: la glibenclamida sobra, y es justamente el fármaco que se evita en el anciano por la hipoglicemia prolongada. La B es la trampa: bajar la dosis no elimina el riesgo. Y la metformina se queda, porque su riñón está bien."
+  },
+  {
+   "id": "b065",
+   "t": 696.93,
+   "dur": 8.4,
+   "say": "Cerremos con las reglas de oro. La metformina frena la producción hepática de glucosa por la AMPK, y sola no produce hipoglicemia."
+  },
+  {
+   "id": "b066",
+   "t": 705.78,
+   "dur": 7.44,
+   "say": "Con filtración de treinta a cuarenta y cuatro, máximo mil miligramos; bajo treinta, se suspende por el riesgo de acidosis láctica."
+  },
+  {
+   "id": "b067",
+   "t": 713.67,
+   "dur": 6.6,
+   "say": "La glibenclamida libera insulina sin mirar la glicemia, y sus metabolitos prolongan la hipoglicemia hasta dos días."
+  },
+  {
+   "id": "b068",
+   "t": 720.72,
+   "dur": 5.3,
+   "say": "Se evita en el adulto mayor y en la falla renal, y en el anciano bien controlado se suspende."
+  },
+  {
+   "id": "b069",
+   "t": 726.47,
+   "dur": 15.77,
+   "say": "Y la hipoglicemia por glibenclamida nunca se va de alta tras el bolo: se hospitaliza con glucosa continua por veinticuatro horas. Si te llevas una sola idea de hoy: la metformina la limita el riñón, y la glibenclamida, la hipoglicemia. Nos vemos en la próxima clase."
+  }
+ ]
+}

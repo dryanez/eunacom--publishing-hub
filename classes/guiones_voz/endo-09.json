@@ -1,0 +1,475 @@
+{
+ "id": "endo-09",
+ "title": "Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+ "total": 922.9420000000005,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 23.3,
+   "say": "Bienvenidos. Hoy vemos el nódulo tiroideo, un tema de frecuencia muy alta en el EUNACOM. Venimos de las urgencias tirotóxicas, y el hilo sigue: vas a ver que la misma TSH que usamos para el hipertiroidismo es el primer paso ante cualquier nódulo. Al final vas a saber qué examen pedir primero, qué nódulo se punciona, cuál solo se vigila, y qué conducta corresponde a cada resultado de la citología."
+  },
+  {
+   "id": "b002",
+   "t": 30.15,
+   "dur": 12.07,
+   "say": "Partamos por entender el problema. Hasta un cincuenta a sesenta por ciento de las mujeres adultas sin síntomas tiene nódulos que se ven en una ecografía. Es decir, vas a ver nódulos todas las semanas."
+  },
+  {
+   "id": "b003",
+   "t": 42.68,
+   "dur": 12.74,
+   "say": "Pero solo un cinco a diez por ciento son malignos, y la mayoría de esos son carcinomas papilares. Entonces tu misión es doble: no puncionar ni operar nódulos benignos que nunca iban a molestar, y no dejar pasar el cáncer."
+  },
+  {
+   "id": "b004",
+   "t": 55.87,
+   "dur": 9.34,
+   "say": "Hay antecedentes que suben la sospecha, y conviene tenerlos a mano. El primero es haber recibido radioterapia de cabeza y cuello en la infancia o en la adolescencia."
+  },
+  {
+   "id": "b005",
+   "t": 65.66,
+   "dur": 7.85,
+   "say": "El segundo, la historia familiar de carcinoma medular de tiroides o de neoplasia endocrina múltiple tipo dos, que veremos en la próxima clase."
+  },
+  {
+   "id": "b006",
+   "t": 73.95,
+   "dur": 9.79,
+   "say": "Luego, el nódulo que crece rápido y sin dolor, y la disfonía por parálisis de la cuerda vocal del mismo lado: significa que algo está infiltrando el nervio laríngeo recurrente."
+  },
+  {
+   "id": "b007",
+   "t": 84.2,
+   "dur": 9.05,
+   "say": "Y las adenopatías laterocervicales duras, adheridas a planos profundos. Guarda estas pistas, porque cambian la conducta incluso en nódulos chicos."
+  },
+  {
+   "id": "b008",
+   "t": 94.29,
+   "dur": 11.06,
+   "say": "Vamos al algoritmo, que es lo que más se pregunta. Llega un paciente con un nódulo de un centímetro o más, o con algo sospechoso, ya sea que se lo palpó o que apareció de casualidad en una imagen."
+  },
+  {
+   "id": "b009",
+   "t": 105.81,
+   "dur": 12.07,
+   "say": "El primer examen obligatorio no es la ecografía ni la punción: es la TSH. ¿Por qué? Porque antes de preguntarte si el nódulo es maligno, necesitas saber si está fabricando hormona por su cuenta."
+  },
+  {
+   "id": "b010",
+   "t": 118.33,
+   "dur": 11.95,
+   "say": "Si la TSH está suprimida, bajo cero coma cuatro, hay hiperfunción. Y como vimos en Graves, cuando hay hiperfunción la pregunta la responde el cintigrama: queremos saber si el nódulo capta más que el resto."
+  },
+  {
+   "id": "b011",
+   "t": 130.73,
+   "dur": 14.9,
+   "say": "Si el nódulo es caliente, como en este cintigrama que capta todo el yodo y apaga el resto, es autónomo, y su riesgo de cáncer es menor al uno por ciento. Por eso no se punciona: se deriva a tratar el hipertiroidismo. Esa es la gran excepción del tema."
+  },
+  {
+   "id": "b012",
+   "t": 146.09,
+   "dur": 13.32,
+   "say": "Si la TSH es normal, o incluso elevada, el siguiente paso es la ecografía tiroidea de alta resolución, con la clasificación TI-RADS. Fíjate que dije normal o elevada: una TSH alta tampoco te lleva al cintigrama."
+  },
+  {
+   "id": "b013",
+   "t": 159.86,
+   "dur": 10.78,
+   "say": "Y ojo con la trampa. Con TSH normal nunca se pide cintigrama. Un nódulo frío es lo esperable en casi todos, y no te dice nada que la ecografía no te diga mejor."
+  },
+  {
+   "id": "b014",
+   "t": 171.68,
+   "dur": 16.42,
+   "say": "La ecografía es la imagen de elección, y el sistema TI-RADS le asigna puntos a cinco características: composición, ecogenicidad, forma, márgenes y focos ecogénicos. Veamos los signos de alta sospecha. El primero: el nódulo sólido o casi completamente sólido."
+  },
+  {
+   "id": "b015",
+   "t": 188.55,
+   "dur": 8.54,
+   "say": "El segundo, la marcada hipoecogenicidad: mira este TI-RADS cinco, el nódulo se ve más oscuro que la musculatura que está por delante de la tiroides."
+  },
+  {
+   "id": "b016",
+   "t": 197.54,
+   "dur": 9.02,
+   "say": "El tercero, la forma más alto que ancho en el corte transversal. Un nódulo benigno crece empujando los tejidos en el plano; uno maligno los atraviesa."
+  },
+  {
+   "id": "b017",
+   "t": 207.02,
+   "dur": 6.43,
+   "say": "El cuarto, los márgenes irregulares, espiculados o microlobulados, o la extensión fuera de la tiroides."
+  },
+  {
+   "id": "b018",
+   "t": 213.9,
+   "dur": 16.32,
+   "say": "Y el quinto, las microcalcificaciones. Mira este nódulo sospechoso: hipoecogénico, de bordes irregulares, más alto que ancho, con puntos brillantes de menos de un milímetro, sin sombra acústica. Son los cuerpos de psamoma del carcinoma papilar vistos por ecografía."
+  },
+  {
+   "id": "b019",
+   "t": 230.67,
+   "dur": 9,
+   "say": "Del otro lado, hay imágenes que tranquilizan. El nódulo espongiforme, con más de la mitad de su volumen en microquistes, como un panal de abejas."
+  },
+  {
+   "id": "b020",
+   "t": 240.12,
+   "dur": 7.44,
+   "say": "El quiste simple, completamente anecoico. Y el nódulo isoecoico o hiperecoico rodeado de un halo fino y continuo."
+  },
+  {
+   "id": "b021",
+   "t": 248.61,
+   "dur": 11.3,
+   "say": "Ahora, la pregunta clave: ¿a quién le hago una punción aspirativa con aguja fina, la PAAF? No a todos. La decisión cruza dos datos: la categoría TI-RADS y el tamaño."
+  },
+  {
+   "id": "b022",
+   "t": 260.36,
+   "dur": 7.73,
+   "say": "TR uno y TR dos, benigno y no sospechoso, no se puncionan en ningún tamaño. Aunque midan varios centímetros."
+  },
+  {
+   "id": "b023",
+   "t": 268.54,
+   "dur": 5.83,
+   "say": "TR tres, levemente sospechoso: PAAF solo si mide dos coma cinco centímetros o más."
+  },
+  {
+   "id": "b024",
+   "t": 274.82,
+   "dur": 5.28,
+   "say": "TR cuatro, moderadamente sospechoso: PAAF desde uno coma cinco centímetros."
+  },
+  {
+   "id": "b025",
+   "t": 280.55,
+   "dur": 10.54,
+   "say": "Y TR cinco, altamente sospechoso: PAAF desde un centímetro. Fíjate en la lógica: mientras más sospechoso el nódulo, más chico es el tamaño que te obliga a puncionar."
+  },
+  {
+   "id": "b026",
+   "t": 291.54,
+   "dur": 11.76,
+   "say": "Y si el nódulo no alcanza el umbral, no se olvida: se vigila con ecografía. TR tres desde uno coma cinco centímetros, TR cuatro desde un centímetro, y TR cinco desde medio centímetro."
+  },
+  {
+   "id": "b027",
+   "t": 303.75,
+   "dur": 15.14,
+   "say": "Y la regla que más se pregunta: sin adenopatías sospechosas ni antecedentes familiares o de radiación, un nódulo de menos de un centímetro no se punciona, aunque sea TR cinco. Se vigila, para no sobrediagnosticar microcarcinomas que casi nunca dan problemas."
+  },
+  {
+   "id": "b028",
+   "t": 319.94,
+   "dur": 12.17,
+   "say": "Ya puncionaste. El informe de la citología viene con el sistema Bethesda, que tiene seis categorías. Cada una trae su riesgo de cáncer, y lo importante es que cada una tiene una conducta distinta."
+  },
+  {
+   "id": "b029",
+   "t": 332.56,
+   "dur": 9.98,
+   "say": "Bethesda uno es una muestra no diagnóstica, insuficiente. No es benigno ni maligno: simplemente no sirve. Se repite la PAAF guiada por ecografía."
+  },
+  {
+   "id": "b030",
+   "t": 342.99,
+   "dur": 12.65,
+   "say": "Bethesda dos es benigno: un nódulo coloide o una tiroiditis, con un riesgo de cáncer de cero a tres por ciento. Conducta expectante, con control ecográfico en doce a veinticuatro meses. No se opera."
+  },
+  {
+   "id": "b031",
+   "t": 356.09,
+   "dur": 11.14,
+   "say": "Bethesda tres es la atipia de significado indeterminado, con un riesgo de diez a treinta por ciento. Es la zona gris: se repite la PAAF a los tres a seis meses o se piden paneles moleculares."
+  },
+  {
+   "id": "b032",
+   "t": 367.68,
+   "dur": 18.7,
+   "say": "Bethesda cuatro es la neoplasia folicular, y es la que más se pregunta. La citología ve células foliculares, pero no puede distinguir un adenoma de un carcinoma folicular, porque esa diferencia es la invasión de la cápsula o de los vasos, y eso solo se ve en la pieza completa. Por eso la conducta es una hemitiroidectomía diagnóstica."
+  },
+  {
+   "id": "b033",
+   "t": 386.82,
+   "dur": 14.64,
+   "say": "Bethesda cinco, sospechoso de malignidad, va a cirugía resectiva, tiroidectomía total o lobectomía. Y Bethesda seis, maligno, a cirugía oncológica definitiva: tiroidectomía total, con vaciamiento ganglionar si hay adenopatías."
+  },
+  {
+   "id": "b034",
+   "t": 402.51,
+   "dur": 12.5,
+   "say": "Aterricemos esto a tu consulta. Cualquier paciente con citología Bethesda cuatro, cinco o seis tiene una sospecha fundada de cáncer de tiroides, con acceso garantizado por el GES de cáncer en personas de quince años y más."
+  },
+  {
+   "id": "b035",
+   "t": 415.47,
+   "dur": 6.48,
+   "say": "Lo mismo si hay adenopatías sospechosas: derivación prioritaria a endocrinología y a cirugía de cabeza y cuello."
+  },
+  {
+   "id": "b036",
+   "t": 422.4,
+   "dur": 9.72,
+   "say": "Y descarta un distractor antiguo: dar levotiroxina para achicar el nódulo. Está en desuso, porque no sirve y expone al paciente a un hipertiroidismo iatrogénico."
+  },
+  {
+   "id": "b037",
+   "t": 432.57,
+   "dur": 8.47,
+   "say": "El radioyodo tampoco es una opción para un nódulo cualquiera. Queda para el nódulo caliente con hipertiroidismo, que ya definimos con el cintigrama."
+  },
+  {
+   "id": "b038",
+   "t": 442.09,
+   "dur": 11.81,
+   "say": "Un último tema que va de la mano del nódulo: el bocio. Es cualquier aumento de volumen de la tiroides, y se clasifica por su forma, por su función y por su extensión, si es cervical o se mete detrás del esternón."
+  },
+  {
+   "id": "b039",
+   "t": 454.35,
+   "dur": 21.98,
+   "say": "La causa más frecuente en adultos es el bocio multinodular: mira esta ecografía, con nódulos de distinto aspecto, y este paciente con el bocio visible a simple vista. Sobre todo en mujeres mayores de cincuenta años. Hashimoto da un bocio difuso, firme y lobulado, y Graves uno difuso con soplo. El bocio por falta de yodo hoy es raro en Chile, porque la sal viene yodada."
+  },
+  {
+   "id": "b040",
+   "t": 476.78,
+   "dur": 11.3,
+   "say": "El estudio parte igual que con el nódulo: primero la TSH, con T cuatro libre si está alterada. Los anticuerpos antiTPO se piden si la TSH está elevada o el bocio es difuso y firme."
+  },
+  {
+   "id": "b041",
+   "t": 488.54,
+   "dur": 17.86,
+   "say": "Luego ecografía, para medir el volumen y estudiar los nódulos: mira otra, con la glándula aumentada y nódulos de distinto aspecto. Cada uno se evalúa con sus propios criterios, no solo el más grande. Y si la TSH está baja, cintigrama: zonas calientes y frías hablan de un bocio multinodular tóxico."
+  },
+  {
+   "id": "b042",
+   "t": 507.44,
+   "dur": 13.39,
+   "say": "Ahora, lo que cambia la conducta: la compresión. Pregunta por disnea o ruido al respirar, que empeora al acostarse, por disfagia y por disfonía. La disfonía hace sospechar compromiso del nervio recurrente o un cáncer."
+  },
+  {
+   "id": "b043",
+   "t": 521.28,
+   "dur": 16.37,
+   "say": "La maniobra de Pemberton la haces en la consulta: pides al paciente que eleve ambos brazos sobre la cabeza. Si aparece congestión de la cara e ingurgitación yugular, hay un bocio endotorácico. Con compresión se pide tomografía de cuello y tórax, sin contraste yodado, y espirometría."
+  },
+  {
+   "id": "b044",
+   "t": 538.1,
+   "dur": 20.14,
+   "say": "Si el bocio es pequeño, asintomático y sin nódulos sospechosos, se controla con TSH y ecografía cada uno a dos años. No se da levotiroxina para reducirlo en zonas con suficiente yodo, porque sirve poco y arriesga hipertiroidismo, fibrilación auricular y osteoporosis. Sí se trata la causa, por ejemplo el hipotiroidismo del Hashimoto."
+  },
+  {
+   "id": "b045",
+   "t": 558.69,
+   "dur": 17.4,
+   "say": "Derivas si hay síntomas compresivos, extensión endotorácica, crecimiento progresivo, un nódulo sospechoso, hipertiroidismo o un problema estético importante. El tratamiento definitivo del bocio compresivo es la tiroidectomía total, y el radioyodo es una alternativa en el adulto mayor con alto riesgo quirúrgico."
+  },
+  {
+   "id": "b046",
+   "t": 577.14,
+   "dur": 18.02,
+   "say": "El primer examen es la TSH. Si está baja, cintigrama: el nódulo caliente no se punciona, se trata el hipertiroidismo. Si es normal, ecografía con TI-RADS: mientras más sospechoso, más chico el tamaño que obliga a puncionar. Y con la TSH normal, nunca cintigrama."
+  },
+  {
+   "id": "b047",
+   "t": 600.34,
+   "dur": 5.42,
+   "say": "Juntemos todo en un árbol de decisión, desde el nódulo recién encontrado hasta la conducta final."
+  },
+  {
+   "id": "b048",
+   "t": 606.21,
+   "dur": 8.04,
+   "say": "Llega un paciente con un nódulo de un centímetro o más, o con algo sospechoso. El primer examen, siempre, es la TSH."
+  },
+  {
+   "id": "b049",
+   "t": 614.7,
+   "dur": 6.36,
+   "say": "Si la TSH está suprimida, pide un cintigrama para saber si el nódulo capta más que el resto de la glándula."
+  },
+  {
+   "id": "b050",
+   "t": 621.51,
+   "dur": 5.88,
+   "say": "Si es caliente, es autónomo y casi nunca maligno: no se punciona y se trata el hipertiroidismo."
+  },
+  {
+   "id": "b051",
+   "t": 627.84,
+   "dur": 7.8,
+   "say": "Si la TSH es normal o alta, pide una ecografía, clasifica el nódulo con TI-RADS y compara su tamaño con el umbral de su categoría."
+  },
+  {
+   "id": "b052",
+   "t": 636.09,
+   "dur": 6.67,
+   "say": "Si no alcanza el umbral, o es TR uno o dos, no se punciona: se vigila con ecografía cuando corresponde."
+  },
+  {
+   "id": "b053",
+   "t": 643.21,
+   "dur": 5.52,
+   "say": "Si lo supera, PAAF guiada por ecografía, y la conducta la define la categoría Bethesda."
+  },
+  {
+   "id": "b054",
+   "t": 649.18,
+   "dur": 5.83,
+   "say": "Bethesda uno o tres: se repite la punción, y en el tres también sirven los paneles moleculares."
+  },
+  {
+   "id": "b055",
+   "t": 655.47,
+   "dur": 4.78,
+   "say": "Bethesda dos: benigno, control ecográfico en doce a veinticuatro meses."
+  },
+  {
+   "id": "b056",
+   "t": 660.69,
+   "dur": 5.9,
+   "say": "Bethesda cuatro: hemitiroidectomía diagnóstica, porque la cápsula solo se ve en la pieza completa."
+  },
+  {
+   "id": "b057",
+   "t": 667.05,
+   "dur": 5.18,
+   "say": "Bethesda cinco o seis: cirugía, con derivación por el GES de cáncer de tiroides."
+  },
+  {
+   "id": "b058",
+   "t": 673.28,
+   "dur": 9.96,
+   "say": "Repasemos las trampas. Nódulo con TSH suprimida: cintigrama. El error es puncionar de entrada, porque si es caliente, no se punciona."
+  },
+  {
+   "id": "b059",
+   "t": 683.69,
+   "dur": 5.86,
+   "say": "Nódulo con TSH normal o elevada: ecografía. El error es pedir cintigrama."
+  },
+  {
+   "id": "b060",
+   "t": 690,
+   "dur": 8.4,
+   "say": "Un TR cinco de uno coma cuatro centímetros supera el umbral: PAAF guiada por ecografía. Controlar sin puncionar retrasa el diagnóstico."
+  },
+  {
+   "id": "b061",
+   "t": 698.85,
+   "dur": 10.18,
+   "say": "Un TR cinco de siete milímetros, sin adenopatías: seguimiento ecográfico a los seis a doce meses. Aquí el error es el contrario, puncionar solo porque se ve feo."
+  },
+  {
+   "id": "b062",
+   "t": 709.47,
+   "dur": 4.34,
+   "say": "Bethesda dos: control ecográfico. No se opera."
+  },
+  {
+   "id": "b063",
+   "t": 714.27,
+   "dur": 8.06,
+   "say": "Y Bethesda cuatro: hemitiroidectomía diagnóstica. Repetir la punción no sirve, porque ninguna aguja va a mostrarte la cápsula."
+  },
+  {
+   "id": "b064",
+   "t": 722.78,
+   "dur": 10.94,
+   "say": "Bocio con disnea, disfagia o signo de Pemberton: estudia con TSH y ecografía, pide tomografía sin contraste yodado y deriva. El error es dar levotiroxina para achicarlo."
+  },
+  {
+   "id": "b065",
+   "t": 734.77,
+   "dur": 16.85,
+   "say": "Vamos a un caso. Hombre de treinta y nueve años, sin antecedentes familiares ni de radiación. Tiene un nódulo de dos centímetros, TSH normal, clasificado como TI-RADS cuatro. Se le hace una PAAF guiada, y el informe dice Bethesda cuatro, neoplasia folicular."
+  },
+  {
+   "id": "b066",
+   "t": 752.07,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b067",
+   "t": 754.92,
+   "dur": 11.88,
+   "say": "Las alternativas: control ecográfico en seis meses, hemitiroidectomía diagnóstica, tiroidectomía total con vaciamiento, radioyodo, o repetir la PAAF con una aguja más gruesa. Piénsalo."
+  },
+  {
+   "id": "b069",
+   "t": 770.45,
+   "dur": 23.3,
+   "say": "Es la B, hemitiroidectomía diagnóstica. La citología vio células foliculares, pero la diferencia entre adenoma y carcinoma está en la cápsula y en los vasos, y eso solo lo muestra la pieza completa. El distractor tentador es repetir la punción: da lo mismo el calibre de la aguja, nunca vas a ver la cápsula. Y la tiroidectomía total con vaciamiento se adelanta a un cáncer que todavía no está demostrado."
+  },
+  {
+   "id": "b070",
+   "t": 794.81,
+   "dur": 22.87,
+   "say": "Ahora, preguntas reales. La primera es del EUNACOM de julio de dos mil diecinueve. Paciente de treinta años con un nódulo tiroideo elástico, indoloro, sin adenopatías. La TSH está en cero coma dos, bajo el rango normal, con T cuatro y T tres normales. La ecografía muestra un nódulo sólido, homogéneo, sin microcalcificaciones, de tres centímetros."
+  },
+  {
+   "id": "b071",
+   "t": 818.13,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b072",
+   "t": 820.98,
+   "dur": 9.48,
+   "say": "Las opciones: cintigrafía tiroidea, punción con aguja fina, controlar pruebas tiroideas en seis meses, tiroglobulina, o cirugía. Piénsalo."
+  },
+  {
+   "id": "b074",
+   "t": 834.11,
+   "dur": 22.3,
+   "say": "Es la A, la cintigrafía. El detalle que decide todo es la TSH baja, aunque las hormonas sean normales. Con TSH suprimida, primero hay que saber si el nódulo es caliente. El distractor tentador es la punción, porque el nódulo mide tres centímetros; pero si es caliente, puncionarlo no tiene sentido. Y la tiroglobulina no sirve para estudiar un nódulo."
+  },
+  {
+   "id": "b075",
+   "t": 857.45,
+   "dur": 9.77,
+   "say": "Cerremos con las reglas de oro. Ante un nódulo, primero TSH. Si está suprimida, cintigrama, y el nódulo caliente no se punciona."
+  },
+  {
+   "id": "b076",
+   "t": 867.67,
+   "dur": 5.06,
+   "say": "Si la TSH es normal o alta, ecografía con TI-RADS, y nunca cintigrama."
+  },
+  {
+   "id": "b077",
+   "t": 873.19,
+   "dur": 6.34,
+   "say": "Y ante un bocio, TSH y ecografía, busca compresión, y no des levotiroxina para reducirlo."
+  },
+  {
+   "id": "b078",
+   "t": 879.97,
+   "dur": 10.08,
+   "say": "La punción depende de la sospecha y el tamaño: TR cinco desde un centímetro, TR cuatro desde uno coma cinco, TR tres desde dos coma cinco, y los TR uno y dos nunca."
+  },
+  {
+   "id": "b079",
+   "t": 890.5,
+   "dur": 5.66,
+   "say": "Y bajo un centímetro, sin adenopatías ni antecedentes, se vigila aunque se vea sospechoso."
+  },
+  {
+   "id": "b080",
+   "t": 896.62,
+   "dur": 20.38,
+   "say": "Bethesda dos se controla, Bethesda cuatro va a hemitiroidectomía diagnóstica, y cinco y seis van a cirugía por el GES. Si te llevas una sola idea de hoy: ante un nódulo, la primera pregunta no es si es cáncer, sino cómo está la TSH. En la próxima clase vemos qué pasa cuando la citología confirma el cáncer. Nos vemos en la próxima clase."
+  }
+ ]
+}

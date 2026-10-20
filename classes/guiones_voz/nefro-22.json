@@ -1,0 +1,259 @@
+{
+ "id": "nefro-22",
+ "title": "Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible",
+ "total": 478.56600000000003,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 19.61,
+   "say": "Bienvenidos a la última clase de nefrología. Hoy vemos algo muy práctico: cómo ajustar fármacos cuando el riñón falla, y cómo evitar dañarlo nosotros mismos. Es daño evitable, y el examen lo pregunta con números concretos: el corte de filtración de la metformina y la forma de prevenir la nefropatía por contraste. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 26.46,
+   "dur": 12.77,
+   "say": "Partamos por la metformina, el fármaco de primera línea en la diabetes tipo dos. Su problema es que se elimina sin cambios por el riñón, por filtración y secreción. Si la filtración cae, la metformina se queda."
+  },
+  {
+   "id": "b003",
+   "t": 39.68,
+   "dur": 11.23,
+   "say": "Al acumularse, inhibe el complejo uno de la mitocondria del hígado, y bloquea la gluconeogénesis a partir de lactato. Dicho simple: el hígado deja de consumir el lactato, y el lactato sube."
+  },
+  {
+   "id": "b004",
+   "t": 51.36,
+   "dur": 10.78,
+   "say": "El resultado es la acidosis láctica asociada a metformina, con una mortalidad sobre el cuarenta por ciento. Por eso los cortes de filtración de este fármaco no son un detalle: se preguntan."
+  },
+  {
+   "id": "b005",
+   "t": 63.18,
+   "dur": 8.83,
+   "say": "Los cortes son tres. Con una filtración entre cuarenta y cinco y cincuenta y nueve, se mantiene la dosis y se vigila la función renal cada seis meses."
+  },
+  {
+   "id": "b006",
+   "t": 72.47,
+   "dur": 8.5,
+   "say": "Entre treinta y cuarenta y cuatro, se reduce la dosis máxima a la mitad, con un tope de mil miligramos al día, y no se inicia en quien no la estaba tomando."
+  },
+  {
+   "id": "b007",
+   "t": 81.41,
+   "dur": 10.3,
+   "say": "Y bajo treinta, contraindicación absoluta: se suspende de inmediato. El libro también da un equivalente en creatinina: sobre dos en la mujer o sobre dos coma cinco en el hombre."
+  },
+  {
+   "id": "b008",
+   "t": 92.16,
+   "dur": 10.2,
+   "say": "Si hay que suspenderla, el control glicémico sigue con insulina o con un inhibidor de la DPP cuatro con ajuste renal. La linagliptina tiene la ventaja de no requerir ajuste."
+  },
+  {
+   "id": "b009",
+   "t": 103.41,
+   "dur": 14.21,
+   "say": "El segundo grupo que se pregunta son los antiinflamatorios no esteroidales, los AINE. En un riñón enfermo, la arteriola aferente depende de las prostaglandinas para mantenerse abierta. El AINE las bloquea, y cae el flujo que entra al glomérulo."
+  },
+  {
+   "id": "b010",
+   "t": 118.07,
+   "dur": 15.98,
+   "say": "El resultado es necrosis tubular isquémica e hiperkalemia. Por eso están formalmente contraindicados en cualquier grado de enfermedad renal crónica o de injuria renal aguda. Es la misma idea que el IECA en la estenosis renal que vimos hace dos clases, pero en la arteriola de entrada."
+  },
+  {
+   "id": "b011",
+   "t": 134.5,
+   "dur": 11.14,
+   "say": "Los aminoglucósidos, como la amikacina, dan necrosis tubular tóxica y ototoxicidad. Con filtración bajo sesenta, se espacian los intervalos según el clearance y los niveles plasmáticos."
+  },
+  {
+   "id": "b012",
+   "t": 146.09,
+   "dur": 10.92,
+   "say": "Y la enoxaparina, una heparina de bajo peso molecular, se acumula bajo treinta y aumenta el riesgo de hemorragia mayor. Se reduce la dosis a la mitad o se cambia a heparina no fraccionada."
+  },
+  {
+   "id": "b013",
+   "t": 158.06,
+   "dur": 13.51,
+   "say": "El otro gran tema es el contraste yodado. La nefropatía por contraste es un alza de la creatinina de cero coma tres o más, o de un cincuenta por ciento sobre la basal, en las cuarenta y ocho a setenta y dos horas siguientes al examen, sin otra causa."
+  },
+  {
+   "id": "b014",
+   "t": 172.02,
+   "dur": 10.87,
+   "say": "El riesgo lo tienen los pacientes con enfermedad renal previa, sobre todo con filtración bajo treinta a cuarenta y cinco, los diabéticos con nefropatía, los deshidratados y los que tienen insuficiencia cardíaca."
+  },
+  {
+   "id": "b015",
+   "t": 183.34,
+   "dur": 16.94,
+   "say": "La única medida con evidencia sólida es la hidratación intravenosa con cristaloides isotónicos: suero fisiológico, o bicarbonato isotónico, a uno a uno coma cinco mililitros por kilo por hora, de seis a doce horas antes y de seis a doce horas después. Expande el volumen y diluye el contraste en el túbulo."
+  },
+  {
+   "id": "b016",
+   "t": 200.73,
+   "dur": 10.03,
+   "say": "Se suma usar un contraste iso o de baja osmolaridad, en la menor dosis posible, y suspender los nefrotóxicos, los AINE y los IECA o ARA dos, cuarenta y ocho horas antes."
+  },
+  {
+   "id": "b017",
+   "t": 211.22,
+   "dur": 10.58,
+   "say": "Y las trampas: la furosemida y el manitol están contraindicados, porque depletan volumen y empeoran la isquemia. Y la N-acetilcisteína no ha demostrado ser mejor que la hidratación."
+  },
+  {
+   "id": "b018",
+   "t": 222.85,
+   "dur": 21.72,
+   "say": "A medida que cae la filtración, cada fármaco cambia. La metformina baja a la mitad entre treinta y cuarenta y cuatro y se suspende bajo treinta. Los aminoglucósidos se espacian bajo sesenta, la enoxaparina se reduce bajo treinta, y los antiinflamatorios no se usan en la enfermedad renal. Para el contraste, hidratación isotónica; la furosemida y el manitol no protegen."
+  },
+  {
+   "id": "b019",
+   "t": 248.05,
+   "dur": 4.39,
+   "say": "Ahora juntemos las decisiones en un árbol, partiendo por la filtración."
+  },
+  {
+   "id": "b020",
+   "t": 252.89,
+   "dur": 7.1,
+   "say": "Antes de recetar un fármaco que se elimina por el riñón, o de pedir un examen con contraste, se calcula la filtración estimada."
+  },
+  {
+   "id": "b021",
+   "t": 260.45,
+   "dur": 2.83,
+   "say": "La conducta depende de qué vas a indicar."
+  },
+  {
+   "id": "b022",
+   "t": 263.73,
+   "dur": 3.58,
+   "say": "Si es metformina, la filtración decide la dosis."
+  },
+  {
+   "id": "b023",
+   "t": 267.75,
+   "dur": 4.03,
+   "say": "Entre cuarenta y cinco y cincuenta y nueve, se mantiene y se vigila."
+  },
+  {
+   "id": "b024",
+   "t": 272.24,
+   "dur": 6.74,
+   "say": "Entre treinta y cuarenta y cuatro, se reduce a la mitad, con tope de mil miligramos, y no se inicia en quien no la toma."
+  },
+  {
+   "id": "b025",
+   "t": 279.43,
+   "dur": 5.78,
+   "say": "Bajo treinta, se suspende de inmediato y se cambia a insulina o a un inhibidor de la DPP cuatro."
+  },
+  {
+   "id": "b026",
+   "t": 285.66,
+   "dur": 4.51,
+   "say": "Si es un AINE y hay daño renal, no se indica: está contraindicado."
+  },
+  {
+   "id": "b027",
+   "t": 290.63,
+   "dur": 10.34,
+   "say": "Si es un contraste yodado en un paciente de riesgo, hidratación intravenosa isotónica antes y después, la menor dosis de contraste, y suspender AINE e IECA cuarenta y ocho horas antes."
+  },
+  {
+   "id": "b028",
+   "t": 302.02,
+   "dur": 10.34,
+   "say": "Repasemos. Metformina bajo treinta: acidosis láctica, se suspende. Y recuerda que entre treinta y cuarenta y cuatro no se suspende, se reduce a la mitad."
+  },
+  {
+   "id": "b029",
+   "t": 312.81,
+   "dur": 5.35,
+   "say": "AINE, como ibuprofeno o ketorolaco: contraindicados con cualquier grado de daño renal."
+  },
+  {
+   "id": "b030",
+   "t": 318.62,
+   "dur": 5.02,
+   "say": "Aminoglucósidos bajo sesenta: se espacian los intervalos según clearance y niveles."
+  },
+  {
+   "id": "b031",
+   "t": 324.08,
+   "dur": 5.14,
+   "say": "Y enoxaparina bajo treinta: reducir a la mitad o cambiar a heparina no fraccionada."
+  },
+  {
+   "id": "b032",
+   "t": 330.27,
+   "dur": 15.36,
+   "say": "Vamos con un caso. Hombre de sesenta y seis años, diabético, con metformina ochocientos cincuenta cada ocho horas. Está asintomático, y su filtración estimada es estable en treinta y ocho en dos mediciones. Hemoglobina glicosilada de siete."
+  },
+  {
+   "id": "b033",
+   "t": 346.08,
+   "dur": 3.46,
+   "say": "¿Cuál es la conducta más adecuada respecto de la metformina?"
+  },
+  {
+   "id": "b034",
+   "t": 349.98,
+   "dur": 11.21,
+   "say": "Las opciones: suspenderla e iniciar insulina, reducir la dosis a un máximo de mil miligramos al día, mantenerla igual, aumentarla, o cambiarla por glibenclamida. Piénsalo."
+  },
+  {
+   "id": "b036",
+   "t": 364.84,
+   "dur": 18.7,
+   "say": "Es la B. Treinta y ocho está en la franja de treinta a cuarenta y cuatro: no se suspende, se reduce a la mitad, con un tope de mil miligramos. Suspender es la trampa, porque suena prudente, pero eso corresponde bajo treinta. Y aumentar la dosis es justo al revés: si el riñón elimina menos, hay que dar menos."
+  },
+  {
+   "id": "b037",
+   "t": 384.59,
+   "dur": 14.3,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil dieciséis. Mujer de ochenta años con artrosis, que toma paracetamol y tiene un control parcial del dolor. Es hipertensa y tiene insuficiencia cardíaca en capacidad funcional tres."
+  },
+  {
+   "id": "b038",
+   "t": 399.34,
+   "dur": 3.02,
+   "say": "¿Cuál es el mejor fármaco a agregar para el dolor?"
+  },
+  {
+   "id": "b039",
+   "t": 402.82,
+   "dur": 7.37,
+   "say": "Las opciones: ibuprofeno, pregabalina, ketorolaco, lidocaína en parches, o tramadol. Piénsalo."
+  },
+  {
+   "id": "b041",
+   "t": 413.83,
+   "dur": 19.27,
+   "say": "Es la E, tramadol. La clave está en el terreno: adulta mayor, hipertensa y con insuficiencia cardíaca. Su riñón depende de las prostaglandinas para mantener el flujo, y un AINE la puede llevar a una insuficiencia renal aguda. Por eso caen el ibuprofeno y el ketorolaco, que son la tentación natural después del paracetamol."
+  },
+  {
+   "id": "b042",
+   "t": 434.16,
+   "dur": 9.7,
+   "say": "Cerremos con las reglas de oro. Metformina: bajo treinta se suspende; entre treinta y cuarenta y cuatro se reduce a la mitad, con un tope de mil miligramos al día."
+  },
+  {
+   "id": "b043",
+   "t": 444.3,
+   "dur": 10.78,
+   "say": "Los AINE están contraindicados con cualquier daño renal, y en el adulto mayor frágil se evitan. Los aminoglucósidos se espacian bajo sesenta, y la enoxaparina se reduce bajo treinta."
+  },
+  {
+   "id": "b044",
+   "t": 455.53,
+   "dur": 17.09,
+   "say": "Y antes del contraste, hidratación intravenosa isotónica, antes y después, sin diuréticos. Si te llevas una sola idea de hoy: antes de recetar o de pedir un contraste, mira la filtración, porque el daño renal por fármacos es el más evitable de todos. Nos vemos en la próxima clase."
+  }
+ ]
+}

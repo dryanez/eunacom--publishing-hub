@@ -1,0 +1,433 @@
+{
+ "id": "infecto-06",
+ "title": "Rabia y Tétanos",
+ "total": 769.0531948387098,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 28.1,
+   "say": "Bienvenidos. En la clase anterior vimos profilaxis después de un contacto. Hoy seguimos con profilaxis, pero después de una herida: rabia y tétanos. Las dos son enfermedades neurotrópicas, prevenibles con vacuna, y con una letalidad cercana al cien por ciento una vez que aparecen los síntomas. Por eso el examen no pregunta cómo curarlas, pregunta cómo evitarlas: qué animal mordió, qué tipo de herida es, y cuántas dosis de vacuna tiene el paciente. Partamos."
+  },
+  {
+   "id": "b002",
+   "t": 34.95,
+   "dur": 10.85,
+   "say": "Partamos por la rabia. El virus rábico es un virus ARN neurotrópico, que se transmite por la saliva de un mamífero infectado, a través de una mordedura o del contacto con mucosas."
+  },
+  {
+   "id": "b003",
+   "t": 46.25,
+   "dur": 7.34,
+   "say": "Después de la inoculación, el virus no va directo al cerebro. Primero se replica en el músculo, en el sitio de la herida."
+  },
+  {
+   "id": "b004",
+   "t": 54.05,
+   "dur": 12.1,
+   "say": "Luego sube por dentro de los nervios periféricos, por transporte axonal retrógrado, hacia la médula y el encéfalo. Es el mismo mecanismo que vimos en la encefalitis herpética, y lo vamos a volver a ver en el tétanos."
+  },
+  {
+   "id": "b005",
+   "t": 66.59,
+   "dur": 11.69,
+   "say": "Cuando llega, produce una encefalomielitis letal, con hidrofobia, espasmos laríngeos y finalmente paro cardiorrespiratorio. Una vez que aparecen los síntomas, la letalidad es cercana al cien por ciento."
+  },
+  {
+   "id": "b006",
+   "t": 78.73,
+   "dur": 13.32,
+   "say": "Y aquí está la lógica de toda la profilaxis. Mientras el virus se replica en la herida y viaja por el nervio, hay una ventana. La vacuna y la inmunoglobulina actúan en esa ventana, antes de que el virus llegue al sistema nervioso."
+  },
+  {
+   "id": "b007",
+   "t": 93.1,
+   "dur": 8.09,
+   "say": "Ahora la conducta, según la norma del Ministerio de Salud. Frente a una mordedura, la pregunta que decide todo es qué animal fue."
+  },
+  {
+   "id": "b008",
+   "t": 101.64,
+   "dur": 10.13,
+   "say": "Si es un perro o un gato doméstico, conocido y ubicable, no se vacuna de inmediato al paciente. Se mantiene al animal en observación veterinaria estricta por diez días."
+  },
+  {
+   "id": "b009",
+   "t": 112.22,
+   "dur": 9.86,
+   "say": "Si el animal sigue sano al día diez, no se vacuna al paciente. Esa es la regla que más se pregunta. Fíjate que se observa al animal, no al paciente."
+  },
+  {
+   "id": "b010",
+   "t": 122.53,
+   "dur": 6.12,
+   "say": "Pero si el animal enferma, muere o desaparece durante la observación, se inicia la vacunación de inmediato."
+  },
+  {
+   "id": "b011",
+   "t": 129.1,
+   "dur": 11.14,
+   "say": "Si el animal es desconocido o vagabundo, no hay a quién observar, así que se vacuna de inmediato. El esquema es de cinco dosis, los días cero, tres, siete, catorce y veintiocho."
+  },
+  {
+   "id": "b012",
+   "t": 140.69,
+   "dur": 16.92,
+   "say": "Y el caso especial. En Chile, el reservorio silvestre de la rabia es el murciélago. Todo contacto con murciélago es una exposición grave: una mordedura, tomarlo con la mano desnuda, o incluso despertar en una habitación donde hay un murciélago, porque su mordedura puede pasar inadvertida."
+  },
+  {
+   "id": "b013",
+   "t": 158.06,
+   "dur": 10.54,
+   "say": "Por eso, ante el murciélago, siempre vacunación antirrábica completa inmediata más inmunoglobulina antirrábica humana. No se espera nada, y no importa si no hay herida visible."
+  },
+  {
+   "id": "b014",
+   "t": 169.64,
+   "dur": 11.81,
+   "say": "Pasemos al tétanos. Clostridium tetani es un bacilo grampositivo, anaerobio estricto, que forma esporas. Esas esporas están en todas partes: en el suelo y en las heces de animales."
+  },
+  {
+   "id": "b015",
+   "t": 181.9,
+   "dur": 13.78,
+   "say": "Como es anaerobio, las esporas germinan donde falta oxígeno: en un tejido desvitalizado o sucio. Por eso las heridas de riesgo son las punzantes, las quemaduras y las fracturas expuestas. Esto va a ser clave para la profilaxis."
+  },
+  {
+   "id": "b016",
+   "t": 196.13,
+   "dur": 8.14,
+   "say": "Ahí produce la tetanoespasmina, una neurotoxina que sube por los nervios, otra vez por transporte axonal retrógrado, hasta la médula espinal."
+  },
+  {
+   "id": "b017",
+   "t": 204.71,
+   "dur": 12.17,
+   "say": "En la médula llega a las interneuronas inhibitorias. Degrada la sinaptobrevina, una proteína necesaria para liberar neurotransmisores, y así bloquea la liberación de GABA y glicina, que son los frenos del músculo."
+  },
+  {
+   "id": "b018",
+   "t": 217.33,
+   "dur": 10.25,
+   "say": "Sin frenos, la neurona motora queda desinhibida: contracción muscular tónica sostenida y espasmos paroxísticos muy dolorosos. El mecanismo te explica la clínica."
+  },
+  {
+   "id": "b019",
+   "t": 228.63,
+   "dur": 9.65,
+   "say": "Veamos la clínica. Lo primero suele ser el trismus, el espasmo del masetero que impide abrir la boca, y la risa sardónica: mira esta mueca fija de la cara."
+  },
+  {
+   "id": "b020",
+   "t": 239.14,
+   "dur": 5.83,
+   "say": "Luego el opistótonos: mira este arco rígido de la espalda por la contracción de los músculos extensores."
+  },
+  {
+   "id": "b021",
+   "t": 245.42,
+   "dur": 9.6,
+   "say": "Los espasmos se desencadenan con estímulos luminosos o sonoros, y lo más dramático: la mente permanece lúcida. El paciente está consciente durante los espasmos."
+  },
+  {
+   "id": "b022",
+   "t": 255.47,
+   "dur": 5.06,
+   "say": "La causa de muerte es el paro respiratorio, por espasmo de la laringe o del diafragma."
+  },
+  {
+   "id": "b023",
+   "t": 260.99,
+   "dur": 9.46,
+   "say": "El tétanos establecido se maneja en la unidad de cuidados intensivos, en un box oscuro y silencioso, para no gatillar espasmos, con sedación y relajantes musculares."
+  },
+  {
+   "id": "b024",
+   "t": 270.89,
+   "dur": 4.39,
+   "say": "Se da metronidazol endovenoso, o penicilina, contra la bacteria."
+  },
+  {
+   "id": "b025",
+   "t": 275.74,
+   "dur": 9.02,
+   "say": "Y la inmunoglobulina antitetánica humana, tres mil a seis mil unidades. Fíjate en la diferencia con la profilaxis, que usa solo doscientas cincuenta."
+  },
+  {
+   "id": "b026",
+   "t": 285.81,
+   "dur": 15.26,
+   "say": "Ahora la profilaxis, que es lo que se pregunta. Ante cualquier herida haces dos preguntas. La primera: qué herida es. Si es limpia y superficial, el refuerzo con vacuna dT se da solo si pasaron más de diez años desde la última dosis."
+  },
+  {
+   "id": "b027",
+   "t": 301.52,
+   "dur": 11.81,
+   "say": "Si es sucia o tetanígena, es decir, contaminada con tierra, heces o saliva, punzante profunda, una mordedura o con tejido desvitalizado, el corte baja: refuerzo si pasaron más de cinco años."
+  },
+  {
+   "id": "b028",
+   "t": 313.78,
+   "dur": 13.03,
+   "say": "La segunda pregunta: cuántas dosis de toxoide ha recibido en la vida. Si tiene menos de tres, o no lo sabe, y la herida es sucia, va vacuna dT más inmunoglobulina antitetánica, doscientas cincuenta unidades intramuscular."
+  },
+  {
+   "id": "b029",
+   "t": 327.26,
+   "dur": 4.99,
+   "say": "Y se ponen en sitios separados, para que la inmunoglobulina no neutralice la vacuna."
+  },
+  {
+   "id": "b030",
+   "t": 332.71,
+   "dur": 11.69,
+   "say": "La trampa es dar inmunoglobulina de más. Solo va cuando se juntan las dos condiciones: herida sucia y esquema incompleto o desconocido. Con tres dosis o más, nunca se da inmunoglobulina."
+  },
+  {
+   "id": "b031",
+   "t": 345.44,
+   "dur": 10.78,
+   "say": "Lo primero en una mordedura es lavar con agua y jabón por diez a quince minutos e irrigar a presión. Se retira el tejido desvitalizado y se explora si hay tendones o articulaciones comprometidos."
+  },
+  {
+   "id": "b032",
+   "t": 356.67,
+   "dur": 6.65,
+   "say": "No se sutura una herida punzante, con más de ocho a doce horas o infectada. La cara es la excepción."
+  },
+  {
+   "id": "b033",
+   "t": 363.77,
+   "dur": 7.92,
+   "say": "Se da antibiótico profiláctico en mordedura de gato, de mano, profunda o humana, y en inmunosuprimidos, asplénicos o hepatópatas."
+  },
+  {
+   "id": "b034",
+   "t": 372.14,
+   "dur": 8.81,
+   "say": "El esquema es amoxicilina con ácido clavulánico por tres a cinco días. Cubre Pasteurella, estafilococo, estreptococo y anaerobios."
+  },
+  {
+   "id": "b035",
+   "t": 381.4,
+   "dur": 9.02,
+   "say": "En asplénicos y alcohólicos recuerda la Capnocytophaga canimorsus. Y la mordedura humana suma riesgo de hepatitis B, hepatitis C y VIH."
+  },
+  {
+   "id": "b036",
+   "t": 390.87,
+   "dur": 6.31,
+   "say": "Y siempre se revisa la profilaxis antitetánica y antirrábica, se observa al animal diez días y se notifica."
+  },
+  {
+   "id": "b037",
+   "t": 398.23,
+   "dur": 7.7,
+   "say": "Neumococo en mayores de sesenta y cinco años y en asplenia, inmunosupresión, enfermedades crónicas o fístula de líquido cefalorraquídeo."
+  },
+  {
+   "id": "b038",
+   "t": 406.39,
+   "dur": 6,
+   "say": "Influenza todos los años en embarazadas, mayores de sesenta y cinco, crónicos y personal de salud."
+  },
+  {
+   "id": "b039",
+   "t": 412.84,
+   "dur": 9.38,
+   "say": "Hepatitis B en personal de salud, hemodiálisis y VIH, con esquema de cero, uno y seis meses. Meningococo en asplenia y déficit de complemento."
+  },
+  {
+   "id": "b040",
+   "t": 422.67,
+   "dur": 7.37,
+   "say": "Y la rabia preexposición en veterinarios y personal expuesto a murciélagos, tres dosis los días cero, siete y veintiuno a veintiocho."
+  },
+  {
+   "id": "b041",
+   "t": 430.49,
+   "dur": 11.42,
+   "say": "La regla que se pregunta: las vacunas vivas atenuadas, varicela, triple viral y fiebre amarilla, están contraindicadas en el embarazo y en la inmunosupresión grave. Las inactivadas son seguras."
+  },
+  {
+   "id": "b042",
+   "t": 442.96,
+   "dur": 18.72,
+   "say": "El virus rábico viaja desde la mordedura por los nervios, por transporte axonal retrógrado, hasta la médula y el encéfalo. Ese viaje toma semanas, y es la ventana para que la vacuna y la inmunoglobulina lleguen antes. Si el perro o el gato es ubicable, se observa diez días; y todo contacto con murciélago es una exposición grave."
+  },
+  {
+   "id": "b043",
+   "t": 465.56,
+   "dur": 12.77,
+   "say": "La toxina tetánica también sube por el nervio, degrada la sinaptobrevina y bloquea la liberación de GABA y glicina, que son los frenos del músculo. Sin freno, aparecen el trismus, la risa sardónica y el opistótonos."
+  },
+  {
+   "id": "b044",
+   "t": 488.76,
+   "dur": 6.31,
+   "say": "Juntemos todo en un árbol de decisión: un paciente con una herida, y las dos profilaxis que tienes que pensar."
+  },
+  {
+   "id": "b045",
+   "t": 495.52,
+   "dur": 9.02,
+   "say": "Llega un paciente con una herida. Tienes que pensar en dos profilaxis distintas: la antirrábica, si hubo un mamífero, y la antitetánica, siempre."
+  },
+  {
+   "id": "b046",
+   "t": 505,
+   "dur": 4.68,
+   "say": "Si hubo una mordedura o contacto con un mamífero, la pregunta es qué animal fue."
+  },
+  {
+   "id": "b047",
+   "t": 510.13,
+   "dur": 9.43,
+   "say": "Si es un perro o gato ubicable, se observa al animal por diez días; si sigue sano, no se vacuna. Si enferma, muere o desaparece, se vacuna."
+  },
+  {
+   "id": "b048",
+   "t": 520.01,
+   "dur": 4.97,
+   "say": "Si es desconocido o vagabundo, vacuna antirrábica inmediata, cinco dosis."
+  },
+  {
+   "id": "b049",
+   "t": 525.43,
+   "dur": 6.41,
+   "say": "Si es un murciélago, cualquier contacto es exposición grave: vacuna completa más inmunoglobulina antirrábica."
+  },
+  {
+   "id": "b050",
+   "t": 532.29,
+   "dur": 5.66,
+   "say": "Y en toda herida evalúas el tétanos. Primero, si la herida es limpia o sucia."
+  },
+  {
+   "id": "b051",
+   "t": 538.4,
+   "dur": 5.59,
+   "say": "Si es limpia y el esquema está completo, refuerzo de dT solo si pasaron más de diez años."
+  },
+  {
+   "id": "b052",
+   "t": 544.44,
+   "dur": 3.79,
+   "say": "Si es sucia, la pregunta es si tiene tres dosis o más."
+  },
+  {
+   "id": "b053",
+   "t": 548.68,
+   "dur": 5.57,
+   "say": "Con esquema completo, refuerzo de dT si pasaron más de cinco años, sin inmunoglobulina."
+  },
+  {
+   "id": "b054",
+   "t": 554.7,
+   "dur": 8.59,
+   "say": "Con menos de tres dosis o antecedente desconocido, vacuna dT más inmunoglobulina antitetánica, doscientas cincuenta unidades, en sitios separados."
+  },
+  {
+   "id": "b055",
+   "t": 564.34,
+   "dur": 12.96,
+   "say": "Pongamos todo en la matriz. Con menos de tres dosis o antecedente desconocido, se completa la vacunación con tres dosis de dT, y si la herida es sucia, se agrega inmunoglobulina. Es la única fila que la lleva."
+  },
+  {
+   "id": "b056",
+   "t": 577.75,
+   "dur": 8.38,
+   "say": "Con tres dosis o más y la última hace menos de cinco años, no se da nada, ni siquiera con una herida sucia. Solo el aseo de la herida."
+  },
+  {
+   "id": "b057",
+   "t": 586.58,
+   "dur": 7.25,
+   "say": "Si la última dosis fue hace cinco a diez años, la herida limpia no necesita nada, y la sucia, solo un refuerzo de dT."
+  },
+  {
+   "id": "b058",
+   "t": 594.28,
+   "dur": 8.02,
+   "say": "Y si pasaron más de diez años, cualquier herida lleva un refuerzo de dT, pero sin inmunoglobulina, porque el paciente tiene su esquema completo."
+  },
+  {
+   "id": "b059",
+   "t": 603.34,
+   "dur": 17.21,
+   "say": "Vamos con un caso. Hombre de treinta y dos años, campesino, que se clava un clavo oxidado en la planta del pie en un establo. Recibió sus vacunas de niño, pero no recuerda ningún refuerzo en los últimos quince años. La herida es puntiforme, con bordes desvitalizados y restos de barro."
+  },
+  {
+   "id": "b060",
+   "t": 621,
+   "dur": 4.08,
+   "say": "Además del aseo, ¿cuál es la conducta antitetánica más adecuada?"
+  },
+  {
+   "id": "b061",
+   "t": 625.53,
+   "dur": 12.22,
+   "say": "Las opciones son: refuerzo de dT sin inmunoglobulina; dT más inmunoglobulina; solo inmunoglobulina; nada, por su vacunación infantil; o inmunoglobulina en dosis alta con metronidazol. Piénsalo."
+  },
+  {
+   "id": "b063",
+   "t": 641.4,
+   "dur": 26.47,
+   "say": "La respuesta es la A. Haz las dos preguntas. ¿Qué herida es? Sucia, punzante y con barro. ¿Cuántas dosis tiene? Un esquema completo en la infancia, con la última hace más de diez años. Entonces, refuerzo de dT. La B es el distractor más tentador, porque la herida asusta, pero la inmunoglobulina es solo para el esquema incompleto. Y la E es el tratamiento del tétanos ya establecido, no la profilaxis."
+  },
+  {
+   "id": "b064",
+   "t": 668.92,
+   "dur": 8.35,
+   "say": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil diecisiete. Un niño de siete años es mordido en el brazo por un perro callejero."
+  },
+  {
+   "id": "b065",
+   "t": 677.72,
+   "dur": 4.15,
+   "say": "Además del manejo de la herida, ¿cuál es la conducta respecto a la rabia?"
+  },
+  {
+   "id": "b066",
+   "t": 682.32,
+   "dur": 11.45,
+   "say": "Las opciones son: observar al niño por diez días; vacunar solo si el perro presenta síntomas; vacunar al niño; vacunar solo si el perro muere; o dar inmunoglobulina antirrábica. Piénsalo."
+  },
+  {
+   "id": "b068",
+   "t": 697.42,
+   "dur": 18.17,
+   "say": "Es la C, vacunar. La pregunta clave es si el animal es ubicable, y un perro callejero no lo es: no hay a quién observar. Las alternativas B y D serían correctas para un perro conocido en observación. Y la A tiene la trampa clásica: los diez días de observación son para el animal, no para el niño."
+  },
+  {
+   "id": "b069",
+   "t": 716.64,
+   "dur": 9.14,
+   "say": "Cerremos con las reglas de oro. En la rabia, perro o gato ubicable: se observa al animal diez días, y si sigue sano, no se vacuna al paciente."
+  },
+  {
+   "id": "b070",
+   "t": 726.23,
+   "dur": 4.51,
+   "say": "Animal desconocido o vagabundo: vacuna de inmediato, cinco dosis."
+  },
+  {
+   "id": "b071",
+   "t": 731.2,
+   "dur": 5.28,
+   "say": "Murciélago: vacuna más inmunoglobulina, siempre, aunque no haya herida visible."
+  },
+  {
+   "id": "b072",
+   "t": 736.93,
+   "dur": 6.65,
+   "say": "En el tétanos, el refuerzo de dT se da si pasaron más de diez años en la herida limpia, o más de cinco en la sucia."
+  },
+  {
+   "id": "b073",
+   "t": 744.02,
+   "dur": 19.08,
+   "say": "Y la inmunoglobulina solo va con herida sucia y esquema incompleto o desconocido. Si te llevas una sola idea de hoy: en la rabia se pregunta por el animal, y en el tétanos por la herida y las dosis. La próxima clase vemos las infecciones asociadas a la atención de salud y las precauciones de aislamiento. Nos vemos en la próxima clase."
+  }
+ ]
+}

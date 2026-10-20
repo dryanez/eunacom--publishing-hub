@@ -1,0 +1,385 @@
+{
+ "id": "resp-14",
+ "title": "resp-14",
+ "total": 768.9060000000001,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 23.47,
+   "say": "Bienvenidos. En la clase anterior vimos el neumotórax espontáneo, donde había tiempo para medir y decidir con calma. Hoy vemos dos cuadros donde no hay tiempo: el neumotórax a tensión y el hemotórax masivo. Son urgencias con riesgo vital inmediato, y el examen las pregunta muchísimo. La buena noticia es que se resuelven con el examen físico: la percusión y las venas del cuello te dicen qué es y qué hacer."
+  },
+  {
+   "id": "b002",
+   "t": 30.32,
+   "dur": 14.4,
+   "say": "Partamos por el mecanismo, porque de él sale toda la clínica. Todo empieza con una disrupción: en la pleura visceral, en el pulmón o en la pared del tórax. Puede ser una puñalada, un choque, o incluso un paciente conectado a un ventilador."
+  },
+  {
+   "id": "b003",
+   "t": 45.17,
+   "dur": 11.28,
+   "say": "Lo especial es que esa lesión funciona como una válvula de una sola vía. En cada inspiración entra aire al espacio pleural, pero en la espiración ese aire no puede salir. Queda atrapado."
+  },
+  {
+   "id": "b004",
+   "t": 56.9,
+   "dur": 12.43,
+   "say": "Entonces, con cada respiración, se acumula más aire, y la presión dentro de la pleura sube hasta superar la presión atmosférica. Aquí está la diferencia con el neumotórax simple: este no se queda quieto, crece."
+  },
+  {
+   "id": "b005",
+   "t": 69.78,
+   "dur": 9.96,
+   "say": "Esa presión colapsa por completo el pulmón de ese lado, y además empuja el mediastino y la tráquea hacia el lado contrario. Por eso la tráquea desviada es uno de los signos clave."
+  },
+  {
+   "id": "b006",
+   "t": 80.19,
+   "dur": 10.7,
+   "say": "Pero lo que mata al paciente no es el pulmón colapsado. Es que la presión aplasta las venas cavas superior e inferior, y la sangre deja de volver al corazón. Se cae la precarga."
+  },
+  {
+   "id": "b007",
+   "t": 91.35,
+   "dur": 15,
+   "say": "Sin retorno venoso, el corazón no tiene qué bombear: shock obstructivo, hipotensión grave, y si no actúas, paro cardiorrespiratorio en actividad eléctrica sin pulso. El monitor muestra ritmo, pero no hay pulso. Todo esto ocurre en minutos."
+  },
+  {
+   "id": "b008",
+   "t": 107.4,
+   "dur": 23.86,
+   "say": "De ese mecanismo sale la regla de oro de la clase, la que más se pregunta. El diagnóstico del neumotórax a tensión es estrictamente clínico. Pedir o esperar una radiografía en un paciente inestable está contraindicado, porque la demora lo mata en minutos. Mira esta imagen: el pulmón colapsado y el mediastino desplazado. Pero cuando llegues a ver una radiografía así, el paciente ya debió ser descomprimido."
+  },
+  {
+   "id": "b009",
+   "t": 131.7,
+   "dur": 9.72,
+   "say": "Y cada signo lo puedes deducir del mecanismo. Primero, el shock: hipotensión grave, con taquicardia extrema, o bradicardia cuando ya está cerca del paro."
+  },
+  {
+   "id": "b010",
+   "t": 141.87,
+   "dur": 13.13,
+   "say": "Segundo, las yugulares ingurgitadas. Si las cavas están aplastadas, la sangre se acumula antes del obstáculo, y las venas del cuello se ven llenas. Guarda este signo, porque es el que lo separa del hemotórax."
+  },
+  {
+   "id": "b011",
+   "t": 155.45,
+   "dur": 6.22,
+   "say": "Tercero, la tráquea desviada hacia el lado contrario de la lesión, que puedes ver o palpar en la horquilla esternal."
+  },
+  {
+   "id": "b012",
+   "t": 162.12,
+   "dur": 9.74,
+   "say": "Y cuarto, el hemitórax afectado: abombado, inmóvil, con timpanismo o hipersonoridad a la percusión, porque está lleno de aire, y con el murmullo pulmonar abolido."
+  },
+  {
+   "id": "b013",
+   "t": 172.91,
+   "dur": 8.28,
+   "say": "Pasemos a la conducta. Con la sospecha clínica fundada, y sin ningún examen, la conducta tiene dos pasos, y el orden importa."
+  },
+  {
+   "id": "b014",
+   "t": 181.64,
+   "dur": 20.18,
+   "say": "El paso uno es la descompresión inmediata con aguja. Se usa un catéter venoso grueso, de calibre catorce o dieciséis, de al menos cinco centímetros de largo, en el segundo espacio intercostal, en la línea medioclavicular. Se entra justo sobre el borde superior de la tercera costilla, para no dañar el paquete vasculonervioso, que corre bajo cada costilla."
+  },
+  {
+   "id": "b015",
+   "t": 202.28,
+   "dur": 6.89,
+   "say": "La décima edición del ATLS avala un sitio alternativo: el quinto espacio intercostal, en la línea axilar anterior."
+  },
+  {
+   "id": "b016",
+   "t": 209.61,
+   "dur": 11.14,
+   "say": "Al puncionar se escucha la salida brusca del aire a presión. En ese momento el neumotórax a tensión se transforma en un neumotórax simple, el mediastino se descomprime y la sangre vuelve a llegar al corazón."
+  },
+  {
+   "id": "b017",
+   "t": 221.2,
+   "dur": 14.06,
+   "say": "Pero la aguja solo compra tiempo. El paso dos, obligatorio, es la pleurostomía definitiva: un tubo pleural grueso, de veintiocho a treinta y dos French, en el quinto espacio intercostal, línea axilar media, conectado a una trampa de agua."
+  },
+  {
+   "id": "b018",
+   "t": 235.71,
+   "dur": 20.42,
+   "say": "Y ojo con la trampa. Si intubas y ventilas con presión positiva a un paciente con neumotórax a tensión sin descomprimirlo, le metes todavía más aire a la pleura, y precipitas el paro de inmediato. Por eso, si el paciente ya está en ventilación mecánica y de pronto sube la presión de la vía aérea y cae la presión arterial, piensa en esto: desconectas y descomprimes."
+  },
+  {
+   "id": "b019",
+   "t": 257.19,
+   "dur": 13.61,
+   "say": "Ahora el segundo cuadro. En el hemotórax masivo lo que llena la pleura no es aire, es sangre. Habitualmente viene del desgarro de vasos sistémicos: las arterias intercostales, la mamaria interna, o los grandes vasos del hilio."
+  },
+  {
+   "id": "b020",
+   "t": 271.25,
+   "dur": 12,
+   "say": "Se define como la acumulación rápida de mil quinientos mililitros de sangre o más en la cavidad pleural, o más de un tercio de la volemia del paciente. Esa cifra, mil quinientos, la vas a volver a ver en la conducta."
+  },
+  {
+   "id": "b021",
+   "t": 283.7,
+   "dur": 14.11,
+   "say": "Al examen, el hemitórax tiene el murmullo disminuido o abolido, igual que en el neumotórax. Pero a la percusión hay matidez franca, porque lo que hay es líquido, no aire. Mira esta radiografía: el hemitórax derecho ocupado por sangre."
+  },
+  {
+   "id": "b022",
+   "t": 298.26,
+   "dur": 9.6,
+   "say": "Y el shock tiene otro mecanismo: aquí el problema no es una obstrucción, es que el paciente perdió su sangre en el tórax. Es un shock hipovolémico, hemorrágico."
+  },
+  {
+   "id": "b023",
+   "t": 308.31,
+   "dur": 16.06,
+   "say": "Por eso las yugulares están planas, colapsadas: no hay volumen que las llene. Y esta es la diferencia que más se pregunta. Los dos tienen shock y murmullo abolido, pero el neumotórax a tensión tiene timpanismo y yugulares ingurgitadas, y el hemotórax, matidez y yugulares planas."
+  },
+  {
+   "id": "b024",
+   "t": 325.41,
+   "dur": 10.78,
+   "say": "El manejo inicial del hemotórax tiene dos brazos. El primero es reanimar con hemoderivados, en relación balanceada uno a uno a uno: glóbulos rojos, plasma fresco congelado y plaquetas."
+  },
+  {
+   "id": "b025",
+   "t": 336.64,
+   "dur": 8.78,
+   "say": "Y sin exceso de cristaloides, que diluyen la sangre y pueden desplazar los coágulos. La meta es una presión arterial sistólica cercana a noventa."
+  },
+  {
+   "id": "b026",
+   "t": 345.87,
+   "dur": 10.39,
+   "say": "El segundo brazo es instalar de inmediato un tubo pleural grueso, de veintiocho a treinta y dos French. Ese tubo drena la sangre, pero además te da el dato que decide todo: cuánto sale."
+  },
+  {
+   "id": "b027",
+   "t": 356.72,
+   "dur": 8.86,
+   "say": "Y el débito decide si el paciente va a pabellón. Criterio uno: si al instalar el tubo salen de inmediato mil quinientos mililitros de sangre o más."
+  },
+  {
+   "id": "b028",
+   "t": 366.02,
+   "dur": 5.98,
+   "say": "Criterio dos: si sigue sangrando más de doscientos mililitros por hora durante dos a cuatro horas seguidas."
+  },
+  {
+   "id": "b029",
+   "t": 372.45,
+   "dur": 11.42,
+   "say": "Y criterio tres: si necesita transfusiones de forma persistente para mantenerse estable. Cualquiera de los tres indica toracotomía abierta de urgencia, porque ese vaso no va a dejar de sangrar solo."
+  },
+  {
+   "id": "b030",
+   "t": 384.92,
+   "dur": 12.98,
+   "say": "Ordenemos las lesiones torácicas con riesgo vital, porque el examen te las mezcla en el mismo paciente. Si hay shock con yugulares ingurgitadas, timpanismo y tráquea desviada, es el neumotórax a tensión: aguja y después tubo."
+  },
+  {
+   "id": "b031",
+   "t": 398.36,
+   "dur": 16.73,
+   "say": "El taponamiento cardíaco también da hipotensión con yugulares ingurgitadas, más ruidos cardíacos apagados: la tríada de Beck. Pero los pulmones ventilan simétricos, sin timpanismo ni matidez, y la tráquea está en la línea media. Se trata con pericardiocentesis o ventana pericárdica."
+  },
+  {
+   "id": "b032",
+   "t": 415.53,
+   "dur": 8.02,
+   "say": "Si el shock viene con yugulares planas y matidez, es el hemotórax masivo: tubo grueso, hemoderivados y, según el débito, toracotomía."
+  },
+  {
+   "id": "b033",
+   "t": 424,
+   "dur": 14.47,
+   "say": "Y el tórax volante, con un segmento de la pared que se mueve al revés, la respiración paradójica, por fracturas costales múltiples. Aquí el problema es la contusión pulmonar debajo: oxígeno, analgesia, y ventilación mecánica si hay hipoxemia."
+  },
+  {
+   "id": "b034",
+   "t": 439.52,
+   "dur": 8.83,
+   "say": "Mira el pulmón derecho: el aire atrapado en la pleura lo colapsa, y la presión empuja el corazón y la tráquea hacia el otro lado. Eso es la tensión."
+  },
+  {
+   "id": "b035",
+   "t": 448.8,
+   "dur": 8.76,
+   "say": "La aguja entra en el segundo espacio intercostal, en la línea medioclavicular. El aire sale, el pulmón se reexpande y el mediastino vuelve al centro."
+  },
+  {
+   "id": "b036",
+   "t": 458.61,
+   "dur": 5.59,
+   "say": "Ahora juntemos todo en un solo árbol de decisión, tal como lo vas a razonar frente al paciente."
+  },
+  {
+   "id": "b037",
+   "t": 464.66,
+   "dur": 8.59,
+   "say": "Paciente con trauma de tórax, en shock, con el murmullo abolido en un hemitórax. No hay tiempo para imágenes: el examen físico decide."
+  },
+  {
+   "id": "b038",
+   "t": 473.7,
+   "dur": 7.9,
+   "say": "La primera pregunta es el cuello: ¿las yugulares están ingurgitadas o planas? Eso te dice si el shock es obstructivo o hipovolémico."
+  },
+  {
+   "id": "b039",
+   "t": 482.04,
+   "dur": 5.59,
+   "say": "Yugulares ingurgitadas: shock obstructivo. Ahora mira la percusión y la tráquea."
+  },
+  {
+   "id": "b040",
+   "t": 488.09,
+   "dur": 10.22,
+   "say": "Timpanismo y tráquea desviada al otro lado: neumotórax a tensión. Aguja gruesa en el segundo espacio intercostal, y luego tubo pleural. Sin radiografía."
+  },
+  {
+   "id": "b041",
+   "t": 498.76,
+   "dur": 7.92,
+   "say": "Si los pulmones ventilan simétricos y los ruidos cardíacos están apagados, es un taponamiento: pericardiocentesis o ventana pericárdica."
+  },
+  {
+   "id": "b042",
+   "t": 507.13,
+   "dur": 6.74,
+   "say": "Yugulares planas con matidez: hemotórax masivo. Tubo pleural grueso y reanimación con hemoderivados."
+  },
+  {
+   "id": "b043",
+   "t": 514.32,
+   "dur": 8.83,
+   "say": "Si al instalar el tubo salen mil quinientos mililitros o más, o sigue sangrando más de doscientos por hora durante dos a cuatro horas, va a toracotomía de urgencia."
+  },
+  {
+   "id": "b044",
+   "t": 523.61,
+   "dur": 5.23,
+   "say": "Si el débito es bajo y el paciente se estabiliza, se mantiene el tubo y se vigila el débito."
+  },
+  {
+   "id": "b045",
+   "t": 529.89,
+   "dur": 13.49,
+   "say": "Repasemos en una tabla, porque es exactamente como el examen te pone las alternativas. Los tres tienen hipotensión: obstructiva en el neumotórax a tensión, hipovolémica en el hemotórax, y como parte de la tríada de Beck en el taponamiento."
+  },
+  {
+   "id": "b046",
+   "t": 543.83,
+   "dur": 8.71,
+   "say": "Las yugulares: ingurgitadas en el neumotórax a tensión y en el taponamiento; planas en el hemotórax. Solo con eso ya separas al hemotórax."
+  },
+  {
+   "id": "b047",
+   "t": 552.99,
+   "dur": 6.84,
+   "say": "La percusión separa los otros dos: timpanismo en el neumotórax, matidez en el hemotórax, y normal en el taponamiento."
+  },
+  {
+   "id": "b048",
+   "t": 560.28,
+   "dur": 6.41,
+   "say": "El murmullo está abolido en el lado afectado en los dos cuadros pleurales, y conservado en ambos lados en el taponamiento."
+  },
+  {
+   "id": "b049",
+   "t": 567.14,
+   "dur": 9.1,
+   "say": "La tráquea se desvía claramente al lado contrario en el neumotórax a tensión; en el hemotórax está centrada o apenas desviada, y en el taponamiento, en la línea media."
+  },
+  {
+   "id": "b050",
+   "t": 576.68,
+   "dur": 9.02,
+   "say": "Y la conducta: aguja y luego tubo en el neumotórax a tensión; tubo y hemoderivados en el hemotórax; y pericardiocentesis o ventana pericárdica en el taponamiento."
+  },
+  {
+   "id": "b051",
+   "t": 586.76,
+   "dur": 23.16,
+   "say": "Vamos con un caso. Mujer de treinta años, conductora sin cinturón, tras una colisión frontal. Está pálida, sudorosa y confusa, con presión de setenta y ocho sobre cuarenta y ocho y ciento veinticuatro de pulso. Las yugulares están colapsadas. Tiene dolor en las costillas izquierdas, matidez en los dos tercios inferiores del hemitórax izquierdo, y no se escuchan ruidos respiratorios."
+  },
+  {
+   "id": "b052",
+   "t": 610.37,
+   "dur": 3.48,
+   "say": "¿Cuál es el diagnóstico más probable y la conducta inicial?"
+  },
+  {
+   "id": "b053",
+   "t": 614.3,
+   "dur": 12.84,
+   "say": "Las opciones: neumotórax a tensión con punción, taponamiento con pericardiocentesis, hemotórax masivo con tubo y hemoderivados, contusión pulmonar con analgesia, o una radiografía antes de decidir. Piénsalo."
+  },
+  {
+   "id": "b055",
+   "t": 630.79,
+   "dur": 20.35,
+   "say": "Es la C. Usa los dos signos de la tabla: yugulares planas y matidez. Eso es hemotórax masivo, un shock hipovolémico. El distractor tentador es el neumotórax a tensión, porque también hay shock y murmullo abolido, pero tendría timpanismo y yugulares ingurgitadas. Y la radiografía, en un paciente en shock, solo retrasa lo que salva la vida."
+  },
+  {
+   "id": "b056",
+   "t": 652.19,
+   "dur": 16.46,
+   "say": "Ahora preguntas reales, y parto con una que pone a prueba la regla al revés. Es del EUNACOM de julio de dos mil quince. Paciente de veintiocho años con una puñalada en el hemitórax derecho. Está en buenas condiciones, con dolor, murmullo disminuido e hipersonoridad a derecha."
+  },
+  {
+   "id": "b057",
+   "t": 669.1,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b058",
+   "t": 671.95,
+   "dur": 8.04,
+   "say": "Las alternativas: radiografía de tórax, resonancia, tubo pleural, TAC de tórax o videotoracoscopía. Piénsalo."
+  },
+  {
+   "id": "b060",
+   "t": 683.64,
+   "dur": 25.49,
+   "say": "Es la A, radiografía de tórax. Tiene un neumotórax traumático, pero fíjate que está en buenas condiciones: no hay shock, ni yugulares ingurgitadas, ni tráquea desviada. No es a tensión. Y la regla de no esperar la radiografía vale solo para el paciente inestable. Si está estable, la radiografía mide el neumotórax y busca un hemotórax asociado. El distractor tentador es el tubo, pero primero se confirma."
+  },
+  {
+   "id": "b061",
+   "t": 710.18,
+   "dur": 11.81,
+   "say": "Cerremos con las reglas de oro. Shock, yugulares ingurgitadas, tráquea desviada y timpanismo: neumotórax a tensión. El diagnóstico es clínico, y la radiografía está contraindicada."
+  },
+  {
+   "id": "b062",
+   "t": 722.44,
+   "dur": 8.9,
+   "say": "Aguja en el segundo espacio intercostal, línea medioclavicular, y después tubo pleural. Nunca ventilación con presión positiva antes de descomprimir."
+  },
+  {
+   "id": "b063",
+   "t": 731.79,
+   "dur": 6.29,
+   "say": "Matidez con yugulares planas: hemotórax masivo. Tubo grueso y hemoderivados uno a uno a uno."
+  },
+  {
+   "id": "b064",
+   "t": 738.53,
+   "dur": 6.62,
+   "say": "Y va a toracotomía si drena mil quinientos mililitros de entrada, o más de doscientos por hora durante dos a cuatro horas."
+  },
+  {
+   "id": "b065",
+   "t": 745.6,
+   "dur": 17.35,
+   "say": "Y la trampa inversa: si el paciente con neumotórax traumático está estable, primero va la radiografía. Si te llevas una sola idea de hoy: en el tórax traumatizado en shock, las venas del cuello y la percusión te dan el diagnóstico, y el tratamiento no espera ninguna imagen. Nos vemos en la próxima clase."
+  }
+ ]
+}

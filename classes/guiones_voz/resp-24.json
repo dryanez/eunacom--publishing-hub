@@ -1,0 +1,367 @@
+{
+ "id": "resp-24",
+ "title": "resp-24",
+ "total": 715.7460000000001,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 23.98,
+   "say": "Bienvenidos a la última clase del bloque. Hoy vemos la intoxicación por monóxido de carbono, una de las intoxicaciones letales más frecuentes del invierno en Chile, por braseros y calefones defectuosos. El examen la pregunta casi siempre con la misma trampa: un paciente con cefalea y una saturación de noventa y nueve por ciento. Vamos a entender por qué ese número no sirve, cómo se confirma y cuándo se deriva a cámara hiperbárica."
+  },
+  {
+   "id": "b002",
+   "t": 30.83,
+   "dur": 17.09,
+   "say": "Partamos por el mecanismo. El monóxido de carbono se produce por la combustión incompleta: un brasero en una pieza cerrada, un calefón defectuoso en el baño, un incendio. Es inodoro, incoloro, insípido y no irritante. El paciente no se da cuenta de que lo está respirando."
+  },
+  {
+   "id": "b003",
+   "t": 48.36,
+   "dur": 13.1,
+   "say": "El primer golpe es sobre la hemoglobina. El monóxido se une a ella con una afinidad doscientas a doscientas cincuenta veces mayor que el oxígeno, y forma carboxihemoglobina. Esa hemoglobina ya no puede transportar oxígeno."
+  },
+  {
+   "id": "b004",
+   "t": 61.92,
+   "dur": 14.3,
+   "say": "Además, desplaza la curva de disociación hacia la izquierda: la hemoglobina que sí lleva oxígeno se aferra a él y no lo entrega a los tejidos. Es un doble problema de transporte. Mira esta curva: con monóxido se desplaza hacia la izquierda."
+  },
+  {
+   "id": "b005",
+   "t": 76.67,
+   "dur": 17.9,
+   "say": "El segundo golpe es en la mitocondria. El monóxido bloquea el complejo cuatro de la cadena respiratoria, la citocromo c oxidasa. La célula no puede usar oxígeno aunque le llegue, y aparece la acidosis láctica. Por eso es una hipoxia celular, no una hipoxemia: y eso explica la trampa que viene."
+  },
+  {
+   "id": "b006",
+   "t": 95.63,
+   "dur": 9.7,
+   "say": "Veamos la clínica. El síntoma más precoz es la cefalea holocraneana pulsátil. Súmale náuseas, vómitos, mareos y debilidad muscular."
+  },
+  {
+   "id": "b007",
+   "t": 105.77,
+   "dur": 13.1,
+   "say": "Y la clave para sospecharla está en el contexto: invierno, un espacio cerrado con combustión, y muchas veces varias personas de la misma casa con los mismos síntomas. Una familia entera con cefalea es monóxido hasta demostrar lo contrario."
+  },
+  {
+   "id": "b008",
+   "t": 119.33,
+   "dur": 11.09,
+   "say": "En los casos graves aparece el compromiso neurológico y cardíaco: ataxia, síncope, convulsiones, coma y arritmias. El cerebro y el corazón son los que más sufren la hipoxia celular."
+  },
+  {
+   "id": "b009",
+   "t": 130.86,
+   "dur": 11.06,
+   "say": "Y ojo con la piel rojo cereza. Es el signo clásico de los libros, pero se ve en menos del cinco por ciento y es tardío. Si esperas verlo para sospechar, vas a llegar tarde."
+  },
+  {
+   "id": "b010",
+   "t": 142.98,
+   "dur": 12.53,
+   "say": "Ahora la trampa. Llega el paciente con cefalea desde una casa con brasero, le pones el saturómetro de dedo, y marca noventa y nueve por ciento. La tentación es tranquilizarse. No lo hagas."
+  },
+  {
+   "id": "b011",
+   "t": 155.96,
+   "dur": 15.62,
+   "say": "El oxímetro de pulso estándar mide solo dos longitudes de onda de luz, y con eso no puede distinguir la oxihemoglobina de la carboxihemoglobina. Lee la carboxihemoglobina como si fuera hemoglobina llena de oxígeno, y marca una saturación falsamente normal, incluso con niveles letales."
+  },
+  {
+   "id": "b012",
+   "t": 172.03,
+   "dur": 18.84,
+   "say": "Entonces, ¿cómo se confirma? Midiendo directamente la carboxihemoglobina en sangre, con co-oximetría, en gases arteriales o venosos. Ese es el examen de elección. Y fíjate que los gases convencionales tampoco sirven: la presión de oxígeno suele ser normal, porque el problema no es el oxígeno disuelto."
+  },
+  {
+   "id": "b013",
+   "t": 191.32,
+   "dur": 9.91,
+   "say": "Los niveles diagnósticos son una carboxihemoglobina sobre tres a cinco por ciento en el no fumador, o sobre diez por ciento en el fumador habitual, que ya parte con un nivel basal más alto."
+  },
+  {
+   "id": "b014",
+   "t": 202.28,
+   "dur": 15.26,
+   "say": "El tratamiento inmediato, para todos los pacientes, es oxígeno al cien por ciento por mascarilla con bolsa de no reinhalación, con reservorio, a quince litros por minuto y sin interrupciones por al menos seis horas. No se espera el resultado de la co-oximetría para empezar."
+  },
+  {
+   "id": "b015",
+   "t": 218,
+   "dur": 10.25,
+   "say": "¿Por qué con reservorio y no con naricera? Porque el oxígeno compite con el monóxido por la hemoglobina, y para ganar esa competencia necesitas la fracción inspirada más alta posible."
+  },
+  {
+   "id": "b016",
+   "t": 228.69,
+   "dur": 9.89,
+   "say": "Y la competencia se mide en vida media. Respirando aire ambiental, la carboxihemoglobina tarda trescientos veinte minutos en bajar a la mitad, unas cinco horas y media."
+  },
+  {
+   "id": "b017",
+   "t": 239.03,
+   "dur": 8.3,
+   "say": "Con oxígeno al cien por ciento en la urgencia, baja a ochenta minutos. Eso es lo que hace el tratamiento: acelerar la salida del monóxido."
+  },
+  {
+   "id": "b018",
+   "t": 247.79,
+   "dur": 9.43,
+   "say": "Y en la cámara hiperbárica, a dos coma cinco a tres atmósferas, baja a veinte o veinticinco minutos. Pero la cámara no es para todos, como vemos ahora."
+  },
+  {
+   "id": "b019",
+   "t": 258.27,
+   "dur": 9.94,
+   "say": "Las indicaciones de oxígeno hiperbárico son estrictas, y se preguntan. La primera es por el nivel: carboxihemoglobina sobre veinticinco por ciento, en cualquier paciente."
+  },
+  {
+   "id": "b020",
+   "t": 268.65,
+   "dur": 11.47,
+   "say": "En la embarazada el corte es más bajo: sobre quince por ciento. La hemoglobina fetal concentra más monóxido que la materna, y el feto puede sufrir hipoxia grave con una madre que se ve relativamente bien."
+  },
+  {
+   "id": "b021",
+   "t": 280.58,
+   "dur": 6.7,
+   "say": "Y por la clínica, aunque el nivel sea menor: la pérdida de conciencia o el síncope, el coma o las convulsiones."
+  },
+  {
+   "id": "b022",
+   "t": 287.72,
+   "dur": 4.1,
+   "say": "También el compromiso neurológico persistente o un déficit focal."
+  },
+  {
+   "id": "b023",
+   "t": 292.28,
+   "dur": 12.82,
+   "say": "Y la isquemia miocárdica, con angina o troponinas elevadas, o una acidosis metabólica severa y refractaria, con pH bajo siete coma quince. Fuera de estas indicaciones, el tratamiento es oxígeno normobárico."
+  },
+  {
+   "id": "b024",
+   "t": 306.14,
+   "dur": 13.56,
+   "say": "La intoxicación leve por monóxido tiene carboxihemoglobina entre diez y treinta por ciento, sin pérdida de conciencia ni alteración neurológica o cardíaca. Da cefalea, náuseas, mareo y fatiga, que se confunden con un cuadro viral."
+  },
+  {
+   "id": "b025",
+   "t": 320.15,
+   "dur": 6.29,
+   "say": "La pista es que se repite en varios miembros de la misma casa, en invierno, por braseros y estufas a combustión."
+  },
+  {
+   "id": "b026",
+   "t": 326.89,
+   "dur": 10.32,
+   "say": "Se trata con oxígeno al cien por ciento con mascarilla con reservorio hasta que la carboxihemoglobina baje de tres a cinco por ciento, unas cuatro a seis horas, con ECG y troponina en cardiópatas."
+  },
+  {
+   "id": "b027",
+   "t": 337.66,
+   "dur": 11.04,
+   "say": "Se deriva a urgencia si hay síntomas neurológicos, embarazo, carboxihemoglobina alta o fracaso del tratamiento. Y se educa: ventilar y no usar braseros ni parafina en dormitorios."
+  },
+  {
+   "id": "b028",
+   "t": 349.15,
+   "dur": 6.79,
+   "say": "El humo de un incendio en recinto cerrado agrega cianuro, con acidosis láctica y coma, y se trata con hidroxocobalamina."
+  },
+  {
+   "id": "b029",
+   "t": 356.39,
+   "dur": 10.15,
+   "say": "Los irritantes, como cloro o amoníaco, producen broncoespasmo y edema pulmonar: se retira la fuente, se da oxígeno y broncodilatadores y se observa de seis a veinticuatro horas."
+  },
+  {
+   "id": "b030",
+   "t": 367.59,
+   "dur": 11.69,
+   "say": "El material particulado fino, el ozono, el dióxido de nitrógeno y de azufre y el humo de leña causan exacerbaciones de asma y EPOC, infecciones respiratorias, cáncer de pulmón y enfermedad cardiovascular."
+  },
+  {
+   "id": "b031",
+   "t": 379.73,
+   "dur": 4.8,
+   "say": "Los más afectados son los niños, los adultos mayores y los enfermos crónicos."
+  },
+  {
+   "id": "b032",
+   "t": 384.98,
+   "dur": 9.98,
+   "say": "En el sur de Chile, la leña húmeda, y en Santiago, el invierno con inversión térmica, generan episodios críticos, con alerta, preemergencia y emergencia ambiental."
+  },
+  {
+   "id": "b033",
+   "t": 395.42,
+   "dur": 5.71,
+   "say": "Se sigue el índice de calidad del aire y se reduce la actividad física al aire libre los días de alerta."
+  },
+  {
+   "id": "b034",
+   "t": 401.58,
+   "dur": 7.06,
+   "say": "Se mantienen los controladores del asma y del EPOC, y en políticas públicas se promueve el recambio de calefactores y la leña seca."
+  },
+  {
+   "id": "b035",
+   "t": 409.68,
+   "dur": 12.46,
+   "say": "El monóxido se une a la hemoglobina doscientas veces más que el oxígeno y la ocupa. El saturómetro de dedo no lo distingue y marca noventa y nueve. Se trata con oxígeno al cien por ciento con mascarilla de reservorio."
+  },
+  {
+   "id": "b036",
+   "t": 431.88,
+   "dur": 3.89,
+   "say": "Juntemos todo en un árbol, desde la sospecha hasta la cámara."
+  },
+  {
+   "id": "b037",
+   "t": 436.22,
+   "dur": 6.72,
+   "say": "Paciente con cefalea, náuseas o mareo, que estuvo en un espacio cerrado con un brasero, un calefón o un incendio."
+  },
+  {
+   "id": "b038",
+   "t": 443.39,
+   "dur": 7.8,
+   "say": "Aunque el saturómetro marque noventa y nueve, se inicia oxígeno al cien por ciento con reservorio y se pide carboxihemoglobina por co-oximetría."
+  },
+  {
+   "id": "b039",
+   "t": 451.64,
+   "dur": 6.58,
+   "say": "¿La carboxihemoglobina está elevada? Sobre tres a cinco en el no fumador, o sobre diez en el fumador."
+  },
+  {
+   "id": "b040",
+   "t": 458.67,
+   "dur": 3.91,
+   "say": "Si no está elevada, busca otra causa para los síntomas."
+  },
+  {
+   "id": "b041",
+   "t": 463.03,
+   "dur": 13.63,
+   "say": "Confirmada la intoxicación, ¿tiene alguna indicación de cámara? Carboxihemoglobina sobre veinticinco, embarazada sobre quince, pérdida de conciencia, coma, convulsiones, déficit neurológico, isquemia o acidosis severa."
+  },
+  {
+   "id": "b042",
+   "t": 477.11,
+   "dur": 5.66,
+   "say": "Si no tiene ninguna, sigue con oxígeno normobárico al cien por ciento por al menos seis horas."
+  },
+  {
+   "id": "b043",
+   "t": 483.23,
+   "dur": 5.57,
+   "say": "Si tiene alguna, se deriva a oxígeno hiperbárico, sin suspender el oxígeno mientras tanto."
+  },
+  {
+   "id": "b044",
+   "t": 489.84,
+   "dur": 11.11,
+   "say": "Repasemos las trampas. Cefalea con brasero y saturación de noventa y nueve: oxígeno al cien por ciento y co-oximetría. El error es dar el alta porque el saturómetro está normal."
+  },
+  {
+   "id": "b045",
+   "t": 501.41,
+   "dur": 8.57,
+   "say": "Para confirmar, carboxihemoglobina. Los gases convencionales suelen salir normales, y el TAC de cerebro no diagnostica la intoxicación."
+  },
+  {
+   "id": "b046",
+   "t": 510.42,
+   "dur": 7.87,
+   "say": "Carboxihemoglobina de doce por ciento, sin síntomas graves: oxígeno normobárico. Mandar a cámara a todos es un error."
+  },
+  {
+   "id": "b047",
+   "t": 518.75,
+   "dur": 8.21,
+   "say": "Embarazada con dieciocho por ciento: cámara hiperbárica, porque su corte es quince. Aplicarle el corte de veinticinco es la trampa."
+  },
+  {
+   "id": "b048",
+   "t": 527.4,
+   "dur": 8.06,
+   "say": "Y si hubo síncope o pérdida de conciencia, el oxígeno parte de inmediato, y hay indicación de hiperbárico aunque el nivel no llegue a veinticinco."
+  },
+  {
+   "id": "b049",
+   "t": 536.52,
+   "dur": 21.07,
+   "say": "Vamos con un caso. Mujer de veintinueve años, embarazada de veintiséis semanas, traída desde su casa, donde tenía un brasero encendido en el dormitorio. Tiene cefalea intensa, náuseas y mareo, está consciente y sin focalidad. El saturómetro marca noventa y nueve por ciento, y la co-oximetría muestra una carboxihemoglobina de diecisiete por ciento."
+  },
+  {
+   "id": "b050",
+   "t": 558.04,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b051",
+   "t": 560.89,
+   "dur": 15.14,
+   "say": "Las alternativas: alta con paracetamol, naricera y control en veinticuatro horas, oxígeno al cien por ciento con reservorio y derivar a cámara hiperbárica, oxígeno normobárico solamente porque no llega a veinticinco, o TAC de cerebro antes del oxígeno. Piénsalo."
+  },
+  {
+   "id": "b053",
+   "t": 579.68,
+   "dur": 20.59,
+   "say": "Es la C. La intoxicación está confirmada, y el saturómetro normal no significa nada. El detalle que decide es el embarazo: su corte para cámara hiperbárica es quince por ciento, no veinticinco, porque la hemoglobina fetal concentra más monóxido. La D es la trampa: sería correcta en un adulto no embarazado, pero aquí deja al feto sin la protección que necesita."
+  },
+  {
+   "id": "b054",
+   "t": 601.33,
+   "dur": 19.68,
+   "say": "Ahora una pregunta real, del EUNACOM de diciembre de dos mil veinticinco. Paciente de veintisiete años con cefalea, malestar, disnea y opresión precordial, tres horas después de estar expuesto al humo de un incendio en su casa. Frecuencia respiratoria de treinta y cinco, saturación de noventa y seis, sin cianosis, y examen cardiopulmonar normal."
+  },
+  {
+   "id": "b055",
+   "t": 621.46,
+   "dur": 4.08,
+   "say": "¿Qué examen es el más adecuado para confirmar la sospecha diagnóstica?"
+  },
+  {
+   "id": "b056",
+   "t": 625.99,
+   "dur": 9.5,
+   "say": "Las opciones: radiografía de tórax, TAC de tórax, carboxihemoglobina, gases arteriales, o monitoreo transcutáneo de CO dos. Piénsalo."
+  },
+  {
+   "id": "b058",
+   "t": 639.14,
+   "dur": 23.69,
+   "say": "Es la C. Humo de incendio más cefalea, con una saturación normal: la sospecha es monóxido, y se confirma con carboxihemoglobina. Los gases arteriales son el distractor más tentador, porque suenan completos, pero los convencionales miden la presión de oxígeno, que suele salir normal. Lo que necesitas es la co-oximetría. Y la opresión precordial te obliga además a buscar isquemia, que sería indicación de cámara."
+  },
+  {
+   "id": "b059",
+   "t": 663.88,
+   "dur": 8.9,
+   "say": "Cerremos con las reglas de oro. La saturación normal no descarta la intoxicación: el oxímetro de pulso confunde la carboxihemoglobina con oxígeno."
+  },
+  {
+   "id": "b060",
+   "t": 673.23,
+   "dur": 5.74,
+   "say": "Lo que confirma es la carboxihemoglobina por co-oximetría, no los gases convencionales ni el TAC."
+  },
+  {
+   "id": "b061",
+   "t": 679.42,
+   "dur": 8.11,
+   "say": "El tratamiento para todos es oxígeno al cien por ciento con reservorio por al menos seis horas, que baja la vida media de trescientos veinte a ochenta minutos."
+  },
+  {
+   "id": "b062",
+   "t": 687.98,
+   "dur": 21.82,
+   "say": "Y la cámara hiperbárica, solo con carboxihemoglobina sobre veinticinco, embarazada sobre quince, pérdida de conciencia, compromiso neurológico, isquemia miocárdica o acidosis severa. Si te llevas una sola idea de hoy: frente a cefalea en invierno con brasero, el saturómetro miente; das oxígeno al cien por ciento y mides la carboxihemoglobina. Nos vemos en la próxima clase."
+  }
+ ]
+}

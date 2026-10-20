@@ -1,0 +1,421 @@
+{
+ "id": "nefro-11",
+ "title": "Acidosis Metabólica",
+ "total": 780.9420000000002,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 22.61,
+   "say": "Bienvenidos. Hoy entramos al equilibrio ácido base con la acidosis metabólica. Es uno de los ejercicios más estructurados del EUNACOM, y eso es una ventaja: si sigues siempre los mismos pasos, llegas a la respuesta. Vamos a aprender tres cálculos, la fórmula de Winter, el anion gap y la brecha osmolar, y una regla de tratamiento: el bicarbonato se usa mucho menos de lo que uno cree."
+  },
+  {
+   "id": "b002",
+   "t": 29.46,
+   "dur": 8.54,
+   "say": "Partamos por la definición. La acidosis metabólica es una caída primaria del bicarbonato plasmático, el principal amortiguador de la sangre."
+  },
+  {
+   "id": "b003",
+   "t": 38.45,
+   "dur": 7.34,
+   "say": "Con menos bicarbonato, el pH baja. Hablamos de acidemia cuando el pH está bajo siete coma treinta y cinco."
+  },
+  {
+   "id": "b004",
+   "t": 46.25,
+   "dur": 12.02,
+   "say": "Y el pulmón responde de inmediato: el paciente hiperventila, con esa respiración profunda y rápida que se llama de Kussmaul, para botar CO dos y así levantar el pH. Esa es la compensación respiratoria."
+  },
+  {
+   "id": "b005",
+   "t": 58.72,
+   "dur": 12.19,
+   "say": "Ahora, el bicarbonato puede caer por dos razones: porque se agregó un ácido que lo consume, o porque se perdió bicarbonato. Distinguir esas dos es el trabajo del anion gap, que es el divisor de toda la clase."
+  },
+  {
+   "id": "b006",
+   "t": 71.96,
+   "dur": 9.36,
+   "say": "Veamos cómo leer los gases. Primer paso, el pH: bajo siete coma treinta y cinco es acidemia, sobre siete coma cuarenta y cinco es alcalemia."
+  },
+  {
+   "id": "b007",
+   "t": 81.77,
+   "dur": 7.75,
+   "say": "Segundo paso: ¿quién explica ese pH? Si el bicarbonato está bajo veintidós, el componente primario es metabólico."
+  },
+  {
+   "id": "b008",
+   "t": 89.97,
+   "dur": 14.28,
+   "say": "Tercer paso, y el que más se pregunta: ¿el pulmón está compensando lo que corresponde? Para eso usas la fórmula de Winter. La presión de CO dos esperada es uno coma cinco por el bicarbonato, más ocho, con un margen de más o menos dos."
+  },
+  {
+   "id": "b009",
+   "t": 104.7,
+   "dur": 6.31,
+   "say": "Si la presión de CO dos medida cae dentro de ese rango, la compensación es adecuada y hay un solo trastorno."
+  },
+  {
+   "id": "b010",
+   "t": 111.47,
+   "dur": 15.79,
+   "say": "Si la presión de CO dos medida es mayor que la esperada, el pulmón no está botando lo suficiente: hay una acidosis respiratoria agregada, por ejemplo por fatiga muscular. Si es menor, hay una alcalosis respiratoria agregada. Así se detecta un trastorno mixto."
+  },
+  {
+   "id": "b011",
+   "t": 128.31,
+   "dur": 10.51,
+   "say": "Hagamos un ejemplo, porque así sale en el examen. Paciente en shock séptico con bicarbonato de diez. Uno coma cinco por diez da quince; más ocho, veintitrés."
+  },
+  {
+   "id": "b012",
+   "t": 139.27,
+   "dur": 5.86,
+   "say": "Con el margen de dos, la presión de CO dos esperada va de veintiuno a veinticinco milímetros de mercurio."
+  },
+  {
+   "id": "b013",
+   "t": 145.58,
+   "dur": 9.86,
+   "say": "Si la presión de CO dos medida estuviera sobre veinticinco, hay una acidosis respiratoria agregada: el paciente se está cansando, y eso es una alarma para apoyar la ventilación."
+  },
+  {
+   "id": "b014",
+   "t": 155.89,
+   "dur": 7.82,
+   "say": "Si estuviera bajo veintiuno, hay una alcalosis respiratoria agregada: algo, además de la acidosis, está estimulando la respiración."
+  },
+  {
+   "id": "b015",
+   "t": 164.76,
+   "dur": 11.16,
+   "say": "El cuarto paso es el anion gap. Es el sodio menos la suma del cloro y el bicarbonato. Representa los aniones que no medimos, y lo normal es de ocho a doce miliequivalentes por litro."
+  },
+  {
+   "id": "b016",
+   "t": 176.37,
+   "dur": 8.16,
+   "say": "¿Y quiénes son esos aniones no medidos? Principalmente las cargas negativas de la albúmina. Esto es clave para lo que sigue."
+  },
+  {
+   "id": "b017",
+   "t": 184.98,
+   "dur": 12.38,
+   "say": "Si la albúmina está baja, como en el paciente crítico, nefrótico o cirrótico, el anion gap se subestima. Por cada gramo por decilitro que la albúmina baje de cuatro, sumas dos coma cinco al anion gap calculado."
+  },
+  {
+   "id": "b018",
+   "t": 197.82,
+   "dur": 7.13,
+   "say": "Si no corriges, una acidosis con anion gap elevado puede hacerse pasar por normal. Y te equivocas de causa."
+  },
+  {
+   "id": "b019",
+   "t": 206,
+   "dur": 12.29,
+   "say": "Si el anion gap está sobre doce, se agregó un ácido. Su anión ocupa el lugar del bicarbonato sin que suba el cloro, por eso se llama normoclorémica. La mnemotecnia clásica es MUDPILES, o KUSSMAUL."
+  },
+  {
+   "id": "b020",
+   "t": 218.73,
+   "dur": 8.04,
+   "say": "La primera, cetoacidosis: la diabética, con acetoacetato y beta hidroxibutirato, pero también la alcohólica y la del ayuno prolongado."
+  },
+  {
+   "id": "b021",
+   "t": 227.22,
+   "dur": 6.22,
+   "say": "Uremia: la insuficiencia renal aguda severa o la crónica avanzada, que retiene sulfatos y fosfatos."
+  },
+  {
+   "id": "b022",
+   "t": 233.89,
+   "dur": 9.14,
+   "say": "Acidosis láctica: el shock séptico, cardiogénico o hipovolémico, con lactato sobre dos milimoles por litro, y también la intoxicación por metformina."
+  },
+  {
+   "id": "b023",
+   "t": 243.48,
+   "dur": 9.22,
+   "say": "Salicilatos: la intoxicación por aspirina da típicamente acidosis metabólica con una alcalosis respiratoria precoz. Es un trastorno mixto de libro."
+  },
+  {
+   "id": "b024",
+   "t": 253.15,
+   "dur": 11.28,
+   "say": "Y los alcoholes tóxicos: el metanol, que produce ácido fórmico y daña el ojo hasta la ceguera; y el etilenglicol, que produce ácido oxálico, falla renal y cristales de oxalato de calcio en la orina."
+  },
+  {
+   "id": "b025",
+   "t": 265.48,
+   "dur": 15.6,
+   "say": "Si el anion gap es normal, entre ocho y doce, no se agregó un ácido: se perdió bicarbonato, y el riñón reabsorbe cloro para mantener la electroneutralidad. Por eso es hiperclorémica. La causa más frecuente es la diarrea profusa, y también las fístulas."
+  },
+  {
+   "id": "b026",
+   "t": 281.53,
+   "dur": 7.61,
+   "say": "Para separarla de una causa renal sirve el anion gap urinario: en la diarrea es negativo, porque el riñón sano sigue excretando amonio."
+  },
+  {
+   "id": "b027",
+   "t": 289.59,
+   "dur": 12.79,
+   "say": "En las acidosis tubulares renales, el anion gap urinario es positivo. La tipo uno, distal, no logra secretar protones: la orina queda con pH sobre cinco coma cinco, con hipokalemia y nefrocalcinosis."
+  },
+  {
+   "id": "b028",
+   "t": 302.83,
+   "dur": 13.34,
+   "say": "La tipo dos, proximal, no reabsorbe bicarbonato, con hipokalemia y a veces síndrome de Fanconi. Y la tipo cuatro es un hipoaldosteronismo, la única con hiperkalemia. Esa diferencia de potasio se pregunta."
+  },
+  {
+   "id": "b029",
+   "t": 316.62,
+   "dur": 7.85,
+   "say": "Y la causa que uno mismo provoca: grandes volúmenes de suero fisiológico, que tiene ciento cincuenta y cuatro de cloro y desplaza al bicarbonato."
+  },
+  {
+   "id": "b030",
+   "t": 325.52,
+   "dur": 8.3,
+   "say": "Ahora, ¿qué haces con un anion gap elevado que no se explica, sin cetosis, sin lactato alto y sin uremia? Calculas la brecha osmolar."
+  },
+  {
+   "id": "b031",
+   "t": 334.28,
+   "dur": 8.35,
+   "say": "Primero la osmolaridad calculada: dos por el sodio, más la glicemia dividida por dieciocho, más el nitrógeno ureico dividido por dos coma ocho."
+  },
+  {
+   "id": "b032",
+   "t": 343.08,
+   "dur": 8.4,
+   "say": "Luego restas: osmolaridad medida por el laboratorio menos la calculada. Esa diferencia es una sustancia con osmoles que no estás midiendo."
+  },
+  {
+   "id": "b033",
+   "t": 351.93,
+   "dur": 13.3,
+   "say": "Si la brecha es mayor de diez, denuncia un alcohol tóxico: metanol o etilenglicol. Y la clínica ayuda: el metanol da visión borrosa, descrita como una tormenta de nieve, por la toxicidad del ácido fórmico sobre el nervio óptico."
+  },
+  {
+   "id": "b034",
+   "t": 365.67,
+   "dur": 11.06,
+   "say": "El tratamiento tiene dos piezas: el antídoto, fomepizol o etanol, que bloquea la formación de los metabolitos tóxicos, y la hemodiálisis de urgencia para sacar el tóxico antes de que dañe los órganos."
+  },
+  {
+   "id": "b035",
+   "t": 377.79,
+   "dur": 20.81,
+   "say": "Vamos al tratamiento, y partamos por lo que el bicarbonato puede hacer mal. Primero, la acidosis intracelular paradójica. Al amortiguar protones, el bicarbonato genera CO dos, un gas que cruza libremente la barrera hematoencefálica, mientras el bicarbonato no la cruza. Resultado: la sangre mejora y el líquido cefalorraquídeo se acidifica."
+  },
+  {
+   "id": "b036",
+   "t": 399.05,
+   "dur": 9.53,
+   "say": "Segundo, la hipocalcemia iónica aguda. Al subir el pH, la albúmina captura más calcio libre, y puede aparecer tetania y colapso cardiovascular."
+  },
+  {
+   "id": "b037",
+   "t": 409.02,
+   "dur": 4.06,
+   "say": "Y tercero, una sobrecarga masiva de sodio con hipervolemia."
+  },
+  {
+   "id": "b038",
+   "t": 414.13,
+   "dur": 9.34,
+   "say": "Por eso el bicarbonato endovenoso se reserva para la acidosis crítica: pH bajo siete coma diez, o bicarbonato bajo seis a ocho, con inestabilidad hemodinámica."
+  },
+  {
+   "id": "b039",
+   "t": 423.92,
+   "dur": 8.45,
+   "say": "Y aun así, con bicarbonato dos tercios molar en infusión lenta, y con una meta modesta: llevar el pH a siete coma veinte, no normalizarlo."
+  },
+  {
+   "id": "b040",
+   "t": 432.81,
+   "dur": 12.12,
+   "say": "La otra indicación son las pérdidas puras de bicarbonato. En la acidosis tubular renal crónica se da bicarbonato o citrato de potasio por boca, para prevenir la osteomalacia, el raquitismo y la nefrocalcinosis."
+  },
+  {
+   "id": "b041",
+   "t": 445.38,
+   "dur": 15.31,
+   "say": "En la cetoacidosis diabética y la acidosis láctica moderada, con pH sobre siete coma quince, el tratamiento es la causa: fluidos e insulina. Al corregir la causa, el cuerpo metaboliza los cetoácidos y el lactato, y los convierte de vuelta en bicarbonato propio."
+  },
+  {
+   "id": "b042",
+   "t": 461.75,
+   "dur": 15.31,
+   "say": "Primero el pH: siete veinticinco es acidemia. El bicarbonato bajo dice que es metabólica. La fórmula de Winter predice una pCO dos de veintiuno a veinticinco, y está en veintitrés: compensada. Y el anión gap de veinticinco es alto."
+  },
+  {
+   "id": "b043",
+   "t": 478.11,
+   "dur": 5.38,
+   "say": "Juntemos todo en un árbol de decisión, como vas a leer cualquier gas con acidosis metabólica."
+  },
+  {
+   "id": "b044",
+   "t": 483.93,
+   "dur": 6.53,
+   "say": "Tienes un pH bajo con bicarbonato bajo: es una acidosis metabólica. Ahora, los pasos."
+  },
+  {
+   "id": "b045",
+   "t": 490.91,
+   "dur": 9.72,
+   "say": "Primero la compensación. ¿La presión de CO dos medida cae en el rango que predice Winter? Si no, anota un trastorno respiratorio agregado y sigue."
+  },
+  {
+   "id": "b046",
+   "t": 501.08,
+   "dur": 4.99,
+   "say": "Luego el anion gap, corregido por la albúmina. ¿Está sobre doce?"
+  },
+  {
+   "id": "b047",
+   "t": 506.52,
+   "dur": 10.85,
+   "say": "Si es normal, se perdió bicarbonato: diarrea, acidosis tubular renal o exceso de suero fisiológico. Trata la causa; en la acidosis tubular crónica, álcali oral."
+  },
+  {
+   "id": "b048",
+   "t": 517.82,
+   "dur": 7.87,
+   "say": "Si está alto, se agregó un ácido. Si no hay cetosis, lactato ni uremia que lo expliquen, calcula la brecha osmolar."
+  },
+  {
+   "id": "b049",
+   "t": 526.14,
+   "dur": 11.38,
+   "say": "Sin brecha, es cetoacidosis, acidosis láctica o uremia: se trata la causa con fluidos, insulina y soporte. Bicarbonato solo con pH bajo siete coma diez e inestabilidad."
+  },
+  {
+   "id": "b050",
+   "t": 537.97,
+   "dur": 6.31,
+   "say": "Con brecha osmolar sobre diez, es un alcohol tóxico: fomepizol o etanol, y hemodiálisis de urgencia."
+  },
+  {
+   "id": "b051",
+   "t": 545.33,
+   "dur": 9.67,
+   "say": "Repasemos las trampas. Si la presión de CO dos no cae en el rango de Winter, hay un segundo trastorno. El error es asumir que todo es compensación."
+  },
+  {
+   "id": "b052",
+   "t": 555.45,
+   "dur": 4.7,
+   "say": "Con albúmina baja, corrige el anion gap antes de descartar que esté elevado."
+  },
+  {
+   "id": "b053",
+   "t": 560.61,
+   "dur": 9.46,
+   "say": "En la enfermedad renal crónica intermedia, la acidosis es con anion gap normal, por menor producción de amonio. El anion gap sube recién en la etapa terminal."
+  },
+  {
+   "id": "b054",
+   "t": 570.51,
+   "dur": 5.66,
+   "say": "Anion gap alto con brecha osmolar sobre diez es un alcohol tóxico, y va antídoto más diálisis."
+  },
+  {
+   "id": "b055",
+   "t": 576.63,
+   "dur": 6.65,
+   "say": "En la cetoacidosis, aun con pH de siete coma doce, no va bicarbonato de rutina: fluidos e insulina."
+  },
+  {
+   "id": "b056",
+   "t": 583.73,
+   "dur": 6.41,
+   "say": "Y cuando el bicarbonato sí está indicado, el error es querer normalizar el pH: la meta es siete coma veinte."
+  },
+  {
+   "id": "b057",
+   "t": 591.18,
+   "dur": 26.26,
+   "say": "Vamos al caso. Hombre de veinticuatro años con diabetes tipo uno que suspendió la insulina hace dos días. Llega estuporoso, con respiración de Kussmaul, aliento cetónico, hipotenso, taquicárdico y deshidratado. pH siete coma doce, presión de CO dos de dieciséis, bicarbonato de cinco. Glicemia de cuatrocientos ochenta, sodio ciento treinta y cuatro, cloro noventa y ocho, potasio cinco coma dos, y cetonemia alta."
+  },
+  {
+   "id": "b058",
+   "t": 617.89,
+   "dur": 3.94,
+   "say": "¿Cuál es la conducta más adecuada respecto del trastorno ácido base?"
+  },
+  {
+   "id": "b059",
+   "t": 622.28,
+   "dur": 11.42,
+   "say": "Las opciones: bicarbonato hasta normalizar el pH, cristaloides e insulina en infusión, intubar e hiperventilar, hemodiálisis de urgencia, o fomepizol con hemodiálisis. Piénsalo."
+  },
+  {
+   "id": "b061",
+   "t": 637.35,
+   "dur": 23.3,
+   "say": "Es la B. El anion gap da treinta y uno, elevado por cetoácidos, y Winter da trece y medio a diecisiete y medio: su presión de CO dos de dieciséis es compensación pura. El tratamiento es la causa, fluidos e insulina, que frena la lipólisis y devuelve el bicarbonato. El distractor es el bicarbonato: con pH de siete coma doce no está indicado, y normalizar el pH nunca es la meta."
+  },
+  {
+   "id": "b062",
+   "t": 661.7,
+   "dur": 19.08,
+   "say": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Paciente de sesenta y seis años con enfermedad renal crónica etapa tres b, creatinina estable de uno coma ocho y clearance de treinta y cinco. Sodio ciento treinta y ocho, cloro ciento dos, potasio cuatro coma ocho, bicarbonato dieciséis y anion gap de diez."
+  },
+  {
+   "id": "b063",
+   "t": 681.23,
+   "dur": 3.17,
+   "say": "¿Cuál es la causa más probable de sus alteraciones?"
+  },
+  {
+   "id": "b064",
+   "t": 684.85,
+   "dur": 11.14,
+   "say": "Las opciones: acumulación de ácidos orgánicos, disminución de la producción de bicarbonato, cetosis, acumulación de ácido úrico, o intoxicación por medicamentos. Piénsalo."
+  },
+  {
+   "id": "b066",
+   "t": 699.64,
+   "dur": 20.9,
+   "say": "Es la B. El bicarbonato está bajo y el anion gap es de diez, normal. Entonces no se agregó un ácido: el riñón enfermo produce menos amonio y regenera menos bicarbonato. El distractor es la A, porque uno asocia insuficiencia renal con uremia, pero la acumulación de ácidos orgánicos, que sube el anion gap, aparece recién en la etapa terminal."
+  },
+  {
+   "id": "b067",
+   "t": 721.59,
+   "dur": 12.07,
+   "say": "Cerremos con las reglas de oro. Lee siempre en el mismo orden: pH, bicarbonato, Winter y anion gap. Si la presión de CO dos cae fuera del rango de Winter, hay un segundo trastorno."
+  },
+  {
+   "id": "b068",
+   "t": 734.11,
+   "dur": 7.39,
+   "say": "Anion gap alto significa que se agregó un ácido; normal, que se perdió bicarbonato. Y corrige por la albúmina."
+  },
+  {
+   "id": "b069",
+   "t": 741.96,
+   "dur": 5.78,
+   "say": "Con anion gap alto sin explicación, calcula la brecha osmolar: sobre diez es un alcohol tóxico."
+  },
+  {
+   "id": "b070",
+   "t": 748.19,
+   "dur": 4.2,
+   "say": "Se trata la causa: en la cetoacidosis, fluidos e insulina."
+  },
+  {
+   "id": "b071",
+   "t": 752.84,
+   "dur": 22.15,
+   "say": "El bicarbonato, solo con pH bajo siete coma diez e inestabilidad, y sin normalizar. En la próxima clase vemos el trastorno opuesto, la alcalosis metabólica, y cómo se combinan los trastornos. Si te llevas una sola idea de hoy: la acidosis metabólica se diagnostica con el anion gap y se trata corrigiendo la causa, no con bicarbonato. Nos vemos en la próxima clase."
+  }
+ ]
+}

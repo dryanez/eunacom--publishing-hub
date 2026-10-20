@@ -1,0 +1,505 @@
+{
+ "id": "hem-06",
+ "title": "Anemias Macrocíticas y Megaloblásticas",
+ "total": 1005.1139999999998,
+ "beats": [
+  {
+   "id": "b001",
+   "t": 5.8,
+   "dur": 24.53,
+   "say": "Bienvenidos. En la clase anterior vimos una pancitopenia con la médula vacía. Hoy vemos otra pancitopenia, pero con una médula llena de células que no logran madurar: la anemia megaloblástica. Es uno de los temas más preguntados del bloque, y casi todo se resuelve separando dos vitaminas: la B doce, que daña los nervios, y el ácido fólico, que no. Y hay un error que el examen castiga siempre: dar ácido fólico solo."
+  },
+  {
+   "id": "b002",
+   "t": 31.38,
+   "dur": 13.9,
+   "say": "Partamos por el mecanismo común. La vitamina B doce y el ácido fólico son cofactores indispensables para fabricar timidilato, una de las piezas del ADN. Si falta cualquiera de las dos, la célula no puede duplicar su ADN."
+  },
+  {
+   "id": "b003",
+   "t": 45.72,
+   "dur": 11.33,
+   "say": "Pero fíjate en el detalle: lo que falla es solo el ADN. La síntesis de ARN y de proteínas del citoplasma sigue normal. La célula sigue creciendo, pero no logra dividirse."
+  },
+  {
+   "id": "b004",
+   "t": 57.5,
+   "dur": 7.49,
+   "say": "Eso produce la asincronía de maduración núcleo-citoplasmática: un núcleo inmaduro dentro de un citoplasma grande y cargado de hemoglobina."
+  },
+  {
+   "id": "b005",
+   "t": 65.44,
+   "dur": 23.59,
+   "say": "Esas células son los megaloblastos. A la sangre salen glóbulos rojos grandes y ovalados, los macroovalocitos, y neutrófilos con más de cinco lóbulos, los pleocariocitos. Mira este frotis: macroovalocitos y un neutrófilo hipersegmentado. Y como el defecto es del ADN, afecta a todas las series: por eso puede haber pancitopenia, igual que en la aplasia de la clase anterior, pero con una médula llena."
+  },
+  {
+   "id": "b006",
+   "t": 89.48,
+   "dur": 19.82,
+   "say": "Muchos de estos precursores mueren dentro de la médula antes de salir. Es la eritropoyesis ineficaz, una verdadera hemólisis intramedular, y por eso suben la LDH y la bilirrubina indirecta, a veces de forma desproporcionada. Guarda esto, porque es la trampa de varias preguntas reales: parece una hemólisis, pero los reticulocitos están bajos."
+  },
+  {
+   "id": "b007",
+   "t": 110.36,
+   "dur": 13.15,
+   "say": "Para entender las causas, sigamos el viaje de cada vitamina. La B doce viene exclusivamente de alimentos de origen animal: carnes, lácteos y huevos. Por eso el vegano estricto, con los años, se queda sin B doce."
+  },
+  {
+   "id": "b008",
+   "t": 123.96,
+   "dur": 13.68,
+   "say": "En el estómago, el ácido clorhídrico y la pepsina la liberan de las proteínas, y se une al factor intrínseco, una glicoproteína que fabrican las células parietales del fondo y del cuerpo gástrico. Sin esas células, no hay factor intrínseco."
+  },
+  {
+   "id": "b009",
+   "t": 138.09,
+   "dur": 14.35,
+   "say": "El complejo de B doce con factor intrínseco recorre todo el intestino delgado y se absorbe recién en los últimos sesenta centímetros del íleon terminal, a través del receptor cubilina. Así que hay dos lugares donde el viaje se puede cortar: el estómago y el íleon."
+  },
+  {
+   "id": "b010",
+   "t": 152.89,
+   "dur": 15.31,
+   "say": "Y un dato clave: el hígado guarda entre tres mil y cinco mil microgramos de B doce. Por eso, aunque el aporte se corte del todo, la deficiencia tarda tres a cinco años en aparecer. El gastrectomizado de hoy es el paciente con anemia de dentro de algunos años."
+  },
+  {
+   "id": "b011",
+   "t": 168.65,
+   "dur": 9.7,
+   "say": "El folato es distinto. Viene de vegetales verdes crudos, legumbres y frutas, y se absorbe rápido en el yeyuno proximal, sin necesidad de factor intrínseco."
+  },
+  {
+   "id": "b012",
+   "t": 178.8,
+   "dur": 17.54,
+   "say": "Pero sus reservas son muy pequeñas, de cinco a diez miligramos, y se agotan en solo tres a cuatro meses. Por eso el déficit de folato aparece rápido en la desnutrición, en el alcoholismo o en el embarazo, cuando la demanda sube. Años para la B doce, meses para el folato: esa diferencia se pregunta."
+  },
+  {
+   "id": "b013",
+   "t": 197.39,
+   "dur": 9.48,
+   "say": "Ahora, lo que más se pregunta: ¿por qué la B doce daña el sistema nervioso y el folato no? La respuesta está en que la B doce es cofactor de dos enzimas distintas."
+  },
+  {
+   "id": "b014",
+   "t": 207.32,
+   "dur": 13.92,
+   "say": "La primera es la metionina sintasa, que convierte homocisteína en metionina, y que está acoplada al metabolismo del folato. Si falla, sube la homocisteína. Y como esa vía es compartida, la homocisteína sube en los dos déficits."
+  },
+  {
+   "id": "b015",
+   "t": 221.69,
+   "dur": 10.03,
+   "say": "La segunda es la metilmalonil coenzima A mutasa, en la mitocondria. Esta vía es exclusiva de la B doce. Si falla, se acumula ácido metilmalónico."
+  },
+  {
+   "id": "b016",
+   "t": 232.17,
+   "dur": 15.38,
+   "say": "Ese ácido metilmalónico, junto con ácidos grasos anómalos, se incorpora a las vainas de mielina y produce una desmielinización progresiva: la degeneración combinada subaguda de la médula espinal. Combinada, porque toma los cordones posteriores y los laterales a la vez."
+  },
+  {
+   "id": "b017",
+   "t": 248.01,
+   "dur": 17.5,
+   "say": "El déficit de folato solo toca la primera vía. Sube la homocisteína, pero el ácido metilmalónico queda normal, y no hay degeneración combinada subaguda. Esa es la regla del tema: neurología y ácido metilmalónico alto, B doce; sin neurología y metilmalónico normal, folato."
+  },
+  {
+   "id": "b018",
+   "t": 266.55,
+   "dur": 21.22,
+   "say": "Veamos cómo se ve esto al examen. Los cordones posteriores llevan la sensibilidad vibratoria y la posicional. Al perderse, el paciente camina con ataxia sensitiva, tiene Romberg positivo y, típicamente, le cuesta caminar en la oscuridad, porque ya no puede corregir con la vista. En esta resonancia de la médula cervical se ve la señal alta en los cordones posteriores."
+  },
+  {
+   "id": "b019",
+   "t": 288.22,
+   "dur": 13.01,
+   "say": "Los cordones laterales llevan la vía piramidal. Su daño da espasticidad, hiperreflexia, clonus y Babinski bilateral. Un paciente con Romberg positivo y Babinski bilateral a la vez te tiene que hacer pensar en B doce."
+  },
+  {
+   "id": "b020",
+   "t": 301.68,
+   "dur": 9.34,
+   "say": "Además hay neuropatía periférica: parestesias en guante y calcetín, ardor en los pies e hipoestesia distal. Es la que mejor revierte con la reposición precoz."
+  },
+  {
+   "id": "b021",
+   "t": 311.46,
+   "dur": 13.22,
+   "say": "Y en el cerebro, apatía, depresión, pérdida de memoria, hasta la llamada locura megaloblástica. En el adulto mayor con deterioro cognitivo y VCM alto, siempre se mide la B doce, porque es una demencia reversible."
+  },
+  {
+   "id": "b022",
+   "t": 325.14,
+   "dur": 9.46,
+   "say": "Fuera del sistema nervioso, la glositis de Hunter: una lengua lisa, depapilada y dolorosa, como la de esta paciente, que resuelve en pocos días de tratamiento."
+  },
+  {
+   "id": "b023",
+   "t": 335.04,
+   "dur": 14.86,
+   "say": "Y el pronóstico neurológico depende del tiempo. Si el daño lleva menos de seis a doce meses, revierte. Si ya hay pérdida axonal, puede quedar para siempre. Por eso esto es una urgencia relativa, no un hallazgo para el próximo control."
+  },
+  {
+   "id": "b024",
+   "t": 350.95,
+   "dur": 14.45,
+   "say": "La causa más común de déficit grave de B doce en el adulto mayor es la anemia perniciosa. Es una gastritis atrófica autoinmune, tipo A, en que linfocitos T destruyen las células parietales. Resultado: aclorhidria y cero factor intrínseco."
+  },
+  {
+   "id": "b025",
+   "t": 365.85,
+   "dur": 10.58,
+   "say": "Se asocia a dos anticuerpos. Los anti factor intrínseco son muy específicos, noventa y cinco por ciento; los anti células parietales son muy sensibles, noventa por ciento."
+  },
+  {
+   "id": "b026",
+   "t": 376.88,
+   "dur": 10.18,
+   "say": "Y viaja con otras autoinmunidades: tiroiditis de Hashimoto, vitíligo y diabetes tipo uno. Además triplica el riesgo de adenocarcinoma gástrico y de tumores carcinoides."
+  },
+  {
+   "id": "b027",
+   "t": 387.51,
+   "dur": 8.16,
+   "say": "Las otras causas siguen el viaje que vimos. En el estómago: gastrectomía total o en manga, y bypass gástrico en Y de Roux."
+  },
+  {
+   "id": "b028",
+   "t": 396.12,
+   "dur": 6.05,
+   "say": "En el intestino: enfermedad de Crohn del íleon, resección ileal e insuficiencia pancreática exocrina."
+  },
+  {
+   "id": "b029",
+   "t": 402.62,
+   "dur": 7.39,
+   "say": "Y dos fármacos que se usan muchísimo: la metformina y los inhibidores de la bomba de protones, usados por más de tres a cinco años."
+  },
+  {
+   "id": "b030",
+   "t": 410.46,
+   "dur": 11.52,
+   "say": "El déficit de folato tiene otro perfil: alcoholismo crónico, que bloquea la absorción y desnutre; hepatopatía avanzada; embarazo sin suplementación; y anemia hemolítica crónica, que consume folato."
+  },
+  {
+   "id": "b031",
+   "t": 422.43,
+   "dur": 11.52,
+   "say": "Y fármacos: los que bloquean la dihidrofolato reductasa, como el metotrexato, la trimetoprima y la pirimetamina, y los que aceleran su degradación, como la fenitoína, el fenobarbital y la carbamazepina."
+  },
+  {
+   "id": "b032",
+   "t": 435,
+   "dur": 11.35,
+   "say": "El hemograma muestra una macrocitosis llamativa, con VCM típicamente entre ciento diez y ciento treinta. Y puede acompañarse de leucopenia y trombocitopenia, por la eritropoyesis ineficaz."
+  },
+  {
+   "id": "b033",
+   "t": 446.8,
+   "dur": 14.16,
+   "say": "La LDH y la bilirrubina indirecta suben por la hemólisis intramedular, pero los reticulocitos están bajos. Esa es la clave para no confundirla con la anemia hemolítica que vemos en la próxima clase: en la hemólisis la médula responde, aquí no puede."
+  },
+  {
+   "id": "b034",
+   "t": 461.41,
+   "dur": 5.86,
+   "say": "Y la ferritina y el hierro sérico suelen estar normales o altos, por la misma lisis de precursores."
+  },
+  {
+   "id": "b035",
+   "t": 467.72,
+   "dur": 7.42,
+   "say": "El déficit se confirma midiendo las vitaminas. Una B doce bajo doscientos picogramos por mililitro confirma el déficit."
+  },
+  {
+   "id": "b036",
+   "t": 475.58,
+   "dur": 7.13,
+   "say": "Y un folato intraeritrocitario bajo ciento cincuenta confirma el de folato. Se piden las dos, siempre juntas."
+  },
+  {
+   "id": "b037",
+   "t": 483.16,
+   "dur": 12.14,
+   "say": "El problema es la zona gris, con una B doce entre doscientos y trescientos cincuenta. Ahí se mide el ácido metilmalónico: si está sobre cero coma cuatro micromoles por litro, confirma el déficit celular de B doce."
+  },
+  {
+   "id": "b038",
+   "t": 496.35,
+   "dur": 11.45,
+   "say": "Ahora la trampa que el libro llama mortal. Tienes un paciente con anemia macrocítica, no mediste la B doce, y le indicas ácido fólico solo. Parece inofensivo: es una vitamina."
+  },
+  {
+   "id": "b039",
+   "t": 508.25,
+   "dur": 8.21,
+   "say": "Y al principio parece que funcionó. El folato vence el bloqueo en la síntesis de timidilato, así que la anemia y el VCM se corrigen."
+  },
+  {
+   "id": "b040",
+   "t": 516.91,
+   "dur": 15.65,
+   "say": "Pero la vía de la mielina sigue sin B doce, y el folato además agota la poca cobalamina que quedaba. La degeneración combinada subaguda progresa de forma rápida e irreversible, hasta una paraplejía con ataxia. Mejoraste el hemograma y dejaste avanzar la lesión medular."
+  },
+  {
+   "id": "b041",
+   "t": 533.01,
+   "dur": 12.72,
+   "say": "Por eso la regla es absoluta: nunca se da ácido fólico sin haber descartado el déficit de B doce, o sin darla junto a él. En el examen, la alternativa de ácido fólico en un paciente con neurología es siempre la trampa."
+  },
+  {
+   "id": "b042",
+   "t": 546.78,
+   "dur": 20.95,
+   "say": "Vamos al tratamiento. En el déficit de B doce por malabsorción, es decir, anemia perniciosa, gastrectomía o resección ileal, la vía obligada es intramuscular. ¿Por qué? Porque por boca no hay factor intrínseco ni íleon que la absorba. Se parte con mil microgramos diarios por siete días, de cianocobalamina o hidroxocobalamina."
+  },
+  {
+   "id": "b043",
+   "t": 568.18,
+   "dur": 11.28,
+   "say": "Luego mil microgramos semanales por cuatro semanas, y después mil microgramos al mes de por vida. Esto último se pregunta: la causa no se corrige, así que el tratamiento no se suspende nunca."
+  },
+  {
+   "id": "b044",
+   "t": 579.91,
+   "dur": 9.17,
+   "say": "El déficit de folato se trata con ácido fólico oral, uno a cinco miligramos al día, por tres a cuatro meses, que es justamente lo que tarda en rellenar sus reservas."
+  },
+  {
+   "id": "b045",
+   "t": 589.53,
+   "dur": 7.25,
+   "say": "Y siempre después de medir la B doce o de asegurar su dosis. La trampa de la diapositiva anterior aplica también aquí."
+  },
+  {
+   "id": "b046",
+   "t": 597.23,
+   "dur": 8.14,
+   "say": "Y en el paciente gastrectomizado o con bypass gástrico no se espera a que aparezca la anemia: la suplementación de B doce es profiláctica e indefinida."
+  },
+  {
+   "id": "b047",
+   "t": 606.41,
+   "dur": 10.34,
+   "say": "Veamos qué pasa cuando le das la primera dosis. La médula, que estaba frenada, se reactiva de golpe: miles de millones de eritroblastos empiezan a dividirse al mismo tiempo."
+  },
+  {
+   "id": "b048",
+   "t": 617.21,
+   "dur": 16.94,
+   "say": "Y esas células nuevas meten potasio dentro de ellas. En las primeras cuarenta y ocho a setenta y dos horas puede aparecer una hipokalemia grave, con riesgo de arritmias. Por eso se controla el potasio a las cuarenta y ocho horas y se suplementa si hace falta. Es un detalle fino, pero se pregunta."
+  },
+  {
+   "id": "b049",
+   "t": 634.6,
+   "dur": 10.01,
+   "say": "A los cinco a siete días aparece una intensa crisis reticulocitaria. Conecta con la primera clase del bloque: los reticulocitos son el marcador de que la médula está respondiendo."
+  },
+  {
+   "id": "b050",
+   "t": 645.06,
+   "dur": 5.3,
+   "say": "La hemoglobina se normaliza en cuatro a seis semanas, y la glositis resuelve en pocos días."
+  },
+  {
+   "id": "b051",
+   "t": 650.81,
+   "dur": 8.38,
+   "say": "Y la neurología es lo más lento y lo único que puede quedar. Revierte si llevaba menos de seis a doce meses; si no, puede dejar secuelas."
+  },
+  {
+   "id": "b052",
+   "t": 660.24,
+   "dur": 12.7,
+   "say": "La B doce viene de alimentos animales, necesita el ácido y el factor intrínseco del estómago, y se absorbe en el íleon terminal. Una falla en cualquier punto produce déficit, años después, porque el hígado guarda reservas."
+  },
+  {
+   "id": "b053",
+   "t": 673.98,
+   "dur": 4.68,
+   "say": "Juntemos todo en un árbol de decisión, partiendo de una anemia macrocítica."
+  },
+  {
+   "id": "b054",
+   "t": 679.11,
+   "dur": 7.94,
+   "say": "Tienes una anemia con glóbulos grandes. Lo primero es mirar los reticulocitos, para separar la médula que responde de la que no puede."
+  },
+  {
+   "id": "b055",
+   "t": 687.51,
+   "dur": 2.93,
+   "say": "¿Los reticulocitos están altos o bajos?"
+  },
+  {
+   "id": "b056",
+   "t": 690.89,
+   "dur": 7.32,
+   "say": "Si están altos, la médula está respondiendo a una pérdida o una destrucción: piensa en hemólisis, que vemos en la próxima clase."
+  },
+  {
+   "id": "b057",
+   "t": 698.66,
+   "dur": 9.14,
+   "say": "Si están bajos, con LDH y bilirrubina indirecta altas, es una eritropoyesis ineficaz. Mide la B doce y el folato, siempre juntos."
+  },
+  {
+   "id": "b058",
+   "t": 708.25,
+   "dur": 4.97,
+   "say": "La pregunta que decide: ¿hay neurología, o el ácido metilmalónico está alto?"
+  },
+  {
+   "id": "b059",
+   "t": 713.67,
+   "dur": 15.07,
+   "say": "Si la hay, es déficit de B doce. Se inicia B doce intramuscular de inmediato, se vigila el potasio, y nunca se da ácido fólico solo. Luego se busca la causa: anemia perniciosa, cirugía gástrica o ileal, dieta vegana o fármacos."
+  },
+  {
+   "id": "b060",
+   "t": 729.19,
+   "dur": 4.46,
+   "say": "Si la causa es malabsorción, la B doce es intramuscular y de por vida."
+  },
+  {
+   "id": "b061",
+   "t": 734.1,
+   "dur": 9.58,
+   "say": "Sin neurología, con ácido metilmalónico normal y folato bajo, es déficit de folato: ácido fólico oral por tres a cuatro meses, una vez descartada la B doce."
+  },
+  {
+   "id": "b062",
+   "t": 744.73,
+   "dur": 8.76,
+   "say": "Comparemos las dos vitaminas. La fuente: la B doce solo viene de alimentos animales; el folato, de vegetales, legumbres y frutas."
+  },
+  {
+   "id": "b063",
+   "t": 753.94,
+   "dur": 6.6,
+   "say": "La absorción: la B doce en el íleon terminal y con factor intrínseco; el folato en el yeyuno, sin necesitarlo."
+  },
+  {
+   "id": "b064",
+   "t": 760.99,
+   "dur": 4.58,
+   "say": "El tiempo de agotamiento: años para la B doce, meses para el folato."
+  },
+  {
+   "id": "b065",
+   "t": 766.02,
+   "dur": 7.66,
+   "say": "La neurología: presente en la B doce, ausente en el folato. Esta es la fila que decide la mayoría de las preguntas."
+  },
+  {
+   "id": "b066",
+   "t": 774.13,
+   "dur": 4.39,
+   "say": "El ácido metilmalónico: alto en la B doce, normal en el folato."
+  },
+  {
+   "id": "b067",
+   "t": 778.97,
+   "dur": 5.38,
+   "say": "Y ojo con esta: la homocisteína sube en las dos, así que no sirve para separarlas."
+  },
+  {
+   "id": "b068",
+   "t": 784.8,
+   "dur": 8.21,
+   "say": "Las causas: anemia perniciosa y cirugía gástrica o ileal para la B doce; alcohol, desnutrición, metotrexato y embarazo para el folato."
+  },
+  {
+   "id": "b069",
+   "t": 793.46,
+   "dur": 9.43,
+   "say": "Y el tratamiento: B doce intramuscular, de por vida si la causa es malabsorción; folato oral por tres a cuatro meses, nunca solo si no has descartado la B doce."
+  },
+  {
+   "id": "b070",
+   "t": 803.94,
+   "dur": 28.73,
+   "say": "Vamos con un caso. Mujer de setenta y cuatro años, con hipotiroidismo y vitíligo, que consulta por astenia, parestesias en los pies y dificultad para caminar en la oscuridad desde hace cinco meses. Está pálida con un leve tinte ictérico, tiene la lengua lisa, Romberg positivo, reflejos exaltados y Babinski bilateral. Hemoglobina siete coma uno, VCM ciento dieciocho, leucocitos y plaquetas bajos, reticulocitos cero coma cuatro por ciento, y LDH y bilirrubina indirecta altas."
+  },
+  {
+   "id": "b071",
+   "t": 833.12,
+   "dur": 2.4,
+   "say": "¿Cuál es la conducta más adecuada?"
+  },
+  {
+   "id": "b072",
+   "t": 835.97,
+   "dur": 13.32,
+   "say": "Las opciones: ácido fólico oral, prednisona por una hemólisis autoinmune, medir B doce y folato e iniciar hidroxocobalamina intramuscular con control de potasio, biopsia de médula antes de tratar, o B doce oral. Piénsalo."
+  },
+  {
+   "id": "b074",
+   "t": 852.94,
+   "dur": 24.5,
+   "say": "Es la C. Es una anemia perniciosa de libro: autoinmunidad, pancitopenia macrocítica y degeneración combinada subaguda. Se miden las vitaminas y se inicia B doce intramuscular sin esperar, vigilando el potasio. El distractor más peligroso es la A, el ácido fólico solo, que empeoraría la médula espinal. Y la hemólisis autoinmune cae por los reticulocitos bajos: la LDH alta aquí viene de la médula, no de la sangre."
+  },
+  {
+   "id": "b075",
+   "t": 878.49,
+   "dur": 21.1,
+   "say": "Ahora preguntas reales. La primera, del EUNACOM de diciembre de dos mil dieciocho. Hombre de setenta y tres años con astenia, disnea, gran palidez y parestesias en las cuatro extremidades. Hemoglobina de seis, VCM ciento veintiséis, leucocitos y plaquetas bajos, y LDH de mil ochocientos con bilirrubina de cinco, de predominio indirecto."
+  },
+  {
+   "id": "b076",
+   "t": 900.04,
+   "dur": 2.57,
+   "say": "¿Cuál es el diagnóstico más probable?"
+  },
+  {
+   "id": "b077",
+   "t": 903.05,
+   "dur": 9.91,
+   "say": "Las opciones: mielodisplasia, aplasia medular, déficit de vitamina B doce, síndrome leucoeritroblástico, o anemia hemolítica autoinmune. Piénsalo."
+  },
+  {
+   "id": "b079",
+   "t": 916.62,
+   "dur": 23.76,
+   "say": "Es la C, déficit de B doce. Pancitopenia con un VCM de ciento veintiséis y parestesias: la neurología es la firma de la B doce. El distractor tentador es la hemólisis autoinmune, por la LDH y la bilirrubina, pero eso es la hemólisis dentro de la médula que vimos al inicio, y la hemólisis no baja los leucocitos ni da parestesias. Y la aplasia, de la clase anterior, no da glóbulos gigantes."
+  },
+  {
+   "id": "b080",
+   "t": 941.43,
+   "dur": 10.61,
+   "say": "Cerremos con las reglas de oro. VCM sobre ciento diez, LDH y bilirrubina indirecta altas, pero reticulocitos bajos: es una megaloblástica, no una hemólisis."
+  },
+  {
+   "id": "b081",
+   "t": 952.48,
+   "dur": 8.33,
+   "say": "Si hay neurología, es B doce. El ácido metilmalónico alto también es B doce. El folato no daña los nervios."
+  },
+  {
+   "id": "b082",
+   "t": 961.26,
+   "dur": 7.54,
+   "say": "La B doce falta en la anemia perniciosa, en la cirugía gástrica o ileal, en el vegano estricto y con metformina o IBP crónicos."
+  },
+  {
+   "id": "b083",
+   "t": 969.25,
+   "dur": 5.47,
+   "say": "El folato falta en el alcohólico, en el embarazo y con metotrexato, y se agota en meses."
+  },
+  {
+   "id": "b084",
+   "t": 975.17,
+   "dur": 3.5,
+   "say": "Nunca ácido fólico solo sin descartar la B doce."
+  },
+  {
+   "id": "b085",
+   "t": 979.12,
+   "dur": 20.04,
+   "say": "La B doce va intramuscular, de por vida si hay malabsorción, vigilando el potasio al inicio. En la próxima clase vemos las anemias en que los reticulocitos sí suben: las hemolíticas autoinmunes. Si te llevas una sola idea de hoy: macrocitosis con neurología es B doce, y el ácido fólico nunca va solo. Nos vemos en la próxima clase."
+  }
+ ]
+}
