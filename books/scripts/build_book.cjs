@@ -37,6 +37,7 @@ const matcher = require('./reconstruction_matcher.cjs');
 const { qImageHtml, Q_IMG_CSS } = require('./question_image.cjs');   // q.imagen del banco (Imagen representativa)
 const { autoFigSpec, withFigRefs, mergeAtlas, withAtlasFigs } = require('./figspec_clases.cjs');
 const { applyV3 } = require('./v3_codes.cjs');
+const CODEMAP = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'v3_codemap.json'), 'utf8'));
 const para = p => /^<figure/.test(p) ? p : `<p>${p}</p>`;
 // Códigos V3 que enseña cada sección (books/data/v3_section_codes.json, auditado tema por tema)
 const SECFILE = process.env.V3_SECFILE || path.join(__dirname, '..', 'data', 'v3_section_codes.json');
@@ -507,7 +508,8 @@ function indexPage(x) {
         ${b.classes.map(c => `<div class="idx-t"><span class="idx-tt">${c.topicLabel}. ${c.title}</span><span class="idx-dots"></span><span class="idx-tp">${c.startPage}</span></div>`).join('')}
       </div>
     </div>`).join('');
-  return sec(x, 'Índice general', `
+  const nT = blocks.reduce((n, b) => n + b.classes.length, 0);
+  return sec(x, 'Índice general', `${nT > 30 ? '<style>.idx-chap{margin-top:12px}.idx-t{line-height:1.38}</style>' : ''}
     <div class="pg-lead">
       <h2>Índice general</h2><div class="rule"></div>
     </div>
@@ -539,14 +541,33 @@ function chapterOpener(b, x) {
     ? `<div><span class="n">${nRecon}</span><span class="t">preguntas reales de años anteriores</span></div>`
     : `<div><span class="n">${nQ}</span><span class="t">casos del banco EUNACOM resueltos</span></div>`;
 
-  const matrix = b.classes.map((c, i) => `
+  // una fila por situación oficial del Perfil V3 (nombre y niveles del propio código, no del tema); los códigos de la misma
+  // situación con iguales niveles (p. ej. Paro cardiorrespiratorio en 1.01 · 1.05 · 4.01) van juntos en una fila
+  const normN = n => String(n || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/rr/g, 'r').replace(/[^a-z0-9]+/g, ' ').trim();
+  const seen = new Set(), rows = [];
+  b.classes.forEach(c => (String(c.perfilCode || '').match(/\b\d\.\d{2}\.\d\.\d{3}\b/g) || []).forEach(k => {
+    if (seen.has(k)) return; seen.add(k); const m = CODEMAP[k] || {};
+    const g = `${normN(m.name)}|${m.dx}|${m.tx}|${m.seg}|${m.section}`;
+    const r = rows.find(x => x.g === g); if (r) { r.ks.push(k); if (!r.ts.includes(c.topicLabel)) r.ts.push(c.topicLabel); }
+    else rows.push({ g, ks: [k], ts: [c.topicLabel], c, m }); }));
+  const NIV = { examen: 'Examen', procedimiento: 'Procedimiento', conocimiento: 'Conocimiento', urgencia: 'Urgencia' };
+  const nK = seen.size, plk = nK === 1 ? '' : 's';
+  const mRow = ({ ks, ts, c, m }, i) => `
     <tr${i % 2 ? ' class="alt"' : ''}>
-      <td class="mono">${c.perfilCode}</td>
-      <td class="bcov-tema">${c.title.split('(')[0].trim()}</td>
-      <td>${LVL('Diagnóstico', c.dx)}</td>
-      <td>${LVL('Tratamiento', c.tx)}</td>
-      <td>${LVL('Seguimiento', c.seg)}</td>
-    </tr>`).join('');
+      <td class="mono">${ks.join('<br>')}</td>
+      <td class="bcov-tema">${m.name || c.title.split('(')[0].trim()}<span class="bcov-tl">Tema ${ts.join(' · ')}</span></td>
+      ${m.dx || m.tx || m.seg ? `<td>${LVL('Diagnóstico', m.dx)}</td><td>${LVL('Tratamiento', m.tx)}</td><td>${LVL('Seguimiento', m.seg)}</td>`
+        : `<td colspan="3" class="bcov-niv">${m.nivel || NIV[m.section] || '—'}</td>`}
+    </tr>`;
+  const mTable = rs => `<table>
+          <thead><tr><th>Código V3</th><th>Situación clínica oficial</th><th>Dx</th><th>Tx</th><th>Seg</th></tr></thead>
+          <tbody>${rs.map(mRow).join('')}</tbody>
+        </table>`;
+  // capacidad de la portada del bloque (el índice de temas usa parte de la página); si no cabe, la tabla va en páginas propias
+  const units = rows.reduce((n, r) => n + Math.max(1, r.ks.length * 0.6), 0);
+  const onCover = units <= 19 - 0.8 * nC;
+  const PER = 26, chunks = [];
+  if (!onCover) { let cur = [], u = 0; rows.forEach(r => { const w = Math.max(1, r.ks.length * 0.6); if (u + w > PER && cur.length) { chunks.push(cur); cur = []; u = 0; } cur.push(r); u += w; }); if (cur.length) chunks.push(cur); }
 
   const conceptRows = b.classes.flatMap(c => c.keyPoints).slice(0, 6).map(k => {
     const trap = TRAP_RE.test(stripTags(k));
@@ -578,7 +599,7 @@ function chapterOpener(b, x) {
           <span class="l1">Manual EUNACOM de ${spec.title}</span>
           <span class="l2">Bloque ${CN(b.bn)} de ${CN(blocks.length)} · Perfil de Conocimientos V3 ASOFAMECh</span>
         </div>
-        <div class="bcov-codebox"><span class="k">perfil v3 asofamech</span><span class="v">${nC} código${plc} oficial${plc ? 'es' : ''}</span></div>
+        <div class="bcov-codebox"><span class="k">perfil v3 asofamech</span><span class="v">${nK} código${plk} oficial${plk ? 'es' : ''}</span></div>
       </div>
 
       <div class="bcov-hero">
@@ -602,11 +623,8 @@ function chapterOpener(b, x) {
       </div>
 
       <div class="bcov-sec">
-        <div class="bcov-sh"><span>Competencias oficiales del Perfil V3 — nivel legal exigido en el EUNACOM</span><span class="pill">${nC} código${plc}</span></div>
-        <table>
-          <thead><tr><th>Código V3</th><th>Situación clínica oficial</th><th>Dx</th><th>Tx</th><th>Seg</th></tr></thead>
-          <tbody>${matrix}</tbody>
-        </table>
+        <div class="bcov-sh"><span>Competencias oficiales del Perfil V3 — nivel legal exigido en el EUNACOM</span><span class="pill">${nK} código${plk}</span></div>
+        ${onCover ? mTable(rows) : `<p class="bcov-more">Este bloque cubre <b>${nK} códigos oficiales</b> (${rows.length} situaciones). La tabla completa, con el nivel exigido de cada uno, está en la página siguiente.</p>`}
       </div>
     </div>
   </div>`;
@@ -640,7 +658,25 @@ function chapterOpener(b, x) {
     </div>
   </div>`;
 
+  const mPages = chunks.map((rs, j) => `
+  <div class="bcov bcov--cont">
+    <div class="bcov-spine"><span>${b.name.toUpperCase()}</span></div>
+    <div class="bcov-inner">
+      <div class="bcov-top">
+        <div class="bcov-eyebrow">
+          <span class="l1">Bloque ${CN(b.bn)} · ${b.name}</span>
+          <span class="l2">Competencias oficiales del Perfil V3${chunks.length > 1 ? ` · ${j + 1} de ${chunks.length}` : ''}</span>
+        </div>
+        <div class="bcov-codebox"><span class="k">perfil v3 asofamech</span><span class="v">${nK} código${plk} oficial${plk ? 'es' : ''}</span></div>
+      </div>
+      <div class="bcov-sec">
+        <div class="bcov-sh"><span>Competencias oficiales del Perfil V3 — nivel legal exigido en el EUNACOM</span><span class="pill">${nK} código${plk}</span></div>
+        ${mTable(rs)}
+      </div>
+    </div>
+  </div>`);
   return sec(x, `Bloque ${CN(b.bn)} — ${b.name}`, page1, { flush: true, dark: true })
+    + mPages.map(pg => sec(x, `Bloque ${CN(b.bn)} — ${b.name}`, pg, { flush: true, dark: true })).join('')
     + sec(x, `Bloque ${CN(b.bn)} — ${b.name}`, page2, { flush: true, dark: true });
 }
 
@@ -1014,7 +1050,7 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .dtbl td.err{color:#991b1b}
 
 /* PORTADA DE BLOQUE — misma familia visual que la portada del tomo, con los paneles de datos encima */
-.bcov{position:relative;background:#0f172a;-webkit-print-color-adjust:exact;print-color-adjust:exact;color:#fff;height:1101px;min-height:calc(297mm - 22px);overflow:hidden}
+.bcov{position:relative;background:#0f172a;-webkit-print-color-adjust:exact;print-color-adjust:exact;color:#fff;height:1099px;min-height:0;overflow:hidden}
 .bcov-spine{position:absolute;left:0;top:0;bottom:0;width:38px;background:var(--acc);display:flex;align-items:center;justify-content:center;overflow:hidden}
 .bcov-spine span{font:700 8.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--acc-t);writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
 .bcov-inner{position:relative;margin-left:38px;padding:44px 48px 40px;display:flex;flex-direction:column;gap:18px}
@@ -1043,12 +1079,16 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .bcov-sh .pill{background:var(--acc);color:#fff;padding:3px 7px;border-radius:2px;font:700 7.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.06em;white-space:nowrap}
 .bcov-sh .pill.ghost{background:transparent;border:1px solid #334155;color:#94a3b8}
 .bcov table{width:100%;border-collapse:collapse;table-layout:fixed}
+.bcov table thead{display:table-row-group}
 .bcov table td:nth-child(1),.bcov table th:nth-child(1){width:95px}
 .bcov table td:nth-child(3),.bcov table td:nth-child(4),.bcov table td:nth-child(5),
 .bcov table th:nth-child(3),.bcov table th:nth-child(4),.bcov table th:nth-child(5){width:82px;text-align:center}
 .bcov table th{text-align:left;padding:6px 10px;font:700 8px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.05em;text-transform:uppercase;color:#94a3b8;background:#131f33}
 .bcov table td{padding:5px 10px;border-bottom:1px solid #1e293b;vertical-align:middle;color:#e2e8f0;font-size:9.8px;line-height:1.35}
 .bcov table tr.alt td{background:#0c1626}
+.bcov-tl{display:block;font:500 7.5px/1.2 'IBM Plex Sans',sans-serif;color:#64748b;margin-top:1px}
+.bcov-niv{text-align:center;color:#cbd5e1;font-weight:600}
+.bcov-more{font-size:10.5px;color:#cbd5e1;padding:10px 12px;line-height:1.5}
 .bcov table td.mono{font-family:'JetBrains Mono',monospace;font-size:8.5px;color:#cbd5e1}
 .bcov-tema{font-weight:600;color:#fff}
 .bcov-hist{display:flex;flex-direction:column}
