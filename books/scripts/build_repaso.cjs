@@ -18,7 +18,7 @@
  *        <libro> = clave de build_book.cjs (gastroenterologia, cardiologia, nefrologia…)
  *        --html  = solo escribe el HTML intermedio (books/scripts/temp_repaso_<libro>.html)
  *        --out <carpeta> = otra carpeta de salida (pruebas)
- * Salida: books/dist/Repaso/Repaso_Ultima_Hora_<Título>_2026.pdf
+ * Salida: books/dist/Repaso/Repaso_Final_<Título>_2026.pdf
  *         books/dist/Repaso/Anki_<Título>.csv
  *
  * Fuentes (no se inventa contenido; solo se selecciona y compacta):
@@ -388,7 +388,7 @@ function editDrugs(rows) {
 
 /* ───────────────────────────── HTML ───────────────────────────── */
 let PCOUNT = 0;
-const gbar = (x, label) => `<div class="gbar"><span>Repaso de última hora · ${esc(x.spec.title)}${label ? `&nbsp;&nbsp;·&nbsp;&nbsp;${label}` : ''}</span></div>`;
+const gbar = (x, label) => `<div class="gbar"><span>Repaso Final · ${esc(x.spec.title)}${label ? `&nbsp;&nbsp;·&nbsp;&nbsp;${label}` : ''}</span></div>`;
 const pnum = () => `<div class="pnum"></div>`;
 
 function qrSvg(url) {
@@ -404,21 +404,20 @@ function coverPage(x) {
   const ph = meta.photo && path.join(BOOKS, 'assets', 'covers', meta.photo);
   const bg = ph && fs.existsSync(ph) ? `data:image/jpeg;base64,${fs.readFileSync(ph).toString('base64')}` : '';
   const logo = fs.readFileSync(path.join(BOOKS, 'assets', 'aee-logo-7a-dark.svg'), 'utf8');
-  const n3 = topics.filter(t => t.stars === 3).length;
-  // portada opción 1 (título grande arriba), igual que los Libros Gordos y los Gran Libros
-  const t1 = meta.title.length <= 13 ? 104 : Math.floor(104 * 13 / meta.title.length);
+  // portada «Repaso Final» (muestra 2): el tipo de libro va grande y la especialidad en segundo lugar
+  const esp = meta.title.length <= 16 ? 60 : Math.floor(60 * 16 / meta.title.length);
   return `<section class="page cover-aee o1" data-id="COVER" style="--a:${meta.color}">
     ${bg ? `<div class="cover-bg" style="background-image:url('${bg}');background-position:${meta.pos || 'center'}"></div>` : ''}
     <div class="cover-veil"></div><div class="cover-stripe"></div>
     <div class="o1-w">
       <div class="o1-top"><div class="cover-logo">${logo}</div><span class="o1-ed">1ª EDICIÓN · 2026</span></div>
-      <div class="o1-t0">Repaso de última hora</div>
-      <h1 class="o1-t1" style="font-size:${Math.max(t1, 64)}px">${esc(meta.title)}</h1>
+      <div class="o1-k">SERIE AEE · PERFIL V3</div>
+      <div class="o1-type">Repaso<br><span>Final</span></div>
       <div class="o1-bar"></div>
-      <div><span class="o1-big">${topics.length}</span> <span class="o1-bl">temas · 1 página cada uno</span></div>
+      <h1 class="o1-esp" style="font-size:${Math.max(esp, 40)}px">${esc(meta.title)}</h1>
       <div class="o1-sub">${esc((meta.sub || '').replace(/^&\s*/, ''))}</div>
-      <div class="o1-sub o1-sm">${n3} temas <span style="color:#fbbf24">★★★</span> según preguntas reales 2013–2025 · plan de repaso de 7 días</div>
-      <div class="o1-bot"><span>${esc(spec.module)} · Tomo ${spec.ch} · ${meta.code} · Repaso</span><span>Academia Examen EUNACOM</span></div>
+      <div class="o1-f"><b>${topics.length}</b> temas · 1 página cada uno &nbsp;·&nbsp; <b>7</b> días de plan de repaso</div>
+      <div class="o1-bot"><span>${esc(spec.module)} · Tomo ${spec.ch} · ${meta.code} · Repaso Final</span><span>Academia Examen EUNACOM</span></div>
     </div>
   </section>`;
 }
@@ -606,7 +605,7 @@ function buildHtml(x) {
   x.noDrugs = extractDrugs(x.topics).length === 0;
   const t = BB.themeVars(x.spec.accent);
   const body = [coverPage(x), indexPage(x), ...x.topics.map(tp => topicPages(tp, x)), numbersSection(x), (x.noDrugs ? flowSection(x, 'DRUG', 'GES de ' + esc(x.spec.title), 'Garantías Explícitas en Salud que aparecen en los temas de esta especialidad: el EUNACOM pregunta la edad, el examen y el plazo que garantizan.', gesSection(x, true).body) : flowSection(x, 'DRUG', 'Fármacos de primera línea', 'Esquemas de elección por enfermedad, tomados de las tarjetas de tratamiento de cada clase. Al final de la sección, las garantías GES.', drugsSection(x).body + gesSection(x).body)), planSection(x), prioSection(x)].join('\n');
-  return `<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>Repaso de última hora · ${esc(x.spec.title)}</title>
+  return `<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>Repaso Final · ${esc(x.spec.title)}</title>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@500;700&family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>${CSS(t)}</style></head><body>${body}<script>${PAGE_JS}</script></body></html>`;
 }
@@ -638,9 +637,11 @@ body{width:210mm;overflow-x:hidden;font-family:'IBM Plex Sans',system-ui,sans-se
 .o1-w{position:absolute;inset:0;padding:56px 60px 56px 72px;display:flex;flex-direction:column;color:#fff}
 .o1-top{display:flex;justify-content:space-between;align-items:flex-start}.o1-top .cover-logo svg{height:96px;margin-left:-38px}
 .o1-ed{font:700 11px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;color:var(--a);border:1px solid var(--a);padding:7px 11px;background:rgba(8,13,20,.6)}
-.o1-t0{font:600 22px/1 'IBM Plex Sans',sans-serif;color:#c6d0dd;margin-top:46px}
-.o1-t1{font:900 104px/.86 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:-.02em;margin-top:6px;color:#fff}
-.o1-bar{height:6px;width:140px;background:var(--a);margin:22px 0 18px}
+.o1-k{font:700 13px/1 'IBM Plex Mono',monospace;letter-spacing:.2em;color:#c6d0dd;margin-top:54px}
+.o1-type{font:900 150px/.82 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:-.02em;margin-top:12px;color:#fff}.o1-type span{color:var(--a)}
+.o1-esp{font:800 60px/.95 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.01em;color:#fff}
+.o1-f{margin-top:22px;font:600 15px/1.4 'IBM Plex Sans',sans-serif;color:#e2e8f0}.o1-f b{font:800 30px/1 'Barlow Condensed',sans-serif;color:var(--a);margin-right:4px}
+.o1-bar{height:6px;width:140px;background:var(--a);margin:26px 0 20px}
 .o1-big{font:800 46px/1 'Barlow Condensed',sans-serif;color:var(--a)}.o1-bl{font:600 18px/1.3 'IBM Plex Sans',sans-serif}
 .o1-sub{font:500 18px/1.3 'IBM Plex Sans',sans-serif;color:#c6d0dd;margin-top:6px}.o1-sm{font-size:14px;color:#aab6c6}
 .o1-bot{margin-top:auto;border-top:1px solid rgba(255,255,255,.35);padding-top:14px;display:flex;justify-content:space-between;font:600 11px/1 'IBM Plex Mono',monospace;letter-spacing:.12em;color:#b6c1d0;text-transform:uppercase}
@@ -1124,7 +1125,7 @@ async function main() {
   if (!base) { console.error(`Uso: node build_repaso.cjs <libro>\nLibros: ${BB.SPECIALTIES.map(s => s.key).join(', ')}`); process.exit(1); }
   const spec = { ...base, accent: BB.ACCENTS[key] || '#334155' };
   const fileTitle = key === 'saludpublica' ? 'SaludPublica' : spec.title.split(/\s+[&y]\s+|\s+/)[0].normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  console.log(`▶ Repaso de última hora · ${spec.title}`);
+  console.log(`▶ Repaso Final · ${spec.title}`);
   const x = { spec, ...prepare(key, spec), stats: {}, img: new Map() };
   console.log(`  ${x.topics.length} temas · Libro Gordo: ${x.lg.byLabel} preguntas por tema, ${x.lg.byCode} por código, ${x.lg.unassigned.length} sin tema`);
 
@@ -1145,7 +1146,7 @@ async function main() {
     await page.close();
     const oi = process.argv.indexOf('--out'); const outDir = oi > 0 ? path.resolve(process.argv[oi + 1]) : OUT_DIR;
     fs.mkdirSync(outDir, { recursive: true });
-    const out = path.join(outDir, `Repaso_Ultima_Hora_${fileTitle}_2026.pdf`);
+    const out = path.join(outDir, `Repaso_Final_${fileTitle}_2026.pdf`);
     fs.writeFileSync(out, pdf);
     const anki = path.join(outDir, `Anki_${fileTitle}.csv`);
     fs.writeFileSync(anki, ankiCsv(x));
