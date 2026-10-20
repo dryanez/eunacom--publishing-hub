@@ -8,7 +8,8 @@ while true; do
   if [ -z "$c" ]; then sleep 120; continue; fi
   while [ "$(df -k / | awk 'NR==2{print $4}')" -lt 1500000 ]; do echo "$(date +%H:%M) disco < 1,5 GB: espero" >> "$D/out/batch.log"; sleep 600; done
   "$D/batch_classes.sh" "$c"
-  if [ -f "$D/out/$c/${c}_clase.mp4" ]; then echo "$c" >> "$DONE"
+  # listo si quedó el mp4 local o si ya se subió a R2 (subir_r2.py borra el local salvo gastro)
+  if [ -f "$D/out/$c/${c}_clase.mp4" ] || grep -qF "$c → Clases_V3/" "$D/out/r2.log" 2>/dev/null; then echo "$c" >> "$DONE"
   else echo "$(date +%H:%M) $c falló: se reintenta al final" >> "$D/out/batch.log"; grep -vxF "$c" "$Q" > "$Q.tmp"; cat "$Q.tmp" > "$Q"; rm -f "$Q.tmp"; echo "$c" >> "$Q"
        curl -s -o /dev/null --max-time 8 https://speech.platform.bing.com || sleep 300; fi   # sin red: esperar
 done
