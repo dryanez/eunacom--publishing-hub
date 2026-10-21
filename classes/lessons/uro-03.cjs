@@ -107,7 +107,7 @@ module.exports = {
         { title: 'Ecografía vésico-prostática', tag: 'Con vejiga llena y vacía', kind: 'criteria', items: [
           { t: 'Volumen y lóbulo medio', d: 'Aumentada si pasa de 30 a 40 cc',
             say: 'La ecografía suprapúbica estima el volumen de la próstata, que está aumentada sobre treinta a cuarenta centímetros cúbicos, y muestra el lóbulo medio. Mira esta resonancia: la masa de la próstata se proyecta hacia dentro de la vejiga, es el lóbulo medio, y explica por qué una próstata no tan grande puede dar una obstrucción importante.',
-            photo: { src: 'biblioteca/19_urologia/uro-03/03_rm-lobulo-medio-protruye-vejiga__bailey-love_p1482.jpg', label: 'Lóbulo medio en la vejiga', at: 'Mira esta resonancia', credit: 'Bailey & Love 27.ª ed., Fig. 78.11' } },
+            photo: { src: 'biblioteca/19_urologia/uro-03/03_rm-lobulo-medio-protruye-vejiga__bailey-love_p1482.jpg', label: 'RM sagital: lóbulo medio prostático que protruye en la vejiga', at: 'Mira esta resonancia', credit: 'Bailey & Love\'s Short Practice of Surgery, 27.ª ed., p. 1482' } },
           { t: 'Residuo mayor de 100 mL', d: 'Trabéculas, divertículos, hidronefrosis',
             say: 'Después de orinar mide el residuo, que es significativo sobre cien mililitros, y busca trabeculación, divertículos, cálculos y hidronefrosis. La ecografía transrectal se reserva para guiar la biopsia.' },
         ] },

@@ -18,8 +18,8 @@ module.exports = {
   },
   '4.2': {
     mode: 'wide', crop: [1, 1, 98, 98],
-    desc: 'Ecocardiograma de la válvula aórtica: apertura sistólica reducida y calcificación de los velos. La severidad se define por área valvular < 1,0 cm², gradiente medio > 40 mmHg y velocidad máxima > 4 m/s.',
-    items: [{ file: 'figura_4_1_eao_ecocardiograma.png', cap: 'Válvula aórtica calcificada (eje corto)' }],
+    desc: 'Estenosis aórtica degenerativa: velos engrosados y calcificados que no abren. La severidad se define por área valvular < 1,0 cm², gradiente medio > 40 mmHg y velocidad máxima > 4 m/s.',
+    items: [{ file: 'figura_4_1_eao_ecocardiograma.png', cap: 'Válvula aórtica calcificada (pieza quirúrgica)', src: "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 920" }],
   },
   '5.1': {
     mode: 'wide',

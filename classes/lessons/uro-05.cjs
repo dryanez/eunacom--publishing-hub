@@ -99,7 +99,7 @@ module.exports = {
         { title: 'Qué muestra el Doppler', tag: 'Examen de apoyo', kind: 'normal', items: [
           { t: 'Sin flujo arterial', d: 'Y signo del remolino en el cordón',
             say: 'La ecografía Doppler testicular muestra ausencia de flujo en el testículo, y el signo del remolino en el cordón. Tiene una sensibilidad de ochenta y cinco a noventa por ciento y una especificidad de noventa y cinco. Mira esta ecografía: el testículo es oscuro y solo hay color en la periferia, y el trazado del flujo arterial, abajo, es una línea plana.',
-            photo: { src: '_verificadas/064_uro_Torsión_testicular__Rumack_p1966.jpg', label: 'Doppler sin flujo arterial', at: 'Mira esta ecografía', credit: 'Diagnostic Ultrasound (Rumack), p. 1966' } },
+            photo: { src: '_verificadas/064_uro_Torsión_testicular__Rumack_p1966.jpg', label: 'Torsión testicular: el testículo afectado (izquierda en la imagen) no tiene flujo en el Doppler', at: 'Mira esta ecografía', credit: 'Rumack, Diagnostic Ultrasound, 4.ª ed., p. 1966' } },
           { t: 'Solo si la duda es intermedia', d: 'Cuadros atípicos',
             say: 'Es un examen de apoyo, para los casos de sospecha intermedia o atípica.' },
         ] },

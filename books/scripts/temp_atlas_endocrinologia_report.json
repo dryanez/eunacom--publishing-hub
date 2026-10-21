@@ -1,0 +1,352 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 37,
+  "where": {
+   "IMG-clinica-hipotiroidismo": 4,
+   "IMG-facies-hipotiroidea": 4,
+   "IMG-mixedema-grave": 5,
+   "IMG-hipotiroidismo-congenito": 5,
+   "IMG-hipotiroidismo-tratado": 6,
+   "IMG-cintigrama-blanco": 6,
+   "IMG-cintigramas-panel": 7,
+   "IMG-eco-hashimoto": 7,
+   "IMG-doppler-amiodarona": 8,
+   "IMG-graves-bocio": 8,
+   "IMG-doppler-graves": 9,
+   "IMG-oftalmopatia": 9,
+   "IMG-tc-orbitopatia": 10,
+   "IMG-gammagrafia-graves": 10,
+   "IMG-adenoma-toxico": 11,
+   "IMG-bmn-toxico": 11,
+   "IMG-bocio-compresivo": 12,
+   "IMG-nodulo-caliente": 12,
+   "IMG-tirads-5": 13,
+   "IMG-nodulo-sospechoso": 13,
+   "IMG-bocio-multinodular": 14,
+   "IMG-papilar-histologia": 14,
+   "IMG-luna-llena": 15,
+   "IMG-fenotipo-cushing": 15,
+   "IMG-equimosis-cushing": 16,
+   "IMG-tac-suprarrenal": 16,
+   "IMG-addison-hiperpigmentacion": 17,
+   "IMG-addison-pliegues": 17,
+   "IMG-purpura-fulminante": 18,
+   "IMG-necrosis-distal": 18,
+   "IMG-adenoma-conn-rm": 19,
+   "IMG-masa-suprarrenal-rm": 19,
+   "IMG-mibg": 20,
+   "IMG-incidentaloma-tc": 20,
+   "IMG-osteitis-fibrosa": 21,
+   "IMG-qt-calcio": 21,
+   "IMG-ecg-hipercalcemia": 22,
+   "IMG-sestamibi": 22,
+   "IMG-chvostek": 23,
+   "IMG-trousseau": 23,
+   "IMG-dexa": 24,
+   "IMG-fractura-colles": 24,
+   "IMG-fractura-cadera": 25,
+   "IMG-osteonecrosis-mandibula": 25,
+   "IMG-fractura-atipica": 26,
+   "IMG-rosario-raquitico": 26,
+   "IMG-munecas-ensanchadas": 27,
+   "IMG-looser-milkman": 27,
+   "IMG-macroadenoma-rm": 28,
+   "IMG-craneofaringioma": 28,
+   "IMG-region-selar": 29,
+   "IMG-acromegalia": 29,
+   "IMG-silla-vacia": 30,
+   "IMG-men2a-feo": 30,
+   "IMG-men2b-neuromas": 31,
+   "IMG-ginecomastia": 31,
+   "PAIRS": 32,
+   "SIGNS": 34,
+   "TYPES": 35,
+   "AUTO": 36,
+   "SOL": 37
+  }
+ },
+ "tomo": [
+  {
+   "id": "clinica-hipotiroidismo",
+   "p": 9,
+   "exact": true
+  },
+  {
+   "id": "facies-hipotiroidea",
+   "p": 9,
+   "exact": true
+  },
+  {
+   "id": "mixedema-grave",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "hipotiroidismo-congenito",
+   "p": 18,
+   "exact": false
+  },
+  {
+   "id": "hipotiroidismo-tratado",
+   "p": 18,
+   "exact": false
+  },
+  {
+   "id": "cintigrama-blanco",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "cintigramas-panel",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "eco-hashimoto",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "doppler-amiodarona",
+   "p": 21,
+   "exact": false
+  },
+  {
+   "id": "graves-bocio",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "doppler-graves",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "oftalmopatia",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "tc-orbitopatia",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "gammagrafia-graves",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "adenoma-toxico",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "bmn-toxico",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "bocio-compresivo",
+   "p": 36,
+   "exact": true
+  },
+  {
+   "id": "nodulo-caliente",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "tirads-5",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "nodulo-sospechoso",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "bocio-multinodular",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "papilar-histologia",
+   "p": 46,
+   "exact": true
+  },
+  {
+   "id": "luna-llena",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "fenotipo-cushing",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "equimosis-cushing",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "tac-suprarrenal",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "addison-hiperpigmentacion",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "addison-pliegues",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "purpura-fulminante",
+   "p": 60,
+   "exact": true
+  },
+  {
+   "id": "necrosis-distal",
+   "p": 60,
+   "exact": true
+  },
+  {
+   "id": "adenoma-conn-rm",
+   "p": 65,
+   "exact": false
+  },
+  {
+   "id": "masa-suprarrenal-rm",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "mibg",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "incidentaloma-tc",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "osteitis-fibrosa",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "qt-calcio",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "ecg-hipercalcemia",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "sestamibi",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "chvostek",
+   "p": 79,
+   "exact": true
+  },
+  {
+   "id": "trousseau",
+   "p": 79,
+   "exact": true
+  },
+  {
+   "id": "dexa",
+   "p": 83,
+   "exact": true
+  },
+  {
+   "id": "fractura-colles",
+   "p": 83,
+   "exact": true
+  },
+  {
+   "id": "fractura-cadera",
+   "p": 83,
+   "exact": true
+  },
+  {
+   "id": "osteonecrosis-mandibula",
+   "p": 83,
+   "exact": false
+  },
+  {
+   "id": "fractura-atipica",
+   "p": 83,
+   "exact": false
+  },
+  {
+   "id": "rosario-raquitico",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "munecas-ensanchadas",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "looser-milkman",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "macroadenoma-rm",
+   "p": 94,
+   "exact": true
+  },
+  {
+   "id": "craneofaringioma",
+   "p": 94,
+   "exact": true
+  },
+  {
+   "id": "region-selar",
+   "p": 94,
+   "exact": true
+  },
+  {
+   "id": "acromegalia",
+   "p": 101,
+   "exact": false
+  },
+  {
+   "id": "silla-vacia",
+   "p": 104,
+   "exact": true
+  },
+  {
+   "id": "men2a-feo",
+   "p": 107,
+   "exact": true
+  },
+  {
+   "id": "men2b-neuromas",
+   "p": 107,
+   "exact": true
+  },
+  {
+   "id": "ginecomastia",
+   "p": 111,
+   "exact": false
+  }
+ ]
+}

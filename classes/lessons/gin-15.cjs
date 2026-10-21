@@ -110,7 +110,7 @@ module.exports = {
           { t: 'Aumento del abdomen y polaquiuria', d: 'Por la masa que comprime la vejiga',
             say: 'También puede aparecer un aumento del perímetro abdominal, y polaquiuria, porque la masa comprime la vejiga desde afuera. Mira estas tomografías: una gran masa pélvica, y en el corte coronal, cómo ocupa el abdomen.',
             photos: [
-              { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg', label: 'Masa pélvica (TC)', at: 'Mira estas tomografías', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
+              { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg', label: 'Cáncer de ovario avanzado en la TAC: metástasis, ascitis y carcinomatosis omental (flechas)', at: 'Mira estas tomografías', credit: 'Williams Gynecology, 4.ª ed., p. 741' },
               { src: 'biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_2__cto-radiologia_p141.jpg', label: 'Carcinoma de ovario (TC)', at: 'en el corte coronal', credit: 'Manual CTO Radiología 14.ª ed., p. 141' },
             ] },
         ] },

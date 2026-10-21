@@ -65,7 +65,7 @@ module.exports = {
         { show: ['mor'], note: 'La más sensible de las cuatro ventanas',
           say: 'Revisa cuatro ventanas. La primera y más sensible es el espacio de Morrison, entre el hígado y el riñón derecho. Mira cómo se apoya el transductor en cada ventana, y en esta imagen, esa banda negra sobre el riñón es sangre en Morrison.',
           photos: [
-            { src: 'biblioteca/10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg', label: 'Ventanas del FAST', at: 'Mira cómo se apoya', credit: 'ATLS 10.ª ed., p. 144' },
+            { src: 'biblioteca/10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg', label: 'FAST positiva: líquido libre en el espacio de Morison', at: 'Mira cómo se apoya', credit: 'Reardon, Pocket Atlas of Emergency Ultrasound, p. 64' },
             { src: 'biblioteca/10_cirugia/cirugia-11/01_fast_morrison__atls_p144.jpg', label: 'FAST positivo', at: 'en esta imagen', credit: 'ATLS 10.ª ed., p. 144' },
           ] },
         { show: ['esp'], note: 'El equivalente del lado izquierdo',

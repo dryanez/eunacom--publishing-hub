@@ -58,7 +58,7 @@ module.exports = {
             say: 'La tuberculosis ganglionar, o escrófula, es la localización extrapulmonar más frecuente. Compromete típicamente los ganglios cervicales, supraclaviculares y yugulares.' },
           { t: 'Masas indoloras y frías', d: 'Coalescen y fistulizan a la piel',
             say: 'Mira este cuello: son masas indoloras y frías, sin los signos de inflamación de una adenitis bacteriana, que se van uniendo entre sí y pueden fistulizar a la piel, drenando material caseoso.',
-            photo: { src: 'biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg', label: 'Escrófula', at: 'Mira este cuello', credit: 'Manual AMIR Infecciosas, p. 112' } },
+            photo: { src: 'biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg', label: 'Escrófula', at: 'Mira este cuello', credit: 'Manual CTO de Medicina y Cirugía, Infectología, 14.ª ed., p. 69' } },
         ] },
       ],
     },
@@ -103,7 +103,7 @@ module.exports = {
       steps: [
         { show: ['sos', 'bk'], note: 'Rápida y barata, pero poco sensible',
           say: 'Pasemos al diagnóstico microbiológico. El método tradicional es la baciloscopía, con tinción de Ziehl Neelsen o fluorescencia con auramina, que busca los bacilos ácido alcohol resistentes: mira esta baciloscopía, con bastoncitos rojos sobre fondo azul. Es rápida y barata, pero necesita más de cinco mil bacilos por mililitro para verlos. Por eso una baciloscopía negativa no descarta la enfermedad.',
-            photo: { src: 'biblioteca/07_infectologia/infecto-11/03_ziehl-neelsen__commons.jpg', label: 'Ziehl-Neelsen', at: 'mira esta baciloscopía', credit: 'Wikimedia Commons, dominio público' } },
+            photo: { src: 'biblioteca/07_infectologia/infecto-11/03_ziehl-neelsen__commons.jpg', label: 'Ziehl-Neelsen', at: 'mira esta baciloscopía', credit: 'Bailey & Love\'s Short Practice of Surgery, 27.ª ed., p. 263' } },
         { show: ['cul'], note: 'El único que da el antibiograma',
           say: 'El cultivo, en medio sólido de Lowenstein Jensen o líquido MGIT, sigue siendo el estándar de oro. Y tiene una ventaja que nadie más tiene: permite hacer el antibiograma. Un cultivo positivo es tuberculosis, aunque las baciloscopías hayan salido negativas.' },
         { show: ['gx'], note: 'Detecta el bacilo y su resistencia',

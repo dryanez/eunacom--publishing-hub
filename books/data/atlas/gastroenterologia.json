@@ -1,0 +1,3172 @@
+{
+ "libro": "gastroenterologia",
+ "title": "Gastroenterología",
+ "prefix": "gastro",
+ "topics": {
+  "gastro-01": "Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+  "gastro-02": "Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+  "gastro-03": "Disfagia y Trastornos Motores del Esófago",
+  "gastro-04": "Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+  "gastro-05": "Cáncer de Esófago y Cáncer Gástrico",
+  "gastro-06": "Hernia Hiatal, Hernia Diafragmática y Tumores del Mediastino",
+  "gastro-08": "Diarrea Aguda, Diarrea Crónica y Constipación",
+  "gastro-09": "Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+  "gastro-10": "Enfermedad Inflamatoria Intestinal",
+  "gastro-11": "Pólipos y Cáncer Colorrectal · Tamizaje",
+  "gastro-12": "Patología Perianal",
+  "gastro-13": "Ictericia y Colestasia",
+  "gastro-14": "Hepatitis Aguda y Crónica",
+  "gastro-15": "Daño Hepático Crónico e Hipertensión Portal",
+  "gastro-16": "Lesiones Hepáticas Focales y Pólipos Vesiculares",
+  "gastro-17": "Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+  "gastro-18": "Pancreatitis Aguda",
+  "gastro-19": "Abdomen Agudo",
+  "gastro-20": "Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
+  "gastro-21": "Hemorragia Digestiva Alta y Baja",
+  "gastro-22": "Cuerpo Extraño Digestivo",
+  "gastro-23": "Diarrea Aguda y Crónica en el Niño",
+  "gastro-24": "Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
+  "gastro-25": "Cirugía Pediátrica Digestiva",
+  "gastro-26": "Trauma Abdominal y Torácico"
+ },
+ "images": [
+  {
+   "id": "esofagitis",
+   "n": 1,
+   "src": "biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg",
+   "topic": "gastro-01",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Esofagitis erosiva por reflujo",
+   "frase": "Erosiones lineales rojas justo sobre la unión con el estómago: daño directo del ácido.",
+   "claves": [
+    {
+     "t": "Erosiones lineales en el esófago distal",
+     "m": [
+      0.3,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Sin alarma y < 50 años: IBP en ayunas, 30-60 min antes de comer; con signos de alarma, endoscopía.",
+   "codes": [
+    "1.06.1.027",
+    "1.06.4.007"
+   ],
+   "confunde": "Esófago de Barrett: lengüetas color salmón, no erosiones.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 84",
+   "auto": true
+  },
+  {
+   "id": "esofagitis-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg",
+   "topic": "gastro-01",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Esofagitis erosiva",
+   "frase": "Erosiones rojas lineales sobre la unión esófago-gástrica.",
+   "claves": [
+    {
+     "t": "Erosiones en la unión escamocolumnar",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "IBP 8 semanas; endoscopía si hay síntomas de alarma.",
+   "codes": [
+    "1.06.1.027",
+    "1.06.4.007"
+   ],
+   "confunde": "Esófago de Barrett: mucosa asalmonada que sube, sin erosión.",
+   "q": null,
+   "auto": false,
+   "n": 2
+  },
+  {
+   "id": "barrett",
+   "n": 3,
+   "src": "biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_1__cto-digestivo_p27.jpg",
+   "topic": "gastro-01",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Esófago de Barrett",
+   "frase": "Lengüetas color salmón que suben sobre la mucosa pálida: metaplasia intestinal.",
+   "claves": [
+    {
+     "t": "Lengüeta salmón",
+     "m": [
+      0.75,
+      0.5,
+      0.08
+     ]
+    },
+    {
+     "t": "Mucosa esofágica pálida normal",
+     "m": [
+      0.3,
+      0.3,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Biopsia: lo que decide la conducta es la displasia, no la metaplasia; IBP y vigilancia endoscópica.",
+   "codes": [
+    "1.06.1.027",
+    "1.06.4.007"
+   ],
+   "confunde": "Esofagitis erosiva: erosiones rojas lineales.",
+   "q": "EUNACOM Julio 2017 · Pregunta 38",
+   "auto": true
+  },
+  {
+   "id": "ulcera-duodenal",
+   "n": 4,
+   "src": "biblioteca/01_gastroenterologia/gastro-02/01_ulcera_duodenal__harrison_p2430.jpg",
+   "topic": "gastro-02",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Úlcera duodenal con mancha pigmentada",
+   "frase": "Úlcera duodenal con un estigma de sangrado reciente en la base; no se maligniza.",
+   "claves": [
+    {
+     "t": "Fondo de fibrina de la úlcera",
+     "m": [
+      0.4,
+      0.55,
+      0.12
+     ]
+    },
+    {
+     "t": "Mancha pigmentada en la base",
+     "m": [
+      0.35,
+      0.62,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Erradicar H. pylori aunque el test sea negativo: IBP + amoxicilina + claritromicina 14 días.",
+   "codes": [
+    "1.06.1.030"
+   ],
+   "confunde": "Úlcera gástrica: exige biopsia del borde por riesgo de cáncer.",
+   "q": "EUNACOM Julio 2013 · Pregunta 12",
+   "auto": false
+  },
+  {
+   "id": "ulcera-gastrica",
+   "n": 5,
+   "src": "biblioteca/01_gastroenterologia/gastro-02/01_ulcera-gastrica-forrest-iic__cto-digestivo_p63.jpg",
+   "topic": "gastro-02",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Úlcera gástrica (Forrest IIc)",
+   "frase": "Cráter de bordes regulares con fondo de fibrina y puntos de hematina.",
+   "claves": [
+    {
+     "t": "Cráter con fondo de fibrina",
+     "m": [
+      0.5,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Biopsia del borde y endoscopía de control tras el tratamiento.",
+   "codes": [
+    "1.06.1.030",
+    "1.06.4.007"
+   ],
+   "confunde": "Cáncer gástrico Borrmann II: úlcera de bordes elevados.",
+   "q": "EUNACOM Julio 2015 · Pregunta 124",
+   "auto": false
+  },
+  {
+   "id": "cancer-esofago",
+   "n": 6,
+   "src": "biblioteca/01_gastroenterologia/gastro-03/02_cancer-esofago-distal-obstructivo__harrison_p2460.jpg",
+   "topic": "gastro-03",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Cáncer de esófago distal",
+   "frase": "Lesión irregular y ulcerada que estrecha la luz: disfagia lógica.",
+   "claves": [
+    {
+     "t": "Masa ulcerada que estrecha la luz",
+     "m": [
+      0.45,
+      0.65,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Endoscopía con biopsia (no manometría ni esofagograma).",
+   "codes": [
+    "4.01.1.005",
+    "1.06.1.013"
+   ],
+   "confunde": "Acalasia: disfagia ilógica, sin masa.",
+   "q": "EUNACOM Julio 2013 · Pregunta 22",
+   "auto": true
+  },
+  {
+   "id": "megaesofago",
+   "n": 7,
+   "src": "biblioteca/01_gastroenterologia/gastro-03/04_megaesofago_chagas__commons.jpg",
+   "topic": "gastro-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Megaesófago chagásico",
+   "frase": "Esófago muy dilatado y lleno de contraste; disfagia ilógica como en la acalasia.",
+   "claves": [
+    {
+     "t": "Esófago muy dilatado",
+     "m": [
+      0.25,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Serología de Chagas en quien vivió en zona endémica.",
+   "codes": [
+    "1.06.1.013"
+   ],
+   "confunde": "Acalasia idiopática: misma imagen.",
+   "q": "EUNACOM Julio 2019 · Pregunta 38",
+   "auto": false,
+   "crop": [
+    0,
+    0.1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "manometria-acalasia",
+   "n": 8,
+   "src": "biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i__cto-digestivo_p18.jpg",
+   "topic": "gastro-03",
+   "type": "ecg",
+   "size": "half",
+   "title": "Manometría de alta resolución: acalasia",
+   "frase": "Esfínter inferior que no se relaja y cuerpo sin peristalsis.",
+   "claves": [
+    {
+     "t": "EEI hipertónico que no se relaja",
+     "m": [
+      0.5,
+      0.92,
+      0.08
+     ]
+    },
+    {
+     "t": "Cuerpo sin ondas peristálticas",
+     "m": [
+      0.5,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "La manometría es el examen de elección en la disfagia ilógica.",
+   "codes": [
+    "4.01.1.004"
+   ],
+   "confunde": "Esclerodermia: EEI hipotónico con aperistalsis.",
+   "q": "EUNACOM Julio 2024 · Pregunta 43",
+   "auto": false
+  },
+  {
+   "id": "zenker",
+   "n": 9,
+   "src": "_verificadas/31_diverticulo_de_Zenker_baritado__27thBaileyLo_p1123_1.jpg",
+   "topic": "gastro-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Divertículo de Zenker",
+   "frase": "Saco en el esfínter esofágico superior: disfagia alta con halitosis.",
+   "claves": [
+    {
+     "t": "Saco del divertículo con bario",
+     "m": [
+      0.45,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Esofagograma con bario; tratamiento quirúrgico.",
+   "codes": [
+    "4.01.1.002",
+    "1.06.1.013"
+   ],
+   "confunde": "Cáncer de esófago: disfagia lógica sin halitosis.",
+   "q": "EUNACOM Julio 2024 · Pregunta 112",
+   "auto": true
+  },
+  {
+   "id": "zenker-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-03/10_diverticulo-zenker-esofagograma__harrison_p2459.jpg",
+   "topic": "gastro-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Divertículo de Zenker en el esofagograma",
+   "frase": "Saco con bario en la parte alta del esófago, por detrás.",
+   "claves": [
+    {
+     "t": "Saco diverticular (flecha)",
+     "m": [
+      0.42,
+      0.1,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Sintomático: cirugía o miotomía endoscópica; no pasar sonda a ciegas.",
+   "codes": [
+    "4.01.1.002",
+    "1.06.1.013"
+   ],
+   "confunde": "Acalasia: esófago dilatado en pico de pájaro distal.",
+   "q": "EUNACOM Julio 2024 · Pregunta 112",
+   "auto": false,
+   "n": 10
+  },
+  {
+   "id": "neumoperitoneo-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-04/01_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg",
+   "topic": "gastro-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumoperitoneo",
+   "frase": "Aire libre bajo ambos hemidiafragmas en la Rx de tórax de pie.",
+   "claves": [
+    {
+     "t": "Aire bajo el diafragma",
+     "m": [
+      0.25,
+      0.88,
+      0.07
+     ]
+    },
+    {
+     "t": "Aire bajo el diafragma",
+     "m": [
+      0.72,
+      0.88,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Perforación de víscera hueca: cirugía de urgencia.",
+   "codes": [
+    "4.01.2.003",
+    "1.06.1.030"
+   ],
+   "confunde": "Cámara gástrica: solo a la izquierda, con nivel.",
+   "q": "EUNACOM Julio 2019 · Pregunta 162",
+   "auto": false,
+   "n": 11
+  },
+  {
+   "id": "mallory-weiss",
+   "n": 12,
+   "src": "biblioteca/01_gastroenterologia/gastro-04/02_mallory-weiss-endoscopia__atlas-eunacom.jpg",
+   "topic": "gastro-04",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Síndrome de Mallory-Weiss",
+   "frase": "Desgarro de la mucosa en la unión gastroesofágica tras vómitos, con sangre fresca.",
+   "claves": [
+    {
+     "t": "Desgarro mucoso (flecha)",
+     "m": [
+      0.25,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Autolimitado y de buen pronóstico; terapia endoscópica si sigue sangrando.",
+   "codes": [
+    "4.01.2.019",
+    "1.06.2.007"
+   ],
+   "confunde": "Boerhaave: perforación transmural con aire en el mediastino.",
+   "q": "EUNACOM Julio 2024 · Pregunta 36",
+   "auto": true
+  },
+  {
+   "id": "esofagitis-caustica",
+   "n": 13,
+   "src": "biblioteca/01_gastroenterologia/gastro-04/10_esofagitis-caustica-endoscopia__knoop_p633.jpg",
+   "topic": "gastro-04",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Esofagitis cáustica",
+   "frase": "Mucosa quemada con exudado y estenosis incipiente tras ingerir soda cáustica.",
+   "claves": [
+    {
+     "t": "Mucosa necrótica con exudado",
+     "m": [
+      0.6,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Endoscopía precoz define la conducta; carbón activado y lavado gástrico contraindicados.",
+   "codes": [
+    "4.01.2.001"
+   ],
+   "confunde": "Esofagitis por reflujo: erosiones distales.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "boerhaave",
+   "n": 14,
+   "src": "_verificadas/032_gastro_Perforación_y_cáustico__cxrpdf_p135_1.jpg",
+   "topic": "gastro-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Síndrome de Boerhaave",
+   "frase": "Vómitos y luego dolor torácico con neumomediastino y enfisema subcutáneo.",
+   "claves": [
+    {
+     "t": "Aire que delinea el mediastino",
+     "m": [
+      0.6,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TAC de tórax y cirugía; la endoscopía no es el primer examen.",
+   "codes": [
+    "4.01.2.019"
+   ],
+   "confunde": "Mallory-Weiss: hematemesis sin aire extraluminal.",
+   "q": "EUNACOM Julio 2013 · Pregunta 154",
+   "auto": false
+  },
+  {
+   "id": "neumoperitoneo",
+   "n": 15,
+   "src": "biblioteca/01_gastroenterologia/gastro-26/04_neumoperitoneo__cto-digestivo_p65.jpg",
+   "topic": "gastro-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumoperitoneo bajo el diafragma",
+   "frase": "Media luna de aire bajo el diafragma en la radiografía de tórax de pie.",
+   "claves": [
+    {
+     "t": "Aire bajo el hemidiafragma derecho",
+     "m": [
+      0.3,
+      0.78,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Úlcera perforada: cirugía urgente; la endoscopía está contraindicada.",
+   "codes": [
+    "4.01.2.003",
+    "1.06.1.030"
+   ],
+   "confunde": "Signo de Chilaiditi: colon interpuesto, con haustras.",
+   "q": "EUNACOM Julio 2019 · Pregunta 162",
+   "auto": true
+  },
+  {
+   "id": "borrmann",
+   "n": 16,
+   "src": "biblioteca/01_gastroenterologia/gastro-05/01_borrmann_endoscopia__bailey_p1155.jpg",
+   "topic": "gastro-05",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Cáncer gástrico avanzado: Borrmann I a IV",
+   "frase": "I polipoide, II úlcera de bordes netos, III úlcera infiltrante, IV linitis plástica.",
+   "claves": [
+    {
+     "t": "(a) Tipo I: masa polipoide",
+     "m": [
+      0.25,
+      0.2,
+      0.1
+     ]
+    },
+    {
+     "t": "(d) Tipo IV: infiltra toda la pared",
+     "m": [
+      0.75,
+      0.8,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Epigastralgia ≥ 40 años o con signos de alarma: endoscopía con biopsias (GES).",
+   "codes": [
+    "1.06.1.004",
+    "4.01.1.008"
+   ],
+   "confunde": "Úlcera gástrica benigna: bordes regulares y fondo limpio.",
+   "q": "EUNACOM Julio 2019 · Pregunta 91",
+   "auto": false
+  },
+  {
+   "id": "borrmann-esquema",
+   "n": 17,
+   "src": "biblioteca/01_gastroenterologia/gastro-05/S1_borrmann__propio.svg",
+   "topic": "gastro-05",
+   "type": "esquema",
+   "size": "half",
+   "title": "Esquema de Borrmann",
+   "frase": "El tipo IV casi no se ve desde adentro porque infiltra la pared.",
+   "claves": [
+    {
+     "t": "Tipo I a III: crecen hacia la luz o la ulceran"
+    },
+    {
+     "t": "Tipo IV: linitis plástica, estómago rígido"
+    }
+   ],
+   "conducta": "El factor pronóstico principal es la invasión transmural.",
+   "codes": [
+    "1.06.1.004"
+   ],
+   "confunde": "Cáncer incipiente: limitado a mucosa y submucosa (clasificación japonesa).",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "tumor-musculo-liso",
+   "src": "biblioteca/01_gastroenterologia/gastro-05/03_tumor-musculo-liso-gastrico__bailey_p1150.jpg",
+   "topic": "gastro-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Tumor de músculo liso gástrico (estudio baritado)",
+   "frase": "Defecto de llenado redondeado y liso en el estómago.",
+   "claves": [
+    {
+     "t": "Defecto de llenado de bordes lisos",
+     "m": [
+      0.62,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Endoscopía con biopsia y TAC; GIST se reseca.",
+   "codes": [
+    "1.06.1.004"
+   ],
+   "confunde": "Cáncer gástrico: borde irregular y ulcerado.",
+   "q": null,
+   "auto": false,
+   "n": 18
+  },
+  {
+   "id": "cancer-gastrico-incipiente",
+   "src": "_verificadas/175_gastro_Cáncer_de_esófago_y_gástrico__27thBailey_p1154_1.jpg",
+   "topic": "gastro-05",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Cáncer gástrico incipiente",
+   "frase": "Lesión elevada blanquecina e irregular en la mucosa gástrica.",
+   "claves": [
+    {
+     "t": "Lesión elevada irregular",
+     "m": [
+      0.5,
+      0.5,
+      0.2
+     ]
+    }
+   ],
+   "conducta": "Biopsia; incipiente (mucosa o submucosa): resección endoscópica o cirugía.",
+   "codes": [
+    "1.06.1.004",
+    "4.01.1.008"
+   ],
+   "confunde": "Pólipo hiperplásico: liso y de aspecto benigno.",
+   "q": "EUNACOM Julio 2019 · Pregunta 91",
+   "auto": false,
+   "n": 19
+  },
+  {
+   "id": "hernia-paraesofagica",
+   "n": 20,
+   "src": "biblioteca/01_gastroenterologia/gastro-06/01_hernia-de-hiato-paraesofagica-rx__cto-digestivo_p35.jpg",
+   "topic": "gastro-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hernia hiatal paraesofágica",
+   "frase": "Imagen redonda con aire detrás de la silueta cardíaca: estómago en el tórax.",
+   "claves": [
+    {
+     "t": "Aire retrocardíaco",
+     "m": [
+      0.55,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Cirugía electiva por riesgo de vólvulo y estrangulación.",
+   "codes": [
+    "4.01.1.006"
+   ],
+   "confunde": "Hernia por deslizamiento: casi normal, solo se trata el reflujo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mediastino-esquema",
+   "n": 21,
+   "src": "biblioteca/01_gastroenterologia/gastro-06/S1_mediastino-compartimentos__propio.svg",
+   "topic": "gastro-06",
+   "type": "esquema",
+   "size": "half",
+   "title": "Compartimentos del mediastino",
+   "frase": "Anterior: las 4 T; medio: adenopatías y quistes; posterior: tumores neurogénicos.",
+   "claves": [
+    {
+     "t": "Anterior: timoma, teratoma, tiroides, «terrible» linfoma"
+    },
+    {
+     "t": "Toda masa: TAC de tórax con contraste"
+    }
+   ],
+   "conducta": "Timoma + miastenia gravis: timectomía.",
+   "codes": [
+    "4.01.1.041"
+   ],
+   "confunde": "Hernia hiatal: retrocardíaca, con nivel hidroaéreo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "masa-mediastino",
+   "n": 22,
+   "src": "biblioteca/01_gastroenterologia/gastro-06/03_masa-mediastinica-anterior-tc__atlas-eunacom.jpg",
+   "topic": "gastro-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Masa del mediastino anterior",
+   "frase": "Masa delante de los grandes vasos en la TAC con contraste.",
+   "claves": [
+    {
+     "t": "Masa anterior a los grandes vasos",
+     "m": [
+      0.62,
+      0.32,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TAC de tórax con contraste; pensar en las 4 T.",
+   "codes": [
+    "4.01.1.041"
+   ],
+   "confunde": "Aneurisma aórtico: realza como la aorta.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "hernia-diafragmatica-traumatica",
+   "n": 23,
+   "src": "_web/176_gastro_Hernia_hiatal_diafragmática___Commons_1.jpg",
+   "topic": "gastro-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hernia diafragmática traumática",
+   "frase": "Estómago o asas en el hemitórax izquierdo tras un trauma.",
+   "claves": [
+    {
+     "t": "Contenido abdominal sobre el diafragma",
+     "m": [
+      0.6,
+      0.7,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Aguda: cirugía urgente; crónica: cirugía electiva. Nunca se observa.",
+   "codes": [
+    "4.01.1.040"
+   ],
+   "confunde": "Derrame pleural o elevación diafragmática.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "masa-mediastino-tc",
+   "src": "_verificadas/177_gastro_Hernia_hiatal_diafragmática_me__ctmri_path_p256_1.jpg",
+   "topic": "gastro-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Masa mediastínica anterior en la TAC",
+   "frase": "Masa del mediastino anterior en cortes axial, coronal y sagital.",
+   "claves": [
+    {
+     "t": "Masa mediastínica",
+     "m": [
+      0.37,
+      0.13,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TAC con contraste y biopsia; las 4 T: timoma, teratoma, tiroides, linfoma.",
+   "codes": [
+    "4.01.1.041"
+   ],
+   "confunde": "Hernia hiatal: tiene aire o contraste del estómago.",
+   "q": null,
+   "auto": false,
+   "n": 24
+  },
+  {
+   "id": "masa-mediastino-pet",
+   "src": "_verificadas/177_gastro_Hernia_hiatal_diafragmática_me__nelsontext_p3984_1.jpg",
+   "topic": "gastro-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Masa mediastínica en el PET-CT",
+   "frase": "Captación intensa de las masas del mediastino.",
+   "claves": [
+    {
+     "t": "Masas hipercaptantes",
+     "m": [
+      0.6,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "El PET-CT etapifica linfomas y guía la biopsia.",
+   "codes": [
+    "4.01.1.041"
+   ],
+   "confunde": "Captación fisiológica del corazón.",
+   "q": null,
+   "auto": false,
+   "n": 25
+  },
+  {
+   "id": "pseudomembranas",
+   "n": 26,
+   "src": "biblioteca/01_gastroenterologia/gastro-08/03_colitis-pseudomembranosa-cdifficile__atlas-eunacom.jpg",
+   "topic": "gastro-08",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Colitis pseudomembranosa (C. difficile)",
+   "frase": "Placas amarillentas sobre la mucosa del colon tras antibióticos.",
+   "claves": [
+    {
+     "t": "Pseudomembranas amarillentas",
+     "m": [
+      0.4,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "PCR de toxina; metronidazol y, si falla, vancomicina oral; evaluar la respuesta clínica.",
+   "codes": [
+    "1.04.1.009",
+    "1.06.1.010",
+    "1.06.4.014"
+   ],
+   "confunde": "Colitis ulcerosa: sin pseudomembranas.",
+   "q": "EUNACOM Julio 2015 · Pregunta 128",
+   "auto": true
+  },
+  {
+   "id": "giardia",
+   "n": 27,
+   "src": "biblioteca/01_gastroenterologia/gastro-08/04_giardia-trofozoitos__atlas-eunacom.jpg",
+   "topic": "gastro-08",
+   "type": "histologia",
+   "size": "half",
+   "title": "Trofozoítos de Giardia",
+   "frase": "Trofozoítos en forma de pera con flagelos: diarrea con malabsorción.",
+   "claves": [
+    {
+     "t": "Trofozoíto piriforme con flagelos",
+     "m": [
+      0.3,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Tinidazol 2 g dosis única o metronidazol 5 días; descartarla antes de diagnosticar celíaca.",
+   "codes": [
+    "1.04.1.022"
+   ],
+   "confunde": "Enfermedad celíaca: también malabsorción.",
+   "q": "EUNACOM Julio 2018 · Pregunta 39",
+   "auto": true
+  },
+  {
+   "id": "ascaris",
+   "n": 28,
+   "src": "biblioteca/01_gastroenterologia/gastro-08/01_huevo-ascaris__nelson_p2813.jpg",
+   "topic": "gastro-08",
+   "type": "histologia",
+   "size": "half",
+   "title": "Huevo de Ascaris",
+   "frase": "Huevo redondeado de cubierta irregular, mamelonada.",
+   "claves": [
+    {
+     "t": "Cubierta gruesa e irregular",
+     "m": [
+      0.25,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Albendazol o mebendazol en dosis única.",
+   "codes": [
+    "1.04.1.022"
+   ],
+   "confunde": "Huevo de tricocéfalo: en barril con tapones.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "trichuris",
+   "n": 29,
+   "src": "biblioteca/01_gastroenterologia/gastro-08/02_huevo-trichuris__nelson_p2820.jpg",
+   "topic": "gastro-08",
+   "type": "histologia",
+   "size": "half",
+   "title": "Huevo de tricocéfalo",
+   "frase": "Huevo alargado en barril con un tapón claro en cada extremo.",
+   "claves": [
+    {
+     "t": "Tapones polares",
+     "m": [
+      0.7,
+      0.6,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Albendazol 3 días.",
+   "codes": [
+    "1.04.1.022"
+   ],
+   "confunde": "Huevo de Ascaris: redondo y mamelonado.",
+   "q": "EUNACOM Julio 2025 · Pregunta 101",
+   "auto": true
+  },
+  {
+   "id": "dermatitis-herpetiforme",
+   "n": 30,
+   "src": "biblioteca/01_gastroenterologia/gastro-09/01_dermatitis_herpetiforme__harrison_p413.jpg",
+   "topic": "gastro-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dermatitis herpetiforme",
+   "frase": "Pápulas y vesículas agrupadas y excoriadas en los codos: la celíaca de la piel.",
+   "claves": [
+    {
+     "t": "Lesiones agrupadas en el codo",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Responde a la dieta sin gluten; estudiar enfermedad celíaca.",
+   "codes": [
+    "1.06.1.015"
+   ],
+   "confunde": "Psoriasis: placas con escama gruesa, sin vesículas.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "atrofia-vellositaria",
+   "n": 31,
+   "src": "biblioteca/01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg",
+   "topic": "gastro-09",
+   "type": "histologia",
+   "size": "half",
+   "title": "Atrofia vellositaria (enfermedad celíaca)",
+   "frase": "Mucosa plana sin vellosidades, hiperplasia de criptas y linfocitosis intraepitelial.",
+   "claves": [
+    {
+     "t": "Mucosa plana, sin vellosidades",
+     "m": [
+      0.25,
+      0.5,
+      0.1
+     ]
+    },
+    {
+     "t": "Vellosidades normales para comparar",
+     "m": [
+      0.75,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Anti-transglutaminasa IgA + IgA total y biopsia duodenal comiendo gluten.",
+   "codes": [
+    "1.06.1.015"
+   ],
+   "confunde": "Giardiasis: puede dar atrofia, descartarla primero.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 25",
+   "auto": false
+  },
+  {
+   "id": "colitis-ulcerosa",
+   "n": 32,
+   "src": "biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_1__cto-digestivo_p103.jpg",
+   "topic": "gastro-10",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Colitis ulcerosa",
+   "frase": "Mucosa inflamada de forma continua, roja y friable, sin zonas sanas.",
+   "claves": [
+    {
+     "t": "Mucosa roja, granular y continua",
+     "m": [
+      0.4,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Joven con diarrea disentérica crónica: colonoscopía con biopsias.",
+   "codes": [
+    "1.06.1.018"
+   ],
+   "confunde": "Crohn: úlceras en parches con mucosa sana entre ellas.",
+   "q": "EUNACOM Julio 2025 · Pregunta 164",
+   "auto": true
+  },
+  {
+   "id": "crohn",
+   "n": 33,
+   "src": "biblioteca/01_gastroenterologia/gastro-10/02_crohn-endoscopia__cto-digestivo_p104.jpg",
+   "topic": "gastro-10",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Enfermedad de Crohn",
+   "frase": "Úlceras con fibrina en parches sobre una mucosa irregular.",
+   "claves": [
+    {
+     "t": "Úlceras con fibrina",
+     "m": [
+      0.6,
+      0.3,
+      0.08
+     ]
+    },
+    {
+     "t": "Mucosa de aspecto en empedrado",
+     "m": [
+      0.4,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Basta una característica de Crohn para diagnosticarlo; cirugía solo del segmento complicado.",
+   "codes": [
+    "1.06.1.018"
+   ],
+   "confunde": "Colitis ulcerosa: continua desde el recto.",
+   "q": "EUNACOM Julio 2025 · Pregunta 163",
+   "auto": true
+  },
+  {
+   "id": "crohn-tc",
+   "n": 34,
+   "src": "biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_1__cto-radiologia_p40.jpg",
+   "topic": "gastro-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Crohn: íleon terminal engrosado",
+   "frase": "Íleon terminal con la pared engrosada e hiperemia mesentérica.",
+   "claves": [
+    {
+     "t": "Íleon terminal engrosado (flecha roja)",
+     "m": [
+      0.32,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Localización ileal es de Crohn: la CU solo compromete el colon.",
+   "codes": [
+    "1.06.1.018"
+   ],
+   "confunde": "Apendicitis o linfoma ileal.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 110",
+   "auto": false
+  },
+  {
+   "id": "eritema-nodoso",
+   "n": 35,
+   "src": "_verificadas/179_gastro_Enfermedad_inflamatoria_intest__Fitzpatric_p611_1.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema nodoso",
+   "frase": "Nódulos rojos y dolorosos en las piernas: la manifestación cutánea más frecuente de la EII.",
+   "claves": [
+    {
+     "t": "Nódulo eritematoso pretibial",
+     "m": [
+      0.4,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Sigue la actividad intestinal: tratar la enfermedad de base.",
+   "codes": [
+    "1.06.1.018"
+   ],
+   "confunde": "Pioderma gangrenoso: úlcera de bordes violáceos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pioderma",
+   "n": 36,
+   "src": "_verificadas/180_gastro_Enfermedad_inflamatoria_intest__Fitzpatric_p338_1.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pioderma gangrenoso",
+   "frase": "Úlcera dolorosa de bordes violáceos socavados asociada a EII.",
+   "claves": [
+    {
+     "t": "Borde violáceo socavado",
+     "m": [
+      0.3,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "No desbridar; tratar la EII y corticoides.",
+   "codes": [
+    "1.06.1.018"
+   ],
+   "confunde": "Úlcera infecciosa: no se agrava al desbridar.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "eritema-nodoso-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-10/10_eritema-nodoso-piernas__knoop_p415.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema nodoso en la EII",
+   "frase": "Nódulos rojo-violáceos dolorosos en la cara anterior de las piernas.",
+   "claves": [
+    {
+     "t": "Nódulos dolorosos",
+     "m": [
+      0.35,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Sigue la actividad de la enfermedad: tratar la EII.",
+   "codes": [
+    "1.06.1.018"
+   ],
+   "confunde": "Pioderma gangrenoso: úlcera de borde violáceo.",
+   "q": null,
+   "auto": false,
+   "n": 37
+  },
+  {
+   "id": "pioderma-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-10/11_pioderma-gangrenoso__knoop_p413.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pioderma gangrenoso",
+   "frase": "Úlcera con fondo necrótico y borde violáceo socavado.",
+   "claves": [
+    {
+     "t": "Borde violáceo socavado",
+     "m": [
+      0.5,
+      0.5,
+      0.18
+     ]
+    }
+   ],
+   "conducta": "Corticoides; no desbridar (patergia).",
+   "codes": [
+    "1.06.1.018"
+   ],
+   "confunde": "Úlcera infectada: mejora con aseo.",
+   "q": null,
+   "auto": false,
+   "n": 38
+  },
+  {
+   "id": "polipo-pediculado",
+   "n": 39,
+   "src": "biblioteca/01_gastroenterologia/gastro-11/02_polipo_pediculado__harrison_p2433.jpg",
+   "topic": "gastro-11",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Pólipo pediculado",
+   "frase": "Cabeza sobre un tallo: se reseca con asa en la misma colonoscopía.",
+   "claves": [
+    {
+     "t": "Cabeza del pólipo",
+     "m": [
+      0.55,
+      0.35,
+      0.1
+     ]
+    },
+    {
+     "t": "Tallo (pedículo)",
+     "m": [
+      0.55,
+      0.7,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Polipectomía y control en 1-3 años según número, tamaño e histología.",
+   "codes": [
+    "4.01.1.014",
+    "1.06.1.029"
+   ],
+   "confunde": "Pólipo sésil: base ancha, más riesgo.",
+   "q": "EUNACOM Enero 2023 · Pregunta 175",
+   "auto": false
+  },
+  {
+   "id": "polipo-sesil",
+   "n": 40,
+   "src": "biblioteca/01_gastroenterologia/gastro-11/01_polipo_sesil__harrison_p2433.jpg",
+   "topic": "gastro-11",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Pólipo sésil",
+   "frase": "Base ancha y sin tallo: más difícil de resecar y con más riesgo de degenerar.",
+   "claves": [
+    {
+     "t": "Pólipo de base ancha",
+     "m": [
+      0.4,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Adenoma = precursor del cáncer: resecarlo previene el cáncer.",
+   "codes": [
+    "4.01.1.014",
+    "1.06.1.029"
+   ],
+   "confunde": "Pólipo pediculado: con tallo.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "polipo-pediculado-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_1__cto-digestivo_p119.jpg",
+   "topic": "gastro-11",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Pólipo pediculado en la colonoscopía",
+   "frase": "Pólipo con cabeza lobulada y tallo.",
+   "claves": [
+    {
+     "t": "Cabeza del pólipo",
+     "m": [
+      0.45,
+      0.25,
+      0.1
+     ]
+    },
+    {
+     "t": "Tallo",
+     "m": [
+      0.6,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Polipectomía y biopsia; control según el informe.",
+   "codes": [
+    "4.01.1.014",
+    "1.06.1.029"
+   ],
+   "confunde": "Pólipo sésil: base ancha, sin tallo.",
+   "q": "EUNACOM Enero 2023 · Pregunta 175",
+   "auto": false,
+   "n": 41
+  },
+  {
+   "id": "cancer-colon-endo",
+   "src": "_verificadas/182_gastro_Pólipos_y_cáncer_colorrectal__27thBailey_p1284_1.jpg",
+   "topic": "gastro-11",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Cáncer colorrectal en la colonoscopía",
+   "frase": "Masa ulcerada que estrecha la luz.",
+   "claves": [
+    {
+     "t": "Masa que estrecha la luz",
+     "m": [
+      0.5,
+      0.6,
+      0.18
+     ]
+    }
+   ],
+   "conducta": "Biopsia, CEA y TAC de etapificación; cirugía.",
+   "codes": [
+    "4.01.1.015",
+    "1.06.1.029"
+   ],
+   "confunde": "Colitis: mucosa inflamada sin masa.",
+   "q": null,
+   "auto": false,
+   "n": 42
+  },
+  {
+   "id": "paf-pieza",
+   "src": "_verificadas/183_gastro_Pólipos_y_cáncer_colorrectal__27thBailey_p257_1.jpg",
+   "topic": "gastro-11",
+   "type": "pieza",
+   "size": "half",
+   "title": "Poliposis adenomatosa familiar (pieza)",
+   "frase": "Cientos de pólipos cubren todo el colon.",
+   "claves": [
+    {
+     "t": "Pólipos en toda la mucosa",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Colectomía profiláctica; estudiar a la familia (APC).",
+   "codes": [
+    "4.01.1.014",
+    "1.06.1.029"
+   ],
+   "confunde": "Pólipos aislados: polipectomía basta.",
+   "q": null,
+   "auto": false,
+   "n": 43
+  },
+  {
+   "id": "fisura-anal",
+   "n": 44,
+   "src": "biblioteca/01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fisura anal",
+   "frase": "Desgarro lineal del anodermo en la línea media posterior; dolor que persiste minutos.",
+   "claves": [
+    {
+     "t": "Desgarro lineal (flecha)",
+     "m": [
+      0.52,
+      0.62,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Manejo médico: fibra, baños de asiento y relajante tópico; esfinterotomía interna si es crónica.",
+   "codes": [
+    "4.01.1.020",
+    "4.01.1.016"
+   ],
+   "confunde": "Fístula: trayecto con orificio que supura, quirúrgica.",
+   "q": "EUNACOM Julio 2017 · Pregunta 54",
+   "auto": true
+  },
+  {
+   "id": "hemorroides-iv",
+   "n": 45,
+   "src": "biblioteca/01_gastroenterologia/gastro-12/01_prolapso-hemorroidal-grado-iv__cto-digestivo_p149.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prolapso hemorroidal grado IV",
+   "frase": "Hemorroides que salen y no se pueden reducir: grado quirúrgico.",
+   "claves": [
+    {
+     "t": "Paquetes hemorroidales prolapsados",
+     "m": [
+      0.48,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Hemorroidectomía; siempre descartar otras causas de hemorragia digestiva baja.",
+   "codes": [
+    "4.01.1.016"
+   ],
+   "confunde": "Prolapso rectal: pliegues concéntricos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hemorroide-trombosado-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-12/10_hemorroide-externo-trombosado__knoop_p258.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorroide externo trombosado",
+   "frase": "Nódulo violáceo, tenso y doloroso en el borde anal.",
+   "claves": [
+    {
+     "t": "Trombo violáceo",
+     "m": [
+      0.6,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Menos de 72 horas: trombectomía; después, manejo médico.",
+   "codes": [
+    "4.01.1.016"
+   ],
+   "confunde": "Fisura anal: dolor al defecar, sin nódulo.",
+   "q": "EUNACOM Julio 2025 · Pregunta 27",
+   "auto": false,
+   "n": 46
+  },
+  {
+   "id": "hemorroide-trombosado",
+   "n": 47,
+   "src": "_verificadas/184_gastro_Patología_anal__Knoop_p241.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorroide externo trombosado",
+   "frase": "Nódulo violáceo, tenso y doloroso en el margen anal.",
+   "claves": [
+    {
+     "t": "Nódulo violáceo trombosado",
+     "m": [
+      0.5,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Baños de asiento; trombectomía solo dentro de las primeras 48-72 h.",
+   "codes": [
+    "4.01.1.016"
+   ],
+   "confunde": "Absceso perianal: eritematoso y fluctuante, con dolor progresivo.",
+   "q": "EUNACOM Julio 2025 · Pregunta 27",
+   "auto": true
+  },
+  {
+   "id": "absceso-perianal-2",
+   "src": "_verificadas/185_gastro_Patología_anal__nelsontext_p3113_1.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso perianal",
+   "frase": "Aumento de volumen rojo y fluctuante junto al ano.",
+   "claves": [
+    {
+     "t": "Zona roja y fluctuante",
+     "m": [
+      0.45,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Drenaje quirúrgico; los antibióticos solos no bastan.",
+   "codes": [
+    "4.01.1.017"
+   ],
+   "confunde": "Hemorroide trombosado: nódulo violáceo.",
+   "q": "EUNACOM Julio 2015 · Pregunta 41",
+   "auto": false,
+   "n": 48
+  },
+  {
+   "id": "absceso-perianal",
+   "n": 49,
+   "src": "biblioteca/01_gastroenterologia/gastro-12/11_absceso-perianal__knoop_p257.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso perianal",
+   "frase": "Tumefacción roja perianal con dolor que aumenta día a día.",
+   "claves": [
+    {
+     "t": "Tumefacción perianal",
+     "m": [
+      0.35,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Drenaje quirúrgico en pabellón; los antibióticos solos no bastan.",
+   "codes": [
+    "4.01.1.017"
+   ],
+   "confunde": "Hemorroide trombosado: dolor súbito y nódulo violáceo.",
+   "q": "EUNACOM Julio 2015 · Pregunta 41",
+   "auto": false
+  },
+  {
+   "id": "ictericia-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-13/10_ictericia-escleral__knoop_p34.jpg",
+   "topic": "gastro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ictericia escleral",
+   "frase": "Escleras amarillas: bilirrubina sobre 2–3 mg/dl.",
+   "claves": [
+    {
+     "t": "Esclera amarilla",
+     "m": [
+      0.25,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Ecografía: vía biliar dilatada (obstructiva) o no.",
+   "codes": [
+    "1.06.1.007",
+    "4.01.1.026"
+   ],
+   "confunde": "Carotenemia: piel amarilla con escleras blancas.",
+   "q": null,
+   "auto": false,
+   "n": 50
+  },
+  {
+   "id": "coledoco-eco",
+   "n": 51,
+   "src": "biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm__cto-radiologia_p45.jpg",
+   "topic": "gastro-13",
+   "type": "eco",
+   "size": "half",
+   "title": "Colédoco dilatado por coledocolitiasis",
+   "frase": "Vía biliar ancha = ictericia obstructiva: buscar cálculo o tumor.",
+   "claves": [
+    {
+     "t": "Colédoco dilatado (flecha blanca)",
+     "m": [
+      0.3,
+      0.5,
+      0.07
+     ]
+    },
+    {
+     "t": "Cálculo (flecha roja)",
+     "m": [
+      0.52,
+      0.62,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Eco → colangiorresonancia → CPRE.",
+   "codes": [
+    "1.06.4.006",
+    "4.01.1.026"
+   ],
+   "confunde": "Colestasia intrahepática: vía biliar no dilatada.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 124",
+   "auto": false
+  },
+  {
+   "id": "colangio-rm",
+   "n": 52,
+   "src": "biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm_alt1__cto-radiologia_p45.jpg",
+   "topic": "gastro-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Coledocolitiasis en colangiorresonancia",
+   "frase": "Colédoco dilatado con un cálculo que lo obstruye.",
+   "claves": [
+    {
+     "t": "Colédoco dilatado (flecha blanca)",
+     "m": [
+      0.5,
+      0.3,
+      0.07
+     ]
+    },
+    {
+     "t": "Cálculo (flecha roja)",
+     "m": [
+      0.42,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Colangiorresonancia confirma; CPRE extrae.",
+   "codes": [
+    "1.06.4.015",
+    "1.06.1.006"
+   ],
+   "confunde": "Colangiocarcinoma: estenosis sin cálculo.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 96",
+   "auto": false
+  },
+  {
+   "id": "ictericia",
+   "n": 53,
+   "src": "_web/186_gastro_Ictericia_y_colestasia__Commons_2.jpg",
+   "topic": "gastro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ictericia escleral",
+   "frase": "Las escleras son lo primero que se tiñe: visible sobre 2,5-3 mg/dL.",
+   "claves": [
+    {
+     "t": "Escleras amarillas",
+     "m": [
+      0.32,
+      0.47,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Primer examen: ecografía abdominal (vía biliar dilatada o no).",
+   "codes": [
+    "1.06.1.007",
+    "4.01.1.026"
+   ],
+   "confunde": "Carotenemia: piel amarilla con escleras blancas.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "cancer-pancreas",
+   "n": 54,
+   "src": "_web/187_gastro_Ictericia_y_colestasia__Open-i_1.jpg",
+   "topic": "gastro-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cáncer de la cabeza del páncreas",
+   "frase": "Masa en la cabeza del páncreas con vía biliar dilatada: ictericia silente (Courvoisier-Terrier).",
+   "claves": [
+    {
+     "t": "Masa en la cabeza pancreática",
+     "m": [
+      0.18,
+      0.75,
+      0.07
+     ]
+    },
+    {
+     "t": "Vía biliar dilatada",
+     "m": [
+      0.75,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Baja de peso + ictericia indolora: TAC (no endoscopía).",
+   "codes": [
+    "1.06.1.002",
+    "4.01.1.031"
+   ],
+   "confunde": "Coledocolitiasis: ictericia dolorosa.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 85",
+   "auto": true
+  },
+  {
+   "id": "serologia-vhb",
+   "n": 55,
+   "src": "biblioteca/01_gastroenterologia/gastro-14/S1_serologia-vhb__propio.svg",
+   "topic": "gastro-14",
+   "type": "esquema",
+   "size": "half",
+   "title": "Hepatitis B aguda: marcadores en el tiempo",
+   "frase": "Entre la caída del HBsAg y la aparición del anti-HBs solo está la IgM anti-HBc (ventana).",
+   "claves": [
+    {
+     "t": "Período de ventana: solo IgM anti-HBc positiva"
+    },
+    {
+     "t": "Anti-HBs = inmunidad"
+    }
+   ],
+   "conducta": "HBsAg = hay virus; IgM anti-HBc = es aguda; HBsAg (+) con IgM (−) = crónica.",
+   "codes": [
+    "1.06.4.012",
+    "1.06.1.020"
+   ],
+   "confunde": "Vacunado: solo anti-HBs positivo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "higado-graso",
+   "n": 56,
+   "src": "_verificadas/188_gastro_Hepatitis__Rumack_p1827.jpg",
+   "topic": "gastro-14",
+   "type": "eco",
+   "size": "half",
+   "title": "Esteatosis hepática",
+   "frase": "Hígado brillante, hiperecogénico.",
+   "claves": [
+    {
+     "t": "Parénquima hepático hiperecogénico",
+     "m": [
+      0.45,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Esteatopatía no alcohólica: baja de peso y control de factores de riesgo.",
+   "codes": [
+    "1.06.3.006"
+   ],
+   "confunde": "Cirrosis: contorno nodular y heterogéneo.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 102",
+   "auto": false
+  },
+  {
+   "id": "eco-cirrosis",
+   "n": 57,
+   "src": "biblioteca/01_gastroenterologia/gastro-15/04_eco-cirrosis__cto-radiologia_p42.jpg",
+   "topic": "gastro-15",
+   "type": "eco",
+   "size": "half",
+   "title": "Cirrosis en la ecografía",
+   "frase": "Hígado heterogéneo con contorno lobulado.",
+   "claves": [
+    {
+     "t": "Superficie irregular (flechas)",
+     "m": [
+      0.82,
+      0.2,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Toda ascitis en cirrótico: paracentesis diagnóstica.",
+   "codes": [
+    "1.06.1.005"
+   ],
+   "confunde": "Esteatosis: hígado brillante pero liso.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "portografia",
+   "src": "biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_2__cto-digestivo_p216.jpg",
+   "topic": "gastro-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Portografía: colaterales",
+   "frase": "Várices tortuosas que salen del sistema porta.",
+   "claves": [
+    {
+     "t": "Colaterales tortuosas",
+     "m": [
+      0.6,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Hipertensión portal: endoscopía para buscar várices.",
+   "codes": [
+    "4.01.3.009",
+    "1.06.1.005"
+   ],
+   "confunde": "Trombosis portal: no se rellena la vena porta.",
+   "q": null,
+   "auto": false,
+   "n": 58
+  },
+  {
+   "id": "cabeza-medusa",
+   "n": 59,
+   "src": "biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_1__cto-digestivo_p216.jpg",
+   "topic": "gastro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cabeza de medusa",
+   "frase": "Venas dilatadas periumbilicales por hipertensión portal.",
+   "claves": [
+    {
+     "t": "Colaterales venosas en la pared abdominal",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Hipertensión portal: buscar várices con endoscopía.",
+   "codes": [
+    "4.01.3.009",
+    "1.06.1.005"
+   ],
+   "confunde": "Obstrucción de cava inferior: flujo hacia arriba.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "varice-ligadura",
+   "n": 60,
+   "src": "../../books/figuras/atlas_eunacom_2026/035_alta_gastro_gastro_15_cirrosis_hemorragia_digestiva.jpg",
+   "topic": "gastro-15",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Várice esofágica con ligadura",
+   "frase": "Várice abultada con la banda elástica puesta en su base.",
+   "claves": [
+    {
+     "t": "Várice ligada",
+     "m": [
+      0.55,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Terlipresina + antibióticos + tiamina + ligadura en < 12 h; profilaxis con propranolol.",
+   "codes": [
+    "1.06.2.007",
+    "4.01.3.009"
+   ],
+   "confunde": "Úlcera sangrante: IBP y hemostasia.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 31",
+   "auto": true
+  },
+  {
+   "id": "quiste-hidatidico",
+   "n": 61,
+   "src": "biblioteca/01_gastroenterologia/gastro-16/02_quiste-hidatidico-hepatico__cto-radiologia_p43.jpg",
+   "topic": "gastro-16",
+   "type": "eco",
+   "size": "half",
+   "title": "Quiste hidatídico hepático",
+   "frase": "Lesión quística con membranas y vesículas hijas en un paciente que convive con perros.",
+   "claves": [
+    {
+     "t": "Vesículas hijas (flecha blanca)",
+     "m": [
+      0.2,
+      0.6,
+      0.07
+     ]
+    },
+    {
+     "t": "Calcificación (flecha roja)",
+     "m": [
+      0.72,
+      0.25,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Serología y cirugía o PAIR según estadio; albendazol.",
+   "codes": [
+    "4.01.1.022",
+    "1.06.1.024"
+   ],
+   "confunde": "Quiste simple: anecoico sin tabiques.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hemangioma",
+   "n": 62,
+   "src": "biblioteca/01_gastroenterologia/gastro-16/01_hemangioma-realce-periferico__cto-radiologia_p51.jpg",
+   "topic": "gastro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hemangioma hepático",
+   "frase": "Lesión con realce periférico en glóbulos que se llena hacia el centro.",
+   "claves": [
+    {
+     "t": "Realce periférico globular (flecha)",
+     "m": [
+      0.82,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Se observa; solo se opera si es gigante y sintomático.",
+   "codes": [
+    "1.06.1.024",
+    "4.01.1.024"
+   ],
+   "confunde": "Hepatocarcinoma: realce arterial y lavado.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hepatocarcinoma",
+   "n": 63,
+   "src": "biblioteca/01_gastroenterologia/gastro-16/01_tc_trifasica_hcc__commons.jpg",
+   "topic": "gastro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hepatocarcinoma en TAC trifásico",
+   "frase": "Realce en fase arterial y lavado en fase portal en un hígado cirrótico.",
+   "claves": [
+    {
+     "t": "Lesión que capta en arterial (A)",
+     "m": [
+      0.28,
+      0.2,
+      0.06
+     ]
+    },
+    {
+     "t": "Lavado en fase portal",
+     "m": [
+      0.78,
+      0.2,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "AFP alta + nódulo en cirrótico: resección, ablación o trasplante (criterios de Milán).",
+   "codes": [
+    "1.06.1.024",
+    "4.01.1.024"
+   ],
+   "confunde": "Hemangioma: realce periférico globular.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 44",
+   "auto": true
+  },
+  {
+   "id": "absceso-hepatico",
+   "n": 64,
+   "src": "_verificadas/189_gastro_Lesiones_hepáticas_y_vesicular__27thBailey_p80_1.jpg",
+   "topic": "gastro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso hepático",
+   "frase": "Lesión hipodensa con pared que realza en el hígado de un paciente febril.",
+   "claves": [
+    {
+     "t": "Colección hepática",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Drenaje percutáneo y antibióticos.",
+   "codes": [
+    "4.01.1.023"
+   ],
+   "confunde": "Metástasis: múltiples, sin fiebre.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hnf",
+   "n": 65,
+   "src": "_verificadas/190_gastro_Lesiones_hepáticas_y_vesicular__ctmri_path_p320_1.jpg",
+   "topic": "gastro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hiperplasia nodular focal",
+   "frase": "Lesión hepática con cicatriz central.",
+   "claves": [
+    {
+     "t": "Cicatriz central",
+     "m": [
+      0.5,
+      0.45,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Benigna: se observa.",
+   "codes": [
+    "1.06.1.024"
+   ],
+   "confunde": "Adenoma: anticonceptivos, se reseca si > 5 cm.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "metastasis-hepaticas",
+   "n": 66,
+   "src": "_verificadas/191_gastro_Lesiones_hepáticas_y_vesicular__27thBailey_p1181_1.jpg",
+   "topic": "gastro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Metástasis hepáticas",
+   "frase": "Múltiples lesiones hipodensas repartidas por el parénquima.",
+   "claves": [
+    {
+     "t": "Lesiones hipodensas múltiples",
+     "m": [
+      0.3,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Buscar el primario (colon, mama, pulmón, estómago).",
+   "codes": [
+    "1.06.1.024"
+   ],
+   "confunde": "Abscesos hepáticos: fiebre, pared gruesa.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "polipo-vesicular",
+   "n": 67,
+   "src": "_verificadas/192_gastro_Lesiones_hepáticas_y_vesicular__27thBailey_p1231_1.jpg",
+   "topic": "gastro-16",
+   "type": "eco",
+   "size": "half",
+   "title": "Pólipo vesicular",
+   "frase": "Imagen fija en la pared, sin sombra acústica.",
+   "claves": [
+    {
+     "t": "Pólipo adherido a la pared",
+     "m": [
+      0.5,
+      0.35,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "≥ 10 mm, heterogéneo o con cálculos: colecistectomía.",
+   "codes": [
+    "1.06.1.003"
+   ],
+   "confunde": "Cálculo: móvil y con sombra.",
+   "q": "EUNACOM Julio 2019 · Pregunta 27",
+   "auto": false
+  },
+  {
+   "id": "colangiocarcinoma",
+   "n": 68,
+   "src": "biblioteca/01_gastroenterologia/gastro-16/03_colangiocarcinoma-hiliar-cpre__harrison_p2436.jpg",
+   "topic": "gastro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Colangiocarcinoma hiliar (Klatskin)",
+   "frase": "Estenosis de la vía biliar en el hilio: ictericia progresiva indolora con prurito.",
+   "claves": [
+    {
+     "t": "Estenosis hiliar (flecha)",
+     "m": [
+      0.55,
+      0.27,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Derivar a cirugía; el hiliar deja la vesícula colapsada.",
+   "codes": [
+    "1.06.1.003",
+    "4.01.1.028"
+   ],
+   "confunde": "Coledocolitiasis: defecto redondeado móvil.",
+   "q": "EUNACOM Julio 2024 · Pregunta 118",
+   "auto": false
+  },
+  {
+   "id": "colelitiasis",
+   "n": 69,
+   "src": "biblioteca/01_gastroenterologia/gastro-17/01_colelitiasis-con-sombra-eco__cto-radiologia_p44.jpg",
+   "topic": "gastro-17",
+   "type": "eco",
+   "size": "half",
+   "title": "Colelitiasis",
+   "frase": "El cálculo es blanco y deja una sombra acústica negra detrás.",
+   "claves": [
+    {
+     "t": "Cálculo hiperecogénico",
+     "m": [
+      0.45,
+      0.45,
+      0.07
+     ]
+    },
+    {
+     "t": "Sombra acústica posterior",
+     "m": [
+      0.45,
+      0.7,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Toda colelitiasis se opera (colecistectomía laparoscópica electiva).",
+   "codes": [
+    "1.06.1.006"
+   ],
+   "confunde": "Pólipo vesicular: sin sombra y fijo.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 174",
+   "auto": true
+  },
+  {
+   "id": "colelitiasis-esquema",
+   "src": "biblioteca/01_gastroenterologia/gastro-17/02_colecistitis-eco_alt1__cto-digestivo_p244.jpg",
+   "topic": "gastro-17",
+   "type": "esquema",
+   "size": "half",
+   "title": "Vesícula con cálculos",
+   "frase": "Cálculos dentro de la vesícula, junto al hígado y el páncreas.",
+   "claves": [
+    {
+     "t": "Cálculos en la vesícula",
+     "m": [
+      0.15,
+      0.48,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Sintomática: colecistectomía laparoscópica.",
+   "codes": [
+    "1.06.1.006"
+   ],
+   "confunde": "Coledocolitiasis: cálculo en el colédoco, con ictericia.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 174",
+   "auto": false,
+   "n": 70
+  },
+  {
+   "id": "colecistitis",
+   "n": 71,
+   "src": "biblioteca/01_gastroenterologia/gastro-17/02_colecistitis-eco__cto-radiologia_p44.jpg",
+   "topic": "gastro-17",
+   "type": "eco",
+   "size": "half",
+   "title": "Colecistitis aguda",
+   "frase": "Pared > 4 mm, sobredistensión y líquido perivesicular con cálculos.",
+   "claves": [
+    {
+     "t": "Pared vesicular engrosada",
+     "m": [
+      0.5,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Colecistectomía en < 72 h y antibióticos.",
+   "codes": [
+    "1.06.2.004"
+   ],
+   "confunde": "Cólico biliar: sin fiebre ni pared engrosada.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "vesicula-porcelana",
+   "n": 72,
+   "src": "_verificadas/193_gastro_Litiasis_biliar__27thBailey_p1211_1.jpg",
+   "topic": "gastro-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Vesícula en porcelana",
+   "frase": "Pared vesicular calcificada.",
+   "claves": [
+    {
+     "t": "Pared calcificada",
+     "m": [
+      0.4,
+      0.7,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Colecistectomía por riesgo de cáncer de vesícula.",
+   "codes": [
+    "1.06.1.003"
+   ],
+   "confunde": "Cálculo grande: imagen intraluminal, no parietal.",
+   "q": "EUNACOM Julio 2019 · Pregunta 180",
+   "auto": false
+  },
+  {
+   "id": "pancreatitis-edematosa-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_1__cto-digestivo_p258.jpg",
+   "topic": "gastro-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Pancreatitis edematosa en la TAC",
+   "frase": "Páncreas aumentado, con borde mal definido y líquido alrededor.",
+   "claves": [
+    {
+     "t": "Páncreas aumentado",
+     "m": [
+      0.5,
+      0.25,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Hidratación, analgesia y alimentación precoz; TAC si no mejora.",
+   "codes": [
+    "1.06.2.010",
+    "1.06.4.005"
+   ],
+   "confunde": "Pancreatitis necrotizante: zonas del páncreas que no captan contraste.",
+   "q": "EUNACOM Julio 2015 · Pregunta 35",
+   "auto": false,
+   "n": 73
+  },
+  {
+   "id": "pancreatitis-edematosa",
+   "n": 74,
+   "src": "biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_alt1__cto-radiologia_p46.jpg",
+   "topic": "gastro-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Pancreatitis aguda edematosa",
+   "frase": "Páncreas aumentado de tamaño con la grasa vecina borrada por la inflamación.",
+   "claves": [
+    {
+     "t": "Páncreas engrosado (flecha roja)",
+     "m": [
+      0.48,
+      0.22,
+      0.07
+     ]
+    },
+    {
+     "t": "Grasa peripancreática inflamada",
+     "m": [
+      0.67,
+      0.3,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Volumen precoz con Ringer lactato; realimentación oral precoz; sin antibióticos profilácticos.",
+   "codes": [
+    "1.06.2.010",
+    "1.06.4.005"
+   ],
+   "confunde": "Úlcera perforada: neumoperitoneo.",
+   "q": "EUNACOM Julio 2015 · Pregunta 35",
+   "auto": false
+  },
+  {
+   "id": "grey-turner",
+   "n": 75,
+   "src": "biblioteca/01_gastroenterologia/gastro-18/01_signo_grey_turner__commons.jpg",
+   "topic": "gastro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Grey Turner",
+   "frase": "Equimosis en los flancos por sangre retroperitoneal en la pancreatitis hemorrágica.",
+   "claves": [
+    {
+     "t": "Equimosis en el flanco",
+     "m": [
+      0.6,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Pancreatitis grave: falla orgánica > 48 h, UCI.",
+   "codes": [
+    "1.06.2.010"
+   ],
+   "confunde": "Hematoma por anticoagulantes.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "puntos-apendicitis",
+   "n": 76,
+   "src": "biblioteca/01_gastroenterologia/gastro-19/S1_puntos-apendicitis__propio.svg",
+   "topic": "gastro-19",
+   "type": "esquema",
+   "size": "half",
+   "title": "Apendicitis: puntos y signos del examen",
+   "frase": "McBurney en la unión del tercio externo con los dos tercios internos.",
+   "claves": [
+    {
+     "t": "McBurney doloroso en la fosa ilíaca derecha"
+    },
+    {
+     "t": "Rovsing: presionar la izquierda duele a la derecha"
+    }
+   ],
+   "conducta": "Dolor que migra a la FID + anorexia + Blumberg: apendicectomía.",
+   "codes": [
+    "4.01.2.006"
+   ],
+   "confunde": "Mujer en edad fértil: test de embarazo y evaluación ginecológica.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 62",
+   "auto": false
+  },
+  {
+   "id": "apendicitis-tc",
+   "n": 77,
+   "src": "biblioteca/01_gastroenterologia/gastro-19/01_apendicitis-eco__cto-radiologia_p41.jpg",
+   "topic": "gastro-19",
+   "type": "imagen",
+   "size": "half",
+   "title": "Apendicitis aguda en TAC",
+   "frase": "Apéndice engrosado con la grasa que lo rodea inflamada.",
+   "claves": [
+    {
+     "t": "Apéndice engrosado (flechas)",
+     "m": [
+      0.25,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TAC solo en el adulto con duda; si la clínica es clara, pabellón.",
+   "codes": [
+    "4.01.2.006"
+   ],
+   "confunde": "Diverticulitis derecha o Crohn ileal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "apendice-pieza",
+   "n": 78,
+   "src": "biblioteca/01_gastroenterologia/gastro-19/02_apendicitis-flemonosa-pieza__cto-digestivo_p157.jpg",
+   "topic": "gastro-19",
+   "type": "pieza",
+   "size": "half",
+   "title": "Apendicitis flemonosa (pieza)",
+   "frase": "Apéndice rojo y edematoso con fibrina en su superficie.",
+   "claves": [
+    {
+     "t": "Apéndice edematoso con fibrina",
+     "m": [
+      0.6,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Apendicectomía laparoscópica.",
+   "codes": [
+    "4.01.2.006"
+   ],
+   "confunde": "Plastrón apendicular: antibióticos y cirugía diferida.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "isquemia-mesenterica",
+   "n": 79,
+   "src": "biblioteca/01_gastroenterologia/gastro-20/01_tc_isquemia_mesenterica__commons.jpg",
+   "topic": "gastro-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Trombosis venosa mesentérica",
+   "frase": "Asas dilatadas con pared engrosada en la TAC con contraste.",
+   "claves": [
+    {
+     "t": "Asas de pared engrosada (flecha)",
+     "m": [
+      0.65,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TAC con contraste + anticoagulación; cirugía si hay necrosis.",
+   "codes": [
+    "4.01.2.007"
+   ],
+   "confunde": "Embolia arterial: dolor súbito con abdomen blando.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 15",
+   "auto": false
+  },
+  {
+   "id": "colitis-isquemica",
+   "n": 80,
+   "src": "_verificadas/194_gastro_Isquemia_mesentérica__BrantHelms_p880.jpg",
+   "topic": "gastro-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Colitis isquémica: «huellas digitales»",
+   "frase": "Engrosamiento de la pared del colon con impresiones digitales.",
+   "claves": [
+    {
+     "t": "Impresiones digitales en el colon",
+     "m": [
+      0.35,
+      0.7,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Adulto mayor con dolor izquierdo y hematoquecia: suele resolver con manejo médico.",
+   "codes": [
+    "4.01.2.007"
+   ],
+   "confunde": "Colitis ulcerosa: joven, continua desde el recto.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "embolia-mesenterica",
+   "n": 81,
+   "src": "_verificadas/195_gastro_Isquemia_mesentérica__ctmri_path_p302_1.jpg",
+   "topic": "gastro-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Embolia de la arteria mesentérica superior",
+   "frase": "Defecto de llene en la AMS en el angioTAC.",
+   "claves": [
+    {
+     "t": "Defecto de llene en la AMS",
+     "m": [
+      0.5,
+      0.45,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "FA + dolor súbito desproporcionado: heparina inmediata y angioTAC.",
+   "codes": [
+    "4.01.2.007"
+   ],
+   "confunde": "Pancreatitis: lipasa alta.",
+   "q": "EUNACOM Julio 2025 · Pregunta 5",
+   "auto": true
+  },
+  {
+   "id": "vaso-visible",
+   "n": 82,
+   "src": "biblioteca/01_gastroenterologia/gastro-02/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg",
+   "topic": "gastro-21",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Úlcera con vaso visible (Forrest IIa)",
+   "frase": "Vaso visible en el fondo de la úlcera: alto riesgo de resangrado.",
+   "claves": [
+    {
+     "t": "Vaso visible (flecha)",
+     "m": [
+      0.75,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "IBP EV en dosis alta y terapia hemostática en la misma endoscopía.",
+   "codes": [
+    "1.06.2.007",
+    "1.06.1.030"
+   ],
+   "confunde": "Fondo limpio (Forrest III): bajo riesgo, sin terapia endoscópica.",
+   "q": "EUNACOM Julio 2019 · Pregunta 148",
+   "auto": true
+  },
+  {
+   "id": "forrest-ia",
+   "n": 83,
+   "src": "biblioteca/01_gastroenterologia/gastro-21/01_forrest-ia-iib-iic__cto-digestivo_p63.jpg",
+   "topic": "gastro-21",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Úlcera con sangrado activo (Forrest Ia)",
+   "frase": "Vaso sangrando activamente en chorro.",
+   "claves": [
+    {
+     "t": "Sangrado activo",
+     "m": [
+      0.4,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Dos vías gruesas y cristaloides; IBP EV y hemostasia endoscópica.",
+   "codes": [
+    "1.06.2.007"
+   ],
+   "confunde": "Várices: terlipresina, antibióticos y ligadura.",
+   "q": "EUNACOM Julio 2019 · Pregunta 148",
+   "auto": true
+  },
+  {
+   "id": "moneda-esofago",
+   "n": 84,
+   "src": "biblioteca/01_gastroenterologia/gastro-22/01_moneda_esofago__nelson_p2925.jpg",
+   "topic": "gastro-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Moneda en el esófago",
+   "frase": "De frente se ve como un disco completo; de lado, como una línea.",
+   "claves": [
+    {
+     "t": "Disco de frente",
+     "m": [
+      0.3,
+      0.25,
+      0.07
+     ]
+    },
+    {
+     "t": "Línea de perfil",
+     "m": [
+      0.83,
+      0.42,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Radiografía de cuello, tórax y abdomen; en el esófago se retira por endoscopía.",
+   "codes": [
+    "6.03.2.008"
+   ],
+   "confunde": "Moneda en la tráquea: disco de perfil y línea de frente.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "pila-boton",
+   "n": 85,
+   "src": "biblioteca/01_gastroenterologia/gastro-22/02_rx_pila_boton__commons.jpg",
+   "topic": "gastro-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Pila de botón ingerida",
+   "frase": "Objeto metálico muy denso: genera corriente y quema la pared.",
+   "claves": [
+    {
+     "t": "Pila de botón (flecha)",
+     "m": [
+      0.5,
+      0.55,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "En el esófago es una emergencia: extracción inmediata; se retira en cualquier ubicación.",
+   "codes": [
+    "6.03.2.008"
+   ],
+   "confunde": "Moneda: sin doble contorno.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "bolo-carne",
+   "n": 86,
+   "src": "biblioteca/01_gastroenterologia/gastro-22/03_bolo-carne-impactado-esofago__harrison_p2454.jpg",
+   "topic": "gastro-22",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Bolo de carne impactado",
+   "frase": "Alimento atascado en el esófago visto por el endoscopio.",
+   "claves": [
+    {
+     "t": "Bolo alimentario impactado",
+     "m": [
+      0.5,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Si no traga o tiene dolor: endoscopía para desimpactar.",
+   "codes": [
+    "1.06.2.002"
+   ],
+   "confunde": "Cáncer de esófago: puede ser la causa de fondo.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 50",
+   "auto": false
+  },
+  {
+   "id": "pliegue-2",
+   "src": "biblioteca/01_gastroenterologia/gastro-23/01_examen_turgor__commons.jpg",
+   "topic": "gastro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del pliegue",
+   "frase": "La piel pinchada tarda en volver: deshidratación.",
+   "claves": [
+    {
+     "t": "Pliegue que no vuelve",
+     "m": [
+      0.4,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Deshidratación moderada: rehidratación oral; grave: endovenosa.",
+   "codes": [
+    "2.01.2.006"
+   ],
+   "confunde": "Desnutrición: pliegue lento sin deshidratación.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 161",
+   "auto": false,
+   "n": 87
+  },
+  {
+   "id": "pliegue",
+   "n": 88,
+   "src": "biblioteca/01_gastroenterologia/gastro-23/02_pliegue_persistente__commons.jpg",
+   "topic": "gastro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del pliegue persistente",
+   "frase": "La piel queda levantada unos segundos: deshidratación.",
+   "claves": [
+    {
+     "t": "Pliegue que no vuelve",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Hidratar según el grado: Plan A, B (SRO 50-100 mL/kg) o C (SF 20 mL/kg).",
+   "codes": [
+    "2.01.2.006"
+   ],
+   "confunde": "Piel del adulto mayor: pierde elasticidad sin deshidratación.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 161",
+   "auto": false
+  },
+  {
+   "id": "oxiuros",
+   "n": 89,
+   "src": "biblioteca/01_gastroenterologia/gastro-23/03_huevos-enterobius__nelson_p2822.jpg",
+   "topic": "gastro-23",
+   "type": "histologia",
+   "size": "half",
+   "title": "Huevos de oxiuros",
+   "frase": "Huevos ovalados con un lado aplanado en la cinta adhesiva.",
+   "claves": [
+    {
+     "t": "Huevo con un lado aplanado",
+     "m": [
+      0.55,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Test de Graham por la mañana; tratar a la familia.",
+   "codes": [
+    "2.01.1.007"
+   ],
+   "confunde": "Huevo de Ascaris: redondo y grueso.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 120",
+   "auto": false
+  },
+  {
+   "id": "piloro-esquema",
+   "n": 90,
+   "src": "biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp_alt1__cto-pediatria_p65.jpg",
+   "topic": "gastro-24",
+   "type": "esquema",
+   "size": "half",
+   "title": "Estenosis hipertrófica del píloro",
+   "frase": "El músculo pilórico se engruesa y cierra la salida del estómago.",
+   "claves": [
+    {
+     "t": "Píloro engrosado",
+     "m": [
+      0.3,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Vómitos explosivos entre la 2.ª y 6.ª semana: ecografía y pilorotomía de Ramstedt.",
+   "codes": [
+    "2.01.1.046"
+   ],
+   "confunde": "Reflujo del lactante: crece bien.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 137",
+   "auto": false
+  },
+  {
+   "id": "oliva-pilorica",
+   "n": 91,
+   "src": "biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp__cto-pediatria_p65.jpg",
+   "topic": "gastro-24",
+   "type": "eco",
+   "size": "half",
+   "title": "Ecografía: oliva pilórica",
+   "frase": "Píloro alargado con el músculo engrosado.",
+   "claves": [
+    {
+     "t": "Músculo pilórico engrosado (marcas)",
+     "m": [
+      0.5,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Alcalosis hipoclorémica: corregir y operar (Ramstedt).",
+   "codes": [
+    "2.01.1.046"
+   ],
+   "confunde": "Reflujo fisiológico: ecografía normal.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 76",
+   "auto": true
+  },
+  {
+   "id": "fecaloma",
+   "n": 92,
+   "src": "_verificadas/037_gastro_Reflujo_del_lactante_píloro_co__ecmpdf_p753_1.jpg",
+   "topic": "gastro-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fecaloma en un niño",
+   "frase": "Masa fecal en el colon: la causa más frecuente de masa abdominal en pediatría.",
+   "claves": [
+    {
+     "t": "Contenido fecal abundante",
+     "m": [
+      0.5,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Desimpactar con polietilenglicol oral y mantener con laxante ≥ 4 semanas.",
+   "codes": [
+    "2.01.1.038"
+   ],
+   "confunde": "Tumor abdominal: no se moldea con laxantes.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 163",
+   "auto": false
+  },
+  {
+   "id": "neumatosis",
+   "n": 93,
+   "src": "biblioteca/01_gastroenterologia/gastro-25/01_neumatosis-ecn__cto-pediatria_p24.jpg",
+   "topic": "gastro-25",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumatosis intestinal (enterocolitis necrotizante)",
+   "frase": "Aire dentro de la pared del intestino: patognomónico.",
+   "claves": [
+    {
+     "t": "Neumatosis (flechas)",
+     "m": [
+      0.75,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Prematuro con distensión y hematoquecia: régimen cero, sonda y antibióticos de amplio espectro.",
+   "codes": [
+    "2.01.1.116"
+   ],
+   "confunde": "Neumoperitoneo: aire libre fuera del intestino.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 120",
+   "auto": true
+  },
+  {
+   "id": "signo-dona",
+   "n": 94,
+   "src": "biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco__cto-pediatria_p70.jpg",
+   "topic": "gastro-25",
+   "type": "eco",
+   "size": "half",
+   "title": "Invaginación intestinal: signo de la dona",
+   "frase": "Anillos del intestino metido dentro del intestino, vistos en corte.",
+   "claves": [
+    {
+     "t": "Imagen en diana",
+     "m": [
+      0.5,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Lactante con llanto en crisis y deposición en mermelada de grosella: reducción neumática.",
+   "codes": [
+    "2.01.2.019"
+   ],
+   "confunde": "Gastroenteritis: sin masa ni crisis de llanto.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "invaginacion-esquema",
+   "n": 95,
+   "src": "biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco_alt1__cto-radiologia_p155.jpg",
+   "topic": "gastro-25",
+   "type": "esquema",
+   "size": "half",
+   "title": "Invaginación: el intestino como un telescopio",
+   "frase": "Un segmento se mete dentro del siguiente.",
+   "claves": [
+    {
+     "t": "Segmento invaginado",
+     "m": [
+      0.3,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Ecografía confirma; reducción neumática de primera línea.",
+   "codes": [
+    "2.01.2.019"
+   ],
+   "confunde": "Vólvulo: torsión del mesenterio.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atresia-esofagica",
+   "n": 96,
+   "src": "_verificadas/347_gastro_Cirugía_digestiva_neonatal_y_p__BrantHelms_p1330.jpg",
+   "topic": "gastro-25",
+   "type": "imagen",
+   "size": "half",
+   "title": "Atresia esofágica",
+   "frase": "Sonda nasogástrica enrollada en el bolsón esofágico.",
+   "claves": [
+    {
+     "t": "Sonda enrollada (flechas)",
+     "m": [
+      0.25,
+      0.15,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Sialorrea y sonda que no pasa: cirugía.",
+   "codes": [
+    "2.01.1.133"
+   ],
+   "confunde": "Reflujo: la sonda pasa al estómago.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hirschsprung",
+   "n": 97,
+   "src": "biblioteca/01_gastroenterologia/gastro-25/07_hirschsprung-enema-baritada__nelson_p2962.jpg",
+   "topic": "gastro-25",
+   "type": "imagen",
+   "size": "half",
+   "title": "Enfermedad de Hirschsprung: zona de transición",
+   "frase": "Segmento distal estrecho, zona de transición en cono y colon dilatado arriba.",
+   "claves": [
+    {
+     "t": "Zona de transición",
+     "m": [
+      0.45,
+      0.55,
+      0.08
+     ]
+    },
+    {
+     "t": "Colon dilatado proximal",
+     "m": [
+      0.65,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Meconio > 48 h: biopsia rectal por succión.",
+   "codes": [
+    "4.01.1.012",
+    "2.01.2.019"
+   ],
+   "confunde": "Constipación funcional: sin retraso del meconio.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 112",
+   "auto": true
+  },
+  {
+   "id": "fast",
+   "n": 98,
+   "src": "biblioteca/01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg",
+   "topic": "gastro-26",
+   "type": "eco",
+   "size": "half",
+   "title": "Eco FAST positiva",
+   "frase": "Línea negra entre el hígado y el riñón: líquido libre.",
+   "claves": [
+    {
+     "t": "Líquido en el espacio de Morison",
+     "m": [
+      0.45,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Inestable con FAST positiva: laparotomía.",
+   "codes": [
+    "4.01.2.010"
+   ],
+   "confunde": "FAST negativa en estable: observación.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "rotura-esplenica",
+   "n": 99,
+   "src": "biblioteca/01_gastroenterologia/gastro-26/01_rotura-esplenica-tc__cto-cirugia_p69.jpg",
+   "topic": "gastro-26",
+   "type": "imagen",
+   "size": "half",
+   "title": "Rotura esplénica",
+   "frase": "Desestructuración del bazo con hematoma periesplénico.",
+   "claves": [
+    {
+     "t": "Bazo roto con hematoma",
+     "m": [
+      0.65,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Estable: manejo conservador; lo que decide la cirugía es la estabilidad.",
+   "codes": [
+    "4.01.2.010"
+   ],
+   "confunde": "Lesión hepática: mismo principio de manejo.",
+   "q": "EUNACOM Julio 2015 · Pregunta 31",
+   "auto": false
+  },
+  {
+   "id": "contusion-pulmonar",
+   "src": "_verificadas/196_gastro_Trauma_abdominal_y_torácico__ctmri_path_p275_1.jpg",
+   "topic": "gastro-26",
+   "type": "imagen",
+   "size": "half",
+   "title": "Contusión pulmonar en la TAC de tórax",
+   "frase": "Opacidad en vidrio esmerilado y consolidación tras el trauma.",
+   "claves": [
+    {
+     "t": "Contusión pulmonar",
+     "m": [
+      0.2,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Oxígeno, analgesia y control; puede empeorar en 24–48 horas.",
+   "codes": [
+    "4.01.2.016"
+   ],
+   "confunde": "Neumonía: fiebre, sin antecedente de trauma.",
+   "q": null,
+   "auto": false,
+   "n": 100
+  },
+  {
+   "id": "taponamiento-fast",
+   "n": 101,
+   "src": "_verificadas/197_gastro_Trauma_abdominal_y_torácico__PocketUS_p388.jpg",
+   "topic": "gastro-26",
+   "type": "eco",
+   "size": "half",
+   "title": "Taponamiento cardíaco en trauma",
+   "frase": "Derrame pericárdico en la ventana subxifoidea.",
+   "claves": [
+    {
+     "t": "Líquido pericárdico (flecha)",
+     "m": [
+      0.6,
+      0.15,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Pericardiocentesis descomprime, pero en trauma la fuente se resuelve con toracotomía.",
+   "codes": [
+    "4.01.2.016"
+   ],
+   "confunde": "Derrame pleural.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "taponamiento-eco",
+   "src": "biblioteca/01_gastroenterologia/gastro-26/05_taponamiento-eco-derrame-pericardico__knoop_p185.jpg",
+   "topic": "gastro-26",
+   "type": "eco",
+   "size": "half",
+   "title": "Derrame pericárdico en la ecografía",
+   "frase": "Líquido negro alrededor del corazón.",
+   "claves": [
+    {
+     "t": "Líquido pericárdico",
+     "m": [
+      0.42,
+      0.68,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Con shock: pericardiocentesis o ventana pericárdica urgente.",
+   "codes": [
+    "4.01.2.016"
+   ],
+   "confunde": "Derrame pleural: líquido fuera del pericardio.",
+   "q": null,
+   "auto": false,
+   "n": 102
+  }
+ ],
+ "pairs": [
+  {
+   "a": "esofagitis",
+   "b": "barrett",
+   "title": "Esofagitis erosiva vs Barrett",
+   "la": [
+    "Erosiones lineales rojas",
+    "Daño agudo del ácido"
+   ],
+   "lb": [
+    "Lengüetas color salmón",
+    "Metaplasia intestinal"
+   ],
+   "diff": "Barrett se confirma con biopsia; la conducta la decide la displasia."
+  },
+  {
+   "a": "mallory-weiss",
+   "b": "boerhaave",
+   "title": "Mallory-Weiss vs Boerhaave",
+   "la": [
+    "Desgarro solo de la mucosa",
+    "Hematemesis"
+   ],
+   "lb": [
+    "Perforación transmural",
+    "Aire en el mediastino"
+   ],
+   "diff": "Vómitos y luego sangre: Mallory-Weiss; vómitos y luego dolor con enfisema: Boerhaave."
+  },
+  {
+   "a": "colitis-ulcerosa",
+   "b": "crohn",
+   "title": "Colitis ulcerosa vs Crohn",
+   "la": [
+    "Continua desde el recto",
+    "Solo mucosa"
+   ],
+   "lb": [
+    "En parches, empedrado",
+    "Transmural, íleon"
+   ],
+   "diff": "Basta una característica de Crohn (íleon, fístula, parches, perianal) para diagnosticarlo."
+  },
+  {
+   "a": "polipo-pediculado",
+   "b": "polipo-sesil",
+   "title": "Pólipo pediculado vs sésil",
+   "la": [
+    "Cabeza sobre un tallo",
+    "Fácil de resecar"
+   ],
+   "lb": [
+    "Base ancha",
+    "Más riesgo de degenerar"
+   ],
+   "diff": "Ambos se resecan: resecar adenomas es prevenir cáncer."
+  },
+  {
+   "a": "hemorroide-trombosado",
+   "b": "absceso-perianal",
+   "title": "Hemorroide trombosado vs absceso perianal",
+   "la": [
+    "Nódulo violáceo",
+    "Dolor súbito"
+   ],
+   "lb": [
+    "Tumefacción roja fluctuante",
+    "Dolor que aumenta día a día"
+   ],
+   "diff": "El absceso se drena en pabellón; el hemorroide se trata con baños de asiento."
+  },
+  {
+   "a": "colelitiasis",
+   "b": "polipo-vesicular",
+   "title": "Cálculo vs pólipo vesicular",
+   "la": [
+    "Sombra acústica",
+    "Móvil"
+   ],
+   "lb": [
+    "Sin sombra",
+    "Fijo a la pared"
+   ],
+   "diff": "La sombra acústica es del cálculo."
+  },
+  {
+   "a": "hepatocarcinoma",
+   "b": "hemangioma",
+   "title": "Hepatocarcinoma vs hemangioma",
+   "la": [
+    "Realce arterial y lavado",
+    "Hígado cirrótico, AFP alta"
+   ],
+   "lb": [
+    "Realce periférico en glóbulos",
+    "Se llena hacia el centro"
+   ],
+   "diff": "El lavado en fase portal es del hepatocarcinoma."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Pico de pájaro",
+   "dx": "Acalasia.",
+   "find": "pico de pájaro",
+   "topic": "gastro-03",
+   "def": "Esófago dilatado que termina en una punta fina en el esofagograma."
+  },
+  {
+   "name": "Signo de Grey Turner",
+   "dx": "Pancreatitis hemorrágica.",
+   "find": "Grey Turner",
+   "topic": "gastro-18",
+   "img": "grey-turner",
+   "def": "Equimosis en los flancos."
+  },
+  {
+   "name": "Cabeza de medusa",
+   "dx": "Hipertensión portal.",
+   "find": "medusa",
+   "topic": "gastro-15",
+   "img": "cabeza-medusa",
+   "def": "Venas dilatadas periumbilicales."
+  },
+  {
+   "name": "Signo de Courvoisier-Terrier",
+   "dx": "Cáncer de páncreas o periampular.",
+   "find": "Courvoisier",
+   "topic": "gastro-13",
+   "img": "cancer-pancreas",
+   "def": "Vesícula palpable no dolorosa con ictericia."
+  },
+  {
+   "name": "Tríada de Charcot",
+   "dx": "Colangitis aguda.",
+   "find": "Charcot",
+   "topic": "gastro-17",
+   "def": "Dolor, fiebre e ictericia."
+  },
+  {
+   "name": "Signo de Murphy",
+   "dx": "Colecistitis aguda.",
+   "find": "Murphy",
+   "topic": "gastro-17",
+   "img": "colecistitis",
+   "def": "Detención de la inspiración al palpar el hipocondrio derecho."
+  },
+  {
+   "name": "Punto de McBurney",
+   "dx": "Apendicitis aguda.",
+   "find": "McBurney",
+   "topic": "gastro-19",
+   "img": "puntos-apendicitis",
+   "def": "Dolor en la unión del tercio externo con los dos tercios internos de la línea ombligo-EIAS."
+  },
+  {
+   "name": "Signo de Rovsing",
+   "dx": "Apendicitis aguda.",
+   "find": "Rovsing",
+   "topic": "gastro-19",
+   "img": "puntos-apendicitis",
+   "def": "Presionar la fosa ilíaca izquierda duele en la derecha."
+  },
+  {
+   "name": "Signo de Blumberg",
+   "dx": "Irritación peritoneal.",
+   "find": "Blumberg",
+   "topic": "gastro-19",
+   "def": "Dolor al descomprimir bruscamente."
+  },
+  {
+   "name": "Doble burbuja",
+   "dx": "Atresia duodenal.",
+   "find": "doble burbuja",
+   "topic": "gastro-25",
+   "def": "Aire en el estómago y el duodeno sin aire distal."
+  },
+  {
+   "name": "Signo de la dona",
+   "dx": "Invaginación intestinal.",
+   "find": "dona",
+   "topic": "gastro-25",
+   "img": "signo-dona",
+   "def": "Imagen en diana en la ecografía."
+  },
+  {
+   "name": "Mermelada de grosella",
+   "dx": "Invaginación intestinal.",
+   "find": "grosella",
+   "topic": "gastro-25",
+   "def": "Deposición con sangre y mucosidad."
+  },
+  {
+   "name": "Signo de Rigler",
+   "dx": "Neumoperitoneo.",
+   "find": "Rigler",
+   "topic": "gastro-04",
+   "def": "Se ven ambos bordes de la pared intestinal."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 102
+ }
+}

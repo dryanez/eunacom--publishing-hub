@@ -1,0 +1,2241 @@
+{
+ "libro": "reumatologia",
+ "title": "Reumatología",
+ "prefix": "reuma",
+ "topics": {
+  "reuma-01": "Monoartritis Aguda",
+  "reuma-02": "Artritis Séptica del Adulto y Protésica",
+  "reuma-03": "Artritis por Microcristales",
+  "reuma-04": "Artrosis / Osteoartritis",
+  "reuma-05": "Artritis Idiopática Juvenil (AIJ) y Enfermedad de Still del Adulto",
+  "reuma-06": "Artritis Reumatoide",
+  "reuma-08": "Lupus Eritematoso Sistémico (LES)",
+  "reuma-09": "Nefritis Lúpica y Compromiso Orgánico Mayor en LES",
+  "reuma-10": "Lupus Cutáneo (Subagudo y Crónico Discoide) y Lupus Inducido por Drogas",
+  "reuma-11": "Síndrome Antifosfolípido (SAF)",
+  "reuma-12": "Esclerosis Sistémica",
+  "reuma-13": "Miopatías Inflamatorias Autoinmunes",
+  "reuma-14": "Fenómeno de Raynaud Primario vs Secundario y Capilaroscopía Periungueal",
+  "reuma-15": "Síndrome de Sjögren y Enfermedad Mixta del Tejido Conectivo (EMTC)",
+  "reuma-16": "Espondiloartritis",
+  "reuma-17": "Espondilitis Anquilosante (EA)",
+  "reuma-18": "Artritis Psoriásica (Dactilitis, Pitting Ungueal) y Artritis Asociada a EII",
+  "reuma-19": "Artritis Reactiva (Síndrome de Reiter)",
+  "reuma-20": "Enfermedad de Behçet",
+  "reuma-21": "Vasculitis de Vaso Grande y Mediano",
+  "reuma-22": "Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+  "reuma-23": "Fibromialgia y Polimialgia Reumática",
+  "reuma-24": "Osteoporosis y Salud Ósea"
+ },
+ "images": [
+  {
+   "id": "cristales-urato",
+   "n": 1,
+   "src": "biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada__cto-reuma_p49.jpg",
+   "topic": "reuma-01",
+   "type": "histologia",
+   "size": "half",
+   "title": "Cristales de urato con luz polarizada",
+   "frase": "Agujas de birrefringencia negativa.",
+   "claves": [
+    {
+     "t": "Cristales en aguja",
+     "m": [
+      0.6,
+      0.35,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Monoartritis aguda: artrocentesis con Gram, cultivo y cristales.",
+   "codes": [
+    "1.11.1.015",
+    "1.11.4.002",
+    "1.11.2.002"
+   ],
+   "confunde": "Pirofosfato: romboidales, birrefringencia positiva débil.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 69",
+   "auto": true
+  },
+  {
+   "id": "agujas-polarizada",
+   "n": 2,
+   "src": "biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada_alt1__amir-reuma_p20.jpg",
+   "topic": "reuma-01",
+   "type": "histologia",
+   "size": "half",
+   "title": "Agujas de urato monosódico",
+   "frase": "Cristales finos en aguja.",
+   "claves": [
+    {
+     "t": "Agujas",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Gota: el diagnóstico de certeza es ver los cristales.",
+   "codes": [
+    "1.11.2.002",
+    "1.11.4.002"
+   ],
+   "confunde": "Cristales de colesterol: placas con muesca.",
+   "q": "EUNACOM Julio 2015 · Pregunta 8",
+   "auto": false
+  },
+  {
+   "id": "derrame-rodilla",
+   "n": 3,
+   "src": "biblioteca/08_reumatologia/reuma-02/01_derrame_rodilla__commons.jpg",
+   "topic": "reuma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame articular de rodilla",
+   "frase": "Rodilla aumentada de volumen con pérdida de los relieves.",
+   "claves": [
+    {
+     "t": "Rodilla con derrame",
+     "m": [
+      0.25,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Artritis séptica: artrocentesis urgente y drenaje; dolor a la movilización pasiva.",
+   "codes": [
+    "1.11.2.001",
+    "1.11.5.001"
+   ],
+   "confunde": "Bursitis prepatelar: flexión pasiva casi indolora.",
+   "q": "EUNACOM Julio 2016 · Pregunta 103",
+   "auto": false
+  },
+  {
+   "id": "bursitis-olecraneana",
+   "n": 4,
+   "src": "_web/213_reuma_Artritis_séptica__Commons_1.jpg",
+   "topic": "reuma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bursitis olecraneana",
+   "frase": "Aumento de volumen fluctuante sobre el olécranon.",
+   "claves": [
+    {
+     "t": "Bursa distendida",
+     "m": [
+      0.42,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Extracapsular: la flexión del codo duele poco; punción si se sospecha infección.",
+   "codes": [
+    "1.11.2.001"
+   ],
+   "confunde": "Artritis séptica del codo: dolor intenso al mover.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "espondilodiscitis",
+   "n": 5,
+   "src": "biblioteca/08_reumatologia/reuma-02/10_osteomielitis-vertebral-rm__harrison_p1223.jpg",
+   "topic": "reuma-02",
+   "type": "imagen",
+   "size": "half",
+   "title": "Espondilodiscitis en la RM",
+   "frase": "Destrucción del disco y platillos vecinos (flechas).",
+   "claves": [
+    {
+     "t": "Disco y platillos comprometidos",
+     "m": [
+      0.6,
+      0.65,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "La RM es la más sensible y precoz: la Rx es normal los primeros 10–14 días.",
+   "codes": [
+    "1.04.1.021"
+   ],
+   "confunde": "Metástasis: respeta el disco.",
+   "q": "EUNACOM Julio 2018 · Pregunta 161",
+   "auto": false
+  },
+  {
+   "id": "tofos-manos",
+   "n": 6,
+   "src": "biblioteca/08_reumatologia/reuma-03/02_tofos-en-manos__amir-reuma_p19.jpg",
+   "topic": "reuma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tofos en las manos",
+   "frase": "Nódulos sobre las articulaciones: gota crónica.",
+   "claves": [
+    {
+     "t": "Tofo",
+     "m": [
+      0.47,
+      0.9,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Hipouricemiante (alopurinol) con meta de ácido úrico < 6.",
+   "codes": [
+    "1.11.2.002"
+   ],
+   "confunde": "Nódulos reumatoides: en zonas de roce, sin tiza.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 47",
+   "auto": false
+  },
+  {
+   "id": "rx-gota",
+   "n": 7,
+   "src": "_verificadas/214_reuma_Gota_y_condrocalcinosis__HelmsSkeletal_p143.jpg",
+   "topic": "reuma-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Rx de gota crónica",
+   "frase": "Erosiones en sacabocado con bordes colgantes.",
+   "claves": [
+    {
+     "t": "Erosión en sacabocado",
+     "m": [
+      0.73,
+      0.45,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Gota tofácea: tratamiento hipouricemiante de por vida.",
+   "codes": [
+    "1.11.2.002"
+   ],
+   "confunde": "Erosiones de la AR: marginales, con osteopenia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "condrocalcinosis",
+   "n": 8,
+   "src": "biblioteca/08_reumatologia/reuma-03/03_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg",
+   "topic": "reuma-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Condrocalcinosis",
+   "frase": "Calcificación del cartílago femorotibial (flechas).",
+   "claves": [
+    {
+     "t": "Cartílago calcificado",
+     "m": [
+      0.08,
+      0.46,
+      0.06
+     ]
+    },
+    {
+     "t": "Cartílago calcificado",
+     "m": [
+      0.92,
+      0.41,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Pseudogota: colchicina o AINE; buscar hiperparatiroidismo y hemocromatosis.",
+   "codes": [
+    "1.11.1.007"
+   ],
+   "confunde": "Gota: no calcifica el cartílago.",
+   "q": "EUNACOM Enero 2023 · Pregunta 96",
+   "auto": true
+  },
+  {
+   "id": "heberden",
+   "n": 9,
+   "src": "biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_1__cto-reuma_p64.jpg",
+   "topic": "reuma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos de Heberden",
+   "frase": "Nódulos óseos en las interfalángicas distales.",
+   "claves": [
+    {
+     "t": "Nódulo de Heberden",
+     "m": [
+      0.36,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Artrosis de manos: paracetamol, AINE tópico y ejercicios.",
+   "codes": [
+    "1.11.1.004"
+   ],
+   "confunde": "Artritis psoriásica: también IFD, con piel y uñas.",
+   "q": "EUNACOM Julio 2016 · Pregunta 102",
+   "auto": true
+  },
+  {
+   "id": "bouchard",
+   "n": 10,
+   "src": "biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_alt1__amir-reuma_p124.jpg",
+   "topic": "reuma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos de Bouchard y Heberden",
+   "frase": "Nódulos en interfalángicas proximales (Bouchard) y distales (Heberden).",
+   "claves": [
+    {
+     "t": "Bouchard (IFP)",
+     "m": [
+      0.55,
+      0.4,
+      0.07
+     ]
+    },
+    {
+     "t": "Heberden (IFD)",
+     "m": [
+      0.35,
+      0.25,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Diagnóstico clínico; la Rx muestra osteofitos y pinzamiento.",
+   "codes": [
+    "1.11.1.004"
+   ],
+   "confunde": "AR: tumefacción blanda de MCF e IFP.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "coxartrosis",
+   "n": 11,
+   "src": "biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_2__cto-reuma_p64.jpg",
+   "topic": "reuma-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Artrosis de cadera",
+   "frase": "Pinzamiento del espacio articular, esclerosis y osteofitos.",
+   "claves": [
+    {
+     "t": "Espacio articular estrecho",
+     "m": [
+      0.78,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Dolor en la ingle; prótesis si falla el manejo médico.",
+   "codes": [
+    "1.11.1.004",
+    "1.11.4.004"
+   ],
+   "confunde": "Necrosis avascular: cabeza femoral colapsada.",
+   "q": "EUNACOM Julio 2017 · Pregunta 121",
+   "auto": false
+  },
+  {
+   "id": "exantema-asalmonado",
+   "n": 12,
+   "src": "biblioteca/08_reumatologia/reuma-05/01_exantema-asalmonado-still__amir-reuma_p57.jpg",
+   "topic": "reuma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema asalmonado (Still)",
+   "frase": "Máculas rosadas evanescentes que aparecen con la fiebre.",
+   "claves": [
+    {
+     "t": "Máculas asalmonadas",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Fiebre en agujas + rash + artritis: Still; ferritina muy alta.",
+   "codes": [
+    "2.01.1.143"
+   ],
+   "confunde": "Exantema viral: no va y viene con la fiebre.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "uveitis-aij",
+   "n": 13,
+   "src": "biblioteca/09_reumatologia/reuma-05/atlas_215_uveitis_anterior_cronica_de_la.jpg",
+   "topic": "reuma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uveítis crónica de la AIJ",
+   "frase": "Sinequias posteriores que deforman la pupila y catarata.",
+   "claves": [
+    {
+     "t": "Pupila irregular por sinequias",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "AIJ oligoarticular con ANA +: control oftalmológico periódico aunque no haya síntomas.",
+   "codes": [
+    "2.01.1.143"
+   ],
+   "confunde": "Uveítis aguda de la EA: ojo rojo y doloroso.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "erosiones-ar",
+   "n": 14,
+   "src": "biblioteca/08_reumatologia/reuma-06/02_rx-manos-ar-erosiones__cto-reuma_p27.jpg",
+   "topic": "reuma-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Erosiones en las manos",
+   "frase": "Osteopenia yuxtaarticular y erosiones marginales en MCF y carpo.",
+   "claves": [
+    {
+     "t": "Carpo erosionado",
+     "m": [
+      0.3,
+      0.85,
+      0.08
+     ]
+    },
+    {
+     "t": "MCF",
+     "m": [
+      0.72,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Anti-CCP y FR; iniciar metotrexato precoz.",
+   "codes": [
+    "1.11.1.003"
+   ],
+   "confunde": "Gota: erosiones en sacabocado sin osteopenia.",
+   "q": "EUNACOM Enero 2023 · Pregunta 94",
+   "auto": false
+  },
+  {
+   "id": "desviacion-cubital",
+   "n": 15,
+   "src": "biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital_alt1__amir-reuma_p49.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Desviación cubital",
+   "frase": "Dedos desviados hacia cubital por destrucción de la cápsula y tendones.",
+   "claves": [
+    {
+     "t": "Desviación cubital",
+     "m": [
+      0.65,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Se previene con FARME desde el inicio.",
+   "codes": [
+    "1.11.1.003"
+   ],
+   "confunde": "Jaccoud del lupus: deformidad reductible sin erosiones.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "rx-ar-avanzada",
+   "n": 16,
+   "src": "biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital__amir-reuma_p48.jpg",
+   "topic": "reuma-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Rx de artritis reumatoide avanzada",
+   "frase": "Desviación cubital y subluxación de las MCF.",
+   "claves": [
+    {
+     "t": "MCF subluxadas",
+     "m": [
+      0.3,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Daño estructural irreversible: el objetivo es la remisión precoz.",
+   "codes": [
+    "1.11.1.003"
+   ],
+   "confunde": "Artrosis: compromete IFD, no MCF.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cuello-cisne",
+   "n": 17,
+   "src": "_verificadas/216_reuma_Artritis_reumatoide_clínica__ecmpdf_p660_1.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dedos en cuello de cisne y en ojal",
+   "frase": "Deformidades opuestas de las interfalángicas.",
+   "claves": [
+    {
+     "t": "Dedos deformados",
+     "m": [
+      0.25,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "AR establecida: FARME y terapia ocupacional.",
+   "codes": [
+    "1.11.1.003"
+   ],
+   "confunde": "Jaccoud: reductibles.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "nodulos-reumatoides",
+   "n": 18,
+   "src": "_verificadas/217_reuma_Artritis_reumatoide_clínica__nelsontext_p1889_1.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos reumatoides",
+   "frase": "Nódulos subcutáneos en zonas de roce.",
+   "claves": [
+    {
+     "t": "Nódulos",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Se asocian a FR positivo y enfermedad más grave.",
+   "codes": [
+    "1.11.1.003"
+   ],
+   "confunde": "Tofos gotosos: contienen material blanco.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "eritema-malar",
+   "n": 19,
+   "src": "biblioteca/08_reumatologia/reuma-08/01_eritema-malar__cto-reuma_p81.jpg",
+   "topic": "reuma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema malar",
+   "frase": "Eritema en alas de mariposa que respeta los surcos nasogenianos.",
+   "claves": [
+    {
+     "t": "Eritema malar",
+     "m": [
+      0.3,
+      0.5,
+      0.1
+     ]
+    },
+    {
+     "t": "Surco nasogeniano respetado",
+     "m": [
+      0.42,
+      0.7,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "ANA y anti-DNA; hidroxicloroquina a todo LES.",
+   "codes": [
+    "1.11.1.014",
+    "1.11.4.003"
+   ],
+   "confunde": "Rosácea: pústulas y compromete los surcos.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 28",
+   "auto": true
+  },
+  {
+   "id": "ulceras-orales-lupus",
+   "n": 20,
+   "src": "biblioteca/08_reumatologia/reuma-08/10_ulcera-oral-lupus__nelson_p1907.jpg",
+   "topic": "reuma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlceras orales del lupus",
+   "frase": "Úlceras indoloras del paladar.",
+   "claves": [
+    {
+     "t": "Úlcera del paladar",
+     "m": [
+      0.68,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Dominio mucocutáneo de los criterios EULAR/ACR.",
+   "codes": [
+    "1.11.1.014"
+   ],
+   "confunde": "Aftas: dolorosas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "jaccoud",
+   "n": 21,
+   "src": "_web/219_reuma_Lupus_eritematoso_sistémico__Commons_1.jpg",
+   "topic": "reuma-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "Artropatía de Jaccoud",
+   "frase": "Deformidades sin erosiones en la Rx.",
+   "claves": [
+    {
+     "t": "MCF sin erosiones",
+     "m": [
+      0.45,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Lupus: la artritis no erosiona.",
+   "codes": [
+    "1.11.1.014"
+   ],
+   "confunde": "AR: erosiones marginales.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hematies-dismorficos",
+   "n": 22,
+   "src": "biblioteca/08_reumatologia/reuma-09/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg",
+   "topic": "reuma-09",
+   "type": "histologia",
+   "size": "half",
+   "title": "Hematíes dismórficos",
+   "frase": "Glóbulos rojos deformados en el sedimento: origen glomerular.",
+   "claves": [
+    {
+     "t": "Acantocito",
+     "m": [
+      0.6,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Nefritis lúpica: biopsia renal y micofenolato o ciclofosfamida.",
+   "codes": [
+    "1.09.1.006"
+   ],
+   "confunde": "Hematuria urológica: glóbulos rojos normales.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 113",
+   "auto": false
+  },
+  {
+   "id": "lupus-discoide",
+   "n": 23,
+   "src": "biblioteca/08_reumatologia/reuma-10/01_lupus-discoide__cto-reuma_p81.jpg",
+   "topic": "reuma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lupus discoide facial",
+   "frase": "Placas con escama, atrofia y cicatriz.",
+   "claves": [
+    {
+     "t": "Placa discoide",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Fotoprotección, corticoide tópico e hidroxicloroquina.",
+   "codes": [
+    "6.01.1.016"
+   ],
+   "confunde": "Psoriasis: placa sin atrofia ni cicatriz.",
+   "q": "EUNACOM Julio 2025 · Pregunta 14",
+   "auto": false
+  },
+  {
+   "id": "lupus-subagudo",
+   "n": 24,
+   "src": "biblioteca/08_reumatologia/reuma-10/02_lupus-subagudo-anular__cto-reuma_p81.jpg",
+   "topic": "reuma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lupus subagudo anular",
+   "frase": "Lesiones anulares policíclicas en el escote.",
+   "claves": [
+    {
+     "t": "Placas anulares",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Anti-Ro positivo; descartar fármacos.",
+   "codes": [
+    "6.01.1.016",
+    "1.11.1.014"
+   ],
+   "confunde": "Tiña: borde descamativo con KOH positivo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "lupus-neonatal",
+   "n": 25,
+   "src": "_verificadas/221_reuma_Lupus_cutáneo_neonatal_y_farma__nelsontext_p5146_1.jpg",
+   "topic": "reuma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lupus neonatal",
+   "frase": "Placa eritematosa anular en un lactante.",
+   "claves": [
+    {
+     "t": "Placa anular",
+     "m": [
+      0.42,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Madre anti-Ro: riesgo de bloqueo AV congénito; ECG al recién nacido.",
+   "codes": [
+    "1.11.1.014"
+   ],
+   "confunde": "Dermatitis seborreica: escama grasa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "livedo-saf",
+   "n": 26,
+   "src": "biblioteca/08_reumatologia/reuma-11/01_livedo-reticularis__amir-reuma_p39.jpg",
+   "topic": "reuma-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Livedo reticularis",
+   "frase": "Patrón violáceo en malla en las piernas.",
+   "claves": [
+    {
+     "t": "Red violácea",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "SAF: anticuerpos antifosfolípidos en dos ocasiones.",
+   "codes": [
+    "1.11.1.021"
+   ],
+   "confunde": "Cutis marmorata: desaparece al calentar.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 149",
+   "auto": false
+  },
+  {
+   "id": "esclerodactilia",
+   "n": 27,
+   "src": "biblioteca/08_reumatologia/reuma-12/01_esclerodactilia__amir-reuma_p99.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esclerodactilia",
+   "frase": "Dedos engrosados, brillantes y en flexión.",
+   "claves": [
+    {
+     "t": "Dedos en garra",
+     "m": [
+      0.5,
+      0.25,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Esclerosis sistémica: ANA, anticentrómero y anti-Scl-70.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Contractura de Dupuytren: cordón palmar.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 31",
+   "auto": true
+  },
+  {
+   "id": "necrosis-pulpejos",
+   "n": 28,
+   "src": "biblioteca/09_reumatologia/reuma-12/atlas_046_ulceras_digitales_de_pulpejos_.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrosis de pulpejos",
+   "frase": "Isquemia digital grave.",
+   "claves": [
+    {
+     "t": "Pulpejo necrótico",
+     "m": [
+      0.75,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Bloqueadores de calcio, iloprost; evitar el frío.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Embolia digital: unilateral y súbita.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "tac-intersticial",
+   "n": 29,
+   "src": "_verificadas/47_EPID_NINE_esclerodermia_TAC__nelsontextbo_p3330_1.jpg",
+   "topic": "reuma-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "TAC de tórax en la esclerodermia",
+   "frase": "Enfermedad intersticial con alteraciones subpleurales (flechas).",
+   "claves": [
+    {
+     "t": "Lesión pulmonar",
+     "m": [
+      0.3,
+      0.45,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "TAC de alta resolución y espirometría con DLCO al diagnóstico.",
+   "codes": [
+    "1.05.1.018",
+    "1.11.1.009"
+   ],
+   "confunde": "NIU: panalización basal.",
+   "q": "EUNACOM Julio 2013 · Pregunta 64",
+   "auto": false
+  },
+  {
+   "id": "facies-esclerodermica",
+   "n": 30,
+   "src": "_web/044_reuma_Esclerosis_sistémica__Open-i_1.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies esclerodérmica",
+   "frase": "Microstomía, pliegues peribucales y manos esclerosas.",
+   "claves": [
+    {
+     "t": "Microstomía",
+     "m": [
+      0.2,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Manos esclerosas",
+     "m": [
+      0.75,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Buscar crisis renal: control de presión arterial.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Envejecimiento: pliegues sin microstomía.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "microstomia",
+   "n": 31,
+   "src": "_web/044_reuma_Esclerosis_sistémica__Open-i_2.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Microstomía",
+   "frase": "Apertura bucal reducida, medida con regla.",
+   "claves": [
+    {
+     "t": "Apertura bucal reducida",
+     "m": [
+      0.5,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Ejercicios diarios de apertura bucal.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Trismus: dolor muscular agudo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "acroosteolisis",
+   "n": 32,
+   "src": "_verificadas/045_reuma_Esclerosis_sistémica__Zitelli_p299.jpg",
+   "topic": "reuma-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Acroosteólisis",
+   "frase": "Reabsorción de las falanges distales.",
+   "claves": [
+    {
+     "t": "Falange distal reabsorbida",
+     "m": [
+      0.58,
+      0.8,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Isquemia crónica de la esclerosis sistémica.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Psoriasis mutilante: lápiz en copa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "heliotropo",
+   "n": 33,
+   "src": "biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema en heliotropo",
+   "frase": "Coloración violácea periorbitaria con edema palpebral.",
+   "claves": [
+    {
+     "t": "Párpado violáceo",
+     "m": [
+      0.25,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "CK, aldolasa y biopsia; buscar cáncer oculto.",
+   "codes": [
+    "1.11.1.020"
+   ],
+   "confunde": "Dermatitis de contacto: prurito, sin debilidad.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 104",
+   "auto": true
+  },
+  {
+   "id": "heliotropo-gottron",
+   "n": 34,
+   "src": "biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron_alt1_2__cto-reuma_p109.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Heliotropo y Gottron",
+   "frase": "Lesiones violáceas en nudillos y párpados.",
+   "claves": [
+    {
+     "t": "Gottron",
+     "m": [
+      0.5,
+      0.12,
+      0.06
+     ]
+    },
+    {
+     "t": "Heliotropo",
+     "m": [
+      0.35,
+      0.83,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Dermatomiositis: tamizaje de cáncer en el adulto.",
+   "codes": [
+    "1.11.1.020",
+    "2.01.1.057"
+   ],
+   "confunde": "Lupus: lesiones entre los nudillos.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 163",
+   "auto": false
+  },
+  {
+   "id": "gottron",
+   "n": 35,
+   "src": "biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pápulas de Gottron",
+   "frase": "Pápulas violáceas sobre MCF e IF.",
+   "claves": [
+    {
+     "t": "Pápulas de Gottron",
+     "m": [
+      0.2,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Patognomónicas de dermatomiositis.",
+   "codes": [
+    "1.11.1.020"
+   ],
+   "confunde": "Lupus: respeta los nudillos.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "manos-mecanico",
+   "n": 36,
+   "src": "_web/222_reuma_Dermatomiositis_y_polimiosit__Open-i_2.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manos de mecánico",
+   "frase": "Piel fisurada e hiperqueratósica en los bordes de los dedos.",
+   "claves": [
+    {
+     "t": "Borde radial fisurado",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Anti-Jo-1: síndrome antisintetasa con enfermedad pulmonar intersticial.",
+   "codes": [
+    "1.11.1.020"
+   ],
+   "confunde": "Dermatitis de contacto irritativa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "raynaud-blanca",
+   "n": 37,
+   "src": "biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis_alt1_1__cto-reuma_p91.jpg",
+   "topic": "reuma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Raynaud: fase blanca",
+   "frase": "Palidez por vasoespasmo de los dedos.",
+   "claves": [
+    {
+     "t": "Dedos pálidos",
+     "m": [
+      0.3,
+      0.42,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Secundario: capilaroscopía y ANA.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Dedos fríos sin cambio de color.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "raynaud-azul",
+   "n": 38,
+   "src": "biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg",
+   "topic": "reuma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Raynaud: palidez y cianosis",
+   "frase": "Fase blanca y luego azul.",
+   "claves": [
+    {
+     "t": "Palidez",
+     "m": [
+      0.25,
+      0.3,
+      0.1
+     ]
+    },
+    {
+     "t": "Cianosis",
+     "m": [
+      0.75,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Evitar el frío; nifedipino.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Acrocianosis: azul persistente sin fases.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "capilaroscopia",
+   "n": 39,
+   "src": "biblioteca/08_reumatologia/reuma-14/02_capilaroscopia_alt1__cto-reuma_p94.jpg",
+   "topic": "reuma-14",
+   "type": "histologia",
+   "size": "half",
+   "title": "Capilaroscopía: cuatro etapas",
+   "frase": "Normal y patrón esclerodérmico temprano, activo y tardío.",
+   "claves": [
+    {
+     "t": "Megacapilares (activo)",
+     "m": [
+      0.12,
+      0.72,
+      0.08
+     ]
+    },
+    {
+     "t": "Pérdida de capilares (tardío)",
+     "m": [
+      0.75,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Raynaud con capilaroscopía alterada: secundario.",
+   "codes": [
+    "1.11.1.009"
+   ],
+   "confunde": "Raynaud primario: capilares normales.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 31",
+   "auto": false
+  },
+  {
+   "id": "rosa-bengala",
+   "n": 40,
+   "src": "biblioteca/08_reumatologia/reuma-15/11_tincion-rosa-bengala-ojo-seco__kanski_p135.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tinción con rosa de Bengala",
+   "frase": "Tiñe el epitelio desvitalizado de la conjuntiva.",
+   "claves": [
+    {
+     "t": "Conjuntiva teñida",
+     "m": [
+      0.6,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Ojo seco: lágrimas artificiales.",
+   "codes": [
+    "6.02.1.024",
+    "1.11.1.022"
+   ],
+   "confunde": "Conjuntivitis: secreción.",
+   "q": "EUNACOM Julio 2025 · Pregunta 114",
+   "auto": false
+  },
+  {
+   "id": "fluoresceina",
+   "n": 41,
+   "src": "biblioteca/08_reumatologia/reuma-15/12_tincion-fluoresceina-ojo-seco__kanski_p135.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tinción con fluoresceína",
+   "frase": "Erosiones corneales verdes por desecación.",
+   "claves": [
+    {
+     "t": "Erosiones teñidas",
+     "m": [
+      0.4,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Queratoconjuntivitis seca: lubricantes y control.",
+   "codes": [
+    "6.02.1.024"
+   ],
+   "confunde": "Úlcera corneal infecciosa: infiltrado blanco.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "xerostomia",
+   "n": 42,
+   "src": "biblioteca/08_reumatologia/reuma-15/10_lengua-seca-sjogren__kanski_p134.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lengua seca y fisurada",
+   "frase": "Xerostomía del síndrome de Sjögren.",
+   "claves": [
+    {
+     "t": "Lengua seca",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Biopsia de glándula salival menor; anti-Ro y anti-La.",
+   "codes": [
+    "1.11.1.022"
+   ],
+   "confunde": "Deshidratación: transitoria.",
+   "q": "EUNACOM Julio 2019 · Pregunta 126",
+   "auto": true
+  },
+  {
+   "id": "schirmer",
+   "n": 43,
+   "src": "_verificadas/224_reuma_Sjögren_y_EMTC__Kanski_p138.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Test de Schirmer",
+   "frase": "Tira de papel en el fondo de saco: < 5 mm en 5 min es anormal.",
+   "claves": [
+    {
+     "t": "Tira de papel",
+     "m": [
+      0.6,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Objetiva el ojo seco.",
+   "codes": [
+    "1.11.1.022",
+    "6.02.1.024"
+   ],
+   "confunde": "Rosa de Bengala: tiñe el daño.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "sacroileitis-rx",
+   "n": 44,
+   "src": "biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg",
+   "topic": "reuma-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Sacroileítis bilateral",
+   "frase": "Bordes borrosos y esclerosis de ambas sacroilíacas.",
+   "claves": [
+    {
+     "t": "Sacroilíaca",
+     "m": [
+      0.38,
+      0.48,
+      0.07
+     ]
+    },
+    {
+     "t": "Sacroilíaca",
+     "m": [
+      0.62,
+      0.48,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Lumbago inflamatorio: Rx de pelvis; si es normal, RM.",
+   "codes": [
+    "1.11.1.018"
+   ],
+   "confunde": "Osteítis condensante del ilíaco: solo lado ilíaco.",
+   "q": "EUNACOM Julio 2019 · Pregunta 72",
+   "auto": true
+  },
+  {
+   "id": "sacroileitis-rm",
+   "n": 45,
+   "src": "biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg",
+   "topic": "reuma-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Sacroilitis activa en la RM",
+   "frase": "Edema óseo en STIR (flecha).",
+   "claves": [
+    {
+     "t": "Edema óseo",
+     "m": [
+      0.68,
+      0.38,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Detecta la sacroilitis antes que la Rx.",
+   "codes": [
+    "1.11.1.018"
+   ],
+   "confunde": "Lumbago mecánico: RM normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "sindesmofitos",
+   "n": 46,
+   "src": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_1__amir-reuma_p79.jpg",
+   "topic": "reuma-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Sindesmofitos",
+   "frase": "Puentes óseos finos y verticales entre vértebras (flechas).",
+   "claves": [
+    {
+     "t": "Sindesmofito",
+     "m": [
+      0.25,
+      0.4,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Espondilitis anquilosante: AINE y anti-TNF si no responde.",
+   "codes": [
+    "1.11.1.018"
+   ],
+   "confunde": "Osteofitos: horizontales.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cana-bambu",
+   "n": 47,
+   "src": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_alt1__cto-reuma_p38.jpg",
+   "topic": "reuma-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Columna en caña de bambú",
+   "frase": "Fusión de toda la columna.",
+   "claves": [
+    {
+     "t": "Columna fusionada",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Ejercicio y anti-TNF.",
+   "codes": [
+    "1.11.1.018"
+   ],
+   "confunde": "DISH: puentes gruesos en adulto mayor diabético.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "uveitis-anterior",
+   "n": 48,
+   "src": "_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg",
+   "topic": "reuma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uveítis anterior aguda",
+   "frase": "Ojo rojo con inyección ciliar e hipopión.",
+   "claves": [
+    {
+     "t": "Inyección ciliar",
+     "m": [
+      0.5,
+      0.2,
+      0.12
+     ]
+    },
+    {
+     "t": "Hipopión",
+     "m": [
+      0.5,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Derivar urgente a oftalmología: corticoide tópico y midriático.",
+   "codes": [
+    "6.02.1.030"
+   ],
+   "confunde": "Conjuntivitis: inyección periférica sin dolor.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 81",
+   "auto": false
+  },
+  {
+   "id": "bambu-ap",
+   "n": 49,
+   "src": "_verificadas/050_reuma_Espondilitis_anquilosante__BrantHelms_p1190.jpg",
+   "topic": "reuma-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Columna en caña de bambú (AP)",
+   "frase": "Columna lumbar fusionada en la Rx AP.",
+   "claves": [
+    {
+     "t": "Columna fusionada",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Etapa tardía de la espondilitis anquilosante.",
+   "codes": [
+    "1.11.1.018"
+   ],
+   "confunde": "DISH: respeta las sacroilíacas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "psoriasis-placas",
+   "n": 50,
+   "src": "biblioteca/08_reumatologia/reuma-18/04_psoriasis-en-placas__amir-derma_p39.jpg",
+   "topic": "reuma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Psoriasis en placas",
+   "frase": "Placas eritematosas con escama plateada.",
+   "claves": [
+    {
+     "t": "Escama plateada",
+     "m": [
+      0.25,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Un tercio desarrolla artritis psoriásica.",
+   "codes": [
+    "1.11.1.001"
+   ],
+   "confunde": "Eccema: prurito y bordes mal definidos.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 29",
+   "auto": false
+  },
+  {
+   "id": "dactilitis",
+   "n": 51,
+   "src": "biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg",
+   "topic": "reuma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dactilitis",
+   "frase": "Dedo en salchicha: tumefacción de todo el rayo digital.",
+   "claves": [
+    {
+     "t": "Dedo en salchicha",
+     "m": [
+      0.45,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Artritis psoriásica o reactiva.",
+   "codes": [
+    "1.11.1.001"
+   ],
+   "confunde": "Celulitis: fiebre y eritema.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "artritis-ifd",
+   "n": 52,
+   "src": "biblioteca/08_reumatologia/reuma-18/01_artropatia-psoriasica-ifd__amir-reuma_p81.jpg",
+   "topic": "reuma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Artritis psoriásica de las IFD",
+   "frase": "Compromiso de las distales con uñas alteradas.",
+   "claves": [
+    {
+     "t": "IFD inflamada",
+     "m": [
+      0.4,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Metotrexato; biológicos si no responde.",
+   "codes": [
+    "1.11.1.001"
+   ],
+   "confunde": "Heberden: nódulos duros sin inflamación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "lapiz-copa",
+   "n": 53,
+   "src": "_verificadas/051_reuma_Artritis_psoriásica_y_enteropá__HYallpdfsp_p1745_1.jpg",
+   "topic": "reuma-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Lápiz en copa",
+   "frase": "Falange afilada que entra en una base ensanchada.",
+   "claves": [
+    {
+     "t": "Lápiz en copa",
+     "m": [
+      0.35,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Artritis psoriásica mutilante.",
+   "codes": [
+    "1.11.1.001"
+   ],
+   "confunde": "AR: erosiones marginales sin proliferación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "balanitis-circinada",
+   "n": 54,
+   "src": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Balanitis circinada",
+   "frase": "Erosiones serpiginosas en el glande.",
+   "claves": [
+    {
+     "t": "Erosión del glande",
+     "m": [
+      0.4,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Artritis reactiva: buscar Chlamydia; AINE.",
+   "codes": [
+    "1.11.1.002",
+    "1.04.1.010"
+   ],
+   "confunde": "Sífilis primaria: chancro único indoloro.",
+   "q": "EUNACOM Julio 2013 · Pregunta 116",
+   "auto": false
+  },
+  {
+   "id": "queratodermia",
+   "n": 55,
+   "src": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratodermia blenorrágica",
+   "frase": "Lesiones pustulocostrosas en las plantas.",
+   "claves": [
+    {
+     "t": "Lesiones plantares",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Artritis reactiva: tratar la infección desencadenante.",
+   "codes": [
+    "1.11.1.002"
+   ],
+   "confunde": "Psoriasis pustulosa palmoplantar.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "queratodermia-2",
+   "n": 56,
+   "src": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_alt1__cto-reuma_p40.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratodermia: otro caso",
+   "frase": "Pápulas y costras en las plantas.",
+   "claves": [
+    {
+     "t": "Costras plantares",
+     "m": [
+      0.7,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Uretritis + conjuntivitis + artritis: Reiter.",
+   "codes": [
+    "1.11.1.002"
+   ],
+   "confunde": "Tiña pedis: KOH positivo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "gonococcemia",
+   "n": 57,
+   "src": "_verificadas/349_reuma_Artritis_reactiva__HarrisonsP_p1279_1.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gonococcemia diseminada",
+   "frase": "Pústulas acrales sobre base eritematosa.",
+   "claves": [
+    {
+     "t": "Pústula acral",
+     "m": [
+      0.17,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Adulto joven con artritis migratoria y pústulas: ceftriaxona.",
+   "codes": [
+    "1.04.1.010",
+    "1.11.1.016"
+   ],
+   "confunde": "Artritis reactiva: sin pústulas.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 100",
+   "auto": false
+  },
+  {
+   "id": "eritema-nodoso",
+   "n": 58,
+   "src": "biblioteca/08_reumatologia/reuma-19/10_eritema-nodoso__fitzpatrick_p611.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema nodoso",
+   "frase": "Nódulos eritematosos dolorosos bilaterales en las piernas.",
+   "claves": [
+    {
+     "t": "Nódulos",
+     "m": [
+      0.3,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Con adenopatías hiliares y artritis de tobillos: síndrome de Löfgren.",
+   "codes": [
+    "1.11.1.016"
+   ],
+   "confunde": "Tromboflebitis: cordón palpable.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "behcet-aftas",
+   "n": 59,
+   "src": "biblioteca/08_reumatologia/reuma-20/01_aftas-orales-behcet__amir-reuma_p41.jpg",
+   "topic": "reuma-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Behçet: aftas orales y uveítis posterior",
+   "frase": "Aftas recurrentes y vasculitis retiniana.",
+   "claves": [
+    {
+     "t": "Aftas orales",
+     "m": [
+      0.45,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Fondo de ojo",
+     "m": [
+      0.45,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Colchicina para las mucosas; inmunosupresión si hay compromiso ocular.",
+   "codes": [
+    "1.11.1.025",
+    "6.02.1.030"
+   ],
+   "confunde": "Aftas simples: sin úlceras genitales.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "patergia",
+   "n": 60,
+   "src": "biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg",
+   "topic": "reuma-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de patergia",
+   "frase": "Pápula o pústula estéril a las 24–48 h del pinchazo.",
+   "claves": [
+    {
+     "t": "Reacción en los pinchazos",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Apoya el diagnóstico de Behçet.",
+   "codes": [
+    "1.11.1.025"
+   ],
+   "confunde": "Dermografismo: roncha inmediata.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "behcet-genital",
+   "n": 61,
+   "src": "_verificadas/052_reuma_Enfermedad_de_Behçet__Zitelli_p737.jpg",
+   "topic": "reuma-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlceras genitales de Behçet",
+   "frase": "Úlceras dolorosas que dejan cicatriz.",
+   "claves": [
+    {
+     "t": "Úlcera genital",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Junto a aftas orales recurrentes: Behçet.",
+   "codes": [
+    "1.11.1.025"
+   ],
+   "confunde": "Herpes: vesículas agrupadas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "noia",
+   "n": 62,
+   "src": "biblioteca/09_reumatologia/reuma-21/atlas_226_neuropatia_optica_isquemica_an.jpg",
+   "topic": "reuma-21",
+   "type": "fondo",
+   "size": "half",
+   "title": "Neuropatía óptica isquémica",
+   "frase": "Papila edematosa y pálida.",
+   "claves": [
+    {
+     "t": "Papila edematosa",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Arteritis de la temporal: prednisona de inmediato, sin esperar la biopsia.",
+   "codes": [
+    "6.02.1.017",
+    "1.11.1.025"
+   ],
+   "confunde": "Papiledema: bilateral y sin pérdida visual precoz.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 156",
+   "auto": false
+  },
+  {
+   "id": "signo-halo",
+   "n": 63,
+   "src": "biblioteca/08_reumatologia/reuma-21/01_halo-ecografico-arteritis-temporal__cto-reuma_p72.jpg",
+   "topic": "reuma-21",
+   "type": "eco",
+   "size": "half",
+   "title": "Signo del halo",
+   "frase": "Halo hipoecoico alrededor de la arteria temporal.",
+   "claves": [
+    {
+     "t": "Halo hipoecoico",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Apoya arteritis de células gigantes.",
+   "codes": [
+    "1.11.1.025"
+   ],
+   "confunde": "Arteria normal: sin halo.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 43",
+   "auto": false
+  },
+  {
+   "id": "biopsia-temporal",
+   "n": 64,
+   "src": "_web/227_reuma_Arteritis_de_células_gigante__Commons_1.jpg",
+   "topic": "reuma-21",
+   "type": "histologia",
+   "size": "half",
+   "title": "Biopsia de arteria temporal",
+   "frase": "Inflamación de la pared con células gigantes.",
+   "claves": [
+    {
+     "t": "Infiltrado de la pared",
+     "m": [
+      0.85,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Lesiones saltatorias: biopsia de al menos 1–2 cm.",
+   "codes": [
+    "1.11.1.025"
+   ],
+   "confunde": "Arteriosclerosis: sin inflamación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "silla-montar",
+   "n": 65,
+   "src": "biblioteca/08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nariz en silla de montar",
+   "frase": "Destrucción del tabique nasal.",
+   "claves": [
+    {
+     "t": "Dorso nasal hundido",
+     "m": [
+      0.35,
+      0.65,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "GPA: c-ANCA (PR3).",
+   "codes": [
+    "1.11.1.025"
+   ],
+   "confunde": "Policondritis recidivante: también colapsa el cartílago.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "gpa-nodulos",
+   "n": 66,
+   "src": "_verificadas/228_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p528.jpg",
+   "topic": "reuma-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "GPA: nódulos cavitados",
+   "frase": "Nódulos pulmonares con cavitación.",
+   "claves": [
+    {
+     "t": "Nódulo cavitado",
+     "m": [
+      0.62,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Biopsia y ANCA; ciclofosfamida o rituximab.",
+   "codes": [
+    "1.11.1.025",
+    "1.09.2.013"
+   ],
+   "confunde": "Tuberculosis: baciloscopía positiva.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 164",
+   "auto": false
+  },
+  {
+   "id": "hemorragia-alveolar",
+   "n": 67,
+   "src": "_verificadas/229_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p445.jpg",
+   "topic": "reuma-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hemorragia alveolar",
+   "frase": "Infiltrado alveolar bilateral en un síndrome riñón-pulmón.",
+   "claves": [
+    {
+     "t": "Infiltrado alveolar",
+     "m": [
+      0.7,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Emergencia: pulsos de corticoides y plasmaféresis.",
+   "codes": [
+    "1.09.2.013",
+    "1.11.1.025"
+   ],
+   "confunde": "Edema pulmonar: cardiomegalia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "kawasaki-lengua",
+   "n": 68,
+   "src": "biblioteca/08_reumatologia/reuma-22/10_kawasaki-lengua-frutilla__nelson_p1967.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki: lengua en frutilla",
+   "frase": "Lengua roja con papilas prominentes.",
+   "claves": [
+    {
+     "t": "Lengua en frutilla",
+     "m": [
+      0.5,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Fiebre ≥ 5 días + 4 criterios: inmunoglobulina EV y aspirina.",
+   "codes": [
+    "2.01.1.058"
+   ],
+   "confunde": "Escarlatina: exantema en lija.",
+   "q": "EUNACOM Julio 2025 · Pregunta 11",
+   "auto": false
+  },
+  {
+   "id": "kawasaki-ojo",
+   "n": 69,
+   "src": "biblioteca/08_reumatologia/reuma-22/11_kawasaki-conjuntivitis__nelson_p1968.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki: conjuntivitis bulbar",
+   "frase": "Inyección conjuntival bilateral sin secreción.",
+   "claves": [
+    {
+     "t": "Conjuntiva inyectada",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Ecocardiograma: aneurismas coronarios.",
+   "codes": [
+    "2.01.1.058"
+   ],
+   "confunde": "Conjuntivitis viral: con secreción.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "polimialgia",
+   "n": 70,
+   "src": "biblioteca/08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg",
+   "topic": "reuma-23",
+   "type": "esquema",
+   "size": "half",
+   "title": "Zonas de la polimialgia reumática",
+   "frase": "Dolor y rigidez de cinturas escapular y pelviana.",
+   "claves": [
+    {
+     "t": "Cintura escapular",
+     "m": [
+      0.2,
+      0.25,
+      0.07
+     ]
+    },
+    {
+     "t": "Cintura pelviana",
+     "m": [
+      0.25,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "VHS alta: prednisona en dosis baja; buscar arteritis de la temporal.",
+   "codes": [
+    "1.11.1.025"
+   ],
+   "confunde": "Fibromialgia: VHS normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "puntos-fibromialgia",
+   "n": 71,
+   "src": "biblioteca/08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg",
+   "topic": "reuma-23",
+   "type": "esquema",
+   "size": "half",
+   "title": "Puntos sensibles de la fibromialgia",
+   "frase": "Dolor generalizado bilateral, arriba y abajo de la cintura.",
+   "claves": [
+    {
+     "t": "Puntos sensibles",
+     "m": [
+      0.27,
+      0.17,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Ejercicio aeróbico, educación y pregabalina o duloxetina.",
+   "codes": [
+    "1.11.1.010"
+   ],
+   "confunde": "Polimialgia: VHS alta.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 50",
+   "auto": false
+  },
+  {
+   "id": "fractura-cuello-femoral",
+   "n": 72,
+   "src": "biblioteca/08_reumatologia/reuma-24/02_rx_fractura_cuello_femur__commons.jpg",
+   "topic": "reuma-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura del cuello femoral",
+   "frase": "Fractura en un sitio centinela de fragilidad (flecha).",
+   "claves": [
+    {
+     "t": "Fractura",
+     "m": [
+      0.8,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Fractura por fragilidad: osteoporosis sin importar la DEXA.",
+   "codes": [
+    "1.11.1.017"
+   ],
+   "confunde": "Contusión de cadera: sin rasgo.",
+   "q": "EUNACOM Julio 2017 · Pregunta 148",
+   "auto": false
+  },
+  {
+   "id": "aplastamientos",
+   "n": 73,
+   "src": "biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg",
+   "topic": "reuma-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "Aplastamientos vertebrales",
+   "frase": "Vértebras dorsales acuñadas.",
+   "claves": [
+    {
+     "t": "Vértebra acuñada",
+     "m": [
+      0.4,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Bifosfonato; dos tercios son asintomáticos.",
+   "codes": [
+    "1.11.1.017",
+    "4.02.3.004"
+   ],
+   "confunde": "Metástasis: destruye el pedículo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 40",
+   "auto": false
+  },
+  {
+   "id": "cifosis",
+   "n": 74,
+   "src": "biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales_alt1__cto-reuma_p14.jpg",
+   "topic": "reuma-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cifosis dorsal osteoporótica",
+   "frase": "Múltiples aplastamientos con pérdida de estatura.",
+   "claves": [
+    {
+     "t": "Cifosis",
+     "m": [
+      0.6,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Prevenir caídas y tratar la osteoporosis.",
+   "codes": [
+    "1.11.1.017"
+   ],
+   "confunde": "Enfermedad de Scheuermann: adolescente.",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "cristales-urato",
+   "b": "condrocalcinosis",
+   "title": "Gota vs pseudogota",
+   "la": [
+    "Agujas, birrefringencia negativa"
+   ],
+   "lb": [
+    "Calcificación del cartílago"
+   ],
+   "diff": "El líquido sinovial decide."
+  },
+  {
+   "a": "heberden",
+   "b": "desviacion-cubital",
+   "title": "Artrosis vs artritis reumatoide",
+   "la": [
+    "IFD, nódulos duros"
+   ],
+   "lb": [
+    "MCF, deformidad cubital"
+   ],
+   "diff": "La AR respeta las IFD."
+  },
+  {
+   "a": "sindesmofitos",
+   "b": "bambu-ap",
+   "title": "Sindesmofitos y caña de bambú",
+   "la": [
+    "Puentes finos"
+   ],
+   "lb": [
+    "Columna fusionada"
+   ],
+   "diff": "La caña de bambú es el final de los sindesmofitos."
+  },
+  {
+   "a": "raynaud-blanca",
+   "b": "raynaud-azul",
+   "title": "Fases del Raynaud",
+   "la": [
+    "Palidez"
+   ],
+   "lb": [
+    "Cianosis"
+   ],
+   "diff": "Luego viene el rubor."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Pápulas de Gottron",
+   "dx": "Dermatomiositis.",
+   "find": "Gottron",
+   "topic": "reuma-13",
+   "img": "gottron",
+   "def": "Pápulas violáceas en los nudillos."
+  },
+  {
+   "name": "Heliotropo",
+   "dx": "Dermatomiositis.",
+   "find": "heliotropo",
+   "topic": "reuma-13",
+   "img": "heliotropo",
+   "def": "Coloración violácea de los párpados."
+  },
+  {
+   "name": "Nódulos de Heberden",
+   "dx": "Artrosis de manos.",
+   "find": "Heberden",
+   "topic": "reuma-04",
+   "img": "heberden",
+   "def": "Nódulos óseos en IFD."
+  },
+  {
+   "name": "Lápiz en copa",
+   "dx": "Artritis psoriásica.",
+   "find": "lápiz",
+   "topic": "reuma-18",
+   "img": "lapiz-copa",
+   "def": "Falange afilada en base ensanchada."
+  },
+  {
+   "name": "Patergia",
+   "dx": "Behçet.",
+   "find": "patergia",
+   "topic": "reuma-20",
+   "img": "patergia",
+   "def": "Pústula estéril tras un pinchazo."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 74
+ }
+}

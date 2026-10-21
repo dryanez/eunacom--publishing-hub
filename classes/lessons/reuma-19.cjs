@@ -168,7 +168,7 @@ module.exports = {
           say: "Ante una oligoartritis, de dos a cuatro articulaciones, lo primero es la artrocentesis, para descartar infección y cristales. Después se agrupa por patrón. Asimétrica de las piernas, con entesitis, dactilitis, lumbago inflamatorio, y una uretritis o diarrea previa: espondiloartritis, artritis reactiva, psoriásica o asociada a enfermedad intestinal, con HLA B veintisiete." },
         { cells: ["Migratoria con tenosinovitis y pústulas, adulto joven activo sexualmente", "Infección gonocócica diseminada", "Cultivos de uretra, cérvix, faringe y recto"],
           say: "Migratoria, con tenosinovitis y lesiones pustulosas, en un adulto joven sexualmente activo: infección gonocócica diseminada, con cultivos de uretra, cérvix, faringe y recto. Mira estas lesiones: pústulas hemorrágicas en la punta de los dedos y en la piel.",
-          photo: { src: "_verificadas/349_reuma_Artritis_reactiva__HarrisonsP_p1279_1.jpg", label: "Gonococcemia diseminada", at: "Mira estas lesiones", credit: "Harrison, Principios de Medicina Interna, 21.ª ed., p. 1279" } },
+          photo: { src: "_verificadas/349_reuma_Artritis_reactiva__HarrisonsP_p1279_1.jpg", label: "Gonococcemia diseminada: pústulas acrales sobre base eritematosa", at: "Mira estas lesiones", credit: "Harrison's Principles of Internal Medicine, 21.ª ed., p. 1279" } },
         { cells: ["Migratoria de grandes articulaciones tras faringitis", "Fiebre reumática", "Criterios de Jones"],
           say: "Migratoria de grandes articulaciones después de una faringitis estreptocócica: fiebre reumática, con los criterios de Jones." },
         { cells: ["Pocas articulaciones con uveítis en un niño", "AIJ oligoarticular", "ANA y lámpara de hendidura"],

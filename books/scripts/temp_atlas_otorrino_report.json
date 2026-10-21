@@ -1,0 +1,340 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 36,
+  "where": {
+   "IMG-timpano-normal": 4,
+   "IMG-oma": 4,
+   "IMG-efusion": 5,
+   "IMG-collera": 5,
+   "IMG-perforacion": 6,
+   "IMG-colesteatoma": 6,
+   "IMG-otitis-externa": 7,
+   "IMG-otomicosis": 7,
+   "IMG-otohematoma": 8,
+   "IMG-otitis-maligna": 8,
+   "IMG-mucormicosis": 9,
+   "IMG-pabellon-despegado": 9,
+   "IMG-mastoiditis-tac": 10,
+   "IMG-weber": 10,
+   "IMG-schwannoma": 11,
+   "IMG-audifono": 11,
+   "IMG-epley-orl": 12,
+   "IMG-bell-lagoftalmos": 12,
+   "IMG-comisura": 13,
+   "IMG-ramsay-hunt-orl": 13,
+   "IMG-facies-rinitis": 14,
+   "IMG-etmoiditis": 14,
+   "IMG-absceso-subperiostico": 15,
+   "IMG-kiesselbach": 15,
+   "IMG-laterorrinia": 16,
+   "IMG-hematoma-septal": 16,
+   "IMG-polipo-coanal": 17,
+   "IMG-faringitis-viral": 17,
+   "IMG-placas-criptas": 18,
+   "IMG-amigdalitis": 18,
+   "IMG-absceso-periamigdalino": 19,
+   "IMG-retrofaringeo-rx": 19,
+   "IMG-retrofaringeo-tac": 20,
+   "IMG-retrofaringeo-2": 20,
+   "IMG-parafaringeo": 21,
+   "IMG-facies-adenoidea": 21,
+   "IMG-amigdalas-4": 22,
+   "IMG-carcinoma-cuerda": 22,
+   "IMG-nodulos-vocales": 23,
+   "IMG-polipo-vocal": 23,
+   "IMG-reinke": 24,
+   "IMG-croup-rx": 24,
+   "IMG-epiglotis": 25,
+   "IMG-signo-pulgar": 25,
+   "IMG-laringomalacia": 26,
+   "IMG-pila-boton": 26,
+   "IMG-cuerpo-extrano-oido": 27,
+   "IMG-cuerpo-extrano-bronquio": 27,
+   "IMG-calculo-wharton": 28,
+   "IMG-sialadenitis": 28,
+   "IMG-tumor-parotida": 29,
+   "IMG-cancer-lengua": 29,
+   "IMG-leucoplaquia": 30,
+   "IMG-masa-cervical": 30,
+   "PAIRS": 31,
+   "SIGNS": 33,
+   "TYPES": 34,
+   "AUTO": 35,
+   "SOL": 36
+  }
+ },
+ "tomo": [
+  {
+   "id": "timpano-normal",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "oma",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "efusion",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "collera",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "perforacion",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "colesteatoma",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "otitis-externa",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "otomicosis",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "otohematoma",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "otitis-maligna",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "mucormicosis",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "pabellon-despegado",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "mastoiditis-tac",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "weber",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "schwannoma",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "audifono",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "epley-orl",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "bell-lagoftalmos",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "comisura",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "ramsay-hunt-orl",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "facies-rinitis",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "etmoiditis",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "absceso-subperiostico",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "kiesselbach",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "laterorrinia",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "hematoma-septal",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "polipo-coanal",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "faringitis-viral",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "placas-criptas",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "amigdalitis",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "absceso-periamigdalino",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "retrofaringeo-rx",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "retrofaringeo-tac",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "retrofaringeo-2",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "parafaringeo",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "facies-adenoidea",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "amigdalas-4",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "carcinoma-cuerda",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "nodulos-vocales",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "polipo-vocal",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "reinke",
+   "p": 83,
+   "exact": true
+  },
+  {
+   "id": "croup-rx",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "epiglotis",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "signo-pulgar",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "laringomalacia",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "pila-boton",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "cuerpo-extrano-oido",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "cuerpo-extrano-bronquio",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "calculo-wharton",
+   "p": 99,
+   "exact": true
+  },
+  {
+   "id": "sialadenitis",
+   "p": 99,
+   "exact": true
+  },
+  {
+   "id": "tumor-parotida",
+   "p": 99,
+   "exact": true
+  },
+  {
+   "id": "cancer-lengua",
+   "p": 103,
+   "exact": true
+  },
+  {
+   "id": "leucoplaquia",
+   "p": 103,
+   "exact": true
+  },
+  {
+   "id": "masa-cervical",
+   "p": 103,
+   "exact": true
+  }
+ ]
+}

@@ -1,0 +1,1045 @@
+{
+ "libro": "nefrologia",
+ "title": "Nefrología",
+ "prefix": "nefro",
+ "topics": {
+  "nefro-01": "Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+  "nefro-02": "Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+  "nefro-05": "Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+  "nefro-09": "Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+  "nefro-10": "Hipokalemia y Reposición Segura de Potasio",
+  "nefro-13": "Síndrome Nefrótico y Complicaciones Trombóticas",
+  "nefro-14": "Glomerulopatías Primarias del Adulto",
+  "nefro-15": "Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+  "nefro-16": "Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+  "nefro-18": "Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
+  "nefro-19": "Complicaciones de la ERC",
+  "nefro-20": "Hipertensión Secundaria y Estenosis de la Arteria Renal",
+  "nefro-21": "Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto"
+ },
+ "images": [
+  {
+   "id": "hidronefrosis-eco",
+   "n": 1,
+   "src": "biblioteca/03_nefrologia/nefro-01/02_ecografia-hidronefrosis__bailey-love_p1433.jpg",
+   "topic": "nefro-01",
+   "type": "eco",
+   "size": "half",
+   "title": "Hidronefrosis en la ecografía",
+   "frase": "Pelvis renal dilatada y llena de orina: el cuadro es obstructivo.",
+   "claves": [
+    {
+     "t": "Pelvis dilatada (P)",
+     "m": [
+      0.5,
+      0.38,
+      0.08
+     ]
+    },
+    {
+     "t": "Cálices dilatados (C)",
+     "m": [
+      0.27,
+      0.33,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Descartar obstrucción (ecografía o globo vesical) antes de rotular una IRA como parenquimatosa.",
+   "codes": [
+    "1.09.2.009",
+    "4.03.4.006"
+   ],
+   "confunde": "Quiste renal: no comunica con los cálices.",
+   "q": "EUNACOM Julio 2018 · Pregunta 98",
+   "auto": true
+  },
+  {
+   "id": "hidronefrosis-tc",
+   "n": 2,
+   "src": "biblioteca/03_nefrologia/nefro-01/03_tac-hidronefrosis-bilateral__bailey-love_p1482.jpg",
+   "topic": "nefro-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hidronefrosis bilateral en la TAC",
+   "frase": "Ambas pelvis renales dilatadas: obstrucción distal (vejiga o próstata).",
+   "claves": [
+    {
+     "t": "Pelvis renal dilatada",
+     "m": [
+      0.33,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "También la contralateral",
+     "m": [
+      0.72,
+      0.48,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Desobstruir: sonda vesical si es infravesical.",
+   "codes": [
+    "1.09.2.009"
+   ],
+   "confunde": "Pelvis extrarrenal: sin dilatación calicial.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dismorficos",
+   "n": 3,
+   "src": "biblioteca/03_nefrologia/nefro-01/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg",
+   "topic": "nefro-01",
+   "type": "histologia",
+   "size": "half",
+   "title": "Hematíes dismórficos",
+   "frase": "Glóbulos rojos deformados que pasaron por un glomérulo dañado.",
+   "claves": [
+    {
+     "t": "Hematíe dismórfico",
+     "m": [
+      0.75,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hematuria glomerular: estudiar glomerulonefritis.",
+   "codes": [
+    "1.09.4.012"
+   ],
+   "confunde": "Hematuria urológica: hematíes isomórficos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cilindros",
+   "n": 4,
+   "src": "biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros_alt1_2__cto-nefro_p34.jpg",
+   "topic": "nefro-02",
+   "type": "histologia",
+   "size": "half",
+   "title": "Tipos de cilindros urinarios",
+   "frase": "Granuloso pardo = NTA; hemático = glomerulonefritis; leucocitario = intersticial; hialino = prerrenal.",
+   "claves": [
+    {
+     "t": "Cilindro leucocitario",
+     "m": [
+      0.17,
+      0.2,
+      0.07
+     ]
+    },
+    {
+     "t": "Cilindro hemático",
+     "m": [
+      0.17,
+      0.75,
+      0.07
+     ]
+    },
+    {
+     "t": "Cilindro granuloso pardo",
+     "m": [
+      0.85,
+      0.75,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "El sedimento localiza el daño renal.",
+   "codes": [
+    "1.09.4.012",
+    "1.09.2.004"
+   ],
+   "confunde": "Cilindros hialinos: también en sanos y prerrenal.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "exantema-farmaco",
+   "n": 5,
+   "src": "biblioteca/03_nefrologia/nefro-02/03_exantema-por-farmaco__cto-derma_p9.jpg",
+   "topic": "nefro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema maculopapular por fármaco",
+   "frase": "Pista alérgica de la nefritis intersticial aguda (solo en el 10-15%).",
+   "claves": [
+    {
+     "t": "Exantema maculopapular en el tronco",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Suspender el fármaco (IBP, betalactámicos, AINE); prednisona si la creatinina no baja en 5-7 días.",
+   "codes": [
+    "1.09.1.013"
+   ],
+   "confunde": "Exantema viral: sin fármaco nuevo.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 133",
+   "auto": false
+  },
+  {
+   "id": "leucocituria",
+   "n": 6,
+   "src": "biblioteca/03_nefrologia/nefro-02/02_sedimento-leucocituria-nia__cto-nefro_p33.jpg",
+   "topic": "nefro-02",
+   "type": "histologia",
+   "size": "half",
+   "title": "Leucocituria en la nefritis intersticial",
+   "frase": "Sedimento lleno de leucocitos con urocultivo negativo: piuria estéril.",
+   "claves": [
+    {
+     "t": "Leucocitos abundantes",
+     "m": [
+      0.6,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Piuria estéril + fármaco nuevo + alza de creatinina: NTIA.",
+   "codes": [
+    "1.09.1.013",
+    "1.09.4.012"
+   ],
+   "confunde": "Infección urinaria: urocultivo positivo.",
+   "q": "EUNACOM Julio 2016 · Pregunta 167",
+   "auto": false
+  },
+  {
+   "id": "mielinolisis",
+   "n": 7,
+   "src": "biblioteca/07_nefrologia/nefro-05/atlas_111_rm_de_mielinolisis_pontina_cen.jpg",
+   "topic": "nefro-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Mielinólisis pontina central",
+   "frase": "Lesión en el centro del puente tras corregir rápido una hiponatremia.",
+   "claves": [
+    {
+     "t": "Lesión central del puente (flechas)",
+     "m": [
+      0.5,
+      0.53,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "No superar 8-10 mEq/L en 24 h; si se sobrecorrige: suero glucosado al 5% + desmopresina.",
+   "codes": [
+    "1.09.2.007"
+   ],
+   "confunde": "Infarto pontino: territorio vascular.",
+   "q": "EUNACOM Julio 2024 · Pregunta 92",
+   "auto": true
+  },
+  {
+   "id": "ecg-hiperk",
+   "n": 8,
+   "src": "nefro-09/ecg_hiperk.jpg",
+   "topic": "nefro-09",
+   "type": "ecg",
+   "size": "full",
+   "title": "Hiperkalemia: ECG antes y después de la diálisis",
+   "frase": "A con K 6,8: T picudas; B con K 9,1: QRS ancho; C tras la diálisis.",
+   "claves": [
+    {
+     "t": "T altas y picudas",
+     "m": [
+      0.45,
+      0.38,
+      0.07
+     ]
+    },
+    {
+     "t": "QRS ancho",
+     "m": [
+      0.5,
+      0.78,
+      0.07
+     ]
+    },
+    {
+     "t": "Trazado normalizado tras la diálisis",
+     "m": [
+      0.85,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Gluconato de calcio 10% EV primero (estabiliza la membrana); luego insulina + glucosa y salbutamol; diálisis en anuria.",
+   "codes": [
+    "1.09.2.005",
+    "1.01.4.007"
+   ],
+   "confunde": "Hipokalemia: T aplanadas y onda U.",
+   "q": "EUNACOM Enero 2023 · Pregunta 107",
+   "auto": true
+  },
+  {
+   "id": "t-picudas-qrs",
+   "src": "biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal_alt1__cto-cardio_p19.jpg",
+   "topic": "nefro-09",
+   "type": "ecg",
+   "size": "full",
+   "title": "Hiperkalemia grave: T picudas, sin P y QRS ancho",
+   "frase": "Silencio auricular y QRS ancho: corazón al borde del paro.",
+   "claves": [
+    {
+     "t": "T altas y picudas",
+     "m": [
+      0.55,
+      0.15,
+      0.07
+     ]
+    },
+    {
+     "t": "QRS ancho sin onda P",
+     "m": [
+      0.3,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Gluconato de calcio 10% EV de inmediato; luego insulina + glucosa y salbutamol; diálisis en anuria.",
+   "codes": [
+    "1.09.2.005",
+    "1.01.4.007"
+   ],
+   "confunde": "TV: QRS ancho sin T picudas, en cardiópata.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 159",
+   "auto": true,
+   "n": 9
+  },
+  {
+   "id": "onda-u",
+   "n": 10,
+   "src": "biblioteca/03_nefrologia/nefro-10/01_ecg-hipopotasemia-ondas-u__cto-nefro_p22.jpg",
+   "topic": "nefro-10",
+   "type": "ecg",
+   "size": "full",
+   "title": "Hipokalemia: onda U",
+   "frase": "Pequeña deflexión positiva tras la T, más visible de V2 a V4.",
+   "claves": [
+    {
+     "t": "Onda U en las precordiales (flecha)",
+     "m": [
+      0.85,
+      0.12,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Potasio oral si > 2,5-3,0 sin síntomas; EV máx. 10-20 mEq/h; medir magnesio si es refractaria.",
+   "codes": [
+    "1.09.2.006",
+    "1.09.4.010"
+   ],
+   "confunde": "Hiperkalemia: T picudas.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 140",
+   "auto": true
+  },
+  {
+   "id": "edema-fovea",
+   "n": 11,
+   "src": "biblioteca/03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg",
+   "topic": "nefro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema blando con fóvea",
+   "frase": "Al presionar queda una fosa: edema del síndrome nefrótico.",
+   "claves": [
+    {
+     "t": "Pie y tobillo edematosos",
+     "m": [
+      0.5,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Proteinuria > 3,5 g/24 h + albúmina < 3 g/dL + edema: biopsia renal en el adulto.",
+   "codes": [
+    "1.09.1.022",
+    "1.09.2.003"
+   ],
+   "confunde": "Mixedema: no deja fóvea.",
+   "q": "EUNACOM Julio 2025 · Pregunta 10",
+   "auto": false
+  },
+  {
+   "id": "edema-facial",
+   "n": 12,
+   "src": "biblioteca/03_nefrologia/nefro-13/02_edema_facial_nino_nefrosis__cdc-phil-3894.jpg",
+   "topic": "nefro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema facial y palpebral en la nefrosis",
+   "frase": "En la mañana el edema está en los párpados y la cara.",
+   "claves": [
+    {
+     "t": "Cara y párpados edematosos",
+     "m": [
+      0.45,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Niño con síndrome nefrótico: prednisona en dosis alta.",
+   "codes": [
+    "2.01.1.069"
+   ],
+   "confunde": "Angioedema alérgico: brusco y pruriginoso.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 60",
+   "auto": false
+  },
+  {
+   "id": "rojo-congo",
+   "n": 13,
+   "src": "biblioteca/03_nefrologia/nefro-13/03_amiloide_rojo_congo_polarizada__goljan_p172.jpg",
+   "topic": "nefro-13",
+   "type": "histologia",
+   "size": "half",
+   "title": "Amiloidosis: rojo Congo con luz polarizada",
+   "frase": "Depósito amorfo con birrefringencia verde manzana.",
+   "claves": [
+    {
+     "t": "Birrefringencia verde manzana",
+     "m": [
+      0.55,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Se trata con quimioterapia, no con corticoides.",
+   "codes": [
+    "1.09.1.022"
+   ],
+   "confunde": "Colágeno: no da birrefringencia verde.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 64",
+   "auto": false
+  },
+  {
+   "id": "membranosa",
+   "n": 14,
+   "src": "biblioteca/07_nefrologia/nefro-14/01_biopsia-membranosa__nelson_p4100.jpg",
+   "topic": "nefro-14",
+   "type": "histologia",
+   "size": "half",
+   "title": "Nefropatía membranosa",
+   "frase": "Depósitos a lo largo de las asas capilares con membrana basal engrosada.",
+   "claves": [
+    {
+     "t": "Depósitos en las asas capilares",
+     "m": [
+      0.45,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Anti-PLA2R; descartar neoplasia oculta y hepatitis B; anticoagular si albúmina < 2-2,5.",
+   "codes": [
+    "1.09.1.022"
+   ],
+   "confunde": "Cambios mínimos: óptica normal.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 14",
+   "auto": false
+  },
+  {
+   "id": "tira-orina",
+   "n": 15,
+   "src": "biblioteca/03_nefrologia/nefro-15/02_tira-de-orina-hematuria-proteinuria__cto-pediatria_p81.jpg",
+   "topic": "nefro-15",
+   "type": "otra",
+   "size": "half",
+   "title": "Tira de orina: hematuria y proteinuria",
+   "frase": "Sangre y proteínas en la tira: síndrome nefrítico.",
+   "claves": [
+    {
+     "t": "Cuadros de sangre y proteínas positivos",
+     "m": [
+      0.82,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Confirmar con sedimento (hematíes dismórficos, cilindros hemáticos).",
+   "codes": [
+    "1.09.1.021",
+    "1.09.4.012"
+   ],
+   "confunde": "Mioglobinuria: tira positiva sin hematíes.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cilindro-hematico",
+   "n": 16,
+   "src": "biblioteca/03_nefrologia/nefro-15/01_cilindro-hematico__amir-nefro17_p46.jpg",
+   "topic": "nefro-15",
+   "type": "histologia",
+   "size": "half",
+   "title": "Cilindro hemático",
+   "frase": "Molde de glóbulos rojos formado en el túbulo: hematuria glomerular.",
+   "claves": [
+    {
+     "t": "Cilindro de hematíes",
+     "m": [
+      0.4,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "GNPE: C3 bajo con C4 normal; soporte con restricción hidrosalina y furosemida.",
+   "codes": [
+    "1.09.1.021"
+   ],
+   "confunde": "Cilindro granuloso: NTA.",
+   "q": "EUNACOM Julio 2019 · Pregunta 48",
+   "auto": true
+  },
+  {
+   "id": "semiluna",
+   "n": 17,
+   "src": "biblioteca/07_nefrologia/nefro-16/atlas_115_biopsia_renal_con_semiluna_glo.jpg",
+   "topic": "nefro-16",
+   "type": "histologia",
+   "size": "half",
+   "title": "Semiluna glomerular",
+   "frase": "El ovillo capilar comprimido por la semiluna: GN rápidamente progresiva.",
+   "claves": [
+    {
+     "t": "Semiluna celular",
+     "m": [
+      0.75,
+      0.6,
+      0.1
+     ]
+    },
+    {
+     "t": "Ovillo comprimido",
+     "m": [
+      0.4,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Pulsos de metilprednisolona + ciclofosfamida o rituximab; plasmaféresis si hay hemorragia alveolar.",
+   "codes": [
+    "1.09.2.013"
+   ],
+   "confunde": "Glomérulo normal: espacio de Bowman libre.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 164",
+   "auto": true
+  },
+  {
+   "id": "anti-mbg",
+   "n": 18,
+   "src": "biblioteca/07_nefrologia/nefro-16/atlas_116_semilunas_if_lineal__open-i.jpg",
+   "topic": "nefro-16",
+   "type": "histologia",
+   "size": "half",
+   "title": "Goodpasture: semilunas e IF lineal",
+   "frase": "Semilunas, depósito lineal de IgG en la membrana basal y hemorragia alveolar.",
+   "claves": [
+    {
+     "t": "IF lineal (C)",
+     "m": [
+      0.2,
+      0.75,
+      0.08
+     ]
+    },
+    {
+     "t": "Hemorragia alveolar (D)",
+     "m": [
+      0.75,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Anti-MBG positivo: plasmaféresis urgente.",
+   "codes": [
+    "1.09.2.013"
+   ],
+   "confunde": "Vasculitis ANCA: pauciinmune, sin depósitos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hemorragia-alveolar",
+   "n": 19,
+   "src": "biblioteca/07_nefrologia/nefro-16/atlas_014_hemorragia_alveolar_goodpasture__brant-helms_p446.jpg",
+   "topic": "nefro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hemorragia alveolar",
+   "frase": "Infiltrados alveolares bilaterales: síndrome riñón-pulmón.",
+   "claves": [
+    {
+     "t": "Infiltrado alveolar bilateral",
+     "m": [
+      0.25,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Plasmaféresis de urgencia si hay hemorragia alveolar difusa.",
+   "codes": [
+    "1.09.2.013",
+    "1.11.1.025"
+   ],
+   "confunde": "Neumonía: fiebre y consolidación lobar.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "nodulos-cavitados",
+   "n": 20,
+   "src": "../../books/figuras/atlas_eunacom_2026/015_alta_nefro_nefro_16_gn_rapidamente_progresiva.jpg",
+   "topic": "nefro-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Granulomatosis con poliangeítis: nódulos cavitados",
+   "frase": "Nódulos pulmonares con cavidades en ambos pulmones.",
+   "claves": [
+    {
+     "t": "Nódulo cavitado",
+     "m": [
+      0.25,
+      0.35,
+      0.07
+     ]
+    },
+    {
+     "t": "Otro nódulo contralateral",
+     "m": [
+      0.62,
+      0.3,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Nódulos cavitados + glomerulonefritis: ANCA-c.",
+   "codes": [
+    "1.11.1.025"
+   ],
+   "confunde": "TBC y émbolos sépticos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fistula-av",
+   "n": 21,
+   "src": "biblioteca/07_nefrologia/nefro-18/01_fistula_av_radiocefalica__kumar-clark_p886.jpg",
+   "topic": "nefro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fístula arteriovenosa radiocefálica",
+   "frase": "Vena del antebrazo dilatada y arterializada, con frémito, lista para puncionar.",
+   "claves": [
+    {
+     "t": "Vena arterializada",
+     "m": [
+      0.5,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Confeccionarla ≥ 6 meses antes de la diálisis (estadio 4); GES N.º 1.",
+   "codes": [
+    "1.09.3.004",
+    "1.09.1.012"
+   ],
+   "confunde": "Tromboflebitis: cordón doloroso sin frémito.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "kdigo",
+   "n": 22,
+   "src": "biblioteca/03_nefrologia/nefro-18/S1_kdigo__propio.svg",
+   "topic": "nefro-18",
+   "type": "esquema",
+   "size": "half",
+   "title": "Clasificación KDIGO de la ERC",
+   "frase": "Pronóstico según filtrado (G) y albuminuria (A).",
+   "claves": [
+    {
+     "t": "ERC: daño o FG < 60 por más de 3 meses"
+    },
+    {
+     "t": "IECA o ARA-II si A2 o A3"
+    }
+   ],
+   "conducta": "Aumento de creatinina hasta 30% tras IECA es esperable; iSGLT2 nefroprotectores.",
+   "codes": [
+    "1.09.1.012",
+    "1.09.3.008"
+   ],
+   "confunde": "IRA: cambios en horas o días.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "calcifilaxis",
+   "n": 23,
+   "src": "biblioteca/07_nefrologia/nefro-19/atlas_323_calcifilaxis_arteriolopatia_ur.jpg",
+   "topic": "nefro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Calcifilaxis",
+   "frase": "Úlcera necrótica dolorosa por depósito de calcio y fósforo en arteriolas.",
+   "claves": [
+    {
+     "t": "Escara necrótica",
+     "m": [
+      0.45,
+      0.45,
+      0.12
+     ]
+    },
+    {
+     "t": "Halo violáceo",
+     "m": [
+      0.7,
+      0.3,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Controlar fósforo y PTH; quelantes con las comidas.",
+   "codes": [
+    "1.09.1.015"
+   ],
+   "confunde": "Pioderma gangrenoso o úlcera venosa.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "complicaciones-erc",
+   "n": 24,
+   "src": "biblioteca/03_nefrologia/nefro-19/S1_complicaciones-erc__propio.svg",
+   "topic": "nefro-19",
+   "type": "esquema",
+   "size": "half",
+   "title": "Complicaciones de la ERC",
+   "frase": "Anemia, trastorno mineral óseo, acidosis, hiperkalemia, HTA y edema.",
+   "claves": [
+    {
+     "t": "Todas nacen de la caída del filtrado"
+    }
+   ],
+   "conducta": "Antes de la EPO, repletar hierro (IST > 20%, ferritina > 100); meta Hb 10-11,5.",
+   "codes": [
+    "1.09.1.004",
+    "1.09.1.015",
+    "1.09.1.001"
+   ],
+   "confunde": "Anemia ferropénica: microcítica; la de la ERC es normocítica.",
+   "q": "EUNACOM Julio 2024 · Pregunta 6",
+   "auto": false
+  },
+  {
+   "id": "rugger-jersey",
+   "n": 25,
+   "src": "_web/324_nefro_Complicaciones_de_la_ERC__Commons_2.jpg",
+   "topic": "nefro-19",
+   "type": "imagen",
+   "size": "half",
+   "title": "Osteodistrofia renal: columna en camiseta de rugby",
+   "frase": "Bandas escleróticas en los platillos vertebrales.",
+   "claves": [
+    {
+     "t": "Bandas densas alternadas",
+     "m": [
+      0.5,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "PTH alta en ERC 3-4: medir 25-OH-vitamina D y suplementar.",
+   "codes": [
+    "1.09.1.015"
+   ],
+   "confunde": "Osteoporosis: vértebras radiolúcidas.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 140",
+   "auto": false
+  },
+  {
+   "id": "angiotc-renal",
+   "n": 26,
+   "src": "biblioteca/03_nefrologia/nefro-20/01_angiotc_arteria_renal_fmd__harrison_p2132.jpg",
+   "topic": "nefro-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "AngioTAC renal: polo sin flujo",
+   "frase": "Enfermedad de la arteria renal que deja sin flujo el polo superior del riñón derecho.",
+   "claves": [
+    {
+     "t": "Polo superior derecho sin perfusión",
+     "m": [
+      0.32,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Ecografía Doppler de arterias renales como tamizaje.",
+   "codes": [
+    "1.09.1.009",
+    "4.01.1.045"
+   ],
+   "confunde": "Infarto renal embólico.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 24",
+   "auto": false
+  },
+  {
+   "id": "collar-perlas",
+   "n": 27,
+   "src": "biblioteca/07_nefrologia/nefro-20/atlas_016_fmd_collar_perlas__commons.jpg",
+   "topic": "nefro-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Displasia fibromuscular: collar de perlas",
+   "frase": "Estrechamientos y dilataciones alternados en la arteria renal.",
+   "claves": [
+    {
+     "t": "Imagen en collar de perlas",
+     "m": [
+      0.7,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Mujer joven: angioplastía con balón.",
+   "codes": [
+    "4.01.1.045",
+    "1.09.4.001"
+   ],
+   "confunde": "Ateroesclerosis: lesión ostial en adulto mayor.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 1",
+   "auto": true
+  },
+  {
+   "id": "estenosis-ostial",
+   "n": 28,
+   "src": "biblioteca/07_nefrologia/nefro-20/atlas_325_estenosis_ostial__ctmri_p357.jpg",
+   "topic": "nefro-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Estenosis ostial de la arteria renal",
+   "frase": "Placa en el origen de la arteria renal: ateroesclerosis.",
+   "claves": [
+    {
+     "t": "Estrechez en el ostium (flecha)",
+     "m": [
+      0.52,
+      0.37,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Adulto mayor: tratamiento médico intensivo primero.",
+   "codes": [
+    "4.01.1.045"
+   ],
+   "confunde": "Displasia fibromuscular: tercio medio-distal en joven.",
+   "q": "EUNACOM Enero 2023 · Pregunta 83",
+   "auto": false
+  },
+  {
+   "id": "retinopatia-hta",
+   "n": 29,
+   "src": "biblioteca/07_nefrologia/nefro-20/01_retinopatia-hipertensiva__harrison_p263.jpg",
+   "topic": "nefro-20",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía hipertensiva grado III-IV",
+   "frase": "Exudados algodonosos, hemorragias y borramiento del disco.",
+   "claves": [
+    {
+     "t": "Disco óptico borrado",
+     "m": [
+      0.78,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Exudados algodonosos",
+     "m": [
+      0.6,
+      0.2,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Descartar emergencia hipertensiva.",
+   "codes": [
+    "1.09.1.008"
+   ],
+   "confunde": "Retinopatía diabética.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "absceso-renal",
+   "n": 30,
+   "src": "_verificadas/118_nefro_Pielonefritis_aguda__nelsontext_p4209_1.jpg",
+   "topic": "nefro-21",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso renal",
+   "frase": "Colección renal en la TAC con contraste: PNA que no responde.",
+   "claves": [
+    {
+     "t": "Colección hipodensa renal",
+     "m": [
+      0.3,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Febril a las 48-72 h: TAC; drenar el absceso.",
+   "codes": [
+    "1.09.2.011"
+   ],
+   "confunde": "Quiste simple: sin realce de pared.",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "ecg-hiperk",
+   "b": "onda-u",
+   "title": "Hiperkalemia vs hipokalemia en el ECG",
+   "la": [
+    "T altas y picudas",
+    "QRS ancho, onda sinusoidal"
+   ],
+   "lb": [
+    "T aplanada",
+    "Onda U"
+   ],
+   "diff": "Con T picudas, gluconato de calcio antes que nada."
+  },
+  {
+   "a": "collar-perlas",
+   "b": "estenosis-ostial",
+   "title": "Displasia fibromuscular vs ateroesclerosis renal",
+   "la": [
+    "Collar de perlas, tercio medio-distal",
+    "Mujer joven"
+   ],
+   "lb": [
+    "Lesión ostial",
+    "Adulto mayor"
+   ],
+   "diff": "Joven y distal es displasia; viejo y proximal es ateroesclerosis."
+  },
+  {
+   "a": "cilindro-hematico",
+   "b": "leucocituria",
+   "title": "Sedimento nefrítico vs intersticial",
+   "la": [
+    "Cilindros hemáticos",
+    "Glomerulonefritis"
+   ],
+   "lb": [
+    "Leucocitos, cilindros leucocitarios",
+    "Nefritis intersticial"
+   ],
+   "diff": "El tipo de célula en el sedimento localiza el compartimento dañado."
+  },
+  {
+   "a": "hidronefrosis-eco",
+   "b": "hidronefrosis-tc",
+   "title": "Hidronefrosis unilateral vs bilateral",
+   "la": [
+    "Ecografía: pelvis dilatada"
+   ],
+   "lb": [
+    "TAC: ambos riñones"
+   ],
+   "diff": "La bilateral sugiere obstrucción infravesical: sonda vesical."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Collar de perlas",
+   "dx": "Displasia fibromuscular renal.",
+   "find": "collar de perlas",
+   "topic": "nefro-20",
+   "img": "collar-perlas",
+   "def": "Estrechamientos y dilataciones alternados en la angiografía."
+  },
+  {
+   "name": "Nariz en silla de montar",
+   "dx": "Granulomatosis con poliangeítis.",
+   "find": "silla de montar",
+   "topic": "nefro-16",
+   "def": "Hundimiento del dorso nasal."
+  },
+  {
+   "name": "Cruz de Malta",
+   "dx": "Síndrome nefrótico (lipiduria).",
+   "find": "Cruz de Malta",
+   "topic": "nefro-13",
+   "def": "Cuerpos ovales grasos en luz polarizada."
+  },
+  {
+   "name": "Cilindros «muddy brown»",
+   "dx": "Necrosis tubular aguda.",
+   "find": "muddy",
+   "topic": "nefro-01",
+   "img": "cilindros",
+   "def": "Cilindros granulosos pardos."
+  },
+  {
+   "name": "Onda U",
+   "dx": "Hipokalemia.",
+   "find": "onda U",
+   "topic": "nefro-10",
+   "img": "onda-u",
+   "def": "Deflexión positiva tras la onda T."
+  },
+  {
+   "name": "Spikes de la membranosa",
+   "dx": "Nefropatía membranosa.",
+   "find": "spikes",
+   "topic": "nefro-14",
+   "img": "membranosa",
+   "def": "Espículas de la membrana basal en la tinción de plata."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 30
+ }
+}

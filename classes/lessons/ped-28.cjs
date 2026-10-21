@@ -81,7 +81,7 @@ module.exports = {
         { title: 'Huesos', tag: 'Mecanismo de sacudida o torsión', kind: 'key', items: [
           { t: 'Fracturas metafisarias «en esquina»', d: 'Costillas posteriores; múltiples de distinta edad',
             say: 'En los huesos, las fracturas de las costillas posteriores, las metafisarias en esquina y las múltiples en distintas etapas de consolidación. Mira esta radiografía de la pierna de un lactante de tres meses: la fractura está en la metáfisis de la tibia distal, justo bajo la placa de crecimiento.',
-            photo: { src: 'biblioteca/15_pediatria/ped-28/04_fractura-metafisaria-tibia__nelson_p221.jpg', label: 'Fractura metafisaria', at: 'Mira esta radiografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., Fig. 17.5A' } },
+            photo: { src: 'biblioteca/15_pediatria/ped-28/04_fractura-metafisaria-tibia__nelson_p221.jpg', label: 'Maltrato infantil: fracturas metafisarias en esquina (A) y fracturas costales posteriores en consolidación (B)', at: 'Mira esta radiografía', credit: 'Herring, Learning Radiology, 4.ª ed., p. 409' } },
           { t: 'Fractura en un lactante que no deambula', d: 'Sospechosa por sí sola',
             say: 'Y toda fractura en un lactante que no deambula es sospechosa por sí sola.' },
         ] },

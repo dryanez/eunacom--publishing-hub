@@ -125,7 +125,7 @@ module.exports = {
         { title: 'Herpes zóster', tag: 'Reactivación del VVZ', kind: 'alert', items: [
           { t: 'Dolor y luego vesículas en un dermatoma', d: 'Unilateral, no cruza la línea media',
             say: 'El herpes zóster es la reactivación del virus varicela-zóster en un ganglio de la raíz dorsal, frecuente sobre los cincuenta años o con inmunosupresión. Tras uno a cinco días de dolor o ardor, aparece una placa roja con vesículas agrupadas en un dermatoma, unilateral, que no cruza la línea media. Mira este zóster diseminado: lesiones en distintas etapas, con pústulas y costras.',
-            photo: { src: 'biblioteca/19_dermatologia/derma-12/10_zoster-diseminado__harrison_p1522.jpg', label: 'Zóster diseminado', at: 'Mira este zóster diseminado', credit: "Harrison's Principles of Internal Medicine, 21.ª ed., p. 1522" } },
+            photo: { src: 'biblioteca/19_dermatologia/derma-12/10_zoster-diseminado__harrison_p1522.jpg', label: 'Zóster diseminado', at: 'Mira este zóster diseminado', credit: "Fitzpatrick's Dermatology in General Medicine, p. 1929" } },
           { t: 'Hutchinson, Ramsay Hunt, neuralgia', d: 'Oftálmico y óptico: derivar de urgencia',
             say: 'Las vesículas en la punta de la nariz, el signo de Hutchinson, anuncian compromiso ocular y obligan a derivar de urgencia. El síndrome de Ramsay Hunt une vesículas en el oído, parálisis facial periférica e hipoacusia. Y la neuralgia posherpética es un dolor de más de tres meses.' },
           { t: 'Antiviral dentro de las 72 horas', d: 'Aciclovir, valaciclovir o famciclovir por 7 días',

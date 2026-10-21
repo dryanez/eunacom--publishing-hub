@@ -1,0 +1,448 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 45,
+  "where": {
+   "IMG-almohadilla-grasa": 4,
+   "IMG-valva-posterior": 4,
+   "IMG-piel-maleolo": 5,
+   "IMG-fractura-diafisaria": 5,
+   "IMG-dorso-tenedor": 6,
+   "IMG-radio-distal": 6,
+   "IMG-escafoides": 7,
+   "IMG-expuesta": 7,
+   "IMG-gustilo-iiib": 8,
+   "IMG-fasciotomia-antebrazo": 8,
+   "IMG-fasciotomia-pierna": 9,
+   "IMG-volkmann": 9,
+   "IMG-sudeck": 10,
+   "IMG-embolia-grasa": 10,
+   "IMG-charretera": 11,
+   "IMG-luxacion-hombro-rx": 11,
+   "IMG-torus": 12,
+   "IMG-mano-caida-humero": 12,
+   "IMG-supracondilea": 13,
+   "IMG-luxacion-hombro-clinica": 13,
+   "IMG-supracondilea-grasa": 14,
+   "IMG-ramas-pubicas": 14,
+   "IMG-pelvis-inestable": 15,
+   "IMG-sabana-pelvis": 15,
+   "IMG-fractura-tibia": 16,
+   "IMG-diafisis-humero": 16,
+   "IMG-fractura-femur": 17,
+   "IMG-quinto-metatarsiano": 17,
+   "IMG-maisonneuve-tobillo": 18,
+   "IMG-bimaleolar": 18,
+   "IMG-quinto-mt-esquema": 19,
+   "IMG-maisonneuve-perone": 19,
+   "IMG-luxofractura-tobillo": 20,
+   "IMG-lca-rm": 20,
+   "IMG-menisco-rm": 21,
+   "IMG-cajon": 21,
+   "IMG-menisco-rm-2": 22,
+   "IMG-lipohemartrosis": 22,
+   "IMG-punción-hemartrosis": 23,
+   "IMG-cajon-tobillo": 23,
+   "IMG-baker": 24,
+   "IMG-aquiles": 24,
+   "IMG-luxacion-cadera": 25,
+   "IMG-necrosis-avascular": 25,
+   "IMG-fx-cuello-femoral": 26,
+   "IMG-luxacion-cadera-tc": 26,
+   "IMG-bursitis-olecranon": 27,
+   "IMG-palpacion-bursa": 27,
+   "IMG-de-quervain": 28,
+   "IMG-coxartrosis-rx": 28,
+   "IMG-podagra": 29,
+   "IMG-cristales-aguja": 29,
+   "IMG-artritis-septica-rodilla": 30,
+   "IMG-erosion-mtf": 30,
+   "IMG-osteocondroma": 31,
+   "IMG-osteoma-osteoide": 31,
+   "IMG-osteosarcoma": 32,
+   "IMG-sol-naciente": 32,
+   "IMG-ortolani": 33,
+   "IMG-displasia-rx": 33,
+   "IMG-escoliosis": 34,
+   "IMG-pie-bot": 34,
+   "IMG-adams": 35,
+   "IMG-salter-harris": 35,
+   "IMG-klein": 36,
+   "IMG-sinovitis-transitoria": 36,
+   "IMG-espondilolistesis": 37,
+   "IMG-pie-bot-bilateral": 37,
+   "IMG-spurling": 38,
+   "IMG-compresion-l1": 38,
+   "IMG-arco-doloroso": 39,
+   "IMG-hernia-discal": 39,
+   "PAIRS": 40,
+   "SIGNS": 42,
+   "TYPES": 43,
+   "AUTO": 44,
+   "SOL": 45
+  }
+ },
+ "tomo": [
+  {
+   "id": "almohadilla-grasa",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "valva-posterior",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "piel-maleolo",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "fractura-diafisaria",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "dorso-tenedor",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "radio-distal",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "escafoides",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "expuesta",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "gustilo-iiib",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "fasciotomia-antebrazo",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "fasciotomia-pierna",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "volkmann",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "sudeck",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "embolia-grasa",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "charretera",
+   "p": 23,
+   "exact": true
+  },
+  {
+   "id": "luxacion-hombro-rx",
+   "p": 23,
+   "exact": true
+  },
+  {
+   "id": "torus",
+   "p": 23,
+   "exact": true
+  },
+  {
+   "id": "mano-caida-humero",
+   "p": 22,
+   "exact": false
+  },
+  {
+   "id": "supracondilea",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "luxacion-hombro-clinica",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "supracondilea-grasa",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "ramas-pubicas",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "pelvis-inestable",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "sabana-pelvis",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "fractura-tibia",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "diafisis-humero",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "fractura-femur",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "quinto-metatarsiano",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "maisonneuve-tobillo",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "bimaleolar",
+   "p": 44,
+   "exact": true
+  },
+  {
+   "id": "quinto-mt-esquema",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "maisonneuve-perone",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "luxofractura-tobillo",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "lca-rm",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "menisco-rm",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "cajon",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "menisco-rm-2",
+   "p": 49,
+   "exact": false
+  },
+  {
+   "id": "lipohemartrosis",
+   "p": 49,
+   "exact": true
+  },
+  {
+   "id": "punción-hemartrosis",
+   "p": 49,
+   "exact": true
+  },
+  {
+   "id": "cajon-tobillo",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "baker",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "aquiles",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "luxacion-cadera",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "necrosis-avascular",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "fx-cuello-femoral",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "luxacion-cadera-tc",
+   "p": 59,
+   "exact": false
+  },
+  {
+   "id": "bursitis-olecranon",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "palpacion-bursa",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "de-quervain",
+   "p": 63,
+   "exact": false
+  },
+  {
+   "id": "coxartrosis-rx",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "podagra",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "cristales-aguja",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "artritis-septica-rodilla",
+   "p": 71,
+   "exact": true
+  },
+  {
+   "id": "erosion-mtf",
+   "p": 71,
+   "exact": false
+  },
+  {
+   "id": "osteocondroma",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "osteoma-osteoide",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "osteosarcoma",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "sol-naciente",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "ortolani",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "displasia-rx",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "escoliosis",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "pie-bot",
+   "p": 81,
+   "exact": false
+  },
+  {
+   "id": "adams",
+   "p": 81,
+   "exact": false
+  },
+  {
+   "id": "salter-harris",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "klein",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "sinovitis-transitoria",
+   "p": 84,
+   "exact": true
+  },
+  {
+   "id": "espondilolistesis",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "pie-bot-bilateral",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "spurling",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "compresion-l1",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "arco-doloroso",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "hernia-discal",
+   "p": 86,
+   "exact": true
+  }
+ ]
+}

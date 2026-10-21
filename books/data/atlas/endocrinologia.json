@@ -1,0 +1,1803 @@
+{
+ "libro": "endocrinologia",
+ "title": "Endocrinología & Metabolismo",
+ "prefix": "endo",
+ "topics": {
+  "endo-02": "Hipotiroidismo Primario y Subclínico",
+  "endo-03": "Coma Mixedematoso y Urgencias Hipotiroideas",
+  "endo-04": "Hipotiroidismo en Situaciones Especiales",
+  "endo-05": "Tiroiditis",
+  "endo-06": "Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+  "endo-07": "Manejo Terapéutico Comparado",
+  "endo-09": "Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+  "endo-10": "Cáncer de Tiroides",
+  "endo-11": "Síndrome de Cushing",
+  "endo-12": "Insuficiencia Suprarrenal Crónica",
+  "endo-13": "Crisis Suprarrenal Aguda y Shock Refractario",
+  "endo-14": "Hiperaldosteronismo Primario (Síndrome de Conn) e HTA Secundaria",
+  "endo-15": "Feocromocitoma y Paragangliomas",
+  "endo-16": "Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+  "endo-17": "Hipocalcemia Aguda y Crónica",
+  "endo-18": "Osteoporosis",
+  "endo-19": "Déficit de Vitamina D, Osteomalacia del Adulto y Raquitismo",
+  "endo-20": "Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria",
+  "endo-22": "Acromegalia y Gigantismo",
+  "endo-23": "Hipopituitarismo, Síndrome de Sheehan y Panhipopituitarismo",
+  "endo-24": "Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+  "endo-25": "Ginecomastia"
+ },
+ "images": [
+  {
+   "id": "clinica-hipotiroidismo",
+   "n": 1,
+   "src": "biblioteca/05_endocrinologia/endo-02/01_clinica-del-hipotiroidismo__cto-endocrino_p55.jpg",
+   "topic": "endo-02",
+   "type": "esquema",
+   "size": "half",
+   "title": "Clínica del hipotiroidismo",
+   "frase": "Todo el metabolismo se enlentece: frío, corazón lento, intestino perezoso, piel seca.",
+   "claves": [
+    {
+     "t": "Bradipsiquia y somnolencia",
+     "m": [
+      0.28,
+      0.08,
+      0.08
+     ]
+    },
+    {
+     "t": "Intolerancia al frío",
+     "m": [
+      0.55,
+      0.15,
+      0.06
+     ]
+    },
+    {
+     "t": "Bradicardia",
+     "m": [
+      0.33,
+      0.32,
+      0.06
+     ]
+    },
+    {
+     "t": "Constipación",
+     "m": [
+      0.3,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TSH alta con T4L baja: levotiroxina 1,6 µg/kg/día; en ancianos o cardiópatas partir con 25–50 µg.",
+   "codes": [
+    "1.03.1.002"
+   ],
+   "confunde": "Depresión: ánimo bajo con TSH normal.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 36",
+   "auto": false
+  },
+  {
+   "id": "facies-hipotiroidea",
+   "n": 2,
+   "src": "biblioteca/05_endocrinologia/endo-02/01_facies_hipotiroidea__fitzpatrick_p1512.jpg",
+   "topic": "endo-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies hipotiroidea",
+   "frase": "Cara abotagada con edema periorbitario duro que no deja fóvea: mixedema.",
+   "claves": [
+    {
+     "t": "Edema periorbitario duro",
+     "m": [
+      0.3,
+      0.38,
+      0.08
+     ]
+    },
+    {
+     "t": "Piel seca y pálida",
+     "m": [
+      0.6,
+      0.65,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Causa más frecuente: Hashimoto (anti-TPO positivo). Levotiroxina en ayunas.",
+   "codes": [
+    "1.03.1.002",
+    "1.03.4.005"
+   ],
+   "confunde": "Síndrome nefrótico: edema blando que deja fóvea.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 15",
+   "auto": true
+  },
+  {
+   "id": "mixedema-grave",
+   "n": 3,
+   "src": "biblioteca/05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg",
+   "topic": "endo-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Coma mixedematoso",
+   "frase": "Cara infiltrada y apática en una mujer mayor, típicamente en invierno.",
+   "claves": [
+    {
+     "t": "Facies infiltrada, apática",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "UCI: hidrocortisona EV antes de la levotiroxina EV, calentamiento pasivo y soporte.",
+   "codes": [
+    "1.03.2.002"
+   ],
+   "confunde": "Hipotermia ambiental o sepsis: buscar TSH.",
+   "q": "EUNACOM Enero 2023 · Pregunta 153",
+   "auto": true
+  },
+  {
+   "id": "hipotiroidismo-congenito",
+   "n": 4,
+   "src": "biblioteca/05_endocrinologia/endo-04/01_hipotiroidismo_congenito__nelson_p4372.jpg",
+   "topic": "endo-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hipotiroidismo congénito sin tratar",
+   "frase": "Lactante de 6 meses: lengua grande, facies tosca, piel infiltrada.",
+   "claves": [
+    {
+     "t": "Macroglosia",
+     "m": [
+      0.48,
+      0.82,
+      0.08
+     ]
+    },
+    {
+     "t": "Facies tosca",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Tamizaje neonatal con TSH; levotiroxina antes de los 15 días para evitar el daño cerebral.",
+   "codes": [
+    "2.01.1.075"
+   ],
+   "confunde": "Síndrome de Down: también macroglosia, con pliegues palpebrales.",
+   "q": "EUNACOM Julio 2019 · Pregunta 53",
+   "auto": false
+  },
+  {
+   "id": "hipotiroidismo-tratado",
+   "n": 5,
+   "src": "biblioteca/05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg",
+   "topic": "endo-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "El mismo niño con tratamiento",
+   "frase": "Desaparecen la macroglosia y la infiltración.",
+   "claves": [
+    {
+     "t": "Facies normal",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Control de TSH y T4L; ajustar la dosis según peso.",
+   "codes": [
+    "2.01.1.075"
+   ],
+   "confunde": "Los signos clásicos aparecen tarde: el diagnóstico es por tamizaje.",
+   "q": "EUNACOM Julio 2019 · Pregunta 53",
+   "auto": false
+  },
+  {
+   "id": "cintigrama-blanco",
+   "n": 6,
+   "src": "biblioteca/05_endocrinologia/endo-05/02_gammagrafia_en_blanco__openi.jpg",
+   "topic": "endo-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Tiroiditis: cintigrama en blanco",
+   "frase": "La glándula ni se ve: captación casi nula, menor al 1–2%.",
+   "claves": [
+    {
+     "t": "Sin captación en el cuello",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "De Quervain: AINE; propranolol si hay síntomas. No dar antitiroideos.",
+   "codes": [
+    "1.03.1.005"
+   ],
+   "confunde": "Graves: captación difusa y aumentada.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 30",
+   "auto": false
+  },
+  {
+   "id": "cintigramas-panel",
+   "n": 7,
+   "src": "biblioteca/05_endocrinologia/endo-05/04_cintigramas_panel_graves_vs_blanco__commons.jpg",
+   "topic": "endo-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Patrones del cintigrama tiroideo",
+   "frase": "Normal, Graves difuso, bocio multinodular, nódulo caliente y glándula en blanco.",
+   "claves": [
+    {
+     "t": "B: Graves, captación difusa",
+     "m": [
+      0.75,
+      0.3,
+      0.08
+     ]
+    },
+    {
+     "t": "E: tiroiditis, en blanco",
+     "m": [
+      0.25,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "El cintigrama separa hipertiroidismo verdadero (capta) de tiroiditis (no capta).",
+   "codes": [
+    "1.03.1.005",
+    "1.03.1.003"
+   ],
+   "confunde": "Nódulo caliente: un foco que apaga el resto.",
+   "q": "EUNACOM Julio 2017 · Pregunta 10",
+   "auto": false
+  },
+  {
+   "id": "eco-hashimoto",
+   "n": 8,
+   "src": "biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg",
+   "topic": "endo-05",
+   "type": "eco",
+   "size": "half",
+   "title": "Ecografía de Hashimoto",
+   "frase": "Tiroides heterogénea y globalmente hipoecoica, con tractos fibrosos.",
+   "claves": [
+    {
+     "t": "Parénquima heterogéneo e hipoecoico",
+     "m": [
+      0.55,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Anti-TPO positivo; tratar si hay hipotiroidismo.",
+   "codes": [
+    "1.03.1.005",
+    "1.03.4.005"
+   ],
+   "confunde": "Graves: también hipoecoica, pero muy vascular al Doppler.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "doppler-amiodarona",
+   "n": 9,
+   "src": "_verificadas/009_endo_Tiroiditis__Rumack_p1725.jpg",
+   "topic": "endo-05",
+   "type": "eco",
+   "size": "half",
+   "title": "Tirotoxicosis por amiodarona tipo 1: Doppler hipervascular",
+   "frase": "Flujo aumentado en toda la glándula.",
+   "claves": [
+    {
+     "t": "Glándula llena de color",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Tipo 1 (exceso de yodo, glándula vascular): tionamidas. Tipo 2 (tiroiditis, sin flujo): corticoides.",
+   "codes": [
+    "1.03.1.005",
+    "1.03.1.003"
+   ],
+   "confunde": "Tipo 2: glándula sin flujo al Doppler.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 149",
+   "auto": false
+  },
+  {
+   "id": "graves-bocio",
+   "n": 10,
+   "src": "biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_1__cto-endocrino_p57.jpg",
+   "topic": "endo-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bocio difuso de Graves",
+   "frase": "La glándula entera crece de forma difusa y elástica.",
+   "claves": [
+    {
+     "t": "Bocio difuso",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "TSH suprimida, T4L alta y TRAb positivos.",
+   "codes": [
+    "1.03.1.003"
+   ],
+   "confunde": "Bocio multinodular: nódulos palpables y asimétricos.",
+   "q": "EUNACOM Julio 2025 · Pregunta 149",
+   "auto": false
+  },
+  {
+   "id": "doppler-graves",
+   "n": 11,
+   "src": "biblioteca/05_endocrinologia/endo-06/03_eco-doppler-graves_1__amir-endocrino_p38.jpg",
+   "topic": "endo-06",
+   "type": "eco",
+   "size": "half",
+   "title": "Eco Doppler de Graves",
+   "frase": "Hipervascularización difusa: el \"infierno tiroideo\".",
+   "claves": [
+    {
+     "t": "Flujo aumentado",
+     "m": [
+      0.15,
+      0.35,
+      0.1
+     ]
+    },
+    {
+     "t": "Flujo aumentado",
+     "m": [
+      0.88,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Confirma Graves si no hay cintigrama.",
+   "codes": [
+    "1.03.1.003"
+   ],
+   "confunde": "Tiroiditis: flujo escaso.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "oftalmopatia",
+   "n": 12,
+   "src": "biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg",
+   "topic": "endo-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Orbitopatía tiroidea: retracción palpebral",
+   "frase": "Se ve la esclera sobre el iris por retracción del párpado superior.",
+   "claves": [
+    {
+     "t": "Retracción del párpado superior",
+     "m": [
+      0.82,
+      0.42,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Dejar de fumar; selenio en leve; corticoides EV en moderada-grave activa.",
+   "codes": [
+    "1.03.1.003",
+    "6.02.3.006"
+   ],
+   "confunde": "Proptosis unilateral: descartar tumor orbitario.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 145",
+   "auto": true
+  },
+  {
+   "id": "tc-orbitopatia",
+   "n": 13,
+   "src": "biblioteca/05_endocrinologia/endo-06/04_tc_orbitopatia_tiroidea__kanski_p98.jpg",
+   "topic": "endo-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Orbitopatía tiroidea en la TC coronal",
+   "frase": "Músculos extraoculares engrosados, respetando sus tendones.",
+   "claves": [
+    {
+     "t": "Músculos rectos engrosados",
+     "m": [
+      0.18,
+      0.35,
+      0.08
+     ]
+    },
+    {
+     "t": "Músculos rectos engrosados",
+     "m": [
+      0.82,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Neuropatía óptica compresiva: corticoides EV urgentes o descompresión.",
+   "codes": [
+    "6.02.3.006"
+   ],
+   "confunde": "Miositis orbitaria: dolorosa y compromete el tendón.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "gammagrafia-graves",
+   "n": 14,
+   "src": "biblioteca/05_endocrinologia/endo-07/02_gammagrafia-graves-captacion-difusa__amir-endocrino_p44.jpg",
+   "topic": "endo-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Graves: captación difusa",
+   "frase": "Toda la glándula capta de forma difusa y aumentada.",
+   "claves": [
+    {
+     "t": "Captación difusa de ambos lóbulos",
+     "m": [
+      0.5,
+      0.5,
+      0.18
+     ]
+    }
+   ],
+   "conducta": "Primer episodio: tiamazol 12–18 meses esperando la remisión.",
+   "codes": [
+    "1.03.1.003"
+   ],
+   "confunde": "Adenoma tóxico: un solo nódulo capta.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "adenoma-toxico",
+   "n": 15,
+   "src": "biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg",
+   "topic": "endo-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Adenoma tóxico",
+   "frase": "Un nódulo caliente capta y suprime el resto de la glándula.",
+   "claves": [
+    {
+     "t": "Nódulo caliente",
+     "m": [
+      0.5,
+      0.48,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "No remite con fármacos: radioyodo o cirugía.",
+   "codes": [
+    "1.03.1.003",
+    "4.01.1.034"
+   ],
+   "confunde": "Graves: captación difusa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "bmn-toxico",
+   "n": 16,
+   "src": "biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn_alt1_1__amir-endocrino_p44.jpg",
+   "topic": "endo-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Bocio multinodular tóxico",
+   "frase": "Zonas que captan alternan con zonas que no.",
+   "claves": [
+    {
+     "t": "Zonas hipercaptantes",
+     "m": [
+      0.45,
+      0.4,
+      0.06
+     ]
+    },
+    {
+     "t": "Zonas hipocaptantes",
+     "m": [
+      0.6,
+      0.65,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Tratamiento definitivo obligatorio: radioyodo o tiroidectomía.",
+   "codes": [
+    "1.03.1.003",
+    "4.01.1.034"
+   ],
+   "confunde": "Tiroiditis: glándula en blanco.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "bocio-compresivo",
+   "n": 17,
+   "src": "_verificadas/100_endo_Tratamiento_del_hipertiroidism__nelsontext_p4381_1.jpg",
+   "topic": "endo-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bocio gigante compresivo",
+   "frase": "Gran masa cervical que desvía la tráquea.",
+   "claves": [
+    {
+     "t": "Bocio gigante",
+     "m": [
+      0.45,
+      0.7,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Síntomas compresivos: tiroidectomía.",
+   "codes": [
+    "4.01.1.034",
+    "1.03.1.001"
+   ],
+   "confunde": "Linfoma tiroideo: crecimiento muy rápido.",
+   "q": "EUNACOM Julio 2025 · Pregunta 71",
+   "auto": false
+  },
+  {
+   "id": "nodulo-caliente",
+   "n": 18,
+   "src": "biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-caliente__amir-endocrino_p44.jpg",
+   "topic": "endo-09",
+   "type": "imagen",
+   "size": "half",
+   "title": "Gammagrafía: nódulo caliente",
+   "frase": "Capta todo el yodo y apaga el resto (flecha).",
+   "claves": [
+    {
+     "t": "Nódulo caliente",
+     "m": [
+      0.45,
+      0.62,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "TSH baja + nódulo caliente: riesgo de cáncer < 1%, no se punciona.",
+   "codes": [
+    "1.03.1.021"
+   ],
+   "confunde": "Nódulo frío: hay que puncionar según TI-RADS.",
+   "q": "EUNACOM Julio 2019 · Pregunta 167",
+   "auto": false
+  },
+  {
+   "id": "tirads-5",
+   "n": 19,
+   "src": "biblioteca/05_endocrinologia/endo-09/04_nodulo_ti-rads_5__rumack_p738.jpg",
+   "topic": "endo-09",
+   "type": "eco",
+   "size": "half",
+   "title": "Nódulo TI-RADS 5",
+   "frase": "Nódulo más oscuro que el músculo pretiroideo (M).",
+   "claves": [
+    {
+     "t": "Nódulo marcadamente hipoecogénico",
+     "m": [
+      0.5,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TI-RADS 5 ≥ 1 cm: PAAF.",
+   "codes": [
+    "1.03.1.021",
+    "1.03.4.001"
+   ],
+   "confunde": "Quiste: anecoico con refuerzo posterior.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "nodulo-sospechoso",
+   "n": 20,
+   "src": "biblioteca/05_endocrinologia/endo-09/01_nodulo-con-criterios-de-malignidad-eco-d__amir-endocrino_p46.jpg",
+   "topic": "endo-09",
+   "type": "eco",
+   "size": "half",
+   "title": "Nódulo con criterios de malignidad",
+   "frase": "Hipoecogénico, bordes irregulares, más alto que ancho y microcalcificaciones.",
+   "claves": [
+    {
+     "t": "Nódulo hipoecogénico",
+     "m": [
+      0.5,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Criterios de sospecha: PAAF y Bethesda.",
+   "codes": [
+    "1.03.1.021",
+    "1.03.1.004"
+   ],
+   "confunde": "Nódulo espongiforme: benigno, no se punciona.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "bocio-multinodular",
+   "n": 21,
+   "src": "biblioteca/05_endocrinologia/endo-09/03_bocio_multinodular_grande__bailey_p827.jpg",
+   "topic": "endo-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bocio multinodular",
+   "frase": "Aumento de volumen cervical visible a simple vista.",
+   "claves": [
+    {
+     "t": "Bocio visible",
+     "m": [
+      0.5,
+      0.55,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "TSH y ecografía; PAAF de los nódulos sospechosos.",
+   "codes": [
+    "1.03.1.001",
+    "1.03.1.021"
+   ],
+   "confunde": "Hashimoto: bocio difuso, firme y lobulado.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "papilar-histologia",
+   "n": 22,
+   "src": "biblioteca/05_endocrinologia/endo-10/01_carcinoma_papilar_histologia__pathoma_p171.jpg",
+   "topic": "endo-10",
+   "type": "histologia",
+   "size": "half",
+   "title": "Carcinoma papilar",
+   "frase": "Papilas, cuerpos de psamoma y núcleos en vidrio esmerilado.",
+   "claves": [
+    {
+     "t": "Papilas",
+     "m": [
+      0.25,
+      0.5,
+      0.1
+     ]
+    },
+    {
+     "t": "Cuerpo de psamoma",
+     "m": [
+      0.75,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Tiroidectomía; radioyodo según riesgo; seguimiento con tiroglobulina.",
+   "codes": [
+    "1.03.1.004",
+    "4.01.1.033"
+   ],
+   "confunde": "Folicular: el diagnóstico exige invasión capsular o vascular.",
+   "q": "EUNACOM Julio 2018 · Pregunta 74",
+   "auto": false
+  },
+  {
+   "id": "luna-llena",
+   "n": 23,
+   "src": "biblioteca/05_endocrinologia/endo-11/03_facies_luna_llena__commons.jpg",
+   "topic": "endo-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies de luna llena",
+   "frase": "Cara redonda y roja; causa más frecuente: corticoides exógenos.",
+   "claves": [
+    {
+     "t": "Cara redonda y pletórica",
+     "m": [
+      0.5,
+      0.65,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Descartar corticoides (incluso inhalados) antes de pedir exámenes.",
+   "codes": [
+    "1.03.1.006"
+   ],
+   "confunde": "Obesidad simple: sin miopatía ni estrías violáceas.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "fenotipo-cushing",
+   "n": 24,
+   "src": "biblioteca/05_endocrinologia/endo-11/02_fenotipo-cushingoide__cto-endocrino_p76.jpg",
+   "topic": "endo-11",
+   "type": "esquema",
+   "size": "half",
+   "title": "Fenotipo cushingoide",
+   "frase": "Obesidad central con extremidades delgadas.",
+   "claves": [
+    {
+     "t": "Obesidad central",
+     "m": [
+      0.5,
+      0.5,
+      0.12
+     ]
+    },
+    {
+     "t": "Extremidades delgadas",
+     "m": [
+      0.35,
+      0.8,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Tamizaje: cortisol libre urinario 24 h, cortisol salival nocturno o supresión con 1 mg de dexametasona.",
+   "codes": [
+    "1.03.1.006",
+    "1.03.4.007"
+   ],
+   "confunde": "Síndrome metabólico: sin atrofia muscular.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 18",
+   "auto": false
+  },
+  {
+   "id": "equimosis-cushing",
+   "n": 25,
+   "src": "biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_2__cto-endocrino_p77.jpg",
+   "topic": "endo-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Equimosis por fragilidad capilar",
+   "frase": "Grandes moretones con traumas mínimos.",
+   "claves": [
+    {
+     "t": "Equimosis extensa",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Signo de hipercortisolismo: sospechar Cushing.",
+   "codes": [
+    "1.03.1.006"
+   ],
+   "confunde": "Coagulopatía: pedir plaquetas y TP.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "tac-suprarrenal",
+   "n": 26,
+   "src": "_web/319_endo_Síndrome_de_Cushing__Open-i_1.jpg",
+   "topic": "endo-11",
+   "type": "imagen",
+   "size": "half",
+   "title": "TAC suprarrenal en el Cushing",
+   "frase": "Masas suprarrenales (flechas) en distintos casos.",
+   "claves": [
+    {
+     "t": "Masa suprarrenal",
+     "m": [
+      0.72,
+      0.2,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "ACTH suprimida: origen suprarrenal; TAC de suprarrenales.",
+   "codes": [
+    "1.03.1.006"
+   ],
+   "confunde": "ACTH alta: buscar adenoma hipofisario.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "addison-hiperpigmentacion",
+   "n": 27,
+   "src": "biblioteca/05_endocrinologia/endo-12/01_addison_hiperpigmentacion__fitzpatrick_p1517.jpg",
+   "topic": "endo-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Enfermedad de Addison: hiperpigmentación",
+   "frase": "Piel bronceada, por exceso de ACTH.",
+   "claves": [
+    {
+     "t": "Hiperpigmentación facial",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Cortisol AM bajo con ACTH alta; hidrocortisona y fludrocortisona.",
+   "codes": [
+    "1.03.1.007",
+    "1.03.4.006"
+   ],
+   "confunde": "Insuficiencia secundaria: ACTH baja, sin hiperpigmentación.",
+   "q": "EUNACOM Julio 2015 · Pregunta 112",
+   "auto": true
+  },
+  {
+   "id": "addison-pliegues",
+   "n": 28,
+   "src": "biblioteca/05_endocrinologia/endo-12/02_addison_b__fitzpatrick_p1517.jpg",
+   "topic": "endo-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Addison: pliegues palmares",
+   "frase": "Pigmento en los pliegues de las palmas.",
+   "claves": [
+    {
+     "t": "Pliegues palmares oscuros",
+     "m": [
+      0.25,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Educación: doblar la dosis de hidrocortisona en enfermedad intercurrente.",
+   "codes": [
+    "1.03.1.007"
+   ],
+   "confunde": "Pigmentación racial: sin hipotensión ni hiponatremia.",
+   "q": "EUNACOM Julio 2019 · Pregunta 102",
+   "auto": false
+  },
+  {
+   "id": "purpura-fulminante",
+   "n": 29,
+   "src": "biblioteca/05_endocrinologia/endo-13/atlas_104_sindrome_de_waterhouse_frideri.jpg",
+   "topic": "endo-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura fulminante (Waterhouse-Friderichsen)",
+   "frase": "Equimosis necróticas extensas en sepsis meningocócica.",
+   "claves": [
+    {
+     "t": "Púrpura necrótica",
+     "m": [
+      0.45,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Hemorragia suprarrenal: hidrocortisona 100 mg EV inmediata, sin esperar exámenes.",
+   "codes": [
+    "1.03.2.003"
+   ],
+   "confunde": "Vasculitis: lesiones palpables sin shock.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 20",
+   "auto": false
+  },
+  {
+   "id": "necrosis-distal",
+   "n": 30,
+   "src": "biblioteca/05_endocrinologia/endo-13/02_waterhouse_friderichsen_pies__bailey_p619.jpg",
+   "topic": "endo-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrosis distal en la sepsis",
+   "frase": "Necrosis de los ortejos por coagulación intravascular.",
+   "claves": [
+    {
+     "t": "Necrosis de los ortejos",
+     "m": [
+      0.3,
+      0.15,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Crisis suprarrenal: hidrocortisona EV, volumen y antibióticos.",
+   "codes": [
+    "1.03.2.003"
+   ],
+   "confunde": "Gangrena por enfermedad arterial: progresiva, no aguda.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "adenoma-conn-rm",
+   "n": 31,
+   "src": "biblioteca/05_endocrinologia/endo-14/01_adenoma_suprarrenal_rm__ctmri_p383.jpg",
+   "topic": "endo-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Adenoma suprarrenal en la RM",
+   "frase": "Pequeño nódulo suprarrenal (flecha).",
+   "claves": [
+    {
+     "t": "Adenoma suprarrenal",
+     "m": [
+      0.55,
+      0.28,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hiperaldosteronismo: relación aldosterona/renina; cateterismo de venas suprarrenales antes de operar.",
+   "codes": [
+    "1.03.1.009"
+   ],
+   "confunde": "Hiperplasia bilateral: espironolactona, no cirugía.",
+   "q": "EUNACOM Julio 2016 · Pregunta 59",
+   "auto": false
+  },
+  {
+   "id": "masa-suprarrenal-rm",
+   "n": 32,
+   "src": "biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg",
+   "topic": "endo-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Feocromocitoma en la RM",
+   "frase": "Masa suprarrenal brillante en T2.",
+   "claves": [
+    {
+     "t": "Masa suprarrenal",
+     "m": [
+      0.38,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Metanefrinas; bloqueo alfa antes que beta y antes de la cirugía.",
+   "codes": [
+    "1.03.1.009",
+    "4.03.1.023"
+   ],
+   "confunde": "Adenoma: pobre en señal T2.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mibg",
+   "n": 33,
+   "src": "biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg_alt1__amir-endocrino_p58.jpg",
+   "topic": "endo-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Gammagrafía con MIBG",
+   "frase": "Foco de captación en la suprarrenal.",
+   "claves": [
+    {
+     "t": "Foco captante",
+     "m": [
+      0.2,
+      0.33,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Localiza feocromocitomas y paragangliomas extraadrenales.",
+   "codes": [
+    "4.03.1.023"
+   ],
+   "confunde": "Adenoma no funcionante: no capta MIBG.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "incidentaloma-tc",
+   "n": 34,
+   "src": "biblioteca/05_endocrinologia/endo-15/02_adenoma_suprarrenal_tc__ctmri_p382.jpg",
+   "topic": "endo-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Incidentaloma suprarrenal en la TAC",
+   "frase": "Nódulo suprarrenal (flecha) hallado por casualidad.",
+   "claves": [
+    {
+     "t": "Nódulo suprarrenal",
+     "m": [
+      0.47,
+      0.45,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Estudiar función (cortisol, metanefrinas, aldosterona); > 4 cm o > 10 UH: cirugía.",
+   "codes": [
+    "1.03.1.022"
+   ],
+   "confunde": "Metástasis: en paciente oncológico, crece.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "osteitis-fibrosa",
+   "n": 35,
+   "src": "biblioteca/05_endocrinologia/endo-16/03_osteitis_fibrosa_falanges__helms_p15.jpg",
+   "topic": "endo-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Osteítis fibrosa quística",
+   "frase": "Resorción subperióstica de las falanges (flechas).",
+   "claves": [
+    {
+     "t": "Resorción subperióstica",
+     "m": [
+      0.27,
+      0.78,
+      0.06
+     ]
+    },
+    {
+     "t": "Resorción subperióstica",
+     "m": [
+      0.7,
+      0.36,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hiperparatiroidismo: PTH y calcio altos; paratiroidectomía si cumple criterios.",
+   "codes": [
+    "1.03.1.020",
+    "1.03.4.010"
+   ],
+   "confunde": "Osteoporosis: hueso fino sin resorción subperióstica.",
+   "q": "EUNACOM Julio 2019 · Pregunta 175",
+   "auto": false
+  },
+  {
+   "id": "qt-calcio",
+   "n": 36,
+   "src": "biblioteca/05_endocrinologia/endo-16/01_qt_calcio_esquema__ecg-basics_p331.jpg",
+   "topic": "endo-16",
+   "type": "esquema",
+   "size": "half",
+   "title": "El QT y el calcio",
+   "frase": "Hipercalcemia acorta el QT; hipocalcemia lo alarga.",
+   "claves": [
+    {
+     "t": "QT corto",
+     "m": [
+      0.35,
+      0.62,
+      0.06
+     ]
+    },
+    {
+     "t": "QT largo",
+     "m": [
+      0.35,
+      0.95,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hipercalcemia grave: suero fisiológico EV y luego bifosfonato.",
+   "codes": [
+    "1.03.2.004",
+    "1.03.1.020"
+   ],
+   "confunde": "Hipokalemia: también prolonga, con onda U.",
+   "q": "EUNACOM Julio 2025 · Pregunta 79",
+   "auto": false
+  },
+  {
+   "id": "ecg-hipercalcemia",
+   "n": 37,
+   "src": "biblioteca/05_endocrinologia/endo-16/02_ecg_hipercalcemia_qt_corto__ecg-basics_p331.jpg",
+   "topic": "endo-16",
+   "type": "ecg",
+   "size": "half",
+   "title": "ECG de hipercalcemia",
+   "frase": "QT corto, con la T casi pegada al QRS.",
+   "claves": [
+    {
+     "t": "QT corto",
+     "m": [
+      0.12,
+      0.15,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hidratación EV con solución salina 0,9%.",
+   "codes": [
+    "1.03.2.004",
+    "1.08.2.004"
+   ],
+   "confunde": "Digitálicos: ST en cubeta.",
+   "q": "EUNACOM Enero 2023 · Pregunta 105",
+   "auto": false
+  },
+  {
+   "id": "sestamibi",
+   "n": 38,
+   "src": "_verificadas/107_endo_Hipercalcemia_e_hiperparatiroi__BrantHelms_p1466.jpg",
+   "topic": "endo-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Gammagrafía con sestamibi",
+   "frase": "Adenoma de paratiroides que retiene el trazador (flecha).",
+   "claves": [
+    {
+     "t": "Adenoma paratiroideo",
+     "m": [
+      0.22,
+      0.7,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Localiza el adenoma antes de la paratiroidectomía.",
+   "codes": [
+    "1.03.4.010",
+    "1.03.1.020"
+   ],
+   "confunde": "Nódulo tiroideo: el sestamibi se lava antes.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 32",
+   "auto": false
+  },
+  {
+   "id": "chvostek",
+   "n": 39,
+   "src": "biblioteca/05_endocrinologia/endo-17/03_signo_chvostek__commons.jpg",
+   "topic": "endo-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Chvostek",
+   "frase": "Contracción de la comisura al percutir el nervio facial.",
+   "claves": [
+    {
+     "t": "Contracción de la comisura",
+     "m": [
+      0.55,
+      0.62,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Hipocalcemia sintomática: gluconato de calcio EV.",
+   "codes": [
+    "1.03.2.005"
+   ],
+   "confunde": "Presente en 10% de las personas sanas.",
+   "q": "EUNACOM Enero 2023 · Pregunta 110",
+   "auto": false
+  },
+  {
+   "id": "trousseau",
+   "n": 40,
+   "src": "biblioteca/05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg",
+   "topic": "endo-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Trousseau",
+   "frase": "Mano en comadrón al inflar el manguito sobre la sistólica.",
+   "claves": [
+    {
+     "t": "Mano en comadrón",
+     "m": [
+      0.65,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Postiroidectomía: gluconato de calcio EV.",
+   "codes": [
+    "1.03.2.005"
+   ],
+   "confunde": "Más específico que Chvostek.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 25",
+   "auto": true
+  },
+  {
+   "id": "dexa",
+   "n": 41,
+   "src": "biblioteca/05_endocrinologia/endo-18/S1_dexa-t-score__propio.svg",
+   "topic": "endo-18",
+   "type": "esquema",
+   "size": "half",
+   "title": "Densitometría: cómo leer el T-score",
+   "frase": "T ≤ −2,5 = osteoporosis; entre −1 y −2,5 = osteopenia.",
+   "claves": [
+    {
+     "t": "T-score del paciente",
+     "m": [
+      0.38,
+      0.38,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Osteoporosis: calcio, vitamina D y bifosfonato.",
+   "codes": [
+    "1.03.4.002",
+    "1.03.1.018"
+   ],
+   "confunde": "Z-score: en premenopáusicas y niños.",
+   "q": "EUNACOM Julio 2015 · Pregunta 114",
+   "auto": false
+  },
+  {
+   "id": "fractura-colles",
+   "n": 42,
+   "src": "biblioteca/05_endocrinologia/endo-18/03_fractura_colles__sherman_p569.jpg",
+   "topic": "endo-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de Colles",
+   "frase": "Fractura distal del radio con desplazamiento dorsal.",
+   "claves": [
+    {
+     "t": "Fractura distal del radio",
+     "m": [
+      0.3,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Fractura por fragilidad: es osteoporosis aunque la DEXA no llegue a −2,5.",
+   "codes": [
+    "1.03.1.018"
+   ],
+   "confunde": "Smith: desplazamiento palmar.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fractura-cadera",
+   "n": 43,
+   "src": "biblioteca/05_endocrinologia/endo-18/02_rx_fractura_cuello_femur__commons.jpg",
+   "topic": "endo-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura del cuello del fémur",
+   "frase": "Fractura de cadera (flecha) por fragilidad.",
+   "claves": [
+    {
+     "t": "Fractura del cuello femoral",
+     "m": [
+      0.62,
+      0.38,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Cirugía precoz; luego tratar la osteoporosis.",
+   "codes": [
+    "1.03.1.018",
+    "1.07.1.015"
+   ],
+   "confunde": "Contusión: Rx sin rasgo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "osteonecrosis-mandibula",
+   "n": 44,
+   "src": "_web/320_endo_Osteoporosis__Commons_1.jpg",
+   "topic": "endo-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Osteonecrosis mandibular por bifosfonatos",
+   "frase": "Hueso expuesto que no cicatriza tras una extracción.",
+   "claves": [
+    {
+     "t": "Hueso expuesto",
+     "m": [
+      0.4,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Evaluación dental antes de iniciar bifosfonatos.",
+   "codes": [
+    "1.03.1.018"
+   ],
+   "confunde": "Alveolitis: dolor sin hueso necrótico.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fractura-atipica",
+   "n": 45,
+   "src": "_verificadas/321_endo_Osteoporosis__HelmsSkeletal_p165.jpg",
+   "topic": "endo-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura atípica subtrocantérea",
+   "frase": "Rasgo transverso en la cortical lateral del fémur (flecha).",
+   "claves": [
+    {
+     "t": "Fractura atípica",
+     "m": [
+      0.92,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Asociada al uso prolongado de bifosfonatos: suspenderlos.",
+   "codes": [
+    "1.03.1.018"
+   ],
+   "confunde": "Fractura de cuello: más proximal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "rosario-raquitico",
+   "n": 46,
+   "src": "biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg",
+   "topic": "endo-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rosario raquítico",
+   "frase": "Prominencia de las uniones condrocostales.",
+   "claves": [
+    {
+     "t": "Rosario costal",
+     "m": [
+      0.4,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Raquitismo carencial: vitamina D y calcio.",
+   "codes": [
+    "1.02.1.017"
+   ],
+   "confunde": "Escorbuto: también rosario, con hemorragias.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "munecas-ensanchadas",
+   "n": 47,
+   "src": "biblioteca/05_endocrinologia/endo-19/02_munecas_ensanchadas__nelson_p646.jpg",
+   "topic": "endo-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Muñecas ensanchadas en el raquitismo",
+   "frase": "Metáfisis distales anchas.",
+   "claves": [
+    {
+     "t": "Muñeca ensanchada",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Fosfatasa alcalina alta, calcio y fósforo bajos.",
+   "codes": [
+    "1.02.1.017",
+    "2.01.4.018"
+   ],
+   "confunde": "Hipofosfatemia ligada al X: no responde a vitamina D.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "looser-milkman",
+   "n": 48,
+   "src": "biblioteca/05_endocrinologia/endo-19/04_looser_milkman__commons.jpg",
+   "topic": "endo-19",
+   "type": "imagen",
+   "size": "half",
+   "title": "Línea de Looser-Milkman",
+   "frase": "Pseudofractura: banda radiolúcida perpendicular a la cortical (flecha).",
+   "claves": [
+    {
+     "t": "Pseudofractura",
+     "m": [
+      0.82,
+      0.43,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Osteomalacia: vitamina D; en bypass gástrico, pesquisar el déficit.",
+   "codes": [
+    "1.02.1.017"
+   ],
+   "confunde": "Fractura por estrés: con callo.",
+   "q": "EUNACOM Julio 2019 · Pregunta 25",
+   "auto": false
+  },
+  {
+   "id": "macroadenoma-rm",
+   "n": 49,
+   "src": "biblioteca/05_endocrinologia/endo-20/04_macroadenoma-rm__amir-endocrino_p24.jpg",
+   "topic": "endo-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Macroadenoma hipofisario en la RM",
+   "frase": "Masa selar que sube hacia el quiasma.",
+   "claves": [
+    {
+     "t": "Macroadenoma",
+     "m": [
+      0.4,
+      0.22,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Campo visual y perfil hormonal; cirugía transesfenoidal salvo prolactinoma.",
+   "codes": [
+    "1.03.1.013",
+    "1.10.1.028"
+   ],
+   "confunde": "Craneofaringioma: quístico y calcificado.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 138",
+   "auto": false
+  },
+  {
+   "id": "craneofaringioma",
+   "n": 50,
+   "src": "biblioteca/05_endocrinologia/endo-20/05_craneofaringioma_rm__kanski_p830.jpg",
+   "topic": "endo-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Craneofaringioma supraselar",
+   "frase": "Masa supraselar quística en la RM.",
+   "claves": [
+    {
+     "t": "Masa supraselar",
+     "m": [
+      0.45,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Niño con talla baja y hemianopsia: RM.",
+   "codes": [
+    "1.10.1.028"
+   ],
+   "confunde": "Adenoma: nace de la silla.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "region-selar",
+   "n": 51,
+   "src": "biblioteca/05_endocrinologia/endo-20/03_efecto-masa-adenoma__cto-endocrino_p40.jpg",
+   "topic": "endo-20",
+   "type": "esquema",
+   "size": "half",
+   "title": "Anatomía de la región selar",
+   "frase": "La hipófisis rodeada por los senos cavernosos y sus nervios.",
+   "claves": [
+    {
+     "t": "Hipófisis",
+     "m": [
+      0.5,
+      0.18,
+      0.08
+     ]
+    },
+    {
+     "t": "Seno cavernoso",
+     "m": [
+      0.25,
+      0.18,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Efecto de masa: hemianopsia bitemporal y pares III, IV y VI.",
+   "codes": [
+    "1.03.1.013",
+    "1.10.4.004"
+   ],
+   "confunde": "Lesión del quiasma vs del nervio óptico.",
+   "q": "EUNACOM Julio 2024 · Pregunta 80",
+   "auto": false
+  },
+  {
+   "id": "acromegalia",
+   "n": 52,
+   "src": "biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg",
+   "topic": "endo-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fenotipo acromegálico",
+   "frase": "Manos grandes, prognatismo, diastema y rasgos toscos.",
+   "claves": [
+    {
+     "t": "Manos grandes",
+     "m": [
+      0.1,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Diastema",
+     "m": [
+      0.75,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Nariz y labios gruesos",
+     "m": [
+      0.85,
+      0.7,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "IGF-1 y luego GH tras sobrecarga de glucosa.",
+   "codes": [
+    "1.03.1.013"
+   ],
+   "confunde": "Hipotiroidismo: también rasgos toscos.",
+   "q": "EUNACOM Julio 2015 · Pregunta 113",
+   "auto": false
+  },
+  {
+   "id": "silla-vacia",
+   "n": 53,
+   "src": "biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg",
+   "topic": "endo-23",
+   "type": "imagen",
+   "size": "half",
+   "title": "Silla turca vacía",
+   "frase": "Silla llena de LCR con la hipófisis aplanada (círculo).",
+   "claves": [
+    {
+     "t": "Silla turca vacía",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Evaluar hipopituitarismo; Sheehan tras hemorragia del parto.",
+   "codes": [
+    "1.03.1.014"
+   ],
+   "confunde": "Macroadenoma: masa que llena la silla.",
+   "q": "EUNACOM Julio 2015 · Pregunta 109",
+   "auto": false
+  },
+  {
+   "id": "men2a-feo",
+   "n": 54,
+   "src": "biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg",
+   "topic": "endo-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "MEN 2A: feocromocitoma",
+   "frase": "Masa suprarrenal derecha (flecha).",
+   "claves": [
+    {
+     "t": "Masa suprarrenal",
+     "m": [
+      0.4,
+      0.48,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "MEN 2: buscar feocromocitoma antes de operar el cáncer medular.",
+   "codes": [
+    "1.03.1.009",
+    "4.03.1.023"
+   ],
+   "confunde": "MEN 1: paratiroides, páncreas, hipófisis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "men2b-neuromas",
+   "n": 55,
+   "src": "biblioteca/05_endocrinologia/endo-24/02_neuromas_mucosos_men2b__nelson_p4054.jpg",
+   "topic": "endo-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "MEN 2B: neuromas mucosos",
+   "frase": "Nódulos en la lengua y labios gruesos.",
+   "claves": [
+    {
+     "t": "Neuromas en la lengua",
+     "m": [
+      0.5,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "RET: tiroidectomía profiláctica precoz.",
+   "codes": [
+    "1.03.1.004"
+   ],
+   "confunde": "Papilas linguales normales.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ginecomastia",
+   "n": 56,
+   "src": "biblioteca/05_endocrinologia/endo-25/01_ginecomastia__talley_p503.jpg",
+   "topic": "endo-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ginecomastia bilateral",
+   "frase": "Aumento del tejido mamario en el hombre.",
+   "claves": [
+    {
+     "t": "Tejido mamario",
+     "m": [
+      0.35,
+      0.62,
+      0.08
+     ]
+    },
+    {
+     "t": "Tejido mamario",
+     "m": [
+      0.75,
+      0.62,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Puberal: tranquilizar; buscar fármacos; dura y unilateral: descartar cáncer.",
+   "codes": [
+    "1.03.1.023"
+   ],
+   "confunde": "Lipomastia: grasa sin tejido glandular.",
+   "q": "EUNACOM Julio 2025 · Pregunta 45",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "gammagrafia-graves",
+   "b": "cintigrama-blanco",
+   "title": "Graves vs tiroiditis",
+   "la": [
+    "Captación difusa aumentada"
+   ],
+   "lb": [
+    "Glándula en blanco"
+   ],
+   "diff": "La tiroiditis no capta: no se dan antitiroideos."
+  },
+  {
+   "a": "adenoma-toxico",
+   "b": "bmn-toxico",
+   "title": "Adenoma tóxico vs bocio multinodular tóxico",
+   "la": [
+    "Un nódulo caliente"
+   ],
+   "lb": [
+    "Zonas calientes y frías"
+   ],
+   "diff": "Ninguno remite con fármacos: tratamiento definitivo."
+  },
+  {
+   "a": "hipotiroidismo-congenito",
+   "b": "hipotiroidismo-tratado",
+   "title": "Hipotiroidismo congénito: antes y después",
+   "la": [
+    "Macroglosia, facies tosca"
+   ],
+   "lb": [
+    "Facies normal"
+   ],
+   "diff": "Los signos llegan tarde: por eso se tamiza."
+  },
+  {
+   "a": "chvostek",
+   "b": "trousseau",
+   "title": "Chvostek vs Trousseau",
+   "la": [
+    "Percutir el nervio facial"
+   ],
+   "lb": [
+    "Manguito sobre la sistólica"
+   ],
+   "diff": "Trousseau es más específico."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Signo de Chvostek",
+   "dx": "Hipocalcemia.",
+   "find": "Chvostek",
+   "topic": "endo-17",
+   "img": "chvostek",
+   "def": "Contracción facial al percutir el nervio facial."
+  },
+  {
+   "name": "Signo de Trousseau",
+   "dx": "Hipocalcemia.",
+   "find": "Trousseau",
+   "topic": "endo-17",
+   "img": "trousseau",
+   "def": "Espasmo carpal al inflar el manguito."
+  },
+  {
+   "name": "Línea de Looser-Milkman",
+   "dx": "Osteomalacia.",
+   "find": "Looser",
+   "topic": "endo-19",
+   "img": "looser-milkman",
+   "def": "Pseudofractura perpendicular a la cortical."
+  },
+  {
+   "name": "Facies de luna llena",
+   "dx": "Síndrome de Cushing.",
+   "find": "luna llena",
+   "topic": "endo-11",
+   "img": "luna-llena",
+   "def": "Cara redonda y pletórica."
+  }
+ ],
+ "discarded": [
+  {
+   "n": [
+    12
+   ],
+   "reason": "Misma lámina de cintigramas que la ficha de tiroiditis",
+   "src": [
+    "_web/099_endo_Hipertiroidismo_y_Graves__Commons_1.jpg"
+   ]
+  }
+ ],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 57
+ }
+}

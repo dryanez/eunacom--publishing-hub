@@ -2,6 +2,14 @@
  "libro": "dermatologia",
  "title": "Dermatología",
  "prefix": "derma",
+ "types": [
+  "clinica",
+  "dermatoscopia",
+  "histologia",
+  "esquema",
+  "imagen",
+  "otra"
+ ],
  "topics": {
   "derma-01": "Lesiones elementales",
   "derma-02": "Acné vulgar",

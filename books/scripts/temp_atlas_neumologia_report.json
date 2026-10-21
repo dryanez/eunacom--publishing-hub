@@ -1,0 +1,346 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 42,
+  "where": {
+   "IMG-flujo-volumen": 4,
+   "IMG-aerocamara": 4,
+   "IMG-prueba-bd": 5,
+   "IMG-hiperinsuflacion": 5,
+   "IMG-tipos-enfisema": 6,
+   "IMG-enfisema-tc": 6,
+   "IMG-consolidacion": 7,
+   "IMG-broncograma": 7,
+   "IMG-mycoplasma": 8,
+   "IMG-aspirativa": 8,
+   "IMG-klebsiella": 9,
+   "IMG-absceso": 9,
+   "IMG-hidatidico-menisco": 10,
+   "IMG-tbc-patrones": 10,
+   "IMG-ziehl": 11,
+   "IMG-miliar-rx": 11,
+   "IMG-derrame": 12,
+   "IMG-eco-pleural": 12,
+   "IMG-derrame-encapsulado": 13,
+   "IMG-derrame-masivo": 13,
+   "IMG-derrame-rx": 14,
+   "IMG-neumotorax-espiracion": 14,
+   "IMG-neumotorax-tension": 15,
+   "IMG-torax-volante": 15,
+   "IMG-derrame-masivo-2": 16,
+   "IMG-mesotelioma": 16,
+   "IMG-hamartoma": 17,
+   "IMG-masa-irregular": 17,
+   "IMG-nodulo-subsolido": 18,
+   "IMG-nodulo-espiculado": 18,
+   "IMG-pet-ct": 19,
+   "IMG-adenocarcinoma": 19,
+   "IMG-epidermoide": 20,
+   "IMG-acropaquias": 20,
+   "IMG-vcs-tac": 21,
+   "IMG-vcs-colaterales": 21,
+   "IMG-panal": 22,
+   "IMG-fpi-rx": 22,
+   "IMG-nine": 23,
+   "IMG-silicosis": 23,
+   "IMG-asbestosis": 24,
+   "IMG-tvp-tep": 24,
+   "IMG-s1q3t3": 25,
+   "IMG-angiotac-tep": 26,
+   "IMG-vd-dilatado": 26,
+   "IMG-bronquiectasias": 27,
+   "IMG-bronquiectasias-graves": 27,
+   "IMG-sdra": 28,
+   "IMG-edema-cardiogenico": 28,
+   "IMG-kerley": 29,
+   "IMG-polisomnografia-real": 29,
+   "IMG-polisomnografia": 30,
+   "IMG-co-curva": 30,
+   "IMG-ahogamiento-sdra": 31,
+   "IMG-osborn": 32,
+   "PAIRS": 33,
+   "SIGNS": 36,
+   "TYPES": 38,
+   "AUTO": 39,
+   "SOL": 42
+  }
+ },
+ "tomo": [
+  {
+   "id": "flujo-volumen",
+   "p": 7,
+   "exact": false
+  },
+  {
+   "id": "aerocamara",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "prueba-bd",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "hiperinsuflacion",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "tipos-enfisema",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "enfisema-tc",
+   "p": 17,
+   "exact": false
+  },
+  {
+   "id": "consolidacion",
+   "p": 29,
+   "exact": true
+  },
+  {
+   "id": "broncograma",
+   "p": 29,
+   "exact": true
+  },
+  {
+   "id": "mycoplasma",
+   "p": 36,
+   "exact": true
+  },
+  {
+   "id": "aspirativa",
+   "p": 36,
+   "exact": true
+  },
+  {
+   "id": "klebsiella",
+   "p": 36,
+   "exact": true
+  },
+  {
+   "id": "absceso",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "hidatidico-menisco",
+   "p": 40,
+   "exact": false
+  },
+  {
+   "id": "tbc-patrones",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "ziehl",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "miliar-rx",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "derrame",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "eco-pleural",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "derrame-encapsulado",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "derrame-masivo",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "derrame-rx",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "neumotorax-espiracion",
+   "p": 60,
+   "exact": false
+  },
+  {
+   "id": "neumotorax-tension",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "torax-volante",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "derrame-masivo-2",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "mesotelioma",
+   "p": 67,
+   "exact": false
+  },
+  {
+   "id": "hamartoma",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "masa-irregular",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "nodulo-subsolido",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "nodulo-espiculado",
+   "p": 74,
+   "exact": false
+  },
+  {
+   "id": "pet-ct",
+   "p": 74,
+   "exact": false
+  },
+  {
+   "id": "adenocarcinoma",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "epidermoide",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "acropaquias",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "vcs-tac",
+   "p": 78,
+   "exact": false
+  },
+  {
+   "id": "vcs-colaterales",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "panal",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "fpi-rx",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "nine",
+   "p": 82,
+   "exact": false
+  },
+  {
+   "id": "silicosis",
+   "p": 82,
+   "exact": false
+  },
+  {
+   "id": "asbestosis",
+   "p": 82,
+   "exact": false
+  },
+  {
+   "id": "tvp-tep",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "s1q3t3",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "angiotac-tep",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "vd-dilatado",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "bronquiectasias",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "bronquiectasias-graves",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "sdra",
+   "p": 103,
+   "exact": true
+  },
+  {
+   "id": "edema-cardiogenico",
+   "p": 103,
+   "exact": true
+  },
+  {
+   "id": "kerley",
+   "p": 103,
+   "exact": true
+  },
+  {
+   "id": "polisomnografia-real",
+   "p": 106,
+   "exact": true
+  },
+  {
+   "id": "polisomnografia",
+   "p": 106,
+   "exact": false
+  },
+  {
+   "id": "co-curva",
+   "p": 109,
+   "exact": false
+  },
+  {
+   "id": "ahogamiento-sdra",
+   "p": 112,
+   "exact": true
+  },
+  {
+   "id": "osborn",
+   "p": 112,
+   "exact": true
+  }
+ ]
+}

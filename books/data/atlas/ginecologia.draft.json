@@ -1,0 +1,1253 @@
+{
+ "libro": "ginecologia",
+ "title": "Ginecología y Oncología",
+ "prefix": "gin",
+ "topics": {
+  "gin-01": "Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+  "gin-02": "Síndrome de Ovario Poliquístico (SOP)",
+  "gin-03": "Sangrado Uterino Anormal (SUA)",
+  "gin-04": "Patología Benigna Uterina",
+  "gin-05": "Endometriosis y Adenomiosis",
+  "gin-06": "Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+  "gin-07": "Infertilidad Conyugal",
+  "gin-08": "Anticoncepción y Planificación Familiar",
+  "gin-09": "Infecciones del Tracto Genital Inferior",
+  "gin-10": "Patología Vulvar y Glándula de Bartolino",
+  "gin-11": "Enfermedad Pélvica Inflamatoria (EIP / PIP)",
+  "gin-12": "Climaterio, Menopausia y Terapia de Reemplazo Hormonal (TRH)",
+  "gin-13": "Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+  "gin-14": "Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+  "gin-15": "Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario",
+  "gin-16": "Urgencias Ginecológicas Quirúrgicas"
+ },
+ "refs": 52,
+ "images": [
+  {
+   "id": "S1_ciclo-menstrual__propio",
+   "src": "biblioteca/13_ginecologia/gin-01/S1_ciclo-menstrual__propio.svg",
+   "topic": "gin-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ciclo de veintiocho días",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_turner-cuello-alado__zitelli_p37",
+   "src": "biblioteca/13_ginecologia/gin-01/02_turner-cuello-alado__zitelli_p37.jpg",
+   "topic": "gin-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cuello alado en Turner",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_macroprolactinoma-rm__amir-endocrino_",
+   "src": "biblioteca/13_ginecologia/gin-01/01_macroprolactinoma-rm__amir-endocrino_p24.jpg",
+   "topic": "gin-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Macroprolactinoma (RM)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_acantosis-nigricans__amir-derma_p30",
+   "src": "biblioteca/13_ginecologia/gin-02/02_acantosis-nigricans__amir-derma_p30.jpg",
+   "topic": "gin-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis nigricans",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ovario-poliquistico-eco__cto-gyo_p35",
+   "src": "biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg",
+   "topic": "gin-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ovario poliquístico (eco)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_ferriman-gallwey__nelson_p4295",
+   "src": "biblioteca/13_ginecologia/gin-02/03_ferriman-gallwey__nelson_p4295.jpg",
+   "topic": "gin-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escala de Ferriman-Gallwey",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_palm-coein__propio",
+   "src": "biblioteca/13_ginecologia/gin-03/S1_palm-coein__propio.svg",
+   "topic": "gin-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Clasificación PALM-COEIN",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_polipo-endometrial-eco__us-obgyn_p245",
+   "src": "biblioteca/13_ginecologia/gin-03/02_polipo-endometrial-eco__us-obgyn_p245.jpg",
+   "topic": "gin-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipos endometriales (eco)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_cancer-cervicouterino-especuloscopia_",
+   "src": "biblioteca/13_ginecologia/gin-03/03_cancer-cervicouterino-especuloscopia__knoop_p276.jpg",
+   "topic": "gin-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cáncer cervicouterino",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_figo-miomas__propio",
+   "src": "biblioteca/13_ginecologia/gin-04/S1_figo-miomas__propio.svg",
+   "topic": "gin-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Clasificación FIGO",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mioma-intramural-miomas-multiples__ct",
+   "src": "biblioteca/13_ginecologia/gin-04/01_mioma-intramural-miomas-multiples__cto-gyo_p63.jpg",
+   "topic": "gin-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mioma intramural",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_leiomiomas-tc_1__cto-radiologia_p138",
+   "src": "biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_1__cto-radiologia_p138.jpg",
+   "topic": "gin-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mioma que comprime el recto",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "308_gin_Miomas_uterinos__Commons_1",
+   "src": "_web/308_gin_Miomas_uterinos__Commons_1.jpg",
+   "topic": "gin-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía transvaginal legible de mioma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_endometrioma-eco__cto-gyo_p74",
+   "src": "biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg",
+   "topic": "gin-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Endometrioma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_endometrioma-eco_alt1__amir-gyo_p101",
+   "src": "biblioteca/13_ginecologia/gin-05/01_endometrioma-eco_alt1__amir-gyo_p101.jpg",
+   "topic": "gin-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Endometrioma con Doppler",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_endometriosis-laparoscopia__cto-gyo_p",
+   "src": "biblioteca/13_ginecologia/gin-05/02_endometriosis-laparoscopia__cto-gyo_p75.jpg",
+   "topic": "gin-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Implantes en laparoscopía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "309_gin_Endometriosis_y_adenomiosis__Com",
+   "src": "_web/309_gin_Endometriosis_y_adenomiosis__Commons_1.jpg",
+   "topic": "gin-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía de adenomiosis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_pop-q__propio",
+   "src": "biblioteca/13_ginecologia/gin-06/S1_pop-q__propio.svg",
+   "topic": "gin-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sistema POP-Q",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_prolapso-genital__open-i",
+   "src": "biblioteca/13_ginecologia/gin-06/02_prolapso-genital__open-i.jpg",
+   "topic": "gin-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Procidencia genital",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_histerosalpingografia-normal_2__cto-g",
+   "src": "biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_2__cto-gyo_p50.jpg",
+   "topic": "gin-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Histerosalpingografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_histerosalpingografia-normal_1__cto-g",
+   "src": "biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_1__cto-gyo_p50.jpg",
+   "topic": "gin-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trompas permeables",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hidrosalpinx-eco__us-obgyn_p272",
+   "src": "biblioteca/13_ginecologia/gin-07/02_hidrosalpinx-eco__us-obgyn_p272.jpg",
+   "topic": "gin-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hidrosálpinx (ecografía)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_implante_subdermico__commons",
+   "src": "biblioteca/13_ginecologia/gin-08/02_implante_subdermico__commons.jpg",
+   "topic": "gin-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Implante subdérmico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_retiro_implante__commons",
+   "src": "biblioteca/13_ginecologia/gin-08/03_retiro_implante__commons.jpg",
+   "topic": "gin-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Retiro del implante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_diu_cobre_lng__williams-gyn_p142",
+   "src": "biblioteca/13_ginecologia/gin-08/01_diu_cobre_lng__williams-gyn_p142.jpg",
+   "topic": "gin-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "DIU de cobre y LNG",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_vaginosis-bacteriana-especuloscopia__",
+   "src": "biblioteca/13_ginecologia/gin-09/04_vaginosis-bacteriana-especuloscopia__kumar-clark_p1586.jpg",
+   "topic": "gin-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vaginosis bacteriana",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_celulas_clave__cdc-phil-3720",
+   "src": "biblioteca/13_ginecologia/gin-09/01_celulas_clave__cdc-phil-3720.jpg",
+   "topic": "gin-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Células clave",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_leucorrea-candidiasica__amir-gyo_p106",
+   "src": "biblioteca/13_ginecologia/gin-09/01_leucorrea-candidiasica__amir-gyo_p106.jpg",
+   "topic": "gin-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucorrea candidiásica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_quiste-bartolino__knoop_p269",
+   "src": "biblioteca/13_ginecologia/gin-10/02_quiste-bartolino__knoop_p269.jpg",
+   "topic": "gin-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste de Bartolino",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_absceso_bartolino__williams-gyn_p114",
+   "src": "biblioteca/13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg",
+   "topic": "gin-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso de Bartolino",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_liquen-escleroso__cto-gyo_p106",
+   "src": "biblioteca/13_ginecologia/gin-10/01_liquen-escleroso__cto-gyo_p106.jpg",
+   "topic": "gin-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Liquen escleroso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_absceso-tubarico-eco_1__cto-gyo_p102",
+   "src": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_1__cto-gyo_p102.jpg",
+   "topic": "gin-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso tuboovárico (eco)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_absceso-tubarico-eco_2__cto-gyo_p102",
+   "src": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_2__cto-gyo_p102.jpg",
+   "topic": "gin-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Visión quirúrgica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_absceso-tubarico-eco_alt1__amir-gyo_p",
+   "src": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_alt1__amir-gyo_p107.jpg",
+   "topic": "gin-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso tubo-ovárico en la ecografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_fitz-hugh-curtis-laparoscopia__goljan",
+   "src": "biblioteca/13_ginecologia/gin-11/02_fitz-hugh-curtis-laparoscopia__goljan_p1202.jpg",
+   "topic": "gin-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de Fitz-Hugh-Curtis: adherencias perihepáticas en cuerdas de violín (laparoscopía)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_colposcopia_lsil_acetoblanco__william",
+   "src": "biblioteca/13_ginecologia/gin-13/01_colposcopia_lsil_acetoblanco__williams-gyn_p665.jpg",
+   "topic": "gin-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lesión de bajo grado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_colposcopia_hsil__williams-gyn_p665",
+   "src": "biblioteca/13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg",
+   "topic": "gin-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lesión de alto grado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_toma-papanicolau__blausen",
+   "src": "biblioteca/13_ginecologia/gin-13/05_toma-papanicolau__blausen.png",
+   "topic": "gin-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Toma de Papanicolau",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "312_gin_Cáncer_cervicouterino__Commons_1",
+   "src": "_web/312_gin_Cáncer_cervicouterino__Commons_1.jpg",
+   "topic": "gin-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Citología cervical",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mamografia_carcinoma__bailey_p882",
+   "src": "biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg",
+   "topic": "gin-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masa espiculada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_microcalcificaciones-sospechosas-mamo",
+   "src": "biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra_alt2__amir-gyo_p135.jpg",
+   "topic": "gin-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Microcalcificaciones",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_piel_de_naranja__bailey_p895",
+   "src": "biblioteca/13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg",
+   "topic": "gin-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Piel de naranja",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_quiste-simple-mama-eco__rumack_p821",
+   "src": "biblioteca/13_ginecologia/gin-14/05_quiste-simple-mama-eco__rumack_p821.jpg",
+   "topic": "gin-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste simple de mama: anecoico, pared fina y refuerzo posterior",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_endometrio-engrosado-eco-histeroscopi",
+   "src": "biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg",
+   "topic": "gin-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Endometrio engrosado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_endometrio-engrosado-eco-histeroscopi",
+   "src": "biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia_alt1__cto-gyo_p69.jpg",
+   "topic": "gin-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Histeroscopía: cáncer",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_adenocarcinoma-de-ovario-tc-rm_1__cto",
+   "src": "biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg",
+   "topic": "gin-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cáncer de ovario avanzado en la TAC: metástasis, ascitis y carcinomatosis omental (flechas)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_torsion_ovarica_eco__nelson_p4303",
+   "src": "biblioteca/13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg",
+   "topic": "gin-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ovario aumentado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_signo-remolino__pocket-us_p282",
+   "src": "biblioteca/13_ginecologia/gin-16/03_signo-remolino__pocket-us_p282.jpg",
+   "topic": "gin-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del remolino",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_torsion_ovarica_doppler__nelson_p4303",
+   "src": "biblioteca/13_ginecologia/gin-16/02_torsion_ovarica_doppler__nelson_p4303.jpg",
+   "topic": "gin-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Doppler",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "094_gin_Dolor_pélvico_agudo__us_obgynpd_",
+   "src": "_verificadas/094_gin_Dolor_pélvico_agudo__us_obgynpd_p260_1.jpg",
+   "topic": "gin-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía de quiste hemorrágico del cuerpo lúteo con patrón en red de ",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "094_gin_Dolor_pélvico_agudo__Commons_1",
+   "src": "_web/094_gin_Dolor_pélvico_agudo__Commons_1.jpg",
+   "topic": "gin-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía de quiste hemorrágico del cuerpo lúteo con patrón en red de ",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

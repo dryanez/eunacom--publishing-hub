@@ -28,6 +28,10 @@ function cleanCredit(s) {
     .trim();
 }
 
+// fotos que el tomo no imprime: repetidas (casi idénticas a otra del mismo tema) o ilegibles · books/data/tomo_fotos_excluir.json
+const EXCL_JSON = path.join(__dirname, '..', 'data', 'tomo_fotos_excluir.json');
+const EXCL = new Set(fs.existsSync(EXCL_JSON) ? JSON.parse(fs.readFileSync(EXCL_JSON, 'utf8')).map(e => e.src) : []);
+
 function lessonImages(classId) {
   const f = path.join(LESSONS, `${classId}.cjs`);
   if (!fs.existsSync(f)) return null;
@@ -43,7 +47,7 @@ function lessonImages(classId) {
   for (const s of L.slides || []) {
     const list = s.type === 'image' ? (SKIP_KICKER.test(s.kicker || '') ? [] : s.images || []) : ctx(s);
     for (const im of list) {
-      if (!im.src || /\.(mp4|webm)$/i.test(im.src) || seen.has(im.src)) continue;
+      if (!im.src || /\.(mp4|webm)$/i.test(im.src) || seen.has(im.src) || EXCL.has(im.src)) continue;
       const p = path.join(MEDIA, im.src);
       if (!fs.existsSync(p)) continue;
       seen.add(im.src);
@@ -121,9 +125,15 @@ function mergeAtlas(data, spec) {
   for (const c of data) {
     const cid = c.classId || c.id; if (!cid) continue;
     const items = [];
+    // la misma foto ya puede ir como figura del tema (la clase la usa): no se imprime dos veces
+    const md5 = f => require('crypto').createHash('md5').update(fs.readFileSync(f)).digest('hex');
+    const fig = spec[c.topicLabel] && spec[c.topicLabel].items ? spec[c.topicLabel].items : [];
+    const ya = new Set(fig.map(it => it.path || path.join(__dirname, '..', 'figuras', it.file)).filter(f => fs.existsSync(f)).map(md5));
     for (const a of atlas.filter(a => a.clases.includes(cid))) {
       const p = path.join(MEDIA, a.file);
-      if (fs.existsSync(p)) items.push({ file: 'atlas/' + a.file, path: p, cap: a.cap, kw: `${a.cap} ${a.desc}` });
+      if (!fs.existsSync(p) || EXCL.has(a.file)) continue;
+      const h = md5(p); if (ya.has(h)) continue; ya.add(h);
+      items.push({ file: 'atlas/' + a.file, path: p, cap: a.cap, kw: `${a.cap} ${a.desc}` });
     }
     if (items.length) out['@atlas:' + c.topicLabel] = { items };
   }

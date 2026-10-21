@@ -79,13 +79,12 @@
  {
   "case": 8,
   "prio": "alta",
-  "clases": [
-   "endo-05"
-  ],
+  "clases": [],
   "file": "_web/008_endo_Tiroiditis__Commons_1.jpg",
   "cap": "Gammagrafía de Graves con captación difusa aumentada, para contrastar ",
   "desc": "gammagrafía de Graves con captación difusa aumentada, para contrastar con la tiroiditis (existe en endo-07; falta en esta clase, requiere narración)",
-  "credit": "Wikimedia Commons, CC BY-SA 3.0"
+  "credit": "Wikimedia Commons, CC BY-SA 3.0",
+  "nota": "misma lámina que endo-05/04_cintigramas_panel (repetida): no se imprime"
  },
  {
   "case": 9,
@@ -227,9 +226,9 @@
    "resp-16"
   ],
   "file": "_web/027_resp_Nódulo_pulmonar_solitario__Commons_1.jpg",
-  "cap": "TC con nódulo pulmonar espiculado < 3 cm bien visible",
+  "cap": "Nódulo pulmonar espiculado en la TAC",
   "desc": "TC con nódulo pulmonar espiculado < 3 cm bien visible (hoy se usa una masa de resp-17)",
-  "credit": "Wikimedia Commons, CC BY 4.0"
+  "credit": "Herring, Learning Radiology, 4.ª ed., p. 138"
  },
  {
   "case": 28,
@@ -271,9 +270,9 @@
    "gastro-04"
   ],
   "file": "_verificadas/032_gastro_Perforación_y_cáustico__cxrpdf_p135_1.jpg",
-  "cap": "Síndrome de Boerhaave",
+  "cap": "Neumomediastino: aire libre que rodea las estructuras del mediastino",
   "desc": "síndrome de Boerhaave: Rx/TC de tórax con neumomediastino y enfisema subcutáneo",
-  "credit": "Chest X-ray atlas, p. 135"
+  "credit": "Herring, Learning Radiology, 4.ª ed., p. 361"
  },
  {
   "case": 33,
@@ -406,9 +405,9 @@
    "reuma-12"
   ],
   "file": "_verificadas/045_reuma_Esclerosis_sistémica__Zitelli_p299.jpg",
-  "cap": "Rx de manos con calcinosis subcutánea y acroosteólisis de falanges dis",
+  "cap": "Acroosteólisis: reabsorción de las falanges distales (esclerosis sistémica)",
   "desc": "Rx de manos con calcinosis subcutánea y acroosteólisis de falanges distales",
-  "credit": "Zitelli and Davis' Atlas of Pediatric Physical Diagnosis, p. 299"
+  "credit": "Harrison's Principles of Internal Medicine, 21.ª ed., p. 2820"
  },
  {
   "case": 46,
@@ -452,9 +451,9 @@
    "reuma-17"
   ],
   "file": "_verificadas/050_reuma_Espondilitis_anquilosante__BrantHelms_p1190.jpg",
-  "cap": "Rx comparativa de columna",
+  "cap": "Columna en caña de bambú (espondilitis anquilosante)",
   "desc": "Rx comparativa de columna: sindesmofitos finos (EA) vs osificación \"en cera derretida\" (DISH) (el recorte `_alt1` existente es ilegible)",
-  "credit": "Fundamentals of Diagnostic Radiology (Brant and Helms), p. 1190"
+  "credit": "Herring, Learning Radiology, 4.ª ed., p. 326"
  },
  {
   "case": 51,
@@ -474,9 +473,9 @@
    "reuma-20"
   ],
   "file": "_verificadas/052_reuma_Enfermedad_de_Behçet__Zitelli_p737.jpg",
-  "cap": "Úlcera genital",
+  "cap": "Úlceras genitales en la enfermedad de Behçet",
   "desc": "úlcera genital (escrotal o vulvar) con cicatriz residual",
-  "credit": "Zitelli and Davis' Atlas of Pediatric Physical Diagnosis, p. 737"
+  "credit": "Fitzpatrick's Dermatology in General Medicine, p. 1661"
  },
  {
   "case": 53,
@@ -485,9 +484,9 @@
    "cirugia-01"
   ],
   "file": "_verificadas/053_cirugia_Apendicitis__ecmpdf_p357_1.jpg",
-  "cap": "Ecografía de apendicitis aguda",
+  "cap": "Ecografía de apendicitis aguda: apéndice distendido de pared gruesa",
   "desc": "ecografía de apendicitis aguda: apéndice no compresible, diámetro mayor de 6 mm, en corte transversal \"en diana\"",
-  "credit": "Atlas of Clinical Emergency Medicine (Sherman), p. 357"
+  "credit": "Rumack, Diagnostic Ultrasound, 4.ª ed., p. 288"
  },
  {
   "case": 54,
@@ -562,9 +561,9 @@
    "uro-05"
   ],
   "file": "_verificadas/064_uro_Torsión_testicular__Rumack_p1966.jpg",
-  "cap": "Eco Doppler testicular sin flujo arterial y signo del remolino en el c",
+  "cap": "Torsión testicular: el testículo afectado (izquierda en la imagen) no tiene flujo en el Doppler",
   "desc": "eco Doppler testicular sin flujo arterial y signo del remolino en el cordón",
-  "credit": "Diagnostic Ultrasound (Rumack), p. 1966"
+  "credit": "Rumack, Diagnostic Ultrasound, 4.ª ed., p. 1966"
  },
  {
   "case": 65,
@@ -595,9 +594,9 @@
    "uro-10"
   ],
   "file": "_verificadas/067_uro_Tumor_testicular__ctmri_path_p249_1.jpg",
-  "cap": "Rx de tórax legible con metástasis pulmonares en \"bala de cañón\"",
+  "cap": "Metástasis pulmonares múltiples en la TAC",
   "desc": "Rx de tórax legible con metástasis pulmonares en \"bala de cañón\" (múltiples nódulos redondos bilaterales)",
-  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 249"
+  "credit": "CT and MRI Pathology, p. 249"
  },
  {
   "case": 68,
@@ -701,9 +700,9 @@
    "oftal-01"
   ],
   "file": "_verificadas/076_oftal_Ojo_rojo_profundo__AtlasClinDx_p109.jpg",
-  "cap": "Uveítis anterior aguda",
+  "cap": "Uveítis anterior aguda: inyección ciliar e hipopion",
   "desc": "uveítis anterior aguda: inyección ciliar, pupila en miosis, precipitados queráticos",
-  "credit": "Atlas of Clinical Diagnosis, p. 109"
+  "credit": "Kanski's Clinical Ophthalmology, 8.ª ed., p. 409"
  },
  {
   "case": 77,
@@ -868,7 +867,7 @@
   "file": "_verificadas/089_ob_Restricción_de_crecimiento__Rumack_p1502.jpg",
   "cap": "Doppler de ductus venoso con onda a reversa",
   "desc": "Doppler de ductus venoso con onda a reversa (ausente o invertida)",
-  "credit": "Diagnostic Ultrasound (Rumack), p. 1502"
+  "credit": "Rumack, Diagnostic Ultrasound, 4.ª ed., p. 1128"
  },
  {
   "case": 91,
@@ -957,7 +956,7 @@
   "file": "_verificadas/098_diab_Hipertrigliceridemia_e_hiperco__2017BatesG_p306_1.jpg",
   "cap": "Arco corneal",
   "desc": "arco corneal (arco lipoide) en menor de 45 años",
-  "credit": "Bates' Guide to Physical Examination, p. 306"
+  "credit": "Talley & O'Connor, Clinical Examination, p. 116"
  },
  {
   "case": 99,
@@ -1210,9 +1209,9 @@
    "hem-20"
   ],
   "file": "_web/131_hem_LMC_mielofibrosis__Open-i_1.jpg",
-  "cap": "Esplenomegalia masiva",
+  "cap": "Esplenomegalia masiva marcada en el abdomen",
   "desc": "esplenomegalia masiva (TC de abdomen o foto con bazo marcado hasta la fosa ilíaca)",
-  "credit": "Open-i (NLM), CC BY"
+  "credit": "Talley & O'Connor, Clinical Examination, p. 280"
  },
  {
   "case": 133,
@@ -1309,9 +1308,9 @@
    "neuro-02"
   ],
   "file": "_verificadas/141_neuro_AIT__27thBailey_p973_1.jpg",
-  "cap": "Eco-Doppler carotídeo con estenosis significativa de carótida interna",
+  "cap": "Angiografía carotídea: carótida común (CC), interna (IC) y externa (EC)",
   "desc": "eco-Doppler carotídeo con estenosis significativa de carótida interna",
-  "credit": "Bailey & Love's Short Practice of Surgery, 27th ed., p. 973"
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 973"
  },
  {
   "case": 142,
@@ -1320,9 +1319,9 @@
    "neuro-02"
   ],
   "file": "_web/142_neuro_AIT__Commons_1.jpg",
-  "cap": "ECG con fibrilación auricular",
+  "cap": "ECG con fibrilación auricular: sin ondas P y R-R irregular",
   "desc": "ECG con fibrilación auricular (causa cardioembólica)",
-  "credit": "Wikimedia Commons, CC BY-SA 3.0"
+  "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 253"
  },
  {
   "case": 143,
@@ -1465,9 +1464,9 @@
    "neuro-18"
   ],
   "file": "_verificadas/156_neuro_Esclerosis_múltiple__HarrisonsP_p3519_1.jpg",
-  "cap": "RM medular de neuromielitis óptica",
+  "cap": "Neuromielitis óptica: mielitis longitudinalmente extensa en la RM",
   "desc": "RM medular de neuromielitis óptica: mielitis longitudinal extensa (≥ 3 segmentos vertebrales)",
-  "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 3519"
+  "credit": "Nelson Textbook of Pediatrics, 22.ª ed., p. 4747"
  },
  {
   "case": 157,
@@ -1510,9 +1509,9 @@
    "resp-04"
   ],
   "file": "_verificadas/161_resp_EPOC_estable__cxrpdf_p296_1.jpg",
-  "cap": "TC de tórax con enfisema centrolobulillar y bullas",
+  "cap": "TAC de tórax con enfisema centrolobulillar",
   "desc": "TC de tórax con enfisema centrolobulillar y bullas",
-  "credit": "Chest X-ray atlas, p. 296"
+  "credit": "Herring, Learning Radiology, 4.ª ed., p. 144"
  },
  {
   "case": 163,
@@ -1521,9 +1520,9 @@
    "resp-09"
   ],
   "file": "_verificadas/163_resp_Absceso_pulmonar__knoopepub_p740_1.jpg",
-  "cap": "Quiste hidatídico pulmonar complicado",
+  "cap": "Quiste hidatídico pulmonar complicado: signo del menisco o de la media luna",
   "desc": "quiste hidatídico pulmonar complicado: signo del camalote / membrana flotante (los de infecto-17 son hepáticos)",
-  "credit": "The Atlas of Emergency Medicine (Knoop), p. 740"
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 88"
  },
  {
   "case": 164,
@@ -1543,9 +1542,9 @@
    "resp-12"
   ],
   "file": "_verificadas/166_resp_Derrame_complicado_y_empiema__cxrpdf_p98_1.jpg",
-  "cap": "Ecografía pleural con derrame tabicado",
+  "cap": "Derrame pleural derecho en la Rx de tórax (el tabicado se confirma con ecografía)",
   "desc": "ecografía pleural con derrame tabicado (septos) o TC con signo de la pleura dividida (split pleura)",
-  "credit": "Chest X-ray atlas, p. 98"
+  "credit": "Chest X-Ray Survival Guide, p. 98"
  },
  {
   "case": 168,
@@ -1554,9 +1553,9 @@
    "resp-14"
   ],
   "file": "_verificadas/168_resp_Neumotórax_a_tensión_y_hemotór__lrpdf_p352_1.jpg",
-  "cap": "Tórax volante",
+  "cap": "Tórax volante: fracturas costales múltiples (flechas)",
   "desc": "tórax volante (respiración paradójica / RX con fracturas costales segmentarias)",
-  "credit": "Learning Radiology (Herring), p. 352"
+  "credit": "Herring, Learning Radiology, 4.ª ed., p. 352"
  },
  {
   "case": 170,
@@ -1576,9 +1575,9 @@
    "resp-17"
   ],
   "file": "../../books/figuras/atlas_eunacom_2026/171_media_resp_resp_17_cancer_pulmonar.jpg",
-  "cap": "Síndrome de vena cava superior",
+  "cap": "Síndrome de vena cava superior: masa mediastínica que comprime la cava",
   "desc": "síndrome de vena cava superior: edema en esclavina y circulación colateral torácica (o TC con compresión de la cava)",
-  "credit": "Atlas EUNACOM 2026"
+  "credit": "Kumar & Clark's Clinical Medicine, p. 307"
  },
  {
   "case": 172,
@@ -1622,7 +1621,7 @@
   "file": "_verificadas/175_gastro_Cáncer_de_esófago_y_gástrico__27thBailey_p1154_1.jpg",
   "cap": "Cáncer gástrico incipiente",
   "desc": "cáncer gástrico incipiente (early gastric cancer) en endoscopía",
-  "credit": "Bailey & Love's Short Practice of Surgery, 27th ed., p. 1154"
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 1154"
  },
  {
   "case": 176,
@@ -1697,9 +1696,9 @@
    "gastro-11"
   ],
   "file": "_verificadas/182_gastro_Pólipos_y_cáncer_colorrectal__27thBailey_p1284_1.jpg",
-  "cap": "Cáncer colorrectal en colonoscopía o enema baritado con imagen en \"man",
+  "cap": "Cáncer colorrectal en la colonoscopía: masa ulcerada que estrecha la luz",
   "desc": "cáncer colorrectal en colonoscopía o enema baritado con imagen en \"manzana mordida\"",
-  "credit": "Bailey & Love's Short Practice of Surgery, 27th ed., p. 1284"
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 1284"
  },
  {
   "case": 183,
@@ -1796,9 +1795,9 @@
    "gastro-16"
   ],
   "file": "_verificadas/191_gastro_Lesiones_hepáticas_y_vesicular__27thBailey_p1181_1.jpg",
-  "cap": "Metástasis hepáticas múltiples en TC",
+  "cap": "Metástasis hepáticas múltiples en TAC",
   "desc": "metástasis hepáticas múltiples en TC",
-  "credit": "Bailey & Love's Short Practice of Surgery, 27th ed., p. 1181"
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 1194"
  },
  {
   "case": 192,
@@ -1840,9 +1839,9 @@
    "gastro-20"
   ],
   "file": "_verificadas/195_gastro_Isquemia_mesentérica__ctmri_path_p302_1.jpg",
-  "cap": "Angio-TAC con defecto de llene",
+  "cap": "Arteriografía mesentérica: estenosis grave del origen de la AMS (flechas)",
   "desc": "angio-TAC con defecto de llene (émbolo) en arteria mesentérica superior",
-  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 302"
+  "credit": "Brant & Helms, Fundamentals of Diagnostic Radiology, p. 713"
  },
  {
   "case": 196,
@@ -1851,9 +1850,9 @@
    "gastro-26"
   ],
   "file": "_verificadas/196_gastro_Trauma_abdominal_y_torácico__ctmri_path_p275_1.jpg",
-  "cap": "Contusión pulmonar en Rx/TC de tórax",
+  "cap": "Contusión pulmonar en la TAC de tórax",
   "desc": "contusión pulmonar en Rx/TC de tórax",
-  "credit": "CT & MRI Pathology: A Pocket Atlas, p. 275"
+  "credit": "Herring, Learning Radiology, 4.ª ed., p. 359"
  },
  {
   "case": 197,
@@ -1919,7 +1918,7 @@
   "file": "_web/202_infecto_TBC_extrapulmonar_y_tratamie__Commons_3.jpg",
   "cap": "Baciloscopía con tinción de Ziehl-Neelsen",
   "desc": "baciloscopía con tinción de Ziehl-Neelsen: bacilos ácido-alcohol resistentes (BAAR)",
-  "credit": "Wikimedia Commons, Public domain"
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 263"
  },
  {
   "case": 203,
@@ -1994,9 +1993,9 @@
    "infecto-21"
   ],
   "file": "../../books/figuras/atlas_eunacom_2026/211_media_infecto_infecto_21_mononucleosis_y_torch.jpg",
-  "cap": "TAC cerebral neonatal",
+  "cap": "Ecografía cerebral neonatal: calcificaciones periventriculares (CMV congénito)",
   "desc": "TAC cerebral neonatal: calcificaciones periventriculares (CMV congénito) vs difusas (toxoplasmosis congénita)",
-  "credit": "Atlas EUNACOM 2026"
+  "credit": "Rumack, Diagnostic Ultrasound, 4.ª ed., p. 1621"
  },
  {
   "case": 212,
@@ -2335,8 +2334,8 @@
    "trauma-10"
   ],
   "file": "_verificadas/253_trauma_Fractura_de_cadera__ctmri_path_p474_1.jpg",
-  "cap": "Rx de luxación posterior de cadera",
-  "desc": "Rx de luxación posterior de cadera (cabeza femoral fuera del acetábulo, arriba y atrás)",
+  "cap": "TAC de luxación posterior de cadera",
+  "desc": "TAC de luxación posterior de cadera (cabeza femoral fuera del acetábulo, arriba y atrás)",
   "credit": "CT & MRI Pathology: A Pocket Atlas, p. 474"
  },
  {
@@ -2412,9 +2411,9 @@
    "orl-03"
   ],
   "file": "_verificadas/264_orl_Otitis_externa_maligna__BullENT_p80.jpg",
-  "cap": "Otitis externa maligna: granulación en el conducto auditivo",
+  "cap": "Otitis externa maligna: tejido de granulación en el conducto auditivo",
   "desc": "tejido de granulación en el piso del conducto auditivo de un diabético, o TAC de peñasco con osteólisis",
-  "credit": "Color Atlas of ENT Diagnosis (Bull), p. 80",
+  "credit": "Bull, Color Atlas of ENT Diagnosis, 4.ª ed., p. 69",
   "cap_ok": true
  },
  {
@@ -3090,9 +3089,9 @@
    "resp-15"
   ],
   "file": "_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg",
-  "cap": "RX de derrame pleural masivo neoplásico",
+  "cap": "Derrame pleural masivo derecho con desplazamiento del mediastino",
   "desc": "RX de derrame pleural masivo neoplásico (o líquido pleural serohemático) como ancla visual de la clase",
-  "credit": "Nelson Textbook of Pediatrics, 22nd ed., p. 3358"
+  "credit": "Herring, Learning Radiology, 4.ª ed., p. 99"
  },
  {
   "case": 343,
@@ -3146,9 +3145,9 @@
    "reuma-19"
   ],
   "file": "_verificadas/349_reuma_Artritis_reactiva__HarrisonsP_p1279_1.jpg",
-  "cap": "Gonococcemia diseminada",
+  "cap": "Gonococcemia diseminada: pústulas acrales sobre base eritematosa",
   "desc": "gonococcemia diseminada: pústula hemorrágica acral (diferencial con artritis séptica)",
-  "credit": "Harrison's Principles of Internal Medicine, 21st ed., p. 1279"
+  "credit": "Harrison's Principles of Internal Medicine, 21.ª ed., p. 1279"
  },
  {
   "case": 350,
@@ -3168,9 +3167,9 @@
    "cirugia-03"
   ],
   "file": "_web/351_cirugia_Diverticulitis__Commons_1.jpg",
-  "cap": "TAC de diverticulitis perforada con aire libre y líquido",
+  "cap": "TAC de diverticulitis perforada (Hinchey IV): aire libre y líquido",
   "desc": "TAC de diverticulitis perforada con aire libre y líquido (Hinchey III-IV)",
-  "credit": "Wikimedia Commons, CC BY-SA 3.0"
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 1295"
  },
  {
   "case": 352,
@@ -3201,8 +3200,8 @@
    "cirugia-08"
   ],
   "file": "_verificadas/354_cirugia_Partes_blandas__ctmri_path_p402_1.jpg",
-  "cap": "RM de sarcoma de partes blandas",
-  "desc": "RM de sarcoma de partes blandas: masa profunda mayor de cinco centímetros",
+  "cap": "TAC de sarcoma de partes blandas",
+  "desc": "TAC de sarcoma de partes blandas retroperitoneal: masa profunda mayor de cinco centímetros",
   "credit": "CT & MRI Pathology: A Pocket Atlas, p. 402"
  },
  {
@@ -3245,9 +3244,9 @@
    "trauma-03"
   ],
   "file": "_verificadas/360_trauma_Complicaciones_de_fracturas__BrantHelms_p1203.jpg",
-  "cap": "Distrofia simpático refleja",
+  "cap": "Atrofia de Sudeck: osteoporosis moteada y aumento de partes blandas",
   "desc": "distrofia simpático refleja: Rx con osteoporosis moteada de mano o pie",
-  "credit": "Fundamentals of Diagnostic Radiology (Brant and Helms), p. 1203"
+  "credit": "Brant & Helms, Fundamentals of Diagnostic Radiology, p. 1203"
  },
  {
   "case": 362,
@@ -3368,9 +3367,9 @@
    "oftal-18"
   ],
   "file": "_verificadas/374_oftal_Neuritis_óptica__BrantHelms_p287.jpg",
-  "cap": "RM de órbita con gadolinio",
+  "cap": "Neuritis óptica: realce de ambos nervios ópticos en la RM con gadolinio (flechas)",
   "desc": "RM de órbita con gadolinio: realce del nervio óptico en neuritis óptica",
-  "credit": "Fundamentals of Diagnostic Radiology (Brant and Helms), p. 287"
+  "credit": "Brant & Helms, Fundamentals of Diagnostic Radiology, p. 265"
  },
  {
   "case": 376,
@@ -3612,9 +3611,9 @@
    "orl-08"
   ],
   "file": "biblioteca/17_otorrino/orl-08/04_herpes-zoster-dermatoma__nelson_p2565.jpg",
-  "cap": "Herpes zóster en un dermatoma lumbar",
+  "cap": "Síndrome de Ramsay Hunt: vesículas y costras en la concha",
   "desc": "herpes zóster vesículas agrupadas dermatoma unilateral neuralgia posherpética aciclovir",
-  "credit": "",
+  "credit": "Bailey & Love's Short Practice of Surgery, 27.ª ed., p. 736",
   "cap_ok": true
  },
  {
@@ -3626,7 +3625,7 @@
   "file": "biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg",
   "cap": "Laringomalacia: en la inspiración los repliegues de la epiglotis colapsan hacia la vía aérea",
   "desc": "laringomalacia estridor congénito estridor inspiratorio colapso supraglótico epiglotis en omega",
-  "credit": "",
+  "credit": "Bull, Color Atlas of ENT Diagnosis, 4.ª ed., p. 225",
   "cap_ok": true
  },
  {
@@ -3636,9 +3635,9 @@
    "orl-02"
   ],
   "file": "biblioteca/17_otorrino/orl-02/04_colesteatoma-congenito-tac__nelson_p5104.jpg",
-  "cap": "Colesteatoma congénito: TAC axial de oído izquierdo con masa de partes blandas en el oído medio",
+  "cap": "Colesteatoma: masa blanca nacarada en la membrana timpánica",
   "desc": "TAC de oídos peñascos sin contraste colesteatoma masa de partes blandas erosión informe",
-  "credit": "",
+  "credit": "Nelson Textbook of Pediatrics, 22.ª ed., p. 5122",
   "cap_ok": true
  },
  {
@@ -4604,7 +4603,7 @@
   "file": "biblioteca/19_dermatologia/derma-12/10_zoster-diseminado__harrison_p1522.jpg",
   "cap": "Herpes zóster diseminado: lesiones en distintas etapas de evolución, con pústulas y costras",
   "desc": "herpes zóster diseminado vesículas pústulas costras inmunosuprimidos",
-  "credit": "Harrison's Principles of Internal Medicine, 21.ª ed., p. 1522"
+  "credit": "Fitzpatrick's Dermatology in General Medicine, p. 1929"
  },
  {
   "case": "NUEVA",
@@ -4712,7 +4711,7 @@
    "cardio-03"
   ],
   "file": "biblioteca/20_cardiologia/cardio-03/02_fv-terminada-por-descarga-dai__stroobandt-ecg_p309.jpg",
-  "cap": "Una descarga termina la fibrilación ventricular y el ritmo vuelve a la normalidad (registro de un desfibrilador implantable)",
+  "cap": "TV que degenera en FV (registro de un DAI)",
   "desc": "descarga inmediata desfibrilación fibrilación ventricular sobrevida ritmo desfibrilables energía",
   "credit": "Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 309"
  },
@@ -5075,9 +5074,9 @@
    "cardio-15"
   ],
   "file": "biblioteca/20_cardiologia/cardio-15/04_aneurisma-ventricular-pieza__pathoma_p75.jpg",
-  "cap": "Aneurisma ventricular izquierdo (pieza anatomopatológica): adelgazamiento fibrótico de la zona infartada",
+  "cap": "Aneurisma ventricular: abombamiento del borde cardíaco izquierdo (flecha)",
   "desc": "aneurisma ventricular verdadero cuello ancho supradesnivel persistente adelgazamiento fibrótico expansión paradójica",
-  "credit": "Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.7"
+  "credit": "Talley & O'Connor, Clinical Examination, p. 179"
  },
  {
   "case": "NUEVA",
@@ -5449,9 +5448,9 @@
    "hem-01"
   ],
   "file": "biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg",
-  "cap": "Recuento de reticulocitos con azul de metileno nuevo",
+  "cap": "Frotis de sangre periférica normal (el recuento de reticulocitos requiere tinción supravital)",
   "desc": "reticulocitos con tinción supravital (azul de metileno nuevo)",
-  "credit": "Harrison's Principles of Internal Medicine, 21st ed., Fig. 62-2 (p. 467)"
+  "credit": "Harrison's Principles of Internal Medicine, 21.ª ed., p. 467"
  },
  {
   "case": "m1a-6",
@@ -6078,6 +6077,6 @@
   "file": "biblioteca/15_pediatria/ped-10/10_manchas-de-koplik__zitelli_p492.jpg",
   "cap": "Manchas de Koplik en la mucosa yugal (sarampión)",
   "desc": "manchas de Koplik sarampión mucosa oral",
-  "credit": "Zitelli & Davis' Atlas of Pediatric Physical Diagnosis, Fig. 12-1B / p. 492"
+  "credit": "Fitzpatrick's Dermatology in General Medicine, p. 1889"
  }
 ]

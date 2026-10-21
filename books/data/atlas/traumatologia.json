@@ -1,0 +1,2058 @@
+{
+ "libro": "traumatologia",
+ "title": "Traumatología y Ortopedia",
+ "prefix": "trauma",
+ "topics": {
+  "trauma-01": "Principios Generales de Fracturas, Consolidación Ósea & Inmovilización",
+  "trauma-02": "Fracturas Expuestas",
+  "trauma-03": "Síndrome Compartimental Agudo",
+  "trauma-04": "Lesiones Neurovasculares de las Fracturas",
+  "trauma-05": "Fracturas de Pelvis & Shock Hipovolémico Pelviano",
+  "trauma-06": "Retardo de Consolidación, Pseudoartrosis & Consolidación Viciosa",
+  "trauma-07": "Fracturas de Extremidad Inferior",
+  "trauma-08": "Lesiones de Rodilla",
+  "trauma-09": "Lesiones de Partes Blandas",
+  "trauma-10": "Fractura de Cadera en el Adulto Mayor",
+  "trauma-11": "Patología Osteomuscular No Traumática",
+  "trauma-12": "Artrosis & Monoartritis Aguda",
+  "trauma-13": "Tumores Óseos Benignos y Malignos",
+  "trauma-14": "Ortopedia Infantil",
+  "trauma-15": "Lumbago, Cervicalgia & Hombro Doloroso"
+ },
+ "images": [
+  {
+   "id": "almohadilla-grasa",
+   "n": 1,
+   "src": "biblioteca/18_traumatologia/trauma-01/24_codo-almohadilla-grasa__sherman_p770.jpg",
+   "topic": "trauma-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "Signo de la almohadilla grasa del codo",
+   "frase": "Grasa posterior levantada: derrame por fractura oculta (flecha).",
+   "claves": [
+    {
+     "t": "Almohadilla grasa",
+     "m": [
+      0.08,
+      0.55,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Inmovilizar y controlar con Rx en 10–14 días.",
+   "codes": [
+    "4.02.4.003",
+    "4.02.2.007"
+   ],
+   "confunde": "Codo normal: no se ve la grasa posterior.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "valva-posterior",
+   "n": 2,
+   "src": "biblioteca/18_traumatologia/trauma-01/01_ferula-fractura-tobillo__atls_p217.jpg",
+   "topic": "trauma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Valva posterior y estribo",
+   "frase": "Inmovilización de urgencia del tobillo.",
+   "claves": [
+    {
+     "t": "Valva",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Valva, no yeso cerrado en el trauma agudo: evita el síndrome compartimental.",
+   "codes": [
+    "4.02.5.001",
+    "4.01.5.032"
+   ],
+   "confunde": "Yeso circular: riesgo de compresión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "piel-maleolo",
+   "n": 3,
+   "src": "biblioteca/18_traumatologia/trauma-01/02_piel-palida-luxofractura-tobillo__atls_p209.jpg",
+   "topic": "trauma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Piel pálida sobre el maléolo",
+   "frase": "Piel en riesgo por la deformidad de la luxofractura.",
+   "claves": [
+    {
+     "t": "Piel a tensión",
+     "m": [
+      0.25,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Reducir de inmediato para salvar la piel.",
+   "codes": [
+    "4.02.2.013"
+   ],
+   "confunde": "Equimosis simple.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 138",
+   "auto": false
+  },
+  {
+   "id": "fractura-diafisaria",
+   "n": 4,
+   "src": "../../books/figuras/atlas_eunacom_2026/359_baja_trauma_trauma_01_fracturas.jpg",
+   "topic": "trauma-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura diafisaria del antebrazo",
+   "frase": "Rx AP y lateral incluyendo ambas articulaciones.",
+   "claves": [
+    {
+     "t": "Rasgo de fractura",
+     "m": [
+      0.35,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Siempre dos proyecciones con las articulaciones vecinas.",
+   "codes": [
+    "4.02.4.003",
+    "4.02.2.007"
+   ],
+   "confunde": "Una sola proyección puede no mostrar el rasgo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 7",
+   "auto": false
+  },
+  {
+   "id": "dorso-tenedor",
+   "n": 5,
+   "src": "biblioteca/18_traumatologia/trauma-01/21_colles-dorso-de-tenedor__sherman_p569.jpg",
+   "topic": "trauma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura de Colles: dorso de tenedor",
+   "frase": "Deformidad dorsal de la muñeca.",
+   "claves": [
+    {
+     "t": "Dorso de tenedor",
+     "m": [
+      0.5,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Reducción e inmovilización; cirugía si es inestable.",
+   "codes": [
+    "4.02.2.005"
+   ],
+   "confunde": "Smith: desplazamiento palmar.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 141",
+   "auto": true
+  },
+  {
+   "id": "radio-distal",
+   "n": 6,
+   "src": "biblioteca/18_traumatologia/trauma-01/22_radio-distal-rx__sherman_p569.jpg",
+   "topic": "trauma-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura del radio distal",
+   "frase": "Rx AP y lateral de la muñeca.",
+   "claves": [
+    {
+     "t": "Fractura del radio",
+     "m": [
+      0.3,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Valorar acortamiento y angulación.",
+   "codes": [
+    "4.02.2.005"
+   ],
+   "confunde": "Fractura del escafoides.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "escafoides",
+   "n": 7,
+   "src": "biblioteca/18_traumatologia/trauma-01/23_escafoides-rx__sherman_p662.jpg",
+   "topic": "trauma-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de la cintura del escafoides",
+   "frase": "Rasgo en el escafoides en proyección especial.",
+   "claves": [
+    {
+     "t": "Escafoides",
+     "m": [
+      0.38,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Dolor en la tabaquera con Rx normal: inmovilizar y repetir.",
+   "codes": [
+    "4.02.2.005"
+   ],
+   "confunde": "Esguince de muñeca: diagnóstico de exclusión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "expuesta",
+   "n": 8,
+   "src": "biblioteca/18_traumatologia/trauma-02/01_fractura-expuesta__atls_p210.jpg",
+   "topic": "trauma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura expuesta",
+   "frase": "Herida amplia con hueso expuesto.",
+   "claves": [
+    {
+     "t": "Hueso expuesto",
+     "m": [
+      0.5,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Antibiótico EV, toxoide, aseo quirúrgico urgente.",
+   "codes": [
+    "4.02.2.008"
+   ],
+   "confunde": "Herida simple sin fractura.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "gustilo-iiib",
+   "n": 9,
+   "src": "biblioteca/18_traumatologia/trauma-02/21_expuesta-iiib__sherman_p631.jpg",
+   "topic": "trauma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura expuesta Gustilo IIIB",
+   "frase": "Gran pérdida de partes blandas.",
+   "claves": [
+    {
+     "t": "Pérdida de partes blandas",
+     "m": [
+      0.4,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Cefazolina + gentamicina; cobertura con colgajo.",
+   "codes": [
+    "4.02.2.008"
+   ],
+   "confunde": "Tipo I: herida menor de 1 cm.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fasciotomia-antebrazo",
+   "n": 10,
+   "src": "biblioteca/18_traumatologia/trauma-03/01_fasciotomia-antebrazo__atls_p213.jpg",
+   "topic": "trauma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fasciotomía del antebrazo",
+   "frase": "Descompresión del compartimento.",
+   "claves": [
+    {
+     "t": "Fasciotomía",
+     "m": [
+      0.45,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Síndrome compartimental: dolor desproporcionado; fasciotomía urgente.",
+   "codes": [
+    "4.02.2.001"
+   ],
+   "confunde": "Celulitis.",
+   "q": "EUNACOM Julio 2015 · Pregunta 52",
+   "auto": false
+  },
+  {
+   "id": "fasciotomia-pierna",
+   "n": 11,
+   "src": "biblioteca/18_traumatologia/trauma-03/02_fasciotomia-pierna__atls_p213.jpg",
+   "topic": "trauma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pierna descomprimida",
+   "frase": "Músculo expuesto tras la fasciotomía.",
+   "claves": [
+    {
+     "t": "Músculo",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "No esperar la pérdida de pulsos.",
+   "codes": [
+    "4.02.2.001"
+   ],
+   "confunde": "Pulsos presentes no descartan.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "volkmann",
+   "n": 12,
+   "src": "biblioteca/18_traumatologia/trauma-03/05_contractura-antebrazo-compartimental__knoop_p328.jpg",
+   "topic": "trauma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Contractura isquémica de Volkmann",
+   "frase": "Dedos flectados y rígidos.",
+   "claves": [
+    {
+     "t": "Dedos en flexión",
+     "m": [
+      0.75,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Secuela de un síndrome compartimental no tratado.",
+   "codes": [
+    "4.02.2.001"
+   ],
+   "confunde": "Dupuytren: cordón palmar.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "sudeck",
+   "n": 13,
+   "src": "_verificadas/360_trauma_Complicaciones_de_fracturas__BrantHelms_p1203.jpg",
+   "topic": "trauma-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Atrofia de Sudeck",
+   "frase": "Osteoporosis moteada.",
+   "claves": [
+    {
+     "t": "Osteopenia moteada",
+     "m": [
+      0.4,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Síndrome de dolor regional complejo: rehabilitación precoz.",
+   "codes": [
+    "4.02.2.001"
+   ],
+   "confunde": "Osteoporosis difusa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "embolia-grasa",
+   "n": 14,
+   "src": "biblioteca/18_traumatologia/trauma-03/04_embolia-grasa-petequias__hy_p784.jpg",
+   "topic": "trauma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Petequias de la embolia grasa",
+   "frase": "Petequias en la piel tras una fractura de fémur.",
+   "claves": [
+    {
+     "t": "Petequias",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Fijación precoz de la fractura y soporte.",
+   "codes": [
+    "4.02.2.001"
+   ],
+   "confunde": "TEP.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "charretera",
+   "n": 15,
+   "src": "biblioteca/12_traumatologia/trauma-04/23_luxacion-hombro-charretera__sherman_p542.jpg",
+   "topic": "trauma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de la charretera",
+   "frase": "Hombro sin contorno redondeado.",
+   "claves": [
+    {
+     "t": "Pérdida del contorno",
+     "m": [
+      0.45,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Luxación anterior: Rx y reducción.",
+   "codes": [
+    "4.02.2.012"
+   ],
+   "confunde": "Fractura de clavícula.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 142",
+   "auto": true
+  },
+  {
+   "id": "luxacion-hombro-rx",
+   "n": 16,
+   "src": "biblioteca/12_traumatologia/trauma-04/24_luxacion-hombro-rx-ap__sherman_p542.jpg",
+   "topic": "trauma-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Luxación anterior de hombro",
+   "frase": "Cabeza humeral delante y abajo de la glenoides.",
+   "claves": [
+    {
+     "t": "Cabeza humeral",
+     "m": [
+      0.4,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Reducir y examinar el nervio axilar.",
+   "codes": [
+    "4.02.2.012",
+    "4.02.5.003"
+   ],
+   "confunde": "Luxación posterior: signo de la bombilla.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "torus",
+   "n": 17,
+   "src": "biblioteca/18_traumatologia/trauma-04/21_torus-radio-distal__sherman_p776.jpg",
+   "topic": "trauma-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura en rodete (torus)",
+   "frase": "Abombamiento de la cortical del radio distal (flechas).",
+   "claves": [
+    {
+     "t": "Rodete",
+     "m": [
+      0.18,
+      0.55,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Férula 3 semanas.",
+   "codes": [
+    "2.01.2.009"
+   ],
+   "confunde": "Tallo verde: rompe una cortical.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mano-caida-humero",
+   "n": 18,
+   "src": "../../books/figuras/atlas_eunacom_2026/058_alta_trauma_trauma_04_lesiones_neurovasculares.jpg",
+   "topic": "trauma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mano caída",
+   "frase": "Lesión del nervio radial en la fractura de diáfisis humeral.",
+   "claves": [
+    {
+     "t": "Mano caída",
+     "m": [
+      0.4,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Neuroapraxia: observar; la mayoría se recupera.",
+   "codes": [
+    "4.02.2.010"
+   ],
+   "confunde": "Lesión del mediano.",
+   "q": "EUNACOM Julio 2025 · Pregunta 70",
+   "auto": false
+  },
+  {
+   "id": "supracondilea",
+   "n": 19,
+   "src": "../../books/figuras/atlas_eunacom_2026/059_alta_trauma_trauma_04_lesiones_neurovasculares.jpg",
+   "topic": "trauma-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura supracondílea de húmero",
+   "frase": "Rx lateral en un niño.",
+   "claves": [
+    {
+     "t": "Fractura",
+     "m": [
+      0.35,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Revisar pulso radial y nervios; reducción.",
+   "codes": [
+    "4.02.2.001",
+    "4.01.2.023"
+   ],
+   "confunde": "Luxación del codo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "luxacion-hombro-clinica",
+   "n": 20,
+   "src": "../../books/figuras/atlas_eunacom_2026/247_media_trauma_trauma_04_lesiones_neurovasculares.jpg",
+   "topic": "trauma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Luxación anterior de hombro: charretera",
+   "frase": "El lápiz marca el acromion prominente.",
+   "claves": [
+    {
+     "t": "Acromion prominente",
+     "m": [
+      0.55,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Rx antes y después de reducir.",
+   "codes": [
+    "4.02.2.012"
+   ],
+   "confunde": "Contusión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "supracondilea-grasa",
+   "n": 21,
+   "src": "biblioteca/12_traumatologia/trauma-04/22_supracondilea-rx-lateral__sherman_p770.jpg",
+   "topic": "trauma-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Supracondílea: almohadilla grasa",
+   "frase": "Almohadilla posterior levantada (flecha).",
+   "claves": [
+    {
+     "t": "Grasa levantada",
+     "m": [
+      0.08,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Niño con dolor de codo: buscar la almohadilla.",
+   "codes": [
+    "2.01.2.009"
+   ],
+   "confunde": "Codo normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ramas-pubicas",
+   "n": 22,
+   "src": "biblioteca/18_traumatologia/trauma-05/21_pelvis-ramas-pubicas__sherman_p645.jpg",
+   "topic": "trauma-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de ramas púbicas",
+   "frase": "Rasgos en las ramas (flechas).",
+   "claves": [
+    {
+     "t": "Rama fracturada",
+     "m": [
+      0.47,
+      0.62,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Estable: analgesia y carga.",
+   "codes": [
+    "4.02.2.006"
+   ],
+   "confunde": "Fractura de cadera.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pelvis-inestable",
+   "n": 23,
+   "src": "biblioteca/18_traumatologia/trauma-05/01_pelvis-antes-de-faja__atls_p150.jpg",
+   "topic": "trauma-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Pelvis inestable",
+   "frase": "Pelvis abierta en libro.",
+   "claves": [
+    {
+     "t": "Sínfisis abierta",
+     "m": [
+      0.5,
+      0.8,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Shock: faja pélvica y control del sangrado.",
+   "codes": [
+    "4.02.2.006",
+    "4.02.2.014"
+   ],
+   "confunde": "Fractura de rama aislada.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 51",
+   "auto": false
+  },
+  {
+   "id": "sabana-pelvis",
+   "n": 24,
+   "src": "biblioteca/18_traumatologia/trauma-05/03_sabana-pelvica__atls_p150.jpg",
+   "topic": "trauma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pelvis atada con una sábana",
+   "frase": "Cierre del anillo pélvico.",
+   "claves": [
+    {
+     "t": "Sábana a nivel trocantéreo",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Reduce el volumen pélvico y el sangrado.",
+   "codes": [
+    "4.02.2.006"
+   ],
+   "confunde": "Faja sobre las crestas: no sirve.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fractura-tibia",
+   "n": 25,
+   "src": "biblioteca/18_traumatologia/trauma-06/21_tibia-diafisis-espiroidea__sherman_p682.jpg",
+   "topic": "trauma-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura espiroidea de tibia",
+   "frase": "Rasgo espiroideo desplazado.",
+   "claves": [
+    {
+     "t": "Rasgo",
+     "m": [
+      0.4,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Cirugía o yeso según estabilidad.",
+   "codes": [
+    "4.02.2.007"
+   ],
+   "confunde": "Fractura de estrés.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "diafisis-humero",
+   "n": 26,
+   "src": "biblioteca/18_traumatologia/trauma-06/22_humero-diafisis__sherman_p594.jpg",
+   "topic": "trauma-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de la diáfisis humeral",
+   "frase": "Rasgo en el tercio medio.",
+   "claves": [
+    {
+     "t": "Fractura",
+     "m": [
+      0.68,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Examinar el nervio radial.",
+   "codes": [
+    "4.02.2.007",
+    "4.02.2.010"
+   ],
+   "confunde": "Fractura del cuello quirúrgico.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 100",
+   "auto": false
+  },
+  {
+   "id": "fractura-femur",
+   "n": 27,
+   "src": "biblioteca/18_traumatologia/trauma-07/21_femur-espiroidea__sherman_p577.jpg",
+   "topic": "trauma-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura espiroidea de fémur",
+   "frase": "Rasgo diafisario largo.",
+   "claves": [
+    {
+     "t": "Rasgo espiroideo",
+     "m": [
+      0.45,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Enclavado endomedular.",
+   "codes": [
+    "4.02.2.007"
+   ],
+   "confunde": "Fractura patológica: lesión previa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "quinto-metatarsiano",
+   "n": 28,
+   "src": "biblioteca/18_traumatologia/trauma-07/23_quinto-metatarsiano-base-rx__knoop_p347.jpg",
+   "topic": "trauma-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de la base del quinto metatarsiano",
+   "frase": "Avulsión de la tuberosidad.",
+   "claves": [
+    {
+     "t": "Base del 5.º MT",
+     "m": [
+      0.8,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Avulsión: bota y carga.",
+   "codes": [
+    "4.02.4.003"
+   ],
+   "confunde": "Jones: más distal, consolida mal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "maisonneuve-tobillo",
+   "n": 29,
+   "src": "biblioteca/18_traumatologia/trauma-07/24_maisonneuve__sherman_p615.jpg",
+   "topic": "trauma-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de Maisonneuve: tobillo",
+   "frase": "Lesión del tobillo con ensanchamiento.",
+   "claves": [
+    {
+     "t": "Mortaja ensanchada",
+     "m": [
+      0.5,
+      0.8,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Palpar el peroné proximal.",
+   "codes": [
+    "4.02.2.013"
+   ],
+   "confunde": "Esguince.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "bimaleolar",
+   "n": 30,
+   "src": "_verificadas/248_trauma_Pierna_y_tobillo__ecmpdf_p549_1.jpg",
+   "topic": "trauma-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura bimaleolar",
+   "frase": "Fractura de ambos maléolos.",
+   "claves": [
+    {
+     "t": "Maléolo",
+     "m": [
+      0.4,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Inestable: cirugía.",
+   "codes": [
+    "4.02.2.013"
+   ],
+   "confunde": "Unimaleolar estable.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "quinto-mt-esquema",
+   "n": 31,
+   "src": "_web/249_trauma_Pierna_y_tobillo__Commons_1.jpg",
+   "topic": "trauma-07",
+   "type": "esquema",
+   "size": "half",
+   "title": "Fracturas proximales del quinto metatarsiano",
+   "frase": "Avulsión, Jones y estrés según la zona.",
+   "claves": [
+    {
+     "t": "Tuberosidad",
+     "m": [
+      0.08,
+      0.62,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Jones: puede requerir cirugía.",
+   "codes": [
+    "4.02.4.003"
+   ],
+   "confunde": "Apófisis normal del niño.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "maisonneuve-perone",
+   "n": 32,
+   "src": "_web/362_trauma_Pierna_y_tobillo__Commons_3.jpg",
+   "topic": "trauma-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de Maisonneuve: peroné proximal",
+   "frase": "Fractura del cuello del peroné.",
+   "claves": [
+    {
+     "t": "Peroné proximal",
+     "m": [
+      0.62,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Lesión sindesmal: cirugía.",
+   "codes": [
+    "4.02.2.013"
+   ],
+   "confunde": "Fractura de tibia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "luxofractura-tobillo",
+   "n": 33,
+   "src": "biblioteca/18_traumatologia/trauma-07/22_luxofractura-tobillo-rx__sherman_p540.jpg",
+   "topic": "trauma-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Luxofractura de tobillo",
+   "frase": "Astrágalo luxado posterolateral.",
+   "claves": [
+    {
+     "t": "Astrágalo luxado",
+     "m": [
+      0.25,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Reducción inmediata.",
+   "codes": [
+    "4.02.2.013"
+   ],
+   "confunde": "Bimaleolar sin luxación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "lca-rm",
+   "n": 34,
+   "src": "biblioteca/18_traumatologia/trauma-08/03_rm-rodilla-lca-lcm-lcl__bailey-love_p487.jpg",
+   "topic": "trauma-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "RM: rotura de LCA y colaterales",
+   "frase": "Ligamentos discontinuos.",
+   "claves": [
+    {
+     "t": "LCA",
+     "m": [
+      0.5,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Lachman y cajón; reconstrucción en deportista.",
+   "codes": [
+    "4.02.2.011"
+   ],
+   "confunde": "Esguince grado 1.",
+   "q": "EUNACOM Enero 2023 · Pregunta 159",
+   "auto": false
+  },
+  {
+   "id": "menisco-rm",
+   "n": 35,
+   "src": "biblioteca/18_traumatologia/trauma-08/04_rm-menisco-medial-roto__ctmri-path_p484.jpg",
+   "topic": "trauma-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "RM: rotura meniscal",
+   "frase": "Línea en el menisco (flechas).",
+   "claves": [
+    {
+     "t": "Menisco",
+     "m": [
+      0.22,
+      0.65,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Bloqueo articular: artroscopia.",
+   "codes": [
+    "4.02.2.011"
+   ],
+   "confunde": "Degeneración meniscal sin rotura.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cajon",
+   "n": 36,
+   "src": "biblioteca/18_traumatologia/trauma-08/02_prueba-cajon-rodilla__bailey-love_p477.jpg",
+   "topic": "trauma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba del cajón",
+   "frase": "Desplazamiento anterior de la tibia.",
+   "claves": [
+    {
+     "t": "Tibia",
+     "m": [
+      0.4,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Positivo: rotura del LCA.",
+   "codes": [
+    "4.02.2.011"
+   ],
+   "confunde": "Cajón posterior: LCP.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "menisco-rm-2",
+   "n": 37,
+   "src": "_web/250_trauma_Rodilla__Commons_3.jpg",
+   "topic": "trauma-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "Rotura meniscal en la RM",
+   "frase": "Línea hiperintensa que llega a la superficie (flecha).",
+   "claves": [
+    {
+     "t": "Rotura",
+     "m": [
+      0.82,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Tratamiento según síntomas.",
+   "codes": [
+    "4.02.2.011"
+   ],
+   "confunde": "Señal intrameniscal que no llega a la superficie.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "lipohemartrosis",
+   "n": 38,
+   "src": "biblioteca/18_traumatologia/trauma-08/21_lipohemartrosis-rx__sherman_p605.jpg",
+   "topic": "trauma-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "Lipohemartrosis",
+   "frase": "Nivel grasa-sangre en la Rx con haz horizontal (flecha).",
+   "claves": [
+    {
+     "t": "Nivel grasa-sangre",
+     "m": [
+      0.8,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Indica fractura intraarticular.",
+   "codes": [
+    "4.02.2.011"
+   ],
+   "confunde": "Hemartrosis sin fractura.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "punción-hemartrosis",
+   "n": 39,
+   "src": "biblioteca/18_traumatologia/trauma-08/22_hemartrosis-gotas-de-grasa__sherman_p605.jpg",
+   "topic": "trauma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemartrosis con gotas de grasa",
+   "frase": "Líquido hemorrágico con grasa.",
+   "claves": [
+    {
+     "t": "Gotas de grasa",
+     "m": [
+      0.3,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Buscar fractura intraarticular.",
+   "codes": [
+    "4.02.5.002"
+   ],
+   "confunde": "Punción traumática.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cajon-tobillo",
+   "n": 40,
+   "src": "biblioteca/18_traumatologia/trauma-09/01_cajon-anterior-tobillo__bailey-love_p482.jpg",
+   "topic": "trauma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cajón anterior del tobillo",
+   "frase": "Desplazamiento anterior del astrágalo.",
+   "claves": [
+    {
+     "t": "Talón traccionado",
+     "m": [
+      0.6,
+      0.7,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Esguince grave: inmovilizar y rehabilitar.",
+   "codes": [
+    "4.02.2.003"
+   ],
+   "confunde": "Fractura: dolor óseo puntual.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 57",
+   "auto": false
+  },
+  {
+   "id": "baker",
+   "n": 41,
+   "src": "_verificadas/251_trauma_Partes_blandas__ctmri_path_p478_1.jpg",
+   "topic": "trauma-09",
+   "type": "imagen",
+   "size": "half",
+   "title": "Quiste de Baker",
+   "frase": "Colección poplítea entre gastrocnemio y semimembranoso.",
+   "claves": [
+    {
+     "t": "Quiste",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Si se rompe simula una TVP.",
+   "codes": [
+    "4.02.2.011"
+   ],
+   "confunde": "TVP: eco-Doppler.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "aquiles",
+   "n": 42,
+   "src": "_verificadas/252_trauma_Partes_blandas__ecmpdf_p536_1.jpg",
+   "topic": "trauma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rotura del tendón de Aquiles",
+   "frase": "Pie que no cae (Thompson positivo).",
+   "claves": [
+    {
+     "t": "Pie sin flexión",
+     "m": [
+      0.8,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Bota o cirugía.",
+   "codes": [
+    "4.02.2.011"
+   ],
+   "confunde": "Desgarro del gemelo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "luxacion-cadera",
+   "n": 43,
+   "src": "biblioteca/18_traumatologia/trauma-10/22_luxacion-posterior-cadera-rx__sherman_p592.jpg",
+   "topic": "trauma-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Luxación posterior de cadera",
+   "frase": "Cabeza femoral fuera del acetábulo.",
+   "claves": [
+    {
+     "t": "Cabeza luxada",
+     "m": [
+      0.75,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Reducción urgente: riesgo de necrosis.",
+   "codes": [
+    "4.02.2.004"
+   ],
+   "confunde": "Fractura de cuello.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 99",
+   "auto": false
+  },
+  {
+   "id": "necrosis-avascular",
+   "n": 44,
+   "src": "biblioteca/18_traumatologia/trauma-10/21_necrosis-avascular-cadera__sherman_p545.jpg",
+   "topic": "trauma-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Necrosis avascular de la cabeza femoral",
+   "frase": "Cabeza colapsada y esclerótica.",
+   "claves": [
+    {
+     "t": "Cabeza colapsada",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Prótesis.",
+   "codes": [
+    "4.02.2.004"
+   ],
+   "confunde": "Coxartrosis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fx-cuello-femoral",
+   "n": 45,
+   "src": "biblioteca/18_traumatologia/trauma-10/01_rx_fractura_cuello_femur__commons.jpg",
+   "topic": "trauma-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura del cuello femoral",
+   "frase": "Rasgo del cuello (flecha).",
+   "claves": [
+    {
+     "t": "Fractura",
+     "m": [
+      0.8,
+      0.38,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Cirugía antes de 48 h.",
+   "codes": [
+    "4.02.2.004",
+    "1.07.2.003"
+   ],
+   "confunde": "Extracapsular.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "luxacion-cadera-tc",
+   "n": 46,
+   "src": "_verificadas/253_trauma_Fractura_de_cadera__ctmri_path_p474_1.jpg",
+   "topic": "trauma-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Luxación posterior de cadera en la TAC",
+   "frase": "Cabeza femoral detrás del acetábulo.",
+   "claves": [
+    {
+     "t": "Cabeza luxada",
+     "m": [
+      0.2,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "TAC tras reducir: buscar fragmentos.",
+   "codes": [
+    "4.02.2.004"
+   ],
+   "confunde": "Fractura de acetábulo aislada.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "bursitis-olecranon",
+   "n": 47,
+   "src": "biblioteca/18_traumatologia/trauma-11/01_bursitis-olecraniana__bailey-love_p522.jpg",
+   "topic": "trauma-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bursitis olecraniana",
+   "frase": "Aumento de volumen sobre el olécranon.",
+   "claves": [
+    {
+     "t": "Bursa",
+     "m": [
+      0.5,
+      0.8,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aséptica: reposo; séptica: punción y antibióticos.",
+   "codes": [
+    "1.11.1.024"
+   ],
+   "confunde": "Artritis del codo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "palpacion-bursa",
+   "n": 48,
+   "src": "biblioteca/18_traumatologia/trauma-11/02_palpacion-bursa-trocanterica__bates_p709.jpg",
+   "topic": "trauma-11",
+   "type": "esquema",
+   "size": "half",
+   "title": "Palpación de la bursa trocantérea",
+   "frase": "Dolor lateral de cadera.",
+   "claves": [
+    {
+     "t": "Trocánter",
+     "m": [
+      0.75,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "AINE e infiltración.",
+   "codes": [
+    "1.11.1.024"
+   ],
+   "confunde": "Coxartrosis: dolor inguinal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "de-quervain",
+   "n": 49,
+   "src": "_web/363_trauma_Dolor_osteomuscular__Commons_2.jpg",
+   "topic": "trauma-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de Finkelstein",
+   "frase": "Dolor en el borde radial con el pulgar dentro del puño.",
+   "claves": [
+    {
+     "t": "Estiloides radial",
+     "m": [
+      0.62,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Tenosinovitis de De Quervain: férula y AINE.",
+   "codes": [
+    "1.11.1.024"
+   ],
+   "confunde": "Rizartrosis.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 68",
+   "auto": false
+  },
+  {
+   "id": "coxartrosis-rx",
+   "n": 50,
+   "src": "biblioteca/18_traumatologia/trauma-12/01_artrosis-cadera-rx__bailey-love_p535.jpg",
+   "topic": "trauma-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Coxartrosis",
+   "frase": "Pinzamiento y esclerosis.",
+   "claves": [
+    {
+     "t": "Espacio articular estrecho",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Prótesis si fracasa el manejo médico.",
+   "codes": [
+    "4.02.1.001"
+   ],
+   "confunde": "Necrosis avascular.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 52",
+   "auto": false
+  },
+  {
+   "id": "podagra",
+   "n": 51,
+   "src": "biblioteca/18_traumatologia/trauma-12/05_podagra-primer-ortejo__knoop_p963.jpg",
+   "topic": "trauma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Podagra",
+   "frase": "Primer ortejo rojo, caliente e hinchado.",
+   "claves": [
+    {
+     "t": "Primera MTF",
+     "m": [
+      0.3,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Colchicina o AINE; no iniciar alopurinol en la crisis.",
+   "codes": [
+    "1.11.2.002"
+   ],
+   "confunde": "Celulitis.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 47",
+   "auto": true
+  },
+  {
+   "id": "cristales-aguja",
+   "n": 52,
+   "src": "biblioteca/18_traumatologia/trauma-12/02_cristales-urato-liquido-sinovial__harrison_p2905.jpg",
+   "topic": "trauma-12",
+   "type": "histologia",
+   "size": "half",
+   "title": "Cristales de urato en aguja",
+   "frase": "Agujas en el líquido sinovial.",
+   "claves": [
+    {
+     "t": "Cristal",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Diagnóstico de certeza de gota.",
+   "codes": [
+    "1.11.2.002",
+    "4.02.4.007"
+   ],
+   "confunde": "Pirofosfato.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "artritis-septica-rodilla",
+   "n": 53,
+   "src": "_verificadas/364_trauma_Artrosis_y_monoartritis__Zitelli_p535.jpg",
+   "topic": "trauma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Artritis séptica de rodilla",
+   "frase": "Derrame a tensión y eritema.",
+   "claves": [
+    {
+     "t": "Rodilla",
+     "m": [
+      0.25,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Artrocentesis y lavado urgente.",
+   "codes": [
+    "1.11.1.015",
+    "4.02.1.004"
+   ],
+   "confunde": "Gota.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 69",
+   "auto": false
+  },
+  {
+   "id": "erosion-mtf",
+   "n": 54,
+   "src": "biblioteca/18_traumatologia/trauma-12/21_gota-erosion-mtf__sherman_p589.jpg",
+   "topic": "trauma-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Erosión de la primera MTF en la gota",
+   "frase": "Erosión en sacabocado.",
+   "claves": [
+    {
+     "t": "Erosión",
+     "m": [
+      0.3,
+      0.15,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Gota crónica: hipouricemiante.",
+   "codes": [
+    "1.11.2.002"
+   ],
+   "confunde": "Artrosis del hallux.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "osteocondroma",
+   "n": 55,
+   "src": "biblioteca/18_traumatologia/trauma-13/02_osteocondroma-perone__bailey-love_p560.jpg",
+   "topic": "trauma-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Osteocondroma del peroné",
+   "frase": "Exostosis en continuidad con la cortical.",
+   "claves": [
+    {
+     "t": "Exostosis",
+     "m": [
+      0.4,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Benigno: observación.",
+   "codes": [
+    "4.02.1.009"
+   ],
+   "confunde": "Osteosarcoma.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "osteoma-osteoide",
+   "n": 56,
+   "src": "biblioteca/18_traumatologia/trauma-13/03_osteoma-osteoide-tibia__bailey-love_p559.jpg",
+   "topic": "trauma-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Osteoma osteoide de la tibia",
+   "frase": "Esclerosis cortical con nido.",
+   "claves": [
+    {
+     "t": "Nido",
+     "m": [
+      0.4,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Dolor nocturno que cede con AINE.",
+   "codes": [
+    "4.02.1.009"
+   ],
+   "confunde": "Absceso de Brodie.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "osteosarcoma",
+   "n": 57,
+   "src": "biblioteca/18_traumatologia/trauma-13/01_osteosarcoma-esclerotico-femur-distal__bailey-love_p556.jpg",
+   "topic": "trauma-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Osteosarcoma del fémur distal",
+   "frase": "Lesión mixta con reacción perióstica.",
+   "claves": [
+    {
+     "t": "Lesión metafisaria",
+     "m": [
+      0.5,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Adolescente con dolor de rodilla: Rx y derivar.",
+   "codes": [
+    "4.02.1.009",
+    "4.02.4.005"
+   ],
+   "confunde": "Ewing: diáfisis.",
+   "q": "EUNACOM Julio 2015 · Pregunta 9",
+   "auto": false
+  },
+  {
+   "id": "sol-naciente",
+   "n": 58,
+   "src": "_verificadas/254_trauma_Tumores_óseos__HelmsSkeletal_p53.jpg",
+   "topic": "trauma-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Osteosarcoma: sol naciente",
+   "frase": "Reacción perióstica en espículas.",
+   "claves": [
+    {
+     "t": "Espículas",
+     "m": [
+      0.5,
+      0.65,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Biopsia y quimioterapia.",
+   "codes": [
+    "4.02.1.009"
+   ],
+   "confunde": "Ewing: capas de cebolla.",
+   "q": "EUNACOM Enero 2023 · Pregunta 162",
+   "auto": false
+  },
+  {
+   "id": "ortolani",
+   "n": 59,
+   "src": "biblioteca/18_traumatologia/trauma-14/05_maniobra-de-ortolani__nelson_p5430.jpg",
+   "topic": "trauma-14",
+   "type": "esquema",
+   "size": "half",
+   "title": "Maniobra de Ortolani",
+   "frase": "Reduce una cadera luxada con un clic.",
+   "claves": [
+    {
+     "t": "Abducción",
+     "m": [
+      0.3,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Derivar a ortopedia.",
+   "codes": [
+    "4.02.1.002"
+   ],
+   "confunde": "Barlow: luxa.",
+   "q": "EUNACOM Julio 2017 · Pregunta 137",
+   "auto": false
+  },
+  {
+   "id": "displasia-rx",
+   "n": 60,
+   "src": "biblioteca/18_traumatologia/trauma-14/06_displasia-cadera-indice-acetabular__bailey-love_p592.jpg",
+   "topic": "trauma-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Displasia de cadera",
+   "frase": "Índice acetabular aumentado.",
+   "claves": [
+    {
+     "t": "Techo inclinado",
+     "m": [
+      0.75,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Rx a los 3 meses (tamizaje GES).",
+   "codes": [
+    "4.02.1.002",
+    "4.02.4.004"
+   ],
+   "confunde": "Cadera normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "escoliosis",
+   "n": 61,
+   "src": "biblioteca/18_traumatologia/trauma-14/03_escoliosis-angulo-de-cobb__bailey-love_p603.jpg",
+   "topic": "trauma-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Escoliosis con Cobb de 40°",
+   "frase": "Curva torácica.",
+   "claves": [
+    {
+     "t": "Curva",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Cobb > 40–45°: cirugía.",
+   "codes": [
+    "4.02.1.003"
+   ],
+   "confunde": "Actitud escoliótica.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pie-bot",
+   "n": 62,
+   "src": "_verificadas/256_trauma_Ortopedia_infantil__Talley_p800.jpg",
+   "topic": "trauma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pie bot sin tratar",
+   "frase": "Equino, varo, cavo y aducto.",
+   "claves": [
+    {
+     "t": "Pie en varo",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Método de Ponseti desde el nacimiento.",
+   "codes": [
+    "2.01.1.091"
+   ],
+   "confunde": "Metatarso aducto.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "adams",
+   "n": 63,
+   "src": "_verificadas/257_trauma_Ortopedia_infantil__Zitelli_p862.jpg",
+   "topic": "trauma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Test de Adams",
+   "frase": "Giba costal al inclinarse.",
+   "claves": [
+    {
+     "t": "Giba",
+     "m": [
+      0.5,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Escoliosis estructural: Rx.",
+   "codes": [
+    "4.02.1.003",
+    "2.01.1.094"
+   ],
+   "confunde": "Postural.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "salter-harris",
+   "n": 64,
+   "src": "biblioteca/18_traumatologia/trauma-14/21_salter-harris__sherman_p764.jpg",
+   "topic": "trauma-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fracturas de Salter-Harris I, II y III",
+   "frase": "Lesión de la placa de crecimiento.",
+   "claves": [
+    {
+     "t": "Fisis",
+     "m": [
+      0.2,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "III en adelante: reducción anatómica.",
+   "codes": [
+    "4.02.2.002"
+   ],
+   "confunde": "Esguince del niño.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "klein",
+   "n": 65,
+   "src": "biblioteca/18_traumatologia/trauma-14/22_epifisiolisis-klein__sherman_p768.jpg",
+   "topic": "trauma-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Líneas de Klein",
+   "frase": "En la epifisiólisis la línea no cruza la epífisis.",
+   "claves": [
+    {
+     "t": "Línea anormal",
+     "m": [
+      0.2,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Fijación in situ.",
+   "codes": [
+    "4.02.2.002"
+   ],
+   "confunde": "Perthes.",
+   "q": "EUNACOM Julio 2016 · Pregunta 178",
+   "auto": false
+  },
+  {
+   "id": "sinovitis-transitoria",
+   "n": 66,
+   "src": "biblioteca/18_traumatologia/trauma-14/23_sinovitis-transitoria__sherman_p778.jpg",
+   "topic": "trauma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sinovitis transitoria de cadera",
+   "frase": "Cadera flexionada, abducida y en rotación externa.",
+   "claves": [
+    {
+     "t": "Cadera en flexión",
+     "m": [
+      0.25,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "AINE y reposo.",
+   "codes": [
+    "2.01.1.094"
+   ],
+   "confunde": "Artritis séptica: Kocher.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "espondilolistesis",
+   "n": 67,
+   "src": "biblioteca/18_traumatologia/trauma-14/24_espondilolistesis-l4l5__sherman_p670.jpg",
+   "topic": "trauma-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Espondilolistesis L4-L5",
+   "frase": "Deslizamiento de una vértebra.",
+   "claves": [
+    {
+     "t": "Deslizamiento",
+     "m": [
+      0.5,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Grado 1: tratamiento conservador.",
+   "codes": [
+    "4.02.1.003"
+   ],
+   "confunde": "Hernia discal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pie-bot-bilateral",
+   "n": 68,
+   "src": "biblioteca/18_traumatologia/trauma-14/07_pie-bot-congenito__talley_p800.jpg",
+   "topic": "trauma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pie bot congénito bilateral",
+   "frase": "Pies equinovaros.",
+   "claves": [
+    {
+     "t": "Pies equinovaros",
+     "m": [
+      0.5,
+      0.75,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Ponseti.",
+   "codes": [
+    "2.01.1.091"
+   ],
+   "confunde": "Pie plano: flexible.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "spurling",
+   "n": 69,
+   "src": "biblioteca/18_traumatologia/trauma-15/04_prueba-de-spurling__bailey-love_p461.jpg",
+   "topic": "trauma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de Spurling",
+   "frase": "Compresión axial con la cabeza rotada.",
+   "claves": [
+    {
+     "t": "Compresión",
+     "m": [
+      0.5,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Reproduce la radiculopatía cervical.",
+   "codes": [
+    "1.11.1.005"
+   ],
+   "confunde": "Cervicalgia mecánica.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "compresion-l1",
+   "n": 70,
+   "src": "biblioteca/18_traumatologia/trauma-15/21_compresion-l1__sherman_p692.jpg",
+   "topic": "trauma-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura por compresión de L1",
+   "frase": "Acuñamiento vertebral.",
+   "claves": [
+    {
+     "t": "L1 acuñada",
+     "m": [
+      0.45,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Evaluar estabilidad y osteoporosis.",
+   "codes": [
+    "4.02.4.001"
+   ],
+   "confunde": "Metástasis.",
+   "q": "EUNACOM Julio 2024 · Pregunta 39",
+   "auto": false
+  },
+  {
+   "id": "arco-doloroso",
+   "n": 71,
+   "src": "biblioteca/18_traumatologia/trauma-15/01_arco-doloroso-hombro__bailey-love_p471.jpg",
+   "topic": "trauma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Arco doloroso",
+   "frase": "Dolor entre 60° y 120° de abducción.",
+   "claves": [
+    {
+     "t": "Abducción",
+     "m": [
+      0.4,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Manguito rotador: AINE y kinesiología.",
+   "codes": [
+    "4.02.1.008"
+   ],
+   "confunde": "Capsulitis: todos los movimientos limitados.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 68",
+   "auto": false
+  },
+  {
+   "id": "hernia-discal",
+   "n": 72,
+   "src": "_web/258_trauma_Columna_y_hombro__Commons_1.jpg",
+   "topic": "trauma-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hernia discal lumbar en la RM",
+   "frase": "Hernias que comprimen la raíz (círculos).",
+   "claves": [
+    {
+     "t": "Hernia",
+     "m": [
+      0.38,
+      0.62,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Sin déficit: manejo médico 6 semanas; cauda equina: cirugía urgente.",
+   "codes": [
+    "4.02.1.006"
+   ],
+   "confunde": "Estenosis de canal.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 139",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "osteocondroma",
+   "b": "osteosarcoma",
+   "title": "Osteocondroma vs osteosarcoma",
+   "la": [
+    "Exostosis bien definida"
+   ],
+   "lb": [
+    "Lesión agresiva"
+   ],
+   "diff": "Dolor y crecimiento: biopsia."
+  },
+  {
+   "a": "bursitis-olecranon",
+   "b": "artritis-septica-rodilla",
+   "title": "Bursitis vs artritis séptica",
+   "la": [
+    "Extracapsular"
+   ],
+   "lb": [
+    "Intraarticular"
+   ],
+   "diff": "La artritis duele con todo movimiento."
+  },
+  {
+   "a": "luxacion-hombro-rx",
+   "b": "charretera",
+   "title": "Luxación de hombro: Rx y clínica",
+   "la": [
+    "Cabeza fuera de la glenoides"
+   ],
+   "lb": [
+    "Charretera"
+   ],
+   "diff": "Rx antes y después de reducir."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Charretera",
+   "dx": "Luxación anterior de hombro.",
+   "find": "charretera",
+   "topic": "trauma-04",
+   "img": "charretera",
+   "def": "Pérdida del contorno del hombro."
+  },
+  {
+   "name": "Almohadilla grasa",
+   "dx": "Fractura oculta del codo.",
+   "find": "almohadilla",
+   "topic": "trauma-01",
+   "img": "almohadilla-grasa",
+   "def": "Grasa posterior visible en la Rx lateral."
+  },
+  {
+   "name": "Sol naciente",
+   "dx": "Osteosarcoma.",
+   "find": "sol naciente",
+   "topic": "trauma-13",
+   "img": "sol-naciente",
+   "def": "Reacción perióstica en espículas."
+  },
+  {
+   "name": "Test de Adams",
+   "dx": "Escoliosis estructural.",
+   "find": "Adams",
+   "topic": "trauma-14",
+   "img": "adams",
+   "def": "Giba al inclinarse."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 72
+ }
+}

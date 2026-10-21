@@ -1,0 +1,1785 @@
+{
+ "libro": "neumologia",
+ "title": "Respiratorio",
+ "prefix": "resp",
+ "topics": {
+  "resp-01": "Espirometría y Pruebas de Función Pulmonar",
+  "resp-03": "Asma Bronquial Crónica y Manejo GINA/GES",
+  "resp-04": "Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+  "resp-06": "Neumonía Adquirida en la Comunidad (NAC)",
+  "resp-08": "Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+  "resp-09": "Absceso Pulmonar y Supuraciones Pleuropulmonares",
+  "resp-10": "Tuberculosis Pulmonar",
+  "resp-11": "Derrame Pleural",
+  "resp-12": "Derrame Paraneumónico y Empiema Pleural",
+  "resp-13": "Neumotórax Espontáneo Primario y Secundario",
+  "resp-14": "Neumotórax a Tensión y Hemotórax Traumático",
+  "resp-15": "Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+  "resp-16": "Nódulo Pulmonar Solitario (NPS)",
+  "resp-17": "Cáncer Pulmonar",
+  "resp-18": "Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+  "resp-19": "Tromboembolismo Pulmonar (TEP) Agudo",
+  "resp-20": "Hemoptisis y Bronquiectasias",
+  "resp-22": "Síndrome de Distrés Respiratorio Agudo (SDRA)",
+  "resp-23": "Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
+  "resp-24": "Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+  "resp-25": "Ahogamiento (Asfixia por Inmersión) e Hipotermia Accidental"
+ },
+ "images": [
+  {
+   "id": "flujo-volumen",
+   "n": 1,
+   "src": "biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg",
+   "topic": "resp-01",
+   "type": "esquema",
+   "size": "half",
+   "title": "Curvas flujo-volumen",
+   "frase": "La obstructiva se hunde (concavidad); la restrictiva es estrecha.",
+   "claves": [
+    {
+     "t": "Obstrucción: VEF1/CVF < 0,70 post-broncodilatador"
+    },
+    {
+     "t": "Restricción: solo se sugiere (CVF < 80% con relación normal)"
+    }
+   ],
+   "conducta": "La restricción se confirma con pletismografía (CPT < 80%).",
+   "codes": [
+    "1.05.4.005"
+   ],
+   "confunde": "Curva normal: descenso lineal tras el pico.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "aerocamara",
+   "n": 2,
+   "src": "_web/160_resp_Crisis_asmática_Asma_crónica__Commons_1.jpg",
+   "topic": "resp-03",
+   "type": "esquema",
+   "size": "half",
+   "title": "Inhalador con aerocámara",
+   "frase": "Los labios sellan la boquilla y se dispara una sola vez.",
+   "claves": [
+    {
+     "t": "Inhalador acoplado a la aerocámara",
+     "m": [
+      0.78,
+      0.6,
+      0.08
+     ]
+    },
+    {
+     "t": "Labios sellados en la boquilla",
+     "m": [
+      0.6,
+      0.65,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Antes de subir un escalón, revisar la técnica inhalatoria y la adherencia.",
+   "codes": [
+    "1.05.5.006",
+    "1.05.1.003"
+   ],
+   "confunde": "Disparar sin aerocámara: más depósito orofaríngeo.",
+   "q": null,
+   "auto": false,
+   "crop": [
+    0,
+    0,
+    1,
+    0.86
+   ]
+  },
+  {
+   "id": "prueba-bd",
+   "n": 3,
+   "src": "biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg",
+   "topic": "resp-03",
+   "type": "esquema",
+   "size": "half",
+   "title": "Prueba broncodilatadora positiva",
+   "frase": "El VEF1 sube ≥ 12% y ≥ 200 mL tras el salbutamol.",
+   "claves": [
+    {
+     "t": "VEF1 antes y después del broncodilatador"
+    }
+   ],
+   "conducta": "Reversibilidad: apoya asma; si la espirometría es normal y la sospecha persiste, test de metacolina.",
+   "codes": [
+    "1.05.4.005",
+    "1.05.4.012"
+   ],
+   "confunde": "EPOC: VEF1/CVF < 0,70 persiste aunque mejore algo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 163",
+   "auto": false
+  },
+  {
+   "id": "hiperinsuflacion",
+   "n": 4,
+   "src": "biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg",
+   "topic": "resp-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "EPOC: hiperinsuflación",
+   "frase": "Pulmones hiperinsuflados con diafragmas aplanados.",
+   "claves": [
+    {
+     "t": "Diafragma aplanado",
+     "m": [
+      0.75,
+      0.85,
+      0.08
+     ]
+    },
+    {
+     "t": "Campos pulmonares hiperclaros",
+     "m": [
+      0.3,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Diagnóstico solo con espirometría; dejar de fumar y oxígeno ≥ 15 h/día si PaO₂ ≤ 55 prolongan la sobrevida.",
+   "codes": [
+    "1.05.1.017",
+    "1.05.1.016"
+   ],
+   "confunde": "Asma en crisis: también hiperinsuflación transitoria.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 175",
+   "auto": true
+  },
+  {
+   "id": "tipos-enfisema",
+   "n": 5,
+   "src": "biblioteca/02_neumologia/resp-04/01_tipos-de-enfisema__cto-neumo_p43.jpg",
+   "topic": "resp-04",
+   "type": "esquema",
+   "size": "half",
+   "title": "Tipos de enfisema",
+   "frase": "Centroacinar (del fumador), panacinar (déficit de alfa-1 antitripsina) y paraseptal.",
+   "claves": [
+    {
+     "t": "Centroacinar: destruye el centro del acino",
+     "m": [
+      0.2,
+      0.75,
+      0.08
+     ]
+    },
+    {
+     "t": "Panacinar: todo el acino",
+     "m": [
+      0.82,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Enfisema en joven no fumador: medir alfa-1 antitripsina.",
+   "codes": [
+    "1.05.1.017"
+   ],
+   "confunde": "Bronquitis crónica: tos con expectoración ≥ 3 meses por 2 años.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "enfisema-tc",
+   "src": "_verificadas/161_resp_EPOC_estable__cxrpdf_p296_1.jpg",
+   "topic": "resp-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Enfisema centrolobulillar en la TAC",
+   "frase": "Áreas de hipoatenuación sin pared en los lóbulos superiores del fumador.",
+   "claves": [
+    {
+     "t": "Espacios aéreos sin pared",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Dejar de fumar; espirometría para el diagnóstico de EPOC.",
+   "codes": [
+    "1.05.1.017"
+   ],
+   "confunde": "Bronquiectasias: tienen pared.",
+   "q": null,
+   "auto": false,
+   "n": 6
+  },
+  {
+   "id": "consolidacion",
+   "n": 7,
+   "src": "biblioteca/02_neumologia/resp-06/01_consolidacion-lobar__cto-radiologia_p13.jpg",
+   "topic": "resp-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonía: consolidación lobar",
+   "frase": "Área blanca homogénea en el lóbulo superior derecho, delimitada por la cisura.",
+   "claves": [
+    {
+     "t": "Consolidación del lóbulo superior derecho",
+     "m": [
+      0.25,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Sin radiografía no hay NAC; CURB-65 decide dónde tratar.",
+   "codes": [
+    "1.05.1.027",
+    "1.05.4.001"
+   ],
+   "confunde": "Atelectasia: pérdida de volumen con desplazamiento de cisuras.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 127",
+   "auto": true
+  },
+  {
+   "id": "broncograma",
+   "n": 8,
+   "src": "biblioteca/02_neumologia/resp-06/02_broncograma-aereo__cto-radiologia_p10.jpg",
+   "topic": "resp-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Broncograma aéreo",
+   "frase": "Bronquios con aire que se ven oscuros dentro de la condensación.",
+   "claves": [
+    {
+     "t": "Broncograma en la consolidación (flechas)",
+     "m": [
+      0.6,
+      0.65,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Confirma ocupación alveolar: neumonía.",
+   "codes": [
+    "1.05.1.027"
+   ],
+   "confunde": "Derrame pleural: sin broncograma.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mycoplasma",
+   "n": 9,
+   "src": "biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg",
+   "topic": "resp-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonía por Mycoplasma",
+   "frase": "Infiltrado intersticial perihiliar bilateral: disociación clínico-radiológica.",
+   "claves": [
+    {
+     "t": "Infiltrado perihiliar bilateral",
+     "m": [
+      0.35,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Macrólido (claritromicina o azitromicina): son resistentes a betalactámicos.",
+   "codes": [
+    "1.05.1.027"
+   ],
+   "confunde": "Neumonía neumocócica: consolidación lobar.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 15",
+   "auto": true
+  },
+  {
+   "id": "aspirativa",
+   "n": 10,
+   "src": "biblioteca/02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg",
+   "topic": "resp-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonía aspirativa",
+   "frase": "Consolidación en el lóbulo inferior derecho (segmentos declives).",
+   "claves": [
+    {
+     "t": "Consolidación basal derecha",
+     "m": [
+      0.27,
+      0.72,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Ampicilina/sulbactam o amoxicilina/clavulánico (anaerobios).",
+   "codes": [
+    "1.05.1.027"
+   ],
+   "confunde": "Neumonía neumocócica: sin trastorno de deglución.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "klebsiella",
+   "n": 11,
+   "src": "biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg",
+   "topic": "resp-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonía por Klebsiella",
+   "frase": "Consolidación densa del lóbulo superior derecho.",
+   "claves": [
+    {
+     "t": "Consolidación del lóbulo superior derecho",
+     "m": [
+      0.25,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Neumonía intrahospitalaria: cobertura de gramnegativos y antipseudomona.",
+   "codes": [
+    "1.05.1.030"
+   ],
+   "confunde": "TBC: cavitación apical.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "absceso",
+   "n": 12,
+   "src": "biblioteca/02_neumologia/resp-09/01_absceso-pulmonar__cto-radiologia_p16.jpg",
+   "topic": "resp-09",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso pulmonar",
+   "frase": "Cavidad de pared gruesa con nivel hidroaéreo.",
+   "claves": [
+    {
+     "t": "Cavidad con nivel hidroaéreo",
+     "m": [
+      0.3,
+      0.25,
+      0.1
+     ]
+    },
+    {
+     "t": "Émbolos sépticos (flechas)",
+     "m": [
+      0.85,
+      0.8,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Antibióticos 4-6 semanas (ampicilina/sulbactam); en fumador > 50 años, descartar cáncer.",
+   "codes": [
+    "1.05.1.001"
+   ],
+   "confunde": "Carcinoma epidermoide cavitado: pared irregular.",
+   "q": "EUNACOM Julio 2019 · Pregunta 165",
+   "auto": true
+  },
+  {
+   "id": "hidatidico-menisco",
+   "src": "_verificadas/163_resp_Absceso_pulmonar__knoopepub_p740_1.jpg",
+   "topic": "resp-09",
+   "type": "imagen",
+   "size": "half",
+   "title": "Quiste hidatídico pulmonar complicado",
+   "frase": "Signo del menisco o de la media luna: aire entre las membranas del quiste.",
+   "claves": [
+    {
+     "t": "Media luna de aire sobre el quiste",
+     "m": [
+      0.25,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Cirugía y albendazol.",
+   "codes": [
+    "1.05.1.020"
+   ],
+   "confunde": "Aspergiloma: masa móvil dentro de una cavidad.",
+   "q": null,
+   "auto": true,
+   "n": 13
+  },
+  {
+   "id": "tbc-patrones",
+   "n": 14,
+   "src": "biblioteca/02_neumologia/resp-10/01_tbc-ghon-cavitacion__cto-radiologia_p14.jpg",
+   "topic": "resp-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Aspectos radiológicos de la TBC",
+   "frase": "A complejo de Ghon, B y C TBC secundaria cavitada, D miliar.",
+   "claves": [
+    {
+     "t": "Cavitación de la TBC secundaria",
+     "m": [
+      0.62,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Sintomático respiratorio (tos ≥ 15 días): 2 baciloscopías y GeneXpert.",
+   "codes": [
+    "1.05.1.036"
+   ],
+   "confunde": "Neumonía bacteriana: no cavita en vértices.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ziehl",
+   "n": 15,
+   "src": "_web/164_resp_Tuberculosis__Commons_2.jpg",
+   "topic": "resp-10",
+   "type": "histologia",
+   "size": "half",
+   "title": "Baciloscopía (Ziehl-Neelsen)",
+   "frase": "Bacilos ácido-alcohol resistentes rojos o morados sobre fondo azul.",
+   "claves": [
+    {
+     "t": "Bacilos (BAAR)",
+     "m": [
+      0.45,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Dos muestras: una inmediata y otra matinal; una negativa no descarta (necesita > 5.000 bacilos/mL).",
+   "codes": [
+    "1.05.4.004"
+   ],
+   "confunde": "Gram: no tiñe bien la micobacteria.",
+   "q": "EUNACOM Julio 2013 · Pregunta 49",
+   "auto": true
+  },
+  {
+   "id": "miliar-rx",
+   "n": 16,
+   "src": "biblioteca/02_neumologia/resp-10/02_tbc-miliar_alt1__cto-infecto_p66.jpg",
+   "topic": "resp-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "TBC miliar en la radiografía",
+   "frase": "Patrón micronodular difuso en grano de mijo.",
+   "claves": [
+    {
+     "t": "Micronódulos difusos",
+     "m": [
+      0.3,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Miliar: 6 a 12 meses de tratamiento.",
+   "codes": [
+    "1.05.1.036"
+   ],
+   "confunde": "Neumoconiosis: nódulos de predominio superior.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "derrame",
+   "n": 17,
+   "src": "biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg",
+   "topic": "resp-11",
+   "type": "imagen",
+   "size": "half",
+   "title": "Derrame pleural",
+   "frase": "Opacidad con borde en menisco que borra el ángulo costofrénico.",
+   "claves": [
+    {
+     "t": "Menisco pleural",
+     "m": [
+      0.6,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Toracocentesis: un solo criterio de Light = exudado.",
+   "codes": [
+    "1.05.4.007",
+    "1.05.5.009"
+   ],
+   "confunde": "Atelectasia: tira el mediastino hacia el mismo lado.",
+   "q": "EUNACOM Julio 2025 · Pregunta 94",
+   "auto": true
+  },
+  {
+   "id": "eco-pleural",
+   "n": 18,
+   "src": "_web/341_resp_Derrame_pleural__Open-i_1.jpg",
+   "topic": "resp-11",
+   "type": "eco",
+   "size": "half",
+   "title": "Ecografía pleural: derrame",
+   "frase": "Líquido anecoico (negro) sobre el diafragma; detecta desde 20 mL.",
+   "claves": [
+    {
+     "t": "Derrame anecoico (flecha)",
+     "m": [
+      0.2,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Guía la toracocentesis.",
+   "codes": [
+    "1.05.4.003"
+   ],
+   "confunde": "Consolidación: ecogénica, con broncograma.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "derrame-encapsulado",
+   "n": 19,
+   "src": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg",
+   "topic": "resp-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Derrame encapsulado",
+   "frase": "Derrame que no se mueve con los cambios de posición: fase fibrinopurulenta.",
+   "claves": [
+    {
+     "t": "Opacidad pleural encapsulada",
+     "m": [
+      0.7,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Tabicaciones que no drenan: fibrinolíticos intrapleurales o VATS.",
+   "codes": [
+    "1.05.1.011"
+   ],
+   "confunde": "Derrame libre: se desplaza en decúbito.",
+   "q": "EUNACOM Julio 2024 · Pregunta 156",
+   "auto": false
+  },
+  {
+   "id": "derrame-masivo",
+   "n": 20,
+   "src": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg",
+   "topic": "resp-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Derrame pleural masivo izquierdo",
+   "frase": "Hemitórax blanco con el mediastino empujado al lado contrario.",
+   "claves": [
+    {
+     "t": "Hemitórax izquierdo opaco",
+     "m": [
+      0.7,
+      0.55,
+      0.12
+     ]
+    },
+    {
+     "t": "Mediastino desplazado a la derecha",
+     "m": [
+      0.35,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Derrame paraneumónico complicado o empiema: tubo pleural.",
+   "codes": [
+    "1.05.1.011"
+   ],
+   "confunde": "Atelectasia total: mediastino hacia el mismo lado.",
+   "q": "EUNACOM Julio 2018 · Pregunta 49",
+   "auto": true
+  },
+  {
+   "id": "derrame-rx",
+   "src": "_verificadas/166_resp_Derrame_complicado_y_empiema__cxrpdf_p98_1.jpg",
+   "topic": "resp-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Derrame pleural en la Rx de tórax",
+   "frase": "Opacidad basal que borra el ángulo costofrénico.",
+   "claves": [
+    {
+     "t": "Ángulo costofrénico borrado",
+     "m": [
+      0.2,
+      0.7,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Derrame paraneumónico: toracocentesis; pH < 7,20 o pus = tubo pleural.",
+   "codes": [
+    "1.05.1.011"
+   ],
+   "confunde": "Engrosamiento pleural: no se desplaza.",
+   "q": "EUNACOM Julio 2024 · Pregunta 156",
+   "auto": false,
+   "n": 21
+  },
+  {
+   "id": "neumotorax-espiracion",
+   "n": 22,
+   "src": "biblioteca/02_neumologia/resp-13/01_neumotorax_alt1__cto-radiologia_p23.jpg",
+   "topic": "resp-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumotórax: inspiración y espiración",
+   "frase": "En espiración el neumotórax se hace más evidente.",
+   "claves": [
+    {
+     "t": "Pérdida de trama periférica derecha",
+     "m": [
+      0.12,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Primario pequeño (< 2 cm): observación y oxígeno; grande o secundario: tubo.",
+   "codes": [
+    "1.05.1.031",
+    "1.05.1.032"
+   ],
+   "confunde": "Bula: sin línea pleural.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 93",
+   "auto": false
+  },
+  {
+   "id": "neumotorax-tension",
+   "n": 23,
+   "src": "biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg",
+   "topic": "resp-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumotórax a tensión",
+   "frase": "Pulmón colapsado sobre el hilio con el mediastino desplazado.",
+   "claves": [
+    {
+     "t": "Pulmón colapsado (flecha azul)",
+     "m": [
+      0.3,
+      0.55,
+      0.07
+     ]
+    },
+    {
+     "t": "Mediastino desplazado (flecha amarilla)",
+     "m": [
+      0.6,
+      0.12,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Diagnóstico clínico: descompresión con aguja sin esperar la radiografía; luego tubo.",
+   "codes": [
+    "1.05.2.011"
+   ],
+   "confunde": "Hemotórax masivo: matidez y yugulares colapsadas.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "torax-volante",
+   "src": "_verificadas/168_resp_Neumotórax_a_tensión_y_hemotór__lrpdf_p352_1.jpg",
+   "topic": "resp-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Tórax volante",
+   "frase": "Fracturas costales múltiples segmentarias con respiración paradójica.",
+   "claves": [
+    {
+     "t": "Fracturas costales (flechas)",
+     "m": [
+      0.6,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Analgesia, oxígeno y ventilación si hay insuficiencia respiratoria; buscar contusión pulmonar.",
+   "codes": [
+    "1.05.2.013"
+   ],
+   "confunde": "Fractura costal única: sin segmento volante.",
+   "q": "EUNACOM Julio 2024 · Pregunta 102",
+   "auto": false,
+   "n": 24
+  },
+  {
+   "id": "derrame-masivo-2",
+   "src": "_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg",
+   "topic": "resp-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Derrame pleural masivo",
+   "frase": "Hemitórax opaco con desplazamiento del mediastino al lado contrario.",
+   "claves": [
+    {
+     "t": "Hemitórax opaco",
+     "m": [
+      0.3,
+      0.6,
+      0.15
+     ]
+    },
+    {
+     "t": "Mediastino desplazado (flecha)",
+     "m": [
+      0.45,
+      0.25,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Toracocentesis evacuadora; en neoplasia, citología y pleurodesis.",
+   "codes": [
+    "1.05.1.010"
+   ],
+   "confunde": "Atelectasia total: tira el mediastino hacia el mismo lado.",
+   "q": "EUNACOM Julio 2013 · Pregunta 120",
+   "auto": false,
+   "n": 25
+  },
+  {
+   "id": "mesotelioma",
+   "n": 26,
+   "src": "biblioteca/02_neumologia/resp-15/10_mesotelioma-tc-engrosamiento-pleural__ctmri-atlas_p242.jpg",
+   "topic": "resp-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Mesotelioma pleural",
+   "frase": "Engrosamiento pleural lobulado que rodea el pulmón; exposición a asbesto.",
+   "claves": [
+    {
+     "t": "Engrosamiento pleural lobulado",
+     "m": [
+      0.25,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Biopsia pleural por videotoracoscopía.",
+   "codes": [
+    "4.01.1.042",
+    "1.05.1.010"
+   ],
+   "confunde": "Derrame neoplásico metastásico.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 176",
+   "auto": false
+  },
+  {
+   "id": "hamartoma",
+   "n": 27,
+   "src": "_verificadas/028_resp_Nódulo_pulmonar_solitario__BrantHelms_p461.jpg",
+   "topic": "resp-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hamartoma: calcificación en palomitas de maíz",
+   "frase": "Calcificación en popcorn con grasa: patognomónica de hamartoma.",
+   "claves": [
+    {
+     "t": "Calcificación en popcorn",
+     "m": [
+      0.22,
+      0.65,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Benigno: no requiere estudio adicional.",
+   "codes": [
+    "1.05.1.038",
+    "4.01.1.038"
+   ],
+   "confunde": "Nódulo espiculado: sospecha de cáncer.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "masa-irregular",
+   "src": "biblioteca/02_neumologia/resp-16/01_masa-pulmonar-bordes-irregulares-tc__cto-neumo_p139.jpg",
+   "topic": "resp-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Masa pulmonar de bordes irregulares",
+   "frase": "Bordes espiculados: sugieren cáncer.",
+   "claves": [
+    {
+     "t": "Masa de bordes irregulares",
+     "m": [
+      0.75,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TAC con contraste y estudio histológico.",
+   "codes": [
+    "1.05.1.038",
+    "1.05.1.007"
+   ],
+   "confunde": "Neumonía redonda: resuelve con antibiótico.",
+   "q": null,
+   "auto": false,
+   "n": 28
+  },
+  {
+   "id": "nodulo-subsolido",
+   "n": 29,
+   "src": "_web/170_resp_Nódulo_pulmonar_solitario__Commons_2.jpg",
+   "topic": "resp-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Nódulo parcialmente sólido",
+   "frase": "Parte sólido y parte en vidrio esmerilado: sugiere malignidad.",
+   "claves": [
+    {
+     "t": "Nódulo subsólido (círculo)",
+     "m": [
+      0.38,
+      0.32,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Seguimiento con TAC según Fleischner o resección.",
+   "codes": [
+    "1.05.1.038",
+    "1.05.4.002"
+   ],
+   "confunde": "Nódulo calcificado benigno.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "nodulo-espiculado",
+   "n": 30,
+   "src": "_web/027_resp_Nódulo_pulmonar_solitario__Commons_1.jpg",
+   "topic": "resp-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Nódulo pulmonar espiculado",
+   "frase": "Bordes espiculados, > 8 mm y en lóbulo superior: alta sospecha de cáncer.",
+   "claves": [
+    {
+     "t": "Nódulo de bordes espiculados",
+     "m": [
+      0.3,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Comparar con imágenes previas; PET-CT o biopsia según riesgo.",
+   "codes": [
+    "1.05.1.038",
+    "4.01.1.038"
+   ],
+   "confunde": "Hamartoma: liso con calcificación en popcorn.",
+   "q": "EUNACOM Julio 2013 · Pregunta 139",
+   "auto": true
+  },
+  {
+   "id": "pet-ct",
+   "n": 31,
+   "src": "_verificadas/343_resp_Nódulo_pulmonar_solitario__BrantHelms_p1547.jpg",
+   "topic": "resp-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "PET-CT: nódulo hipercaptante",
+   "frase": "El nódulo consume glucosa como un tumor.",
+   "claves": [
+    {
+     "t": "Nódulo hipercaptante",
+     "m": [
+      0.88,
+      0.12,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Riesgo intermedio y > 8 mm: PET-CT; si capta, biopsia o resección.",
+   "codes": [
+    "1.05.1.038"
+   ],
+   "confunde": "Granuloma inflamatorio: también puede captar.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "adenocarcinoma",
+   "n": 32,
+   "src": "biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_1__cto-neumo_p125.jpg",
+   "topic": "resp-17",
+   "type": "histologia",
+   "size": "half",
+   "title": "Adenocarcinoma de pulmón",
+   "frase": "Forma glándulas; el más frecuente, periférico, también en no fumadores.",
+   "claves": [
+    {
+     "t": "Estructuras glandulares",
+     "m": [
+      0.5,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Resecable (I-II): lobectomía.",
+   "codes": [
+    "1.05.1.007"
+   ],
+   "confunde": "Epidermoide: puentes y queratina, central.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "epidermoide",
+   "n": 33,
+   "src": "biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_2__cto-neumo_p125.jpg",
+   "topic": "resp-17",
+   "type": "histologia",
+   "size": "half",
+   "title": "Carcinoma epidermoide",
+   "frase": "Puentes intercelulares y queratina; central, cavita y da hipercalcemia (PTHrP).",
+   "claves": [
+    {
+     "t": "Nidos de células escamosas",
+     "m": [
+      0.5,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Masa hiliar cavitada en fumador: piensa en epidermoide.",
+   "codes": [
+    "1.05.1.007"
+   ],
+   "confunde": "Microcítico: central, no quirúrgico, SIADH.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "acropaquias",
+   "n": 34,
+   "src": "biblioteca/02_neumologia/resp-17/03_acropaquias__amir-reuma_p113.jpg",
+   "topic": "resp-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acropaquias (dedos en palillo de tambor)",
+   "frase": "Osteoartropatía hipertrófica pulmonar asociada al adenocarcinoma.",
+   "claves": [
+    {
+     "t": "Uñas en vidrio de reloj y pulpejo engrosado",
+     "m": [
+      0.2,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Acropaquia nueva en fumador: radiografía de tórax.",
+   "codes": [
+    "1.05.1.007",
+    "1.08.1.016"
+   ],
+   "confunde": "Uñas normales: ángulo de Lovibond conservado.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "vcs-tac",
+   "src": "../../books/figuras/atlas_eunacom_2026/171_media_resp_resp_17_cancer_pulmonar.jpg",
+   "topic": "resp-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Síndrome de vena cava superior en la TAC",
+   "frase": "Masa mediastínica que comprime la vena cava superior.",
+   "claves": [
+    {
+     "t": "Masa mediastínica",
+     "m": [
+      0.5,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "TAC con contraste y biopsia; microcítico: quimio o radioterapia urgente.",
+   "codes": [
+    "1.08.2.008"
+   ],
+   "confunde": "Aneurisma aórtico: realza como la aorta.",
+   "q": "EUNACOM Julio 2024 · Pregunta 66",
+   "auto": false,
+   "n": 35
+  },
+  {
+   "id": "vcs-colaterales",
+   "n": 36,
+   "src": "biblioteca/02_neumologia/resp-17/10_sindrome-vena-cava-superior-torax__knoop_p193.jpg",
+   "topic": "resp-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de vena cava superior",
+   "frase": "Venas colaterales dilatadas en el tórax con edema en esclavina.",
+   "claves": [
+    {
+     "t": "Circulación colateral torácica",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "TAC con contraste; microcítico: radioterapia o quimioterapia urgente.",
+   "codes": [
+    "1.08.2.008"
+   ],
+   "confunde": "Cabeza de medusa: periumbilical.",
+   "q": "EUNACOM Julio 2024 · Pregunta 66",
+   "auto": false
+  },
+  {
+   "id": "panal",
+   "n": 37,
+   "src": "biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc_alt1__cto-neumo_p73.jpg",
+   "topic": "resp-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fibrosis pulmonar idiopática: panal de abejas",
+   "frase": "Patrón NIU con panal de abejas subpleural y basal.",
+   "claves": [
+    {
+     "t": "Panal de abejas subpleural",
+     "m": [
+      0.15,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "NIU típico en > 60 años: no requiere biopsia; pirfenidona o nintedanib; corticoides contraindicados.",
+   "codes": [
+    "1.05.1.018"
+   ],
+   "confunde": "NINE: vidrio esmerilado sin panal.",
+   "q": "EUNACOM Julio 2024 · Pregunta 38",
+   "auto": true
+  },
+  {
+   "id": "fpi-rx",
+   "n": 38,
+   "src": "biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc__cto-neumo_p73.jpg",
+   "topic": "resp-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fibrosis pulmonar en la radiografía",
+   "frase": "Patrón reticular de predominio basal con volúmenes reducidos.",
+   "claves": [
+    {
+     "t": "Reticulación basal bilateral",
+     "m": [
+      0.3,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Crepitantes tipo velcro + acropaquia: TACAR.",
+   "codes": [
+    "1.05.1.018"
+   ],
+   "confunde": "Edema intersticial: cardiomegalia y Kerley.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 98",
+   "auto": false
+  },
+  {
+   "id": "nine",
+   "n": 39,
+   "src": "_verificadas/172_resp_Fibrosis_pulmonar_idiopática__nelsontext_p3338_1.jpg",
+   "topic": "resp-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "NINE: vidrio esmerilado",
+   "frase": "Vidrio esmerilado subpleural bilateral que respeta la franja bajo la pleura.",
+   "claves": [
+    {
+     "t": "Vidrio esmerilado subpleural (flechas)",
+     "m": [
+      0.2,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Patrón de esclerodermia, lupus y artritis reumatoide.",
+   "codes": [
+    "1.05.1.018"
+   ],
+   "confunde": "FPI: panal de abejas.",
+   "q": "EUNACOM Julio 2013 · Pregunta 64",
+   "auto": false
+  },
+  {
+   "id": "silicosis",
+   "n": 40,
+   "src": "biblioteca/02_neumologia/resp-18/10_silicosis-cronica-rx__harrison_p2210.jpg",
+   "topic": "resp-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Silicosis crónica",
+   "frase": "Nódulos mal definidos de predominio en los lóbulos superiores.",
+   "claves": [
+    {
+     "t": "Nódulos en los lóbulos superiores (flechas)",
+     "m": [
+      0.22,
+      0.2,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Exposición laboral (minería): retirar de la exposición.",
+   "codes": [
+    "1.05.1.026"
+   ],
+   "confunde": "TBC: cavitación; ambas se asocian.",
+   "q": "EUNACOM Enero 2023 · Pregunta 89",
+   "auto": true
+  },
+  {
+   "id": "asbestosis",
+   "n": 41,
+   "src": "biblioteca/02_neumologia/resp-18/11_asbestosis-tacar__harrison_p2209.jpg",
+   "topic": "resp-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Asbestosis en la TACAR",
+   "frase": "Reticulación subpleural basal con placas pleurales.",
+   "claves": [
+    {
+     "t": "Reticulación subpleural",
+     "m": [
+      0.2,
+      0.7,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Más riesgo de mesotelioma y cáncer pulmonar, sobre todo si fuma.",
+   "codes": [
+    "1.05.1.026"
+   ],
+   "confunde": "FPI: sin placas pleurales.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "tvp-tep",
+   "n": 42,
+   "src": "_web/173_resp_TEP__Commons_1.jpg",
+   "topic": "resp-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trombosis venosa profunda",
+   "frase": "Pierna más hinchada con la vena marcada: origen de > 90% de los TEP.",
+   "claves": [
+    {
+     "t": "Pierna derecha aumentada de volumen",
+     "m": [
+      0.3,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Eco-Doppler; anticoagulación.",
+   "codes": [
+    "1.05.1.015"
+   ],
+   "confunde": "Celulitis: placa eritematosa caliente.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "s1q3t3",
+   "n": 43,
+   "src": "biblioteca/02_neumologia/resp-19/01_ecg_tep_s1q3t3__ecg-basics_p195.jpg",
+   "topic": "resp-19",
+   "type": "ecg",
+   "size": "full",
+   "title": "ECG en TEP: S1Q3T3",
+   "frase": "S profunda en DI, Q y T invertida en DIII: específico pero en < 15-20%.",
+   "claves": [
+    {
+     "t": "S en DI",
+     "m": [
+      0.1,
+      0.12,
+      0.06
+     ]
+    },
+    {
+     "t": "Q y T negativa en DIII",
+     "m": [
+      0.12,
+      0.45,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Lo más frecuente es la taquicardia sinusal; el examen es el angioTAC.",
+   "codes": [
+    "1.05.1.015"
+   ],
+   "confunde": "Infarto inferior: supradesnivel en DII, DIII y aVF.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "angiotac-tep",
+   "n": 44,
+   "src": "biblioteca/02_neumologia/resp-19/01_angiotc-tep__cto-neumo_p103.jpg",
+   "topic": "resp-19",
+   "type": "imagen",
+   "size": "half",
+   "title": "AngioTAC: defecto de llenado",
+   "frase": "Defecto de llenado en las arterias pulmonares: el émbolo.",
+   "claves": [
+    {
+     "t": "Émbolo en la arteria pulmonar",
+     "m": [
+      0.52,
+      0.38,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Wells > 4: angioTAC directo; ≤ 4: dímero D primero.",
+   "codes": [
+    "1.05.1.015",
+    "4.01.4.010"
+   ],
+   "confunde": "Artefacto de flujo.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 21",
+   "auto": true
+  },
+  {
+   "id": "vd-dilatado",
+   "n": 45,
+   "src": "_verificadas/174_resp_TEP__PocketUS_p104.jpg",
+   "topic": "resp-19",
+   "type": "eco",
+   "size": "half",
+   "title": "Ecocardiograma: VD dilatado",
+   "frase": "Ventrículo derecho dilatado: disfunción en el TEP de riesgo intermedio-alto.",
+   "claves": [
+    {
+     "t": "VD mayor que el VI",
+     "m": [
+      0.35,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "TEP masivo con shock: trombólisis (alteplasa 100 mg en 2 h).",
+   "codes": [
+    "1.05.2.005"
+   ],
+   "confunde": "Hipertensión pulmonar crónica: pared del VD hipertrófica.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 99",
+   "auto": false
+  },
+  {
+   "id": "bronquiectasias",
+   "n": 46,
+   "src": "biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc__cto-neumo_p68.jpg",
+   "topic": "resp-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Bronquiectasias",
+   "frase": "Bronquios más anchos que la arteria que los acompaña (anillo de sello).",
+   "claves": [
+    {
+     "t": "Bronquios dilatados",
+     "m": [
+      0.75,
+      0.7,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TACAR confirma; kinesioterapia y antibióticos en exacerbaciones.",
+   "codes": [
+    "1.05.1.004"
+   ],
+   "confunde": "Enfisema: espacios sin pared.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 9",
+   "auto": true
+  },
+  {
+   "id": "bronquiectasias-graves",
+   "n": 47,
+   "src": "biblioteca/02_neumologia/resp-20/10_bronquiectasias-tac__harrison_p2216.jpg",
+   "topic": "resp-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Bronquiectasias graves",
+   "frase": "Bronquios dilatados en corte longitudinal y transversal.",
+   "claves": [
+    {
+     "t": "Bronquios quísticos dilatados",
+     "m": [
+      0.25,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Fibrosis quística en jóvenes: test del sudor.",
+   "codes": [
+    "1.05.1.004"
+   ],
+   "confunde": "Panal de abejas: subpleural y basal.",
+   "q": "EUNACOM Enero 2023 · Pregunta 87",
+   "auto": false
+  },
+  {
+   "id": "sdra",
+   "n": 48,
+   "src": "biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg",
+   "topic": "resp-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Síndrome de distrés respiratorio agudo",
+   "frase": "Opacidades bilaterales que no se explican por derrame, atelectasia ni nódulos.",
+   "claves": [
+    {
+     "t": "Infiltrado alveolar bilateral",
+     "m": [
+      0.3,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Volumen corriente 6 mL/kg de peso ideal, meseta ≤ 30; prono si PaFi < 150.",
+   "codes": [
+    "1.05.1.014",
+    "1.05.5.011"
+   ],
+   "confunde": "Edema cardiogénico: cardiomegalia y respuesta al diurético.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "edema-cardiogenico",
+   "n": 49,
+   "src": "biblioteca/04_respiratorio/resp-22/atlas_029_rx_de_edema_pulmonar_cardiogen.jpg",
+   "topic": "resp-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Edema pulmonar cardiogénico",
+   "frase": "Edema con corazón grande.",
+   "claves": [
+    {
+     "t": "Cardiomegalia",
+     "m": [
+      0.5,
+      0.65,
+      0.12
+     ]
+    },
+    {
+     "t": "Congestión perihiliar",
+     "m": [
+      0.3,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Furosemida, nitroglicerina y CPAP.",
+   "codes": [
+    "1.05.1.014"
+   ],
+   "confunde": "SDRA: corazón normal, no responde al diurético.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "kerley",
+   "n": 50,
+   "src": "biblioteca/02_neumologia/resp-22/02_lineas-b-kerley__cto-radiologia_p11.jpg",
+   "topic": "resp-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Líneas B de Kerley",
+   "frase": "Líneas septales cortas en la base: edema intersticial por presión.",
+   "claves": [
+    {
+     "t": "Líneas B de Kerley (flecha)",
+     "m": [
+      0.42,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Edema hidrostático: diurético de asa y vasodilatador.",
+   "codes": [
+    "1.05.1.014"
+   ],
+   "confunde": "Fibrosis: reticulado fijo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "polisomnografia-real",
+   "src": "biblioteca/02_neumologia/resp-23/02_polisomnografia_real__commons.jpg",
+   "topic": "resp-23",
+   "type": "ecg",
+   "size": "half",
+   "title": "Polisomnografía",
+   "frase": "Registro nocturno de flujo, esfuerzo, saturación, ECG y EEG.",
+   "claves": [
+    {
+     "t": "Canales de flujo y esfuerzo",
+     "m": [
+      0.5,
+      0.25,
+      0.12
+     ]
+    },
+    {
+     "t": "Saturación de oxígeno",
+     "m": [
+      0.5,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "IAH ≥ 15: CPAP nasal nocturno.",
+   "codes": [
+    "1.05.1.033",
+    "6.03.4.009"
+   ],
+   "confunde": "Poligrafía respiratoria: alternativa ambulatoria.",
+   "q": "EUNACOM Julio 2017 · Pregunta 13",
+   "auto": false,
+   "n": 51
+  },
+  {
+   "id": "polisomnografia",
+   "n": 52,
+   "src": "biblioteca/02_neumologia/resp-23/S1_polisomnografia-apnea__propio.svg",
+   "topic": "resp-23",
+   "type": "esquema",
+   "size": "half",
+   "title": "Apnea obstructiva en la polisomnografía",
+   "frase": "El flujo se detiene pero el esfuerzo continúa: la vía aérea está cerrada.",
+   "claves": [
+    {
+     "t": "Flujo nasal ausente ≥ 10 s"
+    },
+    {
+     "t": "Esfuerzo torácico mantenido"
+    },
+    {
+     "t": "Desaturación con retraso"
+    }
+   ],
+   "conducta": "IAH ≥ 15: CPAP nasal nocturno; sedantes y alcohol contraindicados.",
+   "codes": [
+    "1.05.1.033",
+    "6.03.4.009"
+   ],
+   "confunde": "Apnea central: sin esfuerzo torácico.",
+   "q": "EUNACOM Julio 2017 · Pregunta 13",
+   "auto": false
+  },
+  {
+   "id": "co-curva",
+   "n": 53,
+   "src": "biblioteca/02_neumologia/resp-24/S1_co-curva-disociacion__propio.svg",
+   "topic": "resp-24",
+   "type": "esquema",
+   "size": "half",
+   "title": "Monóxido de carbono y curva de disociación",
+   "frase": "El CO desplaza la curva a la izquierda: la hemoglobina no entrega el oxígeno.",
+   "claves": [
+    {
+     "t": "El saturómetro puede marcar normal"
+    },
+    {
+     "t": "COHb ocupa la hemoglobina (afinidad ~240 veces)"
+    }
+   ],
+   "conducta": "Oxígeno al 100% con mascarilla de reservorio; COHb por co-oximetría.",
+   "codes": [
+    "1.05.2.010",
+    "1.05.4.014"
+   ],
+   "confunde": "Hipoxemia común: el saturómetro sí la detecta.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 10",
+   "auto": false
+  },
+  {
+   "id": "ahogamiento-sdra",
+   "n": 54,
+   "src": "biblioteca/02_neumologia/resp-25/01_sdra-rx-torax__harrison_p2267.jpg",
+   "topic": "resp-25",
+   "type": "imagen",
+   "size": "half",
+   "title": "Ahogamiento: edema pulmonar no cardiogénico",
+   "frase": "El agua lava el surfactante: opacidades bilaterales.",
+   "claves": [
+    {
+     "t": "Opacidades bilaterales",
+     "m": [
+      0.3,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Todo ahogado se observa 6-8 h; el paro es hipóxico (5 ventilaciones de rescate).",
+   "codes": [
+    "1.05.2.001"
+   ],
+   "confunde": "Edema cardiogénico: cardiomegalia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "osborn",
+   "n": 55,
+   "src": "biblioteca/02_neumologia/resp-25/10_ecg-hipotermia-ondas-j-osborn__knoop_p551.jpg",
+   "topic": "resp-25",
+   "type": "ecg",
+   "size": "full",
+   "title": "Hipotermia: onda J de Osborn",
+   "frase": "Joroba al final del QRS en la hipotermia moderada a grave.",
+   "claves": [
+    {
+     "t": "Onda J de Osborn",
+     "m": [
+      0.58,
+      0.48,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Recalentamiento escalonado y manipulación cuidadosa (riesgo de FV).",
+   "codes": [
+    "1.07.1.011"
+   ],
+   "confunde": "Supradesnivel del ST isquémico.",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "consolidacion",
+   "b": "mycoplasma",
+   "title": "Neumonía típica vs atípica",
+   "la": [
+    "Consolidación lobar",
+    "Neumococo"
+   ],
+   "lb": [
+    "Infiltrado intersticial perihiliar",
+    "Disociación clínico-radiológica"
+   ],
+   "diff": "Mycoplasma no tiene pared: no responde a betalactámicos."
+  },
+  {
+   "a": "hamartoma",
+   "b": "nodulo-espiculado",
+   "title": "Nódulo benigno vs maligno",
+   "la": [
+    "Calcificación en popcorn"
+   ],
+   "lb": [
+    "Bordes espiculados, > 8 mm"
+   ],
+   "diff": "El patrón del calcio y el borde orientan; la estabilidad ≥ 2 años confirma benignidad."
+  },
+  {
+   "a": "panal",
+   "b": "nine",
+   "title": "FPI (NIU) vs NINE",
+   "la": [
+    "Panal de abejas subpleural",
+    "Antifibróticos"
+   ],
+   "lb": [
+    "Vidrio esmerilado",
+    "Mesenquimopatías"
+   ],
+   "diff": "En la FPI los corticoides están contraindicados."
+  },
+  {
+   "a": "sdra",
+   "b": "edema-cardiogenico",
+   "title": "SDRA vs edema cardiogénico",
+   "la": [
+    "Opacidades bilaterales",
+    "Corazón normal"
+   ],
+   "lb": [
+    "Cardiomegalia",
+    "Responde al diurético"
+   ],
+   "diff": "El ecocardiograma decide si la falla cardíaca explica el cuadro."
+  },
+  {
+   "a": "derrame-masivo",
+   "b": "neumotorax-tension",
+   "title": "Derrame masivo vs neumotórax a tensión",
+   "la": [
+    "Hemitórax blanco",
+    "Matidez"
+   ],
+   "lb": [
+    "Hemitórax negro",
+    "Timpanismo, shock"
+   ],
+   "diff": "Ambos empujan el mediastino; el neumotórax a tensión se descomprime sin radiografía."
+  },
+  {
+   "a": "miliar-rx",
+   "b": "silicosis",
+   "title": "TBC miliar vs silicosis",
+   "la": [
+    "Micronódulos difusos"
+   ],
+   "lb": [
+    "Nódulos en lóbulos superiores"
+   ],
+   "diff": "La silicosis exige antecedente laboral y se asocia a TBC."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Broncograma aéreo",
+   "dx": "Consolidación alveolar (neumonía).",
+   "find": "broncograma",
+   "topic": "resp-06",
+   "img": "broncograma",
+   "def": "Bronquios con aire visibles dentro de la condensación."
+  },
+  {
+   "name": "Calcificación en palomitas de maíz",
+   "dx": "Hamartoma pulmonar.",
+   "find": "popcorn",
+   "topic": "resp-16",
+   "img": "hamartoma",
+   "def": "Calcificación grumosa dentro de un nódulo con grasa."
+  },
+  {
+   "name": "Panal de abejas",
+   "dx": "Fibrosis pulmonar idiopática (NIU).",
+   "find": "panal de abejas",
+   "topic": "resp-18",
+   "img": "panal",
+   "def": "Quistes subpleurales apilados en las bases."
+  },
+  {
+   "name": "Crepitantes tipo velcro",
+   "dx": "Fibrosis pulmonar idiopática.",
+   "find": "velcro",
+   "topic": "resp-18",
+   "def": "Crepitantes secos bibasales."
+  },
+  {
+   "name": "Signo del anillo de sello",
+   "dx": "Bronquiectasias.",
+   "find": "anillo de sello",
+   "topic": "resp-20",
+   "img": "bronquiectasias",
+   "def": "Bronquio más ancho que la arteria que lo acompaña."
+  },
+  {
+   "name": "S1Q3T3 (McGinn-White)",
+   "dx": "Tromboembolismo pulmonar.",
+   "find": "S1Q3T3",
+   "topic": "resp-19",
+   "img": "s1q3t3",
+   "def": "S en DI, Q y T negativa en DIII."
+  },
+  {
+   "name": "Síndrome de Horner",
+   "dx": "Tumor de Pancoast.",
+   "find": "Horner",
+   "topic": "resp-17",
+   "def": "Ptosis, miosis y anhidrosis ipsilateral."
+  },
+  {
+   "name": "Onda J de Osborn",
+   "dx": "Hipotermia.",
+   "find": "Osborn",
+   "topic": "resp-25",
+   "img": "osborn",
+   "def": "Joroba al final del QRS."
+  },
+  {
+   "name": "Criterios de Light",
+   "dx": "Exudado pleural.",
+   "find": "Light",
+   "topic": "resp-11",
+   "img": "derrame",
+   "def": "Proteínas LP/S > 0,5, LDH LP/S > 0,6 o LDH LP > 2/3 del límite sérico."
+  },
+  {
+   "name": "Edema en esclavina",
+   "dx": "Síndrome de vena cava superior.",
+   "find": "esclavina",
+   "topic": "resp-17",
+   "img": "vcs-colaterales",
+   "def": "Edema de cara, cuello y brazos."
+  },
+  {
+   "name": "Cáscara de huevo",
+   "dx": "Silicosis.",
+   "find": "cáscara de huevo",
+   "topic": "resp-18",
+   "img": "silicosis",
+   "def": "Calcificación periférica de las adenopatías hiliares."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 55
+ }
+}

@@ -21,7 +21,7 @@ module.exports = {
         { title: 'Clínica', tag: 'Pestañas pegadas', kind: 'criteria', items: [
           { t: 'Secreción mucopurulenta espesa', d: 'Aglutina pestañas y párpados al despertar',
             say: 'Empecemos por la bacteriana común, causada sobre todo por estafilococo dorado, neumococo y haemófilus. Su sello es la secreción mucopurulenta espesa y abundante: el paciente despierta con los párpados y las pestañas pegados. Mira este ojo: la secreción amarillenta se acumula en el borde y en los fondos de saco.',
-            photo: { src: 'biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg', label: 'Bacteriana', at: 'Mira este ojo', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 147" } },
+            photo: { src: 'biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg', label: 'Conjuntivitis bacteriana: hiperemia y secreción mucopurulenta', at: 'Mira este ojo', credit: "Kanski's Clinical Ophthalmology, 8.ª ed., p. 150" } },
           { t: 'Sin dolor profundo ni baja de visión', d: 'Inyección conjuntival difusa',
             say: 'La inyección es conjuntival difusa, sin dolor profundo y sin alteración visual. Recuerda la clase pasada: eso es justamente lo que la mantiene del lado superficial. En esta otra foto el ojo está rojo y con secreción, pero la córnea y la pupila se ven normales.',
             photo: { src: 'biblioteca/12_oftalmologia/oftal-02/01_conjuntivitis-aguda__cto-oftalmo_p33.jpg', label: 'Conjuntivitis aguda', at: 'En esta otra foto', credit: 'Manual CTO Oftalmología 14.ª ed., p. 33' } },

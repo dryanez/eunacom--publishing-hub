@@ -1,0 +1,755 @@
+{
+ "libro": "nefrologia",
+ "title": "Nefrología",
+ "prefix": "nefro",
+ "topics": {
+  "nefro-01": "Injuria Renal Aguda (KDIGO) y Diferenciación Prerrenal vs Intrínseca",
+  "nefro-02": "Necrosis Tubular Aguda (NTA) y Nefritis Túbulo-Intersticial Aguda (NTIA)",
+  "nefro-03": "Síndrome Urémico y Urgencias Dialíticas (Criterios AEIOU)",
+  "nefro-04": "Síndrome Cardiorrenal y Síndrome Hepatorrenal",
+  "nefro-05": "Hiponatremia Hipotónica y Síndrome de Desmielinización Osmótica",
+  "nefro-06": "SIADH vs Síndrome Pierde Sal Cerebral y Polidipsia Primaria",
+  "nefro-07": "Hipernatremia y Diabetes Insípida (Central vs Nefrogénica)",
+  "nefro-08": "Fluidoterapia y Terapia Diurética en la Práctica Clínica",
+  "nefro-09": "Hiperkalemia Grave y Algoritmo de Estabilización de Membrana",
+  "nefro-10": "Hipokalemia y Reposición Segura de Potasio",
+  "nefro-11": "Acidosis Metabólica",
+  "nefro-12": "Alcalosis Metabólica y Trastornos Ácido-Base Mixtos",
+  "nefro-13": "Síndrome Nefrótico y Complicaciones Trombóticas",
+  "nefro-14": "Glomerulopatías Primarias del Adulto",
+  "nefro-15": "Síndrome Nefrítico y Glomerulonefritis Postestreptocócica (GNPE)",
+  "nefro-16": "Glomerulonefritis Rápidamente Progresiva (GNRP) y Vasculitis ANCA",
+  "nefro-17": "Nefropatía Lúpica",
+  "nefro-18": "Enfermedad Renal Crónica (KDIGO) y Garantías Explícitas en Salud (GES)",
+  "nefro-19": "Complicaciones de la ERC",
+  "nefro-20": "Hipertensión Secundaria y Estenosis de la Arteria Renal",
+  "nefro-21": "Pielonefritis Aguda e Infecciones Urinarias Altas en el Adulto",
+  "nefro-22": "Ajuste de Fármacos en Insuficiencia Renal y Nefrotoxicidad Prevenible"
+ },
+ "refs": 33,
+ "images": [
+  {
+   "id": "02_ecografia-hidronefrosis__bailey-love_",
+   "src": "biblioteca/03_nefrologia/nefro-01/02_ecografia-hidronefrosis__bailey-love_p1433.jpg",
+   "topic": "nefro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hidronefrosis (ecografía)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_tac-hidronefrosis-bilateral__bailey-l",
+   "src": "biblioteca/03_nefrologia/nefro-01/03_tac-hidronefrosis-bilateral__bailey-love_p1482.jpg",
+   "topic": "nefro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hidronefrosis bilateral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sedimento-hematuria-glomerular__cto-n",
+   "src": "biblioteca/03_nefrologia/nefro-01/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg",
+   "topic": "nefro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematíes dismórficos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tipos-de-cilindros_alt1_2__cto-nefro_",
+   "src": "biblioteca/03_nefrologia/nefro-02/01_tipos-de-cilindros_alt1_2__cto-nefro_p34.jpg",
+   "topic": "nefro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tipos de cilindros",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_exantema-por-farmaco__cto-derma_p9",
+   "src": "biblioteca/03_nefrologia/nefro-02/03_exantema-por-farmaco__cto-derma_p9.jpg",
+   "topic": "nefro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema por fármaco",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_sedimento-leucocituria-nia__cto-nefro",
+   "src": "biblioteca/03_nefrologia/nefro-02/02_sedimento-leucocituria-nia__cto-nefro_p33.jpg",
+   "topic": "nefro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucocituria en NIA",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_111_rm_de_mielinolisis_pontina_cen",
+   "src": "biblioteca/07_nefrologia/nefro-05/atlas_111_rm_de_mielinolisis_pontina_cen.jpg",
+   "topic": "nefro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mielinólisis pontina",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ecg_hiperk",
+   "src": "nefro-09/ecg_hiperk.jpg",
+   "topic": "nefro-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "ECG antes y tras diálisis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-hiperpotasemia-t-picudas-sinusoid",
+   "src": "biblioteca/03_nefrologia/nefro-09/01_ecg-hiperpotasemia-t-picudas-sinusoidal_alt1__cto-cardio_p19.jpg",
+   "topic": "nefro-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "T picudas y QRS ancho",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-hipopotasemia-ondas-u__cto-nefro_",
+   "src": "biblioteca/03_nefrologia/nefro-10/01_ecg-hipopotasemia-ondas-u__cto-nefro_p22.jpg",
+   "topic": "nefro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Onda U",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_edema_fovea__bates_p559",
+   "src": "biblioteca/03_nefrologia/nefro-13/01_edema_fovea__bates_p559.jpg",
+   "topic": "nefro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema con fóvea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_edema_facial_nino_nefrosis__cdc-phil-",
+   "src": "biblioteca/03_nefrologia/nefro-13/02_edema_facial_nino_nefrosis__cdc-phil-3894.jpg",
+   "topic": "nefro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema facial y palpebral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_amiloide_rojo_congo_polarizada__golja",
+   "src": "biblioteca/03_nefrologia/nefro-13/03_amiloide_rojo_congo_polarizada__goljan_p172.jpg",
+   "topic": "nefro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rojo Congo y luz polarizada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_biopsia-membranosa__nelson_p4100",
+   "src": "biblioteca/07_nefrologia/nefro-14/01_biopsia-membranosa__nelson_p4100.jpg",
+   "topic": "nefro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nefropatía membranosa: membrana basal glomerular engrosada (tinción de plata)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_tira-de-orina-hematuria-proteinuria__",
+   "src": "biblioteca/03_nefrologia/nefro-15/02_tira-de-orina-hematuria-proteinuria__cto-pediatria_p81.jpg",
+   "topic": "nefro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tira de orina",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_cilindro-hematico__amir-nefro17_p46",
+   "src": "biblioteca/03_nefrologia/nefro-15/01_cilindro-hematico__amir-nefro17_p46.jpg",
+   "topic": "nefro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cilindro hemático",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_115_biopsia_renal_con_semiluna_glo",
+   "src": "biblioteca/07_nefrologia/nefro-16/atlas_115_biopsia_renal_con_semiluna_glo.jpg",
+   "topic": "nefro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Semiluna en el glomérulo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_116_semilunas_if_lineal__open-i",
+   "src": "biblioteca/07_nefrologia/nefro-16/atlas_116_semilunas_if_lineal__open-i.jpg",
+   "topic": "nefro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Semilunas e IF lineal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_014_hemorragia_alveolar_goodpastur",
+   "src": "biblioteca/07_nefrologia/nefro-16/atlas_014_hemorragia_alveolar_goodpasture__brant-helms_p446.jpg",
+   "topic": "nefro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorragia alveolar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "015_alta_nefro_nefro_16_gn_rapidamente_p",
+   "src": "../../books/figuras/atlas_eunacom_2026/015_alta_nefro_nefro_16_gn_rapidamente_progresiva.jpg",
+   "topic": "nefro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos pulmonares cavitados en granulomatosis con poliangeítis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fistula_av_radiocefalica__kumar-clark",
+   "src": "biblioteca/07_nefrologia/nefro-18/01_fistula_av_radiocefalica__kumar-clark_p886.jpg",
+   "topic": "nefro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fístula radiocefálica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_kdigo__propio",
+   "src": "biblioteca/03_nefrologia/nefro-18/S1_kdigo__propio.svg",
+   "topic": "nefro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Filtrado y albuminuria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_323_calcifilaxis_arteriolopatia_ur",
+   "src": "biblioteca/07_nefrologia/nefro-19/atlas_323_calcifilaxis_arteriolopatia_ur.jpg",
+   "topic": "nefro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Calcifilaxis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_complicaciones-erc__propio",
+   "src": "biblioteca/03_nefrologia/nefro-19/S1_complicaciones-erc__propio.svg",
+   "topic": "nefro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Complicaciones",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "324_nefro_Complicaciones_de_la_ERC__Comm",
+   "src": "_web/324_nefro_Complicaciones_de_la_ERC__Commons_2.jpg",
+   "topic": "nefro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Osteodistrofia renal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_angiotc_arteria_renal_fmd__harrison_p",
+   "src": "biblioteca/03_nefrologia/nefro-20/01_angiotc_arteria_renal_fmd__harrison_p2132.jpg",
+   "topic": "nefro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "AngioTC renal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_016_fmd_collar_perlas__commons",
+   "src": "biblioteca/07_nefrologia/nefro-20/atlas_016_fmd_collar_perlas__commons.jpg",
+   "topic": "nefro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Collar de perlas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_325_estenosis_ostial__ctmri_p357",
+   "src": "biblioteca/07_nefrologia/nefro-20/atlas_325_estenosis_ostial__ctmri_p357.jpg",
+   "topic": "nefro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Estenosis ostial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_retinopatia-hipertensiva__harrison_p2",
+   "src": "biblioteca/07_nefrologia/nefro-20/01_retinopatia-hipertensiva__harrison_p263.jpg",
+   "topic": "nefro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Retinopatía hipertensiva con borramiento del disco óptico, hemorragias dispersas, exudados algodonosos (infartos de la capa de fibras nerviosas) y exudado foveal en un hombre de 62 años con insuficiencia renal crónica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "118_nefro_Pielonefritis_aguda__nelsontex",
+   "src": "_verificadas/118_nefro_Pielonefritis_aguda__nelsontext_p4209_1.jpg",
+   "topic": "nefro-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso renal en TAC con contraste",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

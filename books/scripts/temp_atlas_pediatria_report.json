@@ -1,0 +1,436 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 44,
+  "where": {
+   "IMG-curva-peso": 4,
+   "IMG-hitos": 4,
+   "IMG-acople": 5,
+   "IMG-acople-foto": 5,
+   "IMG-succion": 6,
+   "IMG-mancha-mongolica": 6,
+   "IMG-crowe": 7,
+   "IMG-vitiligo": 7,
+   "IMG-facies-down": 8,
+   "IMG-brushfield": 8,
+   "IMG-piel-nuca": 9,
+   "IMG-hipotonia-down": 9,
+   "IMG-quemadura-calcetin": 10,
+   "IMG-quemadura-guante": 10,
+   "IMG-fracturas-maltrato": 11,
+   "IMG-hemorragias-retinianas": 11,
+   "IMG-distres-bronquiolitis": 12,
+   "IMG-hiperinsuflacion": 12,
+   "IMG-campanario": 13,
+   "IMG-epiglotis-ped": 13,
+   "IMG-pulgar-ped": 14,
+   "IMG-neumonia-lobar": 14,
+   "IMG-neumonia-redonda": 15,
+   "IMG-infiltrado-intersticial": 15,
+   "IMG-consolidacion": 16,
+   "IMG-cuerpo-extrano-bronquio": 16,
+   "IMG-desobstruccion-lactante": 17,
+   "IMG-heimlich": 17,
+   "IMG-tsv": 18,
+   "IMG-wpw": 18,
+   "IMG-vegetaciones": 19,
+   "IMG-ecg-recien-nacido": 19,
+   "IMG-ecg-nino": 20,
+   "IMG-lesion-caustica": 20,
+   "IMG-exantema-subito": 21,
+   "IMG-bofetada": 21,
+   "IMG-lengua-fresa-blanca": 22,
+   "IMG-kawasaki-labios": 22,
+   "IMG-escarlatina": 23,
+   "IMG-cataratas-rubeola": 23,
+   "IMG-koplik": 24,
+   "IMG-pliegue-ped": 24,
+   "IMG-piloro": 25,
+   "IMG-jalea-grosella": 25,
+   "IMG-diana": 26,
+   "IMG-doble-burbuja": 26,
+   "IMG-doble-burbuja-2": 27,
+   "IMG-menisco-enema": 27,
+   "IMG-grados-reflujo": 28,
+   "IMG-reflujo-alto": 28,
+   "IMG-dmsa": 29,
+   "IMG-wiskott": 29,
+   "IMG-compresiones-neonatales": 30,
+   "IMG-atresia-coanas": 30,
+   "IMG-capurro": 31,
+   "IMG-rop": 31,
+   "IMG-ictericia-neonatal": 32,
+   "IMG-bhutani": 32,
+   "IMG-membrana-hialina": 33,
+   "IMG-ttrn": 33,
+   "IMG-meconial": 34,
+   "IMG-hipotiroidismo-ped": 34,
+   "IMG-puncion-talon": 35,
+   "IMG-papel-filtro": 35,
+   "IMG-ortolani-ped": 36,
+   "IMG-barlow": 36,
+   "IMG-graf": 37,
+   "IMG-pavlik": 37,
+   "IMG-rx-ddc": 38,
+   "IMG-rx-ddc-2": 38,
+   "PAIRS": 39,
+   "SIGNS": 41,
+   "TYPES": 42,
+   "AUTO": 43,
+   "SOL": 44
+  }
+ },
+ "tomo": [
+  {
+   "id": "curva-peso",
+   "p": 9,
+   "exact": true
+  },
+  {
+   "id": "hitos",
+   "p": 13,
+   "exact": false
+  },
+  {
+   "id": "acople",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "acople-foto",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "succion",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "mancha-mongolica",
+   "p": 19,
+   "exact": true
+  },
+  {
+   "id": "crowe",
+   "p": 19,
+   "exact": true
+  },
+  {
+   "id": "vitiligo",
+   "p": 19,
+   "exact": true
+  },
+  {
+   "id": "facies-down",
+   "p": 24,
+   "exact": true
+  },
+  {
+   "id": "brushfield",
+   "p": 24,
+   "exact": true
+  },
+  {
+   "id": "piel-nuca",
+   "p": 24,
+   "exact": true
+  },
+  {
+   "id": "hipotonia-down",
+   "p": 24,
+   "exact": false
+  },
+  {
+   "id": "quemadura-calcetin",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "quemadura-guante",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "fracturas-maltrato",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "hemorragias-retinianas",
+   "p": 29,
+   "exact": true
+  },
+  {
+   "id": "distres-bronquiolitis",
+   "p": 37,
+   "exact": true
+  },
+  {
+   "id": "hiperinsuflacion",
+   "p": 37,
+   "exact": true
+  },
+  {
+   "id": "campanario",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "epiglotis-ped",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "pulgar-ped",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "neumonia-lobar",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "neumonia-redonda",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "infiltrado-intersticial",
+   "p": 46,
+   "exact": true
+  },
+  {
+   "id": "consolidacion",
+   "p": 46,
+   "exact": true
+  },
+  {
+   "id": "cuerpo-extrano-bronquio",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "desobstruccion-lactante",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "heimlich",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "tsv",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "wpw",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "vegetaciones",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "ecg-recien-nacido",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "ecg-nino",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "lesion-caustica",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "exantema-subito",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "bofetada",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "lengua-fresa-blanca",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "kawasaki-labios",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "escarlatina",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "cataratas-rubeola",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "koplik",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "pliegue-ped",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "piloro",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "jalea-grosella",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "diana",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "doble-burbuja",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "doble-burbuja-2",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "menisco-enema",
+   "p": 85,
+   "exact": false
+  },
+  {
+   "id": "grados-reflujo",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "reflujo-alto",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "dmsa",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "wiskott",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "compresiones-neonatales",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "atresia-coanas",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "capurro",
+   "p": 115,
+   "exact": true
+  },
+  {
+   "id": "rop",
+   "p": 115,
+   "exact": true
+  },
+  {
+   "id": "ictericia-neonatal",
+   "p": 119,
+   "exact": true
+  },
+  {
+   "id": "bhutani",
+   "p": 119,
+   "exact": true
+  },
+  {
+   "id": "membrana-hialina",
+   "p": 123,
+   "exact": true
+  },
+  {
+   "id": "ttrn",
+   "p": 123,
+   "exact": true
+  },
+  {
+   "id": "meconial",
+   "p": 123,
+   "exact": true
+  },
+  {
+   "id": "hipotiroidismo-ped",
+   "p": 136,
+   "exact": true
+  },
+  {
+   "id": "puncion-talon",
+   "p": 136,
+   "exact": true
+  },
+  {
+   "id": "papel-filtro",
+   "p": 136,
+   "exact": true
+  },
+  {
+   "id": "ortolani-ped",
+   "p": 141,
+   "exact": true
+  },
+  {
+   "id": "barlow",
+   "p": 141,
+   "exact": true
+  },
+  {
+   "id": "graf",
+   "p": 141,
+   "exact": true
+  },
+  {
+   "id": "pavlik",
+   "p": 143,
+   "exact": true
+  },
+  {
+   "id": "rx-ddc",
+   "p": 140,
+   "exact": false
+  },
+  {
+   "id": "rx-ddc-2",
+   "p": 140,
+   "exact": false
+  }
+ ]
+}

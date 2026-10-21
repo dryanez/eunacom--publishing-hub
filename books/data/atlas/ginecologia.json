@@ -1,0 +1,1507 @@
+{
+ "libro": "ginecologia",
+ "title": "Ginecología y Oncología",
+ "prefix": "gin",
+ "topics": {
+  "gin-01": "Fisiología del Ciclo Menstrual, Eje Hipotálamo-Hipófisis-Ovario y Estudio de la Amenorrea",
+  "gin-02": "Síndrome de Ovario Poliquístico (SOP)",
+  "gin-03": "Sangrado Uterino Anormal (SUA)",
+  "gin-04": "Patología Benigna Uterina",
+  "gin-05": "Endometriosis y Adenomiosis",
+  "gin-06": "Prolapso de Órganos Pélvicos (POP-Q) e Incontinencia Urinaria de Esfuerzo vs Urgencia",
+  "gin-07": "Infertilidad Conyugal",
+  "gin-08": "Anticoncepción y Planificación Familiar",
+  "gin-09": "Infecciones del Tracto Genital Inferior",
+  "gin-10": "Patología Vulvar y Glándula de Bartolino",
+  "gin-11": "Enfermedad Pélvica Inflamatoria (EIP / PIP)",
+  "gin-13": "Cáncer Cervicouterino (CCU) GES, Lesiones Preinvasoras (Bethesda) y Colposcopía",
+  "gin-14": "Cáncer de Mama GES, Tamizaje Mamográfico (BI-RADS) y Patología Mamaria Benigna",
+  "gin-15": "Cáncer de Endometrio y Masa Anexial / Cáncer de Ovario",
+  "gin-16": "Urgencias Ginecológicas Quirúrgicas"
+ },
+ "images": [
+  {
+   "id": "ciclo-menstrual",
+   "n": 1,
+   "src": "biblioteca/13_ginecologia/gin-01/S1_ciclo-menstrual__propio.svg",
+   "topic": "gin-01",
+   "type": "esquema",
+   "size": "half",
+   "title": "Ciclo menstrual de 28 días",
+   "frase": "Peak de LH en el día 14 y progesterona en la fase lútea.",
+   "claves": [
+    {
+     "t": "Peak de LH",
+     "m": [
+      0.5,
+      0.32,
+      0.05
+     ]
+    },
+    {
+     "t": "Progesterona",
+     "m": [
+      0.75,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Amenorrea: primero descartar embarazo.",
+   "codes": [
+    "3.01.1.012",
+    "1.03.1.010"
+   ],
+   "confunde": "Ciclo anovulatorio: sin alza de progesterona.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 19",
+   "auto": false
+  },
+  {
+   "id": "turner",
+   "n": 2,
+   "src": "biblioteca/13_ginecologia/gin-01/02_turner-cuello-alado__zitelli_p37.jpg",
+   "topic": "gin-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de Turner",
+   "frase": "Cuello alado y linfedema.",
+   "claves": [
+    {
+     "t": "Cuello alado",
+     "m": [
+      0.55,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Amenorrea primaria con FSH alta: cariograma.",
+   "codes": [
+    "3.01.1.012"
+   ],
+   "confunde": "Noonan: cariotipo normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "macroprolactinoma",
+   "n": 3,
+   "src": "biblioteca/13_ginecologia/gin-01/01_macroprolactinoma-rm__amir-endocrino_p24.jpg",
+   "topic": "gin-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "Macroprolactinoma en la RM",
+   "frase": "Masa selar.",
+   "claves": [
+    {
+     "t": "Macroadenoma",
+     "m": [
+      0.4,
+      0.22,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Prolactina muy alta: cabergolina.",
+   "codes": [
+    "1.03.1.016"
+   ],
+   "confunde": "Pseudoprolactinoma: prolactina moderada.",
+   "q": "EUNACOM Julio 2015 · Pregunta 111",
+   "auto": false
+  },
+  {
+   "id": "acantosis-sop",
+   "n": 4,
+   "src": "biblioteca/13_ginecologia/gin-02/02_acantosis-nigricans__amir-derma_p30.jpg",
+   "topic": "gin-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis nigricans",
+   "frase": "Hiperpigmentación aterciopelada en el pliegue.",
+   "claves": [
+    {
+     "t": "Acantosis",
+     "m": [
+      0.55,
+      0.55,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "SOP con resistencia a la insulina: metformina y estilo de vida.",
+   "codes": [
+    "3.01.3.015"
+   ],
+   "confunde": "Suciedad.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ovario-poliquistico",
+   "n": 5,
+   "src": "biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg",
+   "topic": "gin-02",
+   "type": "eco",
+   "size": "half",
+   "title": "Ovario poliquístico",
+   "frase": "Muchos folículos periféricos en collar.",
+   "claves": [
+    {
+     "t": "Folículos periféricos",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Rotterdam: 2 de 3 criterios.",
+   "codes": [
+    "3.01.3.015",
+    "3.01.1.022"
+   ],
+   "confunde": "Ovario multifolicular normal.",
+   "q": "EUNACOM Julio 2025 · Pregunta 157",
+   "auto": true
+  },
+  {
+   "id": "ferriman",
+   "n": 6,
+   "src": "biblioteca/13_ginecologia/gin-02/03_ferriman-gallwey__nelson_p4295.jpg",
+   "topic": "gin-02",
+   "type": "esquema",
+   "size": "half",
+   "title": "Escala de Ferriman-Gallwey",
+   "frase": "Vello en 9 zonas, de 0 a 4.",
+   "claves": [
+    {
+     "t": "Labio superior",
+     "m": [
+      0.1,
+      0.1,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "≥ 8: hirsutismo; estudiar andrógenos.",
+   "codes": [
+    "1.03.1.008"
+   ],
+   "confunde": "Hipertricosis: vello no androgénico.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 110",
+   "auto": false
+  },
+  {
+   "id": "palm-coein",
+   "n": 7,
+   "src": "biblioteca/13_ginecologia/gin-03/S1_palm-coein__propio.svg",
+   "topic": "gin-03",
+   "type": "esquema",
+   "size": "half",
+   "title": "Clasificación PALM-COEIN",
+   "frase": "Causas estructurales y no estructurales del SUA.",
+   "claves": [
+    {
+     "t": "PALM",
+     "m": [
+      0.08,
+      0.55,
+      0.05
+     ]
+    },
+    {
+     "t": "COEIN",
+     "m": [
+      0.55,
+      0.6,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Sobre 40 años o con factores de riesgo: biopsia endometrial.",
+   "codes": [
+    "3.01.1.018"
+   ],
+   "confunde": "Sangrado del embarazo.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 5",
+   "auto": false
+  },
+  {
+   "id": "polipos",
+   "n": 8,
+   "src": "biblioteca/13_ginecologia/gin-03/02_polipo-endometrial-eco__us-obgyn_p245.jpg",
+   "topic": "gin-03",
+   "type": "eco",
+   "size": "half",
+   "title": "Pólipos endometriales",
+   "frase": "Imágenes ecogénicas en la cavidad (flechas).",
+   "claves": [
+    {
+     "t": "Pólipo",
+     "m": [
+      0.35,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Histeroscopía y resección.",
+   "codes": [
+    "3.01.1.023"
+   ],
+   "confunde": "Mioma submucoso.",
+   "q": "EUNACOM Julio 2024 · Pregunta 120",
+   "auto": false
+  },
+  {
+   "id": "cancer-cervix",
+   "n": 9,
+   "src": "biblioteca/13_ginecologia/gin-03/03_cancer-cervicouterino-especuloscopia__knoop_p276.jpg",
+   "topic": "gin-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cáncer cervicouterino",
+   "frase": "Lesión exofítica sangrante del cuello.",
+   "claves": [
+    {
+     "t": "Tumor",
+     "m": [
+      0.55,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Biopsia; etapificar.",
+   "codes": [
+    "3.01.1.013"
+   ],
+   "confunde": "Ectropión.",
+   "q": "EUNACOM Julio 2015 · Pregunta 177",
+   "auto": false
+  },
+  {
+   "id": "figo-miomas",
+   "n": 10,
+   "src": "biblioteca/13_ginecologia/gin-04/S1_figo-miomas__propio.svg",
+   "topic": "gin-04",
+   "type": "esquema",
+   "size": "half",
+   "title": "Clasificación FIGO de los miomas",
+   "frase": "0 a 8 según la relación con la cavidad y la serosa.",
+   "claves": [
+    {
+     "t": "Submucoso",
+     "m": [
+      0.38,
+      0.4,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Submucosos sangran más: histeroscopía.",
+   "codes": [
+    "3.01.1.021"
+   ],
+   "confunde": "Pólipo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mioma-intramural",
+   "n": 11,
+   "src": "biblioteca/13_ginecologia/gin-04/01_mioma-intramural-miomas-multiples__cto-gyo_p63.jpg",
+   "topic": "gin-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mioma intramural en laparoscopía",
+   "frase": "Nódulo que deforma el útero.",
+   "claves": [
+    {
+     "t": "Mioma",
+     "m": [
+      0.6,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Sintomático: miomectomía o histerectomía.",
+   "codes": [
+    "3.01.1.021"
+   ],
+   "confunde": "Adenomiosis.",
+   "q": "EUNACOM Julio 2013 · Pregunta 63",
+   "auto": false
+  },
+  {
+   "id": "mioma-tc",
+   "n": 12,
+   "src": "biblioteca/13_ginecologia/gin-04/02_leiomiomas-tc_1__cto-radiologia_p138.jpg",
+   "topic": "gin-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Mioma que comprime el recto",
+   "frase": "Masa uterina delineada en la TC.",
+   "claves": [
+    {
+     "t": "Mioma",
+     "m": [
+      0.55,
+      0.68,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Síntomas compresivos: cirugía.",
+   "codes": [
+    "3.01.1.021"
+   ],
+   "confunde": "Tumor ovárico.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mioma-eco",
+   "n": 13,
+   "src": "_web/308_gin_Miomas_uterinos__Commons_1.jpg",
+   "topic": "gin-04",
+   "type": "eco",
+   "size": "half",
+   "title": "Mioma en la ecografía transvaginal",
+   "frase": "Nódulo hipoecogénico en el útero.",
+   "claves": [
+    {
+     "t": "Mioma",
+     "m": [
+      0.75,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Seguimiento si es asintomático.",
+   "codes": [
+    "3.01.1.021"
+   ],
+   "confunde": "Adenomiosis: sin bordes netos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "endometrioma",
+   "n": 14,
+   "src": "biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg",
+   "topic": "gin-05",
+   "type": "eco",
+   "size": "half",
+   "title": "Endometrioma",
+   "frase": "Quiste con ecos finos en vidrio esmerilado.",
+   "claves": [
+    {
+     "t": "Endometrioma",
+     "m": [
+      0.55,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Mayor de 4 cm o sintomático: cirugía.",
+   "codes": [
+    "3.01.1.015"
+   ],
+   "confunde": "Quiste hemorrágico: patrón en red.",
+   "q": "EUNACOM Julio 2025 · Pregunta 54",
+   "auto": false
+  },
+  {
+   "id": "endometrioma-doppler",
+   "n": 15,
+   "src": "biblioteca/13_ginecologia/gin-05/01_endometrioma-eco_alt1__amir-gyo_p101.jpg",
+   "topic": "gin-05",
+   "type": "eco",
+   "size": "half",
+   "title": "Endometrioma con Doppler",
+   "frase": "Sin flujo interno.",
+   "claves": [
+    {
+     "t": "Quiste avascular",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Dismenorrea, dispareunia, infertilidad.",
+   "codes": [
+    "3.01.1.015"
+   ],
+   "confunde": "Tumor sólido: flujo interno.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "implantes",
+   "n": 16,
+   "src": "biblioteca/13_ginecologia/gin-05/02_endometriosis-laparoscopia__cto-gyo_p75.jpg",
+   "topic": "gin-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Implantes de endometriosis en laparoscopía",
+   "frase": "Lesiones peritoneales.",
+   "claves": [
+    {
+     "t": "Implantes",
+     "m": [
+      0.5,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Diagnóstico de certeza: laparoscopía.",
+   "codes": [
+    "3.01.1.015",
+    "3.01.1.014"
+   ],
+   "confunde": "Adherencias por EIP.",
+   "q": "EUNACOM Julio 2018 · Pregunta 1",
+   "auto": false
+  },
+  {
+   "id": "adenomiosis",
+   "n": 17,
+   "src": "_web/309_gin_Endometriosis_y_adenomiosis__Commons_1.jpg",
+   "topic": "gin-05",
+   "type": "eco",
+   "size": "half",
+   "title": "Adenomiosis",
+   "frase": "Útero globoso con miometrio heterogéneo.",
+   "claves": [
+    {
+     "t": "Miometrio heterogéneo",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Hormonal o histerectomía.",
+   "codes": [
+    "3.01.1.015"
+   ],
+   "confunde": "Mioma: bordes netos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "popq",
+   "n": 18,
+   "src": "biblioteca/13_ginecologia/gin-06/S1_pop-q__propio.svg",
+   "topic": "gin-06",
+   "type": "esquema",
+   "size": "half",
+   "title": "Sistema POP-Q",
+   "frase": "Puntos medidos respecto al himen.",
+   "claves": [
+    {
+     "t": "Estadios",
+     "m": [
+      0.82,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Estadio III–IV sintomático: cirugía o pesario.",
+   "codes": [
+    "3.01.1.026"
+   ],
+   "confunde": "Incontinencia aislada.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "procidencia",
+   "n": 19,
+   "src": "biblioteca/13_ginecologia/gin-06/02_prolapso-genital__open-i.jpg",
+   "topic": "gin-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Procidencia genital",
+   "frase": "Útero completamente fuera.",
+   "claves": [
+    {
+     "t": "Prolapso total",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Cirugía o pesario.",
+   "codes": [
+    "3.01.1.026"
+   ],
+   "confunde": "Mioma prolapsado.",
+   "q": "EUNACOM Julio 2019 · Pregunta 45",
+   "auto": true
+  },
+  {
+   "id": "hsg-cavidad",
+   "n": 20,
+   "src": "biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_2__cto-gyo_p50.jpg",
+   "topic": "gin-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cavidad uterina en la HSG",
+   "frase": "Cavidad rellena de contraste.",
+   "claves": [
+    {
+     "t": "Cavidad uterina",
+     "m": [
+      0.45,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Estudio de infertilidad.",
+   "codes": [
+    "3.01.4.001"
+   ],
+   "confunde": "Útero malformado.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hsg-normal",
+   "n": 21,
+   "src": "biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_1__cto-gyo_p50.jpg",
+   "topic": "gin-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Histerosalpingografía normal",
+   "frase": "Paso de contraste por ambas trompas.",
+   "claves": [
+    {
+     "t": "Trompa permeable",
+     "m": [
+      0.8,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Trompas permeables.",
+   "codes": [
+    "3.01.4.001",
+    "3.01.1.020"
+   ],
+   "confunde": "Hidrosálpinx.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 146",
+   "auto": false
+  },
+  {
+   "id": "hidrosalpinx",
+   "n": 22,
+   "src": "biblioteca/13_ginecologia/gin-07/02_hidrosalpinx-eco__us-obgyn_p272.jpg",
+   "topic": "gin-07",
+   "type": "eco",
+   "size": "half",
+   "title": "Hidrosálpinx",
+   "frase": "Trompa dilatada con líquido.",
+   "claves": [
+    {
+     "t": "Trompa dilatada",
+     "m": [
+      0.55,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Salpingectomía antes de FIV.",
+   "codes": [
+    "3.01.1.020"
+   ],
+   "confunde": "Quiste ovárico.",
+   "q": "EUNACOM Julio 2013 · Pregunta 149",
+   "auto": false
+  },
+  {
+   "id": "implante",
+   "n": 23,
+   "src": "biblioteca/13_ginecologia/gin-08/02_implante_subdermico__commons.jpg",
+   "topic": "gin-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Implante subdérmico",
+   "frase": "Varilla de etonogestrel.",
+   "claves": [
+    {
+     "t": "Implante",
+     "m": [
+      0.4,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Dura 3 años.",
+   "codes": [
+    "3.01.3.008"
+   ],
+   "confunde": "DIU.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "retiro-implante",
+   "n": 24,
+   "src": "biblioteca/13_ginecologia/gin-08/03_retiro_implante__commons.jpg",
+   "topic": "gin-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Retiro del implante",
+   "frase": "Incisión pequeña en el brazo.",
+   "claves": [
+    {
+     "t": "Incisión",
+     "m": [
+      0.38,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Anestesia local.",
+   "codes": [
+    "3.01.3.008"
+   ],
+   "confunde": "Infección.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "diu",
+   "n": 25,
+   "src": "biblioteca/13_ginecologia/gin-08/01_diu_cobre_lng__williams-gyn_p142.jpg",
+   "topic": "gin-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "DIU de cobre y de levonorgestrel",
+   "frase": "Dispositivos intrauterinos.",
+   "claves": [
+    {
+     "t": "DIU de cobre",
+     "m": [
+      0.22,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Cobre: también anticoncepción de emergencia hasta 5 días.",
+   "codes": [
+    "3.01.3.008"
+   ],
+   "confunde": "Implante.",
+   "q": "EUNACOM Enero 2023 · Pregunta 44",
+   "auto": false
+  },
+  {
+   "id": "vaginosis",
+   "n": 26,
+   "src": "biblioteca/13_ginecologia/gin-09/04_vaginosis-bacteriana-especuloscopia__kumar-clark_p1586.jpg",
+   "topic": "gin-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vaginosis bacteriana",
+   "frase": "Flujo blanco grisáceo homogéneo.",
+   "claves": [
+    {
+     "t": "Flujo",
+     "m": [
+      0.45,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Metronidazol.",
+   "codes": [
+    "3.01.1.019"
+   ],
+   "confunde": "Candidiasis: flujo grumoso.",
+   "q": "EUNACOM Julio 2025 · Pregunta 121",
+   "auto": false
+  },
+  {
+   "id": "celulas-clave",
+   "n": 27,
+   "src": "biblioteca/13_ginecologia/gin-09/01_celulas_clave__cdc-phil-3720.jpg",
+   "topic": "gin-09",
+   "type": "histologia",
+   "size": "half",
+   "title": "Células clave",
+   "frase": "Células epiteliales cubiertas de bacterias.",
+   "claves": [
+    {
+     "t": "Célula clave",
+     "m": [
+      0.5,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Criterio de Amsel.",
+   "codes": [
+    "3.01.1.019",
+    "3.01.5.008"
+   ],
+   "confunde": "Célula normal: borde neto.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "candidiasis",
+   "n": 28,
+   "src": "biblioteca/13_ginecologia/gin-09/01_leucorrea-candidiasica__amir-gyo_p106.jpg",
+   "topic": "gin-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucorrea candidiásica",
+   "frase": "Flujo blanco grumoso.",
+   "claves": [
+    {
+     "t": "Flujo grumoso",
+     "m": [
+      0.45,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Clotrimazol o fluconazol.",
+   "codes": [
+    "2.01.1.106",
+    "3.01.1.019"
+   ],
+   "confunde": "Vaginosis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "quiste-bartolino",
+   "n": 29,
+   "src": "biblioteca/13_ginecologia/gin-10/02_quiste-bartolino__knoop_p269.jpg",
+   "topic": "gin-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste de Bartolino",
+   "frase": "Aumento de volumen indoloro del labio.",
+   "claves": [
+    {
+     "t": "Quiste",
+     "m": [
+      0.55,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Asintomático: observar.",
+   "codes": [
+    "3.01.2.002"
+   ],
+   "confunde": "Absceso: doloroso.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "absceso-bartolino",
+   "n": 30,
+   "src": "biblioteca/13_ginecologia/gin-10/01_absceso_bartolino__williams-gyn_p114.jpg",
+   "topic": "gin-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso de Bartolino",
+   "frase": "Masa dolorosa y roja.",
+   "claves": [
+    {
+     "t": "Absceso",
+     "m": [
+      0.65,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Drenaje y marsupialización.",
+   "codes": [
+    "3.01.2.002",
+    "3.01.5.004"
+   ],
+   "confunde": "Quiste.",
+   "q": "EUNACOM Julio 2025 · Pregunta 148",
+   "auto": true
+  },
+  {
+   "id": "liquen",
+   "n": 31,
+   "src": "biblioteca/13_ginecologia/gin-10/01_liquen-escleroso__cto-gyo_p106.jpg",
+   "topic": "gin-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Liquen escleroso",
+   "frase": "Piel vulvar blanca y atrófica.",
+   "claves": [
+    {
+     "t": "Piel blanca",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Corticoide potente; biopsia si hay úlcera.",
+   "codes": [
+    "3.01.1.019"
+   ],
+   "confunde": "Vitíligo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "absceso-tubo",
+   "n": 32,
+   "src": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_1__cto-gyo_p102.jpg",
+   "topic": "gin-11",
+   "type": "eco",
+   "size": "half",
+   "title": "Absceso tuboovárico",
+   "frase": "Masa anexial compleja.",
+   "claves": [
+    {
+     "t": "Absceso",
+     "m": [
+      0.35,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Hospitalizar: antibióticos EV.",
+   "codes": [
+    "3.01.1.025"
+   ],
+   "confunde": "Endometrioma.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 80",
+   "auto": false
+  },
+  {
+   "id": "absceso-tubo-cirugia",
+   "n": 33,
+   "src": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_2__cto-gyo_p102.jpg",
+   "topic": "gin-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso tuboovárico: visión quirúrgica",
+   "frase": "Pus en la pelvis.",
+   "claves": [
+    {
+     "t": "Pus",
+     "m": [
+      0.5,
+      0.85,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Sin respuesta en 48–72 h: drenaje.",
+   "codes": [
+    "3.01.2.018"
+   ],
+   "confunde": "Apendicitis.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 95",
+   "auto": false
+  },
+  {
+   "id": "absceso-tubo-eco-2",
+   "n": 34,
+   "src": "biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_alt1__amir-gyo_p107.jpg",
+   "topic": "gin-11",
+   "type": "eco",
+   "size": "half",
+   "title": "Absceso tuboovárico en el Douglas",
+   "frase": "Colección en el fondo de saco.",
+   "claves": [
+    {
+     "t": "Colección",
+     "m": [
+      0.65,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Pelviperitonitis: drenaje.",
+   "codes": [
+    "3.01.2.018"
+   ],
+   "confunde": "Hemoperitoneo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fitz-hugh",
+   "n": 35,
+   "src": "biblioteca/13_ginecologia/gin-11/02_fitz-hugh-curtis-laparoscopia__goljan_p1202.jpg",
+   "topic": "gin-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de Fitz-Hugh-Curtis",
+   "frase": "Adherencias perihepáticas en cuerdas de violín.",
+   "claves": [
+    {
+     "t": "Adherencias",
+     "m": [
+      0.45,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Antecedente de EIP por Chlamydia.",
+   "codes": [
+    "3.01.1.025"
+   ],
+   "confunde": "Colecistitis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "lesion-bajo-grado",
+   "n": 36,
+   "src": "biblioteca/13_ginecologia/gin-13/01_colposcopia_lsil_acetoblanco__williams-gyn_p665.jpg",
+   "topic": "gin-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lesión de bajo grado en la colposcopía",
+   "frase": "Epitelio acetoblanco fino.",
+   "claves": [
+    {
+     "t": "Zona acetoblanca",
+     "m": [
+      0.65,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Seguimiento: la mayoría regresa.",
+   "codes": [
+    "3.01.1.016"
+   ],
+   "confunde": "Metaplasia.",
+   "q": "EUNACOM Julio 2024 · Pregunta 91",
+   "auto": false
+  },
+  {
+   "id": "lesion-alto-grado",
+   "n": 37,
+   "src": "biblioteca/13_ginecologia/gin-13/02_colposcopia_hsil__williams-gyn_p665.jpg",
+   "topic": "gin-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lesión de alto grado",
+   "frase": "Acetoblanco denso con vasos atípicos.",
+   "claves": [
+    {
+     "t": "Zona densa",
+     "m": [
+      0.5,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Conización (LEEP).",
+   "codes": [
+    "3.01.1.016"
+   ],
+   "confunde": "Bajo grado.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "toma-pap",
+   "n": 38,
+   "src": "biblioteca/13_ginecologia/gin-13/05_toma-papanicolau__blausen.png",
+   "topic": "gin-13",
+   "type": "esquema",
+   "size": "half",
+   "title": "Toma de Papanicolau",
+   "frase": "Muestra de la zona de transformación.",
+   "claves": [
+    {
+     "t": "Cepillado",
+     "m": [
+      0.75,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "25 a 64 años cada 3 años.",
+   "codes": [
+    "3.01.5.014",
+    "3.01.3.013"
+   ],
+   "confunde": "Toma inadecuada.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 172",
+   "auto": false
+  },
+  {
+   "id": "citologia",
+   "n": 39,
+   "src": "_web/312_gin_Cáncer_cervicouterino__Commons_1.jpg",
+   "topic": "gin-13",
+   "type": "histologia",
+   "size": "half",
+   "title": "Citología: lesión de alto grado",
+   "frase": "Células con núcleo grande e hipercromático.",
+   "claves": [
+    {
+     "t": "Células atípicas",
+     "m": [
+      0.35,
+      0.2,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Colposcopía con biopsia.",
+   "codes": [
+    "3.01.4.007"
+   ],
+   "confunde": "Célula normal.",
+   "q": "EUNACOM Julio 2025 · Pregunta 59",
+   "auto": false
+  },
+  {
+   "id": "masa-espiculada",
+   "n": 40,
+   "src": "biblioteca/13_ginecologia/gin-14/01_mamografia_carcinoma__bailey_p882.jpg",
+   "topic": "gin-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Masa espiculada",
+   "frase": "Nódulo de bordes espiculados.",
+   "claves": [
+    {
+     "t": "Masa",
+     "m": [
+      0.62,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "BI-RADS 5: biopsia.",
+   "codes": [
+    "3.01.4.002",
+    "4.01.1.035"
+   ],
+   "confunde": "Quiste: liso.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 166",
+   "auto": false
+  },
+  {
+   "id": "microcalcificaciones",
+   "n": 41,
+   "src": "biblioteca/13_ginecologia/gin-14/01_microcalcificaciones-sospechosas-mamogra_alt2__amir-gyo_p135.jpg",
+   "topic": "gin-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Microcalcificaciones agrupadas",
+   "frase": "Magnificación de calcificaciones finas.",
+   "claves": [
+    {
+     "t": "Microcalcificaciones",
+     "m": [
+      0.25,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Agrupadas y pleomorfas: biopsia estereotáxica.",
+   "codes": [
+    "4.01.3.012",
+    "3.01.4.002"
+   ],
+   "confunde": "Calcificaciones benignas gruesas.",
+   "q": "EUNACOM Enero 2023 · Pregunta 156",
+   "auto": true
+  },
+  {
+   "id": "piel-naranja",
+   "n": 42,
+   "src": "biblioteca/13_ginecologia/gin-14/02_piel_de_naranja__bailey_p895.jpg",
+   "topic": "gin-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Piel de naranja",
+   "frase": "Edema cutáneo con poros marcados.",
+   "claves": [
+    {
+     "t": "Piel de naranja",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Cáncer inflamatorio: biopsia.",
+   "codes": [
+    "3.01.1.030",
+    "4.01.1.035"
+   ],
+   "confunde": "Mastitis.",
+   "q": "EUNACOM Julio 2015 · Pregunta 27",
+   "auto": false
+  },
+  {
+   "id": "quiste-mama",
+   "n": 43,
+   "src": "biblioteca/13_ginecologia/gin-14/05_quiste-simple-mama-eco__rumack_p821.jpg",
+   "topic": "gin-14",
+   "type": "eco",
+   "size": "half",
+   "title": "Quiste simple de mama",
+   "frase": "Anecoico, pared fina y refuerzo posterior.",
+   "claves": [
+    {
+     "t": "Quiste",
+     "m": [
+      0.5,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "BI-RADS 2: control habitual.",
+   "codes": [
+    "3.01.1.029",
+    "3.01.4.006"
+   ],
+   "confunde": "Fibroadenoma: sólido.",
+   "q": "EUNACOM Julio 2019 · Pregunta 161",
+   "auto": false
+  },
+  {
+   "id": "endometrio-engrosado",
+   "n": 44,
+   "src": "biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia__cto-gyo_p69.jpg",
+   "topic": "gin-15",
+   "type": "eco",
+   "size": "half",
+   "title": "Endometrio engrosado",
+   "frase": "Posmenopáusica con endometrio > 4 mm.",
+   "claves": [
+    {
+     "t": "Endometrio",
+     "m": [
+      0.5,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Metrorragia posmenopáusica: biopsia.",
+   "codes": [
+    "3.01.1.024"
+   ],
+   "confunde": "Atrofia.",
+   "q": "EUNACOM Julio 2015 · Pregunta 178",
+   "auto": false
+  },
+  {
+   "id": "histeroscopia-cancer",
+   "n": 45,
+   "src": "biblioteca/13_ginecologia/gin-15/04_endometrio-engrosado-eco-histeroscopia_alt1__cto-gyo_p69.jpg",
+   "topic": "gin-15",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Cáncer de endometrio en la histeroscopía",
+   "frase": "Masa irregular.",
+   "claves": [
+    {
+     "t": "Tumor",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Histerectomía con etapificación.",
+   "codes": [
+    "3.01.1.024"
+   ],
+   "confunde": "Pólipo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cancer-ovario",
+   "n": 46,
+   "src": "biblioteca/13_ginecologia/gin-15/03_adenocarcinoma-de-ovario-tc-rm_1__cto-radiologia_p141.jpg",
+   "topic": "gin-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cáncer de ovario avanzado",
+   "frase": "Ascitis y carcinomatosis omental (flechas).",
+   "claves": [
+    {
+     "t": "Omento",
+     "m": [
+      0.75,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "CA-125 y cirugía citorreductora.",
+   "codes": [
+    "3.01.1.028",
+    "1.08.3.002"
+   ],
+   "confunde": "Ascitis cirrótica.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 87",
+   "auto": false
+  },
+  {
+   "id": "ovario-aumentado",
+   "n": 47,
+   "src": "biblioteca/13_ginecologia/gin-16/01_torsion_ovarica_eco__nelson_p4303.jpg",
+   "topic": "gin-16",
+   "type": "eco",
+   "size": "half",
+   "title": "Ovario aumentado en la torsión",
+   "frase": "Ovario derecho (OD) aumentado.",
+   "claves": [
+    {
+     "t": "Ovario",
+     "m": [
+      0.15,
+      0.88,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Torsión: cirugía urgente.",
+   "codes": [
+    "3.01.2.019"
+   ],
+   "confunde": "Quiste funcional.",
+   "q": "EUNACOM Julio 2024 · Pregunta 58",
+   "auto": false
+  },
+  {
+   "id": "remolino",
+   "n": 48,
+   "src": "biblioteca/13_ginecologia/gin-16/03_signo-remolino__pocket-us_p282.jpg",
+   "topic": "gin-16",
+   "type": "eco",
+   "size": "half",
+   "title": "Signo del remolino",
+   "frase": "Pedículo vascular torcido.",
+   "claves": [
+    {
+     "t": "Pedículo",
+     "m": [
+      0.5,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Laparoscopía y destorsión.",
+   "codes": [
+    "3.01.2.019"
+   ],
+   "confunde": "Vaso normal.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "doppler-torsion",
+   "n": 49,
+   "src": "biblioteca/13_ginecologia/gin-16/02_torsion_ovarica_doppler__nelson_p4303.jpg",
+   "topic": "gin-16",
+   "type": "eco",
+   "size": "half",
+   "title": "Doppler en la torsión",
+   "frase": "Flujo escaso en el ovario.",
+   "claves": [
+    {
+     "t": "Ovario",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Doppler normal no descarta torsión.",
+   "codes": [
+    "3.01.2.019"
+   ],
+   "confunde": "Ovario normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "quiste-hemorragico",
+   "n": 50,
+   "src": "_verificadas/094_gin_Dolor_pélvico_agudo__us_obgynpd_p260_1.jpg",
+   "topic": "gin-16",
+   "type": "eco",
+   "size": "half",
+   "title": "Quiste hemorrágico del cuerpo lúteo",
+   "frase": "Patrón en red (*).",
+   "claves": [
+    {
+     "t": "Patrón en red",
+     "m": [
+      0.55,
+      0.55,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Estable: manejo expectante.",
+   "codes": [
+    "3.01.2.016"
+   ],
+   "confunde": "Endometrioma.",
+   "q": "EUNACOM Julio 2017 · Pregunta 169",
+   "auto": false
+  },
+  {
+   "id": "quiste-hemorragico-2",
+   "n": 51,
+   "src": "_web/094_gin_Dolor_pélvico_agudo__Commons_1.jpg",
+   "topic": "gin-16",
+   "type": "eco",
+   "size": "half",
+   "title": "Quiste hemorrágico de 5 cm",
+   "frase": "Ecos finos en red.",
+   "claves": [
+    {
+     "t": "Quiste",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Control ecográfico en 6–8 semanas.",
+   "codes": [
+    "3.01.2.016"
+   ],
+   "confunde": "Tumor sólido.",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "quiste-bartolino",
+   "b": "absceso-bartolino",
+   "title": "Quiste vs absceso de Bartolino",
+   "la": [
+    "Indoloro"
+   ],
+   "lb": [
+    "Doloroso, rojo"
+   ],
+   "diff": "El absceso se drena."
+  },
+  {
+   "a": "endometrioma",
+   "b": "quiste-hemorragico",
+   "title": "Endometrioma vs quiste hemorrágico",
+   "la": [
+    "Vidrio esmerilado"
+   ],
+   "lb": [
+    "Patrón en red"
+   ],
+   "diff": "El hemorrágico se resuelve solo."
+  },
+  {
+   "a": "lesion-bajo-grado",
+   "b": "lesion-alto-grado",
+   "title": "Bajo vs alto grado",
+   "la": [
+    "Acetoblanco fino"
+   ],
+   "lb": [
+    "Acetoblanco denso"
+   ],
+   "diff": "Alto grado: conización."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Cuerdas de violín",
+   "dx": "Fitz-Hugh-Curtis.",
+   "find": "violín",
+   "topic": "gin-11",
+   "img": "fitz-hugh",
+   "def": "Adherencias perihepáticas."
+  },
+  {
+   "name": "Signo del remolino",
+   "dx": "Torsión anexial.",
+   "find": "remolino",
+   "topic": "gin-16",
+   "img": "remolino",
+   "def": "Pedículo vascular torcido."
+  },
+  {
+   "name": "Células clave",
+   "dx": "Vaginosis bacteriana.",
+   "find": "clave",
+   "topic": "gin-09",
+   "img": "celulas-clave",
+   "def": "Células epiteliales cubiertas de bacterias."
+  },
+  {
+   "name": "Piel de naranja",
+   "dx": "Cáncer de mama inflamatorio.",
+   "find": "naranja",
+   "topic": "gin-14",
+   "img": "piel-naranja",
+   "def": "Edema cutáneo con poros marcados."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 51
+ }
+}

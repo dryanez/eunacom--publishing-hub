@@ -1,0 +1,815 @@
+{
+ "libro": "diabetes",
+ "title": "Diabetes Mellitus & Dislipidemias",
+ "prefix": "diab",
+ "topics": {
+  "diab-01": "Tipos de Diabetes Mellitus",
+  "diab-02": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+  "diab-08": "Nuevas Terapias",
+  "diab-11": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+  "diab-17": "Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+  "diab-20": "Nefropatía Diabética",
+  "diab-21": "Retinopatía Diabética",
+  "diab-22": "Pie Diabético",
+  "diab-23": "Dislipidemias",
+  "diab-24": "Dislipidemias Severas y Genéticas",
+  "diab-25": "Nutrición Clínica"
+ },
+ "images": [
+  {
+   "id": "acantosis-cuello",
+   "n": 1,
+   "src": "biblioteca/04_diabetes/diab-01/01_acantosis-cuello__hy_p774.jpg",
+   "topic": "diab-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis nigricans en el cuello",
+   "frase": "Piel oscura, engrosada y aterciopelada: signo de resistencia a la insulina.",
+   "claves": [
+    {
+     "t": "Pliegues hiperpigmentados y aterciopelados",
+     "m": [
+      0.5,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Orienta a DM tipo 2: glicemia de ayuno, HbA1c o PTGO.",
+   "codes": [
+    "1.02.1.005",
+    "1.02.1.016"
+   ],
+   "confunde": "Suciedad: se quita al lavar.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 42",
+   "auto": true
+  },
+  {
+   "id": "acantosis-axila",
+   "n": 2,
+   "src": "biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg",
+   "topic": "diab-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis nigricans axilar",
+   "frase": "Hiperpigmentación aterciopelada de las axilas y pliegues.",
+   "claves": [
+    {
+     "t": "Piel axilar oscura y engrosada",
+     "m": [
+      0.5,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "HOMA-IR > 2,6 certifica resistencia a la insulina; obeso con glicemia normal: dieta y ejercicio.",
+   "codes": [
+    "1.02.1.016"
+   ],
+   "confunde": "Hiperpigmentación postinflamatoria.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "candidiasis-genital",
+   "n": 3,
+   "src": "biblioteca/04_diabetes/diab-08/01_candidiasis-genital__kumar_p1587.jpg",
+   "topic": "diab-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Candidiasis vulvovaginal",
+   "frase": "Placas blanquecinas sobre la mucosa enrojecida: efecto adverso de los iSGLT2.",
+   "claves": [
+    {
+     "t": "Placas blanquecinas en la mucosa",
+     "m": [
+      0.55,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Efecto adverso más frecuente de los iSGLT2; ojo con la cetoacidosis euglicémica.",
+   "codes": [
+    "1.02.1.005"
+   ],
+   "confunde": "Vaginosis bacteriana: flujo gris sin placas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "lipohipertrofia",
+   "n": 4,
+   "src": "biblioteca/04_diabetes/diab-11/01_lipohipertrofia__openi.jpg",
+   "topic": "diab-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lipohipertrofia por insulina",
+   "frase": "Abultamiento de grasa fibrosa donde el paciente pincha siempre.",
+   "claves": [
+    {
+     "t": "Abultamiento en el sitio de inyección",
+     "m": [
+      0.68,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Rotar los sitios: la absorción errática da hiperglicemias inexplicables.",
+   "codes": [
+    "1.02.1.005",
+    "1.02.1.004"
+   ],
+   "confunde": "Hernia de pared: protruye con Valsalva.",
+   "q": "EUNACOM Julio 2015 · Pregunta 17",
+   "auto": true
+  },
+  {
+   "id": "onda-u-cad",
+   "n": 5,
+   "src": "biblioteca/04_diabetes/diab-17/01_ecg-hipopotasemia__cto-nefro_p22.jpg",
+   "topic": "diab-17",
+   "type": "ecg",
+   "size": "full",
+   "title": "Hipokalemia en la cetoacidosis: onda U",
+   "frase": "T aplanada, ST descendido y onda U prominente tras la T.",
+   "claves": [
+    {
+     "t": "Onda U (flecha)",
+     "m": [
+      0.82,
+      0.12,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "K < 3,3: la insulina está contraindicada hasta reponer potasio; entre 3,3 y 5,2, agregar 20-30 mEq de KCl por litro.",
+   "codes": [
+    "1.02.2.002",
+    "1.09.2.006"
+   ],
+   "confunde": "Hiperkalemia: T picudas.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 101",
+   "auto": true
+  },
+  {
+   "id": "t-picudas-cad",
+   "n": 6,
+   "src": "biblioteca/04_diabetes/diab-17/02_ecg-hiperpotasemia-t-picudas__cto-cardio_p19.jpg",
+   "topic": "diab-17",
+   "type": "ecg",
+   "size": "full",
+   "title": "Hiperkalemia en la cetoacidosis: T picudas",
+   "frase": "Sobre 5,5 mEq/L, lo primero son T altas, picudas y simétricas de base angosta.",
+   "claves": [
+    {
+     "t": "T altas y picudas en las precordiales",
+     "m": [
+      0.85,
+      0.2,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "ECG al ingreso y monitoreo mientras el potasio esté alterado.",
+   "codes": [
+    "1.02.2.002",
+    "1.02.4.009"
+   ],
+   "confunde": "Hipokalemia: T aplanada y onda U.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 101",
+   "auto": false
+  },
+  {
+   "id": "kimmelstiel",
+   "n": 7,
+   "src": "biblioteca/04_diabetes/diab-20/01_glomeruloesclerosis_nodular_esquema__goljan_p1050.jpg",
+   "topic": "diab-20",
+   "type": "esquema",
+   "size": "half",
+   "title": "Glomeruloesclerosis nodular (Kimmelstiel-Wilson)",
+   "frase": "Nódulos de matriz en el mesangio que ocupan el ovillo glomerular.",
+   "claves": [
+    {
+     "t": "Nódulos mesangiales",
+     "m": [
+      0.45,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Tamizaje anual con RAC; microalbuminuria persistente: IECA o ARA-II aunque sea normotenso.",
+   "codes": [
+    "1.09.1.014",
+    "1.02.1.010"
+   ],
+   "confunde": "Nefroangioesclerosis hipertensiva.",
+   "q": "EUNACOM Julio 2013 · Pregunta 76",
+   "auto": false
+  },
+  {
+   "id": "exudados-duros",
+   "n": 8,
+   "src": "biblioteca/04_diabetes/diab-21/02_hemorragias-retinianas-rd__cto-oftalmo_p67.jpg",
+   "topic": "diab-21",
+   "type": "fondo",
+   "size": "half",
+   "title": "Hemorragias en punto y exudados duros",
+   "frase": "Fuga de lípidos y sangre de un capilar dañado.",
+   "claves": [
+    {
+     "t": "Exudados duros amarillos",
+     "m": [
+      0.6,
+      0.55,
+      0.08
+     ]
+    },
+    {
+     "t": "Hemorragias en punto",
+     "m": [
+      0.3,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "No proliferativa: control metabólico y seguimiento oftalmológico.",
+   "codes": [
+    "1.02.1.015"
+   ],
+   "confunde": "Exudados algodonosos: blancos, de bordes borrosos (isquemia).",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "microaneurismas",
+   "n": 9,
+   "src": "biblioteca/04_diabetes/diab-21/02_microaneurismas__kanski_p537.jpg",
+   "topic": "diab-21",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía diabética: microaneurismas",
+   "frase": "Puntitos rojos: la lesión más precoz de la retinopatía diabética.",
+   "claves": [
+    {
+     "t": "Microaneurismas",
+     "m": [
+      0.45,
+      0.55,
+      0.08
+     ]
+    },
+    {
+     "t": "Exudados duros",
+     "m": [
+      0.25,
+      0.25,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Fondo de ojo al diagnóstico de la DM2 y anual.",
+   "codes": [
+    "1.02.1.015",
+    "1.02.5.003"
+   ],
+   "confunde": "Retinopatía hipertensiva: cruces AV y hemorragias en llama.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "exudados-algodonosos",
+   "src": "biblioteca/04_diabetes/diab-21/03_exudados-algodonosos__commons.jpg",
+   "topic": "diab-21",
+   "type": "fondo",
+   "size": "half",
+   "title": "Exudados algodonosos y hemorragias",
+   "frase": "Manchas blancas de bordes borrosos (microinfartos) rodeadas de hemorragias.",
+   "claves": [
+    {
+     "t": "Exudados algodonosos",
+     "m": [
+      0.5,
+      0.22,
+      0.07
+     ]
+    },
+    {
+     "t": "Hemorragias",
+     "m": [
+      0.73,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Retinopatía no proliferativa: control metabólico y control oftalmológico.",
+   "codes": [
+    "1.02.1.015"
+   ],
+   "confunde": "Exudados duros: amarillos, brillantes, de bordes netos (fuga de lípidos).",
+   "q": null,
+   "auto": true,
+   "n": 10
+  },
+  {
+   "id": "neovasos",
+   "n": 11,
+   "src": "_verificadas/03_neovasos_retinopatia_diabetica_prolifera__KanskisClini_p542_1.jpg",
+   "topic": "diab-21",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía proliferativa: neovasos en la papila",
+   "frase": "Vasos finos y desordenados que salen de la papila en abanico.",
+   "claves": [
+    {
+     "t": "Neovasos en abanico",
+     "m": [
+      0.5,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Panfotocoagulación con láser (GES).",
+   "codes": [
+    "1.02.1.015",
+    "6.02.1.023"
+   ],
+   "confunde": "Vasos normales: ramificación ordenada.",
+   "q": "EUNACOM Julio 2025 · Pregunta 124",
+   "auto": true
+  },
+  {
+   "id": "pie-garra",
+   "n": 12,
+   "src": "biblioteca/04_diabetes/diab-22/06_pie-neuropatico__openi.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pie neuropático con dedos en garra",
+   "frase": "Atrofia intrínseca: dedos en garra y cabezas metatarsianas prominentes.",
+   "claves": [
+    {
+     "t": "Dedos en garra",
+     "m": [
+      0.5,
+      0.65,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Calzado adecuado y control podológico.",
+   "codes": [
+    "1.02.1.011",
+    "1.02.1.014"
+   ],
+   "confunde": "Hallux valgus aislado.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 93",
+   "auto": false
+  },
+  {
+   "id": "monofilamento",
+   "n": 13,
+   "src": "biblioteca/04_diabetes/diab-22/07_monofilamento.jpg",
+   "topic": "diab-22",
+   "type": "otra",
+   "size": "half",
+   "title": "Monofilamento de 10 g",
+   "frase": "Se apoya en la planta hasta que se dobla.",
+   "claves": [
+    {
+     "t": "El filamento se dobla al apoyarlo",
+     "m": [
+      0.25,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Un solo punto no percibido = pie de alto riesgo de ulceración.",
+   "codes": [
+    "1.02.1.011",
+    "1.02.3.009"
+   ],
+   "confunde": "Diapasón: evalúa vibración.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ulcera-neuropatica",
+   "n": 14,
+   "src": "biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera neuropática (mal perforante plantar)",
+   "frase": "Indolora, en zona de apoyo, rodeada de un rodete de callo.",
+   "claves": [
+    {
+     "t": "Lecho de la úlcera",
+     "m": [
+      0.5,
+      0.45,
+      0.1
+     ]
+    },
+    {
+     "t": "Rodete hiperqueratósico",
+     "m": [
+      0.25,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Descarga de presión (off-loading) y curación avanzada.",
+   "codes": [
+    "1.02.1.014",
+    "4.01.1.051"
+   ],
+   "confunde": "Úlcera isquémica: distal, pálida, sin callo.",
+   "q": "EUNACOM Julio 2013 · Pregunta 143",
+   "auto": true
+  },
+  {
+   "id": "ulcera-isquemica",
+   "n": 15,
+   "src": "_verificadas/005_diab_Pie_diabético__Talley_p142.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera isquémica distal",
+   "frase": "En la punta del dedo, lecho pálido o necrótico y sin callo.",
+   "claves": [
+    {
+     "t": "Necrosis en la punta del dedo",
+     "m": [
+      0.6,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Estudiar la irrigación (ITB, eco-Doppler) antes de resecar.",
+   "codes": [
+    "4.01.1.047",
+    "1.02.1.019"
+   ],
+   "confunde": "Úlcera neuropática: en zona de apoyo.",
+   "q": "EUNACOM Enero 2023 · Pregunta 146",
+   "auto": true
+  },
+  {
+   "id": "osteomielitis",
+   "n": 16,
+   "src": "_verificadas/006_diab_Pie_diabético__ctmri_path_p522_1.jpg",
+   "topic": "diab-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Osteomielitis en resonancia",
+   "frase": "El hueso bajo la úlcera cambia de señal.",
+   "claves": [
+    {
+     "t": "Hueso con señal alterada",
+     "m": [
+      0.25,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Estilete óseo positivo = Wagner 3: hospitalizar, desbridar y antibióticos.",
+   "codes": [
+    "1.02.1.014",
+    "4.01.1.051"
+   ],
+   "confunde": "Pie de Charcot: sin úlcera ni fiebre.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "itb",
+   "n": 17,
+   "src": "biblioteca/04_diabetes/diab-22/03_indice-tobillo-brazo-doppler__bailey_p966.jpg",
+   "topic": "diab-22",
+   "type": "otra",
+   "size": "half",
+   "title": "Índice tobillo-brazo",
+   "frase": "Presión sistólica del tobillo dividida por la del brazo, con Doppler manual.",
+   "claves": [
+    {
+     "t": "Doppler sobre la arteria del tobillo",
+     "m": [
+      0.2,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Claudicación en diabético fumador: ITB.",
+   "codes": [
+    "4.01.1.047",
+    "1.02.4.008"
+   ],
+   "confunde": "Calcificación arterial: ITB falsamente alto.",
+   "q": "EUNACOM Enero 2023 · Pregunta 146",
+   "auto": false
+  },
+  {
+   "id": "xantelasma",
+   "n": 18,
+   "src": "biblioteca/04_diabetes/diab-23/01_xantelasma__amir-endocrino_p120.jpg",
+   "topic": "diab-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Xantelasmas",
+   "frase": "Placas amarillas en los párpados: obligan a medir el colesterol.",
+   "claves": [
+    {
+     "t": "Placa amarilla palpebral",
+     "m": [
+      0.25,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Perfil lipídico y riesgo cardiovascular.",
+   "codes": [
+    "1.02.1.007"
+   ],
+   "confunde": "Siringomas: pápulas del color de la piel.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "xantoma-tendinoso",
+   "n": 19,
+   "src": "biblioteca/04_diabetes/diab-23/01_xantomas_tendinosos__fitzpatrick_p1311.jpg",
+   "topic": "diab-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Xantoma tendinoso del Aquiles",
+   "frase": "Específico de hipercolesterolemia familiar.",
+   "claves": [
+    {
+     "t": "Engrosamiento nodular del tendón de Aquiles",
+     "m": [
+      0.45,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "LDL > 190 + xantomas + infartos precoces en la familia: hipercolesterolemia familiar.",
+   "codes": [
+    "1.02.1.007"
+   ],
+   "confunde": "Tendinitis aquiliana: dolorosa y sin LDL alto.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "plasma-lechoso",
+   "n": 20,
+   "src": "biblioteca/04_diabetes/diab-24/01_plasma_lipemico__commons.jpg",
+   "topic": "diab-24",
+   "type": "otra",
+   "size": "half",
+   "title": "Plasma lipémico",
+   "frase": "Plasma lechoso por exceso de triglicéridos.",
+   "claves": [
+    {
+     "t": "Plasma blanquecino",
+     "m": [
+      0.25,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "TG > 500: fibrato de urgencia por riesgo de pancreatitis; cero alcohol.",
+   "codes": [
+    "1.02.2.005"
+   ],
+   "confunde": "Hemólisis: plasma rojo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 77",
+   "auto": false
+  },
+  {
+   "id": "xantomas-eruptivos",
+   "n": 21,
+   "src": "biblioteca/04_diabetes/diab-24/01_xantomas-eruptivos__amir-derma_p26.jpg",
+   "topic": "diab-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Xantomas eruptivos",
+   "frase": "Pápulas amarillentas con halo rojo que aparecen de golpe con TG muy altos.",
+   "claves": [
+    {
+     "t": "Pápula amarillenta con halo rojo",
+     "m": [
+      0.4,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TG > 1.000: fibrato inmediato y dieta casi sin grasa.",
+   "codes": [
+    "1.02.2.005"
+   ],
+   "confunde": "Foliculitis: pústula centrada en un vello.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "arco-corneal-2",
+   "src": "_verificadas/098_diab_Hipertrigliceridemia_e_hiperco__2017BatesG_p306_1.jpg",
+   "topic": "diab-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Arco corneal",
+   "frase": "Anillo grisáceo en la periferia de la córnea; prematuro antes de los 45 años.",
+   "claves": [
+    {
+     "t": "Anillo grisáceo en el borde de la córnea",
+     "m": [
+      0.27,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "En joven, estudiar hipercolesterolemia familiar (LDL > 190).",
+   "codes": [
+    "1.02.1.007"
+   ],
+   "confunde": "Arco senil del adulto mayor: sin valor patológico.",
+   "q": null,
+   "auto": false,
+   "n": 22
+  },
+  {
+   "id": "manga-gastrica",
+   "n": 23,
+   "src": "biblioteca/04_diabetes/diab-25/02_manga-gastrica__harrison_p3134.jpg",
+   "topic": "diab-25",
+   "type": "esquema",
+   "size": "half",
+   "title": "Manga gástrica",
+   "frase": "Se reseca gran parte del estómago y queda un tubo angosto.",
+   "claves": [
+    {
+     "t": "Estómago tubular remanente",
+     "m": [
+      0.55,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Obesidad mórbida: la DM2 remite en 60-80%.",
+   "codes": [
+    "1.02.1.013"
+   ],
+   "confunde": "Bypass en Y de Roux: restrictivo y malabsortivo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "acantosis-sm",
+   "src": "biblioteca/04_diabetes/diab-25/01_acantosis-nigricans-cuello__hy_p774.jpg",
+   "topic": "diab-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis nigricans (síndrome metabólico)",
+   "frase": "Hiperpigmentación aterciopelada del cuello: marcador de resistencia a la insulina.",
+   "claves": [
+    {
+     "t": "Pliegues oscuros y engrosados del cuello",
+     "m": [
+      0.5,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Síndrome metabólico: 3 de 5 criterios; estilo de vida y tratar cada componente.",
+   "codes": [
+    "1.02.1.016",
+    "1.02.1.012"
+   ],
+   "confunde": "Dermatitis por suciedad: se quita al lavar.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 42",
+   "auto": false,
+   "n": 24
+  }
+ ],
+ "pairs": [
+  {
+   "a": "ulcera-neuropatica",
+   "b": "ulcera-isquemica",
+   "title": "Úlcera neuropática vs isquémica",
+   "la": [
+    "Zona de apoyo",
+    "Callo alrededor, indolora"
+   ],
+   "lb": [
+    "Punta del dedo",
+    "Lecho pálido, sin callo"
+   ],
+   "diff": "La neuropática se descarga; la isquémica obliga a estudiar la irrigación."
+  },
+  {
+   "a": "microaneurismas",
+   "b": "neovasos",
+   "title": "No proliferativa vs proliferativa",
+   "la": [
+    "Microaneurismas y exudados"
+   ],
+   "lb": [
+    "Neovasos en la papila"
+   ],
+   "diff": "Solo los neovasos definen la proliferativa: panfotocoagulación."
+  },
+  {
+   "a": "xantelasma",
+   "b": "xantoma-tendinoso",
+   "title": "Xantelasma vs xantoma tendinoso",
+   "la": [
+    "Párpados",
+    "Puede tener colesterol normal"
+   ],
+   "lb": [
+    "Tendón de Aquiles",
+    "Hipercolesterolemia familiar"
+   ],
+   "diff": "El xantoma tendinoso sí es específico."
+  },
+  {
+   "a": "t-picudas-cad",
+   "b": "onda-u-cad",
+   "title": "Hiperkalemia vs hipokalemia",
+   "la": [
+    "T picudas"
+   ],
+   "lb": [
+    "Onda U"
+   ],
+   "diff": "En la cetoacidosis el potasio decide cuándo iniciar la insulina."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Acantosis nigricans",
+   "dx": "Resistencia a la insulina.",
+   "find": "acantosis",
+   "topic": "diab-01",
+   "img": "acantosis-cuello",
+   "def": "Piel oscura y aterciopelada en cuello, axilas y pliegues."
+  },
+  {
+   "name": "Mal perforante plantar",
+   "dx": "Neuropatía diabética.",
+   "find": "mal perforante",
+   "topic": "diab-22",
+   "img": "ulcera-neuropatica",
+   "def": "Úlcera indolora en zona de apoyo con rodete de callo."
+  },
+  {
+   "name": "Prueba del estilete óseo",
+   "dx": "Osteomielitis (Wagner 3).",
+   "find": "estilete",
+   "topic": "diab-22",
+   "img": "osteomielitis",
+   "def": "Tocar hueso con un estilete a través de la úlcera."
+  },
+  {
+   "name": "Xantomas eruptivos",
+   "dx": "Hipertrigliceridemia grave.",
+   "find": "eruptivos",
+   "topic": "diab-24",
+   "img": "xantomas-eruptivos",
+   "def": "Pápulas amarillas con halo rojo."
+  },
+  {
+   "name": "Kimmelstiel-Wilson",
+   "dx": "Nefropatía diabética.",
+   "find": "Kimmelstiel",
+   "topic": "diab-20",
+   "img": "kimmelstiel",
+   "def": "Glomeruloesclerosis nodular."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 24
+ }
+}

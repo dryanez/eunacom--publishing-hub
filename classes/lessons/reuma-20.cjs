@@ -74,7 +74,7 @@ module.exports = {
             say: "El fenómeno de patergia evalúa la respuesta inflamatoria ante un traumatismo mínimo: se pincha la piel volar del antebrazo con una aguja estéril de calibre veinte de forma oblicua." },
           { t: "Aparición de pústula estéril en 24 a 48 horas", d: "Pápula eritematosa o pústula aséptica positiva",
             say: "La prueba se considera francamente positiva si al cabo de veinticuatro a cuarenta y ocho horas se desarrolla una pápula eritematosa o una pústula estéril de más de dos milímetros en el sitio del pinchazo, reflejando hiperquimiotaxis neutrofílica. Aquí se ve la reacción en el lugar del pinchazo.",
-          photo: { src: 'biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg', label: 'Prueba de patergia', at: 'Aquí se ve la reacción', credit: 'Aportada por el usuario (fuente web, licencia por verificar)' } },
+          photo: { src: 'biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg', label: 'Prueba de patergia positiva (enfermedad de Behçet)', at: 'Aquí se ve la reacción', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 436' } },
         ] },
       ],
     },

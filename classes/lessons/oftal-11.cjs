@@ -46,7 +46,7 @@ module.exports = {
           say: 'Y el fondo de ojo es patognomónico: la retina se ve intensamente pálida, edematosa, lechosa, por el infarto de la capa de fibras nerviosas, y en el centro brilla la mancha rojo cereza. La fóvea no tiene capa ganglionar, se nutre directo de la coroides sana, y por eso mantiene su color rojo natural mientras todo alrededor está blanco. Si el examen te da esta imagen, la respuesta es esta, sin dudar.' },
         { show: ['rce'], note: 'Retina pálida y mancha roja central',
           say: 'Mira este fondo de ojo: la retina blanquecina y, en el centro, la mancha roja.',
-          photo: { src: 'biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg', label: 'Mancha rojo cereza', at: 'Mira este fondo de ojo', credit: 'Manual CTO Oftalmología 14.ª ed., p. 70' } },
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg', label: 'Mancha rojo cereza en la mácula', at: 'Mira este fondo de ojo', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 692' } },
       ],
     },
 

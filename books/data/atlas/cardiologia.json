@@ -1,0 +1,2869 @@
+{
+ "libro": "cardiologia",
+ "title": "Cardiología",
+ "prefix": "cardio",
+ "topics": {
+  "cardio-01": "Lectura Sistemática del Electrocardiograma",
+  "cardio-02": "Paro Cardiorrespiratorio",
+  "cardio-03": "ACLS",
+  "cardio-04": "Fibrilación Auricular y Flutter Auricular",
+  "cardio-06": "Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+  "cardio-07": "Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+  "cardio-08": "Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+  "cardio-09": "Extrasístoles Ventriculares y Holter de Ritmo",
+  "cardio-10": "Dolor Torácico Agudo en Urgencias",
+  "cardio-11": "Angina Crónica Estable",
+  "cardio-12": "Angina Crónica Estable",
+  "cardio-13": "SCA sin Supradesnivel del ST",
+  "cardio-14": "SCA con Supradesnivel del ST",
+  "cardio-15": "Complicaciones del Infarto",
+  "cardio-16": "Insuficiencia Cardíaca Crónica",
+  "cardio-18": "Insuficiencia Cardíaca Aguda y Edema Agudo de Pulmón",
+  "cardio-20": "Miocardiopatía Hipertrófica y Muerte Súbita del Joven",
+  "cardio-21": "Miocardiopatía Dilatada, Miocardiopatía Restrictiva y Miocarditis",
+  "cardio-23": "Estenosis Aórtica",
+  "cardio-24": "Insuficiencia Aórtica",
+  "cardio-25": "Fiebre Reumática, Prevención y Estenosis Mitral Reumática",
+  "cardio-26": "Insuficiencia Mitral y Prolapso de la Válvula Mitral",
+  "cardio-27": "Cardiopatías Congénitas del Adulto",
+  "cardio-28": "Endocarditis Infecciosa",
+  "cardio-29": "Hipertensión Arterial",
+  "cardio-31": "Hipertensión Arterial Secundaria",
+  "cardio-32": "Crisis Hipertensivas",
+  "cardio-33": "Pericarditis Aguda",
+  "cardio-34": "Taponamiento Cardíaco y Pericardiocentesis",
+  "cardio-35": "Disección Aórtica Aguda",
+  "cardio-37": "Tromboembolismo Pulmonar",
+  "cardio-38": "Trombosis Venosa Profunda"
+ },
+ "images": [
+  {
+   "id": "ecg-intervalos",
+   "src": "../../books/figuras/figura_1_1_ecg_intervalos.png",
+   "topic": "cardio-01",
+   "type": "esquema",
+   "size": "half",
+   "title": "Intervalos del ECG",
+   "frase": "P < 120 ms, PR 120-200 ms, QRS < 120 ms y QTc < 440 ms (H) / < 460 ms (M).",
+   "claves": [
+    {
+     "t": "Onda P < 120 ms",
+     "m": [
+      0.2,
+      0.3,
+      0.06
+     ]
+    },
+    {
+     "t": "QRS < 120 ms",
+     "m": [
+      0.42,
+      0.3,
+      0.06
+     ]
+    },
+    {
+     "t": "QT: del inicio del QRS al final de la T",
+     "m": [
+      0.6,
+      0.38,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Lectura en 5 pasos: frecuencia, ritmo, eje, intervalos y ST-T-Q.",
+   "codes": [
+    "1.01.4.007"
+   ],
+   "confunde": "PR > 200 ms = BAV de 1.er grado; PR < 120 ms con onda delta = preexcitación.",
+   "q": "EUNACOM Julio 2024 · Pregunta 180",
+   "auto": false,
+   "n": 1
+  },
+  {
+   "id": "ecg-normal",
+   "n": 2,
+   "src": "biblioteca/20_cardiologia/cardio-01/01_conduccion-normal-p-qrs-t-pr-160ms__stroobandt-ecg_p228.jpg",
+   "topic": "cardio-01",
+   "type": "esquema",
+   "size": "half",
+   "title": "Latido normal: P, QRS y T",
+   "frase": "Papel a 25 mm/s: 1 mm = 0,04 s y 5 mm = 0,2 s; con eso se mide todo.",
+   "claves": [
+    {
+     "t": "Onda P antes de cada QRS (despolarización auricular)",
+     "m": [
+      0.22,
+      0.72,
+      0.05
+     ]
+    },
+    {
+     "t": "QRS angosto",
+     "m": [
+      0.255,
+      0.3,
+      0.06
+     ]
+    },
+    {
+     "t": "Onda T (repolarización ventricular)",
+     "m": [
+      0.31,
+      0.72,
+      0.05
+     ]
+    },
+    {
+     "t": "PR de 5 mm = 200 ms: sobre eso es BAV de 1.er grado"
+    }
+   ],
+   "conducta": "Lectura en 5 pasos y siempre en el mismo orden: frecuencia, ritmo, eje, intervalos y ST-T-Q.",
+   "codes": [
+    "1.01.4.007"
+   ],
+   "confunde": "Preexcitación: PR < 120 ms con onda delta.",
+   "q": "EUNACOM Julio 2024 · Pregunta 180",
+   "auto": false,
+   "crop": [
+    0,
+    0.06,
+    1,
+    0.45
+   ]
+  },
+  {
+   "id": "rcp-manos",
+   "n": 3,
+   "src": "biblioteca/20_cardiologia/cardio-02/01_rcp-compresiones-manos-sobre-esternon__blausen.jpg",
+   "topic": "cardio-02",
+   "type": "esquema",
+   "size": "half",
+   "title": "Compresiones torácicas de alta calidad",
+   "frase": "Talón de una mano sobre la otra, en la mitad inferior del esternón, con los brazos rectos.",
+   "claves": [
+    {
+     "t": "Manos en la mitad inferior del esternón",
+     "m": [
+      0.47,
+      0.36,
+      0.08
+     ]
+    },
+    {
+     "t": "Brazos rectos sobre el paciente",
+     "m": [
+      0.45,
+      0.12,
+      0.07
+     ]
+    },
+    {
+     "t": "100-120 por minuto, ≥ 5 cm (máx. 6 cm), permitir la re-expansión"
+    }
+   ],
+   "conducta": "Pedir ayuda (131 / Código Azul) e iniciar compresiones (C-A-B); 30:2 sin vía aérea avanzada.",
+   "codes": [
+    "1.01.2.006",
+    "1.01.5.006"
+   ],
+   "confunde": "Golpe precordial: no se hace.",
+   "q": "EUNACOM Enero 2023 · Pregunta 120",
+   "auto": false
+  },
+  {
+   "id": "fv",
+   "n": 4,
+   "src": "biblioteca/20_cardiologia/cardio-03/01_fibrilacion-ventricular-ecg__stroobandt-ecg_p307.jpg",
+   "topic": "cardio-03",
+   "type": "ecg",
+   "size": "half",
+   "title": "Fibrilación ventricular",
+   "frase": "Oscilaciones caóticas e irregulares sin ningún QRS identificable: ritmo desfibrilable.",
+   "claves": [
+    {
+     "t": "Ondas caóticas de amplitud y forma variables",
+     "m": [
+      0.5,
+      0.3,
+      0.1
+     ]
+    },
+    {
+     "t": "Ningún QRS identificable en ninguna derivación",
+     "m": [
+      0.5,
+      0.85,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Descarga de 200 J bifásicos y RCP inmediata por 2 minutos, sin chequear pulso; adrenalina tras la 2.ª descarga.",
+   "codes": [
+    "1.01.5.004",
+    "1.01.2.006"
+   ],
+   "confunde": "Asistolia y AESP: no desfibrilables (RCP, adrenalina y causas reversibles).",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 4",
+   "auto": true
+  },
+  {
+   "id": "tv-a-fv",
+   "src": "biblioteca/20_cardiologia/cardio-03/02_fv-terminada-por-descarga-dai__stroobandt-ecg_p309.jpg",
+   "topic": "cardio-03",
+   "type": "ecg",
+   "size": "half",
+   "title": "TV que degenera en FV (registro de un DAI)",
+   "frase": "La taquicardia ventricular rápida puede degenerar en fibrilación ventricular.",
+   "claves": [
+    {
+     "t": "Taquicardia ventricular regular",
+     "m": [
+      0.3,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Fibrilación ventricular: caótica",
+     "m": [
+      0.75,
+      0.7,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Sin pulso: descarga de 200 J y RCP inmediata por 2 minutos sin chequear pulso.",
+   "codes": [
+    "1.01.5.004",
+    "1.01.2.006"
+   ],
+   "confunde": "TV con pulso: cardioversión sincronizada, no desfibrilación.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 4",
+   "auto": false,
+   "n": 5
+  },
+  {
+   "id": "fa",
+   "n": 6,
+   "src": "biblioteca/20_cardiologia/cardio-04/01_fibrilacion-auricular-ecg-12-derivaciones__stroobandt-ecg_p253.jpg",
+   "topic": "cardio-04",
+   "type": "ecg",
+   "size": "full",
+   "title": "Fibrilación auricular",
+   "frase": "Sin ondas P, línea de base ondulante (ondas f) y R-R irregularmente irregular.",
+   "claves": [
+    {
+     "t": "R-R completamente irregular, QRS angosto",
+     "m": [
+      0.25,
+      0.93,
+      0.08
+     ]
+    },
+    {
+     "t": "Línea de base con ondas f, sin P (V1)",
+     "m": [
+      0.75,
+      0.08,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Inestable: cardioversión eléctrica sincronizada. Estable: anticoagular según CHA₂DS₂-VASc y controlar la frecuencia (metoprolol o diltiazem).",
+   "codes": [
+    "1.01.1.012",
+    "1.01.1.013"
+   ],
+   "confunde": "Taquicardia auricular multifocal: irregular, pero con P de 3 o más morfologías.",
+   "q": "EUNACOM Julio 2025 · Pregunta 128",
+   "auto": true
+  },
+  {
+   "id": "flutter",
+   "n": 7,
+   "src": "biblioteca/20_cardiologia/cardio-04/02_flutter-auricular-2a1-150-lpm__stroobandt-ecg_p247.jpg",
+   "topic": "cardio-04",
+   "type": "ecg",
+   "size": "full",
+   "title": "Flutter auricular 2:1",
+   "frase": "Ondas F en dientes de sierra a 300 por minuto con respuesta ventricular regular de 150.",
+   "claves": [
+    {
+     "t": "Dientes de sierra en DII",
+     "m": [
+      0.12,
+      0.4,
+      0.08
+     ]
+    },
+    {
+     "t": "También en DIII y aVF (derivaciones inferiores)",
+     "m": [
+      0.38,
+      0.66,
+      0.08
+     ]
+    },
+    {
+     "t": "QRS angosto y regular a 150 lpm",
+     "m": [
+      0.6,
+      0.93,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Igual que la FA: anticoagular y controlar frecuencia o ritmo; curativo: ablación del istmo cavotricuspídeo (> 95%).",
+   "codes": [
+    "1.01.1.014"
+   ],
+   "confunde": "TPSV: también regular y angosta, pero la adenosina la termina; en el flutter solo deja ver las ondas.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 137",
+   "auto": true
+  },
+  {
+   "id": "flutter-vagal",
+   "n": 8,
+   "src": "biblioteca/20_cardiologia/cardio-04/03_flutter-masaje-seno-carotideo__stroobandt-ecg_p247.jpg",
+   "topic": "cardio-04",
+   "type": "ecg",
+   "size": "half",
+   "title": "Flutter: la maniobra vagal deja ver las ondas",
+   "frase": "La maniobra vagal o la adenosina aumentan el bloqueo AV y desenmascaran las ondas F, pero no terminan el flutter.",
+   "claves": [
+    {
+     "t": "Pausa sin QRS por el bloqueo AV transitorio",
+     "m": [
+      0.55,
+      0.5,
+      0.12
+     ]
+    },
+    {
+     "t": "Ondas F visibles durante la pausa",
+     "m": [
+      0.45,
+      0.12,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Una taquicardia regular de 150 lpm que revela ondas de sierra con la adenosina o las maniobras vagales es un flutter 2:1.",
+   "codes": [
+    "1.01.1.014"
+   ],
+   "confunde": "TPSV: la maniobra vagal o la adenosina la terminan.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 95",
+   "auto": false
+  },
+  {
+   "id": "tpsv",
+   "n": 9,
+   "src": "biblioteca/20_cardiologia/cardio-06/01_tpsv-reentrada-nodal-qrs-estrecho__stroobandt-ecg_p270.jpg",
+   "topic": "cardio-06",
+   "type": "ecg",
+   "size": "full",
+   "title": "TPSV por reentrada nodal",
+   "frase": "Taquicardia regular de QRS estrecho, 150-220 lpm, sin P visibles: están escondidas en el QRS.",
+   "claves": [
+    {
+     "t": "QRS estrecho y regular",
+     "m": [
+      0.25,
+      0.22,
+      0.08
+     ]
+    },
+    {
+     "t": "Pseudo-r' en V1: la P retrógrada",
+     "m": [
+      0.65,
+      0.07,
+      0.07
+     ]
+    },
+    {
+     "t": "Inicio y fin súbitos"
+    }
+   ],
+   "conducta": "Estable: maniobras vagales, luego adenosina 6 mg EV en bolo rápido (12 mg), luego verapamilo. Inestable: cardioversión sincronizada.",
+   "codes": [
+    "1.01.1.024"
+   ],
+   "confunde": "Flutter 2:1 (150 lpm, la adenosina revela ondas F) y taquicardia sinusal.",
+   "q": "EUNACOM Julio 2025 · Pregunta 44",
+   "auto": true
+  },
+  {
+   "id": "wpw",
+   "n": 10,
+   "src": "biblioteca/20_cardiologia/cardio-06/03_wpw-pr-corto-onda-delta__stroobandt-ecg_p313.jpg",
+   "topic": "cardio-06",
+   "type": "ecg",
+   "size": "half",
+   "title": "Wolff-Parkinson-White en ritmo sinusal",
+   "frase": "Tríada: PR < 120 ms, onda delta (empastamiento inicial del QRS) y QRS ancho.",
+   "claves": [
+    {
+     "t": "PR corto y onda delta en DII",
+     "m": [
+      0.21,
+      0.2,
+      0.05
+     ]
+    },
+    {
+     "t": "Onda delta también en aVF",
+     "m": [
+      0.22,
+      0.92,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Curativo: ablación por radiofrecuencia de la vía accesoria.",
+   "codes": [
+    "1.01.1.024"
+   ],
+   "confunde": "Bloqueo de rama: QRS ancho pero con PR normal y sin onda delta.",
+   "q": "EUNACOM Julio 2025 · Pregunta 134",
+   "auto": true
+  },
+  {
+   "id": "wpw-orto-anti",
+   "n": 11,
+   "src": "biblioteca/20_cardiologia/cardio-06/02_wpw-sinusal-ortodromica-antidromica__stroobandt-ecg_p275.jpg",
+   "topic": "cardio-06",
+   "type": "ecg",
+   "size": "half",
+   "title": "WPW: sinusal, ortodrómica y antidrómica",
+   "frase": "La vía accesoria (haz de Kent) da taquicardia ortodrómica de QRS estrecho o antidrómica de QRS ancho.",
+   "claves": [
+    {
+     "t": "Ritmo sinusal con preexcitación",
+     "m": [
+      0.15,
+      0.4,
+      0.08
+     ]
+    },
+    {
+     "t": "Ortodrómica: QRS estrecho",
+     "m": [
+      0.45,
+      0.5,
+      0.08
+     ]
+    },
+    {
+     "t": "Antidrómica: QRS ancho",
+     "m": [
+      0.85,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Crisis estable: maniobras vagales y adenosina solo si el QRS es estrecho y regular; ablación como tratamiento curativo.",
+   "codes": [
+    "1.01.1.024"
+   ],
+   "confunde": "Antidrómica vs taquicardia ventricular: ambas de QRS ancho.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 3",
+   "auto": false
+  },
+  {
+   "id": "fa-preexcitada",
+   "n": 12,
+   "src": "biblioteca/20_cardiologia/cardio-06/04_fa-preexcitada-wpw-rapida-irregular__stroobandt-ecg_p320.jpg",
+   "topic": "cardio-06",
+   "type": "ecg",
+   "size": "full",
+   "title": "FA preexcitada (WPW)",
+   "frase": "Taquicardia de QRS ancho, completamente irregular, con morfología variable y > 200 lpm.",
+   "claves": [
+    {
+     "t": "QRS anchos de morfología variable",
+     "m": [
+      0.4,
+      0.65,
+      0.12
+     ]
+    },
+    {
+     "t": "Irregularidad extrema: la delata frente a la TV",
+     "m": [
+      0.5,
+      0.12,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Cardioversión eléctrica o procainamida. PROHIBIDOS adenosina, verapamilo, diltiazem, digoxina y betabloqueadores.",
+   "codes": [
+    "1.01.1.024",
+    "1.01.2.009"
+   ],
+   "confunde": "Taquicardia ventricular: QRS ancho pero regular.",
+   "q": "EUNACOM Julio 2025 · Pregunta 134",
+   "auto": true
+  },
+  {
+   "id": "tv-bcrd",
+   "n": 13,
+   "src": "biblioteca/20_cardiologia/cardio-07/01_taquicardia-ventricular-tipo-bcrd__stroobandt-ecg_p283.jpg",
+   "topic": "cardio-07",
+   "type": "ecg",
+   "size": "full",
+   "title": "Taquicardia ventricular (morfología de BCRD)",
+   "frase": "Taquicardia regular de QRS ancho = TV hasta demostrar lo contrario.",
+   "claves": [
+    {
+     "t": "QRS ancho en «orejas de conejo» en V1",
+     "m": [
+      0.68,
+      0.08,
+      0.06
+     ]
+    },
+    {
+     "t": "Regular y ancha en las de extremidades",
+     "m": [
+      0.2,
+      0.22,
+      0.07
+     ]
+    },
+    {
+     "t": "A favor de TV: disociación AV, captura o fusión, QRS > 140 ms"
+    }
+   ],
+   "conducta": "Sin pulso: desfibrilar. Con pulso e inestable: cardioversión sincronizada. Estable: amiodarona 150 mg EV en 10 min; nunca verapamilo.",
+   "codes": [
+    "1.01.2.009",
+    "1.01.5.002"
+   ],
+   "confunde": "TPSV con aberrancia: ante la duda, se trata como TV.",
+   "q": "EUNACOM Julio 2019 · Pregunta 177",
+   "auto": true
+  },
+  {
+   "id": "tv-bcri",
+   "n": 14,
+   "src": "biblioteca/20_cardiologia/cardio-07/02_taquicardia-ventricular-tipo-bcri__stroobandt-ecg_p283.jpg",
+   "topic": "cardio-07",
+   "type": "ecg",
+   "size": "full",
+   "title": "Taquicardia ventricular (morfología de BCRI)",
+   "frase": "QRS muy ancho (> 160 ms con forma de bloqueo izquierdo): favorece TV.",
+   "claves": [
+    {
+     "t": "QRS muy ancho y regular",
+     "m": [
+      0.3,
+      0.45,
+      0.1
+     ]
+    },
+    {
+     "t": "Concordancia en las precordiales",
+     "m": [
+      0.75,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Primero pulso y estabilidad: inestable, cardioversión eléctrica sincronizada inmediata.",
+   "codes": [
+    "1.01.2.009",
+    "1.01.5.002"
+   ],
+   "confunde": "BCRI con ritmo sinusal: hay P antes de cada QRS y frecuencia normal.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 4",
+   "auto": false
+  },
+  {
+   "id": "torsion-puntas",
+   "n": 15,
+   "src": "biblioteca/20_cardiologia/cardio-07/03_torsada-de-puntas-qt-largo-adquirido__stroobandt-ecg_p301.jpg",
+   "topic": "cardio-07",
+   "type": "ecg",
+   "size": "full",
+   "title": "Torsión de puntas",
+   "frase": "TV polimorfa que gira alrededor de la línea de base, gatillada tras un QT largo y la secuencia corto-largo-corto.",
+   "claves": [
+    {
+     "t": "QT largo en el ritmo de base",
+     "m": [
+      0.2,
+      0.2,
+      0.06
+     ]
+    },
+    {
+     "t": "Complejos que cambian de amplitud y «giran»",
+     "m": [
+      0.82,
+      0.25,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Sulfato de magnesio 2 g EV, suspender el fármaco que alarga el QT y corregir K, Mg y Ca; desfibrilar si degenera en FV. No amiodarona.",
+   "codes": [
+    "1.01.2.009"
+   ],
+   "confunde": "Fibrilación ventricular: caótica, sin el patrón de giro.",
+   "q": "EUNACOM Julio 2024 · Pregunta 93",
+   "auto": true
+  },
+  {
+   "id": "bav-1",
+   "n": 16,
+   "src": "biblioteca/20_cardiologia/cardio-08/01_bav-primer-grado-pr-280ms__stroobandt-ecg_p228.jpg",
+   "topic": "cardio-08",
+   "type": "esquema",
+   "size": "half",
+   "title": "BAV de primer grado",
+   "frase": "PR > 200 ms (aquí 280 ms) pero constante, y todas las P conducen.",
+   "claves": [
+    {
+     "t": "PR largo y constante",
+     "m": [
+      0.2,
+      0.62,
+      0.06
+     ]
+    },
+    {
+     "t": "Cada P seguida de su QRS",
+     "m": [
+      0.65,
+      0.62,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Benigno: sin marcapaso; se revisan los fármacos.",
+   "codes": [
+    "1.01.1.002"
+   ],
+   "confunde": "Mobitz I: el PR se alarga latido a latido hasta que una P no conduce.",
+   "q": "EUNACOM Julio 2016 · Pregunta 163",
+   "auto": false,
+   "crop": [
+    0,
+    0.06,
+    1,
+    0.45
+   ]
+  },
+  {
+   "id": "mobitz-1",
+   "n": 17,
+   "src": "biblioteca/20_cardiologia/cardio-08/02_bav-mobitz-i-wenckebach__stroobandt-ecg_p228.jpg",
+   "topic": "cardio-08",
+   "type": "esquema",
+   "size": "half",
+   "title": "BAV de 2.º grado Mobitz I (Wenckebach)",
+   "frase": "El PR se alarga latido a latido hasta que una P no conduce, y el ciclo se reinicia.",
+   "claves": [
+    {
+     "t": "PR que se alarga",
+     "m": [
+      0.24,
+      0.6,
+      0.07
+     ]
+    },
+    {
+     "t": "P bloqueada: pausa",
+     "m": [
+      0.4,
+      0.62,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Nodal y asintomático: se observa; la atropina sirve en el bloqueo nodal.",
+   "codes": [
+    "1.01.1.002"
+   ],
+   "confunde": "Mobitz II: PR constante antes de la P bloqueada.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 96",
+   "auto": true,
+   "crop": [
+    0,
+    0.06,
+    1,
+    0.4
+   ]
+  },
+  {
+   "id": "mobitz-2",
+   "n": 18,
+   "src": "biblioteca/20_cardiologia/cardio-08/03_bav-mobitz-ii-qrs-estrecho__stroobandt-ecg_p230.jpg",
+   "topic": "cardio-08",
+   "type": "esquema",
+   "size": "half",
+   "title": "BAV de 2.º grado Mobitz II",
+   "frase": "PR constante y, de repente, una P que no conduce, sin alargamiento previo.",
+   "claves": [
+    {
+     "t": "PR igual en todos los latidos conducidos"
+    },
+    {
+     "t": "P bloqueada súbita"
+    },
+    {
+     "t": "Infranodal: alto riesgo de asistolia"
+    }
+   ],
+   "conducta": "Indicación de marcapaso definitivo (GES); la atropina sirve poco en el bloqueo infranodal.",
+   "codes": [
+    "1.01.1.002"
+   ],
+   "confunde": "Mobitz I: el PR se alarga antes de la P bloqueada.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 138",
+   "auto": true,
+   "crop": [
+    0,
+    0.06,
+    1,
+    0.45
+   ]
+  },
+  {
+   "id": "bav-completo",
+   "n": 19,
+   "src": "biblioteca/20_cardiologia/cardio-08/04_bav-completo-disociacion-av__stroobandt-ecg_p240.jpg",
+   "topic": "cardio-08",
+   "type": "ecg",
+   "size": "full",
+   "title": "BAV completo (tercer grado)",
+   "frase": "Disociación AV: las P van a su ritmo y los QRS a otro, más lento, sin relación entre ellos.",
+   "claves": [
+    {
+     "t": "Ondas P regulares, marcadas con flechas",
+     "m": [
+      0.33,
+      0.06,
+      0.06
+     ]
+    },
+    {
+     "t": "QRS de escape lento, sin relación con las P",
+     "m": [
+      0.28,
+      0.62,
+      0.07
+     ]
+    },
+    {
+     "t": "Pulso regular y lento: 30-40 lpm"
+    }
+   ],
+   "conducta": "Inestable: atropina → marcapaso transcutáneo → adrenalina o dopamina; definitivo: marcapaso (GES).",
+   "codes": [
+    "1.01.1.002",
+    "1.01.2.009"
+   ],
+   "confunde": "Mobitz II: algunas P sí conducen con PR constante.",
+   "q": "EUNACOM Julio 2019 · Pregunta 21",
+   "auto": true,
+   "crop": [
+    0,
+    0,
+    1,
+    0.95
+   ]
+  },
+  {
+   "id": "marcapaso",
+   "n": 20,
+   "src": "biblioteca/20_cardiologia/cardio-08/05_marcapasos-implantado-electrodo-vd__blausen.jpg",
+   "topic": "cardio-08",
+   "type": "esquema",
+   "size": "half",
+   "title": "Marcapasos definitivo implantado",
+   "frase": "Generador subcutáneo con cables a la aurícula y al ventrículo derecho.",
+   "claves": [
+    {
+     "t": "Generador bajo la clavícula",
+     "m": [
+      0.6,
+      0.62,
+      0.06
+     ]
+    },
+    {
+     "t": "Punta del cable en el ventrículo derecho",
+     "m": [
+      0.17,
+      0.66,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Indicado en BAV completo, Mobitz II, enfermedad del nodo sinusal sintomática y bloqueo bifascicular con síncope (GES).",
+   "codes": [
+    "1.01.1.002"
+   ],
+   "confunde": "No se indica en el BAV de primer grado ni en la FA o el flutter.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 138",
+   "auto": false
+  },
+  {
+   "id": "ev-patrones",
+   "n": 21,
+   "src": "biblioteca/20_cardiologia/cardio-09/01_extrasistoles-ventriculares-bigeminismo-trigeminismo-parejas__stroobandt-ecg_p221.jpg",
+   "topic": "cardio-09",
+   "type": "ecg",
+   "size": "half",
+   "title": "Extrasístoles ventriculares: bigeminismo y parejas",
+   "frase": "EV = QRS ancho prematuro sin onda P, con pausa compensadora completa.",
+   "claves": [
+    {
+     "t": "Bigeminismo: una EV cada dos latidos",
+     "m": [
+      0.32,
+      0.1,
+      0.06
+     ]
+    },
+    {
+     "t": "Pareja: dos EV seguidas",
+     "m": [
+      0.73,
+      0.72,
+      0.07
+     ]
+    },
+    {
+     "t": "Salva de tres = TV no sostenida",
+     "m": [
+      0.62,
+      0.93,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Benignas (corazón sano, aisladas, monomorfas): tranquilizar y suprimir gatillantes; betabloqueador si molestan. Holter si hay dudas.",
+   "codes": [
+    "1.01.1.011",
+    "1.01.4.014"
+   ],
+   "confunde": "Banderas rojas: polimorfas, parejas o TVNS, síncope, cardiopatía estructural.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 7",
+   "auto": false,
+   "crop": [
+    0,
+    0,
+    0.6,
+    1
+   ]
+  },
+  {
+   "id": "holter",
+   "src": "biblioteca/20_cardiologia/cardio-09/02_holter-electrodos-y-registrador__blausen.jpg",
+   "topic": "cardio-09",
+   "type": "esquema",
+   "size": "half",
+   "title": "Holter de ritmo",
+   "frase": "Registro electrocardiográfico continuo de 24 a 48 h mientras el paciente hace su vida.",
+   "claves": [
+    {
+     "t": "Electrodos en el tórax",
+     "m": [
+      0.25,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Registrador portátil",
+     "m": [
+      0.55,
+      0.9,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Palpitaciones, presíncope o síncope; cuantificar EV, FA paroxística y pausas.",
+   "codes": [
+    "1.01.4.014"
+   ],
+   "confunde": "Síntomas infrecuentes: monitor de eventos o registrador implantable.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 7",
+   "auto": false,
+   "n": 22
+  },
+  {
+   "id": "t-hiperagudas",
+   "n": 23,
+   "src": "biblioteca/20_cardiologia/cardio-10/01_ecg-t-hiperagudas-v2-v4__stroobandt-ecg_p165.jpg",
+   "topic": "cardio-10",
+   "type": "ecg",
+   "size": "full",
+   "title": "Ondas T hiperagudas (V2-V4)",
+   "frase": "T altas, anchas y simétricas: pueden ser el primer signo de un infarto en sus primeros minutos.",
+   "claves": [
+    {
+     "t": "T altas y anchas de V2 a V4",
+     "m": [
+      0.8,
+      0.42,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Repetir el ECG cada 15-30 min; un ECG inicial normal no descarta un SCA.",
+   "codes": [
+    "1.01.4.007",
+    "1.01.4.009"
+   ],
+   "confunde": "Hiperkalemia: T altas pero estrechas y picudas, difusas.",
+   "q": "EUNACOM Julio 2025 · Pregunta 52",
+   "auto": true
+  },
+  {
+   "id": "neumotorax",
+   "n": 24,
+   "src": "biblioteca/20_cardiologia/cardio-10/02_rx-neumotorax-izquierdo__cxr-survival-guide_fig28-7.jpg",
+   "topic": "cardio-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumotórax izquierdo",
+   "frase": "Línea pleural visceral y ausencia de trama vascular en la periferia del pulmón.",
+   "claves": [
+    {
+     "t": "Línea pleural visceral",
+     "m": [
+      0.62,
+      0.4,
+      0.07
+     ]
+    },
+    {
+     "t": "Periferia sin trama vascular",
+     "m": [
+      0.82,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "A tensión (hipotensión, yugulares, tráquea desviada): descompresión inmediata con aguja sin esperar la radiografía.",
+   "codes": [
+    "1.01.4.007"
+   ],
+   "confunde": "Neumotórax a tensión: diagnóstico clínico, no radiológico.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "boerhaave",
+   "n": 25,
+   "src": "biblioteca/20_cardiologia/cardio-10/03_rx-aire-mediastinal-boerhaave__cxr-survival-guide_fig27-4.jpg",
+   "topic": "cardio-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Rotura esofágica (Boerhaave): aire en el mediastino",
+   "frase": "Tras vómitos violentos: dolor torácico intenso, enfisema subcutáneo y aire mediastínico.",
+   "claves": [
+    {
+     "t": "Aire en el mediastino (flechas)",
+     "m": [
+      0.75,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Es una de las letales del dolor torácico: hay que pensarla tras vómitos o arcadas violentas.",
+   "codes": [
+    "1.01.4.007"
+   ],
+   "confunde": "Síndrome coronario agudo y disección aórtica.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ergometria",
+   "n": 26,
+   "src": "biblioteca/20_cardiologia/cardio-11/01_ecg-postejercicio-infradesnivel-st__stroobandt-ecg_p166.jpg",
+   "topic": "cardio-11",
+   "type": "ecg",
+   "size": "full",
+   "title": "Ergometría positiva: isquemia",
+   "frase": "Infradesnivel del ST ≥ 1 mm horizontal o descendente a 80 ms del punto J.",
+   "claves": [
+    {
+     "t": "Infradesnivel del ST en las precordiales",
+     "m": [
+      0.75,
+      0.6,
+      0.1
+     ]
+    },
+    {
+     "t": "Supradesnivel en aVR",
+     "m": [
+      0.2,
+      0.6,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Alto riesgo en la ergometría (ST ≥ 2 mm, en ≥ 5 derivaciones, precoz, caída de PA o TV): coronariografía.",
+   "codes": [
+    "1.01.1.001",
+    "1.01.4.008"
+   ],
+   "confunde": "ECG basal no interpretable (BCRI, marcapaso, digoxina): se usa SPECT o eco de estrés.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 2",
+   "auto": false
+  },
+  {
+   "id": "spect",
+   "n": 27,
+   "src": "biblioteca/20_cardiologia/cardio-11/02_spect-estres-reposo-defecto-anterior__harrison_p1876.jpg",
+   "topic": "cardio-11",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cintigrafía de perfusión (SPECT): defecto anterior",
+   "frase": "Defecto que aparece con el estrés y se corrige en reposo = isquemia reversible; fijo = cicatriz.",
+   "claves": [
+    {
+     "t": "Defecto de captación anterior en esfuerzo",
+     "m": [
+      0.35,
+      0.12,
+      0.1
+     ]
+    },
+    {
+     "t": "Captación normal en reposo",
+     "m": [
+      0.35,
+      0.47,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Se usa si no puede ejercitarse o el ECG basal no es interpretable.",
+   "codes": [
+    "1.01.4.005",
+    "1.01.1.001"
+   ],
+   "confunde": "Defecto fijo: infarto antiguo, no isquemia.",
+   "q": "EUNACOM Julio 2015 · Pregunta 61",
+   "auto": false
+  },
+  {
+   "id": "coronariografia",
+   "n": 28,
+   "src": "biblioteca/20_cardiologia/cardio-11/03_coronariografia-estenosis-tronco-circunfleja__harrison_p1883.jpg",
+   "topic": "cardio-11",
+   "type": "imagen",
+   "size": "half",
+   "title": "Coronariografía: estenosis del tronco y la circunfleja",
+   "frase": "Significativa ≥ 70% (≥ 50% en el tronco); intermedias 50-69%: FFR ≤ 0,80.",
+   "claves": [
+    {
+     "t": "Estenosis del tronco izquierdo (flecha)",
+     "m": [
+      0.08,
+      0.24,
+      0.06
+     ]
+    },
+    {
+     "t": "Estenosis de la circunfleja (flecha)",
+     "m": [
+      0.5,
+      0.29,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Tronco ≥ 50% o 3 vasos en diabético o con FEVI baja: by-pass; 1-2 vasos sin tronco: stent.",
+   "codes": [
+    "1.01.4.001",
+    "1.01.1.001"
+   ],
+   "confunde": "Lesión intermedia: se mide la FFR antes de decidir.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 155",
+   "auto": false
+  },
+  {
+   "id": "ffr",
+   "src": "biblioteca/20_cardiologia/cardio-11/04_ffr-0-78-estenosis-significativa__harrison_p1907.jpg",
+   "topic": "cardio-11",
+   "type": "otra",
+   "size": "half",
+   "title": "Reserva fraccional de flujo (FFR) de 0,78",
+   "frase": "FFR ≤ 0,80 = estenosis intermedia funcionalmente significativa.",
+   "claves": [
+    {
+     "t": "Valor FFR 0,78",
+     "m": [
+      0.88,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Lesiones intermedias (50-69%) con FFR ≤ 0,80 se revascularizan.",
+   "codes": [
+    "1.01.4.001",
+    "1.01.1.001"
+   ],
+   "confunde": "FFR > 0,80: no significativa, terapia médica.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 155",
+   "auto": false,
+   "n": 29
+  },
+  {
+   "id": "stent-bypass",
+   "n": 30,
+   "src": "biblioteca/20_cardiologia/cardio-12/01_angioplastia-vs-bypass__harrison_p2086.jpg",
+   "topic": "cardio-12",
+   "type": "esquema",
+   "size": "half",
+   "title": "Angioplastía con stent frente a by-pass",
+   "frase": "El stent trata la lesión culpable; el injerto se pone por delante de las lesiones y protege la arteria.",
+   "claves": [
+    {
+     "t": "Stent dentro de la lesión",
+     "m": [
+      0.27,
+      0.3,
+      0.08
+     ]
+    },
+    {
+     "t": "Injerto distal a las lesiones",
+     "m": [
+      0.6,
+      0.78,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "1-2 vasos sin tronco → stent farmacoactivo; tronco ≥ 50% o 3 vasos en diabético o con FEVI baja (SYNTAX alto) → by-pass con mamaria.",
+   "codes": [
+    "1.01.1.001"
+   ],
+   "confunde": "La terapia médica óptima se mantiene siempre, también después del stent o el by-pass.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 4",
+   "auto": false
+  },
+  {
+   "id": "trombo-sca",
+   "n": 31,
+   "src": "biblioteca/20_cardiologia/cardio-13/02_trombo-coronario-incompleto-vs-completo__pathoma_p75.jpg",
+   "topic": "cardio-13",
+   "type": "pieza",
+   "size": "half",
+   "title": "Trombo coronario: incompleto vs completo",
+   "frase": "SCASEST: trombo blanco que deja la luz parcialmente abierta; SCACEST: oclusión completa.",
+   "claves": [
+    {
+     "t": "A: trombo que ocupa solo parte de la luz",
+     "m": [
+      0.2,
+      0.35,
+      0.08
+     ]
+    },
+    {
+     "t": "B: oclusión completa de la arteria",
+     "m": [
+      0.8,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "SCASEST: doble antiagregación + anticoagulante; la fibrinólisis está contraindicada.",
+   "codes": [
+    "1.01.2.001"
+   ],
+   "confunde": "SCACEST: oclusión total, se reperfunde.",
+   "q": "EUNACOM Julio 2018 · Pregunta 31",
+   "auto": false
+  },
+  {
+   "id": "t-negativas",
+   "n": 32,
+   "src": "biblioteca/20_cardiologia/cardio-13/01_ecg-t-negativas-angina-inestable__stroobandt-ecg_p164.jpg",
+   "topic": "cardio-13",
+   "type": "ecg",
+   "size": "half",
+   "title": "Angina inestable: T negativas",
+   "frase": "Infradesnivel ≥ 0,5 mm o T negativas; el ECG puede ser normal en la mitad de los casos.",
+   "claves": [
+    {
+     "t": "T negativas",
+     "m": [
+      0.38,
+      0.13,
+      0.06
+     ]
+    },
+    {
+     "t": "Inversión de T en las precordiales",
+     "m": [
+      0.5,
+      0.78,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Doble antiagregación (aspirina + ticagrelor) y fondaparinux o enoxaparina; nunca fibrinólisis.",
+   "codes": [
+    "1.01.2.001",
+    "1.01.4.009"
+   ],
+   "confunde": "IAMSEST: mismo ECG pero con troponina elevada en curva.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 43",
+   "auto": false
+  },
+  {
+   "id": "iam-anterior",
+   "n": 33,
+   "src": "biblioteca/20_cardiologia/cardio-14/01_iam-anterior-sdst-v1-v5-especular-inferior__stroobandt-ecg_p178.jpg",
+   "topic": "cardio-14",
+   "type": "ecg",
+   "size": "full",
+   "title": "IAM con supradesnivel anterior (V1-V5)",
+   "frase": "ST elevado de V1 a V5: pared anterior y septal, arteria descendente anterior.",
+   "claves": [
+    {
+     "t": "Supradesnivel del ST de V1 a V5",
+     "m": [
+      0.7,
+      0.3,
+      0.12
+     ]
+    },
+    {
+     "t": "Imagen especular: infradesnivel en DIII y aVF",
+     "m": [
+      0.2,
+      0.93,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Reperfusión: angioplastía primaria si es posible en ≤ 120 min; si no, fibrinólisis en ≤ 30 min y traslado.",
+   "codes": [
+    "1.01.2.004",
+    "1.01.5.009",
+    "1.01.4.007"
+   ],
+   "confunde": "Pericarditis: supradesnivel difuso y cóncavo, sin imagen especular.",
+   "q": "EUNACOM Julio 2025 · Pregunta 52",
+   "auto": true
+  },
+  {
+   "id": "iam-inferior",
+   "n": 34,
+   "src": "biblioteca/20_cardiologia/cardio-14/02_iam-inferior-sdst-ii-iii-avf-especular-i-avl__stroobandt-ecg_p169.jpg",
+   "topic": "cardio-14",
+   "type": "ecg",
+   "size": "full",
+   "title": "IAM con supradesnivel inferior (DII, DIII, aVF)",
+   "frase": "ST elevado en DII, DIII y aVF, más en DIII: coronaria derecha en 80-90%.",
+   "claves": [
+    {
+     "t": "Supradesnivel en DII, DIII y aVF",
+     "m": [
+      0.2,
+      0.4,
+      0.07
+     ]
+    },
+    {
+     "t": "Especular en DI y aVL",
+     "m": [
+      0.2,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Tomar siempre V3R-V4R; reperfusión urgente.",
+   "codes": [
+    "1.01.2.004",
+    "1.01.4.007"
+   ],
+   "confunde": "Infarto del VD asociado: se busca en V4R.",
+   "q": "EUNACOM Julio 2015 · Pregunta 60",
+   "auto": true
+  },
+  {
+   "id": "iam-vd",
+   "n": 35,
+   "src": "biblioteca/20_cardiologia/cardio-15/01_ecg-infarto-ventriculo-derecho-v3r-v4r__stroobandt-ecg_p172.jpg",
+   "topic": "cardio-15",
+   "type": "ecg",
+   "size": "full",
+   "title": "Infarto del ventrículo derecho (V3R-V4R)",
+   "frase": "Infarto inferior con supradesnivel ≥ 1 mm en V4R: oclusión proximal de la coronaria derecha.",
+   "claves": [
+    {
+     "t": "Supradesnivel inferior, mayor en DIII",
+     "m": [
+      0.2,
+      0.42,
+      0.08
+     ]
+    },
+    {
+     "t": "Supradesnivel en las precordiales derechas (V3R-V4R)",
+     "m": [
+      0.75,
+      0.58,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Hipotensión + yugulares + pulmón limpio: volumen; PROHIBIDOS nitratos, diuréticos y morfina.",
+   "codes": [
+    "1.01.2.004"
+   ],
+   "confunde": "Taponamiento: también yugulares e hipotensión, pero con ruidos apagados y eco con derrame.",
+   "q": "EUNACOM Julio 2017 · Pregunta 46",
+   "auto": false
+  },
+  {
+   "id": "rotura-papilar",
+   "n": 36,
+   "src": "biblioteca/20_cardiologia/cardio-15/03_rotura-musculo-papilar-pieza__pathoma_p75.jpg",
+   "topic": "cardio-15",
+   "type": "pieza",
+   "size": "half",
+   "title": "Rotura del músculo papilar",
+   "frase": "Días 3-7 de un infarto inferior: edema pulmonar fulminante con soplo holosistólico apical nuevo.",
+   "claves": [
+    {
+     "t": "Músculo papilar roto",
+     "m": [
+      0.55,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Ecocardiograma, balón de contrapulsación y cirugía mitral de urgencia.",
+   "codes": [
+    "1.01.2.004",
+    "1.01.4.006"
+   ],
+   "confunde": "Rotura del tabique: soplo pansistólico paraesternal con frémito.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 125",
+   "auto": false
+  },
+  {
+   "id": "rotura-pared",
+   "n": 37,
+   "src": "biblioteca/20_cardiologia/cardio-15/02_rotura-pared-libre-pieza__pathoma_p75.jpg",
+   "topic": "cardio-15",
+   "type": "pieza",
+   "size": "half",
+   "title": "Rotura de la pared libre del ventrículo",
+   "frase": "Hemopericardio a tensión con disociación electromecánica; mortalidad > 90%.",
+   "claves": [
+    {
+     "t": "Desgarro de la pared libre",
+     "m": [
+      0.45,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Colapso con AESP y taponamiento tras un infarto: pericardiocentesis y cirugía, con mortalidad > 90%.",
+   "codes": [
+    "1.01.2.004"
+   ],
+   "confunde": "Rotura de papilar: edema pulmonar y soplo, no taponamiento.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "aneurisma-rx",
+   "src": "biblioteca/20_cardiologia/cardio-15/04_aneurisma-ventricular-pieza__pathoma_p75.jpg",
+   "topic": "cardio-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Aneurisma ventricular en la radiografía",
+   "frase": "Abombamiento del borde cardíaco izquierdo tras un infarto.",
+   "claves": [
+    {
+     "t": "Abombamiento del borde izquierdo (flecha)",
+     "m": [
+      0.83,
+      0.9,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "ST elevado persistente > 4-6 semanas; con trombo mural, anticoagulación.",
+   "codes": [
+    "1.01.2.004",
+    "1.01.4.006"
+   ],
+   "confunde": "Pseudoaneurisma: cuello estrecho, cirugía urgente.",
+   "q": null,
+   "auto": false,
+   "n": 38
+  },
+  {
+   "id": "eco-trombo-apical",
+   "n": 39,
+   "src": "biblioteca/20_cardiologia/cardio-15/05_eco-trombo-aneurisma-apical__harrison_p1897.jpg",
+   "topic": "cardio-15",
+   "type": "eco",
+   "size": "half",
+   "title": "Aneurisma apical con trombo mural",
+   "frase": "El aneurisma ventricular se complica con IC, arritmias y trombos murales embolígenos.",
+   "claves": [
+    {
+     "t": "Trombo en la zona aneurismática del ápex",
+     "m": [
+      0.48,
+      0.35,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Trombo mural: anticoagulación oral.",
+   "codes": [
+    "1.01.4.006",
+    "1.01.2.004"
+   ],
+   "confunde": "Pseudoaneurisma: cuello estrecho, cirugía urgente.",
+   "q": "EUNACOM Julio 2013 · Pregunta 53",
+   "auto": false
+  },
+  {
+   "id": "cardiomegalia-derrame",
+   "n": 40,
+   "src": "biblioteca/20_cardiologia/cardio-16/01_cardiomegalia-derrame-bilateral-ic__chest-xray-survival-guide_p160.jpg",
+   "topic": "cardio-16",
+   "type": "imagen",
+   "size": "half",
+   "title": "Insuficiencia cardíaca: cardiomegalia y derrame bilateral",
+   "frase": "Índice cardiotorácico > 0,5 y ángulos costofrénicos borrados por derrame.",
+   "claves": [
+    {
+     "t": "Silueta cardíaca agrandada",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    },
+    {
+     "t": "Ángulos costofrénicos borrados",
+     "m": [
+      0.1,
+      0.65,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Ecocardiograma Doppler: examen de elección ante IC sospechada (FEVI, válvulas, presiones).",
+   "codes": [
+    "1.01.1.018",
+    "1.01.4.006"
+   ],
+   "confunde": "Derrame pericárdico: corazón en botellón sin congestión.",
+   "q": "EUNACOM Julio 2024 · Pregunta 153",
+   "auto": false
+  },
+  {
+   "id": "edema-alveolar",
+   "n": 41,
+   "src": "biblioteca/20_cardiologia/cardio-18/01_edema-pulmonar-alveolar-florido__chest-xray-survival-guide_p160.jpg",
+   "topic": "cardio-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Edema pulmonar alveolar («alas de mariposa»)",
+   "frase": "Infiltrado alveolar bilateral que parte desde los hilios, con cardiomegalia y derrame.",
+   "claves": [
+    {
+     "t": "Infiltrado perihiliar bilateral",
+     "m": [
+      0.3,
+      0.4,
+      0.12
+     ]
+    },
+    {
+     "t": "Corazón agrandado",
+     "m": [
+      0.5,
+      0.7,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Sentar, VNI (CPAP), nitroglicerina EV si PAS ≥ 110 y furosemida EV; buscar el desencadenante (CHAMP).",
+   "codes": [
+    "1.01.2.005"
+   ],
+   "confunde": "Neumonía bilateral: fiebre, sin cardiomegalia ni cefalización.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 88",
+   "auto": true
+  },
+  {
+   "id": "edema-intersticial",
+   "n": 42,
+   "src": "biblioteca/20_cardiologia/cardio-18/02_edema-intersticial-florido__chest-xray-survival-guide_p160.jpg",
+   "topic": "cardio-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Edema intersticial: líneas de Kerley",
+   "frase": "Engrosamiento peribronquial y líneas septales: la etapa previa a inundar los alvéolos.",
+   "claves": [
+    {
+     "t": "Líneas septales (Kerley B) en la base",
+     "m": [
+      0.25,
+      0.75,
+      0.08
+     ]
+    },
+    {
+     "t": "Cefalización de los vasos del vértice",
+     "m": [
+      0.6,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Tratar la congestión: diurético EV y vasodilatador según la PA.",
+   "codes": [
+    "1.01.2.005",
+    "1.01.1.018"
+   ],
+   "confunde": "Fibrosis pulmonar: reticulado fijo, no cambia con el diurético.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 152",
+   "auto": false
+  },
+  {
+   "id": "mch-pieza",
+   "n": 43,
+   "src": "biblioteca/20_cardiologia/cardio-20/01_mch-pieza-hipertrofia-septal__harrison_p2010.jpg",
+   "topic": "cardio-20",
+   "type": "pieza",
+   "size": "half",
+   "title": "Miocardiopatía hipertrófica: septo asimétrico",
+   "frase": "Hipertrofia asimétrica inexplicada del septo ≥ 15 mm (≥ 13 mm con un familiar afectado).",
+   "claves": [
+    {
+     "t": "Tabique mucho más grueso que la pared libre",
+     "m": [
+      0.5,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Betabloqueador (o verapamilo); suspender el deporte competitivo y estudiar a los familiares de primer grado.",
+   "codes": [
+    "1.01.1.020"
+   ],
+   "confunde": "HVI hipertensiva o por estenosis aórtica: concéntrica y con causa.",
+   "q": "EUNACOM Julio 2016 · Pregunta 41",
+   "auto": false
+  },
+  {
+   "id": "mch-eco",
+   "n": 44,
+   "src": "biblioteca/20_cardiologia/cardio-20/02_mch-ecocardiograma-septo__harrison_p2011.jpg",
+   "topic": "cardio-20",
+   "type": "eco",
+   "size": "half",
+   "title": "Miocardiopatía hipertrófica: ecocardiograma",
+   "frase": "Septo mucho más grueso que la pared lateral; gradiente ≥ 30 mmHg define obstrucción.",
+   "claves": [
+    {
+     "t": "Septo engrosado",
+     "m": [
+      0.42,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Pared lateral de grosor normal",
+     "m": [
+      0.75,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Prohibidos en la obstructiva: nitratos, vasodilatadores, digoxina y deshidratación; DAI según riesgo.",
+   "codes": [
+    "1.01.1.020"
+   ],
+   "confunde": "Estenosis aórtica: el soplo disminuye con Valsalva (en la MCH aumenta).",
+   "q": "EUNACOM Julio 2013 · Pregunta 179",
+   "auto": true
+  },
+  {
+   "id": "dilatada-pieza",
+   "n": 45,
+   "src": "biblioteca/20_cardiologia/cardio-21/01_dilatada-pieza-dilatacion-vi__harrison_p1999.jpg",
+   "topic": "cardio-21",
+   "type": "pieza",
+   "size": "half",
+   "title": "Miocardiopatía dilatada",
+   "frase": "Ventrículo izquierdo masivamente dilatado y esférico, con FEVI < 40%.",
+   "claves": [
+    {
+     "t": "Ventrículo izquierdo dilatado",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Descartar coronarias, pedir TSH, ferritina, serología de Chagas e historia de alcohol y quimioterapia; tratar con los cuatro pilares.",
+   "codes": [
+    "1.01.1.020"
+   ],
+   "confunde": "Miocardiopatía isquémica: se descarta con coronariografía o angioTAC.",
+   "q": "EUNACOM Julio 2015 · Pregunta 54",
+   "auto": false
+  },
+  {
+   "id": "amiloidosis-pieza",
+   "n": 46,
+   "src": "biblioteca/20_cardiologia/cardio-21/02_restrictiva-amiloidosis-pieza__harrison_p2009.jpg",
+   "topic": "cardio-21",
+   "type": "pieza",
+   "size": "half",
+   "title": "Amiloidosis cardíaca (miocardiopatía restrictiva)",
+   "frase": "Corazón firme, de superficie cerosa, con paredes gruesas y aurículas dilatadas.",
+   "claves": [
+    {
+     "t": "Paredes ventriculares engrosadas",
+     "m": [
+      0.55,
+      0.6,
+      0.1
+     ]
+    },
+    {
+     "t": "Aurículas dilatadas",
+     "m": [
+      0.6,
+      0.2,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Clave: ECG de bajo voltaje con paredes gruesas en el eco; evitar digoxina y betabloqueador.",
+   "codes": [
+    "1.01.1.020"
+   ],
+   "confunde": "Pericarditis constrictiva: pericardio calcificado, se cura con pericardiectomía.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "amiloidosis-eco",
+   "n": 47,
+   "src": "biblioteca/20_cardiologia/cardio-21/03_restrictiva-amiloidosis-eco__harrison_p2009.jpg",
+   "topic": "cardio-21",
+   "type": "eco",
+   "size": "half",
+   "title": "Amiloidosis: paredes gruesas en el eco",
+   "frase": "Paredes de ambos ventrículos engrosadas y brillantes, aurículas muy dilatadas, FEVI normal.",
+   "claves": [
+    {
+     "t": "Paredes ventriculares engrosadas",
+     "m": [
+      0.45,
+      0.55,
+      0.1
+     ]
+    },
+    {
+     "t": "Aurículas dilatadas",
+     "m": [
+      0.5,
+      0.85,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "La RM muestra realce tardío difuso; tafamidis en la amiloidosis ATTR.",
+   "codes": [
+    "1.01.1.020"
+   ],
+   "confunde": "Miocardiopatía hipertrófica: ECG de alto voltaje.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "miocarditis-rm",
+   "n": 48,
+   "src": "biblioteca/20_cardiologia/cardio-21/04_miocarditis-rm-realce-tardio__harrison_p2001.jpg",
+   "topic": "cardio-21",
+   "type": "imagen",
+   "size": "half",
+   "title": "Miocarditis: RM con realce tardío",
+   "frase": "Realce tardío con gadolinio mesocárdico (patrón no isquémico) con edema.",
+   "claves": [
+    {
+     "t": "Realce tardío mesocárdico (flecha)",
+     "m": [
+      0.38,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Soporte, sin corticoides de rutina; reposo del deporte competitivo 3 a 6 meses.",
+   "codes": [
+    "1.01.1.020"
+   ],
+   "confunde": "Infarto: realce subendocárdico en territorio coronario.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "eao-pieza",
+   "src": "../../books/figuras/figura_4_1_eao_ecocardiograma.png",
+   "topic": "cardio-23",
+   "type": "pieza",
+   "size": "half",
+   "title": "Válvula aórtica calcificada (pieza quirúrgica)",
+   "frase": "Velos engrosados y calcificados que no abren: estenosis aórtica degenerativa.",
+   "claves": [
+    {
+     "t": "Velos con nódulos de calcio",
+     "m": [
+      0.5,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Reemplazo valvular ante síntomas o FEVI < 50%.",
+   "codes": [
+    "1.01.1.009"
+   ],
+   "confunde": "Válvula bicúspide: dos velos.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 126",
+   "auto": false,
+   "n": 49
+  },
+  {
+   "id": "estenosis-aortica",
+   "n": 50,
+   "src": "biblioteca/20_cardiologia/cardio-23/01_estenosis-aortica-valvar-eco-domo-sistolico-y-regurgitacion__nelson_p2792.jpg",
+   "topic": "cardio-23",
+   "type": "eco",
+   "size": "half",
+   "title": "Estenosis aórtica valvar",
+   "frase": "La válvula se abomba en sístole (domo); severa con velocidad pico ≥ 4 m/s.",
+   "claves": [
+    {
+     "t": "Válvula en domo sistólico",
+     "m": [
+      0.4,
+      0.3,
+      0.08
+     ]
+    },
+    {
+     "t": "Doppler color",
+     "m": [
+      0.55,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Reemplazo valvular ante síntomas (angina, síncope, disnea) o FEVI < 50%: SAVR o TAVI.",
+   "codes": [
+    "1.01.1.009",
+    "1.01.4.006"
+   ],
+   "confunde": "MCH obstructiva: soplo que aumenta con Valsalva.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 126",
+   "auto": false
+  },
+  {
+   "id": "ia-doppler",
+   "n": 51,
+   "src": "biblioteca/20_cardiologia/cardio-16/01_insuficiencia-aortica-doppler-color__harrison_p1889.jpg",
+   "topic": "cardio-24",
+   "type": "eco",
+   "size": "half",
+   "title": "Insuficiencia aórtica: Doppler color",
+   "frase": "Chorro regurgitante diastólico hacia el ventrículo; severa si la vena contracta > 6 mm.",
+   "claves": [
+    {
+     "t": "Chorro regurgitante hacia el VI",
+     "m": [
+      0.55,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Asintomático con VI normal: vasodilatadores y eco cada 6-12 meses; cirugía si síntomas, FEVI ≤ 55% o DFSVI > 50 mm.",
+   "codes": [
+    "1.01.1.017"
+   ],
+   "confunde": "Estenosis mitral: retumbo diastólico apical con chasquido.",
+   "q": "EUNACOM Enero 2023 · Pregunta 147",
+   "auto": false,
+   "crop": [
+    0,
+    0,
+    0.5,
+    1
+   ]
+  },
+  {
+   "id": "estenosis-mitral",
+   "n": 52,
+   "src": "biblioteca/20_cardiologia/cardio-25/01_estenosis-mitral-reumatica-eco-y-3d__harrison_p1890.jpg",
+   "topic": "cardio-25",
+   "type": "eco",
+   "size": "half",
+   "title": "Estenosis mitral reumática",
+   "frase": "Valvas engrosadas pegadas en las puntas (domo) y aurícula izquierda dilatada; en 3D, orificio en boca de pez.",
+   "claves": [
+    {
+     "t": "Valvas mitrales engrosadas",
+     "m": [
+      0.4,
+      0.45,
+      0.07
+     ]
+    },
+    {
+     "t": "Orificio en «boca de pez» (3D)",
+     "m": [
+      0.85,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Con FA, trombo o embolia: acenocumarol (INR 2-3); valvuloplastía con balón si Wilkins ≤ 8.",
+   "codes": [
+    "1.01.1.010"
+   ],
+   "confunde": "Insuficiencia mitral: soplo holosistólico, no retumbo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 128",
+   "auto": false
+  },
+  {
+   "id": "palo-hockey",
+   "n": 53,
+   "src": "biblioteca/20_cardiologia/cardio-25/02_cardiopatia-reumatica-valva-mitral-palo-de-hockey__harrison_p2808.jpg",
+   "topic": "cardio-25",
+   "type": "eco",
+   "size": "half",
+   "title": "Valva mitral en «palo de hockey»",
+   "frase": "La valva anterior engrosada se abomba hacia el septo en diástole: deformidad típica reumática.",
+   "claves": [
+    {
+     "t": "Valva anterior en palo de hockey (punta de flecha)",
+     "m": [
+      0.53,
+      0.42,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Prevención secundaria con penicilina benzatina cada 3-4 semanas.",
+   "codes": [
+    "1.01.1.010",
+    "1.01.3.005"
+   ],
+   "confunde": "Prolapso mitral: la valva se abomba hacia la aurícula en sístole.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 158",
+   "auto": true
+  },
+  {
+   "id": "prolapso-mitral",
+   "n": 54,
+   "src": "biblioteca/20_cardiologia/cardio-26/01_prolapso-mitral-barlow-eco-y-doppler-insuficiencia__harrison_p2042.jpg",
+   "topic": "cardio-26",
+   "type": "eco",
+   "size": "half",
+   "title": "Prolapso mitral (Barlow)",
+   "frase": "Ambas valvas redundantes se abomban hacia la aurícula; el Doppler muestra la insuficiencia.",
+   "claves": [
+    {
+     "t": "Valvas que prolapsan hacia la aurícula",
+     "m": [
+      0.2,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Chorro de insuficiencia (Doppler)",
+     "m": [
+      0.77,
+      0.42,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Sin insuficiencia significativa: tranquilizar; betabloqueador en dosis bajas si hay palpitaciones.",
+   "codes": [
+    "1.01.1.019"
+   ],
+   "confunde": "Clic mesosistólico del prolapso vs soplo holosistólico de la IM clásica.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 1",
+   "auto": false
+  },
+  {
+   "id": "im-chorro",
+   "n": 55,
+   "src": "biblioteca/20_cardiologia/cardio-26/02_prolapso-mitral-doppler-color-chorro-regurgitante__harrison_p1890.jpg",
+   "topic": "cardio-26",
+   "type": "eco",
+   "size": "half",
+   "title": "Insuficiencia mitral: chorro regurgitante",
+   "frase": "La sangre sale del ventrículo a la aurícula en sístole; severa con volumen ≥ 60 mL.",
+   "claves": [
+    {
+     "t": "Chorro hacia la aurícula izquierda",
+     "m": [
+      0.5,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Cirugía (de preferencia reparación) si hay síntomas, FEVI ≤ 60%, DTSVI ≥ 40 mm, FA nueva o PSAP > 50.",
+   "codes": [
+    "1.01.1.019"
+   ],
+   "confunde": "Insuficiencia tricuspídea: soplo que aumenta con la inspiración.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 124",
+   "auto": true
+  },
+  {
+   "id": "cia",
+   "n": 56,
+   "src": "biblioteca/20_cardiologia/cardio-27/01_cia-ostium-secundum-subcostal-doppler-color__harrison_p1898.jpg",
+   "topic": "cardio-27",
+   "type": "eco",
+   "size": "half",
+   "title": "Comunicación interauricular ostium secundum",
+   "frase": "Defecto del septo interauricular con flujo de izquierda a derecha y sobrecarga del VD.",
+   "claves": [
+    {
+     "t": "Defecto del septo interauricular",
+     "m": [
+      0.25,
+      0.45,
+      0.07
+     ]
+    },
+    {
+     "t": "Flujo a través del defecto (color)",
+     "m": [
+      0.75,
+      0.45,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Cierre percutáneo (Amplatzer) si hay sobrecarga del VD o Qp:Qs > 1,5.",
+   "codes": [
+    "1.01.1.003"
+   ],
+   "confunde": "CIV: soplo holosistólico rudo con frémito, no desdoblamiento fijo de R2.",
+   "q": "EUNACOM Julio 2025 · Pregunta 147",
+   "auto": false
+  },
+  {
+   "id": "roesler",
+   "n": 57,
+   "src": "biblioteca/20_cardiologia/cardio-27/02_coartacion-adulto-rx-torax-muescas-costales__cxr_p365.jpg",
+   "topic": "cardio-27",
+   "type": "imagen",
+   "size": "half",
+   "title": "Coartación aórtica: muescas costales de Roesler",
+   "frase": "Erosiones del borde inferior de las costillas 3.ª a 8.ª por arterias intercostales colaterales.",
+   "claves": [
+    {
+     "t": "Muescas en el borde inferior de las costillas",
+     "m": [
+      0.25,
+      0.35,
+      0.07
+     ]
+    },
+    {
+     "t": "También en el otro lado",
+     "m": [
+      0.75,
+      0.35,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Hipertensión en los brazos con pulsos femorales débiles: ecocardiograma y angioTAC; stent o cirugía.",
+   "codes": [
+    "1.01.1.003"
+   ],
+   "confunde": "Hipertensión esencial: pulsos femorales normales.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 3",
+   "auto": true
+  },
+  {
+   "id": "coartacion-stent",
+   "n": 58,
+   "src": "biblioteca/20_cardiologia/cardio-27/03_coartacion-aortografia-antes-y-despues-stent__nelson_p2795.jpg",
+   "topic": "cardio-27",
+   "type": "imagen",
+   "size": "half",
+   "title": "Coartación: aortografía antes y después del stent",
+   "frase": "Estrechez de la aorta a la izquierda; arteria abierta tras el stent a la derecha.",
+   "claves": [
+    {
+     "t": "Estrechez de la aorta",
+     "m": [
+      0.23,
+      0.55,
+      0.07
+     ]
+    },
+    {
+     "t": "Aorta abierta con el stent",
+     "m": [
+      0.75,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "En el adulto, angioplastía con stent si la anatomía lo permite; la cirugía, para anatomías complejas.",
+   "codes": [
+    "1.01.1.003"
+   ],
+   "confunde": "Recoartación tras la cirugía: reaparece el gradiente braquio-femoral.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 3",
+   "auto": false
+  },
+  {
+   "id": "roth",
+   "n": 59,
+   "src": "biblioteca/20_cardiologia/cardio-24/02_mancha-de-roth__harrison_p262.jpg",
+   "topic": "cardio-28",
+   "type": "fondo",
+   "size": "half",
+   "title": "Manchas de Roth",
+   "frase": "Hemorragias retinianas de centro pálido: fenómeno inmunológico de la endocarditis subaguda.",
+   "claves": [
+    {
+     "t": "Hemorragia con centro blanco",
+     "m": [
+      0.82,
+      0.42,
+      0.06
+     ]
+    },
+    {
+     "t": "Otra mancha",
+     "m": [
+      0.18,
+      0.27,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Fiebre + soplo + Roth: 3 hemocultivos antes del antibiótico y ecocardiograma.",
+   "codes": [
+    "1.01.1.007",
+    "1.04.2.003"
+   ],
+   "confunde": "Retinopatía hipertensiva: hemorragias en llama sin centro pálido.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 63",
+   "auto": true
+  },
+  {
+   "id": "endocarditis-eco",
+   "n": 60,
+   "src": "biblioteca/20_cardiologia/cardio-28/03_endocarditis-aortica-eco-vegetaciones-e-insuficiencia__nelson_p2853.jpg",
+   "topic": "cardio-28",
+   "type": "eco",
+   "size": "half",
+   "title": "Endocarditis aórtica: vegetaciones",
+   "frase": "Vegetaciones sobre las valvas aórticas y regurgitación en el Doppler color.",
+   "claves": [
+    {
+     "t": "Vegetaciones sobre las valvas",
+     "m": [
+      0.25,
+      0.45,
+      0.07
+     ]
+    },
+    {
+     "t": "Insuficiencia aórtica (color)",
+     "m": [
+      0.75,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Transtorácico a todos; transesofágico si prótesis, duda o complicación. Cirugía si IC, infección no controlada o embolias.",
+   "codes": [
+    "1.01.1.007",
+    "1.04.2.003"
+   ],
+   "confunde": "Trombo o vegetación no infecciosa: hemocultivos negativos.",
+   "q": "EUNACOM Julio 2018 · Pregunta 70",
+   "auto": false
+  },
+  {
+   "id": "vegetaciones-pieza",
+   "n": 61,
+   "src": "biblioteca/20_cardiologia/cardio-24/01_vegetaciones-endocarditis-mitral__harrison_p1064.jpg",
+   "topic": "cardio-28",
+   "type": "pieza",
+   "size": "half",
+   "title": "Vegetaciones mitrales por S. viridans",
+   "frase": "Endocarditis subaguda sobre válvula dañada: vegetaciones friables en las valvas.",
+   "claves": [
+    {
+     "t": "Vegetaciones (flechas)",
+     "m": [
+      0.48,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "S. viridans: penicilina 4 semanas (6 en prótesis); S. aureus: cloxacilina.",
+   "codes": [
+    "1.01.1.007",
+    "1.04.2.003"
+   ],
+   "confunde": "Endocarditis aguda por S. aureus: válvula sana, tricúspide en usuarios de drogas.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 123",
+   "auto": false
+  },
+  {
+   "id": "mapa",
+   "src": "../../books/figuras/fig_mapa_hta_p142_img3.jpeg",
+   "topic": "cardio-29",
+   "type": "otra",
+   "size": "half",
+   "title": "MAPA: registro de 24 horas",
+   "frase": "Promedios diurno y nocturno y porcentaje de descenso nocturno.",
+   "claves": [
+    {
+     "t": "Curva de presión de 24 h",
+     "m": [
+      0.4,
+      0.3,
+      0.12
+     ]
+    },
+    {
+     "t": "Tabla de promedios por período",
+     "m": [
+      0.4,
+      0.82,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "MAPA 24 h ≥ 130/80, diurno ≥ 135/85, nocturno ≥ 120/70 confirma HTA.",
+   "codes": [
+    "1.01.4.011",
+    "1.01.1.015"
+   ],
+   "confunde": "Bata blanca: consulta alta y MAPA normal.",
+   "q": null,
+   "auto": false,
+   "n": 62
+  },
+  {
+   "id": "retinopatia-estrella",
+   "n": 63,
+   "src": "biblioteca/20_cardiologia/cardio-29/01_retinopatia-hipertensiva-estrella-macular__bates_t7-16.jpg",
+   "topic": "cardio-29",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía hipertensiva: estrella macular",
+   "frase": "Exudados duros en estrella alrededor de la mácula y hemorragias dispersas.",
+   "claves": [
+    {
+     "t": "Exudados en estrella macular",
+     "m": [
+      0.4,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Hemorragias",
+     "m": [
+      0.6,
+      0.55,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Grados III y IV indican daño avanzado; el estudio inicial de la HTA incluye fondo de ojo (GES).",
+   "codes": [
+    "1.01.1.015"
+   ],
+   "confunde": "Retinopatía diabética: microaneurismas y exudados sin estrella.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "adenoma-suprarrenal",
+   "n": 64,
+   "src": "biblioteca/20_cardiologia/cardio-31/01_adenoma-suprarrenal-tc__ctmri-pocket-atlas_p382.jpg",
+   "topic": "cardio-31",
+   "type": "imagen",
+   "size": "half",
+   "title": "Adenoma suprarrenal en TAC (hiperaldosteronismo)",
+   "frase": "Masa suprarrenal pequeña y homogénea, como el adenoma productor de aldosterona.",
+   "claves": [
+    {
+     "t": "Nódulo suprarrenal (flecha)",
+     "m": [
+      0.47,
+      0.42,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "HTA resistente con hipokalemia: relación aldosterona/renina > 20-30, luego TAC de suprarrenales; espironolactona.",
+   "codes": [
+    "1.01.1.016"
+   ],
+   "confunde": "Incidentaloma no funcionante: sin hipokalemia ni ARR alta.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 171",
+   "auto": false
+  },
+  {
+   "id": "mibg",
+   "n": 65,
+   "src": "biblioteca/20_cardiologia/cardio-31/02_feocromocitoma-gammagrafia-mibg__amir-endocrino_p58.jpg",
+   "topic": "cardio-31",
+   "type": "imagen",
+   "size": "half",
+   "title": "Feocromocitoma: gammagrafía con MIBG",
+   "frase": "Captación intensa en la zona suprarrenal: el tumor.",
+   "claves": [
+    {
+     "t": "Captación suprarrenal",
+     "m": [
+      0.22,
+      0.35,
+      0.06
+     ]
+    },
+    {
+     "t": "Misma captación en la otra proyección",
+     "m": [
+      0.82,
+      0.35,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Metanefrinas libres en plasma u orina de 24 h; alfabloqueo antes que betabloqueo, nunca betabloqueador solo.",
+   "codes": [
+    "1.01.1.016"
+   ],
+   "confunde": "Crisis de pánico: sin metanefrinas elevadas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "retinopatia-grave",
+   "n": 66,
+   "src": "biblioteca/20_cardiologia/cardio-32/01_retinopatia-hipertensiva-grave__harrison_p263.jpg",
+   "topic": "cardio-32",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía hipertensiva grado IV",
+   "frase": "Hemorragias, exudados algodonosos y edema de papila: la crisis es una emergencia.",
+   "claves": [
+    {
+     "t": "Borramiento del disco óptico (edema de papila)",
+     "m": [
+      0.75,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Exudados algodonosos",
+     "m": [
+      0.6,
+      0.2,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Emergencia hipertensiva: UCI, fármaco EV titulable y bajar la PAM máx. 20-25% en la 1.ª hora.",
+   "codes": [
+    "1.09.2.002"
+   ],
+   "confunde": "Urgencia hipertensiva: PA alta sin daño agudo de órgano blanco.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "pericarditis-ecg",
+   "src": "../../books/figuras/fig_pericarditis_ecg_p67_img1.jpeg",
+   "topic": "cardio-33",
+   "type": "ecg",
+   "size": "full",
+   "title": "Pericarditis aguda: ST difuso y cóncavo",
+   "frase": "Supradesnivel del ST cóncavo y difuso con descenso del PR, sin imagen especular.",
+   "claves": [
+    {
+     "t": "ST elevado cóncavo en varias derivaciones",
+     "m": [
+      0.5,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aspirina o ibuprofeno + colchicina 3 meses.",
+   "codes": [
+    "1.01.1.022"
+   ],
+   "confunde": "SCACEST: territorial, convexo, con imagen especular.",
+   "q": "EUNACOM Julio 2019 · Pregunta 81",
+   "auto": true,
+   "n": 67
+  },
+  {
+   "id": "repolarizacion-precoz",
+   "n": 68,
+   "src": "biblioteca/20_cardiologia/cardio-33/01_repolarizacion-precoz-st-concavo__stroobandt-ecg_p191.jpg",
+   "topic": "cardio-33",
+   "type": "ecg",
+   "size": "full",
+   "title": "Repolarización precoz",
+   "frase": "Joven deportista: ST cóncavo con muesca en el punto J y T grandes, estable en el tiempo.",
+   "claves": [
+    {
+     "t": "ST elevado cóncavo en las precordiales",
+     "m": [
+      0.75,
+      0.35,
+      0.1
+     ]
+    },
+    {
+     "t": "Sin descenso del PR ni cambios en el tiempo"
+    }
+   ],
+   "conducta": "Variante normal: no requiere tratamiento.",
+   "codes": [
+    "1.01.1.022"
+   ],
+   "confunde": "Pericarditis: PR descendido y cambios evolutivos.",
+   "q": "EUNACOM Julio 2019 · Pregunta 81",
+   "auto": false
+  },
+  {
+   "id": "pulso-paradojal",
+   "n": 69,
+   "src": "biblioteca/20_cardiologia/cardio-34/02_pulso-paradojal-trazado__bates_p432.jpg",
+   "topic": "cardio-34",
+   "type": "ecg",
+   "size": "half",
+   "title": "Pulso paradojal",
+   "frase": "Caída de la PAS > 10 mmHg al inspirar por interdependencia ventricular.",
+   "claves": [
+    {
+     "t": "La amplitud del pulso baja con cada inspiración",
+     "m": [
+      0.5,
+      0.25,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Sospecha de taponamiento: ecocardiograma y pericardiocentesis inmediata si está inestable.",
+   "codes": [
+    "1.01.2.008"
+   ],
+   "confunde": "Signo de Kussmaul: las yugulares suben al inspirar (constrictiva).",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 3",
+   "auto": false
+  },
+  {
+   "id": "derrame-pericardico",
+   "n": 70,
+   "src": "biblioteca/20_cardiologia/cardio-34/01_derrame-pericardico-eco__pocket-atlas-us_p146.jpg",
+   "topic": "cardio-34",
+   "type": "eco",
+   "size": "half",
+   "title": "Derrame pericárdico con colapso de cavidades derechas",
+   "frase": "Halo anecoico alrededor del corazón; en el taponamiento, colapso diastólico de AD y VD.",
+   "claves": [
+    {
+     "t": "Derrame (halo oscuro)",
+     "m": [
+      0.45,
+      0.15,
+      0.07
+     ]
+    },
+    {
+     "t": "Aurícula derecha comprimida",
+     "m": [
+      0.32,
+      0.15,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Tríada de Beck: pericardiocentesis subxifoidea guiada por eco + volumen EV; evitar diuréticos y vasodilatadores.",
+   "codes": [
+    "1.01.2.008",
+    "1.01.5.007"
+   ],
+   "confunde": "Derrame pleural: por fuera del pericardio, posterior a la aorta descendente.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 158",
+   "auto": true
+  },
+  {
+   "id": "angiotac-diseccion",
+   "src": "../../books/figuras/figura_5_4_angiotac_diseccion_stanford_a.png",
+   "topic": "cardio-35",
+   "type": "imagen",
+   "size": "half",
+   "title": "Disección aórtica en angioTAC",
+   "frase": "Flap intimal que separa la luz verdadera de la falsa.",
+   "claves": [
+    {
+     "t": "Flap intimal en la aorta",
+     "m": [
+      0.3,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Tipo A: cirugía urgente; tipo B: tratamiento médico. Betabloqueo EV.",
+   "codes": [
+    "1.01.2.002",
+    "1.01.4.002"
+   ],
+   "confunde": "Úlcera aterosclerótica penetrante.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 98",
+   "auto": true,
+   "n": 71
+  },
+  {
+   "id": "stanford",
+   "src": "biblioteca/20_cardiologia/cardio-35/01_diseccion-aortica-stanford-debakey__schwartz-absite_f22-1.jpg",
+   "topic": "cardio-35",
+   "type": "esquema",
+   "size": "half",
+   "title": "Clasificación de Stanford y DeBakey",
+   "frase": "Stanford A compromete la aorta ascendente; B nace distal a la subclavia izquierda.",
+   "claves": [
+    {
+     "t": "Tipo A: ascendente",
+     "m": [
+      0.1,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Tipo B: descendente",
+     "m": [
+      0.5,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "A: cirugía de emergencia; B: UCI, TEVAR si se complica.",
+   "codes": [
+    "1.01.2.002"
+   ],
+   "confunde": "Hematoma intramural.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 12",
+   "auto": false,
+   "n": 72
+  },
+  {
+   "id": "angiotac-tep",
+   "n": 73,
+   "src": "biblioteca/20_cardiologia/cardio-37/01_angiotac-tep-defectos-de-llenado__medschoolbro-pulm_p15.jpg",
+   "topic": "cardio-37",
+   "type": "imagen",
+   "size": "half",
+   "title": "Tromboembolismo pulmonar en angioTAC",
+   "frase": "Defectos de llenado en las arterias pulmonares: los émbolos.",
+   "claves": [
+    {
+     "t": "Defecto de llenado en la arteria pulmonar",
+     "m": [
+      0.52,
+      0.3,
+      0.06
+     ]
+    },
+    {
+     "t": "Otro defecto contralateral",
+     "m": [
+      0.62,
+      0.38,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Estable: DOAC; masivo (shock): fibrinólisis con heparina.",
+   "codes": [
+    "1.01.1.006",
+    "1.05.2.005",
+    "1.01.4.002"
+   ],
+   "confunde": "Embarazo o contraste contraindicado: cintigrama V/Q.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 8",
+   "auto": true
+  },
+  {
+   "id": "tvp",
+   "n": 74,
+   "src": "biblioteca/20_cardiologia/cardio-38/01_tvp-pierna-derecha-edematosa__commons.jpg",
+   "topic": "cardio-38",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trombosis venosa profunda de la pierna derecha",
+   "frase": "Aumento de volumen unilateral (> 3 cm de diferencia), edema y eritema.",
+   "claves": [
+    {
+     "t": "Pierna derecha edematosa y enrojecida",
+     "m": [
+      0.3,
+      0.3,
+      0.1
+     ]
+    },
+    {
+     "t": "Pierna izquierda normal para comparar",
+     "m": [
+      0.75,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Wells ≥ 2: eco-Doppler con compresión; HBPM o DOAC de inmediato.",
+   "codes": [
+    "4.01.1.049"
+   ],
+   "confunde": "Celulitis: fiebre y placa eritematosa caliente sin vena no compresible.",
+   "q": "EUNACOM Julio 2013 · Pregunta 83",
+   "auto": true
+  }
+ ],
+ "pairs": [
+  {
+   "a": "fa",
+   "b": "flutter",
+   "title": "Fibrilación auricular vs flutter",
+   "la": [
+    "Sin ondas P, línea de base ondulante",
+    "R-R irregularmente irregular"
+   ],
+   "lb": [
+    "Dientes de sierra en DII, DIII y aVF",
+    "Regular a 150 lpm (2:1)"
+   ],
+   "diff": "La regularidad: la FA es irregular; el flutter 2:1 es regular a 150 y la adenosina revela las ondas F."
+  },
+  {
+   "a": "tpsv",
+   "b": "flutter",
+   "title": "TPSV vs flutter 2:1",
+   "la": [
+    "Regular, QRS estrecho, 150-220 lpm",
+    "P ocultas en el QRS"
+   ],
+   "lb": [
+    "Regular a 150 lpm",
+    "Ondas F en sierra"
+   ],
+   "diff": "La adenosina termina la TPSV; en el flutter solo aumenta el bloqueo y deja ver las ondas."
+  },
+  {
+   "a": "tv-bcrd",
+   "b": "fa-preexcitada",
+   "title": "Taquicardia ventricular vs FA preexcitada",
+   "la": [
+    "QRS ancho y regular",
+    "Disociación AV, captura o fusión"
+   ],
+   "lb": [
+    "QRS ancho y totalmente irregular",
+    "Morfología variable, > 200 lpm"
+   ],
+   "diff": "La irregularidad extrema delata la FA preexcitada: ahí están prohibidos adenosina, verapamilo, digoxina y betabloqueador."
+  },
+  {
+   "a": "mobitz-1",
+   "b": "mobitz-2",
+   "title": "Mobitz I vs Mobitz II",
+   "la": [
+    "PR que se alarga",
+    "Nodal: se observa"
+   ],
+   "lb": [
+    "PR constante",
+    "Infranodal: marcapaso"
+   ],
+   "diff": "Mira el PR antes de la P bloqueada: si se alarga es Wenckebach; si es fijo, Mobitz II."
+  },
+  {
+   "a": "iam-anterior",
+   "b": "repolarizacion-precoz",
+   "title": "IAM anterior vs repolarización precoz",
+   "la": [
+    "ST elevado convexo de V1 a V5",
+    "Imagen especular inferior"
+   ],
+   "lb": [
+    "ST cóncavo con muesca en J",
+    "Estable en el tiempo, sin especular"
+   ],
+   "diff": "La imagen especular y la evolución en el tiempo son del infarto."
+  },
+  {
+   "a": "t-hiperagudas",
+   "b": "t-negativas",
+   "title": "T hiperagudas vs T negativas",
+   "la": [
+    "T altas, anchas y simétricas",
+    "Primeros minutos del infarto"
+   ],
+   "lb": [
+    "T invertidas",
+    "Angina inestable"
+   ],
+   "diff": "Ambas son isquemia: las hiperagudas obligan a repetir el ECG cada 15-30 min; las negativas sin supradesnivel son SCASEST."
+  },
+  {
+   "a": "edema-alveolar",
+   "b": "edema-intersticial",
+   "title": "Edema alveolar vs intersticial",
+   "la": [
+    "Infiltrado en alas de mariposa",
+    "Alvéolos inundados"
+   ],
+   "lb": [
+    "Líneas de Kerley y cefalización",
+    "Intersticio con líquido"
+   ],
+   "diff": "El intersticial es la etapa previa: el alveolar ya es edema agudo de pulmón."
+  },
+  {
+   "a": "mch-eco",
+   "b": "amiloidosis-eco",
+   "title": "Miocardiopatía hipertrófica vs amiloidosis",
+   "la": [
+    "Septo asimétrico ≥ 15 mm",
+    "ECG de alto voltaje"
+   ],
+   "lb": [
+    "Paredes gruesas brillantes y aurículas gigantes",
+    "ECG de bajo voltaje"
+   ],
+   "diff": "Paredes gruesas con ECG de bajo voltaje es amiloidosis."
+  },
+  {
+   "a": "retinopatia-estrella",
+   "b": "roth",
+   "title": "Retinopatía hipertensiva vs manchas de Roth",
+   "la": [
+    "Exudados en estrella macular",
+    "Hemorragias en llama"
+   ],
+   "lb": [
+    "Hemorragias de centro pálido",
+    "Endocarditis subaguda"
+   ],
+   "diff": "El centro blanco de la hemorragia es de Roth y obliga a buscar endocarditis."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Manchas de Roth",
+   "dx": "Endocarditis infecciosa subaguda.",
+   "find": "Roth",
+   "topic": "cardio-28",
+   "img": "roth",
+   "def": "Hemorragias retinianas de centro pálido."
+  },
+  {
+   "name": "Signo de Roesler",
+   "dx": "Coartación aórtica del adulto.",
+   "find": "Roesler",
+   "topic": "cardio-27",
+   "img": "roesler",
+   "def": "Muescas en el borde inferior de las costillas 3.ª a 8.ª por circulación colateral."
+  },
+  {
+   "name": "Onda delta",
+   "dx": "Síndrome de Wolff-Parkinson-White.",
+   "find": "onda delta",
+   "topic": "cardio-06",
+   "img": "wpw",
+   "def": "Empastamiento del inicio del QRS por preexcitación ventricular."
+  },
+  {
+   "name": "Fenómeno de Wenckebach",
+   "dx": "BAV de 2.º grado Mobitz I.",
+   "find": "Wenckebach",
+   "topic": "cardio-08",
+   "img": "mobitz-1",
+   "def": "El PR se alarga latido a latido hasta que una P no conduce."
+  },
+  {
+   "name": "Pulso paradojal",
+   "dx": "Taponamiento cardíaco (también asma grave).",
+   "find": "pulso paradojal",
+   "topic": "cardio-34",
+   "img": "pulso-paradojal",
+   "def": "Caída de la PAS > 10 mmHg con la inspiración."
+  },
+  {
+   "name": "Palo de hockey",
+   "dx": "Estenosis mitral reumática.",
+   "find": "palo de hockey",
+   "topic": "cardio-25",
+   "img": "palo-hockey",
+   "def": "Valva mitral anterior engrosada que se abomba hacia el septo en diástole."
+  },
+  {
+   "name": "Alas de mariposa",
+   "dx": "Edema pulmonar alveolar cardiogénico.",
+   "find": "alas de mariposa",
+   "topic": "cardio-18",
+   "img": "edema-alveolar",
+   "def": "Infiltrado alveolar bilateral perihiliar."
+  },
+  {
+   "name": "Líneas B de Kerley",
+   "dx": "Edema pulmonar intersticial.",
+   "find": "Kerley",
+   "topic": "cardio-18",
+   "img": "edema-intersticial",
+   "def": "Líneas septales horizontales cortas en las bases pulmonares."
+  },
+  {
+   "name": "Orejas de conejo",
+   "dx": "Bloqueo de rama derecha y TV con morfología de BCRD.",
+   "find": "orejas de conejo",
+   "topic": "cardio-07",
+   "img": "tv-bcrd",
+   "def": "Complejo rSR' en V1."
+  },
+  {
+   "name": "Tríada de Beck",
+   "dx": "Taponamiento cardíaco.",
+   "find": "Beck",
+   "topic": "cardio-34",
+   "img": "derrame-pericardico",
+   "def": "Hipotensión, ingurgitación yugular y ruidos cardíacos apagados."
+  },
+  {
+   "name": "Pulso de Corrigan",
+   "dx": "Insuficiencia aórtica crónica.",
+   "find": "Corrigan",
+   "topic": "cardio-24",
+   "def": "Pulso saltón de ascenso y descenso rápidos."
+  },
+  {
+   "name": "Signos de Musset y Quincke",
+   "dx": "Insuficiencia aórtica crónica.",
+   "find": "Musset",
+   "topic": "cardio-24",
+   "def": "Musset: la cabeza oscila con cada latido; Quincke: pulso capilar en el lecho ungueal."
+  },
+  {
+   "name": "Soplo de Austin Flint",
+   "dx": "Insuficiencia aórtica severa.",
+   "find": "Austin Flint",
+   "topic": "cardio-24",
+   "def": "Retumbo apical diastólico sin chasquido de apertura."
+  },
+  {
+   "name": "Soplo de Gibson",
+   "dx": "Ductus arterioso persistente.",
+   "find": "Gibson",
+   "topic": "cardio-27",
+   "def": "Soplo continuo «en maquinaria» infraclavicular izquierdo."
+  },
+  {
+   "name": "Nódulos de Osler y lesiones de Janeway",
+   "dx": "Endocarditis infecciosa.",
+   "find": "Janeway",
+   "topic": "cardio-28",
+   "def": "Osler: nódulos dolorosos en pulpejos (inmunológicos); Janeway: máculas indoloras en palmas y plantas (embólicas)."
+  },
+  {
+   "name": "Signo de Kussmaul",
+   "dx": "Pericarditis constrictiva, infarto del VD.",
+   "find": "Kussmaul",
+   "topic": "cardio-34",
+   "def": "La presión venosa yugular sube con la inspiración."
+  },
+  {
+   "name": "Pulso parvus et tardus",
+   "dx": "Estenosis aórtica.",
+   "find": "parvus",
+   "topic": "cardio-23",
+   "def": "Pulso pequeño y de ascenso lento."
+  },
+  {
+   "name": "Síndrome de Stokes-Adams",
+   "dx": "BAV completo o Mobitz II.",
+   "find": "Stokes-Adams",
+   "topic": "cardio-08",
+   "img": "bav-completo",
+   "def": "Síncope súbito por bradicardia severa."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 74
+ }
+}

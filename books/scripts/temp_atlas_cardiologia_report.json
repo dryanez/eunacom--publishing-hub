@@ -1,0 +1,460 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 62,
+  "where": {
+   "IMG-ecg-intervalos": 4,
+   "IMG-ecg-normal": 4,
+   "IMG-rcp-manos": 5,
+   "IMG-fv": 5,
+   "IMG-tv-a-fv": 6,
+   "IMG-flutter-vagal": 6,
+   "IMG-fa": 7,
+   "IMG-flutter": 8,
+   "IMG-tpsv": 9,
+   "IMG-wpw": 10,
+   "IMG-wpw-orto-anti": 10,
+   "IMG-fa-preexcitada": 11,
+   "IMG-tv-bcrd": 12,
+   "IMG-tv-bcri": 13,
+   "IMG-torsion-puntas": 14,
+   "IMG-bav-1": 15,
+   "IMG-mobitz-1": 15,
+   "IMG-mobitz-2": 16,
+   "IMG-marcapaso": 16,
+   "IMG-bav-completo": 17,
+   "IMG-ev-patrones": 18,
+   "IMG-holter": 18,
+   "IMG-t-hiperagudas": 19,
+   "IMG-neumotorax": 20,
+   "IMG-boerhaave": 20,
+   "IMG-ergometria": 21,
+   "IMG-spect": 22,
+   "IMG-coronariografia": 22,
+   "IMG-ffr": 23,
+   "IMG-stent-bypass": 23,
+   "IMG-trombo-sca": 24,
+   "IMG-t-negativas": 24,
+   "IMG-iam-anterior": 25,
+   "IMG-iam-inferior": 26,
+   "IMG-iam-vd": 27,
+   "IMG-rotura-papilar": 28,
+   "IMG-rotura-pared": 28,
+   "IMG-aneurisma-rx": 29,
+   "IMG-eco-trombo-apical": 29,
+   "IMG-cardiomegalia-derrame": 30,
+   "IMG-edema-alveolar": 30,
+   "IMG-edema-intersticial": 31,
+   "IMG-mch-pieza": 31,
+   "IMG-mch-eco": 32,
+   "IMG-dilatada-pieza": 32,
+   "IMG-amiloidosis-pieza": 33,
+   "IMG-amiloidosis-eco": 33,
+   "IMG-miocarditis-rm": 34,
+   "IMG-eao-pieza": 34,
+   "IMG-estenosis-aortica": 35,
+   "IMG-ia-doppler": 35,
+   "IMG-estenosis-mitral": 36,
+   "IMG-palo-hockey": 36,
+   "IMG-prolapso-mitral": 37,
+   "IMG-im-chorro": 37,
+   "IMG-cia": 38,
+   "IMG-roesler": 38,
+   "IMG-coartacion-stent": 39,
+   "IMG-roth": 39,
+   "IMG-endocarditis-eco": 40,
+   "IMG-vegetaciones-pieza": 40,
+   "IMG-mapa": 41,
+   "IMG-retinopatia-estrella": 41,
+   "IMG-adenoma-suprarrenal": 42,
+   "IMG-mibg": 42,
+   "IMG-retinopatia-grave": 43,
+   "IMG-pulso-paradojal": 43,
+   "IMG-pericarditis-ecg": 44,
+   "IMG-repolarizacion-precoz": 45,
+   "IMG-derrame-pericardico": 46,
+   "IMG-angiotac-diseccion": 46,
+   "IMG-stanford": 47,
+   "IMG-angiotac-tep": 47,
+   "IMG-tvp": 48,
+   "PAIRS": 49,
+   "SIGNS": 54,
+   "TYPES": 56,
+   "AUTO": 57,
+   "SOL": 62
+  }
+ },
+ "tomo": [
+  {
+   "id": "ecg-intervalos",
+   "p": 7,
+   "exact": false
+  },
+  {
+   "id": "ecg-normal",
+   "p": 7,
+   "exact": false
+  },
+  {
+   "id": "rcp-manos",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "fv",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "tv-a-fv",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "fa",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "flutter",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "flutter-vagal",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "tpsv",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "wpw",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "wpw-orto-anti",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "fa-preexcitada",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "tv-bcrd",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "tv-bcri",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "torsion-puntas",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "bav-1",
+   "p": 38,
+   "exact": true
+  },
+  {
+   "id": "mobitz-1",
+   "p": 38,
+   "exact": true
+  },
+  {
+   "id": "mobitz-2",
+   "p": 37,
+   "exact": true
+  },
+  {
+   "id": "bav-completo",
+   "p": 37,
+   "exact": false
+  },
+  {
+   "id": "marcapaso",
+   "p": 37,
+   "exact": true
+  },
+  {
+   "id": "ev-patrones",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "holter",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "t-hiperagudas",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "neumotorax",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "boerhaave",
+   "p": 52,
+   "exact": true
+  },
+  {
+   "id": "ergometria",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "spect",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "coronariografia",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "ffr",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "stent-bypass",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "trombo-sca",
+   "p": 67,
+   "exact": false
+  },
+  {
+   "id": "t-negativas",
+   "p": 67,
+   "exact": false
+  },
+  {
+   "id": "iam-anterior",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "iam-inferior",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "iam-vd",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "rotura-papilar",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "rotura-pared",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "aneurisma-rx",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "eco-trombo-apical",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "cardiomegalia-derrame",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "edema-alveolar",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "edema-intersticial",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "mch-pieza",
+   "p": 105,
+   "exact": true
+  },
+  {
+   "id": "mch-eco",
+   "p": 105,
+   "exact": true
+  },
+  {
+   "id": "dilatada-pieza",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "amiloidosis-pieza",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "amiloidosis-eco",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "miocarditis-rm",
+   "p": 108,
+   "exact": false
+  },
+  {
+   "id": "eao-pieza",
+   "p": 121,
+   "exact": true
+  },
+  {
+   "id": "estenosis-aortica",
+   "p": 121,
+   "exact": false
+  },
+  {
+   "id": "ia-doppler",
+   "p": 125,
+   "exact": true
+  },
+  {
+   "id": "estenosis-mitral",
+   "p": 129,
+   "exact": true
+  },
+  {
+   "id": "palo-hockey",
+   "p": 129,
+   "exact": true
+  },
+  {
+   "id": "prolapso-mitral",
+   "p": 136,
+   "exact": true
+  },
+  {
+   "id": "im-chorro",
+   "p": 136,
+   "exact": true
+  },
+  {
+   "id": "cia",
+   "p": 141,
+   "exact": true
+  },
+  {
+   "id": "roesler",
+   "p": 141,
+   "exact": true
+  },
+  {
+   "id": "coartacion-stent",
+   "p": 141,
+   "exact": true
+  },
+  {
+   "id": "roth",
+   "p": 146,
+   "exact": true
+  },
+  {
+   "id": "endocarditis-eco",
+   "p": 146,
+   "exact": true
+  },
+  {
+   "id": "vegetaciones-pieza",
+   "p": 145,
+   "exact": true
+  },
+  {
+   "id": "mapa",
+   "p": 156,
+   "exact": false
+  },
+  {
+   "id": "retinopatia-estrella",
+   "p": 156,
+   "exact": true
+  },
+  {
+   "id": "adenoma-suprarrenal",
+   "p": 165,
+   "exact": true
+  },
+  {
+   "id": "mibg",
+   "p": 164,
+   "exact": true
+  },
+  {
+   "id": "retinopatia-grave",
+   "p": 170,
+   "exact": true
+  },
+  {
+   "id": "pericarditis-ecg",
+   "p": 174,
+   "exact": false
+  },
+  {
+   "id": "repolarizacion-precoz",
+   "p": 174,
+   "exact": false
+  },
+  {
+   "id": "pulso-paradojal",
+   "p": 179,
+   "exact": true
+  },
+  {
+   "id": "derrame-pericardico",
+   "p": 179,
+   "exact": true
+  },
+  {
+   "id": "angiotac-diseccion",
+   "p": 183,
+   "exact": false
+  },
+  {
+   "id": "stanford",
+   "p": 183,
+   "exact": false
+  },
+  {
+   "id": "angiotac-tep",
+   "p": 190,
+   "exact": true
+  },
+  {
+   "id": "tvp",
+   "p": 195,
+   "exact": true
+  }
+ ]
+}

@@ -1,0 +1,352 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 38,
+  "where": {
+   "IMG-frotis-normal": 4,
+   "IMG-microcitosis": 4,
+   "IMG-esferocitos": 5,
+   "IMG-coiloniquia": 5,
+   "IMG-queilitis": 6,
+   "IMG-glositis-ferropenia": 6,
+   "IMG-frotis-ferropenia": 7,
+   "IMG-medula-normal": 7,
+   "IMG-aplasia-medular": 8,
+   "IMG-petequias-purpura": 8,
+   "IMG-megaloblastico": 9,
+   "IMG-degeneracion-combinada": 9,
+   "IMG-glositis-hunter": 10,
+   "IMG-coombs": 10,
+   "IMG-ictericia-flavinica": 11,
+   "IMG-raynaud-crioaglutininas": 11,
+   "IMG-autoaglutinacion": 12,
+   "IMG-esferocitosis-patogenia": 12,
+   "IMG-colelitiasis-hemolisis": 13,
+   "IMG-g6pd": 13,
+   "IMG-heinz": 14,
+   "IMG-hb-h": 14,
+   "IMG-dianocitos": 15,
+   "IMG-craneo-cepillo": 15,
+   "IMG-howell-jolly": 16,
+   "IMG-esquistocitos": 16,
+   "IMG-esquistocitos-2": 17,
+   "IMG-cascada": 17,
+   "IMG-pseudotrombocitopenia": 18,
+   "IMG-artropatia-hemofilica": 18,
+   "IMG-hematoma-psoas": 19,
+   "IMG-purpura-sepsis": 19,
+   "IMG-infiltracion-gingival": 20,
+   "IMG-blastos-linfoides": 20,
+   "IMG-burkitt": 21,
+   "IMG-gumprecht": 21,
+   "IMG-lmc": 22,
+   "IMG-llc": 22,
+   "IMG-esplenomegalia": 23,
+   "IMG-adenopatia-supraclavicular": 23,
+   "IMG-reed-sternberg": 24,
+   "IMG-malt": 24,
+   "IMG-pico-m": 25,
+   "IMG-liticas": 25,
+   "IMG-rouleaux": 26,
+   "IMG-facies-pletorica": 26,
+   "IMG-eritromelalgia": 27,
+   "IMG-trombocitemia": 27,
+   "IMG-dacriocitos": 28,
+   "IMG-pelger": 28,
+   "IMG-ecg-hiperkalemia-lisis": 29,
+   "IMG-compresion-medular": 29,
+   "IMG-necrosis-cumarinicos": 30,
+   "IMG-livedo": 30,
+   "IMG-trali": 31,
+   "IMG-taco": 31,
+   "PAIRS": 32,
+   "SIGNS": 34,
+   "TYPES": 35,
+   "AUTO": 36,
+   "SOL": 38
+  }
+ },
+ "tomo": [
+  {
+   "id": "frotis-normal",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "microcitosis",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "esferocitos",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "coiloniquia",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "queilitis",
+   "p": 13,
+   "exact": true
+  },
+  {
+   "id": "glositis-ferropenia",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "frotis-ferropenia",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "medula-normal",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "aplasia-medular",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "petequias-purpura",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "megaloblastico",
+   "p": 29,
+   "exact": true
+  },
+  {
+   "id": "degeneracion-combinada",
+   "p": 29,
+   "exact": true
+  },
+  {
+   "id": "glositis-hunter",
+   "p": 29,
+   "exact": true
+  },
+  {
+   "id": "coombs",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "ictericia-flavinica",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "raynaud-crioaglutininas",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "autoaglutinacion",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "esferocitosis-patogenia",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "colelitiasis-hemolisis",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "g6pd",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "heinz",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "hb-h",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "dianocitos",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "craneo-cepillo",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "howell-jolly",
+   "p": 43,
+   "exact": false
+  },
+  {
+   "id": "esquistocitos",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "esquistocitos-2",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "cascada",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "pseudotrombocitopenia",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "artropatia-hemofilica",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "hematoma-psoas",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "purpura-sepsis",
+   "p": 71,
+   "exact": true
+  },
+  {
+   "id": "infiltracion-gingival",
+   "p": 79,
+   "exact": true
+  },
+  {
+   "id": "blastos-linfoides",
+   "p": 79,
+   "exact": true
+  },
+  {
+   "id": "burkitt",
+   "p": 79,
+   "exact": true
+  },
+  {
+   "id": "gumprecht",
+   "p": 84,
+   "exact": true
+  },
+  {
+   "id": "lmc",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "llc",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "esplenomegalia",
+   "p": 96,
+   "exact": true
+  },
+  {
+   "id": "adenopatia-supraclavicular",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "reed-sternberg",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "malt",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "pico-m",
+   "p": 93,
+   "exact": true
+  },
+  {
+   "id": "liticas",
+   "p": 93,
+   "exact": true
+  },
+  {
+   "id": "rouleaux",
+   "p": 93,
+   "exact": true
+  },
+  {
+   "id": "facies-pletorica",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "eritromelalgia",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "trombocitemia",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "dacriocitos",
+   "p": 99,
+   "exact": true
+  },
+  {
+   "id": "pelger",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "ecg-hiperkalemia-lisis",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "compresion-medular",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "necrosis-cumarinicos",
+   "p": 113,
+   "exact": false
+  },
+  {
+   "id": "livedo",
+   "p": 113,
+   "exact": false
+  },
+  {
+   "id": "trali",
+   "p": 116,
+   "exact": true
+  },
+  {
+   "id": "taco",
+   "p": 116,
+   "exact": true
+  }
+ ]
+}

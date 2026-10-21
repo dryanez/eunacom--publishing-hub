@@ -1,0 +1,268 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 29,
+  "where": {
+   "IMG-lcn": 4,
+   "IMG-tn-normal": 4,
+   "IMG-tn-aumentada": 5,
+   "IMG-rctg": 5,
+   "IMG-rbne": 6,
+   "IMG-doppler-umbilical": 6,
+   "IMG-acm-vasodilatada": 7,
+   "IMG-diastole-ausente": 7,
+   "IMG-diastole-reversa": 8,
+   "IMG-ductus-venoso": 8,
+   "IMG-acm-doppler": 9,
+   "IMG-macrosomia": 9,
+   "IMG-corionicidad": 10,
+   "IMG-signo-lambda": 10,
+   "IMG-signo-t": 11,
+   "IMG-transfusion-feto-fetal": 11,
+   "IMG-saco-sin-embrion": 12,
+   "IMG-restos-doppler": 12,
+   "IMG-aborto-expulsado": 13,
+   "IMG-liquido-douglas": 13,
+   "IMG-ectopico": 14,
+   "IMG-utero-vacio": 14,
+   "IMG-tormenta-nieve": 15,
+   "IMG-mola-vesiculas": 15,
+   "IMG-eco-tv-placenta": 16,
+   "IMG-previa-dppni": 16,
+   "IMG-tipos-previa": 17,
+   "IMG-vasa-previa": 17,
+   "IMG-helecho": 18,
+   "IMG-cervicometria": 18,
+   "IMG-partograma": 19,
+   "IMG-variedades": 19,
+   "IMG-tortuga": 20,
+   "IMG-mcroberts": 20,
+   "IMG-desaceleraciones-precoces": 21,
+   "IMG-bakri": 21,
+   "IMG-b-lynch": 22,
+   "IMG-inversion-uterina": 22,
+   "IMG-absceso-mamario": 23,
+   "IMG-mastitis-eco": 23,
+   "IMG-acm-anemia": 24,
+   "IMG-hidrops": 24,
+   "PAIRS": 25,
+   "SIGNS": 26,
+   "TYPES": 27,
+   "AUTO": 28,
+   "SOL": 29
+  }
+ },
+ "tomo": [
+  {
+   "id": "lcn",
+   "p": 9,
+   "exact": true
+  },
+  {
+   "id": "tn-normal",
+   "p": 9,
+   "exact": true
+  },
+  {
+   "id": "tn-aumentada",
+   "p": 9,
+   "exact": true
+  },
+  {
+   "id": "rctg",
+   "p": 13,
+   "exact": false
+  },
+  {
+   "id": "rbne",
+   "p": 13,
+   "exact": true
+  },
+  {
+   "id": "doppler-umbilical",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "acm-vasodilatada",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "diastole-ausente",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "diastole-reversa",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "ductus-venoso",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "acm-doppler",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "macrosomia",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "corionicidad",
+   "p": 44,
+   "exact": true
+  },
+  {
+   "id": "signo-lambda",
+   "p": 44,
+   "exact": true
+  },
+  {
+   "id": "signo-t",
+   "p": 44,
+   "exact": true
+  },
+  {
+   "id": "transfusion-feto-fetal",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "saco-sin-embrion",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "restos-doppler",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "aborto-expulsado",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "liquido-douglas",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "ectopico",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "utero-vacio",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "tormenta-nieve",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "mola-vesiculas",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "eco-tv-placenta",
+   "p": 67,
+   "exact": true
+  },
+  {
+   "id": "previa-dppni",
+   "p": 67,
+   "exact": true
+  },
+  {
+   "id": "tipos-previa",
+   "p": 67,
+   "exact": true
+  },
+  {
+   "id": "vasa-previa",
+   "p": 65,
+   "exact": true
+  },
+  {
+   "id": "helecho",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "cervicometria",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "partograma",
+   "p": 87,
+   "exact": false
+  },
+  {
+   "id": "variedades",
+   "p": 87,
+   "exact": false
+  },
+  {
+   "id": "tortuga",
+   "p": 89,
+   "exact": true
+  },
+  {
+   "id": "mcroberts",
+   "p": 90,
+   "exact": true
+  },
+  {
+   "id": "desaceleraciones-precoces",
+   "p": 90,
+   "exact": true
+  },
+  {
+   "id": "bakri",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "b-lynch",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "inversion-uterina",
+   "p": 94,
+   "exact": true
+  },
+  {
+   "id": "absceso-mamario",
+   "p": 100,
+   "exact": true
+  },
+  {
+   "id": "mastitis-eco",
+   "p": 100,
+   "exact": true
+  },
+  {
+   "id": "acm-anemia",
+   "p": 104,
+   "exact": true
+  },
+  {
+   "id": "hidrops",
+   "p": 104,
+   "exact": true
+  }
+ ]
+}

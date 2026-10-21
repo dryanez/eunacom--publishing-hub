@@ -42,7 +42,7 @@ module.exports = {
           say: 'Cuando ese ácido toca una mucosa que no está preparada para él, aparecen los síntomas: la pirosis, ese ardor que sube por detrás del esternón, y la regurgitación ácida. ¿Y por qué empeoran al acostarse o después de una comida abundante? Porque la gravedad deja de ayudar y el estómago está lleno. Mira esta endoscopía: erosiones lineales rojas justo sobre la unión con el estómago, el daño directo del ácido. Y en esta otra, la esofagitis vista de más cerca. El mecanismo te explica la clínica.',
           photos: [
             { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg', label: 'Esofagitis erosiva', at: 'Mira esta endoscopía', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
-            { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg', label: 'Esofagitis (endoscopia)', at: 'Y en esta otra', credit: 'Manual CTO Digestivo 14.ª ed., p. 26' },
+            { src: 'biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg', label: 'Esofagitis erosiva', at: 'Y en esta otra', credit: 'Harrison\'s Principles of Internal Medicine, 21.ª ed., p. 2471' },
           ] },
         { show: ['her'], note: 'Hernia hiatal: la barrera pierde el apoyo del diafragma',
           say: 'Hay factores que empeoran este escenario. El primero es la hernia hiatal: el cardias sube al tórax, pierde el apoyo del diafragma, y la barrera queda todavía más débil.' },

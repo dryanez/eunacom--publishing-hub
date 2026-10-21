@@ -142,7 +142,7 @@ module.exports = {
       steps: [
         { show: ["lumb", "rx"], note: "Radiografía convencional de pelvis",
           say: "El primer estudio de imagen que debe solicitarse en atención primaria es la radiografía de pelvis centrada en articulaciones sacroilíacas. Permite pesquisar erosiones óseas, esclerosis del borde articular o fusión completa en casos avanzados. Mira esta radiografía: las sacroilíacas pierden su borde nítido y se ven blancas, esclerosadas.",
-          photo: { src: 'biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg', label: 'Sacroilitis en la Rx', at: 'Mira esta radiografía', credit: 'Manual AMIR Reumatología, p. 79' } },
+          photo: { src: 'biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg', label: 'Sacroileítis bilateral en la Rx de pelvis (espondilitis anquilosante)', at: 'Mira esta radiografía', credit: 'Herring, Learning Radiology, 4.ª ed., p. 326' } },
         { show: ["rm", "der"], note: "Resonancia magnética y tratamiento",
           say: "En etapas precoces la radiografía puede ser totalmente normal. Ante sospecha fundada con radiografía negativa, la resonancia magnética con secuencias STIR detecta edema óseo subcondral activo. Se indican AINEs continuos y se deriva a especialista. Aquí, en la resonancia, las flechas marcan el edema óseo junto a la sacroilíaca.",
           photo: { src: 'biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg', label: 'RM STIR: sacroilitis activa', at: 'Aquí, en la resonancia', credit: 'Manual AMIR Reumatología, p. 79' } },

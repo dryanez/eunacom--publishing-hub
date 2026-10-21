@@ -1,0 +1,2020 @@
+{
+ "libro": "pediatria",
+ "title": "Pediatría y Neonatología",
+ "prefix": "ped",
+ "topics": {
+  "ped-01": "Evaluación del Crecimiento & Estado Nutricional en Pediatría",
+  "ped-02": "Desarrollo Psicomotor",
+  "ped-04": "Lactancia Materna Exclusiva, Alimentación Complementaria & Suplementación (Vitamina D / Fierro)",
+  "ped-26": "Genética y Dismorfias",
+  "ped-28": "Pediatría Psicosocial",
+  "ped-05": "Bronquiolitis Aguda & Síndrome Bronquial Obstructivo (SBO)",
+  "ped-06": "Laringitis Aguda Obstructiva / Croup",
+  "ped-07": "Neumonía Adquirida en la Comunidad (NAC) Pediátrica",
+  "ped-08": "Cuerpo Extraño en Vía Aérea",
+  "ped-23": "Cardiología Pediátrica",
+  "ped-24": "Reanimación Cardiopulmonar Pediátrica, Intoxicaciones y Prevención de Accidentes",
+  "ped-10": "Exantemas Infantiles",
+  "ped-11": "Diarrea Aguda Infantil y Planes de Rehidratación Oral OMS (Plan A, B, C) y Síndrome Hemolítico Urémico",
+  "ped-12": "Vómitos en el Lactante",
+  "ped-13": "Infección del Tracto Urinario (ITU) en Pediatría",
+  "ped-25": "Inmunodeficiencias Primarias, Infecciones Recurrentes, Hepatomegalia e Interpretación del Hemograma Pediátrico",
+  "ped-15": "Atención Inmediata del Recién Nacido & Reanimación Neonatal",
+  "ped-16": "Evaluación de la Edad Gestacional (Capurro/Ballard) & Clasificación Ponderal Neonatal",
+  "ped-17": "Ictericia Neonatal",
+  "ped-18": "Dificultad Respiratoria Neonatal",
+  "ped-21": "Tamizaje Neonatal Universal en Chile",
+  "ped-22": "Displasia del Desarrollo de la Cadera (DDC GES N° 23)"
+ },
+ "images": [
+  {
+   "id": "curva-peso",
+   "n": 1,
+   "src": "biblioteca/15_pediatria/ped-01/S1_peso-edad-oms-ninas__propio.svg",
+   "topic": "ped-01",
+   "type": "esquema",
+   "size": "half",
+   "title": "Curva de peso para la edad (OMS)",
+   "frase": "Lactante que cae de carril: importa la tendencia.",
+   "claves": [
+    {
+     "t": "Caída de carril",
+     "m": [
+      0.55,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "P/E bajo −2 DE: desnutrición; buscar la causa.",
+   "codes": [
+    "2.01.3.003",
+    "2.01.5.001"
+   ],
+   "confunde": "Talla baja familiar: crece por su carril.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 72",
+   "auto": false
+  },
+  {
+   "id": "hitos",
+   "n": 2,
+   "src": "biblioteca/15_pediatria/ped-02/S1_hitos-dsm__propio.svg",
+   "topic": "ped-02",
+   "type": "esquema",
+   "size": "half",
+   "title": "Hitos del desarrollo psicomotor",
+   "frase": "Edad habitual y edad límite de cada hito.",
+   "claves": [
+    {
+     "t": "Edad límite (punto rojo)",
+     "m": [
+      0.7,
+      0.62,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Hito no logrado a la edad límite: alerta; EEDP o TEPSI.",
+   "codes": [
+    "2.01.3.002"
+   ],
+   "confunde": "Prematuro: corregir la edad.",
+   "q": "EUNACOM Julio 2025 · Pregunta 46",
+   "auto": false
+  },
+  {
+   "id": "acople",
+   "n": 3,
+   "src": "biblioteca/15_pediatria/ped-04/03_acople_incorrecto_vs_correcto__commons.jpg",
+   "topic": "ped-04",
+   "type": "esquema",
+   "size": "half",
+   "title": "Acople incorrecto vs correcto",
+   "frase": "Boca bien abierta, labio inferior evertido.",
+   "claves": [
+    {
+     "t": "Acople correcto",
+     "m": [
+      0.75,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Corregir la técnica antes de suplementar.",
+   "codes": [
+    "2.01.3.007"
+   ],
+   "confunde": "Grietas del pezón por mal acople.",
+   "q": "EUNACOM Julio 2024 · Pregunta 99",
+   "auto": false
+  },
+  {
+   "id": "acople-foto",
+   "n": 4,
+   "src": "biblioteca/15_pediatria/ped-04/01_acople_correcto__minsal-lactancia-2017.jpg",
+   "topic": "ped-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acople correcto",
+   "frase": "Boca abierta que toma gran parte de la areola.",
+   "claves": [
+    {
+     "t": "Boca sobre la areola",
+     "m": [
+      0.6,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Lactancia exclusiva hasta los 6 meses.",
+   "codes": [
+    "2.01.3.007",
+    "3.01.3.004"
+   ],
+   "confunde": "Succión del pezón solo.",
+   "q": "EUNACOM Enero 2023 · Pregunta 55",
+   "auto": false
+  },
+  {
+   "id": "succion",
+   "n": 5,
+   "src": "biblioteca/15_pediatria/ped-04/02_tetina_succion__minsal-lactancia-2010.jpg",
+   "topic": "ped-04",
+   "type": "esquema",
+   "size": "half",
+   "title": "Succión efectiva",
+   "frase": "La lengua comprime el pezón contra el paladar.",
+   "claves": [
+    {
+     "t": "Lengua bajo el pezón",
+     "m": [
+      0.6,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Observar una mamada en cada control.",
+   "codes": [
+    "2.01.3.007"
+   ],
+   "confunde": "Frenillo corto.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mancha-mongolica",
+   "n": 6,
+   "src": "biblioteca/15_pediatria/ped-04/05_melanocitosis-dermica__nelson_p5159.jpg",
+   "topic": "ped-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mancha mongólica",
+   "frase": "Mácula gris azulada en el dorso.",
+   "claves": [
+    {
+     "t": "Mancha azul",
+     "m": [
+      0.4,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Benigna; desaparece en la infancia.",
+   "codes": [
+    "2.01.1.105"
+   ],
+   "confunde": "Equimosis por maltrato: cambia de color.",
+   "q": "EUNACOM Julio 2017 · Pregunta 3",
+   "auto": false
+  },
+  {
+   "id": "crowe",
+   "n": 7,
+   "src": "biblioteca/15_pediatria/ped-04/06_pecas-axilares-nf1__nelson_p4649.jpg",
+   "topic": "ped-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Crowe",
+   "frase": "Pecas axilares en la neurofibromatosis tipo 1.",
+   "claves": [
+    {
+     "t": "Pecas axilares",
+     "m": [
+      0.3,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Criterios NF1: ≥ 6 manchas café con leche, pecas, neurofibromas.",
+   "codes": [
+    "2.01.1.105",
+    "2.01.1.132"
+   ],
+   "confunde": "Pecas solares: zonas expuestas.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 76",
+   "auto": false
+  },
+  {
+   "id": "vitiligo",
+   "n": 8,
+   "src": "biblioteca/15_pediatria/ped-04/07_vitiligo__nelson_p5197.jpg",
+   "topic": "ped-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vitíligo",
+   "frase": "Manchas acrómicas simétricas de bordes netos.",
+   "claves": [
+    {
+     "t": "Mancha acrómica",
+     "m": [
+      0.3,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Corticoide o tacrolimus tópico.",
+   "codes": [
+    "2.01.1.105"
+   ],
+   "confunde": "Pitiriasis alba: hipocrómica y descamativa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "facies-down",
+   "n": 9,
+   "src": "biblioteca/15_pediatria/ped-26/06_sindrome-down-facies__nelson_p519.jpg",
+   "topic": "ped-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies del síndrome de Down",
+   "frase": "Fisuras palpebrales oblicuas, epicanto y perfil plano.",
+   "claves": [
+    {
+     "t": "Fisuras oblicuas",
+     "m": [
+      0.5,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Ecocardiograma, TSH y control auditivo.",
+   "codes": [
+    "2.01.1.134"
+   ],
+   "confunde": "Hipotiroidismo congénito.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "brushfield",
+   "n": 10,
+   "src": "biblioteca/15_pediatria/ped-26/07_manchas-de-brushfield__nelson_p519.jpg",
+   "topic": "ped-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manchas de Brushfield",
+   "frase": "Puntos blancos en el iris.",
+   "claves": [
+    {
+     "t": "Manchas en el iris",
+     "m": [
+      0.4,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Signo del síndrome de Down.",
+   "codes": [
+    "2.01.1.134"
+   ],
+   "confunde": "Iris normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "piel-nuca",
+   "n": 11,
+   "src": "biblioteca/15_pediatria/ped-26/08_piel-laxa-nuca-sindrome-down__nelson_p519.jpg",
+   "topic": "ped-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Piel laxa de la nuca",
+   "frase": "Exceso de piel en la nuca.",
+   "claves": [
+    {
+     "t": "Piel laxa",
+     "m": [
+      0.4,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Signo del síndrome de Down en el recién nacido.",
+   "codes": [
+    "2.01.1.134"
+   ],
+   "confunde": "Higroma quístico.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hipotonia-down",
+   "n": 12,
+   "src": "biblioteca/15_pediatria/ped-26/05_sindrome-down-hipotonia__nelson_p519.jpg",
+   "topic": "ped-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hipotonía en la suspensión ventral",
+   "frase": "El recién nacido cae como un saco.",
+   "claves": [
+    {
+     "t": "Tronco hipotónico",
+     "m": [
+      0.4,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Estudio con cariograma.",
+   "codes": [
+    "2.01.1.134"
+   ],
+   "confunde": "Hipotonía de causa neuromuscular.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "quemadura-calcetin",
+   "n": 13,
+   "src": "biblioteca/15_pediatria/ped-28/02_quemadura-inmersion-calcetin__nelson_p220.jpg",
+   "topic": "ped-28",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quemadura en calcetín",
+   "frase": "Bordes netos por inmersión.",
+   "claves": [
+    {
+     "t": "Borde neto",
+     "m": [
+      0.25,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Sospecha de maltrato: denunciar.",
+   "codes": [
+    "2.01.1.138"
+   ],
+   "confunde": "Quemadura accidental: salpicadura.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "quemadura-guante",
+   "n": 14,
+   "src": "biblioteca/15_pediatria/ped-28/03_quemadura-inmersion-guante__nelson_p220.jpg",
+   "topic": "ped-28",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quemadura en guante",
+   "frase": "Mano quemada con borde circular.",
+   "claves": [
+    {
+     "t": "Borde circular",
+     "m": [
+      0.6,
+      0.85,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Maltrato: hospitalizar y proteger.",
+   "codes": [
+    "2.01.1.138"
+   ],
+   "confunde": "Escaldadura accidental.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fracturas-maltrato",
+   "n": 15,
+   "src": "biblioteca/15_pediatria/ped-28/04_fractura-metafisaria-tibia__nelson_p221.jpg",
+   "topic": "ped-28",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fracturas sugerentes de maltrato",
+   "frase": "Fracturas metafisarias en esquina y costales posteriores.",
+   "claves": [
+    {
+     "t": "Fractura costal posterior",
+     "m": [
+      0.62,
+      0.25,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Serie ósea completa.",
+   "codes": [
+    "2.01.1.138"
+   ],
+   "confunde": "Osteogénesis imperfecta.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hemorragias-retinianas",
+   "n": 16,
+   "src": "biblioteca/15_pediatria/ped-28/01_hemorragias-retinianas__nelson_p5060.jpg",
+   "topic": "ped-28",
+   "type": "fondo",
+   "size": "half",
+   "title": "Hemorragias retinianas en el niño sacudido",
+   "frase": "Hemorragias múltiples en todas las capas.",
+   "claves": [
+    {
+     "t": "Hemorragias",
+     "m": [
+      0.4,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Lactante con TEC: fondo de ojo.",
+   "codes": [
+    "2.01.1.138"
+   ],
+   "confunde": "Hemorragias del parto: desaparecen en semanas.",
+   "q": "EUNACOM Julio 2015 · Pregunta 150",
+   "auto": true
+  },
+  {
+   "id": "distres-bronquiolitis",
+   "n": 17,
+   "src": "biblioteca/15_pediatria/ped-05/01_distres-en-bronquiolitis__cto-pediatria_p52.jpg",
+   "topic": "ped-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dificultad respiratoria en la bronquiolitis",
+   "frase": "Retracción y aleteo nasal.",
+   "claves": [
+    {
+     "t": "Retracción",
+     "m": [
+      0.6,
+      0.7,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Soporte: oxígeno si satura < 92%.",
+   "codes": [
+    "2.01.1.020"
+   ],
+   "confunde": "Neumonía.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 72",
+   "auto": false
+  },
+  {
+   "id": "hiperinsuflacion",
+   "n": 18,
+   "src": "biblioteca/15_pediatria/ped-05/02_rx-bronquiolitis__cto-pediatria_p52.jpg",
+   "topic": "ped-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Bronquiolitis: hiperinsuflación",
+   "frase": "Pulmones hiperinsuflados con aplanamiento diafragmático.",
+   "claves": [
+    {
+     "t": "Hiperinsuflación",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "La Rx no es de rutina.",
+   "codes": [
+    "2.01.1.020",
+    "2.01.1.028"
+   ],
+   "confunde": "Neumonía: consolidación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "campanario",
+   "n": 19,
+   "src": "biblioteca/15_pediatria/ped-06/01_croup_campanario__nelson_p3220.jpg",
+   "topic": "ped-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Signo del campanario",
+   "frase": "Estrechamiento subglótico.",
+   "claves": [
+    {
+     "t": "Subglotis estrecha",
+     "m": [
+      0.5,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Croup: dexametasona.",
+   "codes": [
+    "2.01.1.025"
+   ],
+   "confunde": "Epiglotitis: pulgar.",
+   "q": "EUNACOM Julio 2024 · Pregunta 133",
+   "auto": true
+  },
+  {
+   "id": "epiglotis-ped",
+   "n": 20,
+   "src": "biblioteca/15_pediatria/ped-06/01_epiglotitis-rojo-cereza-diagnostico-dife__cto-pediatria_p50.jpg",
+   "topic": "ped-06",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Epiglotis rojo cereza",
+   "frase": "Epiglotitis.",
+   "claves": [
+    {
+     "t": "Epiglotis",
+     "m": [
+      0.5,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Vía aérea en pabellón.",
+   "codes": [
+    "2.01.2.018"
+   ],
+   "confunde": "Croup.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pulgar-ped",
+   "n": 21,
+   "src": "biblioteca/15_pediatria/ped-06/02_epiglotitis-signo-pulgar__commons.jpg",
+   "topic": "ped-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Signo del pulgar",
+   "frase": "Epiglotis engrosada.",
+   "claves": [
+    {
+     "t": "Epiglotis",
+     "m": [
+      0.25,
+      0.68,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "No examinar la faringe.",
+   "codes": [
+    "2.01.2.018"
+   ],
+   "confunde": "Croup.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "neumonia-lobar",
+   "n": 22,
+   "src": "biblioteca/15_pediatria/ped-07/05_neumonia-lobar-pediatrica__sherman_p345.jpg",
+   "topic": "ped-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonía lobar",
+   "frase": "Consolidación del lóbulo inferior.",
+   "claves": [
+    {
+     "t": "Consolidación",
+     "m": [
+      0.3,
+      0.65,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Amoxicilina.",
+   "codes": [
+    "2.01.1.024",
+    "2.01.4.001"
+   ],
+   "confunde": "Atelectasia.",
+   "q": "EUNACOM Julio 2017 · Pregunta 45",
+   "auto": false
+  },
+  {
+   "id": "neumonia-redonda",
+   "n": 23,
+   "src": "biblioteca/15_pediatria/ped-07/01_neumonia_redonda__cxr_p208.jpg",
+   "topic": "ped-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonía redonda",
+   "frase": "Opacidad redondeada.",
+   "claves": [
+    {
+     "t": "Opacidad",
+     "m": [
+      0.3,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Neumococo: antibiótico; no es tumor.",
+   "codes": [
+    "2.01.1.024"
+   ],
+   "confunde": "Masa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "infiltrado-intersticial",
+   "n": 24,
+   "src": "biblioteca/15_pediatria/ped-07/04_neumonia-intersticial__sherman_p696.jpg",
+   "topic": "ped-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Infiltrado intersticial",
+   "frase": "Patrón intersticial bilateral.",
+   "claves": [
+    {
+     "t": "Infiltrado",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Viral o atípica: macrólido en escolares.",
+   "codes": [
+    "2.01.1.024"
+   ],
+   "confunde": "Bronquiolitis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "consolidacion",
+   "n": 25,
+   "src": "_verificadas/290_ped_Neumonía__ecmpdf_p345_1.jpg",
+   "topic": "ped-07",
+   "type": "imagen",
+   "size": "half",
+   "title": "Consolidación con broncograma",
+   "frase": "Opacidad basal.",
+   "claves": [
+    {
+     "t": "Consolidación",
+     "m": [
+      0.25,
+      0.7,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Hospitalizar si hay criterios.",
+   "codes": [
+    "2.01.1.024"
+   ],
+   "confunde": "Derrame.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cuerpo-extrano-bronquio",
+   "n": 26,
+   "src": "biblioteca/15_pediatria/ped-08/01_cuerpo-extrano-bronquial-rx__cto-pediatria_p59.jpg",
+   "topic": "ped-08",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cuerpo extraño en el bronquio derecho",
+   "frase": "Atrapamiento aéreo unilateral.",
+   "claves": [
+    {
+     "t": "Hiperinsuflación",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Broncoscopía rígida.",
+   "codes": [
+    "2.01.2.003",
+    "4.01.5.016"
+   ],
+   "confunde": "Asma.",
+   "q": "EUNACOM Julio 2025 · Pregunta 64",
+   "auto": false
+  },
+  {
+   "id": "desobstruccion-lactante",
+   "n": 27,
+   "src": "biblioteca/15_pediatria/ped-08/01_lactante_golpes_compresiones__commons.jpg",
+   "topic": "ped-08",
+   "type": "esquema",
+   "size": "half",
+   "title": "Desobstrucción en el lactante",
+   "frase": "Golpes en la espalda y compresiones torácicas.",
+   "claves": [
+    {
+     "t": "Golpes en la espalda",
+     "m": [
+      0.25,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Menor de 1 año: 5 golpes y 5 compresiones.",
+   "codes": [
+    "2.01.5.004"
+   ],
+   "confunde": "Heimlich: mayores de 1 año.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "heimlich",
+   "n": 28,
+   "src": "biblioteca/15_pediatria/ped-08/02_heimlich_adulto_nino__commons.jpg",
+   "topic": "ped-08",
+   "type": "esquema",
+   "size": "half",
+   "title": "Maniobra de Heimlich",
+   "frase": "Compresiones abdominales en el adulto y en el niño.",
+   "claves": [
+    {
+     "t": "Puño sobre el epigastrio",
+     "m": [
+      0.27,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Niño consciente que no puede toser.",
+   "codes": [
+    "2.01.5.004",
+    "6.03.5.011"
+   ],
+   "confunde": "Lactante: golpes en la espalda.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 73",
+   "auto": false
+  },
+  {
+   "id": "tsv",
+   "n": 29,
+   "src": "biblioteca/15_pediatria/ped-23/03_ecg-taquicardia-supraventricular__knoop_p809.jpg",
+   "topic": "ped-23",
+   "type": "ecg",
+   "size": "half",
+   "title": "Taquicardia supraventricular",
+   "frase": "QRS estrecho regular sin onda P.",
+   "claves": [
+    {
+     "t": "QRS estrecho regular",
+     "m": [
+      0.5,
+      0.85,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Estable: maniobras vagales y adenosina; inestable: cardioversión.",
+   "codes": [
+    "2.01.1.049"
+   ],
+   "confunde": "Taquicardia sinusal.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 29",
+   "auto": false
+  },
+  {
+   "id": "wpw",
+   "n": 30,
+   "src": "biblioteca/15_pediatria/ped-23/04_ecg-wolff-parkinson-white__knoop_p809.jpg",
+   "topic": "ped-23",
+   "type": "ecg",
+   "size": "half",
+   "title": "Preexcitación (WPW)",
+   "frase": "PR corto y onda delta.",
+   "claves": [
+    {
+     "t": "Onda delta",
+     "m": [
+      0.15,
+      0.15,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Evitar bloqueadores AV en FA preexcitada.",
+   "codes": [
+    "2.01.1.049"
+   ],
+   "confunde": "Bloqueo de rama.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "vegetaciones",
+   "n": 31,
+   "src": "biblioteca/15_pediatria/ped-23/03_endocarditis-vegetaciones-eco__nelson_p3642.jpg",
+   "topic": "ped-23",
+   "type": "eco",
+   "size": "half",
+   "title": "Vegetaciones en la ecografía",
+   "frase": "Masa móvil sobre una válvula.",
+   "claves": [
+    {
+     "t": "Vegetación",
+     "m": [
+      0.2,
+      0.25,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Hemocultivos y antibióticos.",
+   "codes": [
+    "2.01.1.051"
+   ],
+   "confunde": "Trombo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ecg-recien-nacido",
+   "n": 32,
+   "src": "biblioteca/15_pediatria/ped-23/01_ecg-normal-lactante-5-dias__nelson_p3483.jpg",
+   "topic": "ped-23",
+   "type": "ecg",
+   "size": "half",
+   "title": "ECG normal de un recién nacido",
+   "frase": "Eje a la derecha y R grande en V1.",
+   "claves": [
+    {
+     "t": "R prominente",
+     "m": [
+      0.75,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Normal a esta edad.",
+   "codes": [
+    "2.01.4.012"
+   ],
+   "confunde": "Hipertrofia ventricular derecha del adulto.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ecg-nino",
+   "n": 33,
+   "src": "biblioteca/15_pediatria/ped-23/02_ecg-normal-3-anos__nelson_p3484.jpg",
+   "topic": "ped-23",
+   "type": "ecg",
+   "size": "half",
+   "title": "ECG normal de un niño de 3 años",
+   "frase": "Eje 60° y R/S menor de 1 en V1.",
+   "claves": [
+    {
+     "t": "Derivaciones",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "El ECG cambia con la edad.",
+   "codes": [
+    "2.01.4.012"
+   ],
+   "confunde": "Patológico.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "lesion-caustica",
+   "n": 34,
+   "src": "biblioteca/15_pediatria/ped-24/01_lesion-esofagica-endoscopia__nelson_p2927.jpg",
+   "topic": "ped-24",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Lesión esofágica grave por cáusticos",
+   "frase": "Mucosa necrótica.",
+   "claves": [
+    {
+     "t": "Necrosis",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "No inducir vómito; endoscopía en 12–24 h.",
+   "codes": [
+    "2.01.2.014"
+   ],
+   "confunde": "Esofagitis péptica.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 40",
+   "auto": false
+  },
+  {
+   "id": "exantema-subito",
+   "n": 35,
+   "src": "biblioteca/15_pediatria/ped-10/03_exantema-subito__cto-pediatria_p101.jpg",
+   "topic": "ped-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema súbito",
+   "frase": "Exantema que aparece al bajar la fiebre.",
+   "claves": [
+    {
+     "t": "Exantema",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Sintomático.",
+   "codes": [
+    "2.01.1.009"
+   ],
+   "confunde": "Sarampión: fiebre con exantema.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 70",
+   "auto": true
+  },
+  {
+   "id": "bofetada",
+   "n": 36,
+   "src": "biblioteca/15_pediatria/ped-10/01_eritema_infeccioso__nelson_p2548.jpg",
+   "topic": "ped-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema infeccioso: signo de la bofetada",
+   "frase": "Mejillas rojas.",
+   "claves": [
+    {
+     "t": "Mejilla roja",
+     "m": [
+      0.25,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Parvovirus B19: ojo con embarazadas y anemias hemolíticas.",
+   "codes": [
+    "2.01.1.009"
+   ],
+   "confunde": "Escarlatina.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "lengua-fresa-blanca",
+   "n": 37,
+   "src": "biblioteca/15_pediatria/ped-10/04_escarlatina_2__cto-pediatria_p102.jpg",
+   "topic": "ped-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lengua en fresa blanca",
+   "frase": "Lengua saburral de la escarlatina inicial.",
+   "claves": [
+    {
+     "t": "Lengua saburral",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Penicilina.",
+   "codes": [
+    "2.01.1.008"
+   ],
+   "confunde": "Kawasaki.",
+   "q": "EUNACOM Julio 2018 · Pregunta 96",
+   "auto": false
+  },
+  {
+   "id": "kawasaki-labios",
+   "n": 38,
+   "src": "_web/087_ped_Exantemas_febriles__Open-i_3.jpg",
+   "topic": "ped-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki: labios fisurados",
+   "frase": "Labios rojos y agrietados.",
+   "claves": [
+    {
+     "t": "Labios fisurados",
+     "m": [
+      0.3,
+      0.9,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "IGEV y aspirina; ecocardiograma.",
+   "codes": [
+    "2.01.1.058"
+   ],
+   "confunde": "Escarlatina.",
+   "q": "EUNACOM Julio 2025 · Pregunta 11",
+   "auto": false
+  },
+  {
+   "id": "escarlatina",
+   "n": 39,
+   "src": "../../books/figuras/atlas_eunacom_2026/381_baja_ped_ped_10_exantemas_febriles.jpg",
+   "topic": "ped-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escarlatina",
+   "frase": "Exantema en piel de lija y palidez peribucal.",
+   "claves": [
+    {
+     "t": "Exantema",
+     "m": [
+      0.5,
+      0.75,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Penicilina 10 días.",
+   "codes": [
+    "2.01.1.008"
+   ],
+   "confunde": "Exantema viral.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cataratas-rubeola",
+   "n": 40,
+   "src": "biblioteca/15_pediatria/ped-10/08_rubeola-congenita-cataratas__nelson_p2524.jpg",
+   "topic": "ped-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rubéola congénita: cataratas",
+   "frase": "Reflejo blanco bilateral.",
+   "claves": [
+    {
+     "t": "Catarata",
+     "m": [
+      0.85,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Vacunación antes del embarazo.",
+   "codes": [
+    "2.01.1.009"
+   ],
+   "confunde": "Retinoblastoma.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "koplik",
+   "n": 41,
+   "src": "biblioteca/15_pediatria/ped-10/10_manchas-de-koplik__zitelli_p492.jpg",
+   "topic": "ped-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manchas de Koplik",
+   "frase": "Puntos blancos en la mucosa yugal (flecha).",
+   "claves": [
+    {
+     "t": "Koplik",
+     "m": [
+      0.48,
+      0.83,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Sarampión: aislamiento y notificación.",
+   "codes": [
+    "2.01.1.009"
+   ],
+   "confunde": "Aftas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pliegue-ped",
+   "n": 42,
+   "src": "biblioteca/15_pediatria/ped-11/01_pliegue_persistente__commons.jpg",
+   "topic": "ped-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del pliegue",
+   "frase": "La piel tarda en volver.",
+   "claves": [
+    {
+     "t": "Pliegue",
+     "m": [
+      0.35,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Deshidratación: plan B o C.",
+   "codes": [
+    "2.01.2.006"
+   ],
+   "confunde": "Desnutrición.",
+   "q": "EUNACOM Julio 2013 · Pregunta 138",
+   "auto": false
+  },
+  {
+   "id": "piloro",
+   "n": 43,
+   "src": "biblioteca/15_pediatria/ped-12/01_eco-piloro__cto-pediatria_p65.jpg",
+   "topic": "ped-12",
+   "type": "eco",
+   "size": "half",
+   "title": "Estenosis hipertrófica del píloro",
+   "frase": "Píloro alargado y engrosado.",
+   "claves": [
+    {
+     "t": "Píloro",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Corregir la alcalosis; pilorotomía.",
+   "codes": [
+    "2.01.1.046",
+    "2.01.4.003"
+   ],
+   "confunde": "RGE.",
+   "q": "EUNACOM Enero 2023 · Pregunta 11",
+   "auto": false
+  },
+  {
+   "id": "jalea-grosella",
+   "n": 44,
+   "src": "biblioteca/15_pediatria/ped-12/04_invaginacion-sangre-panal__knoop_p500.jpg",
+   "topic": "ped-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Deposición en jalea de grosella",
+   "frase": "Sangre con mucus en el pañal.",
+   "claves": [
+    {
+     "t": "Sangre",
+     "m": [
+      0.42,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Invaginación: ecografía y enema reductor.",
+   "codes": [
+    "2.01.2.019"
+   ],
+   "confunde": "Fisura anal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "diana",
+   "n": 45,
+   "src": "biblioteca/15_pediatria/ped-12/02_invaginacion-eco__cto-pediatria_p70.jpg",
+   "topic": "ped-12",
+   "type": "eco",
+   "size": "half",
+   "title": "Imagen en diana",
+   "frase": "Invaginación ileocólica.",
+   "claves": [
+    {
+     "t": "Diana",
+     "m": [
+      0.5,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Reducción con enema.",
+   "codes": [
+    "2.01.2.019"
+   ],
+   "confunde": "Asa normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "doble-burbuja",
+   "n": 46,
+   "src": "../../books/figuras/atlas_eunacom_2026/296_media_ped_ped_12_vomitos_del_lactante.jpg",
+   "topic": "ped-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Doble burbuja",
+   "frase": "Estómago y duodeno dilatados con niveles.",
+   "claves": [
+    {
+     "t": "Doble burbuja",
+     "m": [
+      0.4,
+      0.42,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Atresia duodenal: cirugía.",
+   "codes": [
+    "2.01.2.019"
+   ],
+   "confunde": "Malrotación.",
+   "q": "EUNACOM Julio 2024 · Pregunta 33",
+   "auto": false
+  },
+  {
+   "id": "doble-burbuja-2",
+   "n": 47,
+   "src": "biblioteca/15_pediatria/ped-12/03_doble-burbuja-atresia-duodenal__bailey_p155.jpg",
+   "topic": "ped-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Doble burbuja neonatal",
+   "frase": "Sin gas distal.",
+   "claves": [
+    {
+     "t": "Estómago dilatado",
+     "m": [
+      0.6,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Asociación con síndrome de Down.",
+   "codes": [
+    "2.01.2.019"
+   ],
+   "confunde": "Estenosis pilórica.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "menisco-enema",
+   "n": 48,
+   "src": "biblioteca/15_pediatria/ped-12/05_invaginacion-enema-baritado__knoop_p501.jpg",
+   "topic": "ped-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Invaginación: signo del menisco",
+   "frase": "Defecto de relleno en el colon (flecha).",
+   "claves": [
+    {
+     "t": "Menisco",
+     "m": [
+      0.2,
+      0.42,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Enema reductor.",
+   "codes": [
+    "2.01.2.019"
+   ],
+   "confunde": "Pólipo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "grados-reflujo",
+   "n": 49,
+   "src": "biblioteca/15_pediatria/ped-13/S1_grados-rvu__propio.svg",
+   "topic": "ped-13",
+   "type": "esquema",
+   "size": "half",
+   "title": "Grados de reflujo vesicoureteral",
+   "frase": "De I (solo uréter) a V (cálices deformados).",
+   "claves": [
+    {
+     "t": "Grado V",
+     "m": [
+      0.92,
+      0.55,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "ITU febril recurrente: uretrocistografía.",
+   "codes": [
+    "2.01.1.062",
+    "4.03.1.021"
+   ],
+   "confunde": "Hidronefrosis obstructiva.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 135",
+   "auto": false
+  },
+  {
+   "id": "reflujo-alto",
+   "n": 50,
+   "src": "biblioteca/15_pediatria/ped-13/02_cistouretrografia_rvu__harrison_p2402.jpg",
+   "topic": "ped-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Reflujo vesicoureteral de alto grado",
+   "frase": "Uréteres tortuosos y dilatados.",
+   "claves": [
+    {
+     "t": "Uréter dilatado",
+     "m": [
+      0.25,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Profilaxis y cirugía según caso.",
+   "codes": [
+    "4.03.1.021"
+   ],
+   "confunde": "Megauréter obstructivo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dmsa",
+   "n": 51,
+   "src": "biblioteca/15_pediatria/ped-13/03_dmsa-cicatriz__atlas.jpg",
+   "topic": "ped-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "DMSA con cicatriz cortical",
+   "frase": "Defecto de captación renal.",
+   "claves": [
+    {
+     "t": "Cicatriz",
+     "m": [
+      0.25,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Pielonefritis previa.",
+   "codes": [
+    "1.09.4.007"
+   ],
+   "confunde": "Riñón normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "wiskott",
+   "n": 52,
+   "src": "biblioteca/15_pediatria/ped-25/01_eccema-wiskott-aldrich__fitzpatrick_p1396.jpg",
+   "topic": "ped-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eccema en Wiskott-Aldrich",
+   "frase": "Eccema con petequias.",
+   "claves": [
+    {
+     "t": "Eccema",
+     "m": [
+      0.3,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Eccema + plaquetas pequeñas + infecciones.",
+   "codes": [
+    "2.01.1.056"
+   ],
+   "confunde": "Dermatitis atópica.",
+   "q": "EUNACOM Enero 2023 · Pregunta 12",
+   "auto": false
+  },
+  {
+   "id": "compresiones-neonatales",
+   "n": 53,
+   "src": "biblioteca/15_pediatria/ped-15/01_algoritmo-reanimacion-neonatal__cto-pediatria_p8.jpg",
+   "topic": "ped-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Compresiones torácicas neonatales",
+   "frase": "Técnica de los dos pulgares.",
+   "claves": [
+    {
+     "t": "Manos sobre el tórax",
+     "m": [
+      0.3,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "FC < 60 tras ventilar 30 s: compresiones 3:1.",
+   "codes": [
+    "2.01.5.011"
+   ],
+   "confunde": "Ventilación primero.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 59",
+   "auto": false
+  },
+  {
+   "id": "atresia-coanas",
+   "n": 54,
+   "src": "biblioteca/15_pediatria/ped-15/02_atresia-coanas-tac__nelson_p3188.jpg",
+   "topic": "ped-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Atresia de coanas",
+   "frase": "Obstrucción ósea bilateral.",
+   "claves": [
+    {
+     "t": "Atresia",
+     "m": [
+      0.5,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Recién nacido cianótico que mejora al llorar.",
+   "codes": [
+    "6.03.2.005"
+   ],
+   "confunde": "Rinitis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "capurro",
+   "n": 55,
+   "src": "biblioteca/15_pediatria/ped-16/01_test_capurro__usuario.jpg",
+   "topic": "ped-16",
+   "type": "esquema",
+   "size": "half",
+   "title": "Test de Capurro",
+   "frase": "Oreja, mamas, pezón, piel y pliegues plantares.",
+   "claves": [
+    {
+     "t": "Pliegues plantares",
+     "m": [
+      0.15,
+      0.88,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Estima la edad gestacional.",
+   "codes": [
+    "2.01.1.128",
+    "2.01.1.123"
+   ],
+   "confunde": "Ballard.",
+   "q": "EUNACOM Enero 2023 · Pregunta 8",
+   "auto": false
+  },
+  {
+   "id": "rop",
+   "n": 56,
+   "src": "biblioteca/15_pediatria/ped-16/02_rop-post-laser__kanski_p577.jpg",
+   "topic": "ped-16",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía del prematuro tratada",
+   "frase": "Cicatrices de láser.",
+   "claves": [
+    {
+     "t": "Láser",
+     "m": [
+      0.2,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Tamizaje en < 32 semanas o < 1.500 g.",
+   "codes": [
+    "6.02.1.022"
+   ],
+   "confunde": "Retina normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ictericia-neonatal",
+   "n": 57,
+   "src": "biblioteca/15_pediatria/ped-17/02_ictericia-neonatal__bates_p848.jpg",
+   "topic": "ped-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ictericia neonatal",
+   "frase": "Piel amarilla en la cara.",
+   "claves": [
+    {
+     "t": "Cara amarilla",
+     "m": [
+      0.4,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Antes de 24 h: siempre patológica.",
+   "codes": [
+    "2.01.1.121"
+   ],
+   "confunde": "Ictericia por leche materna.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 129",
+   "auto": true
+  },
+  {
+   "id": "bhutani",
+   "n": 58,
+   "src": "biblioteca/15_pediatria/ped-17/S1_bhutani-kramer__propio.svg",
+   "topic": "ped-17",
+   "type": "esquema",
+   "size": "half",
+   "title": "Nomograma de Bhutani y zonas de Kramer",
+   "frase": "Riesgo según horas de vida.",
+   "claves": [
+    {
+     "t": "Zona de alto riesgo",
+     "m": [
+      0.38,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Fototerapia según curva.",
+   "codes": [
+    "2.01.1.121",
+    "2.01.4.023"
+   ],
+   "confunde": "Valor aislado sin edad.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "membrana-hialina",
+   "n": 59,
+   "src": "biblioteca/15_pediatria/ped-18/01_enfermedad-de-membrana-hialina-rx__cto-pediatria_p19.jpg",
+   "topic": "ped-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Enfermedad de membrana hialina",
+   "frase": "Patrón reticulogranular y broncograma.",
+   "claves": [
+    {
+     "t": "Vidrio esmerilado",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Surfactante y CPAP.",
+   "codes": [
+    "2.01.1.126",
+    "2.01.1.123"
+   ],
+   "confunde": "TTRN.",
+   "q": "EUNACOM Julio 2016 · Pregunta 177",
+   "auto": false
+  },
+  {
+   "id": "ttrn",
+   "n": 60,
+   "src": "biblioteca/15_pediatria/ped-18/02_taquipnea-transitoria-rx__cto-pediatria_p18.jpg",
+   "topic": "ped-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Taquipnea transitoria",
+   "frase": "Cisuras marcadas y líquido.",
+   "claves": [
+    {
+     "t": "Líquido en cisuras",
+     "m": [
+      0.4,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Se resuelve en 72 h.",
+   "codes": [
+    "2.01.1.126"
+   ],
+   "confunde": "Membrana hialina.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "meconial",
+   "n": 61,
+   "src": "biblioteca/15_pediatria/ped-18/03_aspiracion-meconial-rx__cto-pediatria_p20.jpg",
+   "topic": "ped-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Aspiración meconial",
+   "frase": "Infiltrados gruesos con hiperinsuflación.",
+   "claves": [
+    {
+     "t": "Infiltrados",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Soporte; riesgo de hipertensión pulmonar.",
+   "codes": [
+    "2.01.1.125"
+   ],
+   "confunde": "Neumonía neonatal.",
+   "q": "EUNACOM Julio 2024 · Pregunta 42",
+   "auto": false
+  },
+  {
+   "id": "hipotiroidismo-ped",
+   "n": 62,
+   "src": "biblioteca/15_pediatria/ped-21/04_hipotiroidismo-congenito-facies__nelson_p4372.jpg",
+   "topic": "ped-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hipotiroidismo congénito sin tratar",
+   "frase": "Macroglosia y facies tosca.",
+   "claves": [
+    {
+     "t": "Macroglosia",
+     "m": [
+      0.5,
+      0.82,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Tamizaje con TSH.",
+   "codes": [
+    "2.01.1.075"
+   ],
+   "confunde": "Síndrome de Down.",
+   "q": "EUNACOM Julio 2019 · Pregunta 53",
+   "auto": false
+  },
+  {
+   "id": "puncion-talon",
+   "n": 63,
+   "src": "biblioteca/15_pediatria/ped-21/02_sitio_puncion_talon__minsal-pku-2007.jpg",
+   "topic": "ped-21",
+   "type": "esquema",
+   "size": "half",
+   "title": "Zonas de punción del talón",
+   "frase": "Bordes laterales del talón.",
+   "claves": [
+    {
+     "t": "Zona segura",
+     "m": [
+      0.3,
+      0.9,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Toma de muestra del tamizaje neonatal.",
+   "codes": [
+    "2.01.1.075"
+   ],
+   "confunde": "Centro del talón: riesgo de osteomielitis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "papel-filtro",
+   "n": 64,
+   "src": "biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg",
+   "topic": "ped-21",
+   "type": "esquema",
+   "size": "half",
+   "title": "Tarjeta de papel filtro",
+   "frase": "Gotas de sangre para TSH y PKU.",
+   "claves": [
+    {
+     "t": "Gotas",
+     "m": [
+      0.05,
+      0.3,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Tamizaje neonatal: PKU e hipotiroidismo.",
+   "codes": [
+    "2.01.1.075"
+   ],
+   "confunde": "Tamizaje auditivo: emisiones otoacústicas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ortolani-ped",
+   "n": 65,
+   "src": "biblioteca/15_pediatria/ped-22/01_ortolani__nelson_p5430.jpg",
+   "topic": "ped-22",
+   "type": "esquema",
+   "size": "half",
+   "title": "Maniobra de Ortolani",
+   "frase": "Reduce la cadera luxada.",
+   "claves": [
+    {
+     "t": "Abducción",
+     "m": [
+      0.3,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Clic positivo: ecografía y derivar.",
+   "codes": [
+    "2.01.1.092"
+   ],
+   "confunde": "Clic de partes blandas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "barlow",
+   "n": 66,
+   "src": "biblioteca/15_pediatria/ped-22/03_barlow__bates_p874.jpg",
+   "topic": "ped-22",
+   "type": "esquema",
+   "size": "half",
+   "title": "Maniobra de Barlow",
+   "frase": "Luxa la cadera inestable.",
+   "claves": [
+    {
+     "t": "Presión posterior",
+     "m": [
+      0.75,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Derivar a ortopedia.",
+   "codes": [
+    "2.01.1.092"
+   ],
+   "confunde": "Ortolani: reduce.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "graf",
+   "n": 67,
+   "src": "biblioteca/15_pediatria/ped-22/07_ecografia-cadera-graf__commons.jpg",
+   "topic": "ped-22",
+   "type": "eco",
+   "size": "half",
+   "title": "Ecografía de cadera (Graf)",
+   "frase": "Ángulos α y β.",
+   "claves": [
+    {
+     "t": "Ángulo α",
+     "m": [
+      0.25,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "α < 60°: displasia.",
+   "codes": [
+    "2.01.1.092",
+    "4.02.3.006"
+   ],
+   "confunde": "Cadera inmadura.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pavlik",
+   "n": 68,
+   "src": "../../books/figuras/atlas_eunacom_2026/085_alta_ped_ped_22_displasia_de_cadera.jpg",
+   "topic": "ped-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Arnés de Pavlik",
+   "frase": "Caderas en flexión y abducción.",
+   "claves": [
+    {
+     "t": "Arnés",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Tratamiento de la displasia en menores de 6 meses.",
+   "codes": [
+    "4.02.1.002"
+   ],
+   "confunde": "Doble pañal: no sirve.",
+   "q": "EUNACOM Julio 2017 · Pregunta 137",
+   "auto": false
+  },
+  {
+   "id": "rx-ddc",
+   "n": 69,
+   "src": "_verificadas/86_DDH_radiografia_pelvis_lineas_Hilgenrein__nelsontextbo_p5432_3.jpg",
+   "topic": "ped-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Displasia de cadera en la Rx",
+   "frase": "Índice acetabular aumentado.",
+   "claves": [
+    {
+     "t": "Acetábulo",
+     "m": [
+      0.82,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Rx a los 3 meses (GES).",
+   "codes": [
+    "2.01.4.007",
+    "4.02.3.006"
+   ],
+   "confunde": "Cadera normal.",
+   "q": "EUNACOM Enero 2023 · Pregunta 34",
+   "auto": false
+  },
+  {
+   "id": "rx-ddc-2",
+   "n": 70,
+   "src": "_verificadas/86_DDH_radiografia_pelvis_lineas_Hilgenrein__nelsontextbo_p5432_4.jpg",
+   "topic": "ped-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Rx de pelvis con líneas de referencia",
+   "frase": "Hilgenreiner y Perkins.",
+   "claves": [
+    {
+     "t": "Línea de Hilgenreiner",
+     "m": [
+      0.5,
+      0.52,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "La cabeza debe estar en el cuadrante inferointerno.",
+   "codes": [
+    "2.01.1.092"
+   ],
+   "confunde": "Lectura sin líneas.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 34",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "membrana-hialina",
+   "b": "ttrn",
+   "title": "Membrana hialina vs taquipnea transitoria",
+   "la": [
+    "Vidrio esmerilado"
+   ],
+   "lb": [
+    "Líquido en cisuras"
+   ],
+   "diff": "La EMH necesita surfactante."
+  },
+  {
+   "a": "ortolani-ped",
+   "b": "barlow",
+   "title": "Ortolani vs Barlow",
+   "la": [
+    "Reduce"
+   ],
+   "lb": [
+    "Luxa"
+   ],
+   "diff": "Ambas buscan displasia."
+  },
+  {
+   "a": "quemadura-calcetin",
+   "b": "quemadura-guante",
+   "title": "Quemaduras por inmersión",
+   "la": [
+    "Pie"
+   ],
+   "lb": [
+    "Mano"
+   ],
+   "diff": "Bordes netos: maltrato."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Signo de Crowe",
+   "dx": "Neurofibromatosis tipo 1.",
+   "find": "Crowe",
+   "topic": "ped-04",
+   "img": "crowe",
+   "def": "Pecas axilares."
+  },
+  {
+   "name": "Manchas de Koplik",
+   "dx": "Sarampión.",
+   "find": "Koplik",
+   "topic": "ped-10",
+   "img": "koplik",
+   "def": "Puntos blancos en la mucosa yugal."
+  },
+  {
+   "name": "Signo de la bofetada",
+   "dx": "Eritema infeccioso.",
+   "find": "bofetada",
+   "topic": "ped-10",
+   "img": "bofetada",
+   "def": "Mejillas rojas."
+  },
+  {
+   "name": "Doble burbuja",
+   "dx": "Atresia duodenal.",
+   "find": "doble burbuja",
+   "topic": "ped-12",
+   "img": "doble-burbuja",
+   "def": "Estómago y duodeno dilatados."
+  },
+  {
+   "name": "Imagen en diana",
+   "dx": "Invaginación intestinal.",
+   "find": "diana",
+   "topic": "ped-12",
+   "img": "diana",
+   "def": "Anillos concéntricos en la ecografía."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 70
+ }
+}

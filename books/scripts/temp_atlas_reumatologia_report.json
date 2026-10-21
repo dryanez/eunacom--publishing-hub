@@ -1,0 +1,460 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 47,
+  "where": {
+   "IMG-cristales-urato": 4,
+   "IMG-agujas-polarizada": 4,
+   "IMG-derrame-rodilla": 5,
+   "IMG-bursitis-olecraneana": 5,
+   "IMG-espondilodiscitis": 6,
+   "IMG-tofos-manos": 6,
+   "IMG-rx-gota": 7,
+   "IMG-condrocalcinosis": 7,
+   "IMG-heberden": 8,
+   "IMG-bouchard": 8,
+   "IMG-coxartrosis": 9,
+   "IMG-exantema-asalmonado": 9,
+   "IMG-uveitis-aij": 10,
+   "IMG-erosiones-ar": 10,
+   "IMG-desviacion-cubital": 11,
+   "IMG-rx-ar-avanzada": 11,
+   "IMG-cuello-cisne": 12,
+   "IMG-nodulos-reumatoides": 12,
+   "IMG-eritema-malar": 13,
+   "IMG-ulceras-orales-lupus": 13,
+   "IMG-jaccoud": 14,
+   "IMG-hematies-dismorficos": 14,
+   "IMG-lupus-discoide": 15,
+   "IMG-lupus-subagudo": 15,
+   "IMG-lupus-neonatal": 16,
+   "IMG-livedo-saf": 16,
+   "IMG-esclerodactilia": 17,
+   "IMG-necrosis-pulpejos": 17,
+   "IMG-tac-intersticial": 18,
+   "IMG-facies-esclerodermica": 18,
+   "IMG-microstomia": 19,
+   "IMG-acroosteolisis": 19,
+   "IMG-heliotropo": 20,
+   "IMG-heliotropo-gottron": 20,
+   "IMG-gottron": 21,
+   "IMG-manos-mecanico": 21,
+   "IMG-raynaud-blanca": 22,
+   "IMG-raynaud-azul": 22,
+   "IMG-capilaroscopia": 23,
+   "IMG-rosa-bengala": 23,
+   "IMG-fluoresceina": 24,
+   "IMG-xerostomia": 24,
+   "IMG-schirmer": 25,
+   "IMG-sacroileitis-rx": 25,
+   "IMG-sacroileitis-rm": 26,
+   "IMG-sindesmofitos": 26,
+   "IMG-cana-bambu": 27,
+   "IMG-uveitis-anterior": 27,
+   "IMG-bambu-ap": 28,
+   "IMG-psoriasis-placas": 28,
+   "IMG-dactilitis": 29,
+   "IMG-artritis-ifd": 29,
+   "IMG-lapiz-copa": 30,
+   "IMG-balanitis-circinada": 30,
+   "IMG-queratodermia": 31,
+   "IMG-queratodermia-2": 31,
+   "IMG-gonococcemia": 32,
+   "IMG-eritema-nodoso": 32,
+   "IMG-behcet-aftas": 33,
+   "IMG-patergia": 33,
+   "IMG-behcet-genital": 34,
+   "IMG-noia": 34,
+   "IMG-signo-halo": 35,
+   "IMG-biopsia-temporal": 35,
+   "IMG-silla-montar": 36,
+   "IMG-gpa-nodulos": 36,
+   "IMG-hemorragia-alveolar": 37,
+   "IMG-kawasaki-lengua": 37,
+   "IMG-kawasaki-ojo": 38,
+   "IMG-polimialgia": 38,
+   "IMG-puntos-fibromialgia": 39,
+   "IMG-fractura-cuello-femoral": 39,
+   "IMG-aplastamientos": 40,
+   "IMG-cifosis": 40,
+   "PAIRS": 41,
+   "SIGNS": 43,
+   "TYPES": 44,
+   "AUTO": 45,
+   "SOL": 47
+  }
+ },
+ "tomo": [
+  {
+   "id": "cristales-urato",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "agujas-polarizada",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "derrame-rodilla",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "bursitis-olecraneana",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "espondilodiscitis",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "tofos-manos",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "rx-gota",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "condrocalcinosis",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "heberden",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "bouchard",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "coxartrosis",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "exantema-asalmonado",
+   "p": 24,
+   "exact": true
+  },
+  {
+   "id": "uveitis-aij",
+   "p": 24,
+   "exact": true
+  },
+  {
+   "id": "erosiones-ar",
+   "p": 31,
+   "exact": true
+  },
+  {
+   "id": "desviacion-cubital",
+   "p": 31,
+   "exact": true
+  },
+  {
+   "id": "rx-ar-avanzada",
+   "p": 31,
+   "exact": true
+  },
+  {
+   "id": "cuello-cisne",
+   "p": 30,
+   "exact": true
+  },
+  {
+   "id": "nodulos-reumatoides",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "eritema-malar",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "ulceras-orales-lupus",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "jaccoud",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "hematies-dismorficos",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "lupus-discoide",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "lupus-subagudo",
+   "p": 50,
+   "exact": true
+  },
+  {
+   "id": "lupus-neonatal",
+   "p": 50,
+   "exact": false
+  },
+  {
+   "id": "livedo-saf",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "esclerodactilia",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "necrosis-pulpejos",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "tac-intersticial",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "facies-esclerodermica",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "microstomia",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "acroosteolisis",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "heliotropo",
+   "p": 67,
+   "exact": true
+  },
+  {
+   "id": "heliotropo-gottron",
+   "p": 68,
+   "exact": true
+  },
+  {
+   "id": "gottron",
+   "p": 67,
+   "exact": true
+  },
+  {
+   "id": "manos-mecanico",
+   "p": 67,
+   "exact": true
+  },
+  {
+   "id": "raynaud-blanca",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "raynaud-azul",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "capilaroscopia",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "rosa-bengala",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "fluoresceina",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "xerostomia",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "schirmer",
+   "p": 79,
+   "exact": true
+  },
+  {
+   "id": "sacroileitis-rx",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "sacroileitis-rm",
+   "p": 85,
+   "exact": true
+  },
+  {
+   "id": "sindesmofitos",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "cana-bambu",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "uveitis-anterior",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "bambu-ap",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "psoriasis-placas",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "dactilitis",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "artritis-ifd",
+   "p": 95,
+   "exact": true
+  },
+  {
+   "id": "lapiz-copa",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "balanitis-circinada",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "queratodermia",
+   "p": 99,
+   "exact": true
+  },
+  {
+   "id": "queratodermia-2",
+   "p": 99,
+   "exact": true
+  },
+  {
+   "id": "gonococcemia",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "eritema-nodoso",
+   "p": 71,
+   "exact": true
+  },
+  {
+   "id": "behcet-aftas",
+   "p": 103,
+   "exact": true
+  },
+  {
+   "id": "patergia",
+   "p": 103,
+   "exact": true
+  },
+  {
+   "id": "behcet-genital",
+   "p": 103,
+   "exact": false
+  },
+  {
+   "id": "noia",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "signo-halo",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "biopsia-temporal",
+   "p": 109,
+   "exact": true
+  },
+  {
+   "id": "silla-montar",
+   "p": 114,
+   "exact": true
+  },
+  {
+   "id": "gpa-nodulos",
+   "p": 115,
+   "exact": true
+  },
+  {
+   "id": "hemorragia-alveolar",
+   "p": 114,
+   "exact": true
+  },
+  {
+   "id": "kawasaki-lengua",
+   "p": 117,
+   "exact": true
+  },
+  {
+   "id": "kawasaki-ojo",
+   "p": 117,
+   "exact": true
+  },
+  {
+   "id": "polimialgia",
+   "p": 122,
+   "exact": false
+  },
+  {
+   "id": "puntos-fibromialgia",
+   "p": 122,
+   "exact": false
+  },
+  {
+   "id": "fractura-cuello-femoral",
+   "p": 124,
+   "exact": true
+  },
+  {
+   "id": "aplastamientos",
+   "p": 124,
+   "exact": true
+  },
+  {
+   "id": "cifosis",
+   "p": 124,
+   "exact": true
+  }
+ ]
+}

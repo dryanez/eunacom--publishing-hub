@@ -1,0 +1,1399 @@
+{
+ "libro": "oftalmologia",
+ "title": "Oftalmología",
+ "prefix": "oftal",
+ "topics": {
+  "oftal-01": "Enfrentamiento Clínico del Ojo Rojo",
+  "oftal-02": "Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+  "oftal-03": "Patología Palpebral",
+  "oftal-04": "Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+  "oftal-05": "Escleritis y Epiescleritis",
+  "oftal-06": "Glaucoma Agudo de Ángulo Cerrado",
+  "oftal-07": "Glaucoma Crónico de Ángulo Abierto",
+  "oftal-08": "Cataratas",
+  "oftal-09": "Vicios de Refracción, Presbicia y Ambliopía en Niños",
+  "oftal-10": "Desprendimiento de Retina",
+  "oftal-11": "Oclusión Vascular Retinal",
+  "oftal-12": "Retinopatía Diabética",
+  "oftal-13": "Retinopatía Hipertensiva",
+  "oftal-14": "Degeneración Macular Asociada a la Edad (DMAE) y Escotoma Central",
+  "oftal-15": "Trauma Ocular",
+  "oftal-16": "Quemaduras Químicas Oculares",
+  "oftal-17": "Celulitis Preseptal vs Orbitaria (Postseptal)",
+  "oftal-18": "Neuroftalmología"
+ },
+ "refs": 59,
+ "images": [
+  {
+   "id": "01_inyeccion-conjuntival__cto-oftalmo_p3",
+   "src": "biblioteca/12_oftalmologia/oftal-01/01_inyeccion-conjuntival__cto-oftalmo_p33.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Inyección conjuntival",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_inyeccion-ciliar-con-hipopion__cto-of",
+   "src": "biblioteca/12_oftalmologia/oftal-01/03_inyeccion-ciliar-con-hipopion__cto-oftalmo_p39.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ciliar con hipopión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "076_oftal_Ojo_rojo_profundo__AtlasClinDx",
+   "src": "_verificadas/076_oftal_Ojo_rojo_profundo__AtlasClinDx_p109.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uveítis anterior aguda: inyección ciliar e hipopion",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "75_hiposfagma__KanskisClini_p178_1",
+   "src": "_verificadas/75_hiposfagma__KanskisClini_p178_1.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hiposfagma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "276_oftal_Endoftalmitis__KanskisCli_p302",
+   "src": "_verificadas/276_oftal_Endoftalmitis__KanskisCli_p302_1.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Endoftalmitis postoperatoria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "54_pterigion__kanski_p175",
+   "src": "biblioteca/12_oftalmologia/oftal-01/54_pterigion__kanski_p175.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pterigión: pliegue fibrovascular triangular de conjuntiva que avanza sobre la córnea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_conjuntivitis_bacteriana__kanski_p147",
+   "src": "biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg",
+   "topic": "oftal-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Conjuntivitis bacteriana: hiperemia y secreción mucopurulenta",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "77_conjuntivitis_neonatal__KanskisClini_",
+   "src": "_verificadas/77_conjuntivitis_neonatal__KanskisClini_p152_1.jpg",
+   "topic": "oftal-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Oftalmía neonatal gonocócica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_orzuelo__amir-oftalmo_p57",
+   "src": "biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Orzuelo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_chalazion__kanski_p16",
+   "src": "biblioteca/12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Chalazión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_blefaritis__amir-oftalmo_p57",
+   "src": "biblioteca/12_oftalmologia/oftal-03/02_blefaritis__amir-oftalmo_p57.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Blefaritis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "56_carcinoma-basocelular-parpado__kanski",
+   "src": "biblioteca/12_oftalmologia/oftal-03/56_carcinoma-basocelular-parpado__kanski_p28.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma basocelular del párpado inferior: lesión ulcerada de bordes sobreelevados",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "57_papiloma-conjuntival__kanski_p482",
+   "src": "biblioteca/12_oftalmologia/oftal-03/57_papiloma-conjuntival__kanski_p482.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Papiloma conjuntival",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ulcera-dendritica-con-fluoresceina__c",
+   "src": "biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina__cto-oftalmo_p40.jpg",
+   "topic": "oftal-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera dendrítica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ulcera-dendritica-con-fluoresceina_al",
+   "src": "biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina_alt1__amir-oftalmo_p46.jpg",
+   "topic": "oftal-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dendrita con fluoresceína",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "54_queratitis-bacteriana-hipopion__kansk",
+   "src": "biblioteca/12_oftalmologia/oftal-04/54_queratitis-bacteriana-hipopion__kanski_p188.jpg",
+   "topic": "oftal-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratitis bacteriana grave: úlcera corneal extensa con hipopión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_epiescleritis__amir-oftalmo_p47",
+   "src": "biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg",
+   "topic": "oftal-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Epiescleritis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_escleritis__cto-oftalmo_p42",
+   "src": "biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg",
+   "topic": "oftal-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escleritis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_372_escleromalacia_perforante_escl",
+   "src": "biblioteca/18_oftalmologia/oftal-05/atlas_372_escleromalacia_perforante_escl.jpg",
+   "topic": "oftal-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escleromalacia perforante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_glaucoma-agudo-pupila-media-edema-cor",
+   "src": "biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg",
+   "topic": "oftal-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glaucoma agudo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "52_glaucoma-agudo-edema-corneal__kanski_",
+   "src": "biblioteca/12_oftalmologia/oftal-06/52_glaucoma-agudo-edema-corneal__kanski_p375.jpg",
+   "topic": "oftal-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Midriasis media y edema",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_papila-glaucomatosa_alt1_2__amir-ofta",
+   "src": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg",
+   "topic": "oftal-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Daño glaucomatoso avanzado del campo visual",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_papila-glaucomatosa__amir-oftalmo_p34",
+   "src": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg",
+   "topic": "oftal-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Papila glaucomatosa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_campimetria-papila-en-gcs__cto-oftalm",
+   "src": "biblioteca/12_oftalmologia/oftal-07/02_campimetria-papila-en-gcs__cto-oftalmo_p52.jpg",
+   "topic": "oftal-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "OCT de fibras nerviosas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "55_glaucoma-congenito-buftalmos__kanski_",
+   "src": "biblioteca/12_oftalmologia/oftal-07/55_glaucoma-congenito-buftalmos__kanski_p398.jpg",
+   "topic": "oftal-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glaucoma congénito avanzado: buftalmos con opacidad corneal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_catarata_1__amir-oftalmo_p40",
+   "src": "biblioteca/12_oftalmologia/oftal-08/01_catarata_1__amir-oftalmo_p40.jpg",
+   "topic": "oftal-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Catarata",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "272_oftal_Catarata__2017BatesG_p1022_1",
+   "src": "_verificadas/272_oftal_Catarata__2017BatesG_p1022_1.jpg",
+   "topic": "oftal-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Catarata madura blanca",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_leucocoria__amir-oftalmo_p55",
+   "src": "biblioteca/12_oftalmologia/oftal-08/02_leucocoria__amir-oftalmo_p55.jpg",
+   "topic": "oftal-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucocoria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_vicios-refraccion__propio",
+   "src": "biblioteca/12_oftalmologia/oftal-09/S1_vicios-refraccion__propio.svg",
+   "topic": "oftal-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vicios de refracción",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "56_esotropia-congenita__kanski_p770",
+   "src": "biblioteca/12_oftalmologia/oftal-09/56_esotropia-congenita__kanski_p770.jpg",
+   "topic": "oftal-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esotropía del lactante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "54_test-hirschberg__kanski_p759",
+   "src": "biblioteca/12_oftalmologia/oftal-09/54_test-hirschberg__kanski_p759.jpg",
+   "topic": "oftal-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hirschberg: reflejo temporal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "55_hemangioma-capilar-palpebral__kanski_",
+   "src": "biblioteca/12_oftalmologia/oftal-09/55_hemangioma-capilar-palpebral__kanski_p113.jpg",
+   "topic": "oftal-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemangioma capilar palpebral en un lactante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_dr-regmatogeno-fondo_alt1__amir-oftal",
+   "src": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo_alt1__amir-oftalmo_p13.jpg",
+   "topic": "oftal-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Desgarro en herradura",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "54_desprendimiento-retina-desgarro__kans",
+   "src": "biblioteca/12_oftalmologia/oftal-10/54_desprendimiento-retina-desgarro__kanski_p698.jpg",
+   "topic": "oftal-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Desgarro y retina levantada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_dr-regmatogeno-fondo__cto-oftalmo_p65",
+   "src": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg",
+   "topic": "oftal-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fondo de ojo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mancha-rojo-cereza-oacr__cto-oftalmo_",
+   "src": "biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg",
+   "topic": "oftal-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mancha rojo cereza en la mácula",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_ovcr-hemorragias-en-llama__amir-oftal",
+   "src": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama__amir-oftalmo_p15.jpg",
+   "topic": "oftal-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorragias en llama",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_ovcr-hemorragias-en-llama_alt1__cto-o",
+   "src": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama_alt1__cto-oftalmo_p71.jpg",
+   "topic": "oftal-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Oclusión venosa central",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rd-no-proliferativa-hemorragias-exuda",
+   "src": "biblioteca/12_oftalmologia/oftal-12/02_rd-no-proliferativa-hemorragias-exudados__cto-oftalmo_p67.jpg",
+   "topic": "oftal-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorragias y exudados",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "273_oftal_Retinopatía_diabética_prolifer",
+   "src": "_verificadas/273_oftal_Retinopatía_diabética_prolifer__KanskisCli_p547_1.jpg",
+   "topic": "oftal-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neovasos en la papila",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_retinopatia-diabetica__cto-oftalmo_p6",
+   "src": "biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg",
+   "topic": "oftal-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorragia vítrea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "274_oftal_Retinopatía_hipertensiva_grado",
+   "src": "_verificadas/274_oftal_Retinopatía_hipertensiva_grado__KanskisCli_p570_1.jpg",
+   "topic": "oftal-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hilo de cobre y cruces",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_retinopatia-hipertensiva__cto-oftalmo",
+   "src": "biblioteca/12_oftalmologia/oftal-13/01_retinopatia-hipertensiva__cto-oftalmo_p69.jpg",
+   "topic": "oftal-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Retinopatía hipertensiva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_dmae-seca-drusas__cto-oftalmo_p72",
+   "src": "biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg",
+   "topic": "oftal-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Drusas: depósitos amarillentos en la retina",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_dmae-humeda_alt1__cto-oftalmo_p107",
+   "src": "biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda_alt1__cto-oftalmo_p107.jpg",
+   "topic": "oftal-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorragia subretiniana",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_dmae-humeda__cto-oftalmo_p73",
+   "src": "biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda__cto-oftalmo_p73.jpg",
+   "topic": "oftal-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rejilla de Amsler normal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "079_oftal_Globo_ocular_abierto__Knoop_p9",
+   "src": "_verificadas/079_oftal_Globo_ocular_abierto__Knoop_p93.jpg",
+   "topic": "oftal-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pupila en gota",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hipema__kanski_p882",
+   "src": "biblioteca/12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg",
+   "topic": "oftal-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hipema",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fractura-suelo-orbitario-tc__cto-ofta",
+   "src": "biblioteca/12_oftalmologia/oftal-15/01_fractura-suelo-orbitario-tc__cto-oftalmo_p94.jpg",
+   "topic": "oftal-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura del piso orbitario",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_quemadura_quimica__kanski_p895",
+   "src": "biblioteca/12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg",
+   "topic": "oftal-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quemadura química grave",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_celulitis-preseptal__amir-oftalmo_p43",
+   "src": "biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal__amir-oftalmo_p43.jpg",
+   "topic": "oftal-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Celulitis preseptal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_celulitis-preseptal_alt1__cto-oftalmo",
+   "src": "biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal_alt1__cto-oftalmo_p30.jpg",
+   "topic": "oftal-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema palpebral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_celulitis_orbitaria_TC__kanski_p100",
+   "src": "biblioteca/12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg",
+   "topic": "oftal-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Celulitis orbitaria en TAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_marcus-gunn__propio",
+   "src": "biblioteca/12_oftalmologia/oftal-18/S1_marcus-gunn__propio.svg",
+   "topic": "oftal-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pupila de Marcus Gunn",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_linterna_oscilante_dpar__kanski_p820",
+   "src": "biblioteca/12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg",
+   "topic": "oftal-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Marcus Gunn",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_pupila-de-adie__amir-oftalmo_p23",
+   "src": "biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg",
+   "topic": "oftal-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pupila de Adie",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "374_oftal_Neuritis_óptica__BrantHelms_p2",
+   "src": "_verificadas/374_oftal_Neuritis_óptica__BrantHelms_p287.jpg",
+   "topic": "oftal-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neuritis óptica: realce de ambos nervios ópticos en la RM con gadolinio (flechas)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

@@ -1,0 +1,430 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 44,
+  "where": {
+   "IMG-fecalito": 4,
+   "IMG-puntos-apendicitis": 4,
+   "IMG-tac-apendice": 5,
+   "IMG-eco-apendice": 5,
+   "IMG-plastron": 6,
+   "IMG-calculos-sombra": 6,
+   "IMG-pared-vesicular": 7,
+   "IMG-hida": 7,
+   "IMG-diverticulitis-tac": 8,
+   "IMG-hinchey-leve": 8,
+   "IMG-absceso-pericolico": 9,
+   "IMG-hinchey-iv": 9,
+   "IMG-obstruccion-delgado": 10,
+   "IMG-obstruccion-colon": 10,
+   "IMG-volvulo-sigmoides": 11,
+   "IMG-neumatosis": 11,
+   "IMG-neumoperitoneo": 12,
+   "IMG-neumoperitoneo-2": 12,
+   "IMG-hernia-inguinoescrotal": 13,
+   "IMG-hesselbach": 13,
+   "IMG-asa-estrangulada": 14,
+   "IMG-hernia-umbilical": 14,
+   "IMG-fisura-anal": 15,
+   "IMG-prolapso-hemorroidal": 15,
+   "IMG-hemorroide-trombosada": 16,
+   "IMG-absceso-perianal": 16,
+   "IMG-prolapso-rectal": 17,
+   "IMG-absceso-pilonidal": 17,
+   "IMG-sinus-pilonidal": 18,
+   "IMG-hidradenitis": 18,
+   "IMG-sarcoma": 19,
+   "IMG-granuloma-piogenico": 19,
+   "IMG-varices": 20,
+   "IMG-lipodermatoesclerosis": 20,
+   "IMG-ulcera-venosa": 21,
+   "IMG-manga": 21,
+   "IMG-bypass": 22,
+   "IMG-abcde": 22,
+   "IMG-cricotiroidotomia": 23,
+   "IMG-uretrografia": 23,
+   "IMG-neumotorax-tension": 24,
+   "IMG-hemotorax": 24,
+   "IMG-torax-volante": 25,
+   "IMG-taponamiento-fast": 25,
+   "IMG-signo-cinturon": 26,
+   "IMG-equimosis-flancos": 26,
+   "IMG-fast-morison": 27,
+   "IMG-ojos-mapache": 27,
+   "IMG-battle": 28,
+   "IMG-epidural-subdural": 28,
+   "IMG-fractura-deprimida": 29,
+   "IMG-quemadura-superficial": 29,
+   "IMG-quemadura-profunda": 30,
+   "IMG-profundidad-mixta": 30,
+   "IMG-escarotomia": 31,
+   "IMG-quemadura-via-aerea": 31,
+   "IMG-cicatriz-hipertrofica": 32,
+   "IMG-atelectasia": 32,
+   "IMG-herida-infectada": 33,
+   "IMG-tvp-postoperatoria": 33,
+   "IMG-herida-abierta": 34,
+   "IMG-hematoma-herida": 34,
+   "IMG-fascitis": 35,
+   "IMG-fistula-enterocutanea": 35,
+   "IMG-mordedura-gato": 36,
+   "IMG-mordedura-perro": 36,
+   "IMG-herida-mano": 37,
+   "IMG-queloide": 37,
+   "IMG-onicectomia": 38,
+   "PAIRS": 39,
+   "SIGNS": 41,
+   "TYPES": 42,
+   "AUTO": 43,
+   "SOL": 44
+  }
+ },
+ "tomo": [
+  {
+   "id": "fecalito",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "puntos-apendicitis",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "tac-apendice",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "eco-apendice",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "plastron",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "calculos-sombra",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "pared-vesicular",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "hida",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "diverticulitis-tac",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "hinchey-leve",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "absceso-pericolico",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "hinchey-iv",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "obstruccion-delgado",
+   "p": 23,
+   "exact": true
+  },
+  {
+   "id": "obstruccion-colon",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "volvulo-sigmoides",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "neumatosis",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "neumoperitoneo",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "neumoperitoneo-2",
+   "p": 28,
+   "exact": false
+  },
+  {
+   "id": "hernia-inguinoescrotal",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "hesselbach",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "asa-estrangulada",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "hernia-umbilical",
+   "p": 37,
+   "exact": true
+  },
+  {
+   "id": "fisura-anal",
+   "p": 41,
+   "exact": true
+  },
+  {
+   "id": "prolapso-hemorroidal",
+   "p": 41,
+   "exact": true
+  },
+  {
+   "id": "hemorroide-trombosada",
+   "p": 41,
+   "exact": true
+  },
+  {
+   "id": "absceso-perianal",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "prolapso-rectal",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "absceso-pilonidal",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "sinus-pilonidal",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "hidradenitis",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "sarcoma",
+   "p": 45,
+   "exact": false
+  },
+  {
+   "id": "granuloma-piogenico",
+   "p": 45,
+   "exact": true
+  },
+  {
+   "id": "varices",
+   "p": 49,
+   "exact": true
+  },
+  {
+   "id": "lipodermatoesclerosis",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "ulcera-venosa",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "manga",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "bypass",
+   "p": 54,
+   "exact": true
+  },
+  {
+   "id": "abcde",
+   "p": 64,
+   "exact": true
+  },
+  {
+   "id": "cricotiroidotomia",
+   "p": 64,
+   "exact": true
+  },
+  {
+   "id": "uretrografia",
+   "p": 64,
+   "exact": true
+  },
+  {
+   "id": "neumotorax-tension",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "hemotorax",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "torax-volante",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "taponamiento-fast",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "signo-cinturon",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "equimosis-flancos",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "fast-morison",
+   "p": 75,
+   "exact": true
+  },
+  {
+   "id": "ojos-mapache",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "battle",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "epidural-subdural",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "fractura-deprimida",
+   "p": 80,
+   "exact": false
+  },
+  {
+   "id": "quemadura-superficial",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "quemadura-profunda",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "profundidad-mixta",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "escarotomia",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "quemadura-via-aerea",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "cicatriz-hipertrofica",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "atelectasia",
+   "p": 104,
+   "exact": true
+  },
+  {
+   "id": "herida-infectada",
+   "p": 104,
+   "exact": true
+  },
+  {
+   "id": "tvp-postoperatoria",
+   "p": 104,
+   "exact": true
+  },
+  {
+   "id": "herida-abierta",
+   "p": 108,
+   "exact": true
+  },
+  {
+   "id": "hematoma-herida",
+   "p": 108,
+   "exact": true
+  },
+  {
+   "id": "fascitis",
+   "p": 108,
+   "exact": true
+  },
+  {
+   "id": "fistula-enterocutanea",
+   "p": 108,
+   "exact": true
+  },
+  {
+   "id": "mordedura-gato",
+   "p": 113,
+   "exact": true
+  },
+  {
+   "id": "mordedura-perro",
+   "p": 113,
+   "exact": true
+  },
+  {
+   "id": "herida-mano",
+   "p": 113,
+   "exact": true
+  },
+  {
+   "id": "queloide",
+   "p": 112,
+   "exact": true
+  },
+  {
+   "id": "onicectomia",
+   "p": 116,
+   "exact": true
+  }
+ ]
+}

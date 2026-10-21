@@ -105,7 +105,7 @@
   },
   {
    "id": "eritema-nudoso",
-   "p": 6,
+   "p": 7,
    "exact": true
   },
   {
@@ -185,52 +185,52 @@
   },
   {
    "id": "psoriasis-placa",
-   "p": 26,
-   "exact": true
-  },
-  {
-   "id": "psoriasis-gotas",
-   "p": 25,
-   "exact": true
-  },
-  {
-   "id": "pitting",
-   "p": 26,
-   "exact": true
-  },
-  {
-   "id": "koebner",
-   "p": 26,
-   "exact": true
-  },
-  {
-   "id": "artritis-ps",
-   "p": 25,
-   "exact": true
-  },
-  {
-   "id": "psoriasis-pustulosa",
-   "p": 25,
-   "exact": true
-  },
-  {
-   "id": "liquen-oral",
    "p": 27,
    "exact": true
   },
   {
+   "id": "psoriasis-gotas",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "pitting",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "koebner",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "artritis-ps",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "psoriasis-pustulosa",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "liquen-oral",
+   "p": 28,
+   "exact": true
+  },
+  {
    "id": "kaposi",
-   "p": 32,
+   "p": 33,
    "exact": true
   },
   {
    "id": "eccema-atopico",
-   "p": 30,
+   "p": 31,
    "exact": true
   },
   {
    "id": "melicericas",
-   "p": 30,
+   "p": 31,
    "exact": true
   },
   {
@@ -240,7 +240,7 @@
   },
   {
    "id": "contacto-alergica",
-   "p": 34,
+   "p": 35,
    "exact": false
   },
   {
@@ -250,7 +250,7 @@
   },
   {
    "id": "fototoxicidad",
-   "p": 34,
+   "p": 35,
    "exact": true
   },
   {
@@ -325,37 +325,37 @@
   },
   {
    "id": "penfigo-oral",
-   "p": 54,
+   "p": 55,
    "exact": true
   },
   {
    "id": "em-pie",
-   "p": 62,
+   "p": 61,
    "exact": true
   },
   {
    "id": "em-manos",
-   "p": 62,
+   "p": 61,
    "exact": true
   },
   {
    "id": "molusco",
-   "p": 61,
-   "exact": true
+   "p": 60,
+   "exact": false
   },
   {
    "id": "tzanck",
-   "p": 61,
+   "p": 60,
    "exact": true
   },
   {
    "id": "zoster",
-   "p": 61,
+   "p": 60,
    "exact": true
   },
   {
    "id": "verruga",
-   "p": 62,
+   "p": 61,
    "exact": true
   },
   {
@@ -420,7 +420,7 @@
   },
   {
    "id": "tina-capitis",
-   "p": 82,
+   "p": 84,
    "exact": true
   },
   {
@@ -475,7 +475,7 @@
   },
   {
    "id": "queloide",
-   "p": 87,
+   "p": 88,
    "exact": false
   },
   {
@@ -485,7 +485,7 @@
   },
   {
    "id": "hemangioma-mixto",
-   "p": 87,
+   "p": 88,
    "exact": false
   },
   {
@@ -495,18 +495,18 @@
   },
   {
    "id": "hemangioma-segmentario",
-   "p": 87,
+   "p": 88,
    "exact": false
   },
   {
    "id": "mancha-salmon",
-   "p": 87,
+   "p": 88,
    "exact": false
   },
   {
    "id": "vino-oporto",
-   "p": 87,
-   "exact": true
+   "p": 88,
+   "exact": false
   },
   {
    "id": "arana",

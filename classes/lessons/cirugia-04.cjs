@@ -82,7 +82,7 @@ module.exports = {
           say: 'La radiografía simple de abdomen de pie te ayuda a ubicar el nivel antes de pensar en la causa.' },
         { show: ['del'], note: 'Asas al centro, con válvulas conniventes',
           say: 'Si es intestino delgado, ves asas dilatadas al centro del abdomen, con niveles hidroaéreos en escalera, y pliegues que cruzan todo el diámetro del asa. Mira esta radiografía: asas dilatadas, con gas y líquido acumulados antes del obstáculo.',
-          photo: { src: 'biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg', label: 'Niveles hidroaéreos', at: 'Mira esta radiografía', credit: 'Manual CTO Digestivo 14.ª ed., p. 163' } },
+          photo: { src: 'biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg', label: 'Obstrucción intestinal: asas dilatadas con niveles hidroaéreos', at: 'Mira esta radiografía', credit: 'Bailey & Love\'s Short Practice of Surgery, 27.ª ed., p. 1310' } },
         { show: ['bri'], note: 'Casi siempre hay una cirugía previa',
           say: 'Y la causa más frecuente, de lejos, son las bridas: adherencias de una cirugía abdominal previa. Busca siempre ese antecedente en la historia.' },
         { show: ['her'], note: 'La segunda causa, y la que más se olvida examinar',

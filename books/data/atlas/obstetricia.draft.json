@@ -1,0 +1,1042 @@
+{
+ "libro": "obstetricia",
+ "title": "Obstetricia y Medicina Materno-Fetal",
+ "prefix": "ob",
+ "topics": {
+  "ob-01": "Control Prenatal de Bajo Riesgo",
+  "ob-02": "Ecografía Obstétrica",
+  "ob-03": "Evaluación del Bienestar Fetal",
+  "ob-04": "Restricción del Crecimiento Fetal (RCF)",
+  "ob-05": "Trastornos Hipertensivos del Embarazo",
+  "ob-06": "Emergencias Hipertensivas en el Embarazo",
+  "ob-07": "Diabetes Gestacional y Pregestacional",
+  "ob-08": "Colestasia Intrahepática del Embarazo (CIE)",
+  "ob-09": "Infección del Tracto Urinario en el Embarazo",
+  "ob-21": "Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica",
+  "ob-10": "Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+  "ob-11": "Embarazo Ectópico",
+  "ob-12": "Enfermedad Trofoblástica Gestacional",
+  "ob-13": "Metrorragias de la Segunda Mitad del Embarazo",
+  "ob-14": "Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
+  "ob-15": "Síndrome de Parto Prematuro",
+  "ob-16": "Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
+  "ob-17": "Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+  "ob-18": "Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+  "ob-19": "Infecciones Puerperales",
+  "ob-20": "Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal"
+ },
+ "refs": 42,
+ "images": [
+  {
+   "id": "02_longitud-craneocaudal__cto-gyo_p117",
+   "src": "biblioteca/14_obstetricia/ob-02/02_longitud-craneocaudal__cto-gyo_p117.jpg",
+   "topic": "ob-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Longitud céfalo-nalgas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_translucencia-nucal-normal-vs-patolog",
+   "src": "biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg",
+   "topic": "ob-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Translucencia nucal normal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_translucencia-nucal-normal-vs-patolog",
+   "src": "biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica_alt2__cto-gyo_p28.jpg",
+   "topic": "ob-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Translucencia nucal aumentada (2,98 mm) en corte sagital medio",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rctg-normal-reactivo__cto-gyo_p171",
+   "src": "biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg",
+   "topic": "ob-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Registro cardiotocográfico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "rbne_reactivo",
+   "src": "ob-03/rbne_reactivo.svg",
+   "topic": "ob-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_doppler-arteria-umbilical_1__cto-gyo_",
+   "src": "biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_1__cto-gyo_p121.jpg",
+   "topic": "ob-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Umbilical normal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "299_ob_Restricción_de_crecimiento__us_ob",
+   "src": "biblioteca/14_obstetricia/ob-04/299_ob_Restricción_de_crecimiento__us_obgynpd_p129_1.jpg",
+   "topic": "ob-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cerebral media dilatada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "088_ob_Restricción_de_crecimiento__us_ob",
+   "src": "biblioteca/14_obstetricia/ob-04/088_ob_Restricción_de_crecimiento__us_obgynpd_p127_1.jpg",
+   "topic": "ob-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Diástole ausente",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "088_ob_Restricción_de_crecimiento__us_ob",
+   "src": "_verificadas/088_ob_Restricción_de_crecimiento__us_obgynpd_p126_1.jpg",
+   "topic": "ob-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Doppler de arteria umbilical con flujo diastólico ausente y con flujo ",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "089_ob_Restricción_de_crecimiento__Rumac",
+   "src": "_verificadas/089_ob_Restricción_de_crecimiento__Rumack_p1502.jpg",
+   "topic": "ob-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Doppler de ductus venoso con onda a reversa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "299_ob_Restricción_de_crecimiento__nelso",
+   "src": "_verificadas/299_ob_Restricción_de_crecimiento__nelsontext_p1437_1.jpg",
+   "topic": "ob-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Doppler de arteria cerebral media con vasodilatación",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_macrosomia-eco-circunferencia-abdomin",
+   "src": "biblioteca/14_obstetricia/ob-07/01_macrosomia-eco-circunferencia-abdominal__obgynus_p131.jpg",
+   "topic": "ob-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Grasa subcutánea aumentada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_corionicidad-amnionicidad-esquema__ne",
+   "src": "biblioteca/14_obstetricia/ob-21/01_corionicidad-amnionicidad-esquema__nelson_p1320.jpg",
+   "topic": "ob-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Corionicidad y amnionicidad",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_signo-lambda-eco__obgynus_p137",
+   "src": "biblioteca/14_obstetricia/ob-21/03_signo-lambda-eco__obgynus_p137.jpg",
+   "topic": "ob-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo lambda: bicorial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_signo-T-monocorial__obgynus_p81",
+   "src": "biblioteca/14_obstetricia/ob-21/04_signo-T-monocorial__obgynus_p81.jpg",
+   "topic": "ob-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Monocorial: membrana fina",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_tttf-donante-receptor-eco__obgynus_p1",
+   "src": "biblioteca/14_obstetricia/ob-21/05_tttf-donante-receptor-eco__obgynus_p143.jpg",
+   "topic": "ob-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Transfusión feto-fetal en ecografía: receptor con polihidramnios, donante con oligohidramnios",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_aborto-precoz-tardio-gestacion-interr",
+   "src": "biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump_alt2__cto-gyo_p124.jpg",
+   "topic": "ob-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Saco sin embrión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "092_ob_Aborto__Rumack_p1116",
+   "src": "biblioteca/14_obstetricia/ob-10/092_ob_Aborto__Rumack_p1116.jpg",
+   "topic": "ob-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Restos con Doppler",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_aborto-precoz-tardio-gestacion-interr",
+   "src": "biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump__cto-gyo_p123.jpg",
+   "topic": "ob-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Embrión y restos expulsados",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "386_ob_Embarazo_ectópico__Rumack_p1121",
+   "src": "biblioteca/14_obstetricia/ob-11/386_ob_Embarazo_ectópico__Rumack_p1121.jpg",
+   "topic": "ob-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Líquido libre en Douglas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ectopico-ampular-eco__cto-gyo_p126",
+   "src": "biblioteca/14_obstetricia/ob-11/01_ectopico-ampular-eco__cto-gyo_p126.jpg",
+   "topic": "ob-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masa anexial con Doppler",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_diagnostico-de-ectopico__cto-gyo_p126",
+   "src": "biblioteca/14_obstetricia/ob-11/02_diagnostico-de-ectopico__cto-gyo_p126.jpg",
+   "topic": "ob-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Útero vacío y beta-hCG",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mola-en-tormenta-de-nieve-eco__cto-gy",
+   "src": "biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg",
+   "topic": "ob-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tormenta de nieve",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_mola-vesiculas__amir-gyo_p33",
+   "src": "biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg",
+   "topic": "ob-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vesículas, sin embrión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_eco-placenta-previa__obgynus_p157",
+   "src": "biblioteca/14_obstetricia/ob-13/03_eco-placenta-previa__obgynus_p157.jpg",
+   "topic": "ob-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco transvaginal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_placenta-previa-dppni__propio",
+   "src": "biblioteca/14_obstetricia/ob-13/S1_placenta-previa-dppni__propio.svg",
+   "topic": "ob-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Previa vs DPPNI",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tipos-de-placenta-previa__cto-gyo_p13",
+   "src": "biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa__cto-gyo_p133.jpg",
+   "topic": "ob-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tipos de placenta previa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "300_ob_Metrorragia_de_la_segunda_mi__Ope",
+   "src": "_web/300_ob_Metrorragia_de_la_segunda_mi__Open-i_1.jpg",
+   "topic": "ob-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vasa previa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_cristalizacion_helecho__commons",
+   "src": "biblioteca/14_obstetricia/ob-14/01_cristalizacion_helecho__commons.jpg",
+   "topic": "ob-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Test de helecho",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_cervicometria-cervix-corto__cto-gyo_p",
+   "src": "biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg",
+   "topic": "ob-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cervicometría",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S2_partograma__propio",
+   "src": "biblioteca/14_obstetricia/ob-16/S2_partograma__propio.svg",
+   "topic": "ob-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Partograma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_variedades-fontanelas__propio",
+   "src": "biblioteca/14_obstetricia/ob-16/S1_variedades-fontanelas__propio.svg",
+   "topic": "ob-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Variedades de posición",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "385_signo_tortuga__knoop_p292",
+   "src": "biblioteca/14_obstetricia/ob-17/385_signo_tortuga__knoop_p292.jpg",
+   "topic": "ob-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de la tortuga",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_maniobra_mcroberts__williams_p515",
+   "src": "biblioteca/14_obstetricia/ob-17/01_maniobra_mcroberts__williams_p515.jpg",
+   "topic": "ob-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "McRoberts + suprapúbica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_deceleraciones-tardias-variables-prec",
+   "src": "biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_alt2__cto-gyo_p173.jpg",
+   "topic": "ob-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Desaceleraciones precoces",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_balon_bakri__commons",
+   "src": "biblioteca/14_obstetricia/ob-18/01_balon_bakri__commons.jpg",
+   "topic": "ob-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Balón de Bakri",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_balon-b-lynch__propio",
+   "src": "biblioteca/14_obstetricia/ob-18/S1_balon-b-lynch__propio.svg",
+   "topic": "ob-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bakri y B-Lynch",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "302_inversion_uterina__openi",
+   "src": "biblioteca/14_obstetricia/ob-18/302_inversion_uterina__openi.jpg",
+   "topic": "ob-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Inversión uterina",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_absceso_mamario__bailey_p887",
+   "src": "biblioteca/14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg",
+   "topic": "ob-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso mamario",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_absceso_mamario_puerperal_eco__willia",
+   "src": "biblioteca/14_obstetricia/ob-19/02_absceso_mamario_puerperal_eco__williams-gyn_p314.jpg",
+   "topic": "ob-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Clínica y ecografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_doppler-acm__propio",
+   "src": "biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg",
+   "topic": "ob-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Arteria cerebral media",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "303_ob_Aloinmunización_Rh__nelsontext_p1",
+   "src": "_verificadas/303_ob_Aloinmunización_Rh__nelsontext_p1437_1.jpg",
+   "topic": "ob-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hidrops fetal en ecografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

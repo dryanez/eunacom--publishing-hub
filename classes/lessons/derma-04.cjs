@@ -56,7 +56,7 @@ module.exports = {
         { title: 'Patrones', tag: 'Distinto en cada sexo', kind: 'criteria', items: [
           { t: 'Masculino: entradas y vértice', d: 'Escala de Hamilton-Norwood',
             say: 'En el hombre, el patrón es el retroceso de la línea frontotemporal, las entradas, y la pérdida en la coronilla. Mira estos dibujos de la escala de Hamilton: primero retroceden las entradas, luego se pierde el vértice, hasta que solo queda una corona lateral.',
-            photo: { src: 'biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg', label: 'Escala de Hamilton', at: 'Mira estos dibujos', credit: 'Manual CTO Dermatología 14.ª ed., p. 62' } },
+            photo: { src: 'biblioteca/11_dermatologia/derma-04/02_androgenetica-hamilton__cto-derma_p62.jpg', label: 'Escala de Hamilton-Norwood (grados I a V)', at: 'Mira estos dibujos', credit: 'Fitzpatrick\'s Dermatology in General Medicine, p. 805' } },
           { t: 'Femenino: raya central ensanchada', d: 'Escala de Ludwig, respeta la línea frontal',
             say: 'En la mujer, en cambio, es una pérdida difusa de densidad en el vértex con ensanchamiento de la raya central, el signo del árbol de navidad, pero respetando la línea de implantación frontal. Esa diferencia de patrón entre hombre y mujer se pregunta.' },
         ] },

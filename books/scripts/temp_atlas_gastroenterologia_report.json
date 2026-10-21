@@ -1,0 +1,628 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 68,
+  "where": {
+   "IMG-esofagitis": 4,
+   "IMG-esofagitis-2": 4,
+   "IMG-barrett": 5,
+   "IMG-ulcera-duodenal": 5,
+   "IMG-ulcera-gastrica": 6,
+   "IMG-cancer-esofago": 6,
+   "IMG-megaesofago": 7,
+   "IMG-manometria-acalasia": 7,
+   "IMG-zenker": 8,
+   "IMG-zenker-2": 8,
+   "IMG-neumoperitoneo-2": 9,
+   "IMG-mallory-weiss": 9,
+   "IMG-esofagitis-caustica": 10,
+   "IMG-boerhaave": 10,
+   "IMG-neumoperitoneo": 11,
+   "IMG-borrmann": 11,
+   "IMG-borrmann-esquema": 12,
+   "IMG-tumor-musculo-liso": 12,
+   "IMG-cancer-gastrico-incipiente": 13,
+   "IMG-hernia-paraesofagica": 13,
+   "IMG-mediastino-esquema": 14,
+   "IMG-masa-mediastino": 14,
+   "IMG-hernia-diafragmatica-traumatica": 15,
+   "IMG-masa-mediastino-tc": 15,
+   "IMG-masa-mediastino-pet": 16,
+   "IMG-pseudomembranas": 16,
+   "IMG-giardia": 17,
+   "IMG-ascaris": 17,
+   "IMG-trichuris": 18,
+   "IMG-dermatitis-herpetiforme": 18,
+   "IMG-atrofia-vellositaria": 19,
+   "IMG-colitis-ulcerosa": 19,
+   "IMG-crohn": 20,
+   "IMG-crohn-tc": 20,
+   "IMG-eritema-nodoso": 21,
+   "IMG-pioderma": 21,
+   "IMG-eritema-nodoso-2": 22,
+   "IMG-pioderma-2": 22,
+   "IMG-polipo-pediculado": 23,
+   "IMG-polipo-sesil": 23,
+   "IMG-polipo-pediculado-2": 24,
+   "IMG-cancer-colon-endo": 24,
+   "IMG-paf-pieza": 25,
+   "IMG-fisura-anal": 25,
+   "IMG-hemorroides-iv": 26,
+   "IMG-hemorroide-trombosado-2": 26,
+   "IMG-hemorroide-trombosado": 27,
+   "IMG-absceso-perianal-2": 27,
+   "IMG-absceso-perianal": 28,
+   "IMG-ictericia-2": 28,
+   "IMG-coledoco-eco": 29,
+   "IMG-colangio-rm": 29,
+   "IMG-ictericia": 30,
+   "IMG-cancer-pancreas": 30,
+   "IMG-serologia-vhb": 31,
+   "IMG-higado-graso": 31,
+   "IMG-eco-cirrosis": 32,
+   "IMG-portografia": 32,
+   "IMG-cabeza-medusa": 33,
+   "IMG-varice-ligadura": 33,
+   "IMG-quiste-hidatidico": 34,
+   "IMG-hemangioma": 34,
+   "IMG-hepatocarcinoma": 35,
+   "IMG-absceso-hepatico": 35,
+   "IMG-hnf": 36,
+   "IMG-metastasis-hepaticas": 36,
+   "IMG-polipo-vesicular": 37,
+   "IMG-colangiocarcinoma": 37,
+   "IMG-colelitiasis": 38,
+   "IMG-colelitiasis-esquema": 38,
+   "IMG-colecistitis": 39,
+   "IMG-vesicula-porcelana": 39,
+   "IMG-pancreatitis-edematosa-2": 40,
+   "IMG-pancreatitis-edematosa": 40,
+   "IMG-grey-turner": 41,
+   "IMG-puntos-apendicitis": 41,
+   "IMG-apendicitis-tc": 42,
+   "IMG-apendice-pieza": 42,
+   "IMG-isquemia-mesenterica": 43,
+   "IMG-colitis-isquemica": 43,
+   "IMG-embolia-mesenterica": 44,
+   "IMG-vaso-visible": 44,
+   "IMG-forrest-ia": 45,
+   "IMG-moneda-esofago": 45,
+   "IMG-pila-boton": 46,
+   "IMG-bolo-carne": 46,
+   "IMG-pliegue-2": 47,
+   "IMG-pliegue": 47,
+   "IMG-oxiuros": 48,
+   "IMG-piloro-esquema": 48,
+   "IMG-oliva-pilorica": 49,
+   "IMG-fecaloma": 49,
+   "IMG-neumatosis": 50,
+   "IMG-signo-dona": 50,
+   "IMG-invaginacion-esquema": 51,
+   "IMG-atresia-esofagica": 51,
+   "IMG-hirschsprung": 52,
+   "IMG-fast": 52,
+   "IMG-rotura-esplenica": 53,
+   "IMG-contusion-pulmonar": 53,
+   "IMG-taponamiento-fast": 54,
+   "IMG-taponamiento-eco": 54,
+   "PAIRS": 55,
+   "SIGNS": 59,
+   "TYPES": 61,
+   "AUTO": 62,
+   "SOL": 68
+  }
+ },
+ "tomo": [
+  {
+   "id": "esofagitis",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "esofagitis-2",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "barrett",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "ulcera-duodenal",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "ulcera-gastrica",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "cancer-esofago",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "megaesofago",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "manometria-acalasia",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "zenker",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "zenker-2",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "neumoperitoneo-2",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "mallory-weiss",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "esofagitis-caustica",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "boerhaave",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "neumoperitoneo",
+   "p": 18,
+   "exact": true
+  },
+  {
+   "id": "borrmann",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "borrmann-esquema",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "tumor-musculo-liso",
+   "p": 22,
+   "exact": true
+  },
+  {
+   "id": "cancer-gastrico-incipiente",
+   "p": 22,
+   "exact": false
+  },
+  {
+   "id": "hernia-paraesofagica",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "mediastino-esquema",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "masa-mediastino",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "hernia-diafragmatica-traumatica",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "masa-mediastino-tc",
+   "p": 25,
+   "exact": false
+  },
+  {
+   "id": "masa-mediastino-pet",
+   "p": 25,
+   "exact": false
+  },
+  {
+   "id": "pseudomembranas",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "giardia",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "ascaris",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "trichuris",
+   "p": 35,
+   "exact": false
+  },
+  {
+   "id": "dermatitis-herpetiforme",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "atrofia-vellositaria",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "colitis-ulcerosa",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "crohn",
+   "p": 42,
+   "exact": true
+  },
+  {
+   "id": "crohn-tc",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "eritema-nodoso",
+   "p": 42,
+   "exact": false
+  },
+  {
+   "id": "pioderma",
+   "p": 42,
+   "exact": false
+  },
+  {
+   "id": "eritema-nodoso-2",
+   "p": 42,
+   "exact": false
+  },
+  {
+   "id": "pioderma-2",
+   "p": 42,
+   "exact": false
+  },
+  {
+   "id": "polipo-pediculado",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "polipo-sesil",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "polipo-pediculado-2",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "cancer-colon-endo",
+   "p": 47,
+   "exact": false
+  },
+  {
+   "id": "paf-pieza",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "fisura-anal",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "hemorroides-iv",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "hemorroide-trombosado-2",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "hemorroide-trombosado",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "absceso-perianal-2",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "absceso-perianal",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "ictericia-2",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "coledoco-eco",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "colangio-rm",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "ictericia",
+   "p": 59,
+   "exact": true
+  },
+  {
+   "id": "cancer-pancreas",
+   "p": 59,
+   "exact": false
+  },
+  {
+   "id": "serologia-vhb",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "higado-graso",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "eco-cirrosis",
+   "p": 66,
+   "exact": true
+  },
+  {
+   "id": "portografia",
+   "p": 66,
+   "exact": true
+  },
+  {
+   "id": "cabeza-medusa",
+   "p": 66,
+   "exact": true
+  },
+  {
+   "id": "varice-ligadura",
+   "p": 66,
+   "exact": false
+  },
+  {
+   "id": "quiste-hidatidico",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "hemangioma",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "hepatocarcinoma",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "absceso-hepatico",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "hnf",
+   "p": 69,
+   "exact": false
+  },
+  {
+   "id": "metastasis-hepaticas",
+   "p": 69,
+   "exact": false
+  },
+  {
+   "id": "polipo-vesicular",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "colangiocarcinoma",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "colelitiasis",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "colelitiasis-esquema",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "colecistitis",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "vesicula-porcelana",
+   "p": 77,
+   "exact": true
+  },
+  {
+   "id": "pancreatitis-edematosa-2",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "pancreatitis-edematosa",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "grey-turner",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "puntos-apendicitis",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "apendicitis-tc",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "apendice-pieza",
+   "p": 87,
+   "exact": true
+  },
+  {
+   "id": "isquemia-mesenterica",
+   "p": 90,
+   "exact": true
+  },
+  {
+   "id": "colitis-isquemica",
+   "p": 90,
+   "exact": true
+  },
+  {
+   "id": "embolia-mesenterica",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "vaso-visible",
+   "p": 93,
+   "exact": true
+  },
+  {
+   "id": "forrest-ia",
+   "p": 93,
+   "exact": true
+  },
+  {
+   "id": "moneda-esofago",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "pila-boton",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "bolo-carne",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "pliegue-2",
+   "p": 105,
+   "exact": true
+  },
+  {
+   "id": "pliegue",
+   "p": 105,
+   "exact": true
+  },
+  {
+   "id": "oxiuros",
+   "p": 105,
+   "exact": false
+  },
+  {
+   "id": "piloro-esquema",
+   "p": 108,
+   "exact": true
+  },
+  {
+   "id": "oliva-pilorica",
+   "p": 108,
+   "exact": true
+  },
+  {
+   "id": "fecaloma",
+   "p": 108,
+   "exact": false
+  },
+  {
+   "id": "neumatosis",
+   "p": 111,
+   "exact": true
+  },
+  {
+   "id": "signo-dona",
+   "p": 111,
+   "exact": true
+  },
+  {
+   "id": "invaginacion-esquema",
+   "p": 111,
+   "exact": true
+  },
+  {
+   "id": "atresia-esofagica",
+   "p": 111,
+   "exact": false
+  },
+  {
+   "id": "hirschsprung",
+   "p": 111,
+   "exact": false
+  },
+  {
+   "id": "fast",
+   "p": 114,
+   "exact": true
+  },
+  {
+   "id": "rotura-esplenica",
+   "p": 114,
+   "exact": true
+  },
+  {
+   "id": "contusion-pulmonar",
+   "p": 114,
+   "exact": false
+  },
+  {
+   "id": "taponamiento-fast",
+   "p": 114,
+   "exact": false
+  },
+  {
+   "id": "taponamiento-eco",
+   "p": 114,
+   "exact": false
+  }
+ ]
+}

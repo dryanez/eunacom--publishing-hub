@@ -1,0 +1,1406 @@
+{
+ "libro": "endocrinologia",
+ "title": "Endocrinología & Metabolismo",
+ "prefix": "endo",
+ "topics": {
+  "endo-01": "Fisiología Tiroidea, Interpretación de TSH/T4L y Síndrome del Eutiroideo Enfermo",
+  "endo-02": "Hipotiroidismo Primario y Subclínico",
+  "endo-03": "Coma Mixedematoso y Urgencias Hipotiroideas",
+  "endo-04": "Hipotiroidismo en Situaciones Especiales",
+  "endo-05": "Tiroiditis",
+  "endo-06": "Enfermedad de Graves-Basedow y Síndromes Tirotóxicos",
+  "endo-07": "Manejo Terapéutico Comparado",
+  "endo-08": "Tormenta Tiroidea y Urgencias Tirotóxicas",
+  "endo-09": "Nódulo Tiroideo, Clasificación ACR TI-RADS y Criterios de PAAF",
+  "endo-10": "Cáncer de Tiroides",
+  "endo-11": "Síndrome de Cushing",
+  "endo-12": "Insuficiencia Suprarrenal Crónica",
+  "endo-13": "Crisis Suprarrenal Aguda y Shock Refractario",
+  "endo-14": "Hiperaldosteronismo Primario (Síndrome de Conn) e HTA Secundaria",
+  "endo-15": "Feocromocitoma y Paragangliomas",
+  "endo-16": "Hipercalcemia e Hiperparatiroidismo Primario versus Neoplásico",
+  "endo-17": "Hipocalcemia Aguda y Crónica",
+  "endo-18": "Osteoporosis",
+  "endo-19": "Déficit de Vitamina D, Osteomalacia del Adulto y Raquitismo",
+  "endo-20": "Masas Selares, Adenomas Hipofisiarios y Apoplejía Hipofisaria",
+  "endo-21": "Hiperprolactinemia y Prolactinomas",
+  "endo-22": "Acromegalia y Gigantismo",
+  "endo-23": "Hipopituitarismo, Síndrome de Sheehan y Panhipopituitarismo",
+  "endo-24": "Diabetes Insípida, SIADH y Neoplasia Endocrina Múltiple (MEN)",
+  "endo-25": "Ginecomastia"
+ },
+ "refs": 60,
+ "images": [
+  {
+   "id": "01_clinica-del-hipotiroidismo__cto-endoc",
+   "src": "biblioteca/05_endocrinologia/endo-02/01_clinica-del-hipotiroidismo__cto-endocrino_p55.jpg",
+   "topic": "endo-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Clínica del hipotiroidismo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_facies_hipotiroidea__fitzpatrick_p151",
+   "src": "biblioteca/05_endocrinologia/endo-02/01_facies_hipotiroidea__fitzpatrick_p1512.jpg",
+   "topic": "endo-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies hipotiroidea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_facies_mixedema__commons",
+   "src": "biblioteca/05_endocrinologia/endo-03/01_facies_mixedema__commons.jpg",
+   "topic": "endo-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mixedema grave",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hipotiroidismo_congenito__nelson_p437",
+   "src": "biblioteca/05_endocrinologia/endo-04/01_hipotiroidismo_congenito__nelson_p4372.jpg",
+   "topic": "endo-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sin tratamiento",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hipotiroidismo_tratado__nelson_p4372",
+   "src": "biblioteca/05_endocrinologia/endo-04/02_hipotiroidismo_tratado__nelson_p4372.jpg",
+   "topic": "endo-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Con tratamiento",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_gammagrafia_en_blanco__openi",
+   "src": "biblioteca/05_endocrinologia/endo-05/02_gammagrafia_en_blanco__openi.jpg",
+   "topic": "endo-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cintigrama en blanco",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_cintigramas_panel_graves_vs_blanco__c",
+   "src": "biblioteca/05_endocrinologia/endo-05/04_cintigramas_panel_graves_vs_blanco__commons.jpg",
+   "topic": "endo-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Graves vs en blanco",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_eco-hashimoto__cto-endocrino_p55",
+   "src": "biblioteca/05_endocrinologia/endo-05/01_eco-hashimoto__cto-endocrino_p55.jpg",
+   "topic": "endo-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía de Hashimoto",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "009_endo_Tiroiditis__Rumack_p1725",
+   "src": "_verificadas/009_endo_Tiroiditis__Rumack_p1725.jpg",
+   "topic": "endo-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco Doppler tiroideo hipervascular en tirotoxicosis por amiodarona tip",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_graves-bocio-difuso_1__cto-endocrino_",
+   "src": "biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_1__cto-endocrino_p57.jpg",
+   "topic": "endo-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bocio difuso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_eco-doppler-graves_1__amir-endocrino_",
+   "src": "biblioteca/05_endocrinologia/endo-06/03_eco-doppler-graves_1__amir-endocrino_p38.jpg",
+   "topic": "endo-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco Doppler hipervascular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_oftalmopatia-exoftalmos__cto-endocrin",
+   "src": "biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg",
+   "topic": "endo-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Oftalmopatía tiroidea: retracción del párpado superior izquierdo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "099_endo_Hipertiroidismo_y_Graves__Commo",
+   "src": "_web/099_endo_Hipertiroidismo_y_Graves__Commons_1.jpg",
+   "topic": "endo-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lámina comparativa de cintigramas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_tc_orbitopatia_tiroidea__kanski_p98",
+   "src": "biblioteca/05_endocrinologia/endo-06/04_tc_orbitopatia_tiroidea__kanski_p98.jpg",
+   "topic": "endo-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "TC coronal de órbitas: músculos extraoculares engrosados en la orbitopatía tiroidea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_gammagrafia-graves-captacion-difusa__",
+   "src": "biblioteca/05_endocrinologia/endo-07/02_gammagrafia-graves-captacion-difusa__amir-endocrino_p44.jpg",
+   "topic": "endo-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Graves: captación difusa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_gammagrafia-adenoma-toxico-bmn__cto-e",
+   "src": "biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn__cto-endocrino_p57.jpg",
+   "topic": "endo-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Adenoma tóxico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_gammagrafia-adenoma-toxico-bmn_alt1_1",
+   "src": "biblioteca/05_endocrinologia/endo-07/01_gammagrafia-adenoma-toxico-bmn_alt1_1__amir-endocrino_p44.jpg",
+   "topic": "endo-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bocio multinodular tóxico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "100_endo_Tratamiento_del_hipertiroidism_",
+   "src": "_verificadas/100_endo_Tratamiento_del_hipertiroidism__nelsontext_p4381_1.jpg",
+   "topic": "endo-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bocio compresivo gigante con desviación traqueal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_gammagrafia-nodulo-caliente__amir-end",
+   "src": "biblioteca/05_endocrinologia/endo-09/03_gammagrafia-nodulo-caliente__amir-endocrino_p44.jpg",
+   "topic": "endo-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gammagrafía: nódulo caliente",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_nodulo_ti-rads_5__rumack_p738",
+   "src": "biblioteca/05_endocrinologia/endo-09/04_nodulo_ti-rads_5__rumack_p738.jpg",
+   "topic": "endo-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulo TI-RADS 5",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_nodulo-con-criterios-de-malignidad-ec",
+   "src": "biblioteca/05_endocrinologia/endo-09/01_nodulo-con-criterios-de-malignidad-eco-d__amir-endocrino_p46.jpg",
+   "topic": "endo-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulo sospechoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_bocio_multinodular_grande__bailey_p82",
+   "src": "biblioteca/05_endocrinologia/endo-09/03_bocio_multinodular_grande__bailey_p827.jpg",
+   "topic": "endo-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bocio multinodular grande",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_carcinoma_papilar_histologia__pathoma",
+   "src": "biblioteca/05_endocrinologia/endo-10/01_carcinoma_papilar_histologia__pathoma_p171.jpg",
+   "topic": "endo-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Histología del papilar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_facies_luna_llena__commons",
+   "src": "biblioteca/05_endocrinologia/endo-11/03_facies_luna_llena__commons.jpg",
+   "topic": "endo-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies de luna llena",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_fenotipo-cushingoide__cto-endocrino_p",
+   "src": "biblioteca/05_endocrinologia/endo-11/02_fenotipo-cushingoide__cto-endocrino_p76.jpg",
+   "topic": "endo-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fenotipo cushingoide",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_estrias-violaceas_2__cto-endocrino_p7",
+   "src": "biblioteca/05_endocrinologia/endo-11/01_estrias-violaceas_2__cto-endocrino_p77.jpg",
+   "topic": "endo-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Equimosis por fragilidad",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "319_endo_Síndrome_de_Cushing__Open-i_1",
+   "src": "_web/319_endo_Síndrome_de_Cushing__Open-i_1.jpg",
+   "topic": "endo-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC suprarrenal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_addison_hiperpigmentacion__fitzpatric",
+   "src": "biblioteca/05_endocrinologia/endo-12/01_addison_hiperpigmentacion__fitzpatrick_p1517.jpg",
+   "topic": "endo-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hiperpigmentación",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_addison_b__fitzpatrick_p1517",
+   "src": "biblioteca/05_endocrinologia/endo-12/02_addison_b__fitzpatrick_p1517.jpg",
+   "topic": "endo-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pliegues palmares",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_104_sindrome_de_waterhouse_frideri",
+   "src": "biblioteca/05_endocrinologia/endo-13/atlas_104_sindrome_de_waterhouse_frideri.jpg",
+   "topic": "endo-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura fulminante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_waterhouse_friderichsen_pies__bailey_",
+   "src": "biblioteca/05_endocrinologia/endo-13/02_waterhouse_friderichsen_pies__bailey_p619.jpg",
+   "topic": "endo-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrosis distal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_adenoma_suprarrenal_rm__ctmri_p383",
+   "src": "biblioteca/05_endocrinologia/endo-14/01_adenoma_suprarrenal_rm__ctmri_p383.jpg",
+   "topic": "endo-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM: adenoma suprarrenal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_incidentaloma-suprarrenal-mibg__amir-",
+   "src": "biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg__amir-endocrino_p59.jpg",
+   "topic": "endo-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM: masa suprarrenal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_incidentaloma-suprarrenal-mibg_alt1__",
+   "src": "biblioteca/05_endocrinologia/endo-15/01_incidentaloma-suprarrenal-mibg_alt1__amir-endocrino_p58.jpg",
+   "topic": "endo-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gammagrafía MIBG",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_adenoma_suprarrenal_tc__ctmri_p382",
+   "src": "biblioteca/05_endocrinologia/endo-15/02_adenoma_suprarrenal_tc__ctmri_p382.jpg",
+   "topic": "endo-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Adenoma suprarrenal en TAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_osteitis_fibrosa_falanges__helms_p15",
+   "src": "biblioteca/05_endocrinologia/endo-16/03_osteitis_fibrosa_falanges__helms_p15.jpg",
+   "topic": "endo-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Osteítis fibrosa quística",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_qt_calcio_esquema__ecg-basics_p331",
+   "src": "biblioteca/05_endocrinologia/endo-16/01_qt_calcio_esquema__ecg-basics_p331.jpg",
+   "topic": "endo-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "QT y calcio",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_ecg_hipercalcemia_qt_corto__ecg-basic",
+   "src": "biblioteca/05_endocrinologia/endo-16/02_ecg_hipercalcemia_qt_corto__ecg-basics_p331.jpg",
+   "topic": "endo-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "ECG de hipercalcemia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "107_endo_Hipercalcemia_e_hiperparatiroi_",
+   "src": "_verificadas/107_endo_Hipercalcemia_e_hiperparatiroi__BrantHelms_p1466.jpg",
+   "topic": "endo-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gammagrafía con sestamibi-Tc99m mostrando adenoma paratiroideo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_signo_chvostek__commons",
+   "src": "biblioteca/05_endocrinologia/endo-17/03_signo_chvostek__commons.jpg",
+   "topic": "endo-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Chvostek",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_signo_trousseau__commons",
+   "src": "biblioteca/05_endocrinologia/endo-17/01_signo_trousseau__commons.jpg",
+   "topic": "endo-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trousseau",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_dexa-t-score__propio",
+   "src": "biblioteca/05_endocrinologia/endo-18/S1_dexa-t-score__propio.svg",
+   "topic": "endo-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "T-score",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_fractura_colles__sherman_p569",
+   "src": "biblioteca/05_endocrinologia/endo-18/03_fractura_colles__sherman_p569.jpg",
+   "topic": "endo-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura de Colles",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rx_fractura_cuello_femur__commons",
+   "src": "biblioteca/05_endocrinologia/endo-18/02_rx_fractura_cuello_femur__commons.jpg",
+   "topic": "endo-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura de cadera",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "320_endo_Osteoporosis__Commons_1",
+   "src": "_web/320_endo_Osteoporosis__Commons_1.jpg",
+   "topic": "endo-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Osteonecrosis mandibular por bifosfonatos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "321_endo_Osteoporosis__HelmsSkeletal_p16",
+   "src": "_verificadas/321_endo_Osteoporosis__HelmsSkeletal_p165.jpg",
+   "topic": "endo-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura atípica subtrocantérea de fémur por bifosfonatos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rosario_raquitico__nelson_p646",
+   "src": "biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg",
+   "topic": "endo-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rosario raquítico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_munecas_ensanchadas__nelson_p646",
+   "src": "biblioteca/05_endocrinologia/endo-19/02_munecas_ensanchadas__nelson_p646.jpg",
+   "topic": "endo-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Muñecas ensanchadas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_looser_milkman__commons",
+   "src": "biblioteca/05_endocrinologia/endo-19/04_looser_milkman__commons.jpg",
+   "topic": "endo-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Línea de Looser-Milkman",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_macroadenoma-rm__amir-endocrino_p24",
+   "src": "biblioteca/05_endocrinologia/endo-20/04_macroadenoma-rm__amir-endocrino_p24.jpg",
+   "topic": "endo-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Macroadenoma en la RM",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_craneofaringioma_rm__kanski_p830",
+   "src": "biblioteca/05_endocrinologia/endo-20/05_craneofaringioma_rm__kanski_p830.jpg",
+   "topic": "endo-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Craneofaringioma supraselar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_efecto-masa-adenoma__cto-endocrino_p4",
+   "src": "biblioteca/05_endocrinologia/endo-20/03_efecto-masa-adenoma__cto-endocrino_p40.jpg",
+   "topic": "endo-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Anatomía de la región selar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fenotipo-acromegalico__cto-endocrino_",
+   "src": "biblioteca/05_endocrinologia/endo-22/01_fenotipo-acromegalico__cto-endocrino_p33.jpg",
+   "topic": "endo-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fenotipo acromegálico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rm_silla_turca_vacia__nelson_p4815",
+   "src": "biblioteca/05_endocrinologia/endo-23/01_rm_silla_turca_vacia__nelson_p4815.jpg",
+   "topic": "endo-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Silla turca vacía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_feocromocitoma-men-2a__amir-endocrino",
+   "src": "biblioteca/05_endocrinologia/endo-24/01_feocromocitoma-men-2a__amir-endocrino_p126.jpg",
+   "topic": "endo-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "MEN 2A: feocromocitoma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_neuromas_mucosos_men2b__nelson_p4054",
+   "src": "biblioteca/05_endocrinologia/endo-24/02_neuromas_mucosos_men2b__nelson_p4054.jpg",
+   "topic": "endo-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "MEN 2B: neuromas mucosos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ginecomastia__talley_p503",
+   "src": "biblioteca/05_endocrinologia/endo-25/01_ginecomastia__talley_p503.jpg",
+   "topic": "endo-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ginecomastia bilateral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

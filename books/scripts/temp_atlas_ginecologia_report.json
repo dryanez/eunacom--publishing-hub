@@ -1,0 +1,322 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 35,
+  "where": {
+   "IMG-ciclo-menstrual": 4,
+   "IMG-turner": 4,
+   "IMG-macroprolactinoma": 5,
+   "IMG-acantosis-sop": 5,
+   "IMG-ovario-poliquistico": 6,
+   "IMG-ferriman": 6,
+   "IMG-palm-coein": 7,
+   "IMG-polipos": 7,
+   "IMG-cancer-cervix": 8,
+   "IMG-figo-miomas": 8,
+   "IMG-mioma-intramural": 9,
+   "IMG-mioma-tc": 9,
+   "IMG-mioma-eco": 10,
+   "IMG-endometrioma": 10,
+   "IMG-endometrioma-doppler": 11,
+   "IMG-implantes": 11,
+   "IMG-adenomiosis": 12,
+   "IMG-popq": 12,
+   "IMG-procidencia": 13,
+   "IMG-hsg-cavidad": 13,
+   "IMG-hsg-normal": 14,
+   "IMG-hidrosalpinx": 14,
+   "IMG-implante": 15,
+   "IMG-retiro-implante": 15,
+   "IMG-diu": 16,
+   "IMG-vaginosis": 16,
+   "IMG-celulas-clave": 17,
+   "IMG-candidiasis": 17,
+   "IMG-quiste-bartolino": 18,
+   "IMG-absceso-bartolino": 18,
+   "IMG-liquen": 19,
+   "IMG-absceso-tubo": 19,
+   "IMG-absceso-tubo-cirugia": 20,
+   "IMG-absceso-tubo-eco-2": 20,
+   "IMG-fitz-hugh": 21,
+   "IMG-lesion-bajo-grado": 21,
+   "IMG-lesion-alto-grado": 22,
+   "IMG-toma-pap": 22,
+   "IMG-citologia": 23,
+   "IMG-masa-espiculada": 23,
+   "IMG-microcalcificaciones": 24,
+   "IMG-piel-naranja": 24,
+   "IMG-quiste-mama": 25,
+   "IMG-endometrio-engrosado": 25,
+   "IMG-histeroscopia-cancer": 26,
+   "IMG-cancer-ovario": 26,
+   "IMG-ovario-aumentado": 27,
+   "IMG-remolino": 27,
+   "IMG-doppler-torsion": 28,
+   "IMG-quiste-hemorragico": 28,
+   "IMG-quiste-hemorragico-2": 29,
+   "PAIRS": 30,
+   "SIGNS": 32,
+   "TYPES": 33,
+   "AUTO": 34,
+   "SOL": 35
+  }
+ },
+ "tomo": [
+  {
+   "id": "ciclo-menstrual",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "turner",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "macroprolactinoma",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "acantosis-sop",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "ovario-poliquistico",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "ferriman",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "palm-coein",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "polipos",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "cancer-cervix",
+   "p": 15,
+   "exact": true
+  },
+  {
+   "id": "figo-miomas",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "mioma-intramural",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "mioma-tc",
+   "p": 20,
+   "exact": true
+  },
+  {
+   "id": "mioma-eco",
+   "p": 20,
+   "exact": false
+  },
+  {
+   "id": "endometrioma",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "endometrioma-doppler",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "implantes",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "adenomiosis",
+   "p": 29,
+   "exact": true
+  },
+  {
+   "id": "popq",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "procidencia",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "hsg-cavidad",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "hsg-normal",
+   "p": 36,
+   "exact": true
+  },
+  {
+   "id": "hidrosalpinx",
+   "p": 36,
+   "exact": true
+  },
+  {
+   "id": "implante",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "retiro-implante",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "diu",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "vaginosis",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "celulas-clave",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "candidiasis",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "quiste-bartolino",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "absceso-bartolino",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "liquen",
+   "p": 53,
+   "exact": true
+  },
+  {
+   "id": "absceso-tubo",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "absceso-tubo-cirugia",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "absceso-tubo-eco-2",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "fitz-hugh",
+   "p": 57,
+   "exact": true
+  },
+  {
+   "id": "lesion-bajo-grado",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "lesion-alto-grado",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "toma-pap",
+   "p": 72,
+   "exact": true
+  },
+  {
+   "id": "citologia",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "masa-espiculada",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "microcalcificaciones",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "piel-naranja",
+   "p": 76,
+   "exact": true
+  },
+  {
+   "id": "quiste-mama",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "endometrio-engrosado",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "histeroscopia-cancer",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "cancer-ovario",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "ovario-aumentado",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "remolino",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "doppler-torsion",
+   "p": 86,
+   "exact": true
+  },
+  {
+   "id": "quiste-hemorragico",
+   "p": 86,
+   "exact": false
+  },
+  {
+   "id": "quiste-hemorragico-2",
+   "p": 86,
+   "exact": false
+  }
+ ]
+}

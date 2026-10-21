@@ -1,0 +1,1234 @@
+{
+ "libro": "obstetricia",
+ "title": "Obstetricia y Medicina Materno-Fetal",
+ "prefix": "ob",
+ "topics": {
+  "ob-02": "Ecografía Obstétrica",
+  "ob-03": "Evaluación del Bienestar Fetal",
+  "ob-04": "Restricción del Crecimiento Fetal (RCF)",
+  "ob-07": "Diabetes Gestacional y Pregestacional",
+  "ob-21": "Cardiopatía, Embarazo Múltiple e Hiperemesis Gravídica",
+  "ob-10": "Aborto Espontáneo, Formas Clínicas, Aborto Séptico y Ley IVE 21.030",
+  "ob-11": "Embarazo Ectópico",
+  "ob-12": "Enfermedad Trofoblástica Gestacional",
+  "ob-13": "Metrorragias de la Segunda Mitad del Embarazo",
+  "ob-14": "Rotura Prematura de Membranas (RPM), Latencia, Profilaxis Antibiótica y Corioamnionitis",
+  "ob-15": "Síndrome de Parto Prematuro",
+  "ob-16": "Trabajo de Parto Normal, Mecanismos del Parto en Cefálica, Score de Bishop y Manejo Activo del Alumbramiento",
+  "ob-17": "Distocias del Trabajo de Parto, Distocia de Hombros y Monitorización Intraparto (CTG FIGO)",
+  "ob-18": "Hemorragia Postparto Inmediata (HPI), Código Rojo, Regla de las 4T y Algoritmo Terapéutico Escalonado",
+  "ob-19": "Infecciones Puerperales",
+  "ob-20": "Aloinmunización Rh e Incompatibilidad de Grupo Materno-Fetal"
+ },
+ "images": [
+  {
+   "id": "lcn",
+   "n": 1,
+   "src": "biblioteca/14_obstetricia/ob-02/02_longitud-craneocaudal__cto-gyo_p117.jpg",
+   "topic": "ob-02",
+   "type": "eco",
+   "size": "half",
+   "title": "Longitud céfalo-nalgas",
+   "frase": "Medición del embrión en el primer trimestre.",
+   "claves": [
+    {
+     "t": "LCN",
+     "m": [
+      0.6,
+      0.35,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "La ecografía precoz fecha mejor el embarazo.",
+   "codes": [
+    "3.01.3.003",
+    "3.01.4.003"
+   ],
+   "confunde": "Biometría tardía: error mayor.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 90",
+   "auto": false
+  },
+  {
+   "id": "tn-normal",
+   "n": 2,
+   "src": "biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg",
+   "topic": "ob-02",
+   "type": "eco",
+   "size": "half",
+   "title": "Translucencia nucal normal",
+   "frase": "Espacio nucal menor de 3 mm.",
+   "claves": [
+    {
+     "t": "Translucencia nucal",
+     "m": [
+      0.48,
+      0.9,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Ecografía 11–14 semanas.",
+   "codes": [
+    "3.01.4.003"
+   ],
+   "confunde": "Amnios confundido con piel.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "tn-aumentada",
+   "n": 3,
+   "src": "biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica_alt2__cto-gyo_p28.jpg",
+   "topic": "ob-02",
+   "type": "eco",
+   "size": "half",
+   "title": "Translucencia nucal aumentada",
+   "frase": "Medición en corte sagital medio.",
+   "claves": [
+    {
+     "t": "TN",
+     "m": [
+      0.25,
+      0.85,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "TN aumentada: ofrecer estudio genético y ecocardiograma.",
+   "codes": [
+    "3.01.4.004"
+   ],
+   "confunde": "Higroma quístico.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 50",
+   "auto": false
+  },
+  {
+   "id": "rctg",
+   "n": 4,
+   "src": "biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg",
+   "topic": "ob-03",
+   "type": "ecg",
+   "size": "half",
+   "title": "Registro cardiotocográfico reactivo",
+   "frase": "Línea de base normal con aceleraciones.",
+   "claves": [
+    {
+     "t": "Aceleraciones",
+     "m": [
+      0.3,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Reactivo: bienestar fetal.",
+   "codes": [
+    "3.01.5.009"
+   ],
+   "confunde": "No reactivo: perfil biofísico.",
+   "q": "EUNACOM Julio 2013 · Pregunta 25",
+   "auto": false
+  },
+  {
+   "id": "rbne",
+   "n": 5,
+   "src": "ob-03/rbne_reactivo.svg",
+   "topic": "ob-03",
+   "type": "esquema",
+   "size": "half",
+   "title": "Registro basal no estresante",
+   "frase": "FCF con aceleraciones y dinámica uterina.",
+   "claves": [
+    {
+     "t": "Aceleraciones",
+     "m": [
+      0.27,
+      0.35,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Dos aceleraciones en 20 min: reactivo.",
+   "codes": [
+    "3.01.5.009",
+    "3.01.5.005"
+   ],
+   "confunde": "Desaceleraciones: requieren análisis.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 16",
+   "auto": false
+  },
+  {
+   "id": "doppler-umbilical",
+   "n": 6,
+   "src": "biblioteca/14_obstetricia/ob-04/01_doppler-arteria-umbilical_1__cto-gyo_p121.jpg",
+   "topic": "ob-04",
+   "type": "eco",
+   "size": "half",
+   "title": "Doppler de arteria umbilical normal",
+   "frase": "Flujo diastólico conservado.",
+   "claves": [
+    {
+     "t": "Flujo diastólico",
+     "m": [
+      0.5,
+      0.8,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "RCF: seguimiento Doppler.",
+   "codes": [
+    "3.01.5.003"
+   ],
+   "confunde": "Diástole ausente.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "acm-vasodilatada",
+   "n": 7,
+   "src": "biblioteca/14_obstetricia/ob-04/299_ob_Restricción_de_crecimiento__us_obgynpd_p129_1.jpg",
+   "topic": "ob-04",
+   "type": "eco",
+   "size": "half",
+   "title": "Arteria cerebral media vasodilatada",
+   "frase": "Redistribución: el feto protege el cerebro.",
+   "claves": [
+    {
+     "t": "Flujo diastólico aumentado",
+     "m": [
+      0.6,
+      0.85,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "RCF con redistribución: control estrecho.",
+   "codes": [
+    "3.01.1.010",
+    "3.01.5.003"
+   ],
+   "confunde": "ACM normal.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 24",
+   "auto": false
+  },
+  {
+   "id": "diastole-ausente",
+   "n": 8,
+   "src": "biblioteca/14_obstetricia/ob-04/088_ob_Restricción_de_crecimiento__us_obgynpd_p127_1.jpg",
+   "topic": "ob-04",
+   "type": "eco",
+   "size": "half",
+   "title": "Flujo diastólico ausente",
+   "frase": "Sin flujo en diástole en la arteria umbilical (flechas).",
+   "claves": [
+    {
+     "t": "Diástole ausente",
+     "m": [
+      0.5,
+      0.42,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Interrupción según edad gestacional.",
+   "codes": [
+    "3.01.1.010"
+   ],
+   "confunde": "Doppler normal.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "diastole-reversa",
+   "n": 9,
+   "src": "_verificadas/088_ob_Restricción_de_crecimiento__us_obgynpd_p126_1.jpg",
+   "topic": "ob-04",
+   "type": "eco",
+   "size": "half",
+   "title": "Doppler umbilical alterado",
+   "frase": "Sístole (S) y diástole (D) en la umbilical.",
+   "claves": [
+    {
+     "t": "Diástole",
+     "m": [
+      0.27,
+      0.78,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Diástole reversa: interrupción.",
+   "codes": [
+    "3.01.1.010"
+   ],
+   "confunde": "Normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ductus-venoso",
+   "n": 10,
+   "src": "_verificadas/089_ob_Restricción_de_crecimiento__Rumack_p1502.jpg",
+   "topic": "ob-04",
+   "type": "eco",
+   "size": "half",
+   "title": "Ductus venoso con onda a reversa",
+   "frase": "Onda a invertida: descompensación cardíaca fetal.",
+   "claves": [
+    {
+     "t": "Onda a",
+     "m": [
+      0.82,
+      0.85,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Indica interrupción del embarazo.",
+   "codes": [
+    "3.01.1.010",
+    "3.01.5.003"
+   ],
+   "confunde": "Ductus normal: onda a positiva.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "acm-doppler",
+   "n": 11,
+   "src": "_verificadas/299_ob_Restricción_de_crecimiento__nelsontext_p1437_1.jpg",
+   "topic": "ob-04",
+   "type": "eco",
+   "size": "half",
+   "title": "Doppler de arteria cerebral media",
+   "frase": "Velocidad sistólica máxima.",
+   "claves": [
+    {
+     "t": "Onda de la ACM",
+     "m": [
+      0.5,
+      0.8,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "VSM > 1,5 MoM: anemia fetal.",
+   "codes": [
+    "3.01.5.003"
+   ],
+   "confunde": "Normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "macrosomia",
+   "n": 12,
+   "src": "biblioteca/14_obstetricia/ob-07/01_macrosomia-eco-circunferencia-abdominal__obgynus_p131.jpg",
+   "topic": "ob-07",
+   "type": "eco",
+   "size": "half",
+   "title": "Macrosomía: grasa subcutánea aumentada",
+   "frase": "Grasa abdominal gruesa (flechas).",
+   "claves": [
+    {
+     "t": "Grasa subcutánea",
+     "m": [
+      0.15,
+      0.2,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Diabetes: control glicémico; cesárea si > 4.500 g.",
+   "codes": [
+    "3.01.1.009",
+    "3.01.1.004"
+   ],
+   "confunde": "Error de medición.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 97",
+   "auto": false
+  },
+  {
+   "id": "corionicidad",
+   "n": 13,
+   "src": "biblioteca/14_obstetricia/ob-21/01_corionicidad-amnionicidad-esquema__nelson_p1320.jpg",
+   "topic": "ob-21",
+   "type": "esquema",
+   "size": "half",
+   "title": "Corionicidad y amnionicidad",
+   "frase": "Según el momento de división del cigoto.",
+   "claves": [
+    {
+     "t": "Monocorial monoamniótico",
+     "m": [
+      0.9,
+      0.85,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Determinar corionicidad en el primer trimestre.",
+   "codes": [
+    "3.01.1.007"
+   ],
+   "confunde": "Dicigóticos: siempre bicoriales.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "signo-lambda",
+   "n": 14,
+   "src": "biblioteca/14_obstetricia/ob-21/03_signo-lambda-eco__obgynus_p137.jpg",
+   "topic": "ob-21",
+   "type": "eco",
+   "size": "half",
+   "title": "Signo lambda: bicorial",
+   "frase": "Placenta que entra entre las membranas (*).",
+   "claves": [
+    {
+     "t": "Signo lambda",
+     "m": [
+      0.66,
+      0.32,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Bicorial: menor riesgo.",
+   "codes": [
+    "3.01.1.007"
+   ],
+   "confunde": "Signo T: monocorial.",
+   "q": "EUNACOM Julio 2024 · Pregunta 59",
+   "auto": true
+  },
+  {
+   "id": "signo-t",
+   "n": 15,
+   "src": "biblioteca/14_obstetricia/ob-21/04_signo-T-monocorial__obgynus_p81.jpg",
+   "topic": "ob-21",
+   "type": "eco",
+   "size": "half",
+   "title": "Monocorial: membrana fina",
+   "frase": "Membrana delgada en T (*).",
+   "claves": [
+    {
+     "t": "Membrana fina",
+     "m": [
+      0.25,
+      0.53,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Monocorial: control cada 2 semanas por transfusión feto-fetal.",
+   "codes": [
+    "3.01.1.007"
+   ],
+   "confunde": "Bicorial.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "transfusion-feto-fetal",
+   "n": 16,
+   "src": "biblioteca/14_obstetricia/ob-21/05_tttf-donante-receptor-eco__obgynus_p143.jpg",
+   "topic": "ob-21",
+   "type": "eco",
+   "size": "half",
+   "title": "Transfusión feto-fetal",
+   "frase": "Receptor con polihidramnios; donante con oligohidramnios.",
+   "claves": [
+    {
+     "t": "Receptor",
+     "m": [
+      0.2,
+      0.4,
+      0.1
+     ]
+    },
+    {
+     "t": "Donante",
+     "m": [
+      0.75,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Láser fetoscópico.",
+   "codes": [
+    "3.01.1.007"
+   ],
+   "confunde": "RCF selectivo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "saco-sin-embrion",
+   "n": 17,
+   "src": "biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump_alt2__cto-gyo_p124.jpg",
+   "topic": "ob-10",
+   "type": "eco",
+   "size": "half",
+   "title": "Gestación interrumpida",
+   "frase": "Saco sin embrión o embrión sin latido.",
+   "claves": [
+    {
+     "t": "Saco",
+     "m": [
+      0.45,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Aborto retenido: misoprostol o aspiración.",
+   "codes": [
+    "3.01.1.001"
+   ],
+   "confunde": "Embarazo muy precoz: repetir.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 97",
+   "auto": false
+  },
+  {
+   "id": "restos-doppler",
+   "n": 18,
+   "src": "biblioteca/14_obstetricia/ob-10/092_ob_Aborto__Rumack_p1116.jpg",
+   "topic": "ob-10",
+   "type": "eco",
+   "size": "half",
+   "title": "Restos ovulares con Doppler",
+   "frase": "Material vascularizado en la cavidad.",
+   "claves": [
+    {
+     "t": "Restos",
+     "m": [
+      0.4,
+      0.3,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aborto incompleto: evacuación.",
+   "codes": [
+    "3.01.1.001"
+   ],
+   "confunde": "Coágulos: sin flujo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "aborto-expulsado",
+   "n": 19,
+   "src": "biblioteca/14_obstetricia/ob-10/01_aborto-precoz-tardio-gestacion-interrump__cto-gyo_p123.jpg",
+   "topic": "ob-10",
+   "type": "pieza",
+   "size": "half",
+   "title": "Embrión y restos expulsados",
+   "frase": "Aborto precoz.",
+   "claves": [
+    {
+     "t": "Embrión",
+     "m": [
+      0.75,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Completo: control; Rh negativo: anti-D.",
+   "codes": [
+    "3.01.1.001"
+   ],
+   "confunde": "Coágulos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "liquido-douglas",
+   "n": 20,
+   "src": "biblioteca/14_obstetricia/ob-11/386_ob_Embarazo_ectópico__Rumack_p1121.jpg",
+   "topic": "ob-11",
+   "type": "eco",
+   "size": "half",
+   "title": "Líquido libre en el Douglas",
+   "frase": "Hemoperitoneo.",
+   "claves": [
+    {
+     "t": "Líquido libre",
+     "m": [
+      0.4,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Ectópico roto con shock: cirugía.",
+   "codes": [
+    "3.01.2.005"
+   ],
+   "confunde": "Líquido fisiológico.",
+   "q": "EUNACOM Enero 2023 · Pregunta 62",
+   "auto": false
+  },
+  {
+   "id": "ectopico",
+   "n": 21,
+   "src": "biblioteca/14_obstetricia/ob-11/01_ectopico-ampular-eco__cto-gyo_p126.jpg",
+   "topic": "ob-11",
+   "type": "eco",
+   "size": "half",
+   "title": "Embarazo ectópico ampular",
+   "frase": "Masa anexial con anillo vascular.",
+   "claves": [
+    {
+     "t": "Masa anexial",
+     "m": [
+      0.55,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Estable, β-hCG < 5.000 y masa < 3,5 cm: metotrexato.",
+   "codes": [
+    "3.01.1.006",
+    "3.01.4.008"
+   ],
+   "confunde": "Cuerpo lúteo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 29",
+   "auto": true
+  },
+  {
+   "id": "utero-vacio",
+   "n": 22,
+   "src": "biblioteca/14_obstetricia/ob-11/02_diagnostico-de-ectopico__cto-gyo_p126.jpg",
+   "topic": "ob-11",
+   "type": "esquema",
+   "size": "half",
+   "title": "Útero vacío y β-hCG",
+   "frase": "Algoritmo según β-hCG y su curva en 48 h.",
+   "claves": [
+    {
+     "t": "β-hCG < 1.800",
+     "m": [
+      0.5,
+      0.35,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Sobre zona de discriminación sin saco: ectópico.",
+   "codes": [
+    "3.01.4.008",
+    "3.01.1.006"
+   ],
+   "confunde": "Aborto completo: β-hCG baja.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "tormenta-nieve",
+   "n": 23,
+   "src": "biblioteca/14_obstetricia/ob-12/01_mola-en-tormenta-de-nieve-eco__cto-gyo_p129.jpg",
+   "topic": "ob-12",
+   "type": "eco",
+   "size": "half",
+   "title": "Mola completa: tormenta de nieve",
+   "frase": "Útero lleno de ecos sin embrión.",
+   "claves": [
+    {
+     "t": "Patrón vesicular",
+     "m": [
+      0.45,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Aspiración y seguimiento con β-hCG.",
+   "codes": [
+    "3.01.1.008"
+   ],
+   "confunde": "Aborto retenido.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 82",
+   "auto": true
+  },
+  {
+   "id": "mola-vesiculas",
+   "n": 24,
+   "src": "biblioteca/14_obstetricia/ob-12/02_mola-vesiculas__amir-gyo_p33.jpg",
+   "topic": "ob-12",
+   "type": "eco",
+   "size": "half",
+   "title": "Mola: vesículas sin embrión",
+   "frase": "Múltiples vesículas pequeñas.",
+   "claves": [
+    {
+     "t": "Vesículas",
+     "m": [
+      0.45,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Anticoncepción durante el seguimiento.",
+   "codes": [
+    "3.01.1.008"
+   ],
+   "confunde": "Degeneración hidrópica.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "eco-tv-placenta",
+   "n": 25,
+   "src": "biblioteca/14_obstetricia/ob-13/03_eco-placenta-previa__obgynus_p157.jpg",
+   "topic": "ob-13",
+   "type": "eco",
+   "size": "half",
+   "title": "Placenta previa en la ecografía transvaginal",
+   "frase": "Placenta que llega al orificio interno.",
+   "claves": [
+    {
+     "t": "Orificio interno",
+     "m": [
+      0.35,
+      0.3,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "No hacer tacto vaginal.",
+   "codes": [
+    "3.01.2.011"
+   ],
+   "confunde": "Placenta baja.",
+   "q": "EUNACOM Julio 2016 · Pregunta 40",
+   "auto": false
+  },
+  {
+   "id": "previa-dppni",
+   "n": 26,
+   "src": "biblioteca/14_obstetricia/ob-13/S1_placenta-previa-dppni__propio.svg",
+   "topic": "ob-13",
+   "type": "esquema",
+   "size": "half",
+   "title": "Placenta previa vs DPPNI",
+   "frase": "Dónde está la placenta.",
+   "claves": [
+    {
+     "t": "DPPNI",
+     "m": [
+      0.92,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "DPPNI: dolor, útero duro, sangre oscura.",
+   "codes": [
+    "3.01.2.010",
+    "3.01.2.011"
+   ],
+   "confunde": "Previa: indolora, sangre roja.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 49",
+   "auto": false
+  },
+  {
+   "id": "tipos-previa",
+   "n": 27,
+   "src": "biblioteca/14_obstetricia/ob-13/01_tipos-de-placenta-previa__cto-gyo_p133.jpg",
+   "topic": "ob-13",
+   "type": "esquema",
+   "size": "half",
+   "title": "Tipos de placenta previa",
+   "frase": "Oclusiva total, parcial y marginal.",
+   "claves": [
+    {
+     "t": "Oclusiva",
+     "m": [
+      0.85,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Oclusiva: cesárea.",
+   "codes": [
+    "3.01.2.011"
+   ],
+   "confunde": "Normoinserta.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "vasa-previa",
+   "n": 28,
+   "src": "_web/300_ob_Metrorragia_de_la_segunda_mi__Open-i_1.jpg",
+   "topic": "ob-13",
+   "type": "eco",
+   "size": "half",
+   "title": "Vasa previa",
+   "frase": "Vasos fetales sobre el orificio cervical (flecha).",
+   "claves": [
+    {
+     "t": "Vasos",
+     "m": [
+      0.88,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Cesárea electiva a las 34–36 semanas.",
+   "codes": [
+    "3.01.2.011"
+   ],
+   "confunde": "Cordón libre.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "helecho",
+   "n": 29,
+   "src": "biblioteca/14_obstetricia/ob-14/01_cristalizacion_helecho__commons.jpg",
+   "topic": "ob-14",
+   "type": "histologia",
+   "size": "half",
+   "title": "Test de helecho",
+   "frase": "Cristalización del líquido amniótico.",
+   "claves": [
+    {
+     "t": "Patrón en helecho",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Confirma la RPM.",
+   "codes": [
+    "3.01.2.014"
+   ],
+   "confunde": "Moco cervical.",
+   "q": "EUNACOM Julio 2025 · Pregunta 85",
+   "auto": true
+  },
+  {
+   "id": "cervicometria",
+   "n": 30,
+   "src": "biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg",
+   "topic": "ob-15",
+   "type": "eco",
+   "size": "half",
+   "title": "Cervicometría",
+   "frase": "Longitud cervical por ecografía transvaginal.",
+   "claves": [
+    {
+     "t": "Cuello",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "< 25 mm: progesterona.",
+   "codes": [
+    "3.01.2.012"
+   ],
+   "confunde": "Cuello normal.",
+   "q": "EUNACOM Julio 2024 · Pregunta 72",
+   "auto": false
+  },
+  {
+   "id": "partograma",
+   "n": 31,
+   "src": "biblioteca/14_obstetricia/ob-16/S2_partograma__propio.svg",
+   "topic": "ob-16",
+   "type": "esquema",
+   "size": "half",
+   "title": "Partograma",
+   "frase": "Líneas de alerta y de acción.",
+   "claves": [
+    {
+     "t": "Línea de alerta",
+     "m": [
+      0.45,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Cruza la línea de acción: evaluar distocia.",
+   "codes": [
+    "3.01.5.010"
+   ],
+   "confunde": "Fase latente.",
+   "q": "EUNACOM Julio 2013 · Pregunta 134",
+   "auto": false
+  },
+  {
+   "id": "variedades",
+   "n": 32,
+   "src": "biblioteca/14_obstetricia/ob-16/S1_variedades-fontanelas__propio.svg",
+   "topic": "ob-16",
+   "type": "esquema",
+   "size": "half",
+   "title": "Variedades de posición",
+   "frase": "OIIA es la más frecuente.",
+   "claves": [
+    {
+     "t": "OIIA",
+     "m": [
+      0.85,
+      0.48,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Posteriores: parto prolongado.",
+   "codes": [
+    "3.01.5.010"
+   ],
+   "confunde": "Presentación podálica.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "tortuga",
+   "n": 33,
+   "src": "biblioteca/14_obstetricia/ob-17/385_signo_tortuga__knoop_p292.jpg",
+   "topic": "ob-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de la tortuga",
+   "frase": "La cabeza se retrae contra el periné.",
+   "claves": [
+    {
+     "t": "Cabeza retraída",
+     "m": [
+      0.6,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Distocia de hombros: McRoberts y presión suprapúbica.",
+   "codes": [
+    "3.01.2.021"
+   ],
+   "confunde": "Expulsivo prolongado.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 105",
+   "auto": true
+  },
+  {
+   "id": "mcroberts",
+   "n": 34,
+   "src": "biblioteca/14_obstetricia/ob-17/01_maniobra_mcroberts__williams_p515.jpg",
+   "topic": "ob-17",
+   "type": "esquema",
+   "size": "half",
+   "title": "McRoberts y presión suprapúbica",
+   "frase": "Flexión de muslos y presión sobre el hombro.",
+   "claves": [
+    {
+     "t": "Presión suprapúbica",
+     "m": [
+      0.5,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "No traccionar la cabeza.",
+   "codes": [
+    "3.01.2.021"
+   ],
+   "confunde": "Fundal: contraindicada.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "desaceleraciones-precoces",
+   "n": 35,
+   "src": "biblioteca/14_obstetricia/ob-17/01_deceleraciones-tardias-variables-precoce_alt2__cto-gyo_p173.jpg",
+   "topic": "ob-17",
+   "type": "ecg",
+   "size": "half",
+   "title": "Desaceleraciones precoces",
+   "frase": "Espejo de la contracción.",
+   "claves": [
+    {
+     "t": "Desaceleración",
+     "m": [
+      0.2,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Benignas: compresión cefálica.",
+   "codes": [
+    "3.01.5.006",
+    "3.01.2.017"
+   ],
+   "confunde": "Tardías: hipoxia.",
+   "q": "EUNACOM Julio 2024 · Pregunta 22",
+   "auto": false
+  },
+  {
+   "id": "bakri",
+   "n": 36,
+   "src": "biblioteca/14_obstetricia/ob-18/01_balon_bakri__commons.jpg",
+   "topic": "ob-18",
+   "type": "esquema",
+   "size": "half",
+   "title": "Balón de Bakri",
+   "frase": "Taponamiento intrauterino.",
+   "claves": [
+    {
+     "t": "Balón",
+     "m": [
+      0.5,
+      0.2,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "HPP que no cede con uterotónicos.",
+   "codes": [
+    "3.01.2.008"
+   ],
+   "confunde": "Histerectomía: último recurso.",
+   "q": "EUNACOM Julio 2025 · Pregunta 122",
+   "auto": false
+  },
+  {
+   "id": "b-lynch",
+   "n": 37,
+   "src": "biblioteca/14_obstetricia/ob-18/S1_balon-b-lynch__propio.svg",
+   "topic": "ob-18",
+   "type": "esquema",
+   "size": "half",
+   "title": "Balón de Bakri y sutura de B-Lynch",
+   "frase": "Tratamientos conservadores del útero.",
+   "claves": [
+    {
+     "t": "B-Lynch",
+     "m": [
+      0.75,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Masaje → uterotónicos → balón → suturas → ligaduras → histerectomía.",
+   "codes": [
+    "3.01.2.008"
+   ],
+   "confunde": "Atonía vs retención.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "inversion-uterina",
+   "n": 38,
+   "src": "biblioteca/14_obstetricia/ob-18/302_inversion_uterina__openi.jpg",
+   "topic": "ob-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Inversión uterina",
+   "frase": "Fondo uterino que sale por la vagina.",
+   "claves": [
+    {
+     "t": "Útero invertido",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Reponer de inmediato sin retirar la placenta.",
+   "codes": [
+    "3.01.2.008"
+   ],
+   "confunde": "Mioma prolapsado.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "absceso-mamario",
+   "n": 39,
+   "src": "biblioteca/14_obstetricia/ob-19/01_absceso_mamario__bailey_p887.jpg",
+   "topic": "ob-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso mamario",
+   "frase": "Zona fluctuante roja.",
+   "claves": [
+    {
+     "t": "Absceso",
+     "m": [
+      0.45,
+      0.7,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Drenaje; mantener la lactancia del otro lado.",
+   "codes": [
+    "3.01.2.020"
+   ],
+   "confunde": "Mastitis: sin colección.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 64",
+   "auto": false
+  },
+  {
+   "id": "mastitis-eco",
+   "n": 40,
+   "src": "biblioteca/14_obstetricia/ob-19/02_absceso_mamario_puerperal_eco__williams-gyn_p314.jpg",
+   "topic": "ob-19",
+   "type": "eco",
+   "size": "half",
+   "title": "Mastitis abscedada: clínica y ecografía",
+   "frase": "Colección en la ecografía.",
+   "claves": [
+    {
+     "t": "Colección",
+     "m": [
+      0.75,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Punción o drenaje.",
+   "codes": [
+    "3.01.2.020",
+    "3.01.2.009"
+   ],
+   "confunde": "Galactocele.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 176",
+   "auto": false
+  },
+  {
+   "id": "acm-anemia",
+   "n": 41,
+   "src": "biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg",
+   "topic": "ob-20",
+   "type": "esquema",
+   "size": "half",
+   "title": "Doppler de ACM en aloinmunización",
+   "frase": "VSM > 1,5 MoM sugiere anemia moderada o grave.",
+   "claves": [
+    {
+     "t": "Feto con anemia",
+     "m": [
+      0.5,
+      0.8,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Cordocentesis y transfusión.",
+   "codes": [
+    "3.01.3.009"
+   ],
+   "confunde": "Feto sin anemia.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 74",
+   "auto": false
+  },
+  {
+   "id": "hidrops",
+   "n": 42,
+   "src": "_verificadas/303_ob_Aloinmunización_Rh__nelsontext_p1437_1.jpg",
+   "topic": "ob-20",
+   "type": "eco",
+   "size": "half",
+   "title": "Hidrops fetal",
+   "frase": "Ascitis, derrame pleural y edema subcutáneo.",
+   "claves": [
+    {
+     "t": "Ascitis",
+     "m": [
+      0.45,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aloinmunización grave: transfusión intrauterina.",
+   "codes": [
+    "3.01.3.009"
+   ],
+   "confunde": "Ascitis aislada.",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "signo-lambda",
+   "b": "signo-t",
+   "title": "Bicorial vs monocorial",
+   "la": [
+    "Signo lambda"
+   ],
+   "lb": [
+    "Signo T"
+   ],
+   "diff": "La monocorial se controla cada 2 semanas."
+  },
+  {
+   "a": "doppler-umbilical",
+   "b": "diastole-ausente",
+   "title": "Doppler umbilical normal vs alterado",
+   "la": [
+    "Diástole presente"
+   ],
+   "lb": [
+    "Diástole ausente"
+   ],
+   "diff": "Define el momento de interrumpir."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Signo lambda",
+   "dx": "Gemelar bicorial.",
+   "find": "lambda",
+   "topic": "ob-21",
+   "img": "signo-lambda",
+   "def": "Placenta entre las membranas."
+  },
+  {
+   "name": "Signo de la tortuga",
+   "dx": "Distocia de hombros.",
+   "find": "tortuga",
+   "topic": "ob-17",
+   "img": "tortuga",
+   "def": "Cabeza que se retrae contra el periné."
+  },
+  {
+   "name": "Tormenta de nieve",
+   "dx": "Mola completa.",
+   "find": "tormenta",
+   "topic": "ob-12",
+   "img": "tormenta-nieve",
+   "def": "Útero con ecos vesiculares sin embrión."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 42
+ }
+}

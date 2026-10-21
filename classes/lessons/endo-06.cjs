@@ -114,7 +114,7 @@ module.exports = {
           { t: 'Proptosis y retracción palpebral', d: 'Quemosis, diplopía',
             say: 'Ahora, los signos patognomónicos de Graves. El primero es la orbitopatía, presente en cerca de la mitad de los casos. Mira estos ojos saltones, con retracción del párpado, y este exoftalmos bilateral: proptosis, retracción palpebral, quemosis y diplopía por fibrosis de los músculos rectos.',
             photos: [
-              { src: 'biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg', label: 'Oftalmopatía', at: 'Mira estos ojos saltones', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
+              { src: 'biblioteca/05_endocrinologia/endo-06/02_oftalmopatia-exoftalmos__cto-endocrino_p57.jpg', label: 'Oftalmopatía tiroidea: retracción del párpado superior izquierdo', at: 'Mira estos ojos saltones', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 67' },
               { src: 'biblioteca/05_endocrinologia/endo-06/01_graves-bocio-difuso_3__cto-endocrino_p57.jpg', label: 'Exoftalmos bilateral', at: 'y este exoftalmos bilateral', credit: 'Manual CTO Endocrinología 14.ª ed., p. 57' },
             ] },
           { t: 'El tabaco la empeora', d: 'Dejar de fumar es parte del tratamiento',

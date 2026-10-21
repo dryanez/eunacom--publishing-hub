@@ -266,7 +266,7 @@ module.exports = {
           say: "Artrosis de columna: adultos mayores con dolor mecánico, osteofitos horizontales y articulaciones sacroilíacas preservadas." },
         { cells: ["Hiperostosis Esquelética Difusa (DISH)", "Varones mayores de 60 años con diabetes", "Calcificación ligamentosa anterior en cera derretida", "Sacroilíacas estrictamente normales sin sacroilitis"],
           say: "Hiperostosis difusa o enfermedad de Forestier: mayores con diabetes, puentes ligamentosos gruesos en cera derretida y sacroilíacas normales sin inflamación. En esta imagen comparas: a la izquierda los sindesmofitos finos de la espondilitis, a la derecha la osificación gruesa del Forestier.",
-          photo: { src: '_verificadas/050_reuma_Espondilitis_anquilosante__BrantHelms_p1190.jpg', label: 'Espondilitis frente a DISH', at: 'En esta imagen comparas', credit: 'Brant and Helms, Fundamentals of Diagnostic Radiology, p. 1190' } },
+          photo: { src: '_verificadas/050_reuma_Espondilitis_anquilosante__BrantHelms_p1190.jpg', label: 'Columna en caña de bambú (espondilitis anquilosante)', at: 'En esta imagen comparas', credit: 'Herring, Learning Radiology, 4.ª ed., p. 326' } },
         { cells: ["Artritis Reumatoide", "Mujeres de 30 a 50 años", "Compromiso exclusivo de columna cervical C1-C2", "Sacroilíacas y columna lumbar respetadas"],
           say: "Artritis reumatoide: afecta solo la columna cervical con subluxación atloaxoidea, respetando completamente la columna lumbar y las sacroilíacas." },
       ],

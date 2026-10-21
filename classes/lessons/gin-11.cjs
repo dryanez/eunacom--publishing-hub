@@ -88,7 +88,7 @@ module.exports = {
         { title: 'Estadios III y IV', tag: 'Hospitalización obligatoria', kind: 'alert', items: [
           { t: 'Estadio III: absceso tubo-ovárico', d: 'Palpable o visto en la ecografía',
             say: 'El estadio tres es el absceso tubo-ovárico, íntegro, y aquí la hospitalización ya no se discute. En esta otra ecografía, se ve la colección anexial.',
-            photo: { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_alt1__amir-gyo_p107.jpg', label: 'Absceso en ecografía', at: 'En esta otra ecografía', credit: 'Manual AMIR Ginecología y Obstetricia, p. 107' } },
+            photo: { src: 'biblioteca/13_ginecologia/gin-11/01_absceso-tubarico-eco_alt1__amir-gyo_p107.jpg', label: 'Absceso tubo-ovárico en la ecografía', at: 'En esta otra ecografía', credit: 'Reardon, Pocket Atlas of Emergency Ultrasound, p. 281' } },
           { t: 'Estadio IV: absceso roto', d: 'Peritonitis y shock séptico',
             say: 'Y el estadio cuatro es el absceso roto, con peritonitis generalizada y shock séptico: es una emergencia quirúrgica.' },
         ] },

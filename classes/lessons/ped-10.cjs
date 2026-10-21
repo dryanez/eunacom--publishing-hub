@@ -133,7 +133,7 @@ module.exports = {
         { title: 'Clínica', tag: 'Notificación inmediata', kind: 'criteria', items: [
           { t: 'Tos, coriza y conjuntivitis', d: 'Fiebre alta 3–4 días; Koplik en la mucosa yugal',
             say: 'Ahora el sarampión, que es de notificación inmediata y exige aislamiento aéreo desde cuatro días antes hasta cuatro días después del exantema. Primero viene un pródromo de tres a cuatro días con fiebre alta y las tres C: tos, coriza y conjuntivitis. Y dentro de la boca, las manchas de Koplik: puntos blanco azulados sobre una base roja en la mucosa de la mejilla, que son patognomónicas. Mira esta mucosa.',
-            photo: { src: 'biblioteca/15_pediatria/ped-10/10_manchas-de-koplik__zitelli_p492.jpg', label: 'Manchas de Koplik', at: 'Mira esta mucosa', credit: "Zitelli y Davis, Atlas of Pediatric Physical Diagnosis, Fig. 12-1" } },
+            photo: { src: 'biblioteca/15_pediatria/ped-10/10_manchas-de-koplik__zitelli_p492.jpg', label: 'Manchas de Koplik', at: 'Mira esta mucosa', credit: "Fitzpatrick's Dermatology in General Medicine, p. 1889" } },
           { t: 'Exantema céfalo-caudal', d: 'Confluente; cara y retroauricular primero',
             say: 'Después aparece el exantema, que baja de la cabeza a los pies. Mira este torso: manchas rojas que se juntan unas con otras, es lo que llamamos morbiliforme confluente. Parte por la cara y detrás de las orejas, dura tres a cuatro días y deja una descamación fina.',
             photo: { src: 'biblioteca/15_pediatria/ped-10/01_sarampion__cto-pediatria_p97.jpg', label: 'Exantema morbiliforme', at: 'Mira este torso', credit: 'Manual CTO Pediatría 14.ª ed., p. 97' } },

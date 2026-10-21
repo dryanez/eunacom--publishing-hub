@@ -1,0 +1,400 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 49,
+  "where": {
+   "IMG-rigidez-nuca": 4,
+   "IMG-kernig": 4,
+   "IMG-purpura-meningococica": 5,
+   "IMG-gram-lcr": 5,
+   "IMG-encefalitis-herpetica": 6,
+   "IMG-absceso-cerebral": 6,
+   "IMG-fournier": 7,
+   "IMG-fascitis": 7,
+   "IMG-ludwig": 8,
+   "IMG-risa-sardonica": 8,
+   "IMG-opistotonos": 9,
+   "IMG-colera": 9,
+   "IMG-botulismo": 10,
+   "IMG-pneumocystis": 10,
+   "IMG-kaposi": 11,
+   "IMG-toxoplasmosis-cerebral": 11,
+   "IMG-tbc-miliar": 12,
+   "IMG-derrame-tbc": 12,
+   "IMG-escrofula": 13,
+   "IMG-ziehl-neelsen": 13,
+   "IMG-chancro": 14,
+   "IMG-sifilis-secundaria": 14,
+   "IMG-condilomas-planos": 15,
+   "IMG-hutchinson-dientes": 15,
+   "IMG-uretritis-gonococica": 16,
+   "IMG-herpes-genital": 16,
+   "IMG-hanta-inicial": 17,
+   "IMG-hanta-cardiopulmonar": 17,
+   "IMG-vinchuca": 18,
+   "IMG-romana": 18,
+   "IMG-chagas-ecg": 19,
+   "IMG-dengue": 20,
+   "IMG-malaria-anillos": 20,
+   "IMG-gametocitos": 21,
+   "IMG-hidatidico-eco": 21,
+   "IMG-camalote": 22,
+   "IMG-hidatidico-pulmonar": 22,
+   "IMG-leptospirosis": 23,
+   "IMG-roseola-tifica": 23,
+   "IMG-carbunco-cutaneo": 24,
+   "IMG-carbunco-inhalatorio": 24,
+   "IMG-loxoscelismo": 25,
+   "IMG-ectima-gangrenoso": 25,
+   "IMG-erisipela": 26,
+   "IMG-celulitis": 26,
+   "IMG-foliculitis": 27,
+   "IMG-antrax-estafilococico": 27,
+   "IMG-linfocitos-atipicos": 28,
+   "IMG-amigdalitis-mono": 28,
+   "IMG-amigdalitis-estrepto": 29,
+   "IMG-cmv-congenito": 29,
+   "IMG-koplik": 30,
+   "IMG-sarampion": 30,
+   "IMG-rubeola": 31,
+   "IMG-kawasaki-labios": 31,
+   "IMG-kawasaki-conjuntiva": 32,
+   "IMG-kawasaki-manos": 32,
+   "IMG-henoch": 33,
+   "IMG-varicela": 33,
+   "IMG-varicela-espalda": 34,
+   "IMG-neumonitis-varicela": 34,
+   "IMG-signo-halo": 35,
+   "IMG-mucormicosis": 35,
+   "IMG-mis-c": 36,
+   "PAIRS": 37,
+   "SIGNS": 40,
+   "TYPES": 42,
+   "AUTO": 43,
+   "SOL": 49
+  }
+ },
+ "tomo": [
+  {
+   "id": "rigidez-nuca",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "kernig",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "purpura-meningococica",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "gram-lcr",
+   "p": 10,
+   "exact": false
+  },
+  {
+   "id": "encefalitis-herpetica",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "absceso-cerebral",
+   "p": 14,
+   "exact": true
+  },
+  {
+   "id": "fournier",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "fascitis",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "ludwig",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "risa-sardonica",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "opistotonos",
+   "p": 28,
+   "exact": true
+  },
+  {
+   "id": "colera",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "botulismo",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "pneumocystis",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "kaposi",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "toxoplasmosis-cerebral",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "tbc-miliar",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "derrame-tbc",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "escrofula",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "ziehl-neelsen",
+   "p": 47,
+   "exact": false
+  },
+  {
+   "id": "chancro",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "sifilis-secundaria",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "condilomas-planos",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "hutchinson-dientes",
+   "p": 51,
+   "exact": false
+  },
+  {
+   "id": "uretritis-gonococica",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "herpes-genital",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "hanta-inicial",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "hanta-cardiopulmonar",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "vinchuca",
+   "p": 66,
+   "exact": true
+  },
+  {
+   "id": "romana",
+   "p": 66,
+   "exact": true
+  },
+  {
+   "id": "chagas-ecg",
+   "p": 66,
+   "exact": true
+  },
+  {
+   "id": "dengue",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "malaria-anillos",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "gametocitos",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "hidatidico-eco",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "camalote",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "hidatidico-pulmonar",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "leptospirosis",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "roseola-tifica",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "carbunco-cutaneo",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "carbunco-inhalatorio",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "loxoscelismo",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "ectima-gangrenoso",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "erisipela",
+   "p": 89,
+   "exact": true
+  },
+  {
+   "id": "celulitis",
+   "p": 89,
+   "exact": true
+  },
+  {
+   "id": "foliculitis",
+   "p": 89,
+   "exact": true
+  },
+  {
+   "id": "antrax-estafilococico",
+   "p": 89,
+   "exact": false
+  },
+  {
+   "id": "linfocitos-atipicos",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "amigdalitis-mono",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "amigdalitis-estrepto",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "cmv-congenito",
+   "p": 92,
+   "exact": false
+  },
+  {
+   "id": "koplik",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "sarampion",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "rubeola",
+   "p": 97,
+   "exact": true
+  },
+  {
+   "id": "kawasaki-labios",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "kawasaki-conjuntiva",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "kawasaki-manos",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "henoch",
+   "p": 96,
+   "exact": true
+  },
+  {
+   "id": "varicela",
+   "p": 101,
+   "exact": true
+  },
+  {
+   "id": "varicela-espalda",
+   "p": 101,
+   "exact": true
+  },
+  {
+   "id": "neumonitis-varicela",
+   "p": 101,
+   "exact": true
+  },
+  {
+   "id": "signo-halo",
+   "p": 105,
+   "exact": true
+  },
+  {
+   "id": "mucormicosis",
+   "p": 105,
+   "exact": true
+  },
+  {
+   "id": "mis-c",
+   "p": 109,
+   "exact": false
+  }
+ ]
+}

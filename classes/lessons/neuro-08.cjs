@@ -96,7 +96,7 @@ module.exports = {
             say: 'La ausencia típica: una detención súbita, con la mirada fija, de cinco a quince segundos. No se cae, no queda confuso, y retoma lo que hacía de inmediato. Por eso puede pasar como un niño distraído.' },
           { t: 'EEG: punta-onda a 3 Hz', d: 'Patognomónico',
             say: 'Y en el electroencefalograma tiene un hallazgo patognomónico: descargas generalizadas de punta-onda a tres por segundo. Mira este registro: las descargas de punta onda, generalizadas y a tres por segundo. El fármaco es la etosuximida o el valproato.',
-            photo: { src: 'biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg', label: 'Punta onda a tres hertz', at: 'Mira este registro', credit: 'Manual CTO Neurología 14.ª ed., p. 73' } },
+            photo: { src: 'biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg', label: 'Crisis de ausencia: punta-onda generalizada a 3 Hz en el EEG', at: 'Mira este registro', credit: 'Zitelli & Davis, Atlas of Pediatric Physical Diagnosis, p. 637' } },
         ] },
         { title: 'Mioclónicas', tag: 'Epilepsia mioclónica juvenil', kind: 'alert', items: [
           { t: 'Sacudidas bruscas al despertar', d: 'En brazos, bilaterales, breves',

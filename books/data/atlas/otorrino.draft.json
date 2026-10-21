@@ -1,0 +1,1329 @@
+{
+ "libro": "otorrino",
+ "title": "Otorrinolaringología",
+ "prefix": "orl",
+ "topics": {
+  "orl-01": "Otitis Media Aguda (OMA)",
+  "orl-02": "Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+  "orl-03": "Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+  "orl-04": "Complicaciones de Otitis",
+  "orl-05": "Evaluación Auditiva",
+  "orl-06": "Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+  "orl-07": "Síndrome Vertiginoso Periférico",
+  "orl-08": "Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+  "orl-09": "Rinitis Alérgica vs No Alérgica",
+  "orl-10": "Rinosinusitis Aguda Viral vs Bacteriana",
+  "orl-11": "Epistaxis Anterior vs Posterior",
+  "orl-12": "Poliposis Nasal, Desviación Septal y Fractura Nasal",
+  "orl-13": "Faringoamigdalitis Aguda Bacteriana",
+  "orl-14": "Complicaciones Supurativas",
+  "orl-15": "Hipertrofia Adenotonsilar y SAHOS Infantil",
+  "orl-16": "Disfonía Crónica y Patología Benigna de Cuerdas Vocales",
+  "orl-17": "Croup / Laringitis Obstructiva vs Epiglotitis Aguda",
+  "orl-18": "Cuerpos Extraños en ORL",
+  "orl-19": "Patología de Glándulas Salivales",
+  "orl-20": "Cáncer de Cabeza y Cuello"
+ },
+ "refs": 54,
+ "images": [
+  {
+   "id": "01_timpano-normal__bates_p317",
+   "src": "biblioteca/17_otorrino/orl-01/01_timpano-normal__bates_p317.jpg",
+   "topic": "orl-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tímpano normal derecho",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_otitis-media-aguda-timpano-abombado__",
+   "src": "biblioteca/17_otorrino/orl-01/02_otitis-media-aguda-timpano-abombado__bates_p318.jpg",
+   "topic": "orl-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "OMA: tímpano abombado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_otitis-media-con-efusion-nivel-hidroa",
+   "src": "biblioteca/17_otorrino/orl-02/01_otitis-media-con-efusion-nivel-hidroaereo__bates_p318.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Efusión: nivel de líquido",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_tubo-de-ventilacion-timpanica-collera",
+   "src": "biblioteca/17_otorrino/orl-02/03_tubo-de-ventilacion-timpanica-colleras__bailey-love_p731.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Collera en el tímpano",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_perforacion-timpanica-central__bates_",
+   "src": "biblioteca/17_otorrino/orl-02/02_perforacion-timpanica-central__bates_p317.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Perforación central",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_colesteatoma-congenito-tac__nelson_p5",
+   "src": "biblioteca/17_otorrino/orl-02/04_colesteatoma-congenito-tac__nelson_p5104.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colesteatoma: masa blanca nacarada en la membrana timpánica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_otitis-externa-aguda-conducto-edemato",
+   "src": "biblioteca/17_otorrino/orl-03/01_otitis-externa-aguda-conducto-edematoso__bates_p276.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Conducto edematoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_otomicosis-otitis-externa-fungica__ba",
+   "src": "biblioteca/17_otorrino/orl-03/02_otomicosis-otitis-externa-fungica__bailey-love_p728.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otomicosis: masa blanquecina",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_otohematoma-pabellon__bailey-love_p72",
+   "src": "biblioteca/17_otorrino/orl-03/03_otohematoma-pabellon__bailey-love_p727.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otohematoma del pabellón",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "264_orl_Otitis_externa_maligna__BullENT_",
+   "src": "_verificadas/264_orl_Otitis_externa_maligna__BullENT_p80.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otitis externa maligna: tejido de granulación en el conducto auditivo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_mucormicosis-rinoorbitaria-diabetica_",
+   "src": "biblioteca/17_otorrino/orl-03/04_mucormicosis-rinoorbitaria-diabetica__fitzpatrick_p1882.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mucormicosis en una mujer con diabetes: proptosis, edema facial unilateral y parálisis facial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mastoiditis-pabellon-desplazado__sher",
+   "src": "biblioteca/17_otorrino/orl-04/01_mastoiditis-pabellon-desplazado__sherman_p229.jpg",
+   "topic": "orl-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pabellón despegado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_265_tac_de_penasco_con_mastoiditis",
+   "src": "biblioteca/17_otorrino/orl-04/atlas_265_tac_de_penasco_con_mastoiditis.jpg",
+   "topic": "orl-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC: mastoiditis coalescente",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_prueba-de-weber-diapason-en-la-frente",
+   "src": "biblioteca/17_otorrino/orl-05/01_prueba-de-weber-diapason-en-la-frente__bates_p277.jpg",
+   "topic": "orl-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de Weber",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_schwannoma-vestibular-rm-con-contrast",
+   "src": "biblioteca/17_otorrino/orl-06/01_schwannoma-vestibular-rm-con-contraste__bailey-love_p687.jpg",
+   "topic": "orl-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Schwannoma vestibular en RM",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_audifono-retroauricular__bailey-love_",
+   "src": "biblioteca/17_otorrino/orl-06/02_audifono-retroauricular__bailey-love_p734.jpg",
+   "topic": "orl-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Audífono retroauricular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_maniobra-de-epley-modificada__harriso",
+   "src": "biblioteca/17_otorrino/orl-07/01_maniobra-de-epley-modificada__harrison_p202.jpg",
+   "topic": "orl-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Maniobra de Epley",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_paralisis-facial-periferica-bell__ami",
+   "src": "biblioteca/17_otorrino/orl-08/03_paralisis-facial-periferica-bell__amir-orl_p29.jpg",
+   "topic": "orl-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bell derecha: lagoftalmos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_asimetria-facial-al-sonreir__bailey-l",
+   "src": "biblioteca/17_otorrino/orl-08/01_asimetria-facial-al-sonreir__bailey-love_p736.jpg",
+   "topic": "orl-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Comisura que no se eleva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_vesiculas-en-concha-ramsay-hunt__bail",
+   "src": "biblioteca/17_otorrino/orl-08/02_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+   "topic": "orl-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vesículas en la concha",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_facies-rinitis-alergica-perenne__bate",
+   "src": "biblioteca/17_otorrino/orl-09/01_facies-rinitis-alergica-perenne__bates_p945.jpg",
+   "topic": "orl-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies de rinitis alérgica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_celulitis-periorbitaria-etmoiditis__b",
+   "src": "biblioteca/17_otorrino/orl-10/01_celulitis-periorbitaria-etmoiditis__bailey-love_p743.jpg",
+   "topic": "orl-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema palpebral, etmoiditis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_tac-absceso-subperiostico-orbita__bai",
+   "src": "biblioteca/17_otorrino/orl-10/02_tac-absceso-subperiostico-orbita__bailey-love_p743.jpg",
+   "topic": "orl-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC: absceso subperióstico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_irrigacion-tabique-plexo-kiesselbach_",
+   "src": "biblioteca/17_otorrino/orl-11/01_irrigacion-tabique-plexo-kiesselbach__bailey-love_p738.jpg",
+   "topic": "orl-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Irrigación del tabique",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fractura-huesos-nasales-desviacion__b",
+   "src": "biblioteca/17_otorrino/orl-12/01_fractura-huesos-nasales-desviacion__bailey-love_p738.jpg",
+   "topic": "orl-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Laterorrinia tras un golpe",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hematoma-septal-bilateral__commons",
+   "src": "biblioteca/17_otorrino/orl-12/02_hematoma-septal-bilateral__commons.jpg",
+   "topic": "orl-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematoma septal bilateral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_poliposis-nasal-orofaringe__bull_p158",
+   "src": "biblioteca/17_otorrino/orl-12/03_poliposis-nasal-orofaringe__bull_p158.jpg",
+   "topic": "orl-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipo hasta la orofaringe",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_faringitis-sin-exudado__bates_p322",
+   "src": "biblioteca/17_otorrino/orl-13/03_faringitis-sin-exudado__bates_p322.jpg",
+   "topic": "orl-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Faringe roja sin exudado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_amigdalitis-aguda-folicular__bailey-l",
+   "src": "biblioteca/17_otorrino/orl-13/01_amigdalitis-aguda-folicular__bailey-love_p756.jpg",
+   "topic": "orl-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Placas en las criptas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_amigdalitis-exudativa__bates_p322",
+   "src": "biblioteca/17_otorrino/orl-13/02_amigdalitis-exudativa__bates_p322.jpg",
+   "topic": "orl-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Garganta roja con exudado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_absceso-periamigdalino__sherman_p259",
+   "src": "biblioteca/17_otorrino/orl-14/02_absceso-periamigdalino__sherman_p259.jpg",
+   "topic": "orl-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pilar abombado y úvula",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_absceso-retrofaringeo-rx-tc__sherman_",
+   "src": "biblioteca/17_otorrino/orl-14/03_absceso-retrofaringeo-rx-tc__sherman_p261.jpg",
+   "topic": "orl-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso retrofaríngeo: ensanchamiento del espacio prevertebral en la Rx lateral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_absceso-parafaringeo-tc__nelson_p3217",
+   "src": "biblioteca/17_otorrino/orl-14/04_absceso-parafaringeo-tc__nelson_p3217.jpg",
+   "topic": "orl-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso retrofaríngeo en la TAC (sagital y axial)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "073_orl_Absceso_retrofaríngeo__ecmpdf_p2",
+   "src": "_verificadas/073_orl_Absceso_retrofaríngeo__ecmpdf_p261_1.jpg",
+   "topic": "orl-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso retrofaríngeo: espacio prevertebral ensanchado (Rx y TC)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "267_orl_Absceso_parafaríngeo__nelsontext",
+   "src": "_verificadas/267_orl_Absceso_parafaríngeo__nelsontext_p3217_1.jpg",
+   "topic": "orl-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso parafaríngeo en TC con contraste",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_facies-adenoidea__zitelli_p952",
+   "src": "biblioteca/17_otorrino/orl-15/02_facies-adenoidea__zitelli_p952.jpg",
+   "topic": "orl-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies adenoidea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hipertrofia-amigdalina-grado4__bull_p",
+   "src": "biblioteca/17_otorrino/orl-15/01_hipertrofia-amigdalina-grado4__bull_p200.jpg",
+   "topic": "orl-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Amígdalas grado 4",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_carcinoma-cuerda-vocal__kumar-clark_p",
+   "src": "biblioteca/17_otorrino/orl-16/04_carcinoma-cuerda-vocal__kumar-clark_p640.jpg",
+   "topic": "orl-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma de cuerda vocal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_nodulos-vocales__bailey-love_p771",
+   "src": "biblioteca/17_otorrino/orl-16/01_nodulos-vocales__bailey-love_p771.jpg",
+   "topic": "orl-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos vocales",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_polipo-vocal__bailey-love_p771",
+   "src": "biblioteca/17_otorrino/orl-16/02_polipo-vocal__bailey-love_p771.jpg",
+   "topic": "orl-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipo vocal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "270_orl_Disfonía__BullENT_p229",
+   "src": "_verificadas/270_orl_Disfonía__BullENT_p229.jpg",
+   "topic": "orl-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema de Reinke en la laringoscopía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_croup-estrechamiento-subglotico-rx__n",
+   "src": "biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg",
+   "topic": "orl-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Croup: estrechamiento y borramiento subglótico (flechas negras)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_epiglotitis-rojo-cereza__cto-pediatri",
+   "src": "biblioteca/17_otorrino/orl-17/02_epiglotitis-rojo-cereza__cto-pediatria_p50.jpg",
+   "topic": "orl-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Epiglotis rojo cereza",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_epiglotitis-signo-del-pulgar-rx__comm",
+   "src": "biblioteca/17_otorrino/orl-17/04_epiglotitis-signo-del-pulgar-rx__commons.jpg",
+   "topic": "orl-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del pulgar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_laringomalacia-endoscopia__nelson_p32",
+   "src": "biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg",
+   "topic": "orl-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Laringomalacia: en la inspiración los repliegues de la epiglotis colapsan hacia la vía aérea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_pila-de-boton-esofago-rx__knoop_p490",
+   "src": "biblioteca/17_otorrino/orl-18/04_pila-de-boton-esofago-rx__knoop_p490.jpg",
+   "topic": "orl-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pila: doble contorno",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_cuerpo-extrano-conducto-auditivo__bai",
+   "src": "biblioteca/17_otorrino/orl-18/01_cuerpo-extrano-conducto-auditivo__bailey-love_p728.jpg",
+   "topic": "orl-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Objeto en el conducto",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_mani-bronquio-derecho-inspiracion__cx",
+   "src": "biblioteca/17_otorrino/orl-18/02_mani-bronquio-derecho-inspiracion__cxr_p210.jpg",
+   "topic": "orl-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Inspiración",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_calculo-conducto-submandibular__baile",
+   "src": "biblioteca/17_otorrino/orl-19/01_calculo-conducto-submandibular__bailey-love_p802.jpg",
+   "topic": "orl-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cálculo en el Wharton",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_sialadenitis-submandibular-supurada__",
+   "src": "biblioteca/17_otorrino/orl-19/02_sialadenitis-submandibular-supurada__bailey-love_p802.jpg",
+   "topic": "orl-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sialadenitis supurada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_tumor-parotideo-benigno__bailey-love_",
+   "src": "biblioteca/17_otorrino/orl-19/03_tumor-parotideo-benigno__bailey-love_p809.jpg",
+   "topic": "orl-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tumor parotídeo benigno",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_carcinoma-de-lengua__bates_p286",
+   "src": "biblioteca/17_otorrino/orl-20/01_carcinoma-de-lengua__bates_p286.jpg",
+   "topic": "orl-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma de lengua",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_leucoplaquia-displasia-lengua__bailey",
+   "src": "biblioteca/17_otorrino/orl-20/02_leucoplaquia-displasia-lengua__bailey-love_p788.jpg",
+   "topic": "orl-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucoplaquia con displasia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_masa-cervical-metastasica__openi",
+   "src": "biblioteca/17_otorrino/orl-20/03_masa-cervical-metastasica__openi.jpg",
+   "topic": "orl-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masa cervical lateral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

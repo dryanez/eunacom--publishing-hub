@@ -1,0 +1,1827 @@
+{
+ "libro": "cardiologia",
+ "title": "Cardiología",
+ "prefix": "cardio",
+ "topics": {
+  "cardio-01": "Lectura Sistemática del Electrocardiograma",
+  "cardio-02": "Paro Cardiorrespiratorio",
+  "cardio-03": "ACLS",
+  "cardio-04": "Fibrilación Auricular y Flutter Auricular",
+  "cardio-05": "Anticoagulación en Fibrilación Auricular",
+  "cardio-06": "Taquicardia Paroxística Supraventricular y Síndrome de Wolff-Parkinson-White",
+  "cardio-07": "Taquicardia de Complejo Ancho, Taquicardia Ventricular, QT Largo y Cardioversión Eléctrica",
+  "cardio-08": "Bradicardias, Bloqueos Aurículo-Ventriculares y Marcapasos",
+  "cardio-09": "Extrasístoles Ventriculares y Holter de Ritmo",
+  "cardio-10": "Dolor Torácico Agudo en Urgencias",
+  "cardio-11": "Angina Crónica Estable",
+  "cardio-12": "Angina Crónica Estable",
+  "cardio-13": "SCA sin Supradesnivel del ST",
+  "cardio-14": "SCA con Supradesnivel del ST",
+  "cardio-15": "Complicaciones del Infarto",
+  "cardio-16": "Insuficiencia Cardíaca Crónica",
+  "cardio-17": "Insuficiencia Cardíaca Crónica",
+  "cardio-18": "Insuficiencia Cardíaca Aguda y Edema Agudo de Pulmón",
+  "cardio-19": "Shock Cardiogénico y Diagnóstico Diferencial de los Cuatro Shocks",
+  "cardio-20": "Miocardiopatía Hipertrófica y Muerte Súbita del Joven",
+  "cardio-21": "Miocardiopatía Dilatada, Miocardiopatía Restrictiva y Miocarditis",
+  "cardio-22": "Paciente con Soplo",
+  "cardio-23": "Estenosis Aórtica",
+  "cardio-24": "Insuficiencia Aórtica",
+  "cardio-25": "Fiebre Reumática, Prevención y Estenosis Mitral Reumática",
+  "cardio-26": "Insuficiencia Mitral y Prolapso de la Válvula Mitral",
+  "cardio-27": "Cardiopatías Congénitas del Adulto",
+  "cardio-28": "Endocarditis Infecciosa",
+  "cardio-29": "Hipertensión Arterial",
+  "cardio-30": "Hipertensión Arterial",
+  "cardio-31": "Hipertensión Arterial Secundaria",
+  "cardio-32": "Crisis Hipertensivas",
+  "cardio-33": "Pericarditis Aguda",
+  "cardio-34": "Taponamiento Cardíaco y Pericardiocentesis",
+  "cardio-35": "Disección Aórtica Aguda",
+  "cardio-36": "Aneurisma de Aorta Abdominal",
+  "cardio-37": "Tromboembolismo Pulmonar",
+  "cardio-38": "Trombosis Venosa Profunda"
+ },
+ "refs": 74,
+ "images": [
+  {
+   "id": "figura_1_1_ecg_intervalos",
+   "src": "../../books/figuras/figura_1_1_ecg_intervalos.png",
+   "topic": "cardio-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Medición sistemática de intervalos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_conduccion-normal-p-qrs-t-pr-160ms__s",
+   "src": "biblioteca/20_cardiologia/cardio-01/01_conduccion-normal-p-qrs-t-pr-160ms__stroobandt-ecg_p228.jpg",
+   "topic": "cardio-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Conducción normal: onda P, complejo QRS y onda T con un intervalo PR de 160 ms",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rcp-compresiones-manos-sobre-esternon",
+   "src": "biblioteca/20_cardiologia/cardio-02/01_rcp-compresiones-manos-sobre-esternon__blausen.jpg",
+   "topic": "cardio-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manos sobre el esternón",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fibrilacion-ventricular-ecg__strooban",
+   "src": "biblioteca/20_cardiologia/cardio-03/01_fibrilacion-ventricular-ecg__stroobandt-ecg_p307.jpg",
+   "topic": "cardio-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fibrilación ventricular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_fv-terminada-por-descarga-dai__stroob",
+   "src": "biblioteca/20_cardiologia/cardio-03/02_fv-terminada-por-descarga-dai__stroobandt-ecg_p309.jpg",
+   "topic": "cardio-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "TV que degenera en FV (registro de un DAI)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fibrilacion-auricular-ecg-12-derivaci",
+   "src": "biblioteca/20_cardiologia/cardio-04/01_fibrilacion-auricular-ecg-12-derivaciones__stroobandt-ecg_p253.jpg",
+   "topic": "cardio-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fibrilación auricular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_flutter-auricular-2a1-150-lpm__stroob",
+   "src": "biblioteca/20_cardiologia/cardio-04/02_flutter-auricular-2a1-150-lpm__stroobandt-ecg_p247.jpg",
+   "topic": "cardio-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Flutter con conducción 2:1",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_flutter-masaje-seno-carotideo__stroob",
+   "src": "biblioteca/20_cardiologia/cardio-04/03_flutter-masaje-seno-carotideo__stroobandt-ecg_p247.jpg",
+   "topic": "cardio-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masaje carotídeo en flutter",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tpsv-reentrada-nodal-qrs-estrecho__st",
+   "src": "biblioteca/20_cardiologia/cardio-06/01_tpsv-reentrada-nodal-qrs-estrecho__stroobandt-ecg_p270.jpg",
+   "topic": "cardio-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "TPSV por reentrada nodal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_wpw-pr-corto-onda-delta__stroobandt-e",
+   "src": "biblioteca/20_cardiologia/cardio-06/03_wpw-pr-corto-onda-delta__stroobandt-ecg_p313.jpg",
+   "topic": "cardio-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "WPW: PR corto y onda delta",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_wpw-sinusal-ortodromica-antidromica__",
+   "src": "biblioteca/20_cardiologia/cardio-06/02_wpw-sinusal-ortodromica-antidromica__stroobandt-ecg_p275.jpg",
+   "topic": "cardio-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sinusal, orto y antidrómica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_fa-preexcitada-wpw-rapida-irregular__",
+   "src": "biblioteca/20_cardiologia/cardio-06/04_fa-preexcitada-wpw-rapida-irregular__stroobandt-ecg_p320.jpg",
+   "topic": "cardio-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fibrilación auricular preexcitada: taquicardia de QRS ancho, irregular y a más de 200 lpm",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_taquicardia-ventricular-tipo-bcrd__st",
+   "src": "biblioteca/20_cardiologia/cardio-07/01_taquicardia-ventricular-tipo-bcrd__stroobandt-ecg_p283.jpg",
+   "topic": "cardio-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "TV con patrón de BCRD",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_taquicardia-ventricular-tipo-bcri__st",
+   "src": "biblioteca/20_cardiologia/cardio-07/02_taquicardia-ventricular-tipo-bcri__stroobandt-ecg_p283.jpg",
+   "topic": "cardio-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "TV con patrón de BCRI",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_torsada-de-puntas-qt-largo-adquirido_",
+   "src": "biblioteca/20_cardiologia/cardio-07/03_torsada-de-puntas-qt-largo-adquirido__stroobandt-ecg_p301.jpg",
+   "topic": "cardio-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Torsión de puntas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_bav-primer-grado-pr-280ms__stroobandt",
+   "src": "biblioteca/20_cardiologia/cardio-08/01_bav-primer-grado-pr-280ms__stroobandt-ecg_p228.jpg",
+   "topic": "cardio-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "BAV de 1.er grado: PR 280 ms",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_bav-mobitz-i-wenckebach__stroobandt-e",
+   "src": "biblioteca/20_cardiologia/cardio-08/02_bav-mobitz-i-wenckebach__stroobandt-ecg_p228.jpg",
+   "topic": "cardio-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mobitz I (Wenckebach)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_bav-mobitz-ii-qrs-estrecho__strooband",
+   "src": "biblioteca/20_cardiologia/cardio-08/03_bav-mobitz-ii-qrs-estrecho__stroobandt-ecg_p230.jpg",
+   "topic": "cardio-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mobitz II",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_bav-completo-disociacion-av__strooban",
+   "src": "biblioteca/20_cardiologia/cardio-08/04_bav-completo-disociacion-av__stroobandt-ecg_p240.jpg",
+   "topic": "cardio-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bloqueo AV completo: las ondas P y los QRS laten en forma independiente (disociación AV)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_marcapasos-implantado-electrodo-vd__b",
+   "src": "biblioteca/20_cardiologia/cardio-08/05_marcapasos-implantado-electrodo-vd__blausen.jpg",
+   "topic": "cardio-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Marcapasos implantado: generador subcutáneo y electrodos en la aurícula y el ventrículo derechos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_extrasistoles-ventriculares-bigeminis",
+   "src": "biblioteca/20_cardiologia/cardio-09/01_extrasistoles-ventriculares-bigeminismo-trigeminismo-parejas__stroobandt-ecg_p221.jpg",
+   "topic": "cardio-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "EV en bigeminismo y parejas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_holter-electrodos-y-registrador__blau",
+   "src": "biblioteca/20_cardiologia/cardio-09/02_holter-electrodos-y-registrador__blausen.jpg",
+   "topic": "cardio-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Holter y registrador",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-t-hiperagudas-v2-v4__stroobandt-e",
+   "src": "biblioteca/20_cardiologia/cardio-10/01_ecg-t-hiperagudas-v2-v4__stroobandt-ecg_p165.jpg",
+   "topic": "cardio-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "T hiperagudas V2-V4",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rx-neumotorax-izquierdo__cxr-survival",
+   "src": "biblioteca/20_cardiologia/cardio-10/02_rx-neumotorax-izquierdo__cxr-survival-guide_fig28-7.jpg",
+   "topic": "cardio-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumotórax izquierdo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_rx-aire-mediastinal-boerhaave__cxr-su",
+   "src": "biblioteca/20_cardiologia/cardio-10/03_rx-aire-mediastinal-boerhaave__cxr-survival-guide_fig27-4.jpg",
+   "topic": "cardio-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Aire mediastínico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-postejercicio-infradesnivel-st__s",
+   "src": "biblioteca/20_cardiologia/cardio-11/01_ecg-postejercicio-infradesnivel-st__stroobandt-ecg_p166.jpg",
+   "topic": "cardio-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "ECG tras esfuerzo: isquemia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_spect-estres-reposo-defecto-anterior_",
+   "src": "biblioteca/20_cardiologia/cardio-11/02_spect-estres-reposo-defecto-anterior__harrison_p1876.jpg",
+   "topic": "cardio-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cintigrafía SPECT",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_coronariografia-estenosis-tronco-circ",
+   "src": "biblioteca/20_cardiologia/cardio-11/03_coronariografia-estenosis-tronco-circunfleja__harrison_p1883.jpg",
+   "topic": "cardio-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tronco y circunfleja",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_ffr-0-78-estenosis-significativa__har",
+   "src": "biblioteca/20_cardiologia/cardio-11/04_ffr-0-78-estenosis-significativa__harrison_p1907.jpg",
+   "topic": "cardio-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Reserva fraccional de flujo (FFR) de 0,78: estenosis intermedia funcionalmente significativa (≤ 0,80)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_angioplastia-vs-bypass__harrison_p208",
+   "src": "biblioteca/20_cardiologia/cardio-12/01_angioplastia-vs-bypass__harrison_p2086.jpg",
+   "topic": "cardio-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Stent frente a by-pass",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_trombo-coronario-incompleto-vs-comple",
+   "src": "biblioteca/20_cardiologia/cardio-13/02_trombo-coronario-incompleto-vs-completo__pathoma_p75.jpg",
+   "topic": "cardio-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trombo incompleto y completo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-t-negativas-angina-inestable__str",
+   "src": "biblioteca/20_cardiologia/cardio-13/01_ecg-t-negativas-angina-inestable__stroobandt-ecg_p164.jpg",
+   "topic": "cardio-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "T negativas en angina",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_iam-anterior-sdst-v1-v5-especular-inf",
+   "src": "biblioteca/20_cardiologia/cardio-14/01_iam-anterior-sdst-v1-v5-especular-inferior__stroobandt-ecg_p178.jpg",
+   "topic": "cardio-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "IAM anterior: SDST V1-V5",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_iam-inferior-sdst-ii-iii-avf-especula",
+   "src": "biblioteca/20_cardiologia/cardio-14/02_iam-inferior-sdst-ii-iii-avf-especular-i-avl__stroobandt-ecg_p169.jpg",
+   "topic": "cardio-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "IAM inferior: DII-DIII-aVF",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-infarto-ventriculo-derecho-v3r-v4",
+   "src": "biblioteca/20_cardiologia/cardio-15/01_ecg-infarto-ventriculo-derecho-v3r-v4r__stroobandt-ecg_p172.jpg",
+   "topic": "cardio-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "ST elevado en V3R-V4R",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_rotura-musculo-papilar-pieza__pathoma",
+   "src": "biblioteca/20_cardiologia/cardio-15/03_rotura-musculo-papilar-pieza__pathoma_p75.jpg",
+   "topic": "cardio-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rotura del papilar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rotura-pared-libre-pieza__pathoma_p75",
+   "src": "biblioteca/20_cardiologia/cardio-15/02_rotura-pared-libre-pieza__pathoma_p75.jpg",
+   "topic": "cardio-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rotura de pared libre",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_aneurisma-ventricular-pieza__pathoma_",
+   "src": "biblioteca/20_cardiologia/cardio-15/04_aneurisma-ventricular-pieza__pathoma_p75.jpg",
+   "topic": "cardio-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Aneurisma ventricular: abombamiento del borde cardíaco izquierdo (flecha)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_eco-trombo-aneurisma-apical__harrison",
+   "src": "biblioteca/20_cardiologia/cardio-15/05_eco-trombo-aneurisma-apical__harrison_p1897.jpg",
+   "topic": "cardio-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecocardiograma apical: trombo en la zona aneurismática tras un infarto",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_cardiomegalia-derrame-bilateral-ic__c",
+   "src": "biblioteca/20_cardiologia/cardio-16/01_cardiomegalia-derrame-bilateral-ic__chest-xray-survival-guide_p160.jpg",
+   "topic": "cardio-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cardiomegalia y derrame",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_edema-pulmonar-alveolar-florido__ches",
+   "src": "biblioteca/20_cardiologia/cardio-18/01_edema-pulmonar-alveolar-florido__chest-xray-survival-guide_p160.jpg",
+   "topic": "cardio-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema alveolar florido",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_edema-intersticial-florido__chest-xra",
+   "src": "biblioteca/20_cardiologia/cardio-18/02_edema-intersticial-florido__chest-xray-survival-guide_p160.jpg",
+   "topic": "cardio-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema intersticial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mch-pieza-hipertrofia-septal__harriso",
+   "src": "biblioteca/20_cardiologia/cardio-20/01_mch-pieza-hipertrofia-septal__harrison_p2010.jpg",
+   "topic": "cardio-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Septo asimétrico (pieza)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_mch-ecocardiograma-septo__harrison_p2",
+   "src": "biblioteca/20_cardiologia/cardio-20/02_mch-ecocardiograma-septo__harrison_p2011.jpg",
+   "topic": "cardio-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco: septo engrosado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_dilatada-pieza-dilatacion-vi__harriso",
+   "src": "biblioteca/20_cardiologia/cardio-21/01_dilatada-pieza-dilatacion-vi__harrison_p1999.jpg",
+   "topic": "cardio-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dilatada: pieza explantada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_restrictiva-amiloidosis-pieza__harris",
+   "src": "biblioteca/20_cardiologia/cardio-21/02_restrictiva-amiloidosis-pieza__harrison_p2009.jpg",
+   "topic": "cardio-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Amiloidosis: corazón firme",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_restrictiva-amiloidosis-eco__harrison",
+   "src": "biblioteca/20_cardiologia/cardio-21/03_restrictiva-amiloidosis-eco__harrison_p2009.jpg",
+   "topic": "cardio-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco: paredes gruesas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_miocarditis-rm-realce-tardio__harriso",
+   "src": "biblioteca/20_cardiologia/cardio-21/04_miocarditis-rm-realce-tardio__harrison_p2001.jpg",
+   "topic": "cardio-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Miocarditis: resonancia magnética con realce tardío de gadolinio de ubicación mesocárdica (flecha), patrón no isquémico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "figura_4_1_eao_ecocardiograma",
+   "src": "../../books/figuras/figura_4_1_eao_ecocardiograma.png",
+   "topic": "cardio-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Válvula aórtica calcificada (pieza quirúrgica)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_estenosis-aortica-valvar-eco-domo-sis",
+   "src": "biblioteca/20_cardiologia/cardio-23/01_estenosis-aortica-valvar-eco-domo-sistolico-y-regurgitacion__nelson_p2792.jpg",
+   "topic": "cardio-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Estenosis aórtica valvar en eje paraesternal largo: la válvula se abomba (domo) en sístole; abajo, Doppler color con regurgitación aórtica asociada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_insuficiencia-aortica-doppler-color__",
+   "src": "biblioteca/20_cardiologia/cardio-16/01_insuficiencia-aortica-doppler-color__harrison_p1889.jpg",
+   "topic": "cardio-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Doppler color: IAo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_estenosis-mitral-reumatica-eco-y-3d__",
+   "src": "biblioteca/20_cardiologia/cardio-25/01_estenosis-mitral-reumatica-eco-y-3d__harrison_p1890.jpg",
+   "topic": "cardio-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco: estenosis mitral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_cardiopatia-reumatica-valva-mitral-pa",
+   "src": "biblioteca/20_cardiologia/cardio-25/02_cardiopatia-reumatica-valva-mitral-palo-de-hockey__harrison_p2808.jpg",
+   "topic": "cardio-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mitral en palo de hockey",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_prolapso-mitral-barlow-eco-y-doppler-",
+   "src": "biblioteca/20_cardiologia/cardio-26/01_prolapso-mitral-barlow-eco-y-doppler-insuficiencia__harrison_p2042.jpg",
+   "topic": "cardio-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco: prolapso de Barlow",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_prolapso-mitral-doppler-color-chorro-",
+   "src": "biblioteca/20_cardiologia/cardio-26/02_prolapso-mitral-doppler-color-chorro-regurgitante__harrison_p1890.jpg",
+   "topic": "cardio-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Chorro de la IM",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_cia-ostium-secundum-subcostal-doppler",
+   "src": "biblioteca/20_cardiologia/cardio-27/01_cia-ostium-secundum-subcostal-doppler-color__harrison_p1898.jpg",
+   "topic": "cardio-27",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco: CIA ostium secundum",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_coartacion-adulto-rx-torax-muescas-co",
+   "src": "biblioteca/20_cardiologia/cardio-27/02_coartacion-adulto-rx-torax-muescas-costales__cxr_p365.jpg",
+   "topic": "cardio-27",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx: muescas costales",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_coartacion-aortografia-antes-y-despue",
+   "src": "biblioteca/20_cardiologia/cardio-27/03_coartacion-aortografia-antes-y-despues-stent__nelson_p2795.jpg",
+   "topic": "cardio-27",
+   "type": "clinica",
+   "size": "half",
+   "title": "Aortografía antes y después",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_mancha-de-roth__harrison_p262",
+   "src": "biblioteca/20_cardiologia/cardio-24/02_mancha-de-roth__harrison_p262.jpg",
+   "topic": "cardio-28",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mancha de Roth",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_endocarditis-aortica-eco-vegetaciones",
+   "src": "biblioteca/20_cardiologia/cardio-28/03_endocarditis-aortica-eco-vegetaciones-e-insuficiencia__nelson_p2853.jpg",
+   "topic": "cardio-28",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eco: endocarditis aórtica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_vegetaciones-endocarditis-mitral__har",
+   "src": "biblioteca/20_cardiologia/cardio-24/01_vegetaciones-endocarditis-mitral__harrison_p1064.jpg",
+   "topic": "cardio-28",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vegetaciones (flechas) por estreptococos viridans en una endocarditis de la válvula mitral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fig_mapa_hta_p142_img3",
+   "src": "../../books/figuras/fig_mapa_hta_p142_img3.jpeg",
+   "topic": "cardio-29",
+   "type": "clinica",
+   "size": "half",
+   "title": "Registro de 24 horas con promedios por período",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_retinopatia-hipertensiva-estrella-mac",
+   "src": "biblioteca/20_cardiologia/cardio-29/01_retinopatia-hipertensiva-estrella-macular__bates_t7-16.jpg",
+   "topic": "cardio-29",
+   "type": "clinica",
+   "size": "half",
+   "title": "Retinopatía hipertensiva con exudados duros en estrella macular y hemorragias: daño de órgano blanco",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_adenoma-suprarrenal-tc__ctmri-pocket-",
+   "src": "biblioteca/20_cardiologia/cardio-31/01_adenoma-suprarrenal-tc__ctmri-pocket-atlas_p382.jpg",
+   "topic": "cardio-31",
+   "type": "clinica",
+   "size": "half",
+   "title": "Adenoma suprarrenal en TAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_feocromocitoma-gammagrafia-mibg__amir",
+   "src": "biblioteca/20_cardiologia/cardio-31/02_feocromocitoma-gammagrafia-mibg__amir-endocrino_p58.jpg",
+   "topic": "cardio-31",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gammagrafía con MIBG",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_retinopatia-hipertensiva-grave__harri",
+   "src": "biblioteca/20_cardiologia/cardio-32/01_retinopatia-hipertensiva-grave__harrison_p263.jpg",
+   "topic": "cardio-32",
+   "type": "clinica",
+   "size": "half",
+   "title": "Retinopatía hipertensiva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fig_pericarditis_ecg_p67_img1",
+   "src": "../../books/figuras/fig_pericarditis_ecg_p67_img1.jpeg",
+   "topic": "cardio-33",
+   "type": "clinica",
+   "size": "half",
+   "title": "Supradesnivel ST difuso y cóncavo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_repolarizacion-precoz-st-concavo__str",
+   "src": "biblioteca/20_cardiologia/cardio-33/01_repolarizacion-precoz-st-concavo__stroobandt-ecg_p191.jpg",
+   "topic": "cardio-33",
+   "type": "clinica",
+   "size": "half",
+   "title": "Repolarización precoz: ST cóncavo con muesca en J y T grandes, sin descenso del PR (imitador de la pericarditis)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_pulso-paradojal-trazado__bates_p432",
+   "src": "biblioteca/20_cardiologia/cardio-34/02_pulso-paradojal-trazado__bates_p432.jpg",
+   "topic": "cardio-34",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pulso paradojal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_derrame-pericardico-eco__pocket-atlas",
+   "src": "biblioteca/20_cardiologia/cardio-34/01_derrame-pericardico-eco__pocket-atlas-us_p146.jpg",
+   "topic": "cardio-34",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame pericárdico en eco",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "figura_5_4_angiotac_diseccion_stanford_a",
+   "src": "../../books/figuras/figura_5_4_angiotac_diseccion_stanford_a.png",
+   "topic": "cardio-35",
+   "type": "clinica",
+   "size": "half",
+   "title": "Flap intimal y doble luz (cortes axial y sagital)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_diseccion-aortica-stanford-debakey__s",
+   "src": "biblioteca/20_cardiologia/cardio-35/01_diseccion-aortica-stanford-debakey__schwartz-absite_f22-1.jpg",
+   "topic": "cardio-35",
+   "type": "clinica",
+   "size": "half",
+   "title": "Disección aórtica: Stanford A (tipos DeBakey I y II) y Stanford B (DeBakey III)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_angiotac-tep-defectos-de-llenado__med",
+   "src": "biblioteca/20_cardiologia/cardio-37/01_angiotac-tep-defectos-de-llenado__medschoolbro-pulm_p15.jpg",
+   "topic": "cardio-37",
+   "type": "clinica",
+   "size": "half",
+   "title": "AngioTAC: émbolos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tvp-pierna-derecha-edematosa__commons",
+   "src": "biblioteca/20_cardiologia/cardio-38/01_tvp-pierna-derecha-edematosa__commons.jpg",
+   "topic": "cardio-38",
+   "type": "clinica",
+   "size": "half",
+   "title": "TVP de la pierna derecha",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

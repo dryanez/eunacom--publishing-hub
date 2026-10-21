@@ -42,7 +42,7 @@ module.exports = {
           say: 'Con la edad, el epitelio pigmentario retiniano pierde la capacidad de degradar los segmentos externos gastados de los fotorreceptores.' },
         { show: ['dru'], note: 'La lesión elemental de toda la enfermedad',
           say: 'Y ese material de desecho se acumula entre el epitelio pigmentario y la membrana de Bruch, formando las drusas: depósitos amarillentos de lípidos. Son la lesión elemental, la que ves primero en el fondo de ojo. Mira esta mácula: las manchas amarillentas, de bordes difusos, son las drusas.',
-          photo: { src: 'biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg', label: 'Drusas', at: 'Mira esta mácula', credit: 'Manual CTO Oftalmología 14.ª ed., p. 72' } },
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg', label: 'Drusas: depósitos amarillentos en la retina', at: 'Mira esta mácula', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 614' } },
         { show: ['conf'], note: 'El tamaño de la drusa predice el riesgo',
           say: 'Y ojo con este dato, porque se pregunta: no todas las drusas pesan lo mismo. Las drusas blandas, grandes y confluentes, son las que tienen alto riesgo de progresar hacia la ceguera.' },
       ],

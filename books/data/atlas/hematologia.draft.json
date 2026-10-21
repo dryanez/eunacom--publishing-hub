@@ -1,0 +1,1381 @@
+{
+ "libro": "hematologia",
+ "title": "Hematología & Hemostasia",
+ "prefix": "hem",
+ "topics": {
+  "hem-01": "Síndrome Anémico",
+  "hem-02": "Perfil de Cinética de Hierro",
+  "hem-03": "Anemia Ferropénica",
+  "hem-04": "Anemia de la Enfermedad Crónica / Inflamación vs Anemia en la Enfermedad Renal Crónica (EPO y Manejo)",
+  "hem-05": "Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
+  "hem-06": "Anemias Macrocíticas y Megaloblásticas",
+  "hem-07": "Anemia Hemolítica Autoinmune (AHAI",
+  "hem-08": "Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+  "hem-09": "Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+  "hem-10": "Microangiopatías Trombóticas (MAT)",
+  "hem-11": "Fisiología de la Hemostasia y Evaluación de Laboratorio",
+  "hem-12": "Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño",
+  "hem-13": "Coagulopatías Congénitas",
+  "hem-14": "Coagulopatías Adquiridas",
+  "hem-15": "Coagulación Intravascular Diseminada (CID)",
+  "hem-16": "Leucemias Agudas",
+  "hem-17": "Leucemias Crónicas",
+  "hem-18": "Linfomas",
+  "hem-19": "Mieloma Múltiple",
+  "hem-20": "Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+  "hem-21": "Neutropenia Febril en Oncología",
+  "hem-22": "Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+  "hem-23": "Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF",
+  "hem-24": "Medicina Transfusional y Manejo de Hemocomponentes"
+ },
+ "refs": 63,
+ "images": [
+  {
+   "id": "02_reticulocitos_azul_metileno__harrison",
+   "src": "biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg",
+   "topic": "hem-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Frotis de sangre periférica normal (el recuento de reticulocitos requiere tinción supravital)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_frotis-microcitico-hipocromo__amir-he",
+   "src": "biblioteca/06_hematologia/hem-01/01_frotis-microcitico-hipocromo__amir-hemato_p16.jpg",
+   "topic": "hem-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Microcitosis e hipocromía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_frotis-esferocitos__amir-hemato_p34",
+   "src": "biblioteca/06_hematologia/hem-01/01_frotis-esferocitos__amir-hemato_p34.jpg",
+   "topic": "hem-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esferocitos (hemólisis)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_coiloniquia__commons",
+   "src": "biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg",
+   "topic": "hem-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Coiloniquia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_120_queilitis_angular_estomatitis_",
+   "src": "biblioteca/06_hematologia/hem-03/atlas_120_queilitis_angular_estomatitis_.jpg",
+   "topic": "hem-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queilitis angular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_glositis_ferropenia__commons",
+   "src": "biblioteca/06_hematologia/hem-03/01_glositis_ferropenia__commons.jpg",
+   "topic": "hem-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glositis atrófica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "121_media_hem_hem_03_anemia_ferropenica",
+   "src": "../../books/figuras/atlas_eunacom_2026/121_media_hem_hem_03_anemia_ferropenica.jpg",
+   "topic": "hem-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Frotis demostrativo de anemia ferropénica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_medula-normal-vs-aplasia__amir-hemato",
+   "src": "biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia__amir-hemato_p26.jpg",
+   "topic": "hem-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Médula normal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_medula-normal-vs-aplasia_alt1__amir-h",
+   "src": "biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia_alt1__amir-hemato_p26.jpg",
+   "topic": "hem-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Aplasia: médula grasa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_petequias-purpura-en-eeii__amir-hemat",
+   "src": "biblioteca/06_hematologia/hem-05/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+   "topic": "hem-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Petequias y púrpura",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_macroovalocitos-neutrofilo-hipersegme",
+   "src": "biblioteca/06_hematologia/hem-06/01_macroovalocitos-neutrofilo-hipersegmenta__amir-hemato_p29.jpg",
+   "topic": "hem-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Frotis megaloblástico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_rm-degeneracion-combinada-subaguda__n",
+   "src": "biblioteca/06_hematologia/hem-06/03_rm-degeneracion-combinada-subaguda__nelson_p639.jpg",
+   "topic": "hem-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM de la médula cervical",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_glositis_atrofica_b12__commons",
+   "src": "biblioteca/06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg",
+   "topic": "hem-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glositis atrófica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_coombs__propio",
+   "src": "biblioteca/06_hematologia/hem-07/S1_coombs__propio.svg",
+   "topic": "hem-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de Coombs",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_ictericia_escleral__commons",
+   "src": "biblioteca/06_hematologia/hem-07/02_ictericia_escleral__commons.jpg",
+   "topic": "hem-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ictericia escleral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_raynaud-palidez-cianosis__amir-reuma_",
+   "src": "biblioteca/06_hematologia/hem-07/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg",
+   "topic": "hem-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Raynaud: palidez y cianosis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "123_media_hem_hem_07_anemia_hemolitica_a",
+   "src": "../../books/figuras/atlas_eunacom_2026/123_media_hem_hem_07_anemia_hemolitica_autoinmune.jpg",
+   "topic": "hem-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Autoaglutinación por crioaglutininas en frotis o en tubo de sangre",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_patogenia-esferocitosis_1__cto-hemato",
+   "src": "biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_1__cto-hemato_p30.jpg",
+   "topic": "hem-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Patogenia esferocitosis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_colelitiasis-eco__cto-radiologia_p44",
+   "src": "biblioteca/06_hematologia/hem-08/01_colelitiasis-eco__cto-radiologia_p44.jpg",
+   "topic": "hem-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colelitiasis en la ecografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "018_alta_hem_hem_08_esferocitosis_g6pd_h",
+   "src": "../../books/figuras/atlas_eunacom_2026/018_alta_hem_hem_08_esferocitosis_g6pd_hpn.jpg",
+   "topic": "hem-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Déficit de G6PD",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_cuerpos-de-heinz__harrison_p470",
+   "src": "biblioteca/06_hematologia/hem-08/03_cuerpos-de-heinz__harrison_p470.jpg",
+   "topic": "hem-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cuerpos de Heinz: precipitados de hemoglobina desnaturalizada dentro de los eritrocitos (sangre con violeta de genciana en solución hipotónica)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_cuerpos-de-hb-h-alfa-talasemia__amir-",
+   "src": "biblioteca/06_hematologia/hem-09/02_cuerpos-de-hb-h-alfa-talasemia__amir-hemato_p37.jpg",
+   "topic": "hem-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cuerpos de hemoglobina H",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_126_frotis_con_dianocitos_celulas_",
+   "src": "biblioteca/06_hematologia/hem-09/atlas_126_frotis_con_dianocitos_celulas_.jpg",
+   "topic": "hem-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dianocitos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_craneo-en-cepillo-talasemia__cto-hema",
+   "src": "biblioteca/06_hematologia/hem-09/03_craneo-en-cepillo-talasemia__cto-hemato_p32.jpg",
+   "topic": "hem-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cráneo en cepillo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "127_media_hem_hem_09_talasemias_y_drepan",
+   "src": "../../books/figuras/atlas_eunacom_2026/127_media_hem_hem_09_talasemias_y_drepanocitosis.jpg",
+   "topic": "hem-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cuerpos de Howell-Jolly en frotis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_esquistocitos__cto-hemato_p10",
+   "src": "biblioteca/06_hematologia/hem-10/01_esquistocitos__cto-hemato_p10.jpg",
+   "topic": "hem-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esquistocitos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_esquistocitos__harrison_p468",
+   "src": "biblioteca/06_hematologia/hem-10/02_esquistocitos__harrison_p468.jpg",
+   "topic": "hem-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esquistocitos abundantes",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_cascada-coagulacion__propio",
+   "src": "biblioteca/06_hematologia/hem-11/S1_cascada-coagulacion__propio.svg",
+   "topic": "hem-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vías y exámenes",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_328_pseudotrombocitopenia_por_edta",
+   "src": "biblioteca/06_hematologia/hem-12/atlas_328_pseudotrombocitopenia_por_edta.jpg",
+   "topic": "hem-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pseudotrombocitopenia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rodilla_hemofilico__commons-wellcome",
+   "src": "biblioteca/06_hematologia/hem-13/01_rodilla_hemofilico__commons-wellcome.jpg",
+   "topic": "hem-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Artropatía hemofílica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hematoma_psoas_tc__nelson_p3858",
+   "src": "biblioteca/06_hematologia/hem-13/02_hematoma_psoas_tc__nelson_p3858.jpg",
+   "topic": "hem-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematoma del psoas derecho en la TAC (hemofilia B)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_purpura-equimosis-sepsis__cto-infecto",
+   "src": "biblioteca/06_hematologia/hem-15/01_purpura-equimosis-sepsis__cto-infecto_p38.jpg",
+   "topic": "hem-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura en una sepsis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_infiltracion-gingival__cto-hemato_p63",
+   "src": "biblioteca/06_hematologia/hem-16/03_infiltracion-gingival__cto-hemato_p63.jpg",
+   "topic": "hem-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Infiltración gingival",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_lal-frotis-blastos__commons",
+   "src": "biblioteca/06_hematologia/hem-16/04_lal-frotis-blastos__commons.jpg",
+   "topic": "hem-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Blastos linfoides",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_lal-tipo-burkitt__amir-hemato_p44",
+   "src": "biblioteca/06_hematologia/hem-16/02_lal-tipo-burkitt__amir-hemato_p44.jpg",
+   "topic": "hem-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Blastos tipo Burkitt",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_llc_sombras_gumprecht__goljan_p580",
+   "src": "biblioteca/06_hematologia/hem-17/02_llc_sombras_gumprecht__goljan_p580.jpg",
+   "topic": "hem-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sombras de Gümprecht",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_lmc-leucocitosis-con-desviacion-izqui",
+   "src": "biblioteca/06_hematologia/hem-17/01_lmc-leucocitosis-con-desviacion-izquierd__cto-hemato_p53.jpg",
+   "topic": "hem-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "LMC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_frotis_llc__harrison_p875",
+   "src": "biblioteca/06_hematologia/hem-17/01_frotis_llc__harrison_p875.jpg",
+   "topic": "hem-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "LLC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "131_hem_LMC_mielofibrosis__Open-i_1",
+   "src": "_web/131_hem_LMC_mielofibrosis__Open-i_1.jpg",
+   "topic": "hem-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esplenomegalia masiva marcada en el abdomen",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "06_adenopatia_supraclavicular__knoop_p19",
+   "src": "biblioteca/06_hematologia/hem-18/06_adenopatia_supraclavicular__knoop_p193.jpg",
+   "topic": "hem-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Adenopatía supraclavicular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_celula-de-reed-sternberg__cto-hemato_",
+   "src": "biblioteca/06_hematologia/hem-18/01_celula-de-reed-sternberg__cto-hemato_p69.jpg",
+   "topic": "hem-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Reed-Sternberg",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_malt-gastrico-endoscopia__commons",
+   "src": "biblioteca/06_hematologia/hem-18/05_malt-gastrico-endoscopia__commons.jpg",
+   "topic": "hem-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "MALT gástrico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_electroforesis-pico-m__propio",
+   "src": "biblioteca/06_hematologia/hem-19/S1_electroforesis-pico-m__propio.svg",
+   "topic": "hem-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Electroforesis con pico M",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_lesiones-liticas-en-craneo_alt1__amir",
+   "src": "biblioteca/06_hematologia/hem-19/01_lesiones-liticas-en-craneo_alt1__amir-hemato_p73.jpg",
+   "topic": "hem-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lesiones líticas en cráneo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rouleaux__amir-hemato_p74",
+   "src": "biblioteca/06_hematologia/hem-19/02_rouleaux__amir-hemato_p74.jpg",
+   "topic": "hem-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rouleaux",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_facies_pletorica_pv__goljan_p567",
+   "src": "biblioteca/06_hematologia/hem-20/03_facies_pletorica_pv__goljan_p567.jpg",
+   "topic": "hem-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies pletórica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_eritromelalgia__nelson_p2012",
+   "src": "biblioteca/06_hematologia/hem-20/04_eritromelalgia__nelson_p2012.jpg",
+   "topic": "hem-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritromelalgia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_trombocitemia_frotis__goljan_p634",
+   "src": "biblioteca/06_hematologia/hem-20/05_trombocitemia_frotis__goljan_p634.jpg",
+   "topic": "hem-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trombocitemia esencial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "021_hem_Neoplasias_mieloproliferativ__Co",
+   "src": "_web/021_hem_Neoplasias_mieloproliferativ__Commons_1.jpg",
+   "topic": "hem-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Frotis con dacriocitos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "332_baja_hem_hem_20_neoplasias_mieloprol",
+   "src": "../../books/figuras/atlas_eunacom_2026/332_baja_hem_hem_20_neoplasias_mieloproliferativas.jpg",
+   "topic": "hem-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neutrófilo pseudo-Pelger-Huët hipogranular en síndrome mielodisplásico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-hiperpotasemia-t-picudas__cto-nef",
+   "src": "biblioteca/06_hematologia/hem-22/01_ecg-hiperpotasemia-t-picudas__cto-nefro_p23.jpg",
+   "topic": "hem-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "ECG de hiperkalemia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rm_compresion_medular__harrison_p3489",
+   "src": "biblioteca/06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg",
+   "topic": "hem-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Compresión medular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_136_necrosis_cutanea_inducida_por_",
+   "src": "biblioteca/06_hematologia/hem-23/atlas_136_necrosis_cutanea_inducida_por_.jpg",
+   "topic": "hem-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrosis por cumarínicos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_livedo_saf__fitzpatrick_p1652",
+   "src": "biblioteca/06_hematologia/hem-23/02_livedo_saf__fitzpatrick_p1652.jpg",
+   "topic": "hem-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Livedo reticularis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_trali-infiltrado-bilateral__cto-neumo",
+   "src": "biblioteca/06_hematologia/hem-24/01_trali-infiltrado-bilateral__cto-neumo_p35.jpg",
+   "topic": "hem-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema del TRALI",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rx_taco__sherman_p303",
+   "src": "biblioteca/06_hematologia/hem-24/02_rx_taco__sherman_p303.jpg",
+   "topic": "hem-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx de edema por TACO",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

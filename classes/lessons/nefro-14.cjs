@@ -37,7 +37,7 @@ module.exports = {
           say: 'Partamos por la biopsia, porque es donde estas tres enfermedades se separan. Las tres dañan la barrera de filtración y dan un nefrótico, pero al microscopio se ven completamente distintas.' },
         { show: ['mem', 'dmem'], note: 'Espículas con la tinción de plata',
           say: 'En la membranosa, la membrana basal está engrosada de forma difusa, y con la tinción de plata se ven unas proyecciones como púas, las espículas o spikes. En la inmunofluorescencia hay depósitos granulares de inmunoglobulina G y C tres por debajo del podocito. Spikes es igual a membranosa. Mira este glomérulo: los depósitos marcados a lo largo de las asas capilares son el patrón de la membranosa.',
-            photo: { src: 'biblioteca/07_nefrologia/nefro-14/01_biopsia-membranosa__nelson_p4100.jpg', label: 'Glomérulo con depósitos', at: 'Mira este glomérulo', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4100' } },
+            photo: { src: 'biblioteca/07_nefrologia/nefro-14/01_biopsia-membranosa__nelson_p4100.jpg', label: 'Nefropatía membranosa: membrana basal glomerular engrosada (tinción de plata)', at: 'Mira este glomérulo', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4100' } },
         { show: ['mnm', 'dmin'], note: 'Se llama así porque la óptica no ve nada',
           say: 'En cambios mínimos, el nombre lo dice todo: al microscopio de luz la biopsia es normal. Solo la microscopía electrónica muestra el daño, un borramiento difuso de los pedicelos de los podocitos.' },
         { show: ['gef', 'dgef'], note: 'Focal: algunos glomérulos. Segmentaria: una parte de cada uno',

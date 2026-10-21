@@ -136,7 +136,7 @@ module.exports = {
         { title: 'Cómo se reconoce', tag: 'Un dermatoma', kind: 'key', items: [
           { t: 'Vesículas agrupadas en un dermatoma', d: 'Dolor previo; no cruza la línea media',
             say: 'El zóster es la reactivación del virus varicela-zóster, que estaba latente en un ganglio sensitivo. Primero hay dolor o parestesias, y después aparecen vesículas agrupadas sobre una base roja, en un dermatoma de un solo lado que no cruza la línea media. Mira este dermatoma lumbar. El Ramsay Hunt es su forma en el ganglio geniculado.',
-            photo: { src: 'biblioteca/17_otorrino/orl-08/04_herpes-zoster-dermatoma__nelson_p2565.jpg', label: 'Zóster en un dermatoma', at: 'Mira este dermatoma lumbar', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 2565' } },
+            photo: { src: 'biblioteca/17_otorrino/orl-08/04_herpes-zoster-dermatoma__nelson_p2565.jpg', label: 'Síndrome de Ramsay Hunt: vesículas y costras en la concha', at: 'Mira este dermatoma lumbar', credit: 'Bailey & Love\'s Short Practice of Surgery, 27.ª ed., p. 736' } },
         ] },
         { title: 'Tratamiento', tag: 'Antiviral y analgesia', kind: 'pharma', items: [
           { t: 'Aciclovir o valaciclovir por 7 días', d: 'Ojalá en las primeras 72 horas',

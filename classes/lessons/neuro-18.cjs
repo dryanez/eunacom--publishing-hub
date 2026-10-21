@@ -172,7 +172,7 @@ module.exports = {
         { title: 'Neuromielitis óptica', tag: 'Diferencial clave', kind: 'alert', items: [
           { t: 'Neuritis bilateral grave + mielitis extensa', d: '≥3 cuerpos vertebrales; anti-acuaporina 4',
             say: 'El diferencial más importante es el espectro de la neuromielitis óptica: neuritis óptica bilateral y grave, con una mielitis larga, de tres o más cuerpos vertebrales, y anticuerpos anti acuaporina cuatro. Compara con la esclerosis múltiple, cuyas lesiones medulares son cortas. Mira esta resonancia: la médula con una lesión larga y los nervios ópticos comprometidos.',
-            photo: { src: '_verificadas/156_neuro_Esclerosis_múltiple__HarrisonsP_p3519_1.jpg', label: 'Neuromielitis óptica', at: 'Mira esta resonancia', credit: 'Harrison, Principios de Medicina Interna 21.ª ed., p. 3519' } },
+            photo: { src: '_verificadas/156_neuro_Esclerosis_múltiple__HarrisonsP_p3519_1.jpg', label: 'Neuromielitis óptica: mielitis longitudinalmente extensa en la RM', at: 'Mira esta resonancia', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 4747' } },
           { t: 'Interferón, natalizumab y fingolimod la agravan', d: 'Advertencia EUNACOM',
             say: 'Y aquí está la advertencia: el interferón beta, el natalizumab y el fingolimod, que sirven en la esclerosis múltiple, agravan gravemente la neuromielitis. Por eso confundirlas tiene consecuencias.' },
         ] },

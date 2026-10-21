@@ -235,9 +235,9 @@ module.exports = {
               say: 'El aneurisma ventricular verdadero es una complicación tardía: una zona infartada adelgazada, fibrótica, con cuello ancho y bajo riesgo de rotura. Mira esta pieza. Su signo en el electrocardiograma es el supradesnivel del ST persistente más allá de las cuatro a seis semanas, sin síntomas agudos.',
               photo: {
                 src: 'biblioteca/20_cardiologia/cardio-15/04_aneurisma-ventricular-pieza__pathoma_p75.jpg',
-                label: 'Aneurisma ventricular',
+                label: 'Aneurisma ventricular: abombamiento del borde cardíaco izquierdo (flecha)',
                 at: 'Mira esta pieza',
-                credit: 'Pathoma (Sattar), Cardiac Pathology, p. 75, Fig. 8.7'
+                credit: 'Talley & O\'Connor, Clinical Examination, p. 179'
               }
             },
             {

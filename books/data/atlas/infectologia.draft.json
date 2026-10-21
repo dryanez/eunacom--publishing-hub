@@ -1,0 +1,1574 @@
+{
+ "libro": "infectologia",
+ "title": "Infectología",
+ "prefix": "infecto",
+ "topics": {
+  "infecto-01": "Sepsis y Shock Séptico (Consenso Sepsis-3 & Paquete 1ª Hora)",
+  "infecto-02": "Meningitis Aguda Bacteriana y Viral",
+  "infecto-03": "Encefalitis Aguda por VHS y Absceso Cerebral",
+  "infecto-04": "Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+  "infecto-05": "Manejo de Contactos en Enfermedades Transmisibles y Accidentes Cortopunzantes",
+  "infecto-06": "Rabia y Tétanos",
+  "infecto-07": "IAAS, Infecciones de Catéteres Vasculares y Precauciones de Aislamiento",
+  "infecto-08": "Intoxicación Alimentaria, Botulismo y Cólera",
+  "infecto-09": "Infección por VIH",
+  "infecto-10": "Infecciones Oportunistas Mayores en VIH/SIDA",
+  "infecto-11": "Tuberculosis",
+  "infecto-12": "Infecciones de Transmisión Sexual (ITS) I",
+  "infecto-13": "Infecciones de Transmisión Sexual (ITS) II",
+  "infecto-14": "Síndrome Pulmonar por Hantavirus (SCPH)",
+  "infecto-15": "Enfermedad de Chagas",
+  "infecto-16": "Enfermedades Transmitidas por Mosquitos",
+  "infecto-17": "Zoonosis Chilenas Endémicas",
+  "infecto-18": "Bacteriosis Zoonóticas",
+  "infecto-19": "Ántrax (Carbunco Cutáneo y Respiratorio)",
+  "infecto-20": "Infecciones de Piel Comunitarias",
+  "infecto-21": "Síndrome Mononucleósico y Complejo TORCH",
+  "infecto-22": "Exantemas Febriles de la Infancia",
+  "infecto-23": "Varicela No Complicada vs Complicada y Herpes Zóster",
+  "infecto-24": "Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+  "infecto-25": "Virus Respiratorios"
+ },
+ "refs": 66,
+ "images": [
+  {
+   "id": "02_rigidez_nuca__bates_p906",
+   "src": "biblioteca/07_infectologia/infecto-02/02_rigidez_nuca__bates_p906.jpg",
+   "topic": "infecto-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rigidez de nuca",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_signo_kernig__bates_p795",
+   "src": "biblioteca/07_infectologia/infecto-02/01_signo_kernig__bates_p795.jpg",
+   "topic": "infecto-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kernig",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_purpura-meningococica__cto-infecto_p3",
+   "src": "biblioteca/07_infectologia/infecto-02/01_purpura-meningococica__cto-infecto_p38.jpg",
+   "topic": "infecto-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura meningocócica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "198_infecto_Meningitis_bacteriana__Commo",
+   "src": "_web/198_infecto_Meningitis_bacteriana__Commons_1.jpg",
+   "topic": "infecto-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tinción de Gram del LCR con diplococos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rm_encefalitis_herpetica__harrison_p1",
+   "src": "biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg",
+   "topic": "infecto-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Encefalitis herpética",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_abscesos-cerebrales-en-anillo-tc-rm__",
+   "src": "biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg",
+   "topic": "infecto-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso cerebral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_gangrena-fournier__atlas199",
+   "src": "biblioteca/07_infectologia/infecto-04/03_gangrena-fournier__atlas199.jpg",
+   "topic": "infecto-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gangrena de Fournier",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fascitis-necrotizante__cto-infecto_p8",
+   "src": "biblioteca/07_infectologia/infecto-04/01_fascitis-necrotizante__cto-infecto_p84.jpg",
+   "topic": "infecto-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fascitis necrotizante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_angina-de-ludwig__amir-orl_p55",
+   "src": "biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg",
+   "topic": "infecto-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Angina de Ludwig",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_risa_sardonica__cdc-phil-2857",
+   "src": "biblioteca/07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg",
+   "topic": "infecto-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Risa sardónica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_opistotonos__cdc-phil",
+   "src": "biblioteca/07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg",
+   "topic": "infecto-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Opistótonos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_colera-agua-arroz__atlas200",
+   "src": "biblioteca/07_infectologia/infecto-08/01_colera-agua-arroz__atlas200.jpg",
+   "topic": "infecto-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Heces en agua de arroz",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_botulismo-lactante__atlas201",
+   "src": "biblioteca/07_infectologia/infecto-08/02_botulismo-lactante__atlas201.jpg",
+   "topic": "infecto-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Botulismo del lactante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "06_neumonia-por-p-jirovecii-rx__amir-inf",
+   "src": "biblioteca/07_infectologia/infecto-10/06_neumonia-por-p-jirovecii-rx__amir-infecto_p152.jpg",
+   "topic": "infecto-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pneumocystis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sarcoma-de-kaposi__amir-infecto_p157",
+   "src": "biblioteca/07_infectologia/infecto-10/01_sarcoma-de-kaposi__amir-infecto_p157.jpg",
+   "topic": "infecto-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sarcoma de Kaposi",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_toxoplasmosis-cerebral-tc_alt1__amir-",
+   "src": "biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc_alt1__amir-infecto_p154.jpg",
+   "topic": "infecto-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Toxoplasmosis cerebral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_tbc-miliar-rx__cto-infecto_p66",
+   "src": "biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg",
+   "topic": "infecto-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tuberculosis miliar (Rx)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_derrame-pleural__cto-neumo_p111",
+   "src": "biblioteca/07_infectologia/infecto-11/04_derrame-pleural__cto-neumo_p111.jpg",
+   "topic": "infecto-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame pleural unilateral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_escrofula-adenitis-tbc__amir-infecto_",
+   "src": "biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg",
+   "topic": "infecto-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escrófula",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "202_infecto_TBC_extrapulmonar_y_tratamie",
+   "src": "_web/202_infecto_TBC_extrapulmonar_y_tratamie__Commons_3.jpg",
+   "topic": "infecto-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Baciloscopía con tinción de Ziehl-Neelsen",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_chancro_sifilitico__cdc-phil-6803",
+   "src": "biblioteca/07_infectologia/infecto-12/01_chancro_sifilitico__cdc-phil-6803.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Chancro",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sifilis-secundaria-palmoplantar__amir",
+   "src": "biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sífilis secundaria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_condilomas-planos__cto-infecto_p99",
+   "src": "biblioteca/07_infectologia/infecto-12/02_condilomas-planos__cto-infecto_p99.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Condilomas planos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_dientes-hutchinson-sifilis-congenita_",
+   "src": "biblioteca/07_infectologia/infecto-12/10_dientes-hutchinson-sifilis-congenita__kanski_p207.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dientes de Hutchinson en la sífilis congénita tardía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_uretritis-gonococica__nelson_p1602",
+   "src": "biblioteca/07_infectologia/infecto-13/04_uretritis-gonococica__nelson_p1602.jpg",
+   "topic": "infecto-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uretritis gonocócica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_herpes-genital__cto-derma_p15",
+   "src": "biblioteca/07_infectologia/infecto-13/01_herpes-genital__cto-derma_p15.jpg",
+   "topic": "infecto-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Herpes genital",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rx_hanta_edema_intersticial__guia-han",
+   "src": "biblioteca/07_infectologia/infecto-14/02_rx_hanta_edema_intersticial__guia-hanta-2009.jpg",
+   "topic": "infecto-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema intersticial inicial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rx_hanta_cardiopulmonar__guia-hanta-2",
+   "src": "biblioteca/07_infectologia/infecto-14/01_rx_hanta_cardiopulmonar__guia-hanta-2009.jpg",
+   "topic": "infecto-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fase cardiopulmonar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_vinchuca__commons",
+   "src": "biblioteca/07_infectologia/infecto-15/02_vinchuca__commons.jpg",
+   "topic": "infecto-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vinchuca",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_signo_romana__cdc",
+   "src": "biblioteca/07_infectologia/infecto-15/01_signo_romana__cdc.jpg",
+   "topic": "infecto-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Romaña",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_ecg_brd_hbai__ecg-basics_p119",
+   "src": "biblioteca/07_infectologia/infecto-15/03_ecg_brd_hbai__ecg-basics_p119.jpg",
+   "topic": "infecto-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "ECG: BCRD + HBAI",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_exantema-del-dengue__cto-infecto_p134",
+   "src": "biblioteca/07_infectologia/infecto-16/01_exantema-del-dengue__cto-infecto_p134.jpg",
+   "topic": "infecto-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema del dengue",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_anillos_falciparum__cdc",
+   "src": "biblioteca/07_infectologia/infecto-16/01_anillos_falciparum__cdc.jpg",
+   "topic": "infecto-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Anillos de falciparum",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_gametocitos_falciparum__cdc",
+   "src": "biblioteca/07_infectologia/infecto-16/02_gametocitos_falciparum__cdc.jpg",
+   "topic": "infecto-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gametocitos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_quiste-hidatidico-eco-tc__cto-radiolo",
+   "src": "biblioteca/07_infectologia/infecto-17/02_quiste-hidatidico-eco-tc__cto-radiologia_p43.jpg",
+   "topic": "infecto-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste en la ecografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_quiste-hidatidico_1__amir-infecto_p18",
+   "src": "biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg",
+   "topic": "infecto-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste hidatídico (TC)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_quiste-hidatidico_2__amir-infecto_p18",
+   "src": "biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_2__amir-infecto_p189.jpg",
+   "topic": "infecto-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste pulmonar (Rx)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_leptospirosis-sufusion__commons",
+   "src": "biblioteca/07_infectologia/infecto-18/02_leptospirosis-sufusion__commons.jpg",
+   "topic": "infecto-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sufusión conjuntival",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_roseola_tifica__cdc-phil-2215",
+   "src": "biblioteca/07_infectologia/infecto-18/01_roseola_tifica__cdc-phil-2215.jpg",
+   "topic": "infecto-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Roséola tífica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_carbunco-cutaneo__cto-infecto_p105",
+   "src": "biblioteca/07_infectologia/infecto-19/01_carbunco-cutaneo__cto-infecto_p105.jpg",
+   "topic": "infecto-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carbunco cutáneo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_carbunco-inhalatorio-rx__atlas038",
+   "src": "biblioteca/07_infectologia/infecto-19/02_carbunco-inhalatorio-rx__atlas038.jpg",
+   "topic": "infecto-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carbunco inhalatorio",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_loxoscelismo__ecm_p798",
+   "src": "biblioteca/07_infectologia/infecto-19/03_loxoscelismo__ecm_p798.jpg",
+   "topic": "infecto-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Loxoscelismo cutáneo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "040_alta_infecto_infecto_19_carbunco_y_e",
+   "src": "../../books/figuras/atlas_eunacom_2026/040_alta_infecto_infecto_19_carbunco_y_escaras_negras_neut.jpg",
+   "topic": "infecto-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ectima gangrenoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_erisipela__cto-derma_p25",
+   "src": "biblioteca/07_infectologia/infecto-20/01_erisipela__cto-derma_p25.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Erisipela",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_celulitis_1__amir-infecto_p67",
+   "src": "biblioteca/07_infectologia/infecto-20/02_celulitis_1__amir-infecto_p67.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Celulitis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_foliculitis__atlas208",
+   "src": "biblioteca/07_infectologia/infecto-20/03_foliculitis__atlas208.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Foliculitis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "209_infecto_Erisipela_celulitis_folículo",
+   "src": "_verificadas/209_infecto_Erisipela_celulitis_folículo__Fitzpatric_p1739_1.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Forúnculo / ántrax estafilocócico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_linfocitos-atipicos__atlas210",
+   "src": "biblioteca/07_infectologia/infecto-21/04_linfocitos-atipicos__atlas210.jpg",
+   "topic": "infecto-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Linfocitos atípicos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_amigdalitis-mononucleosica__cto-orl_p",
+   "src": "biblioteca/07_infectologia/infecto-21/01_amigdalitis-mononucleosica__cto-orl_p71.jpg",
+   "topic": "infecto-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Amigdalitis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_faringoamigdalitis-estreptococica__ct",
+   "src": "biblioteca/07_infectologia/infecto-21/02_faringoamigdalitis-estreptococica__cto-infecto_p51.jpg",
+   "topic": "infecto-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Faringoamigdalitis estrepto",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "211_media_infecto_infecto_21_mononucleos",
+   "src": "../../books/figuras/atlas_eunacom_2026/211_media_infecto_infecto_21_mononucleosis_y_torch.jpg",
+   "topic": "infecto-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía cerebral neonatal: calcificaciones periventriculares (CMV congénito)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_manchas_koplik__cdc-phil-6111",
+   "src": "biblioteca/07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manchas de Koplik",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sarampion__cto-pediatria_p97",
+   "src": "biblioteca/07_infectologia/infecto-22/01_sarampion__cto-pediatria_p97.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sarampión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rubeola__cto-pediatria_p98",
+   "src": "biblioteca/07_infectologia/infecto-22/02_rubeola__cto-pediatria_p98.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rubéola",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "41_Kawasaki_lengua_en_frambuesa__nelsont",
+   "src": "_verificadas/41_Kawasaki_lengua_en_frambuesa__nelsontextbo_p1967_1.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "042_alta_infecto_infecto_22_exantemas_de",
+   "src": "../../books/figuras/atlas_eunacom_2026/042_alta_infecto_infecto_22_exantemas_de_la_infancia_y_kaw.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "043_alta_infecto_infecto_22_exantemas_de",
+   "src": "../../books/figuras/atlas_eunacom_2026/043_alta_infecto_infecto_22_exantemas_de_la_infancia_y_kaw.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_purpura-palpable-schonlein-henoch__fi",
+   "src": "biblioteca/07_infectologia/infecto-22/10_purpura-palpable-schonlein-henoch__fitzpatrick_p1639.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura palpable de las piernas en la vasculitis por IgA (Schönlein-Henoch)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_varicela__cto-infecto_p127",
+   "src": "biblioteca/07_infectologia/infecto-23/01_varicela__cto-infecto_p127.jpg",
+   "topic": "infecto-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Varicela",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_varicela_alt1_2__amir-infecto_p127",
+   "src": "biblioteca/07_infectologia/infecto-23/01_varicela_alt1_2__amir-infecto_p127.jpg",
+   "topic": "infecto-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Varicela: cielo estrellado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_neumonitis-varicelosa__brant_p491",
+   "src": "biblioteca/07_infectologia/infecto-23/03_neumonitis-varicelosa__brant_p491.jpg",
+   "topic": "infecto-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumonitis varicelosa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_signo-halo-tac__brant_p497",
+   "src": "biblioteca/07_infectologia/infecto-24/01_signo-halo-tac__brant_p497.jpg",
+   "topic": "infecto-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del halo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_mucormicosis__fitzpatrick_p1882",
+   "src": "biblioteca/07_infectologia/infecto-24/02_mucormicosis__fitzpatrick_p1882.jpg",
+   "topic": "infecto-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mucormicosis rinocerebral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mis-c-tac-abdominal__nelson_p2620",
+   "src": "biblioteca/07_infectologia/infecto-25/01_mis-c-tac-abdominal__nelson_p2620.jpg",
+   "topic": "infecto-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "MIS-C: compromiso digestivo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

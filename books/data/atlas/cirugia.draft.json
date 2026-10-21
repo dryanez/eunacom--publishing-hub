@@ -1,0 +1,1690 @@
+{
+ "libro": "cirugia",
+ "title": "Cirugía General y Anestesia",
+ "prefix": "cirugia",
+ "topics": {
+  "cirugia-01": "Apendicitis Aguda",
+  "cirugia-02": "Colecistitis Aguda",
+  "cirugia-03": "Diverticulitis Aguda",
+  "cirugia-04": "Obstrucción Intestinal Mecánica",
+  "cirugia-05": "Peritonitis Generalizada & Abdomen Perforativo (Neumoperitoneo)",
+  "cirugia-06": "Hernias de Pared Abdominal",
+  "cirugia-07": "Patología Orificial Benigna",
+  "cirugia-08": "Patología Pilonidal, Hidrosadenitis & Tumores Benignos de Partes Blandas",
+  "cirugia-19": "Patología Vascular Periférica",
+  "cirugia-20": "Obesidad Mórbida y Cirugía Bariátrica",
+  "cirugia-09": "Evaluación Inicial del Politraumatizado",
+  "cirugia-10": "Trauma Torácico Mayor",
+  "cirugia-11": "Trauma Abdominal",
+  "cirugia-12": "Traumatismo Encéfalo-Craneano (TEC)",
+  "cirugia-13": "Quemaduras Graves",
+  "cirugia-14": "Evaluación Preoperatoria",
+  "cirugia-15": "Anestesiología General vs Neuroaxial & Toxicidad Sistémica por Anestésicos Locales",
+  "cirugia-16": "Fiebre Postoperatoria",
+  "cirugia-17": "Infección de Sitio Quirúrgico (ISQ), Dehiscencia de Herida & Evisceración Aguda",
+  "cirugia-18": "Manejo de Heridas Traumáticas, Mordeduras Animales/Humanas & Profilaxis Antitetánica",
+  "cirugia-21": "Procedimientos de Cirugía Menor"
+ },
+ "refs": 69,
+ "images": [
+  {
+   "id": "01_apendicitis-eco-pieza-rx_alt2__cto-di",
+   "src": "biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx_alt2__cto-digestivo_p158.jpg",
+   "topic": "cirugia-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fecalito en la FID",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_puntos-apendicitis__propio",
+   "src": "biblioteca/10_cirugia/cirugia-01/S1_puntos-apendicitis__propio.svg",
+   "topic": "cirugia-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Puntos del examen",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_apendicitis-eco-pieza-rx__cto-radiolo",
+   "src": "biblioteca/10_cirugia/cirugia-01/01_apendicitis-eco-pieza-rx__cto-radiologia_p41.jpg",
+   "topic": "cirugia-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC: apéndice engrosado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "053_cirugia_Apendicitis__ecmpdf_p357_1",
+   "src": "_verificadas/053_cirugia_Apendicitis__ecmpdf_p357_1.jpg",
+   "topic": "cirugia-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía de apendicitis aguda: apéndice distendido de pared gruesa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "230_media_cirugia_cirugia_01_apendicitis",
+   "src": "../../books/figuras/atlas_eunacom_2026/230_media_cirugia_cirugia_01_apendicitis.jpg",
+   "topic": "cirugia-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC de plastrón o absceso apendicular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_colelitiasis-colecistitis-eco__cto-ra",
+   "src": "biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco__cto-radiologia_p44.jpg",
+   "topic": "cirugia-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cálculos con sombra acústica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_colelitiasis-colecistitis-eco_alt1__c",
+   "src": "biblioteca/10_cirugia/cirugia-02/01_colelitiasis-colecistitis-eco_alt1__cto-radiologia_p44.jpg",
+   "topic": "cirugia-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pared vesicular engrosada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "350_cirugia_Colecistitis__BrantHelms_p14",
+   "src": "_verificadas/350_cirugia_Colecistitis__BrantHelms_p1477.jpg",
+   "topic": "cirugia-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cintigrafía HIDA con vesícula que no se llena",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_diverticulitis-tc__cto-digestivo_p142",
+   "src": "biblioteca/10_cirugia/cirugia-03/01_diverticulitis-tc__cto-digestivo_p142.jpg",
+   "topic": "cirugia-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Diverticulitis en TAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_233_tac_diverticulitis_no_complica",
+   "src": "biblioteca/10_cirugia/cirugia-03/atlas_233_tac_diverticulitis_no_complicada.jpg",
+   "topic": "cirugia-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hinchey leve: sin absceso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_234_tac_absceso_pericolico",
+   "src": "biblioteca/10_cirugia/cirugia-03/atlas_234_tac_absceso_pericolico.jpg",
+   "topic": "cirugia-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso pericólico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "351_cirugia_Diverticulitis__Commons_1",
+   "src": "_web/351_cirugia_Diverticulitis__Commons_1.jpg",
+   "topic": "cirugia-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC de diverticulitis perforada (Hinchey IV): aire libre y líquido",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_niveles-hidroaereos__cto-digestivo_p1",
+   "src": "biblioteca/10_cirugia/cirugia-04/01_niveles-hidroaereos__cto-digestivo_p163.jpg",
+   "topic": "cirugia-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Obstrucción intestinal: asas dilatadas con niveles hidroaéreos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_obstruccion-de-colon__cto-radiologia_",
+   "src": "biblioteca/10_cirugia/cirugia-04/04_obstruccion-de-colon__cto-radiologia_p26.jpg",
+   "topic": "cirugia-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Obstrucción de colon",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_volvulo-de-sigma-grano-de-cafe__cto-r",
+   "src": "biblioteca/10_cirugia/cirugia-04/02_volvulo-de-sigma-grano-de-cafe__cto-radiologia_p26.jpg",
+   "topic": "cirugia-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vólvulo de sigmoides",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "352_baja_cirugia_cirugia_04_obstruccion_",
+   "src": "../../books/figuras/atlas_eunacom_2026/352_baja_cirugia_cirugia_04_obstruccion_intestinal.jpg",
+   "topic": "cirugia-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC con neumatosis intestinal y gas portal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_neumoperitoneo__cto-digestivo_p65",
+   "src": "biblioteca/10_cirugia/cirugia-05/01_neumoperitoneo__cto-digestivo_p65.jpg",
+   "topic": "cirugia-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumoperitoneo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "353_cirugia_Peritonitis__cxrpdf_p335_1",
+   "src": "_verificadas/353_cirugia_Peritonitis__cxrpdf_p335_1.jpg",
+   "topic": "cirugia-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx de tórax de pie con neumoperitoneo evidente",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_hernia-inguinoescrotal-tac__ctmri-pat",
+   "src": "biblioteca/10_cirugia/cirugia-06/03_hernia-inguinoescrotal-tac__ctmri-path_p393.jpg",
+   "topic": "cirugia-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hernia inguinoescrotal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_hesselbach__propio",
+   "src": "biblioteca/10_cirugia/cirugia-06/S1_hesselbach__propio.svg",
+   "topic": "cirugia-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Triángulo de Hesselbach",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hernia-umbilical-incarcerada__cto-cir",
+   "src": "biblioteca/10_cirugia/cirugia-06/02_hernia-umbilical-incarcerada__cto-cirugia_p56.jpg",
+   "topic": "cirugia-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Asa sana y estrangulada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "236_cirugia_Hernias__knoopepub_p201_1",
+   "src": "_verificadas/236_cirugia_Hernias__knoopepub_p201_1.jpg",
+   "topic": "cirugia-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hernia umbilical incarcerada con signos inflamatorios",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_fisura_anal_foto__commons",
+   "src": "biblioteca/10_cirugia/cirugia-07/02_fisura_anal_foto__commons.jpg",
+   "topic": "cirugia-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fisura anal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_prolapso-hemorroidal__cto-digestivo_p",
+   "src": "biblioteca/10_cirugia/cirugia-07/01_prolapso-hemorroidal__cto-digestivo_p149.jpg",
+   "topic": "cirugia-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prolapso grado cuatro",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "56_hemorroide_externa_trombosada__27thBa",
+   "src": "_verificadas/56_hemorroide_externa_trombosada__27thBaileyLo_p1382_1.jpg",
+   "topic": "cirugia-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorroide trombosada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "237_cirugia_Patología_anorrectal__ecmpdf",
+   "src": "_verificadas/237_cirugia_Patología_anorrectal__ecmpdf_p363_1.jpg",
+   "topic": "cirugia-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso perianal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_prolapso-rectal-completo__knoop_p259",
+   "src": "biblioteca/10_cirugia/cirugia-07/02_prolapso-rectal-completo__knoop_p259.jpg",
+   "topic": "cirugia-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prolapso rectal con pliegues concéntricos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_absceso_pilonidal__commons",
+   "src": "biblioteca/10_cirugia/cirugia-08/05_absceso_pilonidal__commons.jpg",
+   "topic": "cirugia-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso pilonidal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_sinus_pilonidal_foto__commons",
+   "src": "biblioteca/10_cirugia/cirugia-08/04_sinus_pilonidal_foto__commons.jpg",
+   "topic": "cirugia-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sinus pilonidal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hidradenitis-supurativa__cto-derma_p6",
+   "src": "biblioteca/10_cirugia/cirugia-08/01_hidradenitis-supurativa__cto-derma_p61.jpg",
+   "topic": "cirugia-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hidradenitis supurativa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "354_cirugia_Partes_blandas__ctmri_path_p",
+   "src": "_verificadas/354_cirugia_Partes_blandas__ctmri_path_p402_1.jpg",
+   "topic": "cirugia-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC de sarcoma de partes blandas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_granuloma-piogenico__nelson_p5179",
+   "src": "biblioteca/10_cirugia/cirugia-08/04_granuloma-piogenico__nelson_p5179.jpg",
+   "topic": "cirugia-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Granuloma piogénico en la mejilla izquierda",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_varices-extensas__fitzpatrick_p1719",
+   "src": "biblioteca/10_cirugia/cirugia-19/03_varices-extensas__fitzpatrick_p1719.jpg",
+   "topic": "cirugia-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Várices extensas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_lipodermatoesclerosis__bailey-love_p9",
+   "src": "biblioteca/10_cirugia/cirugia-19/02_lipodermatoesclerosis__bailey-love_p994.jpg",
+   "topic": "cirugia-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lipodermatoesclerosis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ulcera-venosa__bailey-love_p995",
+   "src": "biblioteca/10_cirugia/cirugia-19/01_ulcera-venosa__bailey-love_p995.jpg",
+   "topic": "cirugia-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera venosa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_manga-gastrica__harrison_p3134",
+   "src": "biblioteca/10_cirugia/cirugia-20/01_manga-gastrica__harrison_p3134.jpg",
+   "topic": "cirugia-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manga gástrica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_bypass-gastrico-en-y-de-roux__harriso",
+   "src": "biblioteca/10_cirugia/cirugia-20/02_bypass-gastrico-en-y-de-roux__harrison_p3134.jpg",
+   "topic": "cirugia-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bypass en Y de Roux",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_abcde__propio",
+   "src": "biblioteca/10_cirugia/cirugia-09/S1_abcde__propio.svg",
+   "topic": "cirugia-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "ABCDE",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_cricotiroidotomia-esquema__sherman_p2",
+   "src": "biblioteca/10_cirugia/cirugia-09/03_cricotiroidotomia-esquema__sherman_p234.jpg",
+   "topic": "cirugia-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dónde se corta",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_uretrografia-lesion-uretral__bailey-l",
+   "src": "biblioteca/10_cirugia/cirugia-09/02_uretrografia-lesion-uretral__bailey-love_p227.jpg",
+   "topic": "cirugia-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uretrografía: fuga (flecha)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_neumotorax-a-tension__cto-cirugia_p71",
+   "src": "biblioteca/10_cirugia/cirugia-10/03_neumotorax-a-tension__cto-cirugia_p71.jpg",
+   "topic": "cirugia-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumotórax a tensión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hemotorax-derrame-rx__cto-neumo_p111",
+   "src": "biblioteca/10_cirugia/cirugia-10/02_hemotorax-derrame-rx__cto-neumo_p111.jpg",
+   "topic": "cirugia-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemotórax",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_torax_volante__atls_p127",
+   "src": "biblioteca/10_cirugia/cirugia-10/01_torax_volante__atls_p127.jpg",
+   "topic": "cirugia-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Movimiento paradójico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "239_cirugia_Trauma_de_tórax__PocketUS_p1",
+   "src": "_verificadas/239_cirugia_Trauma_de_tórax__PocketUS_p146.jpg",
+   "topic": "cirugia-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Taponamiento cardíaco en eco FAST subxifoidea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_signo-cinturon-seguridad__sherman_p12",
+   "src": "biblioteca/10_cirugia/cirugia-11/03_signo-cinturon-seguridad__sherman_p124.jpg",
+   "topic": "cirugia-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del cinturón",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_equimosis-flancos-cullen-grey-turner_",
+   "src": "biblioteca/10_cirugia/cirugia-11/04_equimosis-flancos-cullen-grey-turner__knoop_p188.jpg",
+   "topic": "cirugia-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Equimosis de flancos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_fast_ventanas__atls_p144",
+   "src": "biblioteca/10_cirugia/cirugia-11/02_fast_ventanas__atls_p144.jpg",
+   "topic": "cirugia-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "FAST positiva: líquido libre en el espacio de Morison",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ojos_de_mapache__commons",
+   "src": "biblioteca/10_cirugia/cirugia-12/01_ojos_de_mapache__commons.jpg",
+   "topic": "cirugia-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ojos de mapache",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_signo_de_battle__nelson_p5133",
+   "src": "biblioteca/10_cirugia/cirugia-12/03_signo_de_battle__nelson_p5133.jpg",
+   "topic": "cirugia-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Battle",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hematoma-epidural-vs-subdural-tc__cto",
+   "src": "biblioteca/10_cirugia/cirugia-12/01_hematoma-epidural-vs-subdural-tc__cto-neuro_p142.jpg",
+   "topic": "cirugia-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Epidural vs subdural",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_fractura-deprimida-tac__knoop_p6",
+   "src": "biblioteca/10_cirugia/cirugia-12/05_fractura-deprimida-tac__knoop_p6.jpg",
+   "topic": "cirugia-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura deprimida en TAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_quemadura_ab_superficial__atls_p230",
+   "src": "biblioteca/10_cirugia/cirugia-13/01_quemadura_ab_superficial__atls_p230.jpg",
+   "topic": "cirugia-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Espesor parcial superficial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_quemadura_ab_profunda__atls_p230",
+   "src": "biblioteca/10_cirugia/cirugia-13/02_quemadura_ab_profunda__atls_p230.jpg",
+   "topic": "cirugia-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Espesor parcial profundo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_quemadura_foto__atls_p230",
+   "src": "biblioteca/10_cirugia/cirugia-13/03_quemadura_foto__atls_p230.jpg",
+   "topic": "cirugia-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Profundidad mixta",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "057_cirugia_Quemaduras__ecmpdf_p95_1",
+   "src": "_verificadas/057_cirugia_Quemaduras__ecmpdf_p95_1.jpg",
+   "topic": "cirugia-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escarotomía en quemadura circular de tercer grado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "241_media_cirugia_cirugia_13_quemaduras",
+   "src": "../../books/figuras/atlas_eunacom_2026/241_media_cirugia_cirugia_13_quemaduras.jpg",
+   "topic": "cirugia-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quemadura de vía aérea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "07_cicatriz-hipertrofica-quemadura__bail",
+   "src": "biblioteca/10_cirugia/cirugia-13/07_cicatriz-hipertrofica-quemadura__bailey-love_p644.jpg",
+   "topic": "cirugia-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cicatriz hipertrófica tras una quemadura dérmica profunda",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_242_atelectasia_rx",
+   "src": "biblioteca/10_cirugia/cirugia-16/atlas_242_atelectasia_rx.jpg",
+   "topic": "cirugia-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Atelectasia en Rx de tórax",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_infeccion-herida-operatoria__knoop_p6",
+   "src": "biblioteca/10_cirugia/cirugia-16/03_infeccion-herida-operatoria__knoop_p673.jpg",
+   "topic": "cirugia-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Herida infectada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_244_tvp_pierna",
+   "src": "biblioteca/10_cirugia/cirugia-16/atlas_244_tvp_pierna.jpg",
+   "topic": "cirugia-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pierna asimétrica por TVP",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "09_herida-infectada-abierta__knoop_p674",
+   "src": "biblioteca/10_cirugia/cirugia-17/09_herida-infectada-abierta__knoop_p674.jpg",
+   "topic": "cirugia-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Herida abierta, bordes rojos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hematoma-de-herida_1__cto-cirugia_p25",
+   "src": "biblioteca/10_cirugia/cirugia-17/02_hematoma-de-herida_1__cto-cirugia_p25.jpg",
+   "topic": "cirugia-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematoma de herida",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fascitis-necrotizante-postoperatoria_",
+   "src": "biblioteca/10_cirugia/cirugia-17/01_fascitis-necrotizante-postoperatoria__cto-cirugia_p26.jpg",
+   "topic": "cirugia-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fascitis postoperatoria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "08_fistula-fecal-herida__bailey-love_p06",
+   "src": "biblioteca/10_cirugia/cirugia-17/08_fistula-fecal-herida__bailey-love_p067.jpg",
+   "topic": "cirugia-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Infección mayor de la herida con retraso de la cicatrización, que se presenta como fístula fecal, en un paciente con enfermedad de Crohn en tratamiento con esteroides",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_358_mordedura_gato_mano",
+   "src": "biblioteca/10_cirugia/cirugia-18/atlas_358_mordedura_gato_mano.jpg",
+   "topic": "cirugia-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mordedura de gato infectada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_mordedura_perro__bailey_p48",
+   "src": "biblioteca/10_cirugia/cirugia-18/01_mordedura_perro__bailey_p48.jpg",
+   "topic": "cirugia-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mordedura de perro",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "06_herida-avulsiva-mano__bailey-love_p04",
+   "src": "biblioteca/10_cirugia/cirugia-18/06_herida-avulsiva-mano__bailey-love_p047.jpg",
+   "topic": "cirugia-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Herida avulsiva de la mano",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_queloide-lobulo__nelson_p5268",
+   "src": "biblioteca/10_cirugia/cirugia-18/05_queloide-lobulo__nelson_p5268.jpg",
+   "topic": "cirugia-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queloide del lóbulo de la oreja tras una perforación",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_onicocriptosis-paso-a-paso__knoop_p36",
+   "src": "biblioteca/10_cirugia/cirugia-21/01_onicocriptosis-paso-a-paso__knoop_p361.jpg",
+   "topic": "cirugia-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Onicectomía parcial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

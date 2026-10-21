@@ -1,0 +1,160 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 22,
+  "where": {
+   "IMG-acantosis-cuello": 3,
+   "IMG-acantosis-axila": 3,
+   "IMG-candidiasis-genital": 4,
+   "IMG-lipohipertrofia": 4,
+   "IMG-onda-u-cad": 5,
+   "IMG-t-picudas-cad": 6,
+   "IMG-kimmelstiel": 7,
+   "IMG-exudados-duros": 7,
+   "IMG-microaneurismas": 8,
+   "IMG-exudados-algodonosos": 8,
+   "IMG-neovasos": 9,
+   "IMG-pie-garra": 9,
+   "IMG-monofilamento": 10,
+   "IMG-ulcera-neuropatica": 10,
+   "IMG-ulcera-isquemica": 11,
+   "IMG-osteomielitis": 11,
+   "IMG-itb": 12,
+   "IMG-xantelasma": 12,
+   "IMG-xantoma-tendinoso": 13,
+   "IMG-plasma-lechoso": 13,
+   "IMG-xantomas-eruptivos": 14,
+   "IMG-arco-corneal-2": 14,
+   "IMG-manga-gastrica": 15,
+   "IMG-acantosis-sm": 15,
+   "PAIRS": 16,
+   "SIGNS": 18,
+   "TYPES": 19,
+   "AUTO": 20,
+   "SOL": 22
+  }
+ },
+ "tomo": [
+  {
+   "id": "acantosis-cuello",
+   "p": 7,
+   "exact": false
+  },
+  {
+   "id": "acantosis-axila",
+   "p": 10,
+   "exact": true
+  },
+  {
+   "id": "candidiasis-genital",
+   "p": 34,
+   "exact": true
+  },
+  {
+   "id": "lipohipertrofia",
+   "p": 44,
+   "exact": false
+  },
+  {
+   "id": "onda-u-cad",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "t-picudas-cad",
+   "p": 70,
+   "exact": true
+  },
+  {
+   "id": "kimmelstiel",
+   "p": 85,
+   "exact": false
+  },
+  {
+   "id": "exudados-duros",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "microaneurismas",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "exudados-algodonosos",
+   "p": 88,
+   "exact": true
+  },
+  {
+   "id": "neovasos",
+   "p": 88,
+   "exact": false
+  },
+  {
+   "id": "pie-garra",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "monofilamento",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "ulcera-neuropatica",
+   "p": 92,
+   "exact": true
+  },
+  {
+   "id": "ulcera-isquemica",
+   "p": 94,
+   "exact": true
+  },
+  {
+   "id": "osteomielitis",
+   "p": 94,
+   "exact": true
+  },
+  {
+   "id": "itb",
+   "p": 91,
+   "exact": true
+  },
+  {
+   "id": "xantelasma",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "xantoma-tendinoso",
+   "p": 98,
+   "exact": true
+  },
+  {
+   "id": "plasma-lechoso",
+   "p": 102,
+   "exact": true
+  },
+  {
+   "id": "xantomas-eruptivos",
+   "p": 102,
+   "exact": true
+  },
+  {
+   "id": "arco-corneal-2",
+   "p": 102,
+   "exact": false
+  },
+  {
+   "id": "manga-gastrica",
+   "p": 105,
+   "exact": true
+  },
+  {
+   "id": "acantosis-sm",
+   "p": 106,
+   "exact": true
+  }
+ ]
+}

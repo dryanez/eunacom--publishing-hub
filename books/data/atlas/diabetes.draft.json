@@ -1,0 +1,614 @@
+{
+ "libro": "diabetes",
+ "title": "Diabetes Mellitus & Dislipidemias",
+ "prefix": "diab",
+ "topics": {
+  "diab-01": "Tipos de Diabetes Mellitus",
+  "diab-02": "Criterios Diagnósticos de Diabetes Mellitus, Prediabetes y Tamizaje en APS",
+  "diab-03": "Diabetes y Embarazo",
+  "diab-04": "Objetivos del Control Metabólico y Metas de HbA1c Individualizadas",
+  "diab-05": "Ejercicio Físico, Cambios de Estilo de Vida y Prevención Cardiovascular",
+  "diab-06": "Tratamiento Escalonado de la DM2 y Canasta GES MINSAL",
+  "diab-07": "Hipoglucemiantes Orales Clásicos",
+  "diab-08": "Nuevas Terapias",
+  "diab-09": "Tratamiento y Monitoreo de la Diabetes en la Gestante",
+  "diab-10": "Diabetes e Hipertensión Arterial",
+  "diab-11": "Tipos de Insulina, Farmacocinética e Indicaciones de Inicio",
+  "diab-12": "Esquemas de Insulinoterapia y Algoritmos de Ajuste de Dosis",
+  "diab-13": "Manejo de la Hiperglicemia en el Paciente Hospitalizado",
+  "diab-14": "Hipoglicemias",
+  "diab-15": "Cetoacidosis Diabética (CAD) vs Estado Hiperglicémico Hiperosmolar (EHH)",
+  "diab-16": "Protocolo de Reanimación con Fluidos y Expansión en CAD/EHH",
+  "diab-17": "Insulinoterapia Endovenosa y Manejo del Potasio y Bicarbonato",
+  "diab-18": "Criterios de Resolución de CAD/EHH y Traslape a Insulina Subcutánea",
+  "diab-19": "Complicaciones Agudas del Tratamiento",
+  "diab-20": "Nefropatía Diabética",
+  "diab-21": "Retinopatía Diabética",
+  "diab-22": "Pie Diabético",
+  "diab-23": "Dislipidemias",
+  "diab-24": "Dislipidemias Severas y Genéticas",
+  "diab-25": "Nutrición Clínica"
+ },
+ "refs": 26,
+ "images": [
+  {
+   "id": "01_acantosis-cuello__hy_p774",
+   "src": "biblioteca/04_diabetes/diab-01/01_acantosis-cuello__hy_p774.jpg",
+   "topic": "diab-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis en el cuello",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_acantosis-nigricans__amir-derma_p30",
+   "src": "biblioteca/04_diabetes/diab-02/01_acantosis-nigricans__amir-derma_p30.jpg",
+   "topic": "diab-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis nigricans",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_candidiasis-genital__kumar_p1587",
+   "src": "biblioteca/04_diabetes/diab-08/01_candidiasis-genital__kumar_p1587.jpg",
+   "topic": "diab-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Candidiasis vaginal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_lipohipertrofia__openi",
+   "src": "biblioteca/04_diabetes/diab-11/01_lipohipertrofia__openi.jpg",
+   "topic": "diab-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lipohipertrofia abdominal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg-hipopotasemia__cto-nefro_p22",
+   "src": "biblioteca/04_diabetes/diab-17/01_ecg-hipopotasemia__cto-nefro_p22.jpg",
+   "topic": "diab-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Onda U",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_ecg-hiperpotasemia-t-picudas__cto-car",
+   "src": "biblioteca/04_diabetes/diab-17/02_ecg-hiperpotasemia-t-picudas__cto-cardio_p19.jpg",
+   "topic": "diab-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "T picudas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_glomeruloesclerosis_nodular_esquema__",
+   "src": "biblioteca/04_diabetes/diab-20/01_glomeruloesclerosis_nodular_esquema__goljan_p1050.jpg",
+   "topic": "diab-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glomeruloesclerosis nodular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hemorragias-retinianas-rd__cto-oftalm",
+   "src": "biblioteca/04_diabetes/diab-21/02_hemorragias-retinianas-rd__cto-oftalmo_p67.jpg",
+   "topic": "diab-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorragias y exudados duros",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_microaneurismas__kanski_p537",
+   "src": "biblioteca/04_diabetes/diab-21/02_microaneurismas__kanski_p537.jpg",
+   "topic": "diab-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Microaneurismas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_exudados-algodonosos__commons",
+   "src": "biblioteca/04_diabetes/diab-21/03_exudados-algodonosos__commons.jpg",
+   "topic": "diab-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exudados algodonosos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_neovasos_retinopatia_diabetica_prolif",
+   "src": "_verificadas/03_neovasos_retinopatia_diabetica_prolifera__KanskisClini_p542_1.jpg",
+   "topic": "diab-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neovasos en papila / neovascularización retiniana",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "06_pie-neuropatico__openi",
+   "src": "biblioteca/04_diabetes/diab-22/06_pie-neuropatico__openi.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pie neuropático en garra",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "07_monofilamento",
+   "src": "biblioteca/04_diabetes/diab-22/07_monofilamento.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Monofilamento de 10 g",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ulcera-necrosis-pie-diabetico_2__cto-",
+   "src": "biblioteca/04_diabetes/diab-22/01_ulcera-necrosis-pie-diabetico_2__cto-endocrino_p114.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera neuropática",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "005_diab_Pie_diabético__Talley_p142",
+   "src": "_verificadas/005_diab_Pie_diabético__Talley_p142.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera isquémica típica del pie diabético",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "006_diab_Pie_diabético__ctmri_path_p522_",
+   "src": "_verificadas/006_diab_Pie_diabético__ctmri_path_p522_1.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Osteomielitis del pie diabético",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_indice-tobillo-brazo-doppler__bailey_",
+   "src": "biblioteca/04_diabetes/diab-22/03_indice-tobillo-brazo-doppler__bailey_p966.jpg",
+   "topic": "diab-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Medición del índice tobillo-brazo con Doppler manual",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_xantelasma__amir-endocrino_p120",
+   "src": "biblioteca/04_diabetes/diab-23/01_xantelasma__amir-endocrino_p120.jpg",
+   "topic": "diab-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Xantelasma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_xantomas_tendinosos__fitzpatrick_p131",
+   "src": "biblioteca/04_diabetes/diab-23/01_xantomas_tendinosos__fitzpatrick_p1311.jpg",
+   "topic": "diab-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Xantoma tendinoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_plasma_lipemico__commons",
+   "src": "biblioteca/04_diabetes/diab-24/01_plasma_lipemico__commons.jpg",
+   "topic": "diab-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Plasma lechoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_xantomas-eruptivos__amir-derma_p26",
+   "src": "biblioteca/04_diabetes/diab-24/01_xantomas-eruptivos__amir-derma_p26.jpg",
+   "topic": "diab-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Xantomas eruptivos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "098_diab_Hipertrigliceridemia_e_hiperco_",
+   "src": "_verificadas/098_diab_Hipertrigliceridemia_e_hiperco__2017BatesG_p306_1.jpg",
+   "topic": "diab-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Arco corneal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_manga-gastrica__harrison_p3134",
+   "src": "biblioteca/04_diabetes/diab-25/02_manga-gastrica__harrison_p3134.jpg",
+   "topic": "diab-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manga gástrica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_acantosis-nigricans-cuello__hy_p774",
+   "src": "biblioteca/04_diabetes/diab-25/01_acantosis-nigricans-cuello__hy_p774.jpg",
+   "topic": "diab-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acantosis nigricans",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

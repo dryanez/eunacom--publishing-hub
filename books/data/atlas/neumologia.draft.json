@@ -1,0 +1,1358 @@
+{
+ "libro": "neumologia",
+ "title": "Respiratorio",
+ "prefix": "resp",
+ "topics": {
+  "resp-01": "Espirometría y Pruebas de Función Pulmonar",
+  "resp-02": "Crisis Asmática en el Adulto",
+  "resp-03": "Asma Bronquial Crónica y Manejo GINA/GES",
+  "resp-04": "Enfermedad Pulmonar Obstructiva Crónica (EPOC) Estable",
+  "resp-05": "Exacerbación Aguda de EPOC (Anthonisen)",
+  "resp-06": "Neumonía Adquirida en la Comunidad (NAC)",
+  "resp-07": "Tratamiento Antimicrobiano de la NAC y Criterios GES",
+  "resp-08": "Neumonías Atípicas, Intrahospitalarias y Neumonía Aspirativa",
+  "resp-09": "Absceso Pulmonar y Supuraciones Pleuropulmonares",
+  "resp-10": "Tuberculosis Pulmonar",
+  "resp-11": "Derrame Pleural",
+  "resp-12": "Derrame Paraneumónico y Empiema Pleural",
+  "resp-13": "Neumotórax Espontáneo Primario y Secundario",
+  "resp-14": "Neumotórax a Tensión y Hemotórax Traumático",
+  "resp-15": "Derrame Pleural Neoplásico y Pleuritis Tuberculosa",
+  "resp-16": "Nódulo Pulmonar Solitario (NPS)",
+  "resp-17": "Cáncer Pulmonar",
+  "resp-18": "Enfermedades Pulmonares Intersticiales Difusas (EPID) y Fibrosis Pulmonar Idiopática",
+  "resp-19": "Tromboembolismo Pulmonar (TEP) Agudo",
+  "resp-20": "Hemoptisis y Bronquiectasias",
+  "resp-21": "Insuficiencia Respiratoria Aguda",
+  "resp-22": "Síndrome de Distrés Respiratorio Agudo (SDRA)",
+  "resp-23": "Síndrome de Apnea-Hipoapnea Obstructiva del Sueño (SAHOS)",
+  "resp-24": "Intoxicación por Monóxido de Carbono e Inhalación de Humo",
+  "resp-25": "Ahogamiento (Asfixia por Inmersión) e Hipotermia Accidental"
+ },
+ "refs": 58,
+ "images": [
+  {
+   "id": "S1_flujo-volumen__propio",
+   "src": "biblioteca/02_neumologia/resp-01/S1_flujo-volumen__propio.svg",
+   "topic": "resp-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Las tres curvas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "160_resp_Crisis_asmática_Asma_crónica__C",
+   "src": "_web/160_resp_Crisis_asmática_Asma_crónica__Commons_1.jpg",
+   "topic": "resp-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Técnica inhalatoria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_prueba-broncodilatadora__propio",
+   "src": "biblioteca/02_neumologia/resp-03/S1_prueba-broncodilatadora__propio.svg",
+   "topic": "resp-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Antes y después",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_epoc_hiperinsuflacion__cxr_p292",
+   "src": "biblioteca/02_neumologia/resp-04/01_epoc_hiperinsuflacion__cxr_p292.jpg",
+   "topic": "resp-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hiperinsuflación",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tipos-de-enfisema__cto-neumo_p43",
+   "src": "biblioteca/02_neumologia/resp-04/01_tipos-de-enfisema__cto-neumo_p43.jpg",
+   "topic": "resp-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tipos de enfisema",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "161_resp_EPOC_estable__cxrpdf_p296_1",
+   "src": "_verificadas/161_resp_EPOC_estable__cxrpdf_p296_1.jpg",
+   "topic": "resp-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC de tórax con enfisema centrolobulillar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_consolidacion-lobar__cto-radiologia_p",
+   "src": "biblioteca/02_neumologia/resp-06/01_consolidacion-lobar__cto-radiologia_p13.jpg",
+   "topic": "resp-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Consolidación lobar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_broncograma-aereo__cto-radiologia_p10",
+   "src": "biblioteca/02_neumologia/resp-06/02_broncograma-aereo__cto-radiologia_p10.jpg",
+   "topic": "resp-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Broncograma aéreo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_patrones-rx-por-germen_2__cto-infecto",
+   "src": "biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_2__cto-infecto_p56.jpg",
+   "topic": "resp-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mycoplasma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rx_neumonia_aspirativa_lid__commons",
+   "src": "biblioteca/02_neumologia/resp-08/01_rx_neumonia_aspirativa_lid__commons.jpg",
+   "topic": "resp-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumonía aspirativa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_patrones-rx-por-germen_4__cto-infecto",
+   "src": "biblioteca/02_neumologia/resp-08/01_patrones-rx-por-germen_4__cto-infecto_p56.jpg",
+   "topic": "resp-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Klebsiella: lóbulo superior",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_absceso-pulmonar__cto-radiologia_p16",
+   "src": "biblioteca/02_neumologia/resp-09/01_absceso-pulmonar__cto-radiologia_p16.jpg",
+   "topic": "resp-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso con nivel",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "163_resp_Absceso_pulmonar__knoopepub_p74",
+   "src": "_verificadas/163_resp_Absceso_pulmonar__knoopepub_p740_1.jpg",
+   "topic": "resp-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste hidatídico pulmonar complicado: signo del menisco o de la media luna",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tbc-ghon-cavitacion__cto-radiologia_p",
+   "src": "biblioteca/02_neumologia/resp-10/01_tbc-ghon-cavitacion__cto-radiologia_p14.jpg",
+   "topic": "resp-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cavitación",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "164_resp_Tuberculosis__Commons_2",
+   "src": "_web/164_resp_Tuberculosis__Commons_2.jpg",
+   "topic": "resp-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Baciloscopía (Ziehl-Neelsen)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_tbc-miliar_alt1__cto-infecto_p66",
+   "src": "biblioteca/02_neumologia/resp-10/02_tbc-miliar_alt1__cto-infecto_p66.jpg",
+   "topic": "resp-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Miliar (RX)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_derrame-pleural__cto-neumo_p111",
+   "src": "biblioteca/02_neumologia/resp-11/01_derrame-pleural__cto-neumo_p111.jpg",
+   "topic": "resp-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame pleural",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "341_resp_Derrame_pleural__Open-i_1",
+   "src": "_web/341_resp_Derrame_pleural__Open-i_1.jpg",
+   "topic": "resp-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía pleural",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_derrame-encapsulado_1__cto-neumo_p111",
+   "src": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_1__cto-neumo_p111.jpg",
+   "topic": "resp-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame encapsulado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_derrame-encapsulado_2__cto-neumo_p111",
+   "src": "biblioteca/02_neumologia/resp-12/01_derrame-encapsulado_2__cto-neumo_p111.jpg",
+   "topic": "resp-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame masivo izquierdo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "166_resp_Derrame_complicado_y_empiema__c",
+   "src": "_verificadas/166_resp_Derrame_complicado_y_empiema__cxrpdf_p98_1.jpg",
+   "topic": "resp-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame pleural derecho en la Rx de tórax (el tabicado se confirma con ecografía)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_neumotorax_alt1__cto-radiologia_p23",
+   "src": "biblioteca/02_neumologia/resp-13/01_neumotorax_alt1__cto-radiologia_p23.jpg",
+   "topic": "resp-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Inspiración y espiración",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_neumotorax-a-tension-tc-rx__cto-cirug",
+   "src": "biblioteca/02_neumologia/resp-14/01_neumotorax-a-tension-tc-rx__cto-cirugia_p71.jpg",
+   "topic": "resp-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumotórax a tensión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "168_resp_Neumotórax_a_tensión_y_hemotór_",
+   "src": "_verificadas/168_resp_Neumotórax_a_tensión_y_hemotór__lrpdf_p352_1.jpg",
+   "topic": "resp-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tórax volante: fracturas costales múltiples (flechas)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "342_resp_Derrame_linfocítico_TBC_vs_cán_",
+   "src": "_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg",
+   "topic": "resp-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame pleural masivo derecho con desplazamiento del mediastino",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_mesotelioma-tc-engrosamiento-pleural_",
+   "src": "biblioteca/02_neumologia/resp-15/10_mesotelioma-tc-engrosamiento-pleural__ctmri-atlas_p242.jpg",
+   "topic": "resp-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mesotelioma en la TC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "028_resp_Nódulo_pulmonar_solitario__Bran",
+   "src": "_verificadas/028_resp_Nódulo_pulmonar_solitario__BrantHelms_p461.jpg",
+   "topic": "resp-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hamartoma con popcorn",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_masa-pulmonar-bordes-irregulares-tc__",
+   "src": "biblioteca/02_neumologia/resp-16/01_masa-pulmonar-bordes-irregulares-tc__cto-neumo_p139.jpg",
+   "topic": "resp-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bordes irregulares",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "170_resp_Nódulo_pulmonar_solitario__Comm",
+   "src": "_web/170_resp_Nódulo_pulmonar_solitario__Commons_2.jpg",
+   "topic": "resp-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulo parcialmente sólido",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "027_resp_Nódulo_pulmonar_solitario__Comm",
+   "src": "_web/027_resp_Nódulo_pulmonar_solitario__Commons_1.jpg",
+   "topic": "resp-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulo pulmonar espiculado en la TAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "343_resp_Nódulo_pulmonar_solitario__Bran",
+   "src": "_verificadas/343_resp_Nódulo_pulmonar_solitario__BrantHelms_p1547.jpg",
+   "topic": "resp-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "PET-CT con nódulo pulmonar hipercaptante",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_adenocarcinoma-epidermoide-histologia",
+   "src": "biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_1__cto-neumo_p125.jpg",
+   "topic": "resp-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Adenocarcinoma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_adenocarcinoma-epidermoide-histologia",
+   "src": "biblioteca/02_neumologia/resp-17/02_adenocarcinoma-epidermoide-histologia_2__cto-neumo_p125.jpg",
+   "topic": "resp-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma epidermoide",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_acropaquias__amir-reuma_p113",
+   "src": "biblioteca/02_neumologia/resp-17/03_acropaquias__amir-reuma_p113.jpg",
+   "topic": "resp-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acropaquias",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "171_media_resp_resp_17_cancer_pulmonar",
+   "src": "../../books/figuras/atlas_eunacom_2026/171_media_resp_resp_17_cancer_pulmonar.jpg",
+   "topic": "resp-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de vena cava superior: masa mediastínica que comprime la cava",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_sindrome-vena-cava-superior-torax__kn",
+   "src": "biblioteca/02_neumologia/resp-17/10_sindrome-vena-cava-superior-torax__knoop_p193.jpg",
+   "topic": "resp-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Circulación colateral torácica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fpi-rx-y-tc_alt1__cto-neumo_p73",
+   "src": "biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc_alt1__cto-neumo_p73.jpg",
+   "topic": "resp-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Panal de abejas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fpi-rx-y-tc__cto-neumo_p73",
+   "src": "biblioteca/02_neumologia/resp-18/01_fpi-rx-y-tc__cto-neumo_p73.jpg",
+   "topic": "resp-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "FPI en la radiografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "172_resp_Fibrosis_pulmonar_idiopática__n",
+   "src": "_verificadas/172_resp_Fibrosis_pulmonar_idiopática__nelsontext_p3338_1.jpg",
+   "topic": "resp-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "TC con vidrio esmerilado en neumonía intersticial no específica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_silicosis-cronica-rx__harrison_p2210",
+   "src": "biblioteca/02_neumologia/resp-18/10_silicosis-cronica-rx__harrison_p2210.jpg",
+   "topic": "resp-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Silicosis crónica: nódulos mal definidos de predominio en los lóbulos superiores",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "11_asbestosis-tacar__harrison_p2209",
+   "src": "biblioteca/02_neumologia/resp-18/11_asbestosis-tacar__harrison_p2209.jpg",
+   "topic": "resp-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Asbestosis: TACAR con reticulación subpleural en las bases (flechas)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "173_resp_TEP__Commons_1",
+   "src": "_web/173_resp_TEP__Commons_1.jpg",
+   "topic": "resp-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trombosis venosa profunda",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ecg_tep_s1q3t3__ecg-basics_p195",
+   "src": "biblioteca/02_neumologia/resp-19/01_ecg_tep_s1q3t3__ecg-basics_p195.jpg",
+   "topic": "resp-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "ECG en TEP",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_angiotc-tep__cto-neumo_p103",
+   "src": "biblioteca/02_neumologia/resp-19/01_angiotc-tep__cto-neumo_p103.jpg",
+   "topic": "resp-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "AngioTAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "174_resp_TEP__PocketUS_p104",
+   "src": "_verificadas/174_resp_TEP__PocketUS_p104.jpg",
+   "topic": "resp-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecocardiograma con ventrículo derecho dilatado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_bronquiectasias-tc__cto-neumo_p68",
+   "src": "biblioteca/02_neumologia/resp-20/01_bronquiectasias-tc__cto-neumo_p68.jpg",
+   "topic": "resp-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bronquiectasias",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_bronquiectasias-tac__harrison_p2216",
+   "src": "biblioteca/02_neumologia/resp-20/10_bronquiectasias-tac__harrison_p2216.jpg",
+   "topic": "resp-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bronquiectasias graves",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sdra-infiltrado-bilateral__cto-neumo_",
+   "src": "biblioteca/02_neumologia/resp-22/01_sdra-infiltrado-bilateral__cto-neumo_p35.jpg",
+   "topic": "resp-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Distrés (SDRA)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_029_rx_de_edema_pulmonar_cardiogen",
+   "src": "biblioteca/04_respiratorio/resp-22/atlas_029_rx_de_edema_pulmonar_cardiogen.jpg",
+   "topic": "resp-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema cardiogénico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_lineas-b-kerley__cto-radiologia_p11",
+   "src": "biblioteca/02_neumologia/resp-22/02_lineas-b-kerley__cto-radiologia_p11.jpg",
+   "topic": "resp-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Líneas B de Kerley",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_polisomnografia_real__commons",
+   "src": "biblioteca/02_neumologia/resp-23/02_polisomnografia_real__commons.jpg",
+   "topic": "resp-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Polisomnografía real",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_polisomnografia-apnea__propio",
+   "src": "biblioteca/02_neumologia/resp-23/S1_polisomnografia-apnea__propio.svg",
+   "topic": "resp-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lo que se mira",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_co-curva-disociacion__propio",
+   "src": "biblioteca/02_neumologia/resp-24/S1_co-curva-disociacion__propio.svg",
+   "topic": "resp-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Curva de disociación",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sdra-rx-torax__harrison_p2267",
+   "src": "biblioteca/02_neumologia/resp-25/01_sdra-rx-torax__harrison_p2267.jpg",
+   "topic": "resp-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Edema no cardiogénico, SDRA",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_ecg-hipotermia-ondas-j-osborn__knoop_",
+   "src": "biblioteca/02_neumologia/resp-25/10_ecg-hipotermia-ondas-j-osborn__knoop_p551.jpg",
+   "topic": "resp-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Onda J de Osborn",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

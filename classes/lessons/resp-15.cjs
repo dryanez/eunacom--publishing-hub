@@ -84,7 +84,7 @@ module.exports = {
             say: 'Ahora el otro lado. El derrame neoplásico es la infiltración tumoral de la pleura. La causa más frecuente es el adenocarcinoma de pulmón, seguido por el cáncer de mama, el linfoma y el mesotelioma.' },
           { t: 'Adulto mayor, líquido serohemático', d: 'ADA bajo',
             say: 'Suele ser un adulto mayor, de más de cincuenta o sesenta años, con un líquido serohemático o francamente hemorrágico. Y el ADA está bajo, bajo cuarenta. Ese contraste con la tuberculosis es el que más se pregunta. Mira esta radiografía: un derrame neoplásico masivo, con el hemitórax casi blanco.',
-            photo: { src: '_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg', label: 'Derrame neoplásico masivo', at: 'Mira esta radiografía', credit: 'Nelson Textbook of Pediatrics, p. 3358' } },
+            photo: { src: '_verificadas/342_resp_Derrame_linfocítico_TBC_vs_cán__nelsontext_p3358_1.jpg', label: 'Derrame pleural masivo derecho con desplazamiento del mediastino', at: 'Mira esta radiografía', credit: 'Herring, Learning Radiology, 4.ª ed., p. 99' } },
         ] },
         { title: 'Diagnóstico', tag: 'Paso a paso', kind: 'criteria', items: [
           { t: 'Citología del líquido', d: '60 % en la 1.ª muestra; 80–85 % con la 2.ª',

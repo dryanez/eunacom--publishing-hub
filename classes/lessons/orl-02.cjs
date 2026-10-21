@@ -140,7 +140,7 @@ module.exports = {
         { title: 'Lo que describe el informe', tag: 'Sin contraste', kind: 'key', items: [
           { t: 'Masa de partes blandas en el ático', d: 'Erosión del scutum y del aditus ad antrum ensanchado',
             say: 'Pides la TAC de oídos sin contraste ante una otitis crónica con sospecha de colesteatoma, o ante cualquier complicación. Tú no la lees corte a corte: usas el informe. En el colesteatoma describe una masa de partes blandas en el ático o el antro, con erosión del scutum y el aditus ad antrum ensanchado. Mira este corte: una masa de partes blandas rodea los huesecillos, en el oído medio.',
-            photo: { src: 'biblioteca/17_otorrino/orl-02/04_colesteatoma-congenito-tac__nelson_p5104.jpg', label: 'TAC: masa en el oído medio', at: 'Mira este corte', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5104' } },
+            photo: { src: 'biblioteca/17_otorrino/orl-02/04_colesteatoma-congenito-tac__nelson_p5104.jpg', label: 'Colesteatoma: masa blanca nacarada en la membrana timpánica', at: 'Mira este corte', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 5122' } },
           { t: 'Erosión de la cadena osicular', d: 'Sobre todo la apófisis larga del yunque',
             say: 'También informa la erosión de los huesecillos, sobre todo la apófisis larga del yunque y el estribo, y una mastoides poco neumatizada o llena de tejido inflamatorio.' },
         ] },

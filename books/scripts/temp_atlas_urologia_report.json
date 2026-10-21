@@ -1,0 +1,244 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 28,
+  "where": {
+   "IMG-tac-calculos": 4,
+   "IMG-hidronefrosis-eco": 4,
+   "IMG-calculo-rx": 5,
+   "IMG-nefrostomia": 5,
+   "IMG-residuo": 6,
+   "IMG-estenosis-uretral": 6,
+   "IMG-rotura-uretral": 7,
+   "IMG-lobulos-prostaticos": 7,
+   "IMG-vejiga-trabeculada": 8,
+   "IMG-lobulo-medio": 8,
+   "IMG-badajo": 9,
+   "IMG-gouverneur": 9,
+   "IMG-torsion-doppler": 10,
+   "IMG-epididimitis": 10,
+   "IMG-uretritis": 11,
+   "IMG-varicocele": 11,
+   "IMG-hidrocele": 12,
+   "IMG-quiste-epididimo": 12,
+   "IMG-quiste-epididimo-2": 13,
+   "IMG-transiluminacion": 13,
+   "IMG-eco-transrectal": 14,
+   "IMG-rm-prostata": 14,
+   "IMG-cilindros-biopsia": 15,
+   "IMG-cintigrama-oseo": 15,
+   "IMG-tumor-testicular": 16,
+   "IMG-masa-retroperitoneal": 16,
+   "IMG-bala-canon-rx": 17,
+   "IMG-metastasis-tac": 17,
+   "IMG-cancer-renal": 18,
+   "IMG-angiomiolipoma": 18,
+   "IMG-nefrectomia": 19,
+   "IMG-tumor-vesical": 19,
+   "IMG-cancer-vesical-rm": 20,
+   "IMG-quiste-simple": 20,
+   "IMG-poliquistico-pieza": 21,
+   "IMG-poliquistico-tac": 21,
+   "IMG-hematies-dismorficos-uro": 22,
+   "IMG-cilindro-hematico": 22,
+   "PAIRS": 23,
+   "SIGNS": 25,
+   "TYPES": 26,
+   "AUTO": 27,
+   "SOL": 28
+  }
+ },
+ "tomo": [
+  {
+   "id": "tac-calculos",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "hidronefrosis-eco",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "calculo-rx",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "nefrostomia",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "residuo",
+   "p": 13,
+   "exact": true
+  },
+  {
+   "id": "estenosis-uretral",
+   "p": 13,
+   "exact": true
+  },
+  {
+   "id": "rotura-uretral",
+   "p": 13,
+   "exact": true
+  },
+  {
+   "id": "lobulos-prostaticos",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "vejiga-trabeculada",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "lobulo-medio",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "badajo",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "gouverneur",
+   "p": 26,
+   "exact": true
+  },
+  {
+   "id": "torsion-doppler",
+   "p": 27,
+   "exact": true
+  },
+  {
+   "id": "epididimitis",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "uretritis",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "varicocele",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "hidrocele",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "quiste-epididimo",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "quiste-epididimo-2",
+   "p": 35,
+   "exact": false
+  },
+  {
+   "id": "transiluminacion",
+   "p": 35,
+   "exact": false
+  },
+  {
+   "id": "eco-transrectal",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "rm-prostata",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "cilindros-biopsia",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "cintigrama-oseo",
+   "p": 53,
+   "exact": false
+  },
+  {
+   "id": "tumor-testicular",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "masa-retroperitoneal",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "bala-canon-rx",
+   "p": 56,
+   "exact": true
+  },
+  {
+   "id": "metastasis-tac",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "cancer-renal",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "angiomiolipoma",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "nefrectomia",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "tumor-vesical",
+   "p": 65,
+   "exact": false
+  },
+  {
+   "id": "cancer-vesical-rm",
+   "p": 65,
+   "exact": false
+  },
+  {
+   "id": "quiste-simple",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "poliquistico-pieza",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "poliquistico-tac",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "hematies-dismorficos-uro",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "cilindro-hematico",
+   "p": 78,
+   "exact": true
+  }
+ ]
+}

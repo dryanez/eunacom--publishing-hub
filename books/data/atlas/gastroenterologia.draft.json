@@ -1,0 +1,2487 @@
+{
+ "libro": "gastroenterologia",
+ "title": "Gastroenterología",
+ "prefix": "gastro",
+ "topics": {
+  "gastro-01": "Enfermedad por Reflujo Gastroesofágico y Esófago de Barrett",
+  "gastro-02": "Úlcera Péptica, Dispepsia Funcional y Helicobacter pylori",
+  "gastro-03": "Disfagia y Trastornos Motores del Esófago",
+  "gastro-04": "Úlcera Perforada, Perforación Esofágica e Ingesta de Cáustico",
+  "gastro-05": "Cáncer de Esófago y Cáncer Gástrico",
+  "gastro-06": "Hernia Hiatal, Hernia Diafragmática y Tumores del Mediastino",
+  "gastro-07": "Trastornos Digestivos Funcionales y Síndrome de Intestino Irritable",
+  "gastro-08": "Diarrea Aguda, Diarrea Crónica y Constipación",
+  "gastro-09": "Síndrome de Malabsorción, Enfermedad Celíaca e Intolerancia a la Lactosa",
+  "gastro-10": "Enfermedad Inflamatoria Intestinal",
+  "gastro-11": "Pólipos y Cáncer Colorrectal · Tamizaje",
+  "gastro-12": "Patología Perianal",
+  "gastro-13": "Ictericia y Colestasia",
+  "gastro-14": "Hepatitis Aguda y Crónica",
+  "gastro-15": "Daño Hepático Crónico e Hipertensión Portal",
+  "gastro-16": "Lesiones Hepáticas Focales y Pólipos Vesiculares",
+  "gastro-17": "Colelitiasis, Colecistitis, Coledocolitiasis y Colangitis",
+  "gastro-18": "Pancreatitis Aguda",
+  "gastro-19": "Abdomen Agudo",
+  "gastro-20": "Isquemia Mesentérica y Abdomen Agudo de Origen Vascular",
+  "gastro-21": "Hemorragia Digestiva Alta y Baja",
+  "gastro-22": "Cuerpo Extraño Digestivo",
+  "gastro-23": "Diarrea Aguda y Crónica en el Niño",
+  "gastro-24": "Reflujo del Lactante, Dolor Abdominal Crónico y Constipación en el Niño",
+  "gastro-25": "Cirugía Pediátrica Digestiva",
+  "gastro-26": "Trauma Abdominal y Torácico"
+ },
+ "refs": 107,
+ "images": [
+  {
+   "id": "02_esofagitis_1__cto-digestivo_p26",
+   "src": "biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_1__cto-digestivo_p26.jpg",
+   "topic": "gastro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esofagitis erosiva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_esofagitis_2__cto-digestivo_p26",
+   "src": "biblioteca/01_gastroenterologia/gastro-01/02_esofagitis_2__cto-digestivo_p26.jpg",
+   "topic": "gastro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esofagitis erosiva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_esofago-de-barrett-endoscopia_1__cto-",
+   "src": "biblioteca/01_gastroenterologia/gastro-01/01_esofago-de-barrett-endoscopia_1__cto-digestivo_p27.jpg",
+   "topic": "gastro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esófago de Barrett",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ulcera_duodenal__harrison_p2430",
+   "src": "biblioteca/01_gastroenterologia/gastro-02/01_ulcera_duodenal__harrison_p2430.jpg",
+   "topic": "gastro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera duodenal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ulcera-gastrica-forrest-iic__cto-dige",
+   "src": "biblioteca/01_gastroenterologia/gastro-02/01_ulcera-gastrica-forrest-iic__cto-digestivo_p63.jpg",
+   "topic": "gastro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera gástrica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_ulcera_duodenal_vaso_visible__harriso",
+   "src": "biblioteca/01_gastroenterologia/gastro-02/02_ulcera_duodenal_vaso_visible__harrison_p2430.jpg",
+   "topic": "gastro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vaso visible",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_cancer-esofago-distal-obstructivo__ha",
+   "src": "biblioteca/01_gastroenterologia/gastro-03/02_cancer-esofago-distal-obstructivo__harrison_p2460.jpg",
+   "topic": "gastro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cáncer de esófago",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_megaesofago_chagas__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-03/04_megaesofago_chagas__commons.jpg",
+   "topic": "gastro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Megaesófago chagásico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_manometria-de-alta-resolucion-acalasi",
+   "src": "biblioteca/01_gastroenterologia/gastro-03/01_manometria-de-alta-resolucion-acalasia-i__cto-digestivo_p18.jpg",
+   "topic": "gastro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manometría",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "31_diverticulo_de_Zenker_baritado__27thB",
+   "src": "_verificadas/31_diverticulo_de_Zenker_baritado__27thBaileyLo_p1123_1.jpg",
+   "topic": "gastro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Divertículo de Zenker en esofagograma con bario",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_diverticulo-zenker-esofagograma__harr",
+   "src": "biblioteca/01_gastroenterologia/gastro-03/10_diverticulo-zenker-esofagograma__harrison_p2459.jpg",
+   "topic": "gastro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Divertículo de Zenker",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_neumoperitoneo-bajo-diafragma__cto-di",
+   "src": "biblioteca/01_gastroenterologia/gastro-04/01_neumoperitoneo-bajo-diafragma__cto-digestivo_p65.jpg",
+   "topic": "gastro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumoperitoneo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_mallory-weiss-endoscopia__atlas-eunac",
+   "src": "biblioteca/01_gastroenterologia/gastro-04/02_mallory-weiss-endoscopia__atlas-eunacom.jpg",
+   "topic": "gastro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mallory-Weiss",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_esofagitis-caustica-endoscopia__knoop",
+   "src": "biblioteca/01_gastroenterologia/gastro-04/10_esofagitis-caustica-endoscopia__knoop_p633.jpg",
+   "topic": "gastro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esofagitis cáustica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "032_gastro_Perforación_y_cáustico__cxrpd",
+   "src": "_verificadas/032_gastro_Perforación_y_cáustico__cxrpdf_p135_1.jpg",
+   "topic": "gastro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumomediastino: aire libre que rodea las estructuras del mediastino",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_borrmann_endoscopia__bailey_p1155",
+   "src": "biblioteca/01_gastroenterologia/gastro-05/01_borrmann_endoscopia__bailey_p1155.jpg",
+   "topic": "gastro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Borrmann I a IV",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_borrmann__propio",
+   "src": "biblioteca/01_gastroenterologia/gastro-05/S1_borrmann__propio.svg",
+   "topic": "gastro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esquema de Borrmann",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_tumor-musculo-liso-gastrico__bailey_p",
+   "src": "biblioteca/01_gastroenterologia/gastro-05/03_tumor-musculo-liso-gastrico__bailey_p1150.jpg",
+   "topic": "gastro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tumor de músculo liso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "175_gastro_Cáncer_de_esófago_y_gástrico_",
+   "src": "_verificadas/175_gastro_Cáncer_de_esófago_y_gástrico__27thBailey_p1154_1.jpg",
+   "topic": "gastro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cáncer gástrico incipiente",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hernia-de-hiato-paraesofagica-rx__cto",
+   "src": "biblioteca/01_gastroenterologia/gastro-06/01_hernia-de-hiato-paraesofagica-rx__cto-digestivo_p35.jpg",
+   "topic": "gastro-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hernia paraesofágica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_mediastino-compartimentos__propio",
+   "src": "biblioteca/01_gastroenterologia/gastro-06/S1_mediastino-compartimentos__propio.svg",
+   "topic": "gastro-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Compartimentos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_masa-mediastinica-anterior-tc__atlas-",
+   "src": "biblioteca/01_gastroenterologia/gastro-06/03_masa-mediastinica-anterior-tc__atlas-eunacom.jpg",
+   "topic": "gastro-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masa mediastino anterior",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "176_gastro_Hernia_hiatal_diafragmática__",
+   "src": "_web/176_gastro_Hernia_hiatal_diafragmática___Commons_1.jpg",
+   "topic": "gastro-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hernia diafragmática traumática",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "177_gastro_Hernia_hiatal_diafragmática_m",
+   "src": "_verificadas/177_gastro_Hernia_hiatal_diafragmática_me__ctmri_path_p256_1.jpg",
+   "topic": "gastro-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masa mediastínica anterior",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "177_gastro_Hernia_hiatal_diafragmática_m",
+   "src": "_verificadas/177_gastro_Hernia_hiatal_diafragmática_me__nelsontext_p3984_1.jpg",
+   "topic": "gastro-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masa mediastínica anterior",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_colitis-pseudomembranosa-cdifficile__",
+   "src": "biblioteca/01_gastroenterologia/gastro-08/03_colitis-pseudomembranosa-cdifficile__atlas-eunacom.jpg",
+   "topic": "gastro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "C. difficile en colonoscopía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_giardia-trofozoitos__atlas-eunacom",
+   "src": "biblioteca/01_gastroenterologia/gastro-08/04_giardia-trofozoitos__atlas-eunacom.jpg",
+   "topic": "gastro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Trofozoítos de Giardia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_huevo-ascaris__nelson_p2813",
+   "src": "biblioteca/01_gastroenterologia/gastro-08/01_huevo-ascaris__nelson_p2813.jpg",
+   "topic": "gastro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Huevo de Ascaris",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_huevo-trichuris__nelson_p2820",
+   "src": "biblioteca/01_gastroenterologia/gastro-08/02_huevo-trichuris__nelson_p2820.jpg",
+   "topic": "gastro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Huevo de Trichuris trichiura (tricocéfalo)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_dermatitis_herpetiforme__harrison_p41",
+   "src": "biblioteca/01_gastroenterologia/gastro-09/01_dermatitis_herpetiforme__harrison_p413.jpg",
+   "topic": "gastro-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dermatitis herpetiforme",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_atrofia_vellositaria__pathoma_p114",
+   "src": "biblioteca/01_gastroenterologia/gastro-09/02_atrofia_vellositaria__pathoma_p114.jpg",
+   "topic": "gastro-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Atrofia vellositaria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_colitis-ulcerosa-endoscopia_1__cto-di",
+   "src": "biblioteca/01_gastroenterologia/gastro-10/01_colitis-ulcerosa-endoscopia_1__cto-digestivo_p103.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colitis ulcerosa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_crohn-endoscopia__cto-digestivo_p104",
+   "src": "biblioteca/01_gastroenterologia/gastro-10/02_crohn-endoscopia__cto-digestivo_p104.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Crohn",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_crohn-ileal-tc-signo-de-la-cuerda_1__",
+   "src": "biblioteca/01_gastroenterologia/gastro-10/03_crohn-ileal-tc-signo-de-la-cuerda_1__cto-radiologia_p40.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Crohn: íleon engrosado (TC)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "179_gastro_Enfermedad_inflamatoria_intes",
+   "src": "_verificadas/179_gastro_Enfermedad_inflamatoria_intest__Fitzpatric_p611_1.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema nodoso en piernas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "180_gastro_Enfermedad_inflamatoria_intes",
+   "src": "_verificadas/180_gastro_Enfermedad_inflamatoria_intest__Fitzpatric_p338_1.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pioderma gangrenoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_eritema-nodoso-piernas__knoop_p415",
+   "src": "biblioteca/01_gastroenterologia/gastro-10/10_eritema-nodoso-piernas__knoop_p415.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema nodoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "11_pioderma-gangrenoso__knoop_p413",
+   "src": "biblioteca/01_gastroenterologia/gastro-10/11_pioderma-gangrenoso__knoop_p413.jpg",
+   "topic": "gastro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pioderma gangrenoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_polipo_pediculado__harrison_p2433",
+   "src": "biblioteca/01_gastroenterologia/gastro-11/02_polipo_pediculado__harrison_p2433.jpg",
+   "topic": "gastro-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipo pediculado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_polipo_sesil__harrison_p2433",
+   "src": "biblioteca/01_gastroenterologia/gastro-11/01_polipo_sesil__harrison_p2433.jpg",
+   "topic": "gastro-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipo sésil",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_polipo-pediculado_1__cto-digestivo_p1",
+   "src": "biblioteca/01_gastroenterologia/gastro-11/01_polipo-pediculado_1__cto-digestivo_p119.jpg",
+   "topic": "gastro-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipo en colonoscopía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "182_gastro_Pólipos_y_cáncer_colorrectal_",
+   "src": "_verificadas/182_gastro_Pólipos_y_cáncer_colorrectal__27thBailey_p1284_1.jpg",
+   "topic": "gastro-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cáncer colorrectal en la colonoscopía: masa ulcerada que estrecha la luz",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "183_gastro_Pólipos_y_cáncer_colorrectal_",
+   "src": "_verificadas/183_gastro_Pólipos_y_cáncer_colorrectal__27thBailey_p257_1.jpg",
+   "topic": "gastro-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Poliposis adenomatosa familiar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_fisura_anal_foto__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-12/02_fisura_anal_foto__commons.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fisura anal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_prolapso-hemorroidal-grado-iv__cto-di",
+   "src": "biblioteca/01_gastroenterologia/gastro-12/01_prolapso-hemorroidal-grado-iv__cto-digestivo_p149.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorroides grado cuatro",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_hemorroide-externo-trombosado__knoop_",
+   "src": "biblioteca/01_gastroenterologia/gastro-12/10_hemorroide-externo-trombosado__knoop_p258.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorroide trombosado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "184_gastro_Patología_anal__Knoop_p241",
+   "src": "_verificadas/184_gastro_Patología_anal__Knoop_p241.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorroide externo trombosado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "185_gastro_Patología_anal__nelsontext_p3",
+   "src": "_verificadas/185_gastro_Patología_anal__nelsontext_p3113_1.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso perianal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "11_absceso-perianal__knoop_p257",
+   "src": "biblioteca/01_gastroenterologia/gastro-12/11_absceso-perianal__knoop_p257.jpg",
+   "topic": "gastro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso perianal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_ictericia-escleral__knoop_p34",
+   "src": "biblioteca/01_gastroenterologia/gastro-13/10_ictericia-escleral__knoop_p34.jpg",
+   "topic": "gastro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ictericia escleral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_coledoco-dilatado-eco-colangio-rm__ct",
+   "src": "biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm__cto-radiologia_p45.jpg",
+   "topic": "gastro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colédoco dilatado (eco)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_coledoco-dilatado-eco-colangio-rm_alt",
+   "src": "biblioteca/01_gastroenterologia/gastro-13/01_coledoco-dilatado-eco-colangio-rm_alt1__cto-radiologia_p45.jpg",
+   "topic": "gastro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cálculo en colangio-RM",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "186_gastro_Ictericia_y_colestasia__Commo",
+   "src": "_web/186_gastro_Ictericia_y_colestasia__Commons_2.jpg",
+   "topic": "gastro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ictericia escleral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "187_gastro_Ictericia_y_colestasia__Open-",
+   "src": "_web/187_gastro_Ictericia_y_colestasia__Open-i_1.jpg",
+   "topic": "gastro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC con masa en cabeza de páncreas y vía biliar dilatada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_serologia-vhb__propio",
+   "src": "biblioteca/01_gastroenterologia/gastro-14/S1_serologia-vhb__propio.svg",
+   "topic": "gastro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Marcadores en el tiempo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "188_gastro_Hepatitis__Rumack_p1827",
+   "src": "_verificadas/188_gastro_Hepatitis__Rumack_p1827.jpg",
+   "topic": "gastro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía de hígado graso / esteatosis hepática",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_eco-cirrosis__cto-radiologia_p42",
+   "src": "biblioteca/01_gastroenterologia/gastro-15/04_eco-cirrosis__cto-radiologia_p42.jpg",
+   "topic": "gastro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía en la cirrosis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_cabeza-de-medusa_2__cto-digestivo_p21",
+   "src": "biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_2__cto-digestivo_p216.jpg",
+   "topic": "gastro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Portografía: colaterales",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_cabeza-de-medusa_1__cto-digestivo_p21",
+   "src": "biblioteca/01_gastroenterologia/gastro-15/03_cabeza-de-medusa_1__cto-digestivo_p216.jpg",
+   "topic": "gastro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cabeza de medusa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "035_alta_gastro_gastro_15_cirrosis_hemor",
+   "src": "../../books/figuras/atlas_eunacom_2026/035_alta_gastro_gastro_15_cirrosis_hemorragia_digestiva.jpg",
+   "topic": "gastro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Várices esofágicas en endoscopía y ligadura con bandas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_quiste-hidatidico-hepatico__cto-radio",
+   "src": "biblioteca/01_gastroenterologia/gastro-16/02_quiste-hidatidico-hepatico__cto-radiologia_p43.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quiste hidatídico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hemangioma-realce-periferico__cto-rad",
+   "src": "biblioteca/01_gastroenterologia/gastro-16/01_hemangioma-realce-periferico__cto-radiologia_p51.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemangioma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tc_trifasica_hcc__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-16/01_tc_trifasica_hcc__commons.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hepatocarcinoma",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "189_gastro_Lesiones_hepáticas_y_vesicula",
+   "src": "_verificadas/189_gastro_Lesiones_hepáticas_y_vesicular__27thBailey_p80_1.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso hepático en ecografía/TC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "190_gastro_Lesiones_hepáticas_y_vesicula",
+   "src": "_verificadas/190_gastro_Lesiones_hepáticas_y_vesicular__ctmri_path_p320_1.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hiperplasia nodular focal con cicatriz central",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "191_gastro_Lesiones_hepáticas_y_vesicula",
+   "src": "_verificadas/191_gastro_Lesiones_hepáticas_y_vesicular__27thBailey_p1181_1.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Metástasis hepáticas múltiples en TAC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "192_gastro_Lesiones_hepáticas_y_vesicula",
+   "src": "_verificadas/192_gastro_Lesiones_hepáticas_y_vesicular__27thBailey_p1231_1.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipo vesicular en ecografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_colangiocarcinoma-hiliar-cpre__harris",
+   "src": "biblioteca/01_gastroenterologia/gastro-16/03_colangiocarcinoma-hiliar-cpre__harrison_p2436.jpg",
+   "topic": "gastro-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colangiocarcinoma hiliar: estenosis en la colangiografía endoscópica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_colelitiasis-con-sombra-eco__cto-radi",
+   "src": "biblioteca/01_gastroenterologia/gastro-17/01_colelitiasis-con-sombra-eco__cto-radiologia_p44.jpg",
+   "topic": "gastro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colelitiasis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_colecistitis-eco_alt1__cto-digestivo_",
+   "src": "biblioteca/01_gastroenterologia/gastro-17/02_colecistitis-eco_alt1__cto-digestivo_p244.jpg",
+   "topic": "gastro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Vesícula con cálculos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_colecistitis-eco__cto-radiologia_p44",
+   "src": "biblioteca/01_gastroenterologia/gastro-17/02_colecistitis-eco__cto-radiologia_p44.jpg",
+   "topic": "gastro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colecistitis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "193_gastro_Litiasis_biliar__27thBailey_p",
+   "src": "_verificadas/193_gastro_Litiasis_biliar__27thBailey_p1211_1.jpg",
+   "topic": "gastro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cáncer de vesícula biliar / vesícula en porcelana",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_pancreatitis-edematosa-tc_1__cto-dige",
+   "src": "biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_1__cto-digestivo_p258.jpg",
+   "topic": "gastro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pancreatitis edematosa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_pancreatitis-edematosa-tc_alt1__cto-r",
+   "src": "biblioteca/01_gastroenterologia/gastro-18/01_pancreatitis-edematosa-tc_alt1__cto-radiologia_p46.jpg",
+   "topic": "gastro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Páncreas edematoso (TC)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_signo_grey_turner__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-18/01_signo_grey_turner__commons.jpg",
+   "topic": "gastro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Grey Turner",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_puntos-apendicitis__propio",
+   "src": "biblioteca/01_gastroenterologia/gastro-19/S1_puntos-apendicitis__propio.svg",
+   "topic": "gastro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "McBurney, Rovsing y otros",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_apendicitis-eco__cto-radiologia_p41",
+   "src": "biblioteca/01_gastroenterologia/gastro-19/01_apendicitis-eco__cto-radiologia_p41.jpg",
+   "topic": "gastro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Apendicitis en TC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_apendicitis-flemonosa-pieza__cto-dige",
+   "src": "biblioteca/01_gastroenterologia/gastro-19/02_apendicitis-flemonosa-pieza__cto-digestivo_p157.jpg",
+   "topic": "gastro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pieza operatoria",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_tc_isquemia_mesenterica__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-20/01_tc_isquemia_mesenterica__commons.jpg",
+   "topic": "gastro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Isquemia intestinal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "194_gastro_Isquemia_mesentérica__BrantHe",
+   "src": "_verificadas/194_gastro_Isquemia_mesentérica__BrantHelms_p880.jpg",
+   "topic": "gastro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colitis isquémica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "195_gastro_Isquemia_mesentérica__ctmri_p",
+   "src": "_verificadas/195_gastro_Isquemia_mesentérica__ctmri_path_p302_1.jpg",
+   "topic": "gastro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Arteriografía mesentérica: estenosis grave del origen de la AMS (flechas)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_forrest-ia-iib-iic__cto-digestivo_p63",
+   "src": "biblioteca/01_gastroenterologia/gastro-21/01_forrest-ia-iib-iic__cto-digestivo_p63.jpg",
+   "topic": "gastro-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sangrado activo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_moneda_esofago__nelson_p2925",
+   "src": "biblioteca/01_gastroenterologia/gastro-22/01_moneda_esofago__nelson_p2925.jpg",
+   "topic": "gastro-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Moneda en el esófago",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rx_pila_boton__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-22/02_rx_pila_boton__commons.jpg",
+   "topic": "gastro-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pila de botón",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_bolo-carne-impactado-esofago__harriso",
+   "src": "biblioteca/01_gastroenterologia/gastro-22/03_bolo-carne-impactado-esofago__harrison_p2454.jpg",
+   "topic": "gastro-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bolo de carne impactado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_examen_turgor__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-23/01_examen_turgor__commons.jpg",
+   "topic": "gastro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del pliegue",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_pliegue_persistente__commons",
+   "src": "biblioteca/01_gastroenterologia/gastro-23/02_pliegue_persistente__commons.jpg",
+   "topic": "gastro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pliegue persistente",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_huevos-enterobius__nelson_p2822",
+   "src": "biblioteca/01_gastroenterologia/gastro-23/03_huevos-enterobius__nelson_p2822.jpg",
+   "topic": "gastro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Huevos de Enterobius vermicularis (oxiuros)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_eco-piloro-ehp_alt1__cto-pediatria_p6",
+   "src": "biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp_alt1__cto-pediatria_p65.jpg",
+   "topic": "gastro-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Músculo pilórico engrosado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_eco-piloro-ehp__cto-pediatria_p65",
+   "src": "biblioteca/01_gastroenterologia/gastro-24/01_eco-piloro-ehp__cto-pediatria_p65.jpg",
+   "topic": "gastro-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ecografía: oliva pilórica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "037_gastro_Reflujo_del_lactante_píloro_c",
+   "src": "_verificadas/037_gastro_Reflujo_del_lactante_píloro_co__ecmpdf_p753_1.jpg",
+   "topic": "gastro-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx de abdomen con fecaloma en niño",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_neumatosis-ecn__cto-pediatria_p24",
+   "src": "biblioteca/01_gastroenterologia/gastro-25/01_neumatosis-ecn__cto-pediatria_p24.jpg",
+   "topic": "gastro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumatosis intestinal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_invaginacion-eco__cto-pediatria_p70",
+   "src": "biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco__cto-pediatria_p70.jpg",
+   "topic": "gastro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de la dona",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_invaginacion-eco_alt1__cto-radiologia",
+   "src": "biblioteca/01_gastroenterologia/gastro-25/03_invaginacion-eco_alt1__cto-radiologia_p155.jpg",
+   "topic": "gastro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Invaginación (esquema)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "347_gastro_Cirugía_digestiva_neonatal_y_",
+   "src": "_verificadas/347_gastro_Cirugía_digestiva_neonatal_y_p__BrantHelms_p1330.jpg",
+   "topic": "gastro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Atresia esofágica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "07_hirschsprung-enema-baritada__nelson_p",
+   "src": "biblioteca/01_gastroenterologia/gastro-25/07_hirschsprung-enema-baritada__nelson_p2962.jpg",
+   "topic": "gastro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Enfermedad de Hirschsprung en la enema baritada: intestino dilatado sobre un segmento distal estrecho",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fast_liquido_libre__atls_p144",
+   "src": "biblioteca/01_gastroenterologia/gastro-26/01_fast_liquido_libre__atls_p144.jpg",
+   "topic": "gastro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "FAST positivo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_neumoperitoneo__cto-digestivo_p65",
+   "src": "biblioteca/01_gastroenterologia/gastro-26/04_neumoperitoneo__cto-digestivo_p65.jpg",
+   "topic": "gastro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neumoperitoneo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rotura-esplenica-tc__cto-cirugia_p69",
+   "src": "biblioteca/01_gastroenterologia/gastro-26/01_rotura-esplenica-tc__cto-cirugia_p69.jpg",
+   "topic": "gastro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rotura esplénica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "196_gastro_Trauma_abdominal_y_torácico__",
+   "src": "_verificadas/196_gastro_Trauma_abdominal_y_torácico__ctmri_path_p275_1.jpg",
+   "topic": "gastro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Contusión pulmonar en la TAC de tórax",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "197_gastro_Trauma_abdominal_y_torácico__",
+   "src": "_verificadas/197_gastro_Trauma_abdominal_y_torácico__PocketUS_p388.jpg",
+   "topic": "gastro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Taponamiento cardíaco",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_taponamiento-eco-derrame-pericardico_",
+   "src": "biblioteca/01_gastroenterologia/gastro-26/05_taponamiento-eco-derrame-pericardico__knoop_p185.jpg",
+   "topic": "gastro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame pericárdico (eco)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

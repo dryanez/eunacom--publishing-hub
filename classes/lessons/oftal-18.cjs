@@ -124,7 +124,7 @@ module.exports = {
         { title: 'Estudio', tag: 'Resonancia con gadolinio', kind: 'criteria', items: [
           { t: 'RM de cerebro y médula con gadolinio', d: 'Lesiones ovoideas periventriculares; bandas oligoclonales',
             say: 'Se pide resonancia de cerebro y médula con gadolinio, que muestra lesiones ovoideas periventriculares, yuxtacorticales y medulares, y ante dudas, punción lumbar con bandas oligoclonales. Se aplican los criterios de McDonald. Mira esta resonancia de órbita con gadolinio: el nervio óptico inflamado se realza.',
-            photo: { src: '_verificadas/374_oftal_Neuritis_óptica__BrantHelms_p287.jpg', label: 'RM de órbita con gadolinio', at: 'Mira esta resonancia', credit: 'Fundamentals of Diagnostic Radiology (Brant and Helms), p. 287' } },
+            photo: { src: '_verificadas/374_oftal_Neuritis_óptica__BrantHelms_p287.jpg', label: 'Neuritis óptica: realce de ambos nervios ópticos en la RM con gadolinio (flechas)', at: 'Mira esta resonancia', credit: 'Brant & Helms, Fundamentals of Diagnostic Radiology, p. 265' } },
           { t: 'La RM basal predice el riesgo', d: 'Con 1 o más lesiones, más de 70% a 15 años',
             say: 'La resonancia basal es la que mejor predice el riesgo: con una o más lesiones, el riesgo de esclerosis múltiple a quince años supera el setenta por ciento; sin lesiones, ronda el veinticinco por ciento.' },
         ] },

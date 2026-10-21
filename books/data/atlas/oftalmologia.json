@@ -1,0 +1,1670 @@
+{
+ "libro": "oftalmologia",
+ "title": "Oftalmología",
+ "prefix": "oftal",
+ "topics": {
+  "oftal-01": "Enfrentamiento Clínico del Ojo Rojo",
+  "oftal-02": "Conjuntivitis Infecciosas (Bacterianas, Virales) y Alérgicas",
+  "oftal-03": "Patología Palpebral",
+  "oftal-04": "Queratitis Aguda y Úlcera Corneal Herpética (Prohibición de Corticoides)",
+  "oftal-05": "Escleritis y Epiescleritis",
+  "oftal-06": "Glaucoma Agudo de Ángulo Cerrado",
+  "oftal-07": "Glaucoma Crónico de Ángulo Abierto",
+  "oftal-08": "Cataratas",
+  "oftal-09": "Vicios de Refracción, Presbicia y Ambliopía en Niños",
+  "oftal-10": "Desprendimiento de Retina",
+  "oftal-11": "Oclusión Vascular Retinal",
+  "oftal-12": "Retinopatía Diabética",
+  "oftal-13": "Retinopatía Hipertensiva",
+  "oftal-14": "Degeneración Macular Asociada a la Edad (DMAE) y Escotoma Central",
+  "oftal-15": "Trauma Ocular",
+  "oftal-16": "Quemaduras Químicas Oculares",
+  "oftal-17": "Celulitis Preseptal vs Orbitaria (Postseptal)",
+  "oftal-18": "Neuroftalmología"
+ },
+ "images": [
+  {
+   "id": "inyeccion-conjuntival",
+   "n": 1,
+   "src": "biblioteca/12_oftalmologia/oftal-01/01_inyeccion-conjuntival__cto-oftalmo_p33.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Inyección conjuntival",
+   "frase": "Hiperemia que aumenta hacia los fondos de saco.",
+   "claves": [
+    {
+     "t": "Vasos conjuntivales",
+     "m": [
+      0.65,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Ojo rojo superficial: conjuntivitis; no compromete la visión.",
+   "codes": [
+    "2.01.1.097",
+    "6.02.1.005"
+   ],
+   "confunde": "Inyección ciliar: alrededor de la córnea.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "ciliar-hipopion",
+   "n": 2,
+   "src": "biblioteca/12_oftalmologia/oftal-01/03_inyeccion-ciliar-con-hipopion__cto-oftalmo_p39.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Inyección ciliar con hipopión",
+   "frase": "Pus en la cámara anterior y córnea opaca.",
+   "claves": [
+    {
+     "t": "Hipopión",
+     "m": [
+      0.45,
+      0.65,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Ojo rojo profundo: derivar urgente.",
+   "codes": [
+    "6.02.2.010"
+   ],
+   "confunde": "Hiposfagma: sin dolor ni baja de visión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "uveitis-anterior",
+   "n": 3,
+   "src": "_verificadas/076_oftal_Ojo_rojo_profundo__AtlasClinDx_p109.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uveítis anterior aguda",
+   "frase": "Inyección ciliar alrededor de la córnea.",
+   "claves": [
+    {
+     "t": "Inyección ciliar",
+     "m": [
+      0.5,
+      0.75,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Corticoide tópico y midriático por oftalmólogo.",
+   "codes": [
+    "6.02.1.030"
+   ],
+   "confunde": "Conjuntivitis: hiperemia periférica.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 81",
+   "auto": false
+  },
+  {
+   "id": "hiposfagma",
+   "n": 4,
+   "src": "_verificadas/75_hiposfagma__KanskisClini_p178_1.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hiposfagma",
+   "frase": "Hemorragia subconjuntival roja homogénea que oculta los vasos.",
+   "claves": [
+    {
+     "t": "Sangre subconjuntival",
+     "m": [
+      0.75,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Benigno: tranquilizar; medir presión si es recurrente.",
+   "codes": [
+    "2.01.1.097"
+   ],
+   "confunde": "Conjuntivitis: vasos visibles.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "endoftalmitis",
+   "n": 5,
+   "src": "_verificadas/276_oftal_Endoftalmitis__KanskisCli_p302_1.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Endoftalmitis postoperatoria",
+   "frase": "Ojo rojo con hipopión tras cirugía de catarata.",
+   "claves": [
+    {
+     "t": "Opacidad intraocular",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Urgencia: antibiótico intravítreo.",
+   "codes": [
+    "6.02.1.003"
+   ],
+   "confunde": "Uveítis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pterigion",
+   "n": 6,
+   "src": "biblioteca/12_oftalmologia/oftal-01/54_pterigion__kanski_p175.jpg",
+   "topic": "oftal-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pterigión",
+   "frase": "Pliegue fibrovascular triangular que avanza sobre la córnea.",
+   "claves": [
+    {
+     "t": "Pterigión",
+     "m": [
+      0.55,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Cirugía si invade el eje visual.",
+   "codes": [
+    "6.02.1.020"
+   ],
+   "confunde": "Pinguécula: no invade la córnea.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "conjuntivitis-bacteriana",
+   "n": 7,
+   "src": "biblioteca/12_oftalmologia/oftal-02/02_conjuntivitis_bacteriana__kanski_p147.jpg",
+   "topic": "oftal-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Conjuntivitis bacteriana",
+   "frase": "Hiperemia con secreción mucopurulenta.",
+   "claves": [
+    {
+     "t": "Secreción",
+     "m": [
+      0.3,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Antibiótico tópico.",
+   "codes": [
+    "6.02.1.005"
+   ],
+   "confunde": "Viral: secreción acuosa y adenopatía.",
+   "q": "EUNACOM Julio 2013 · Pregunta 44",
+   "auto": false
+  },
+  {
+   "id": "oftalmia-neonatal",
+   "n": 8,
+   "src": "_verificadas/77_conjuntivitis_neonatal__KanskisClini_p152_1.jpg",
+   "topic": "oftal-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Oftalmía neonatal",
+   "frase": "Edema palpebral con secreción purulenta en el recién nacido.",
+   "claves": [
+    {
+     "t": "Secreción purulenta",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Gonococo: ceftriaxona sistémica; Chlamydia: eritromicina oral.",
+   "codes": [
+    "2.01.1.095"
+   ],
+   "confunde": "Conjuntivitis química: primeras 24 h.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 32",
+   "auto": false
+  },
+  {
+   "id": "orzuelo",
+   "n": 9,
+   "src": "biblioteca/12_oftalmologia/oftal-03/01_orzuelo__amir-oftalmo_p57.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Orzuelo",
+   "frase": "Nódulo doloroso del borde palpebral.",
+   "claves": [
+    {
+     "t": "Orzuelo",
+     "m": [
+      0.48,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Calor local.",
+   "codes": [
+    "6.02.1.019"
+   ],
+   "confunde": "Chalazión: indoloro.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "chalazion",
+   "n": 10,
+   "src": "biblioteca/12_oftalmologia/oftal-03/01_chalazion__kanski_p16.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Chalazión",
+   "frase": "Nódulo indoloro del tarso.",
+   "claves": [
+    {
+     "t": "Chalazión",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Calor y masaje; curetaje si persiste.",
+   "codes": [
+    "6.02.1.004"
+   ],
+   "confunde": "Orzuelo: agudo y doloroso.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "blefaritis",
+   "n": 11,
+   "src": "biblioteca/12_oftalmologia/oftal-03/02_blefaritis__amir-oftalmo_p57.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Blefaritis",
+   "frase": "Borde palpebral rojo con escamas en las pestañas.",
+   "claves": [
+    {
+     "t": "Escamas",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Higiene palpebral.",
+   "codes": [
+    "6.02.1.002"
+   ],
+   "confunde": "Conjuntivitis.",
+   "q": "EUNACOM Julio 2017 · Pregunta 163",
+   "auto": false
+  },
+  {
+   "id": "basocelular-parpado",
+   "n": 12,
+   "src": "biblioteca/12_oftalmologia/oftal-03/56_carcinoma-basocelular-parpado__kanski_p28.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma basocelular del párpado",
+   "frase": "Lesión ulcerada de bordes perlados.",
+   "claves": [
+    {
+     "t": "Úlcera",
+     "m": [
+      0.5,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Biopsia y resección.",
+   "codes": [
+    "6.02.1.028"
+   ],
+   "confunde": "Chalazión recurrente: biopsiar.",
+   "q": "EUNACOM Enero 2023 · Pregunta 112",
+   "auto": false
+  },
+  {
+   "id": "papiloma-conjuntival",
+   "n": 13,
+   "src": "biblioteca/12_oftalmologia/oftal-03/57_papiloma-conjuntival__kanski_p482.jpg",
+   "topic": "oftal-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Papiloma conjuntival",
+   "frase": "Masa rosada con vasos en penacho.",
+   "claves": [
+    {
+     "t": "Papiloma",
+     "m": [
+      0.4,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Resección.",
+   "codes": [
+    "6.02.1.025"
+   ],
+   "confunde": "Pterigión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dendritica",
+   "n": 14,
+   "src": "biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina__cto-oftalmo_p40.jpg",
+   "topic": "oftal-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlcera dendrítica",
+   "frase": "Úlcera ramificada que tiñe con fluoresceína.",
+   "claves": [
+    {
+     "t": "Dendrita",
+     "m": [
+      0.5,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aciclovir; NUNCA corticoides.",
+   "codes": [
+    "6.02.1.021"
+   ],
+   "confunde": "Abrasión: lineal.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 156",
+   "auto": true
+  },
+  {
+   "id": "dendritas-fluoresceina",
+   "n": 15,
+   "src": "biblioteca/12_oftalmologia/oftal-04/01_ulcera-dendritica-con-fluoresceina_alt1__amir-oftalmo_p46.jpg",
+   "topic": "oftal-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlceras dendríticas con fluoresceína",
+   "frase": "Varias dendritas teñidas.",
+   "claves": [
+    {
+     "t": "Dendritas",
+     "m": [
+      0.4,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Aciclovir tópico u oral.",
+   "codes": [
+    "6.02.1.021"
+   ],
+   "confunde": "Úlcera bacteriana: infiltrado.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "queratitis-bacteriana",
+   "n": 16,
+   "src": "biblioteca/12_oftalmologia/oftal-04/54_queratitis-bacteriana-hipopion__kanski_p188.jpg",
+   "topic": "oftal-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratitis bacteriana grave",
+   "frase": "Úlcera corneal con hipopión.",
+   "claves": [
+    {
+     "t": "Infiltrado corneal",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Usuario de lentes de contacto: Pseudomonas; derivar urgente.",
+   "codes": [
+    "6.02.2.010",
+    "6.02.1.021"
+   ],
+   "confunde": "Úlcera herpética.",
+   "q": "EUNACOM Julio 2015 · Pregunta 107",
+   "auto": false
+  },
+  {
+   "id": "epiescleritis",
+   "n": 17,
+   "src": "biblioteca/12_oftalmologia/oftal-05/02_epiescleritis__amir-oftalmo_p47.jpg",
+   "topic": "oftal-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Epiescleritis",
+   "frase": "Enrojecimiento sectorial leve.",
+   "claves": [
+    {
+     "t": "Sector rojo",
+     "m": [
+      0.35,
+      0.55,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Blanquea con fenilefrina; autolimitada.",
+   "codes": [
+    "2.01.1.097"
+   ],
+   "confunde": "Escleritis: dolorosa, no blanquea.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "escleritis",
+   "n": 18,
+   "src": "biblioteca/12_oftalmologia/oftal-05/01_escleritis__cto-oftalmo_p42.jpg",
+   "topic": "oftal-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escleritis",
+   "frase": "Ojo rojo violáceo y doloroso.",
+   "claves": [
+    {
+     "t": "Esclera inflamada",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Buscar enfermedad reumatológica; AINE sistémico.",
+   "codes": [
+    "2.01.1.097"
+   ],
+   "confunde": "Epiescleritis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "escleromalacia",
+   "n": 19,
+   "src": "biblioteca/18_oftalmologia/oftal-05/atlas_372_escleromalacia_perforante_escl.jpg",
+   "topic": "oftal-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escleromalacia perforante",
+   "frase": "Adelgazamiento de la esclera que deja ver la úvea.",
+   "claves": [
+    {
+     "t": "Úvea visible",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Artritis reumatoide grave.",
+   "codes": [
+    "2.01.1.097"
+   ],
+   "confunde": "Nevus escleral.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "glaucoma-agudo",
+   "n": 20,
+   "src": "biblioteca/12_oftalmologia/oftal-06/01_glaucoma-agudo-pupila-media-edema-cornea__amir-oftalmo_p36.jpg",
+   "topic": "oftal-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glaucoma agudo",
+   "frase": "Córnea edematosa y pupila en midriasis media.",
+   "claves": [
+    {
+     "t": "Pupila en midriasis media",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Acetazolamida, manitol y pilocarpina; luego iridotomía.",
+   "codes": [
+    "6.02.2.005"
+   ],
+   "confunde": "Uveítis: pupila en miosis.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 3",
+   "auto": true
+  },
+  {
+   "id": "glaucoma-midriasis",
+   "n": 21,
+   "src": "biblioteca/12_oftalmologia/oftal-06/52_glaucoma-agudo-edema-corneal__kanski_p375.jpg",
+   "topic": "oftal-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glaucoma agudo: midriasis y edema",
+   "frase": "Córnea turbia y pupila fija.",
+   "claves": [
+    {
+     "t": "Córnea edematosa",
+     "m": [
+      0.5,
+      0.5,
+      0.2
+     ]
+    }
+   ],
+   "conducta": "Ojo duro como piedra.",
+   "codes": [
+    "6.02.2.005",
+    "6.02.5.012"
+   ],
+   "confunde": "Conjuntivitis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "campo-glaucoma",
+   "n": 22,
+   "src": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg",
+   "topic": "oftal-07",
+   "type": "esquema",
+   "size": "half",
+   "title": "Daño glaucomatoso del campo visual",
+   "frase": "Pérdida avanzada con islote central.",
+   "claves": [
+    {
+     "t": "Campo perdido",
+     "m": [
+      0.75,
+      0.65,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Análogos de prostaglandinas.",
+   "codes": [
+    "6.02.1.013",
+    "6.02.4.001"
+   ],
+   "confunde": "Hemianopsia: respeta el meridiano vertical.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "papila-glaucomatosa",
+   "n": 23,
+   "src": "biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa__amir-oftalmo_p34.jpg",
+   "topic": "oftal-07",
+   "type": "fondo",
+   "size": "half",
+   "title": "Papila glaucomatosa",
+   "frase": "Excavación aumentada.",
+   "claves": [
+    {
+     "t": "Excavación",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Glaucoma crónico: asintomático, tamizaje.",
+   "codes": [
+    "6.02.1.013",
+    "6.02.5.010"
+   ],
+   "confunde": "Papila normal: excavación pequeña.",
+   "q": "EUNACOM Julio 2024 · Pregunta 147",
+   "auto": false
+  },
+  {
+   "id": "oct",
+   "n": 24,
+   "src": "biblioteca/12_oftalmologia/oftal-07/02_campimetria-papila-en-gcs__cto-oftalmo_p52.jpg",
+   "topic": "oftal-07",
+   "type": "esquema",
+   "size": "half",
+   "title": "OCT de fibras nerviosas",
+   "frase": "Adelgazamiento de la capa de fibras.",
+   "claves": [
+    {
+     "t": "Sectores en rojo",
+     "m": [
+      0.08,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Seguimiento del glaucoma.",
+   "codes": [
+    "6.02.1.013"
+   ],
+   "confunde": "Artefacto.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "buftalmos",
+   "n": 25,
+   "src": "biblioteca/12_oftalmologia/oftal-07/55_glaucoma-congenito-buftalmos__kanski_p398.jpg",
+   "topic": "oftal-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glaucoma congénito: buftalmos",
+   "frase": "Ojo grande con córnea opaca.",
+   "claves": [
+    {
+     "t": "Córnea opaca",
+     "m": [
+      0.15,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Cirugía urgente.",
+   "codes": [
+    "6.02.1.012"
+   ],
+   "confunde": "Megalocórnea.",
+   "q": "EUNACOM Julio 2024 · Pregunta 83",
+   "auto": false
+  },
+  {
+   "id": "catarata-cortical",
+   "n": 26,
+   "src": "biblioteca/12_oftalmologia/oftal-08/01_catarata_1__amir-oftalmo_p40.jpg",
+   "topic": "oftal-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Catarata cortical",
+   "frase": "Opacidades radiales del cristalino.",
+   "claves": [
+    {
+     "t": "Opacidad",
+     "m": [
+      0.55,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Facoemulsificación si limita la vida diaria.",
+   "codes": [
+    "6.02.1.003"
+   ],
+   "confunde": "Leucoma corneal.",
+   "q": "EUNACOM Julio 2018 · Pregunta 171",
+   "auto": false
+  },
+  {
+   "id": "catarata-madura",
+   "n": 27,
+   "src": "_verificadas/272_oftal_Catarata__2017BatesG_p1022_1.jpg",
+   "topic": "oftal-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Catarata madura",
+   "frase": "Cristalino blanco detrás de la pupila.",
+   "claves": [
+    {
+     "t": "Cristalino blanco",
+     "m": [
+      0.42,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Cirugía.",
+   "codes": [
+    "6.02.1.003"
+   ],
+   "confunde": "Leucocoria del niño.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "leucocoria",
+   "n": 28,
+   "src": "biblioteca/12_oftalmologia/oftal-08/02_leucocoria__amir-oftalmo_p55.jpg",
+   "topic": "oftal-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucocoria",
+   "frase": "Reflejo blanco en la pupila.",
+   "claves": [
+    {
+     "t": "Pupila blanca",
+     "m": [
+      0.75,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Retinoblastoma hasta demostrar lo contrario: derivar urgente.",
+   "codes": [
+    "6.02.1.029",
+    "6.02.5.006"
+   ],
+   "confunde": "Catarata congénita.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 156",
+   "auto": true
+  },
+  {
+   "id": "refraccion",
+   "n": 29,
+   "src": "biblioteca/12_oftalmologia/oftal-09/S1_vicios-refraccion__propio.svg",
+   "topic": "oftal-09",
+   "type": "esquema",
+   "size": "half",
+   "title": "Vicios de refracción",
+   "frase": "Miope enfoca delante; hipermétrope detrás.",
+   "claves": [
+    {
+     "t": "Miopía",
+     "m": [
+      0.22,
+      0.8,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Lentes; tratar antes de los 7–8 años para evitar ambliopía.",
+   "codes": [
+    "6.02.1.001",
+    "2.01.1.098"
+   ],
+   "confunde": "Presbicia: pérdida de acomodación.",
+   "q": "EUNACOM Julio 2017 · Pregunta 125",
+   "auto": false
+  },
+  {
+   "id": "esotropia",
+   "n": 30,
+   "src": "biblioteca/12_oftalmologia/oftal-09/56_esotropia-congenita__kanski_p770.jpg",
+   "topic": "oftal-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esotropía del lactante",
+   "frase": "Ojo desviado hacia adentro.",
+   "claves": [
+    {
+     "t": "Ojo desviado",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Después de los 6 meses: derivar.",
+   "codes": [
+    "6.02.1.011",
+    "2.01.1.096"
+   ],
+   "confunde": "Pseudoestrabismo por epicanto.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 38",
+   "auto": false
+  },
+  {
+   "id": "hirschberg",
+   "n": 31,
+   "src": "biblioteca/12_oftalmologia/oftal-09/54_test-hirschberg__kanski_p759.jpg",
+   "topic": "oftal-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Test de Hirschberg",
+   "frase": "Reflejo corneal desplazado.",
+   "claves": [
+    {
+     "t": "Reflejo desplazado",
+     "m": [
+      0.25,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Estrabismo: derivar.",
+   "codes": [
+    "6.02.5.013"
+   ],
+   "confunde": "Reflejo centrado: normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hemangioma-palpebral",
+   "n": 32,
+   "src": "biblioteca/12_oftalmologia/oftal-09/55_hemangioma-capilar-palpebral__kanski_p113.jpg",
+   "topic": "oftal-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemangioma palpebral",
+   "frase": "Masa roja que cierra el ojo.",
+   "claves": [
+    {
+     "t": "Hemangioma",
+     "m": [
+      0.2,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Si ocluye el eje visual: propranolol (riesgo de ambliopía).",
+   "codes": [
+    "6.01.2.006"
+   ],
+   "confunde": "Celulitis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "desgarro-herradura",
+   "n": 33,
+   "src": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo_alt1__amir-oftalmo_p13.jpg",
+   "topic": "oftal-10",
+   "type": "fondo",
+   "size": "half",
+   "title": "Desgarro en herradura",
+   "frase": "Desgarro retiniano con retina levantada.",
+   "claves": [
+    {
+     "t": "Desgarro",
+     "m": [
+      0.65,
+      0.08,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Fotopsias y miodesopsias: fondo de ojo urgente; láser.",
+   "codes": [
+    "6.02.2.003"
+   ],
+   "confunde": "Desprendimiento del vítreo sin desgarro.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 71",
+   "auto": false
+  },
+  {
+   "id": "desprendimiento",
+   "n": 34,
+   "src": "biblioteca/12_oftalmologia/oftal-10/54_desprendimiento-retina-desgarro__kanski_p698.jpg",
+   "topic": "oftal-10",
+   "type": "esquema",
+   "size": "half",
+   "title": "Desgarro y retina levantada",
+   "frase": "Retina desprendida con desgarros.",
+   "claves": [
+    {
+     "t": "Desgarro",
+     "m": [
+      0.68,
+      0.8,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Cirugía urgente.",
+   "codes": [
+    "6.02.2.003"
+   ],
+   "confunde": "Retinosquisis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fondo-desprendimiento",
+   "n": 35,
+   "src": "biblioteca/12_oftalmologia/oftal-10/01_dr-regmatogeno-fondo__cto-oftalmo_p65.jpg",
+   "topic": "oftal-10",
+   "type": "fondo",
+   "size": "half",
+   "title": "Desprendimiento de retina",
+   "frase": "Retina gris y levantada en la mitad superior.",
+   "claves": [
+    {
+     "t": "Retina desprendida",
+     "m": [
+      0.5,
+      0.25,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Mácula aún aplicada: cirugía muy urgente.",
+   "codes": [
+    "6.02.2.003",
+    "6.02.2.004"
+   ],
+   "confunde": "Hemorragia vítrea.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "rojo-cereza",
+   "n": 36,
+   "src": "biblioteca/12_oftalmologia/oftal-11/01_mancha-rojo-cereza-oacr__cto-oftalmo_p70.jpg",
+   "topic": "oftal-11",
+   "type": "fondo",
+   "size": "half",
+   "title": "Oclusión de la arteria central",
+   "frase": "Mancha rojo cereza en la mácula pálida.",
+   "claves": [
+    {
+     "t": "Mancha rojo cereza",
+     "m": [
+      0.55,
+      0.55,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Urgencia: buscar arteritis y embolia.",
+   "codes": [
+    "6.02.2.004"
+   ],
+   "confunde": "Oclusión venosa: hemorragias.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "hemorragias-llama",
+   "n": 37,
+   "src": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama__amir-oftalmo_p15.jpg",
+   "topic": "oftal-11",
+   "type": "fondo",
+   "size": "half",
+   "title": "Trombosis de la vena central",
+   "frase": "Hemorragias en llama en todo el fondo.",
+   "claves": [
+    {
+     "t": "Hemorragias en llama",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Controlar factores de riesgo; anti-VEGF si hay edema.",
+   "codes": [
+    "6.02.2.004"
+   ],
+   "confunde": "Retinopatía diabética.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "oclusion-venosa",
+   "n": 38,
+   "src": "biblioteca/12_oftalmologia/oftal-11/02_ovcr-hemorragias-en-llama_alt1__cto-oftalmo_p71.jpg",
+   "topic": "oftal-11",
+   "type": "fondo",
+   "size": "half",
+   "title": "Oclusión venosa central",
+   "frase": "Hemorragias difusas y venas tortuosas.",
+   "claves": [
+    {
+     "t": "Hemorragias",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Seguimiento oftalmológico.",
+   "codes": [
+    "6.02.2.004"
+   ],
+   "confunde": "Retinopatía hipertensiva.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "rd-exudados",
+   "n": 39,
+   "src": "biblioteca/12_oftalmologia/oftal-12/02_rd-no-proliferativa-hemorragias-exudados__cto-oftalmo_p67.jpg",
+   "topic": "oftal-12",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía diabética no proliferativa",
+   "frase": "Hemorragias y exudados duros.",
+   "claves": [
+    {
+     "t": "Exudados duros",
+     "m": [
+      0.6,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Control metabólico y fondo de ojo anual.",
+   "codes": [
+    "1.02.1.015",
+    "6.02.3.002"
+   ],
+   "confunde": "Drusas.",
+   "q": "EUNACOM Julio 2025 · Pregunta 124",
+   "auto": false
+  },
+  {
+   "id": "neovasos-papila",
+   "n": 40,
+   "src": "_verificadas/273_oftal_Retinopatía_diabética_prolifer__KanskisCli_p547_1.jpg",
+   "topic": "oftal-12",
+   "type": "fondo",
+   "size": "half",
+   "title": "Neovasos en la papila",
+   "frase": "Retinopatía proliferativa.",
+   "claves": [
+    {
+     "t": "Neovasos",
+     "m": [
+      0.72,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Panfotocoagulación.",
+   "codes": [
+    "6.02.1.023"
+   ],
+   "confunde": "No proliferativa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hemorragia-vitrea",
+   "n": 41,
+   "src": "biblioteca/12_oftalmologia/oftal-12/01_retinopatia-diabetica__cto-oftalmo_p68.jpg",
+   "topic": "oftal-12",
+   "type": "fondo",
+   "size": "half",
+   "title": "Hemorragia vítrea",
+   "frase": "Sangre que tapa parte del fondo.",
+   "claves": [
+    {
+     "t": "Sangre",
+     "m": [
+      0.25,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Diabético con pérdida brusca de visión.",
+   "codes": [
+    "6.02.2.006"
+   ],
+   "confunde": "Desprendimiento de retina.",
+   "q": "EUNACOM Julio 2015 · Pregunta 179",
+   "auto": false
+  },
+  {
+   "id": "hilo-cobre",
+   "n": 42,
+   "src": "_verificadas/274_oftal_Retinopatía_hipertensiva_grado__KanskisCli_p570_1.jpg",
+   "topic": "oftal-13",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía hipertensiva grave",
+   "frase": "Exudados algodonosos y estrella macular.",
+   "claves": [
+    {
+     "t": "Estrella macular",
+     "m": [
+      0.5,
+      0.6,
+      0.1
+     ]
+    },
+    {
+     "t": "Exudado algodonoso",
+     "m": [
+      0.2,
+      0.2,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Emergencia hipertensiva: bajar la presión de forma controlada.",
+   "codes": [
+    "6.02.3.005",
+    "1.09.2.002"
+   ],
+   "confunde": "Retinopatía diabética.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "retinopatia-hta",
+   "n": 43,
+   "src": "biblioteca/12_oftalmologia/oftal-13/01_retinopatia-hipertensiva__cto-oftalmo_p69.jpg",
+   "topic": "oftal-13",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía hipertensiva",
+   "frase": "Cruces arteriovenosos y exudados.",
+   "claves": [
+    {
+     "t": "Cruce AV",
+     "m": [
+      0.85,
+      0.4,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Daño de órgano blanco.",
+   "codes": [
+    "6.02.3.005"
+   ],
+   "confunde": "Oclusión venosa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "drusas",
+   "n": 44,
+   "src": "biblioteca/12_oftalmologia/oftal-14/01_dmae-seca-drusas__cto-oftalmo_p72.jpg",
+   "topic": "oftal-14",
+   "type": "fondo",
+   "size": "half",
+   "title": "Drusas",
+   "frase": "Depósitos amarillentos en la retina.",
+   "claves": [
+    {
+     "t": "Drusas",
+     "m": [
+      0.85,
+      0.2,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "DMAE seca: control y Amsler.",
+   "codes": [
+    "6.02.1.010"
+   ],
+   "confunde": "Exudados duros.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 150",
+   "auto": false
+  },
+  {
+   "id": "dmae-humeda",
+   "n": 45,
+   "src": "biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda_alt1__cto-oftalmo_p107.jpg",
+   "topic": "oftal-14",
+   "type": "fondo",
+   "size": "half",
+   "title": "DMAE húmeda",
+   "frase": "Hemorragia subretiniana macular.",
+   "claves": [
+    {
+     "t": "Hemorragia",
+     "m": [
+      0.55,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Anti-VEGF intravítreo.",
+   "codes": [
+    "6.02.1.010"
+   ],
+   "confunde": "DMAE seca.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "amsler",
+   "n": 46,
+   "src": "biblioteca/12_oftalmologia/oftal-14/02_dmae-humeda__cto-oftalmo_p73.jpg",
+   "topic": "oftal-14",
+   "type": "esquema",
+   "size": "half",
+   "title": "Rejilla de Amsler",
+   "frase": "Las líneas deben verse rectas.",
+   "claves": [
+    {
+     "t": "Punto central",
+     "m": [
+      0.5,
+      0.5,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Metamorfopsia: derivar.",
+   "codes": [
+    "6.02.1.010"
+   ],
+   "confunde": "Escotoma.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pupila-gota",
+   "n": 47,
+   "src": "_verificadas/079_oftal_Globo_ocular_abierto__Knoop_p93.jpg",
+   "topic": "oftal-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pupila en gota",
+   "frase": "Apunta a la herida con prolapso de iris.",
+   "claves": [
+    {
+     "t": "Pupila en gota",
+     "m": [
+      0.5,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Globo abierto: sello rígido, no presionar; cirugía.",
+   "codes": [
+    "6.02.2.007"
+   ],
+   "confunde": "Coloboma.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 1",
+   "auto": false
+  },
+  {
+   "id": "hipema",
+   "n": 48,
+   "src": "biblioteca/12_oftalmologia/oftal-15/01_hipema__kanski_p882.jpg",
+   "topic": "oftal-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hipema",
+   "frase": "Sangre en la cámara anterior.",
+   "claves": [
+    {
+     "t": "Sangre",
+     "m": [
+      0.5,
+      0.7,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Reposo con cabecera elevada; controlar presión.",
+   "codes": [
+    "6.02.1.014",
+    "6.02.2.002"
+   ],
+   "confunde": "Hipopión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fractura-piso",
+   "n": 49,
+   "src": "biblioteca/12_oftalmologia/oftal-15/01_fractura-suelo-orbitario-tc__cto-oftalmo_p94.jpg",
+   "topic": "oftal-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura del piso orbitario",
+   "frase": "Contenido orbitario que cae al seno maxilar.",
+   "claves": [
+    {
+     "t": "Herniación",
+     "m": [
+      0.4,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Diplopía al mirar arriba: cirugía.",
+   "codes": [
+    "4.01.2.015",
+    "6.02.2.002"
+   ],
+   "confunde": "Hematoma.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "quemadura-quimica",
+   "n": 50,
+   "src": "biblioteca/12_oftalmologia/oftal-16/01_quemadura_quimica__kanski_p895.jpg",
+   "topic": "oftal-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Quemadura química grave",
+   "frase": "Isquemia limbar y córnea opaca.",
+   "claves": [
+    {
+     "t": "Córnea opaca",
+     "m": [
+      0.5,
+      0.5,
+      0.2
+     ]
+    }
+   ],
+   "conducta": "Lavado inmediato y profuso.",
+   "codes": [
+    "6.02.2.001"
+   ],
+   "confunde": "Conjuntivitis.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 173",
+   "auto": false
+  },
+  {
+   "id": "preseptal",
+   "n": 51,
+   "src": "biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal__amir-oftalmo_p43.jpg",
+   "topic": "oftal-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Celulitis preseptal",
+   "frase": "Párpado rojo e hinchado sin proptosis.",
+   "claves": [
+    {
+     "t": "Edema palpebral",
+     "m": [
+      0.25,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Antibiótico oral.",
+   "codes": [
+    "2.01.1.005"
+   ],
+   "confunde": "Orbitaria: proptosis y dolor al mover.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 122",
+   "auto": false
+  },
+  {
+   "id": "dacriocistitis",
+   "n": 52,
+   "src": "biblioteca/12_oftalmologia/oftal-17/01_celulitis-preseptal_alt1__cto-oftalmo_p30.jpg",
+   "topic": "oftal-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dacriocistitis con celulitis preseptal",
+   "frase": "Edema y eritema del ángulo interno.",
+   "claves": [
+    {
+     "t": "Saco lagrimal",
+     "m": [
+      0.4,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Antibióticos; dacriocistorrinostomía diferida.",
+   "codes": [
+    "6.02.1.009"
+   ],
+   "confunde": "Orzuelo.",
+   "q": "EUNACOM Julio 2015 · Pregunta 106",
+   "auto": false
+  },
+  {
+   "id": "celulitis-orbitaria",
+   "n": 53,
+   "src": "biblioteca/12_oftalmologia/oftal-17/01_celulitis_orbitaria_TC__kanski_p100.jpg",
+   "topic": "oftal-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Celulitis orbitaria en la TAC",
+   "frase": "Inflamación de la grasa orbitaria derecha.",
+   "claves": [
+    {
+     "t": "Grasa orbitaria",
+     "m": [
+      0.25,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Hospitalizar: antibióticos EV.",
+   "codes": [
+    "2.01.1.005"
+   ],
+   "confunde": "Preseptal: limitada al párpado.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "marcus-gunn",
+   "n": 54,
+   "src": "biblioteca/12_oftalmologia/oftal-18/S1_marcus-gunn__propio.svg",
+   "topic": "oftal-18",
+   "type": "esquema",
+   "size": "half",
+   "title": "Pupila de Marcus Gunn",
+   "frase": "Luz en el ojo enfermo: ambas pupilas se dilatan.",
+   "claves": [
+    {
+     "t": "Ojo enfermo",
+     "m": [
+      0.55,
+      0.65,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Neuritis óptica.",
+   "codes": [
+    "6.02.5.011",
+    "6.02.1.016"
+   ],
+   "confunde": "Anisocoria.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "marcus-gunn-foto",
+   "n": 55,
+   "src": "biblioteca/12_oftalmologia/oftal-18/01_linterna_oscilante_dpar__kanski_p820.jpg",
+   "topic": "oftal-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de la linterna oscilante",
+   "frase": "Secuencia A–D.",
+   "claves": [
+    {
+     "t": "Pupila dilatada",
+     "m": [
+      0.75,
+      0.6,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Defecto pupilar aferente relativo.",
+   "codes": [
+    "6.02.5.011"
+   ],
+   "confunde": "III par.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "adie",
+   "n": 56,
+   "src": "biblioteca/12_oftalmologia/oftal-18/02_pupila-de-adie__amir-oftalmo_p23.jpg",
+   "topic": "oftal-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pupila de Adie",
+   "frase": "Midriasis que se contrae con pilocarpina diluida.",
+   "claves": [
+    {
+     "t": "Pupila dilatada",
+     "m": [
+      0.82,
+      0.2,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Benigna.",
+   "codes": [
+    "6.02.5.011"
+   ],
+   "confunde": "III par: ptosis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "neuritis-rm",
+   "n": 57,
+   "src": "_verificadas/374_oftal_Neuritis_óptica__BrantHelms_p287.jpg",
+   "topic": "oftal-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neuritis óptica en la RM",
+   "frase": "Realce de ambos nervios ópticos (flechas).",
+   "claves": [
+    {
+     "t": "Nervio óptico",
+     "m": [
+      0.27,
+      0.38,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Bolos de metilprednisolona.",
+   "codes": [
+    "6.02.1.016",
+    "1.10.1.008"
+   ],
+   "confunde": "Neuropatía isquémica.",
+   "q": "EUNACOM Julio 2016 · Pregunta 5",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "orzuelo",
+   "b": "chalazion",
+   "title": "Orzuelo vs chalazión",
+   "la": [
+    "Agudo y doloroso"
+   ],
+   "lb": [
+    "Crónico e indoloro"
+   ],
+   "diff": "Chalazión recurrente: biopsia."
+  },
+  {
+   "a": "epiescleritis",
+   "b": "escleritis",
+   "title": "Epiescleritis vs escleritis",
+   "la": [
+    "Leve, blanquea"
+   ],
+   "lb": [
+    "Dolorosa, no blanquea"
+   ],
+   "diff": "La escleritis busca enfermedad sistémica."
+  },
+  {
+   "a": "drusas",
+   "b": "dmae-humeda",
+   "title": "DMAE seca vs húmeda",
+   "la": [
+    "Drusas"
+   ],
+   "lb": [
+    "Hemorragia"
+   ],
+   "diff": "La húmeda recibe anti-VEGF."
+  },
+  {
+   "a": "preseptal",
+   "b": "celulitis-orbitaria",
+   "title": "Preseptal vs orbitaria",
+   "la": [
+    "Solo párpado"
+   ],
+   "lb": [
+    "Proptosis, oftalmoplejía"
+   ],
+   "diff": "La orbitaria se hospitaliza."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Mancha rojo cereza",
+   "dx": "Oclusión de la arteria central.",
+   "find": "rojo cereza",
+   "topic": "oftal-11",
+   "img": "rojo-cereza",
+   "def": "Fóvea roja en retina pálida."
+  },
+  {
+   "name": "Leucocoria",
+   "dx": "Retinoblastoma.",
+   "find": "leucocoria",
+   "topic": "oftal-08",
+   "img": "leucocoria",
+   "def": "Reflejo pupilar blanco."
+  },
+  {
+   "name": "Pupila en gota",
+   "dx": "Globo ocular abierto.",
+   "find": "gota",
+   "topic": "oftal-15",
+   "img": "pupila-gota",
+   "def": "Pupila deformada hacia la herida."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 57
+ }
+}

@@ -1,0 +1,2075 @@
+{
+ "libro": "neurologia",
+ "title": "Neurología y Geriatría",
+ "prefix": "neuro",
+ "topics": {
+  "neuro-01": "Accidente Cerebrovascular Isquémico",
+  "neuro-02": "Ataque Isquémico Transitorio (AIT)",
+  "neuro-03": "Hemorragia Intracerebral Espontánea",
+  "neuro-04": "Hemorragia Subaracnoidea (HSA) Aneurismática",
+  "neuro-05": "Trombosis Venosa Cerebral",
+  "neuro-06": "Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional",
+  "neuro-07": "Cefalea en Racimos (Cluster) y Neuralgia del Trigémino",
+  "neuro-08": "Epilepsia del Adulto",
+  "neuro-10": "Primera Crisis Convulsiva del Adulto y Diagnóstico Diferencial con Síncope",
+  "neuro-11": "Enfermedad de Parkinson",
+  "neuro-12": "Parkinsonismos Secundarios, Farmacológicos y Síndromes Parkinson-Plus",
+  "neuro-13": "Temblor Esencial vs Parkinsoniano y Distonías Agudas por Neurolépticos",
+  "neuro-14": "Enfermedad de Alzheimer y Deterioro Cognitivo Leve",
+  "neuro-15": "Demencia Vascular, Demencia por Cuerpos de Lewy y Demencia Frontotemporal",
+  "neuro-17": "Miastenia Gravis",
+  "neuro-18": "Esclerosis Múltiple",
+  "neuro-19": "Parálisis Facial Periférica (Bell) vs Central y Neuropatías por Atrapamiento",
+  "neuro-20": "Síndrome Vertiginoso Periférico vs Central",
+  "neuro-22": "Fragilidad, Sarcopenia y Valoración Geriátrica Integral (VGI)",
+  "neuro-23": "Caídas en el Adulto Mayor, Trastornos de la Marcha y Fractura de Cadera GES",
+  "neuro-24": "Polifarmacia, Criterios de Beers / STOPP-START e Incontinencia Urinaria en la Persona Mayor",
+  "neuro-25": "Cardiovascular en el Adulto Mayor",
+  "neuro-26": "Cuidados Paliativos, Dolor Crónico y Final de Vida"
+ },
+ "images": [
+  {
+   "id": "acv-signos-precoces",
+   "n": 1,
+   "src": "biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_1__cto-radiologia_p62.jpg",
+   "topic": "neuro-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "ACV isquémico: signos precoces en la TC",
+   "frase": "A: arteria cerebral media hiperdensa. B: borramiento de la ínsula y los ganglios basales.",
+   "claves": [
+    {
+     "t": "ACM hiperdensa",
+     "m": [
+      0.15,
+      0.45,
+      0.06
+     ]
+    },
+    {
+     "t": "Pérdida del ribete insular",
+     "m": [
+      0.7,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "TC sin contraste para descartar sangre: trombolisis dentro de 4,5 h.",
+   "codes": [
+    "1.10.2.007",
+    "1.10.4.001"
+   ],
+   "confunde": "Hemorragia: hiperdensa en el parénquima.",
+   "q": "EUNACOM Julio 2019 · Pregunta 93",
+   "auto": true
+  },
+  {
+   "id": "acv-establecido",
+   "n": 2,
+   "src": "biblioteca/09_neurologia/neuro-01/02_infartos-establecidos-por-territorio-tc__cto-radiologia_p63.jpg",
+   "topic": "neuro-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "Infartos establecidos por territorio",
+   "frase": "Zonas hipodensas según la arteria ocluida.",
+   "claves": [
+    {
+     "t": "Infarto de la ACM",
+     "m": [
+      0.4,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Fuera de ventana: prevención secundaria y rehabilitación.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "Tumor: no respeta territorios vasculares.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "angiotc-acm",
+   "n": 3,
+   "src": "biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_2__cto-radiologia_p62.jpg",
+   "topic": "neuro-01",
+   "type": "imagen",
+   "size": "half",
+   "title": "AngioTC: oclusión de la ACM",
+   "frase": "Corte del contraste en la arteria cerebral media (flecha).",
+   "claves": [
+    {
+     "t": "Oclusión de la ACM",
+     "m": [
+      0.4,
+      0.48,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Oclusión de gran vaso: trombectomía mecánica.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "Vaso permeable: sin corte.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "difusion-infarto",
+   "n": 4,
+   "src": "_verificadas/140_neuro_AIT__ctmri_path_p94_1.jpg",
+   "topic": "neuro-02",
+   "type": "imagen",
+   "size": "half",
+   "title": "RM de difusión: infarto",
+   "frase": "Hiperseñal en difusión aunque los síntomas se hayan ido.",
+   "claves": [
+    {
+     "t": "Lesión en difusión",
+     "m": [
+      0.15,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Difusión positiva = infarto, no AIT.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "AIT: difusión negativa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hollenhorst",
+   "n": 5,
+   "src": "_verificadas/334_neuro_AIT__KanskisCli_p562_1.jpg",
+   "topic": "neuro-02",
+   "type": "fondo",
+   "size": "half",
+   "title": "Émbolo de Hollenhorst",
+   "frase": "Placa brillante de colesterol en una arteriola retiniana.",
+   "claves": [
+    {
+     "t": "Émbolo de colesterol",
+     "m": [
+      0.44,
+      0.62,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Amaurosis fugax: estudiar la carótida ipsilateral.",
+   "codes": [
+    "1.10.2.007",
+    "4.01.1.046"
+   ],
+   "confunde": "Exudado: no está dentro del vaso.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "estenosis-carotidea",
+   "n": 6,
+   "src": "biblioteca/09_neurologia/neuro-02/01_estenosis-carotidea-angiografia__cto-neuro_p36.jpg",
+   "topic": "neuro-02",
+   "type": "imagen",
+   "size": "half",
+   "title": "Estenosis carotídea en la angiografía",
+   "frase": "Estrechez del bulbo carotídeo.",
+   "claves": [
+    {
+     "t": "Estenosis",
+     "m": [
+      0.52,
+      0.45,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Estenosis sintomática ≥ 70%: endarterectomía en menos de 2 semanas.",
+   "codes": [
+    "4.01.1.046",
+    "1.10.3.002"
+   ],
+   "confunde": "Disección: estenosis larga y afilada.",
+   "q": "EUNACOM Julio 2024 · Pregunta 151",
+   "auto": false
+  },
+  {
+   "id": "difusion-perfusion",
+   "n": 7,
+   "src": "_verificadas/140_neuro_AIT__HarrisonsP_p3376_1.jpg",
+   "topic": "neuro-02",
+   "type": "imagen",
+   "size": "half",
+   "title": "RM con difusión y perfusión",
+   "frase": "Infarto en difusión y área mayor de hipoperfusión, con oclusión en la angiografía (flecha).",
+   "claves": [
+    {
+     "t": "Infarto",
+     "m": [
+      0.35,
+      0.15,
+      0.06
+     ]
+    },
+    {
+     "t": "Oclusión",
+     "m": [
+      0.3,
+      0.75,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Desacople difusión-perfusión: tejido salvable.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "Infarto antiguo: hipodenso sin difusión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "angio-carotida",
+   "n": 8,
+   "src": "_verificadas/141_neuro_AIT__27thBailey_p973_1.jpg",
+   "topic": "neuro-02",
+   "type": "imagen",
+   "size": "half",
+   "title": "Angiografía carotídea normal",
+   "frase": "Carótida común (CC), interna (IC) y externa (EC).",
+   "claves": [
+    {
+     "t": "Carótida interna",
+     "m": [
+      0.55,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Primero eco-Doppler o angioTAC.",
+   "codes": [
+    "4.01.1.046"
+   ],
+   "confunde": "La externa da ramas en el cuello; la interna no.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ecg-fa-acv",
+   "n": 9,
+   "src": "_web/142_neuro_AIT__Commons_1.jpg",
+   "topic": "neuro-02",
+   "type": "ecg",
+   "size": "half",
+   "title": "Fibrilación auricular",
+   "frase": "Sin ondas P y R-R irregular.",
+   "claves": [
+    {
+     "t": "R-R irregular",
+     "m": [
+      0.5,
+      0.1,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "ACV cardioembólico: anticoagular.",
+   "codes": [
+    "1.01.2.003",
+    "1.10.2.007"
+   ],
+   "confunde": "Flutter: ondas F en serrucho.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hematoma-profundo",
+   "n": 10,
+   "src": "biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg",
+   "topic": "neuro-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hematoma profundo (putaminal)",
+   "frase": "Hiperdensidad en los ganglios basales.",
+   "claves": [
+    {
+     "t": "Hematoma",
+     "m": [
+      0.4,
+      0.42,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Bajar la presión sistólica a 140 y revertir anticoagulantes.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "Infarto: hipodenso.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hematoma-talamico",
+   "n": 11,
+   "src": "biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc_alt1__cto-radiologia_p67.jpg",
+   "topic": "neuro-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hematoma talámico",
+   "frase": "Sangrado del tálamo con paso a los ventrículos.",
+   "claves": [
+    {
+     "t": "Hematoma talámico",
+     "m": [
+      0.22,
+      0.45,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hemihipoestesia mayor que el déficit motor.",
+   "codes": [
+    "1.10.2.007",
+    "1.10.2.009"
+   ],
+   "confunde": "Putaminal: predomina lo motor.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hematoma-lobar",
+   "n": 12,
+   "src": "_verificadas/143_neuro_Hemorragia_intracerebral__ctmri_path_p90_1.jpg",
+   "topic": "neuro-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hematoma lobar",
+   "frase": "Hematoma cortical grande.",
+   "claves": [
+    {
+     "t": "Hematoma lobar",
+     "m": [
+      0.5,
+      0.25,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Adulto mayor: angiopatía amiloide.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "Tumor sangrante: realza con contraste.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hematoma-cerebeloso",
+   "n": 13,
+   "src": "biblioteca/09_neurologia/neuro-03/02_hematoma_cerebeloso_tc__sherman_p142.jpg",
+   "topic": "neuro-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hematoma cerebeloso",
+   "frase": "Hiperdensidad cerebelosa que comprime el IV ventrículo.",
+   "claves": [
+    {
+     "t": "Hematoma cerebeloso",
+     "m": [
+      0.5,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Mayor de 3 cm o con compresión: cirugía urgente.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "Vértigo periférico: TC normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "aneurismas",
+   "n": 14,
+   "src": "biblioteca/09_neurologia/neuro-04/03_localizacion-de-aneurismas__cto-neuro_p43.jpg",
+   "topic": "neuro-04",
+   "type": "esquema",
+   "size": "half",
+   "title": "Localización de los aneurismas",
+   "frase": "Polígono de Willis: la comunicante anterior es la más frecuente.",
+   "claves": [
+    {
+     "t": "Comunicante anterior",
+     "m": [
+      0.5,
+      0.15,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "HSA: angioTAC o angiografía; tratamiento del aneurisma.",
+   "codes": [
+    "1.10.2.008",
+    "1.10.4.003"
+   ],
+   "confunde": "Aneurisma de la comunicante posterior: compromete el III par.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 178",
+   "auto": false
+  },
+  {
+   "id": "iii-par",
+   "n": 15,
+   "src": "_verificadas/023_neuro_Hemorragia_subaracnoidea__Talley_p546.jpg",
+   "topic": "neuro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Parálisis del III par",
+   "frase": "Ptosis, midriasis y ojo abajo y afuera.",
+   "claves": [
+    {
+     "t": "Ojo desviado afuera",
+     "m": [
+      0.35,
+      0.5,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Con midriasis: aneurisma de la comunicante posterior hasta demostrar lo contrario.",
+   "codes": [
+    "6.02.2.009",
+    "1.10.2.008"
+   ],
+   "confunde": "III par diabético: respeta la pupila.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "terson",
+   "n": 16,
+   "src": "_verificadas/335_neuro_Hemorragia_subaracnoidea__KanskisCli_p736_1.jpg",
+   "topic": "neuro-04",
+   "type": "fondo",
+   "size": "half",
+   "title": "Síndrome de Terson",
+   "frase": "Hemorragias subhialoideas en una HSA grave.",
+   "claves": [
+    {
+     "t": "Hemorragia subhialoidea",
+     "m": [
+      0.45,
+      0.38,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Marcador de HSA grave.",
+   "codes": [
+    "1.10.2.008"
+   ],
+   "confunde": "Retinopatía hipertensiva: hemorragias en llama.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hidrocefalia-aguda",
+   "n": 17,
+   "src": "_verificadas/145_neuro_Hemorragia_subaracnoidea__ctmri_path_p75_1.jpg",
+   "topic": "neuro-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hidrocefalia",
+   "frase": "Ventrículos muy dilatados.",
+   "claves": [
+    {
+     "t": "Ventrículos dilatados",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Hidrocefalia tras HSA: drenaje ventricular.",
+   "codes": [
+    "1.10.2.008",
+    "1.10.2.009"
+   ],
+   "confunde": "Atrofia: surcos también amplios.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "papiledema",
+   "n": 18,
+   "src": "biblioteca/09_neurologia/neuro-05/02_papiledema__cto-oftalmo_p88.jpg",
+   "topic": "neuro-05",
+   "type": "fondo",
+   "size": "half",
+   "title": "Papiledema",
+   "frase": "Papila de bordes borrosos y elevada.",
+   "claves": [
+    {
+     "t": "Borde papilar borroso",
+     "m": [
+      0.25,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Hipertensión endocraneana: neuroimagen antes de la punción lumbar.",
+   "codes": [
+    "1.10.1.019"
+   ],
+   "confunde": "Pseudopapiledema: drusas.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 169",
+   "auto": false
+  },
+  {
+   "id": "trombosis-seno",
+   "n": 19,
+   "src": "biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg",
+   "topic": "neuro-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Trombosis del seno sagital",
+   "frase": "Signo del delta vacío y seno trombosado (flechas).",
+   "claves": [
+    {
+     "t": "Delta vacío",
+     "m": [
+      0.2,
+      0.8,
+      0.05
+     ]
+    },
+    {
+     "t": "Seno trombosado",
+     "m": [
+      0.92,
+      0.7,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Anticoagulación plena aunque haya hemorragia.",
+   "codes": [
+    "1.10.2.007",
+    "1.10.4.002"
+   ],
+   "confunde": "Seno normal: se rellena.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "defecto-relleno",
+   "n": 20,
+   "src": "biblioteca/09_neurologia/neuro-05/03_tc_venografia_seno_sagital__ctmri_p100.jpg",
+   "topic": "neuro-05",
+   "type": "imagen",
+   "size": "half",
+   "title": "Defecto de relleno venoso",
+   "frase": "El seno no se rellena en la fase venosa.",
+   "claves": [
+    {
+     "t": "Seno sin relleno",
+     "m": [
+      0.75,
+      0.15,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Angio-RM venosa: examen de elección.",
+   "codes": [
+    "1.10.2.007"
+   ],
+   "confunde": "Hipoplasia de seno: variante normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fortificacion",
+   "n": 21,
+   "src": "biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg",
+   "topic": "neuro-06",
+   "type": "esquema",
+   "size": "half",
+   "title": "Aura visual: espectro de fortificación",
+   "frase": "Zigzag brillante que se expande en 5–60 minutos.",
+   "claves": [
+    {
+     "t": "Espectro en zigzag",
+     "m": [
+      0.8,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Migraña con aura: evitar estrógenos.",
+   "codes": [
+    "1.10.1.012"
+   ],
+   "confunde": "AIT: déficit súbito sin progresión.",
+   "q": "EUNACOM Julio 2013 · Pregunta 180",
+   "auto": false
+  },
+  {
+   "id": "horner-cluster",
+   "n": 22,
+   "src": "biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg",
+   "topic": "neuro-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de Horner en la cefalea en racimos",
+   "frase": "Ptosis y miosis del lado del dolor.",
+   "claves": [
+    {
+     "t": "Ptosis y miosis",
+     "m": [
+      0.73,
+      0.52,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Crisis: oxígeno al 100% o sumatriptán SC; prevención con verapamilo.",
+   "codes": [
+    "1.10.1.013"
+   ],
+   "confunde": "Horner por disección carotídea: dolor cervical.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "trigemino",
+   "n": 23,
+   "src": "biblioteca/09_neurologia/neuro-07/02_distribucion_sensitiva_trigemino__fitzpatrick_p2330.jpg",
+   "topic": "neuro-07",
+   "type": "esquema",
+   "size": "half",
+   "title": "Ramas del trigémino",
+   "frase": "V1 oftálmica, V2 maxilar y V3 mandibular.",
+   "claves": [
+    {
+     "t": "V2",
+     "m": [
+      0.62,
+      0.55,
+      0.06
+     ]
+    },
+    {
+     "t": "V3",
+     "m": [
+      0.65,
+      0.88,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Neuralgia del trigémino: carbamazepina.",
+   "codes": [
+    "1.10.1.013"
+   ],
+   "confunde": "Dolor dental.",
+   "q": "EUNACOM Julio 2016 · Pregunta 94",
+   "auto": false
+  },
+  {
+   "id": "eeg-ausencia",
+   "n": 24,
+   "src": "biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg",
+   "topic": "neuro-08",
+   "type": "ecg",
+   "size": "half",
+   "title": "Crisis de ausencia en el EEG",
+   "frase": "Punta-onda generalizada a 3 Hz.",
+   "claves": [
+    {
+     "t": "Punta-onda",
+     "m": [
+      0.75,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Etosuximida o ácido valproico.",
+   "codes": [
+    "1.10.1.007",
+    "1.10.4.005"
+   ],
+   "confunde": "Crisis focal: actividad localizada.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "sjs-carbamazepina",
+   "n": 25,
+   "src": "biblioteca/09_neurologia/neuro-08/02_stevens-johnson-mucosas__fitzpatrick_p390.jpg",
+   "topic": "neuro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Stevens-Johnson por anticonvulsivantes",
+   "frase": "Erosiones de los labios y mucosas.",
+   "claves": [
+    {
+     "t": "Erosiones labiales",
+     "m": [
+      0.45,
+      0.85,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Suspender el fármaco y hospitalizar.",
+   "codes": [
+    "1.10.1.007"
+   ],
+   "confunde": "Eritema multiforme: dianas acrales.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 133",
+   "auto": false
+  },
+  {
+   "id": "hiperplasia-fenitoina",
+   "n": 26,
+   "src": "_verificadas/149_neuro_Epilepsia_y_fármacos__knoopepub_p174_1.jpg",
+   "topic": "neuro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hiperplasia gingival por fenitoína",
+   "frase": "Encías engrosadas.",
+   "claves": [
+    {
+     "t": "Encías hiperplásicas",
+     "m": [
+      0.5,
+      0.35,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Efecto adverso crónico: higiene oral.",
+   "codes": [
+    "1.10.1.007"
+   ],
+   "confunde": "Leucemia: con citopenias.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mordedura-lengua",
+   "n": 27,
+   "src": "_web/337_neuro_Primera_crisis_vs_síncope__Commons_1.jpg",
+   "topic": "neuro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mordedura lateral de la lengua",
+   "frase": "Herida en el borde lateral tras una crisis tónico-clónica.",
+   "claves": [
+    {
+     "t": "Mordedura lateral",
+     "m": [
+      0.6,
+      0.65,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Orienta a crisis convulsiva y no a síncope.",
+   "codes": [
+    "1.10.2.003"
+   ],
+   "confunde": "Síncope: si hay mordedura, es en la punta.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 166",
+   "auto": true
+  },
+  {
+   "id": "micrografia",
+   "n": 28,
+   "src": "biblioteca/09_neurologia/neuro-11/S1_micrografia__propio.svg",
+   "topic": "neuro-11",
+   "type": "esquema",
+   "size": "half",
+   "title": "Micrografía",
+   "frase": "La letra se achica a lo largo de la línea.",
+   "claves": [
+    {
+     "t": "Letra que se achica",
+     "m": [
+      0.55,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Bradicinesia del Parkinson.",
+   "codes": [
+    "1.10.1.006"
+   ],
+   "confunde": "Temblor esencial: letra temblorosa, no pequeña.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "postura-parkinson",
+   "n": 29,
+   "src": "biblioteca/09_neurologia/neuro-11/01_postura-parkinsoniana__cto-neuro_p54.jpg",
+   "topic": "neuro-11",
+   "type": "esquema",
+   "size": "half",
+   "title": "Postura parkinsoniana",
+   "frase": "Flexión del tronco, hipomimia y temblor en reposo.",
+   "claves": [
+    {
+     "t": "Temblor de reposo",
+     "m": [
+      0.2,
+      0.2,
+      0.08
+     ]
+    },
+    {
+     "t": "Tronco flectado",
+     "m": [
+      0.4,
+      0.7,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Levodopa-carbidopa.",
+   "codes": [
+    "1.10.1.006"
+   ],
+   "confunde": "Parkinsonismo por fármacos: simétrico.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 22",
+   "auto": false
+  },
+  {
+   "id": "cruz-caliente",
+   "n": 30,
+   "src": "_web/151_neuro_Parkinsonismos_atípicos__Commons_1.jpg",
+   "topic": "neuro-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Signo de la cruz caliente",
+   "frase": "Cruz hiperintensa en la protuberancia atrófica.",
+   "claves": [
+    {
+     "t": "Cruz en la protuberancia",
+     "m": [
+      0.5,
+      0.48,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Atrofia multisistémica: mala respuesta a levodopa.",
+   "codes": [
+    "1.10.1.006"
+   ],
+   "confunde": "Parkinson: RM normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "leucoaraiosis",
+   "n": 31,
+   "src": "_verificadas/152_neuro_Parkinsonismo_vascular_demenci__HarrisonsP_p234_1.jpg",
+   "topic": "neuro-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Leucoaraiosis e infartos lacunares",
+   "frase": "Hiperseñales de la sustancia blanca (flechas).",
+   "claves": [
+    {
+     "t": "Leucoaraiosis",
+     "m": [
+      0.35,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Parkinsonismo vascular: control de factores de riesgo.",
+   "codes": [
+    "1.10.1.006",
+    "1.10.1.005"
+   ],
+   "confunde": "Esclerosis múltiple: lesiones ovoideas periventriculares.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "leucoaraiosis-2",
+   "n": 32,
+   "src": "_verificadas/152_neuro_Parkinsonismo_vascular_demenci__ctmri_path_p104_1.jpg",
+   "topic": "neuro-12",
+   "type": "imagen",
+   "size": "half",
+   "title": "Leucoaraiosis en RM FLAIR",
+   "frase": "Hiperseñales confluentes periventriculares.",
+   "claves": [
+    {
+     "t": "Sustancia blanca alterada",
+     "m": [
+      0.3,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Demencia vascular: progresión escalonada.",
+   "codes": [
+    "1.10.1.005"
+   ],
+   "confunde": "Alzheimer: atrofia hipocampal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "espiral-temblor",
+   "n": 33,
+   "src": "biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg",
+   "topic": "neuro-13",
+   "type": "esquema",
+   "size": "half",
+   "title": "Espiral con temblor",
+   "frase": "Oscilación en todo el trazo.",
+   "claves": [
+    {
+     "t": "Trazo tembloroso",
+     "m": [
+      0.25,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Temblor esencial: propranolol o primidona.",
+   "codes": [
+    "1.10.1.026"
+   ],
+   "confunde": "Parkinson: temblor de reposo.",
+   "q": "EUNACOM Julio 2024 · Pregunta 85",
+   "auto": false
+  },
+  {
+   "id": "espiral-arquimedes",
+   "n": 34,
+   "src": "biblioteca/09_neurologia/neuro-13/S1_espiral-arquimedes__propio.svg",
+   "topic": "neuro-13",
+   "type": "esquema",
+   "size": "half",
+   "title": "Espiral de Arquímedes",
+   "frase": "Normal vs temblor esencial.",
+   "claves": [
+    {
+     "t": "Espiral alterada",
+     "m": [
+      0.75,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Mejora con alcohol: típico del esencial.",
+   "codes": [
+    "1.10.1.026"
+   ],
+   "confunde": "Distonía: postura anormal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "crisis-oculogira",
+   "n": 35,
+   "src": "_web/153_neuro_Temblor_y_distonía_aguda__Open-i_1.jpg",
+   "topic": "neuro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Crisis oculógira",
+   "frase": "Mirada desviada hacia arriba de forma sostenida.",
+   "claves": [
+    {
+     "t": "Ojos desviados arriba",
+     "m": [
+      0.22,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Distonía aguda por metoclopramida: biperideno.",
+   "codes": [
+    "1.10.2.005",
+    "1.10.2.010"
+   ],
+   "confunde": "Crisis convulsiva: con compromiso de conciencia.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "atrofia-hipocampal",
+   "n": 36,
+   "src": "_verificadas/024_neuro_Alzheimer_y_DCL__ctmri_path_p102_1.jpg",
+   "topic": "neuro-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Atrofia hipocampal",
+   "frase": "Hipocampos reducidos en la RM coronal.",
+   "claves": [
+    {
+     "t": "Hipocampo atrófico",
+     "m": [
+      0.25,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Alzheimer: inhibidores de colinesterasa.",
+   "codes": [
+    "1.10.1.005",
+    "1.07.1.003"
+   ],
+   "confunde": "Envejecimiento normal: atrofia leve.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 69",
+   "auto": false
+  },
+  {
+   "id": "pet-alzheimer",
+   "n": 37,
+   "src": "biblioteca/09_neurologia/neuro-14/01_pet-fdg-alzheimer__cto-neuro_p29.jpg",
+   "topic": "neuro-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "PET-FDG en Alzheimer",
+   "frase": "Hipometabolismo parietotemporal.",
+   "claves": [
+    {
+     "t": "Hipometabolismo",
+     "m": [
+      0.2,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Apoya el diagnóstico en casos dudosos.",
+   "codes": [
+    "1.10.1.005"
+   ],
+   "confunde": "Frontotemporal: hipometabolismo frontal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "test-reloj",
+   "n": 38,
+   "src": "biblioteca/09_neurologia/neuro-14/S1_test-del-reloj__propio.svg",
+   "topic": "neuro-14",
+   "type": "esquema",
+   "size": "half",
+   "title": "Test del reloj",
+   "frase": "Normal vs alterado en la demencia.",
+   "claves": [
+    {
+     "t": "Reloj alterado",
+     "m": [
+      0.8,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Junto al MMSE o MoCA.",
+   "codes": [
+    "1.10.5.003",
+    "1.07.5.002"
+   ],
+   "confunde": "Depresión: rendimiento variable.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 25",
+   "auto": false
+  },
+  {
+   "id": "hnt",
+   "n": 39,
+   "src": "_verificadas/154_neuro_Alzheimer_y_DCL__HarrisonsP_p235_1.jpg",
+   "topic": "neuro-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hidrocefalia normotensiva",
+   "frase": "Ventrículos grandes desproporcionados a la atrofia.",
+   "claves": [
+    {
+     "t": "Ventrículos dilatados",
+     "m": [
+      0.75,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Marcha magnética + incontinencia + demencia: punción evacuadora y válvula.",
+   "codes": [
+    "1.10.1.003",
+    "1.10.1.005"
+   ],
+   "confunde": "Atrofia: surcos amplios.",
+   "q": "EUNACOM Julio 2025 · Pregunta 104",
+   "auto": true
+  },
+  {
+   "id": "hnt-2",
+   "n": 40,
+   "src": "_verificadas/154_neuro_Alzheimer_y_DCL__ctmri_path_p106_1.jpg",
+   "topic": "neuro-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hidrocefalia normotensiva en TC y RM",
+   "frase": "Ventriculomegalia en tres cortes.",
+   "claves": [
+    {
+     "t": "Ventrículos dilatados",
+     "m": [
+      0.5,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Demencia potencialmente reversible.",
+   "codes": [
+    "1.10.1.003"
+   ],
+   "confunde": "Alzheimer: ventrículos por atrofia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "frontotemporal",
+   "n": 41,
+   "src": "biblioteca/09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg",
+   "topic": "neuro-15",
+   "type": "imagen",
+   "size": "half",
+   "title": "Demencia frontotemporal",
+   "frase": "Atrofia en filo de cuchillo frontal y temporal anterior.",
+   "claves": [
+    {
+     "t": "Atrofia frontotemporal",
+     "m": [
+      0.15,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Cambios de conducta precoces.",
+   "codes": [
+    "1.10.1.005"
+   ],
+   "confunde": "Alzheimer: empieza por la memoria.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ptosis-antes-despues",
+   "n": 42,
+   "src": "biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg",
+   "topic": "neuro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ptosis miasténica: antes y después",
+   "frase": "La ptosis mejora tras el reposo o el hielo.",
+   "claves": [
+    {
+     "t": "Ptosis",
+     "m": [
+      0.2,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Anti-AChR y EMG con estimulación repetitiva; buscar timoma.",
+   "codes": [
+    "1.10.1.020"
+   ],
+   "confunde": "Horner: ptosis con miosis.",
+   "q": "EUNACOM Julio 2024 · Pregunta 74",
+   "auto": false
+  },
+  {
+   "id": "ptosis-miastenica",
+   "n": 43,
+   "src": "biblioteca/09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg",
+   "topic": "neuro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ptosis miasténica",
+   "frase": "Ptosis asimétrica que empeora en la tarde.",
+   "claves": [
+    {
+     "t": "Ptosis",
+     "m": [
+      0.75,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Piridostigmina.",
+   "codes": [
+    "1.10.1.020"
+   ],
+   "confunde": "III par: con midriasis.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "test-hielo",
+   "n": 44,
+   "src": "biblioteca/09_neurologia/neuro-17/03_test_hielo_b_aplicacion__kanski_p851.jpg",
+   "topic": "neuro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Test del hielo",
+   "frase": "Hielo 2–3 minutos sobre el párpado.",
+   "claves": [
+    {
+     "t": "Hielo sobre el párpado",
+     "m": [
+      0.35,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Positivo si mejora 2 mm o más.",
+   "codes": [
+    "1.10.1.020"
+   ],
+   "confunde": "Ptosis senil: no mejora.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dpar",
+   "n": 45,
+   "src": "biblioteca/09_neurologia/neuro-18/03_linterna-oscilante-dpar__kanski_p820.jpg",
+   "topic": "neuro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Defecto pupilar aferente relativo",
+   "frase": "Al iluminar el ojo enfermo, ambas pupilas se dilatan.",
+   "claves": [
+    {
+     "t": "Pupila que se dilata",
+     "m": [
+      0.75,
+      0.35,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Neuritis óptica: RM con contraste.",
+   "codes": [
+    "1.10.1.008"
+   ],
+   "confunde": "Anisocoria: pupilas de distinto tamaño en reposo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "neuritis-optica",
+   "n": 46,
+   "src": "biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_1__cto-radiologia_p74.jpg",
+   "topic": "neuro-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neuritis óptica en la RM",
+   "frase": "Hiperintensidad del nervio óptico (flecha).",
+   "claves": [
+    {
+     "t": "Nervio óptico",
+     "m": [
+      0.66,
+      0.48,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Bolos de metilprednisolona; estudiar esclerosis múltiple.",
+   "codes": [
+    "1.10.1.008",
+    "1.10.4.002"
+   ],
+   "confunde": "Neuropatía isquémica: adulto mayor, súbita.",
+   "q": "EUNACOM Julio 2019 · Pregunta 104",
+   "auto": false
+  },
+  {
+   "id": "oftalmoplejia-internuclear",
+   "n": 47,
+   "src": "_verificadas/155_neuro_Esclerosis_múltiple__KanskisCli_p843_1.jpg",
+   "topic": "neuro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Oftalmoplejía internuclear",
+   "frase": "Un ojo no aduce y el otro tiene nistagmo.",
+   "claves": [
+    {
+     "t": "Falta de aducción",
+     "m": [
+      0.25,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Joven: esclerosis múltiple.",
+   "codes": [
+    "1.10.1.008"
+   ],
+   "confunde": "VI par: falla la abducción.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "nmo",
+   "n": 48,
+   "src": "_verificadas/156_neuro_Esclerosis_múltiple__HarrisonsP_p3519_1.jpg",
+   "topic": "neuro-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neuromielitis óptica",
+   "frase": "Mielitis de 3 o más cuerpos vertebrales.",
+   "claves": [
+    {
+     "t": "Mielitis extensa",
+     "m": [
+      0.3,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Anti-acuaporina 4.",
+   "codes": [
+    "1.10.1.008"
+   ],
+   "confunde": "EM: lesiones medulares cortas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "paralisis-facial",
+   "n": 49,
+   "src": "biblioteca/09_neurologia/neuro-19/01_paralisis-facial-periferica-bell_alt1__cto-orl_p45.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Parálisis facial periférica",
+   "frase": "Toda la hemicara: no arruga la frente ni cierra el ojo.",
+   "claves": [
+    {
+     "t": "Ojo que no cierra",
+     "m": [
+      0.6,
+      0.4,
+      0.08
+     ]
+    },
+    {
+     "t": "Comisura caída",
+     "m": [
+      0.6,
+      0.7,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Bell: prednisona en 72 h y protección ocular.",
+   "codes": [
+    "1.10.1.016"
+   ],
+   "confunde": "Central: respeta la frente.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "facial-central-periferica",
+   "n": 50,
+   "src": "biblioteca/09_neurologia/neuro-19/02_central-vs-periferica__cto-neuro_p14.jpg",
+   "topic": "neuro-19",
+   "type": "esquema",
+   "size": "half",
+   "title": "Parálisis facial central vs periférica",
+   "frase": "La central respeta la frente y el cierre ocular.",
+   "claves": [
+    {
+     "t": "Frente respetada",
+     "m": [
+      0.45,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Central: buscar ACV.",
+   "codes": [
+    "1.10.1.016"
+   ],
+   "confunde": "Bell: compromete toda la hemicara.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ramsay-hunt",
+   "n": 51,
+   "src": "biblioteca/09_neurologia/neuro-19/03_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de Ramsay Hunt",
+   "frase": "Vesículas en la concha con parálisis facial.",
+   "claves": [
+    {
+     "t": "Vesículas en la concha",
+     "m": [
+      0.4,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aciclovir o valaciclovir más prednisona.",
+   "codes": [
+    "1.10.1.016"
+   ],
+   "confunde": "Otitis externa: sin vesículas ni parálisis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "phalen",
+   "n": 52,
+   "src": "_verificadas/025_neuro_Parálisis_facial_y_atrapamient__Talley_p407.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Maniobra de Phalen",
+   "frase": "Flexión forzada de ambas muñecas por 60 segundos.",
+   "claves": [
+    {
+     "t": "Muñecas en flexión",
+     "m": [
+      0.5,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Túnel carpiano: férula nocturna; EMG si hay atrofia.",
+   "codes": [
+    "1.10.1.014",
+    "1.11.1.023"
+   ],
+   "confunde": "Radiculopatía C6: dolor cervical.",
+   "q": "EUNACOM Julio 2024 · Pregunta 111",
+   "auto": false
+  },
+  {
+   "id": "froment",
+   "n": 53,
+   "src": "_verificadas/157_neuro_Parálisis_facial_y_atrapamient__27thBailey_p467_1.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Froment",
+   "frase": "Flexión del pulgar al apretar un papel (flecha).",
+   "claves": [
+    {
+     "t": "Flexión del pulgar",
+     "m": [
+      0.45,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Neuropatía cubital: codo o canal de Guyon.",
+   "codes": [
+    "1.10.1.014"
+   ],
+   "confunde": "Túnel carpiano: atrofia tenar.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atrofia-cubital",
+   "n": 54,
+   "src": "biblioteca/09_neurologia/neuro-19/04_atrofia_intrinsecos_neuropatia_cubital__bailey_p523.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Atrofia de los intrínsecos de la mano",
+   "frase": "Atrofia del primer interóseo dorsal.",
+   "claves": [
+    {
+     "t": "Atrofia interósea",
+     "m": [
+      0.3,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "EMG para localizar la lesión.",
+   "codes": [
+    "1.10.1.014"
+   ],
+   "confunde": "ELA: atrofia con fasciculaciones.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mano-caida",
+   "n": 55,
+   "src": "biblioteca/09_neurologia/neuro-19/05_mano_caida_radial__acd_p192.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mano caída",
+   "frase": "Parálisis del nervio radial.",
+   "claves": [
+    {
+     "t": "Mano caída",
+     "m": [
+      0.35,
+      0.65,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Compresión en el canal espiral: suele recuperar.",
+   "codes": [
+    "1.10.1.014"
+   ],
+   "confunde": "ACV: con otros déficits.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "impulso-cefalico",
+   "n": 56,
+   "src": "_web/159_neuro_Vértigo__Open-i_2.jpg",
+   "topic": "neuro-20",
+   "type": "ecg",
+   "size": "half",
+   "title": "Registro del impulso cefálico",
+   "frase": "Movimientos sacádicos correctores al girar la cabeza.",
+   "claves": [
+    {
+     "t": "Sacadas correctoras",
+     "m": [
+      0.8,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "HINTS: impulso alterado sugiere periférico.",
+   "codes": [
+    "1.10.1.024",
+    "1.10.1.025"
+   ],
+   "confunde": "Impulso normal en vértigo agudo: sospechar central.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 29",
+   "auto": false
+  },
+  {
+   "id": "dix-hallpike",
+   "n": 57,
+   "src": "biblioteca/09_neurologia/neuro-20/02_dix_hallpike__usuario.jpg",
+   "topic": "neuro-20",
+   "type": "esquema",
+   "size": "half",
+   "title": "Maniobra de Dix-Hallpike",
+   "frase": "De sentado a acostado con la cabeza girada 45° y extendida.",
+   "claves": [
+    {
+     "t": "Cabeza extendida y girada",
+     "m": [
+      0.3,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "VPPB: nistagmo torsional con latencia.",
+   "codes": [
+    "1.10.1.025",
+    "6.03.2.017"
+   ],
+   "confunde": "Nistagmo central: sin latencia, no se agota.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "epley",
+   "n": 58,
+   "src": "biblioteca/09_neurologia/neuro-20/01_maniobra_epley__harrison_p202.jpg",
+   "topic": "neuro-20",
+   "type": "esquema",
+   "size": "half",
+   "title": "Maniobra de Epley",
+   "frase": "Giros de la cabeza que llevan los otolitos al vestíbulo.",
+   "claves": [
+    {
+     "t": "Secuencia de giros",
+     "m": [
+      0.5,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Cura el VPPB en la consulta.",
+   "codes": [
+    "1.10.1.025"
+   ],
+   "confunde": "Neuronitis vestibular: no responde a maniobras.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 88",
+   "auto": false
+  },
+  {
+   "id": "atrofia-cerebelosa",
+   "n": 59,
+   "src": "biblioteca/09_neurologia/neuro-20/03_atrofia_cerebelosa_sca1_rm__harrison_p3465.jpg",
+   "topic": "neuro-20",
+   "type": "imagen",
+   "size": "half",
+   "title": "Atrofia cerebelosa",
+   "frase": "Surcos del vermis amplios (flechas).",
+   "claves": [
+    {
+     "t": "Vermis atrófico",
+     "m": [
+      0.68,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Ataxia: buscar causa tóxica, paraneoplásica o hereditaria.",
+   "codes": [
+    "1.10.1.018"
+   ],
+   "confunde": "Tumor de fosa posterior: masa.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 89",
+   "auto": false
+  },
+  {
+   "id": "sitios-escaras",
+   "n": 60,
+   "src": "biblioteca/09_neurologia/neuro-22/02_sitios_ulceras_por_presion__fitzpatrick_p918.jpg",
+   "topic": "neuro-22",
+   "type": "esquema",
+   "size": "half",
+   "title": "Sitios frecuentes de úlceras por presión",
+   "frase": "Sobre prominencias óseas: sacro, trocánteres, talones.",
+   "claves": [
+    {
+     "t": "Sacro",
+     "m": [
+      0.18,
+      0.6,
+      0.05
+     ]
+    },
+    {
+     "t": "Talón",
+     "m": [
+      0.75,
+      0.9,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Cambios de posición cada 2 horas.",
+   "codes": [
+    "1.07.1.007",
+    "4.01.1.052"
+   ],
+   "confunde": "Úlcera venosa: maléolo medial.",
+   "q": "EUNACOM Julio 2019 · Pregunta 82",
+   "auto": false
+  },
+  {
+   "id": "escara-sacra",
+   "n": 61,
+   "src": "biblioteca/09_neurologia/neuro-22/01_ulcera_por_presion_sacra__bailey_p50.jpg",
+   "topic": "neuro-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escara sacra necrótica",
+   "frase": "Úlcera estadio IV con tejido necrótico.",
+   "claves": [
+    {
+     "t": "Necrosis",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Desbridamiento y manejo de la infección.",
+   "codes": [
+    "1.07.1.007"
+   ],
+   "confunde": "Úlcera estadio I: eritema que no blanquea.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fx-cadera-geriatria",
+   "n": 62,
+   "src": "biblioteca/09_neurologia/neuro-23/01_rx_fractura_cuello_femur__commons.jpg",
+   "topic": "neuro-23",
+   "type": "imagen",
+   "size": "half",
+   "title": "Fractura de cadera",
+   "frase": "Fractura del cuello femoral (flecha).",
+   "claves": [
+    {
+     "t": "Fractura",
+     "m": [
+      0.8,
+      0.38,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Operar antes de 48 horas.",
+   "codes": [
+    "1.07.2.003"
+   ],
+   "confunde": "Luxación: cabeza fuera del acetábulo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "garden-1",
+   "n": 63,
+   "src": "biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_1__cto-trauma_p25.jpg",
+   "topic": "neuro-23",
+   "type": "esquema",
+   "size": "half",
+   "title": "Fractura subcapital del fémur",
+   "frase": "Rasgo en el cuello que compromete la irrigación de la cabeza.",
+   "claves": [
+    {
+     "t": "Rasgo subcapital",
+     "m": [
+      0.55,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Intracapsular: riesgo de necrosis avascular.",
+   "codes": [
+    "1.07.2.003"
+   ],
+   "confunde": "Extracapsular: buena irrigación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "garden-desplazada",
+   "n": 64,
+   "src": "biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_2__cto-trauma_p25.jpg",
+   "topic": "neuro-23",
+   "type": "esquema",
+   "size": "half",
+   "title": "Fractura subcapital desplazada (Garden III–IV)",
+   "frase": "Cabeza separada del cuello.",
+   "claves": [
+    {
+     "t": "Cabeza desplazada",
+     "m": [
+      0.6,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Desplazada en el adulto mayor: prótesis.",
+   "codes": [
+    "1.07.2.003"
+   ],
+   "confunde": "No desplazada: osteosíntesis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cascada-prescripcion",
+   "n": 65,
+   "src": "biblioteca/09_neurologia/neuro-24/S1_cascada-prescripcion__propio.svg",
+   "topic": "neuro-24",
+   "type": "esquema",
+   "size": "half",
+   "title": "Cascada de prescripción",
+   "frase": "Un efecto adverso se trata con otro fármaco.",
+   "claves": [
+    {
+     "t": "Edema por amlodipino",
+     "m": [
+      0.28,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Ante un síntoma nuevo, pregunta qué fármaco empezó antes.",
+   "codes": [
+    "1.07.3.007"
+   ],
+   "confunde": "Enfermedad nueva verdadera.",
+   "q": "EUNACOM Julio 2019 · Pregunta 127",
+   "auto": false
+  },
+  {
+   "id": "retinopatia-hta",
+   "n": 66,
+   "src": "biblioteca/09_neurologia/neuro-25/01_retinopatia_hipertensiva__harrison_p263.jpg",
+   "topic": "neuro-25",
+   "type": "fondo",
+   "size": "half",
+   "title": "Retinopatía hipertensiva",
+   "frase": "Exudados y alteraciones de los vasos.",
+   "claves": [
+    {
+     "t": "Exudados",
+     "m": [
+      0.5,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Daño de órgano blanco: fondo de ojo, ECG, creatinina.",
+   "codes": [
+    "1.07.1.009"
+   ],
+   "confunde": "Retinopatía diabética: microaneurismas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "iam-anterior",
+   "n": 67,
+   "src": "biblioteca/09_neurologia/neuro-25/02_ecg-iam-anterior-sdst__ecg_p188.jpg",
+   "topic": "neuro-25",
+   "type": "ecg",
+   "size": "half",
+   "title": "IAM anterior con SDST",
+   "frase": "Supradesnivel del ST en las precordiales.",
+   "claves": [
+    {
+     "t": "ST elevado en V1–V4",
+     "m": [
+      0.55,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "ECG < 10 min; angioplastia < 90 min.",
+   "codes": [
+    "1.07.2.002"
+   ],
+   "confunde": "Pericarditis: ST difuso cóncavo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "iam-inferior",
+   "n": 68,
+   "src": "biblioteca/09_neurologia/neuro-25/03_ecg-iam-inferior-sdst__ecg_p179.jpg",
+   "topic": "neuro-25",
+   "type": "ecg",
+   "size": "half",
+   "title": "IAM inferior con SDST",
+   "frase": "Supradesnivel del ST en DII, DIII y aVF.",
+   "claves": [
+    {
+     "t": "ST elevado en DIII",
+     "m": [
+      0.1,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Buscar compromiso del VD; evitar nitratos si hay hipotensión.",
+   "codes": [
+    "1.07.2.002"
+   ],
+   "confunde": "Repolarización precoz.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cintigrama-metastasis",
+   "n": 69,
+   "src": "biblioteca/09_neurologia/neuro-26/01_gammagrafia-metastasis-oseas__bailey-love_p1414.jpg",
+   "topic": "neuro-26",
+   "type": "imagen",
+   "size": "half",
+   "title": "Metástasis óseas múltiples",
+   "frase": "Captaciones en columna, costillas y pelvis.",
+   "claves": [
+    {
+     "t": "Captaciones",
+     "m": [
+      0.2,
+      0.25,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Dolor óseo: AINE, dexametasona, radioterapia y bifosfonatos.",
+   "codes": [
+    "1.08.3.007"
+   ],
+   "confunde": "Artrosis: captación articular.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "compresion-epidural",
+   "n": 70,
+   "src": "biblioteca/09_neurologia/neuro-26/02_compresion-medular-rm__harrison_p3489.jpg",
+   "topic": "neuro-26",
+   "type": "imagen",
+   "size": "half",
+   "title": "Compresión medular epidural",
+   "frase": "Vértebra que comprime la médula (flecha).",
+   "claves": [
+    {
+     "t": "Compresión",
+     "m": [
+      0.1,
+      0.78,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Dexametasona y radioterapia urgente.",
+   "codes": [
+    "1.08.3.008"
+   ],
+   "confunde": "Hernia discal.",
+   "q": "EUNACOM Julio 2013 · Pregunta 14",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "paralisis-facial",
+   "b": "facial-central-periferica",
+   "title": "Facial periférica vs central",
+   "la": [
+    "Toda la hemicara"
+   ],
+   "lb": [
+    "Respeta la frente"
+   ],
+   "diff": "La central obliga a buscar un ACV."
+  },
+  {
+   "a": "espiral-temblor",
+   "b": "postura-parkinson",
+   "title": "Temblor esencial vs Parkinson",
+   "la": [
+    "De acción, bilateral"
+   ],
+   "lb": [
+    "De reposo, asimétrico"
+   ],
+   "diff": "El esencial mejora con alcohol y propranolol."
+  },
+  {
+   "a": "hematoma-profundo",
+   "b": "acv-signos-precoces",
+   "title": "Hemorragia vs infarto en la TC",
+   "la": [
+    "Hiperdenso"
+   ],
+   "lb": [
+    "Hipodenso o normal"
+   ],
+   "diff": "La TC descarta sangre antes de trombolizar."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Cruz caliente",
+   "dx": "Atrofia multisistémica.",
+   "find": "cruz caliente",
+   "topic": "neuro-12",
+   "img": "cruz-caliente",
+   "def": "Cruz hiperintensa en la protuberancia."
+  },
+  {
+   "name": "Delta vacío",
+   "dx": "Trombosis del seno sagital.",
+   "find": "delta vacío",
+   "topic": "neuro-05",
+   "img": "trombosis-seno",
+   "def": "Seno trombosado rodeado de contraste."
+  },
+  {
+   "name": "Signo de Froment",
+   "dx": "Neuropatía cubital.",
+   "find": "Froment",
+   "topic": "neuro-19",
+   "img": "froment",
+   "def": "Flexión del pulgar al apretar un papel."
+  },
+  {
+   "name": "Émbolo de Hollenhorst",
+   "dx": "Ateroembolia carotídea.",
+   "find": "Hollenhorst",
+   "topic": "neuro-02",
+   "img": "hollenhorst",
+   "def": "Placa brillante en una arteriola retiniana."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 70
+ }
+}

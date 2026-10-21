@@ -1,0 +1,1760 @@
+{
+ "libro": "hematologia",
+ "title": "Hematología & Hemostasia",
+ "prefix": "hem",
+ "topics": {
+  "hem-01": "Síndrome Anémico",
+  "hem-03": "Anemia Ferropénica",
+  "hem-05": "Aplasia Medular e Hipofunción Medular Adquirida vs Fármacos Mielotóxicos",
+  "hem-06": "Anemias Macrocíticas y Megaloblásticas",
+  "hem-07": "Anemia Hemolítica Autoinmune (AHAI",
+  "hem-08": "Esferocitosis Hereditaria, Déficit de G6PD (Favismo) y Hemoglobinuria Paroxística Nocturna (HPN)",
+  "hem-09": "Talasemias (Rasgo Beta vs Mayor) y Drepanocitosis / Anemia Falciforme (HbS)",
+  "hem-10": "Microangiopatías Trombóticas (MAT)",
+  "hem-11": "Fisiología de la Hemostasia y Evaluación de Laboratorio",
+  "hem-12": "Trombocitopenias y Púrpura Trombocitopénica Inmune (PTI) del Adulto y Niño",
+  "hem-13": "Coagulopatías Congénitas",
+  "hem-15": "Coagulación Intravascular Diseminada (CID)",
+  "hem-16": "Leucemias Agudas",
+  "hem-17": "Leucemias Crónicas",
+  "hem-18": "Linfomas",
+  "hem-19": "Mieloma Múltiple",
+  "hem-20": "Neoplasias Mieloproliferativas (Policitemia Vera JAK2, TE, Mielofibrosis) y Mielodisplasia",
+  "hem-22": "Síndrome de Lisis Tumoral (Cairo-Bishop), Hipercalcemia de Neoplasia y Compresión Medular",
+  "hem-23": "Trombofilias Hereditarias (Factor V Leiden, Protrombina G20210A) y SAF",
+  "hem-24": "Medicina Transfusional y Manejo de Hemocomponentes"
+ },
+ "images": [
+  {
+   "id": "frotis-normal",
+   "n": 1,
+   "src": "biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg",
+   "topic": "hem-01",
+   "type": "histologia",
+   "size": "half",
+   "title": "Frotis de sangre periférica normal",
+   "frase": "Glóbulos rojos del mismo tamaño, con palidez central de un tercio.",
+   "claves": [
+    {
+     "t": "Glóbulo rojo normal con palidez central",
+     "m": [
+      0.3,
+      0.4,
+      0.06
+     ]
+    },
+    {
+     "t": "Linfocito",
+     "m": [
+      0.6,
+      0.68,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Los reticulocitos dicen si la médula responde: requieren tinción supravital.",
+   "codes": [
+    "1.08.4.008"
+   ],
+   "confunde": "Microcitosis: glóbulos más chicos que el núcleo del linfocito.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "microcitosis",
+   "n": 2,
+   "src": "biblioteca/06_hematologia/hem-01/01_frotis-microcitico-hipocromo__amir-hemato_p16.jpg",
+   "topic": "hem-01",
+   "type": "histologia",
+   "size": "half",
+   "title": "Microcitosis e hipocromía",
+   "frase": "Glóbulos pequeños y pálidos.",
+   "claves": [
+    {
+     "t": "Glóbulos pequeños con palidez amplia",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Microcítica arregenerativa: ferropenia, rasgo talasémico o sideroblástica; ferritina primero.",
+   "codes": [
+    "1.08.1.002",
+    "1.08.4.008"
+   ],
+   "confunde": "Rasgo talasémico: microcitosis con RDW normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "esferocitos",
+   "n": 3,
+   "src": "biblioteca/06_hematologia/hem-01/01_frotis-esferocitos__amir-hemato_p34.jpg",
+   "topic": "hem-01",
+   "type": "histologia",
+   "size": "half",
+   "title": "Esferocitos",
+   "frase": "Glóbulos pequeños, redondos y sin palidez central (flechas).",
+   "claves": [
+    {
+     "t": "Esferocito",
+     "m": [
+      0.47,
+      0.5,
+      0.06
+     ]
+    },
+    {
+     "t": "Esferocito",
+     "m": [
+      0.52,
+      0.72,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Coombs directo: positivo en la AHAI; negativo en la esferocitosis hereditaria.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Microcitos ferropénicos: pálidos, no densos.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 21",
+   "auto": false
+  },
+  {
+   "id": "coiloniquia",
+   "n": 4,
+   "src": "biblioteca/06_hematologia/hem-03/01_coiloniquia__commons.jpg",
+   "topic": "hem-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Coiloniquia",
+   "frase": "Uñas en cuchara: signo clásico de la ferropenia.",
+   "claves": [
+    {
+     "t": "Uña cóncava",
+     "m": [
+      0.75,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Ferritina baja confirma; buscar la causa (digestiva, menstrual, celíaca).",
+   "codes": [
+    "1.08.1.002"
+   ],
+   "confunde": "Platoniquia: uña plana sin concavidad.",
+   "q": "EUNACOM Julio 2024 · Pregunta 27",
+   "auto": true
+  },
+  {
+   "id": "queilitis",
+   "n": 5,
+   "src": "biblioteca/06_hematologia/hem-03/atlas_120_queilitis_angular_estomatitis_.jpg",
+   "topic": "hem-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queilitis angular",
+   "frase": "Grietas en las comisuras de la boca.",
+   "claves": [
+    {
+     "t": "Fisura de la comisura",
+     "m": [
+      0.08,
+      0.52,
+      0.05
+     ]
+    },
+    {
+     "t": "Fisura de la comisura",
+     "m": [
+      0.8,
+      0.5,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Ferropenia: hierro oral; EV si no tolera o hay malabsorción.",
+   "codes": [
+    "1.08.1.002"
+   ],
+   "confunde": "Candidiasis comisural: también en diabéticos y portadores de prótesis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "glositis-ferropenia",
+   "n": 6,
+   "src": "biblioteca/06_hematologia/hem-03/01_glositis_ferropenia__commons.jpg",
+   "topic": "hem-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glositis atrófica",
+   "frase": "Lengua lisa y dolorosa, sin papilas.",
+   "claves": [
+    {
+     "t": "Lengua depapilada",
+     "m": [
+      0.5,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Ferropenia o déficit de B12: pedir ferritina y B12.",
+   "codes": [
+    "1.08.1.002",
+    "1.08.1.004"
+   ],
+   "confunde": "Lengua geográfica: placas que cambian de lugar.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "frotis-ferropenia",
+   "n": 7,
+   "src": "../../books/figuras/atlas_eunacom_2026/121_media_hem_hem_03_anemia_ferropenica.jpg",
+   "topic": "hem-03",
+   "type": "histologia",
+   "size": "half",
+   "title": "Frotis de anemia ferropénica",
+   "frase": "Microcitosis, hipocromía marcada y anisocitosis.",
+   "claves": [
+    {
+     "t": "Glóbulos pequeños e hipocrómicos",
+     "m": [
+      0.75,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "RDW alto orienta a ferropenia; ferritina < 30 la confirma.",
+   "codes": [
+    "1.08.1.002"
+   ],
+   "confunde": "Anemia de enfermedad crónica: ferritina normal o alta.",
+   "q": "EUNACOM Julio 2017 · Pregunta 58",
+   "auto": false
+  },
+  {
+   "id": "medula-normal",
+   "n": 8,
+   "src": "biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia__amir-hemato_p26.jpg",
+   "topic": "hem-05",
+   "type": "histologia",
+   "size": "half",
+   "title": "Médula ósea normal",
+   "frase": "Biopsia normocelular: células y grasa en proporción.",
+   "claves": [
+    {
+     "t": "Celularidad hematopoyética",
+     "m": [
+      0.5,
+      0.7,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Celularidad normal ~ 100 menos la edad.",
+   "codes": [
+    "1.08.4.003"
+   ],
+   "confunde": "Aplasia: médula vacía, reemplazada por grasa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "aplasia-medular",
+   "n": 9,
+   "src": "biblioteca/06_hematologia/hem-05/01_medula-normal-vs-aplasia_alt1__amir-hemato_p26.jpg",
+   "topic": "hem-05",
+   "type": "histologia",
+   "size": "half",
+   "title": "Aplasia medular",
+   "frase": "Médula reemplazada por grasa: celularidad bajo 25%.",
+   "claves": [
+    {
+     "t": "Médula grasa, casi sin células",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Pancitopenia con reticulocitos bajos: biopsia de médula; derivar.",
+   "codes": [
+    "1.08.1.008",
+    "1.08.4.003"
+   ],
+   "confunde": "Mielodisplasia: médula llena con displasia.",
+   "q": "EUNACOM Julio 2018 · Pregunta 5",
+   "auto": true
+  },
+  {
+   "id": "petequias-purpura",
+   "n": 10,
+   "src": "biblioteca/06_hematologia/hem-05/01_petequias-purpura-en-eeii__amir-hemato_p89.jpg",
+   "topic": "hem-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Petequias y púrpura",
+   "frase": "Puntos rojos que no blanquean, sobre todo en las piernas.",
+   "claves": [
+    {
+     "t": "Petequias",
+     "m": [
+      0.6,
+      0.15,
+      0.12
+     ]
+    },
+    {
+     "t": "Púrpura",
+     "m": [
+      0.25,
+      0.85,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Plaquetas < 20.000: riesgo de sangrado espontáneo.",
+   "codes": [
+    "1.08.1.012",
+    "2.01.1.035"
+   ],
+   "confunde": "Púrpura palpable: vasculitis.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 159",
+   "auto": false
+  },
+  {
+   "id": "megaloblastico",
+   "n": 11,
+   "src": "biblioteca/06_hematologia/hem-06/01_macroovalocitos-neutrofilo-hipersegmenta__amir-hemato_p29.jpg",
+   "topic": "hem-06",
+   "type": "histologia",
+   "size": "half",
+   "title": "Frotis megaloblástico",
+   "frase": "Macroovalocitos y neutrófilo hipersegmentado.",
+   "claves": [
+    {
+     "t": "Neutrófilo con más de 5 lóbulos",
+     "m": [
+      0.68,
+      0.42,
+      0.08
+     ]
+    },
+    {
+     "t": "Macroovalocito",
+     "m": [
+      0.15,
+      0.25,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Medir B12 y folato; no dar folato solo si falta B12.",
+   "codes": [
+    "1.08.1.004"
+   ],
+   "confunde": "Macrocitosis por alcohol: sin hipersegmentación.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 117",
+   "auto": false
+  },
+  {
+   "id": "degeneracion-combinada",
+   "n": 12,
+   "src": "biblioteca/06_hematologia/hem-06/03_rm-degeneracion-combinada-subaguda__nelson_p639.jpg",
+   "topic": "hem-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Degeneración combinada subaguda",
+   "frase": "Hiperseñal de los cordones posteriores en la RM cervical.",
+   "claves": [
+    {
+     "t": "Cordones posteriores",
+     "m": [
+      0.48,
+      0.4,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Déficit de B12: ataxia, Romberg +; vitamina B12 IM.",
+   "codes": [
+    "1.08.1.004",
+    "1.10.1.023"
+   ],
+   "confunde": "Esclerosis múltiple: lesiones en parches.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "glositis-hunter",
+   "n": 13,
+   "src": "biblioteca/06_hematologia/hem-06/01_glositis_atrofica_b12__commons.jpg",
+   "topic": "hem-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Glositis de Hunter",
+   "frase": "Lengua lisa, depapilada y roja.",
+   "claves": [
+    {
+     "t": "Lengua roja y lisa",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Anemia perniciosa: anticuerpos antifactor intrínseco; B12 IM de por vida.",
+   "codes": [
+    "1.08.1.004"
+   ],
+   "confunde": "Glositis ferropénica: pálida.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "coombs",
+   "n": 14,
+   "src": "biblioteca/06_hematologia/hem-07/S1_coombs__propio.svg",
+   "topic": "hem-07",
+   "type": "esquema",
+   "size": "half",
+   "title": "Prueba de Coombs directa e indirecta",
+   "frase": "El reactivo de Coombs aglutina los glóbulos cubiertos de anticuerpos.",
+   "claves": [
+    {
+     "t": "Coombs directo",
+     "m": [
+      0.3,
+      0.4,
+      0.08
+     ]
+    },
+    {
+     "t": "Coombs indirecto",
+     "m": [
+      0.75,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "AHAI: Coombs directo positivo; prednisona.",
+   "codes": [
+    "1.08.4.010"
+   ],
+   "confunde": "Coombs indirecto: tamizaje de la embarazada y pruebas cruzadas.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 52",
+   "auto": false
+  },
+  {
+   "id": "ictericia-flavinica",
+   "n": 15,
+   "src": "biblioteca/06_hematologia/hem-07/02_ictericia_escleral__commons.jpg",
+   "topic": "hem-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ictericia flavínica",
+   "frase": "Pálido y amarillo a la vez: bilirrubina indirecta.",
+   "claves": [
+    {
+     "t": "Esclera amarilla",
+     "m": [
+      0.3,
+      0.6,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Hemólisis: LDH alta, haptoglobina baja, reticulocitos altos.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Ictericia obstructiva: coluria y acolia.",
+   "q": "EUNACOM Julio 2013 · Pregunta 87",
+   "auto": false
+  },
+  {
+   "id": "raynaud-crioaglutininas",
+   "n": 16,
+   "src": "biblioteca/06_hematologia/hem-07/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg",
+   "topic": "hem-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fenómeno de Raynaud",
+   "frase": "Dedos pálidos y luego cianóticos con el frío.",
+   "claves": [
+    {
+     "t": "Palidez",
+     "m": [
+      0.25,
+      0.3,
+      0.1
+     ]
+    },
+    {
+     "t": "Cianosis",
+     "m": [
+      0.75,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Crioaglutininas (IgM): evitar el frío; corticoides no sirven.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Raynaud primario: mujer joven, sin hemólisis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "autoaglutinacion",
+   "n": 17,
+   "src": "../../books/figuras/atlas_eunacom_2026/123_media_hem_hem_07_anemia_hemolitica_autoinmune.jpg",
+   "topic": "hem-07",
+   "type": "histologia",
+   "size": "half",
+   "title": "Autoaglutinación por crioaglutininas",
+   "frase": "Glóbulos rojos agrupados en grumos.",
+   "claves": [
+    {
+     "t": "Grumos de glóbulos rojos",
+     "m": [
+      0.75,
+      0.75,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Enfermedad por crioaglutininas: buscar Mycoplasma o linfoma.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Rouleaux: pilas de monedas, no grumos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "esferocitosis-patogenia",
+   "n": 18,
+   "src": "biblioteca/06_hematologia/hem-08/02_patogenia-esferocitosis_1__cto-hemato_p30.jpg",
+   "topic": "hem-08",
+   "type": "esquema",
+   "size": "half",
+   "title": "Patogenia de la esferocitosis",
+   "frase": "Pierde membrana, se vuelve esfera y el bazo la destruye.",
+   "claves": [
+    {
+     "t": "Esferocitos",
+     "m": [
+      0.4,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Bazo",
+     "m": [
+      0.85,
+      0.55,
+      0.08
+     ]
+    },
+    {
+     "t": "Cálculos pigmentarios",
+     "m": [
+      0.15,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Esplenectomía en las formas graves; vacunas antes.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "AHAI: también esferocitos, con Coombs positivo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "colelitiasis-hemolisis",
+   "n": 19,
+   "src": "biblioteca/06_hematologia/hem-08/01_colelitiasis-eco__cto-radiologia_p44.jpg",
+   "topic": "hem-08",
+   "type": "eco",
+   "size": "half",
+   "title": "Colelitiasis pigmentaria",
+   "frase": "Cálculo con sombra acústica en la vesícula.",
+   "claves": [
+    {
+     "t": "Cálculo",
+     "m": [
+      0.45,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Hemólisis crónica: cálculos desde joven.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Pólipo vesicular: sin sombra y no se mueve.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "g6pd",
+   "n": 20,
+   "src": "../../books/figuras/atlas_eunacom_2026/018_alta_hem_hem_08_esferocitosis_g6pd_hpn.jpg",
+   "topic": "hem-08",
+   "type": "histologia",
+   "size": "half",
+   "title": "Déficit de G6PD: célula mordida",
+   "frase": "Glóbulo con una mordida (flecha).",
+   "claves": [
+    {
+     "t": "Célula mordida",
+     "m": [
+      0.35,
+      0.37,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Evitar habas, sulfas y primaquina; hemólisis tras oxidantes.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Esquistocito: fragmento en casco.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "heinz",
+   "n": 21,
+   "src": "biblioteca/06_hematologia/hem-08/03_cuerpos-de-heinz__harrison_p470.jpg",
+   "topic": "hem-08",
+   "type": "histologia",
+   "size": "half",
+   "title": "Cuerpos de Heinz",
+   "frase": "Puntos azules de hemoglobina precipitada dentro de los glóbulos.",
+   "claves": [
+    {
+     "t": "Cuerpos de Heinz",
+     "m": [
+      0.5,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "G6PD: los cuerpos de Heinz aparecen con tinción supravital.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Punteado basófilo: plomo o talasemia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hb-h",
+   "n": 22,
+   "src": "biblioteca/06_hematologia/hem-09/02_cuerpos-de-hb-h-alfa-talasemia__amir-hemato_p37.jpg",
+   "topic": "hem-09",
+   "type": "histologia",
+   "size": "half",
+   "title": "Cuerpos de hemoglobina H",
+   "frase": "Glóbulos en pelota de golf: α-talasemia.",
+   "claves": [
+    {
+     "t": "Glóbulo con inclusiones de Hb H",
+     "m": [
+      0.6,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Microcitosis con ferritina normal: electroforesis de hemoglobina.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Ferropenia: ferritina baja.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dianocitos",
+   "n": 23,
+   "src": "biblioteca/06_hematologia/hem-09/atlas_126_frotis_con_dianocitos_celulas_.jpg",
+   "topic": "hem-09",
+   "type": "histologia",
+   "size": "half",
+   "title": "Dianocitos",
+   "frase": "Glóbulos en diana: centro teñido con anillo pálido.",
+   "claves": [
+    {
+     "t": "Dianocito",
+     "m": [
+      0.3,
+      0.35,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Talasemia: RDW normal y microcitosis homogénea.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Hepatopatía: también dianocitos, sin microcitosis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "craneo-cepillo",
+   "n": 24,
+   "src": "biblioteca/06_hematologia/hem-09/03_craneo-en-cepillo-talasemia__cto-hemato_p32.jpg",
+   "topic": "hem-09",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cráneo en cepillo",
+   "frase": "Expansión de la médula de la bóveda craneal.",
+   "claves": [
+    {
+     "t": "Bóveda en cepillo",
+     "m": [
+      0.55,
+      0.2,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Talasemia mayor: transfusiones y quelación del hierro.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Cráneo de mieloma: lesiones en sacabocado.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "howell-jolly",
+   "n": 25,
+   "src": "../../books/figuras/atlas_eunacom_2026/127_media_hem_hem_09_talasemias_y_drepanocitosis.jpg",
+   "topic": "hem-09",
+   "type": "histologia",
+   "size": "half",
+   "title": "Cuerpos de Howell-Jolly",
+   "frase": "Pequeño punto morado dentro del glóbulo: asplenia.",
+   "claves": [
+    {
+     "t": "Cuerpo de Howell-Jolly",
+     "m": [
+      0.48,
+      0.5,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Drepanocitosis con autoesplenectomía: vacunas y profilaxis.",
+   "codes": [
+    "1.08.1.003"
+   ],
+   "confunde": "Plaqueta encima del glóbulo: tiene halo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "esquistocitos",
+   "n": 26,
+   "src": "biblioteca/06_hematologia/hem-10/01_esquistocitos__cto-hemato_p10.jpg",
+   "topic": "hem-10",
+   "type": "histologia",
+   "size": "half",
+   "title": "Esquistocitos",
+   "frase": "Glóbulos fragmentados en casco.",
+   "claves": [
+    {
+     "t": "Esquistocito",
+     "m": [
+      0.78,
+      0.27,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "PTT: plasmaféresis urgente; no transfundir plaquetas.",
+   "codes": [
+    "1.08.1.012",
+    "1.08.1.003"
+   ],
+   "confunde": "Esferocitos: redondos y enteros.",
+   "q": "EUNACOM Julio 2025 · Pregunta 131",
+   "auto": true
+  },
+  {
+   "id": "esquistocitos-2",
+   "n": 27,
+   "src": "biblioteca/06_hematologia/hem-10/02_esquistocitos__harrison_p468.jpg",
+   "topic": "hem-10",
+   "type": "histologia",
+   "size": "half",
+   "title": "Esquistocitos abundantes",
+   "frase": "Muchos fragmentos: microangiopatía trombótica.",
+   "claves": [
+    {
+     "t": "Fragmentos",
+     "m": [
+      0.6,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "SHU en niño tras diarrea: soporte y diálisis si falla el riñón.",
+   "codes": [
+    "2.01.1.067",
+    "1.08.1.012"
+   ],
+   "confunde": "CID: con TP y TTPK prolongados.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 17",
+   "auto": false
+  },
+  {
+   "id": "cascada",
+   "n": 28,
+   "src": "biblioteca/06_hematologia/hem-11/S1_cascada-coagulacion__propio.svg",
+   "topic": "hem-11",
+   "type": "esquema",
+   "size": "half",
+   "title": "Cascada de la coagulación y sus exámenes",
+   "frase": "TTPK mide la vía intrínseca; TP/INR, la extrínseca.",
+   "claves": [
+    {
+     "t": "Vía intrínseca: TTPK",
+     "m": [
+      0.15,
+      0.35,
+      0.08
+     ]
+    },
+    {
+     "t": "Vía extrínseca: TP",
+     "m": [
+      0.85,
+      0.35,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TTPK largo aislado: hemofilia o heparina; TP largo: warfarina o déficit de vitamina K.",
+   "codes": [
+    "1.08.4.005"
+   ],
+   "confunde": "Tiempo de sangría: plaquetas, no coagulación.",
+   "q": "EUNACOM Julio 2019 · Pregunta 78",
+   "auto": false
+  },
+  {
+   "id": "pseudotrombocitopenia",
+   "n": 29,
+   "src": "biblioteca/06_hematologia/hem-12/atlas_328_pseudotrombocitopenia_por_edta.jpg",
+   "topic": "hem-12",
+   "type": "histologia",
+   "size": "half",
+   "title": "Pseudotrombocitopenia por EDTA",
+   "frase": "Plaquetas agrupadas en grumos.",
+   "claves": [
+    {
+     "t": "Grumo de plaquetas",
+     "m": [
+      0.92,
+      0.3,
+      0.06
+     ]
+    },
+    {
+     "t": "Grumo de plaquetas",
+     "m": [
+      0.22,
+      0.6,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Plaquetas bajas sin sangrado: repetir en tubo con citrato.",
+   "codes": [
+    "1.08.1.012"
+   ],
+   "confunde": "PTI: plaquetas sueltas y escasas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "artropatia-hemofilica",
+   "n": 30,
+   "src": "biblioteca/06_hematologia/hem-13/01_rodilla_hemofilico__commons-wellcome.jpg",
+   "topic": "hem-13",
+   "type": "pieza",
+   "size": "half",
+   "title": "Artropatía hemofílica",
+   "frase": "Rodilla destruida por hemartrosis repetidas.",
+   "claves": [
+    {
+     "t": "Cartílago destruido",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Hemofilia: profilaxis con factor VIII o IX para evitarla.",
+   "codes": [
+    "1.08.1.006",
+    "2.01.1.036"
+   ],
+   "confunde": "Artrosis: sin antecedente de hemartrosis.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 159",
+   "auto": false
+  },
+  {
+   "id": "hematoma-psoas",
+   "n": 31,
+   "src": "biblioteca/06_hematologia/hem-13/02_hematoma_psoas_tc__nelson_p3858.jpg",
+   "topic": "hem-13",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hematoma del psoas en la TAC",
+   "frase": "Aumento de volumen del psoas derecho.",
+   "claves": [
+    {
+     "t": "Psoas aumentado",
+     "m": [
+      0.28,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Hemofilia: reponer el factor de inmediato.",
+   "codes": [
+    "1.08.1.006",
+    "1.08.2.003"
+   ],
+   "confunde": "Absceso del psoas: fiebre y gas.",
+   "q": "EUNACOM Enero 2023 · Pregunta 35",
+   "auto": false
+  },
+  {
+   "id": "purpura-sepsis",
+   "n": 32,
+   "src": "biblioteca/06_hematologia/hem-15/01_purpura-equimosis-sepsis__cto-infecto_p38.jpg",
+   "topic": "hem-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura en una sepsis (CID)",
+   "frase": "Equimosis extensas y confluentes.",
+   "claves": [
+    {
+     "t": "Púrpura confluente",
+     "m": [
+      0.4,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "CID: tratar la causa; plasma, crioprecipitado y plaquetas si sangra.",
+   "codes": [
+    "1.08.2.001"
+   ],
+   "confunde": "PTI: petequias sin shock.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 54",
+   "auto": false
+  },
+  {
+   "id": "infiltracion-gingival",
+   "n": 33,
+   "src": "biblioteca/06_hematologia/hem-16/03_infiltracion-gingival__cto-hemato_p63.jpg",
+   "topic": "hem-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Infiltración gingival",
+   "frase": "Encías hiperplásicas: LMA mielomonocítica o monocítica.",
+   "claves": [
+    {
+     "t": "Encías infiltradas",
+     "m": [
+      0.5,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Hemograma y frotis; derivar urgente a hematología.",
+   "codes": [
+    "1.08.1.009"
+   ],
+   "confunde": "Hiperplasia por fenitoína: sin citopenias.",
+   "q": "EUNACOM Julio 2017 · Pregunta 118",
+   "auto": false
+  },
+  {
+   "id": "blastos-linfoides",
+   "n": 34,
+   "src": "biblioteca/06_hematologia/hem-16/04_lal-frotis-blastos__commons.jpg",
+   "topic": "hem-16",
+   "type": "histologia",
+   "size": "half",
+   "title": "Linfoblastos",
+   "frase": "Células pequeñas con poco citoplasma y sin gránulos.",
+   "claves": [
+    {
+     "t": "Linfoblasto",
+     "m": [
+      0.35,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Blastos > 20% en médula: leucemia aguda; mielograma.",
+   "codes": [
+    "1.08.1.009",
+    "2.01.1.032",
+    "1.08.4.009"
+   ],
+   "confunde": "Mieloblasto: grande, con gránulos y bastones de Auer.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 27",
+   "auto": false
+  },
+  {
+   "id": "burkitt",
+   "n": 35,
+   "src": "biblioteca/06_hematologia/hem-16/02_lal-tipo-burkitt__amir-hemato_p44.jpg",
+   "topic": "hem-16",
+   "type": "histologia",
+   "size": "half",
+   "title": "Blastos tipo Burkitt",
+   "frase": "Blastos grandes de citoplasma azul con vacuolas.",
+   "claves": [
+    {
+     "t": "Citoplasma vacuolado",
+     "m": [
+      0.65,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Riesgo alto de lisis tumoral: hidratación y alopurinol o rasburicasa.",
+   "codes": [
+    "1.08.1.009"
+   ],
+   "confunde": "Linfocito reactivo: citoplasma amplio sin vacuolas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "gumprecht",
+   "n": 36,
+   "src": "biblioteca/06_hematologia/hem-17/02_llc_sombras_gumprecht__goljan_p580.jpg",
+   "topic": "hem-17",
+   "type": "histologia",
+   "size": "half",
+   "title": "Sombras de Gümprecht",
+   "frase": "Núcleos de linfocitos rotos en el frotis de una LLC.",
+   "claves": [
+    {
+     "t": "Sombra de Gümprecht",
+     "m": [
+      0.33,
+      0.25,
+      0.08
+     ]
+    },
+    {
+     "t": "Linfocito pequeño maduro",
+     "m": [
+      0.62,
+      0.6,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Adulto mayor con linfocitosis: citometría de flujo.",
+   "codes": [
+    "1.08.1.010"
+   ],
+   "confunde": "Linfocitosis reactiva: linfocitos activados.",
+   "q": "EUNACOM Julio 2015 · Pregunta 12",
+   "auto": true
+  },
+  {
+   "id": "lmc",
+   "n": 37,
+   "src": "biblioteca/06_hematologia/hem-17/01_lmc-leucocitosis-con-desviacion-izquierd__cto-hemato_p53.jpg",
+   "topic": "hem-17",
+   "type": "histologia",
+   "size": "half",
+   "title": "Leucemia mieloide crónica",
+   "frase": "Leucocitosis con todas las formas inmaduras de la serie.",
+   "claves": [
+    {
+     "t": "Mielocitos y baciliformes",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "BCR-ABL; imatinib.",
+   "codes": [
+    "1.08.1.010"
+   ],
+   "confunde": "Reacción leucemoide: con infección y sin BCR-ABL.",
+   "q": "EUNACOM Julio 2018 · Pregunta 79",
+   "auto": false
+  },
+  {
+   "id": "llc",
+   "n": 38,
+   "src": "biblioteca/06_hematologia/hem-17/01_frotis_llc__harrison_p875.jpg",
+   "topic": "hem-17",
+   "type": "histologia",
+   "size": "half",
+   "title": "Leucemia linfática crónica",
+   "frase": "Muchos linfocitos pequeños y maduros.",
+   "claves": [
+    {
+     "t": "Linfocitos pequeños",
+     "m": [
+      0.3,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Observación en estadios iniciales.",
+   "codes": [
+    "1.08.1.010"
+   ],
+   "confunde": "Linfoma del manto: CD5 + con ciclina D1.",
+   "q": "EUNACOM Julio 2019 · Pregunta 164",
+   "auto": false
+  },
+  {
+   "id": "esplenomegalia",
+   "n": 39,
+   "src": "_web/131_hem_LMC_mielofibrosis__Open-i_1.jpg",
+   "topic": "hem-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esplenomegalia masiva",
+   "frase": "Bazo marcado hasta la fosa ilíaca.",
+   "claves": [
+    {
+     "t": "Borde del bazo",
+     "m": [
+      0.4,
+      0.75,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "LMC o mielofibrosis: hemograma, frotis y BCR-ABL / JAK2.",
+   "codes": [
+    "1.08.1.018",
+    "1.08.1.010"
+   ],
+   "confunde": "Hepatomegalia: borde a la derecha.",
+   "q": "EUNACOM Julio 2017 · Pregunta 9",
+   "auto": false
+  },
+  {
+   "id": "adenopatia-supraclavicular",
+   "n": 40,
+   "src": "biblioteca/06_hematologia/hem-18/06_adenopatia_supraclavicular__knoop_p193.jpg",
+   "topic": "hem-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Adenopatía supraclavicular",
+   "frase": "Ganglio supraclavicular grande.",
+   "claves": [
+    {
+     "t": "Adenopatía",
+     "m": [
+      0.5,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Neoplásica hasta demostrar lo contrario: biopsia ganglionar.",
+   "codes": [
+    "1.08.1.011",
+    "1.08.5.002"
+   ],
+   "confunde": "Ganglio reactivo: pequeño, blando y doloroso.",
+   "q": "EUNACOM Julio 2024 · Pregunta 37",
+   "auto": false
+  },
+  {
+   "id": "reed-sternberg",
+   "n": 41,
+   "src": "biblioteca/06_hematologia/hem-18/01_celula-de-reed-sternberg__cto-hemato_p69.jpg",
+   "topic": "hem-18",
+   "type": "histologia",
+   "size": "half",
+   "title": "Célula de Reed-Sternberg",
+   "frase": "Célula gigante binucleada en ojos de búho.",
+   "claves": [
+    {
+     "t": "Núcleos en espejo",
+     "m": [
+      0.55,
+      0.2,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Linfoma de Hodgkin: biopsia, PET-CT y quimioterapia ABVD.",
+   "codes": [
+    "1.08.1.011"
+   ],
+   "confunde": "No Hodgkin: sin Reed-Sternberg.",
+   "q": "EUNACOM Julio 2024 · Pregunta 106",
+   "auto": true
+  },
+  {
+   "id": "malt",
+   "n": 42,
+   "src": "biblioteca/06_hematologia/hem-18/05_malt-gastrico-endoscopia__commons.jpg",
+   "topic": "hem-18",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Linfoma MALT gástrico",
+   "frase": "Lesión ulcerada en la mucosa gástrica.",
+   "claves": [
+    {
+     "t": "Lesión ulcerada",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Erradicar H. pylori: muchos remiten.",
+   "codes": [
+    "1.08.1.011"
+   ],
+   "confunde": "Cáncer gástrico: biopsia lo separa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pico-m",
+   "n": 43,
+   "src": "biblioteca/06_hematologia/hem-19/S1_electroforesis-pico-m__propio.svg",
+   "topic": "hem-19",
+   "type": "esquema",
+   "size": "half",
+   "title": "Electroforesis: pico monoclonal",
+   "frase": "Banda alta y angosta en gamma.",
+   "claves": [
+    {
+     "t": "Pico M",
+     "m": [
+      0.86,
+      0.45,
+      0.05
+     ]
+    }
+   ],
+   "conducta": "Mieloma: CRAB; buscar Bence Jones.",
+   "codes": [
+    "1.08.4.004",
+    "1.08.1.007"
+   ],
+   "confunde": "Policlonal: base ancha.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 133",
+   "auto": false
+  },
+  {
+   "id": "liticas",
+   "n": 44,
+   "src": "biblioteca/06_hematologia/hem-19/01_lesiones-liticas-en-craneo_alt1__amir-hemato_p73.jpg",
+   "topic": "hem-19",
+   "type": "imagen",
+   "size": "half",
+   "title": "Lesiones líticas del mieloma",
+   "frase": "Lesiones en sacabocado en el cráneo y vértebras.",
+   "claves": [
+    {
+     "t": "Lesiones en sacabocado",
+     "m": [
+      0.5,
+      0.2,
+      0.12
+     ]
+    },
+    {
+     "t": "Vértebra aplastada",
+     "m": [
+      0.17,
+      0.65,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Electroforesis de proteínas y mielograma.",
+   "codes": [
+    "1.08.1.007"
+   ],
+   "confunde": "Metástasis: lesiones de bordes irregulares.",
+   "q": "EUNACOM Julio 2018 · Pregunta 37",
+   "auto": true
+  },
+  {
+   "id": "rouleaux",
+   "n": 45,
+   "src": "biblioteca/06_hematologia/hem-19/02_rouleaux__amir-hemato_p74.jpg",
+   "topic": "hem-19",
+   "type": "histologia",
+   "size": "half",
+   "title": "Pilas de monedas (rouleaux)",
+   "frase": "Glóbulos apilados por exceso de proteína.",
+   "claves": [
+    {
+     "t": "Rouleaux",
+     "m": [
+      0.55,
+      0.55,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "VHS muy alta: pensar en mieloma.",
+   "codes": [
+    "1.08.1.007"
+   ],
+   "confunde": "Aglutinación: grumos sin orden.",
+   "q": "EUNACOM Julio 2013 · Pregunta 145",
+   "auto": true
+  },
+  {
+   "id": "facies-pletorica",
+   "n": 46,
+   "src": "biblioteca/06_hematologia/hem-20/03_facies_pletorica_pv__goljan_p567.jpg",
+   "topic": "hem-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies pletórica",
+   "frase": "Cara y conjuntivas rojas.",
+   "claves": [
+    {
+     "t": "Conjuntivas rojas",
+     "m": [
+      0.3,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Policitemia vera: JAK2; flebotomías y aspirina.",
+   "codes": [
+    "1.08.1.018"
+   ],
+   "confunde": "Policitemia secundaria: EPO alta (hipoxemia).",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "eritromelalgia",
+   "n": 47,
+   "src": "biblioteca/06_hematologia/hem-20/04_eritromelalgia__nelson_p2012.jpg",
+   "topic": "hem-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritromelalgia",
+   "frase": "Dolor quemante con enrojecimiento de los pies.",
+   "claves": [
+    {
+     "t": "Pie enrojecido",
+     "m": [
+      0.55,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Mejora con aspirina.",
+   "codes": [
+    "1.08.1.018"
+   ],
+   "confunde": "Celulitis: fiebre y unilateral.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "trombocitemia",
+   "n": 48,
+   "src": "biblioteca/06_hematologia/hem-20/05_trombocitemia_frotis__goljan_p634.jpg",
+   "topic": "hem-20",
+   "type": "histologia",
+   "size": "half",
+   "title": "Trombocitemia esencial",
+   "frase": "Muchas plaquetas en el frotis.",
+   "claves": [
+    {
+     "t": "Plaquetas abundantes",
+     "m": [
+      0.4,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Plaquetas > 450.000 sostenidas: descartar causa reactiva y pedir JAK2.",
+   "codes": [
+    "1.08.1.018"
+   ],
+   "confunde": "Trombocitosis reactiva: ferropenia o inflamación.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "dacriocitos",
+   "n": 49,
+   "src": "_web/021_hem_Neoplasias_mieloproliferativ__Commons_1.jpg",
+   "topic": "hem-20",
+   "type": "histologia",
+   "size": "half",
+   "title": "Dacriocitos",
+   "frase": "Glóbulos en lágrima: mielofibrosis.",
+   "claves": [
+    {
+     "t": "Dacriocito",
+     "m": [
+      0.62,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Mielofibrosis: aspirado seco, biopsia de médula.",
+   "codes": [
+    "1.08.1.018",
+    "1.08.1.015"
+   ],
+   "confunde": "Artefacto del extendido: todas las colas hacia el mismo lado.",
+   "q": "EUNACOM Julio 2017 · Pregunta 9",
+   "auto": false
+  },
+  {
+   "id": "pelger",
+   "n": 50,
+   "src": "../../books/figuras/atlas_eunacom_2026/332_baja_hem_hem_20_neoplasias_mieloproliferativas.jpg",
+   "topic": "hem-20",
+   "type": "histologia",
+   "size": "half",
+   "title": "Neutrófilo pseudo-Pelger-Huët",
+   "frase": "Neutrófilo bilobulado e hipogranular: mielodisplasia.",
+   "claves": [
+    {
+     "t": "Neutrófilo bilobulado",
+     "m": [
+      0.4,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Adulto mayor con citopenias: mielograma.",
+   "codes": [
+    "1.08.1.017"
+   ],
+   "confunde": "Pelger-Huët hereditario: sin citopenias.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ecg-hiperkalemia-lisis",
+   "n": 51,
+   "src": "biblioteca/06_hematologia/hem-22/01_ecg-hiperpotasemia-t-picudas__cto-nefro_p23.jpg",
+   "topic": "hem-22",
+   "type": "ecg",
+   "size": "half",
+   "title": "ECG de hiperkalemia",
+   "frase": "T altas y picudas, luego QRS ancho.",
+   "claves": [
+    {
+     "t": "T picudas",
+     "m": [
+      0.5,
+      0.27,
+      0.06
+     ]
+    },
+    {
+     "t": "QRS ancho",
+     "m": [
+      0.5,
+      0.8,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Lisis tumoral: gluconato de calcio EV primero.",
+   "codes": [
+    "1.08.2.005"
+   ],
+   "confunde": "T de isquemia hiperaguda: asimétrica.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 20",
+   "auto": false
+  },
+  {
+   "id": "compresion-medular",
+   "n": 52,
+   "src": "biblioteca/06_hematologia/hem-22/01_rm_compresion_medular__harrison_p3489.jpg",
+   "topic": "hem-22",
+   "type": "imagen",
+   "size": "half",
+   "title": "Compresión medular por metástasis",
+   "frase": "Vértebra comprometida que comprime la médula (flecha).",
+   "claves": [
+    {
+     "t": "Compresión medular",
+     "m": [
+      0.13,
+      0.78,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Dexametasona de inmediato; RM de columna completa y radioterapia.",
+   "codes": [
+    "1.08.2.007",
+    "1.10.2.011"
+   ],
+   "confunde": "Hernia discal: sin destrucción del cuerpo vertebral.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "necrosis-cumarinicos",
+   "n": 53,
+   "src": "biblioteca/06_hematologia/hem-23/atlas_136_necrosis_cutanea_inducida_por_.jpg",
+   "topic": "hem-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrosis cutánea por cumarínicos",
+   "frase": "Piel negra rodeada de eritema.",
+   "claves": [
+    {
+     "t": "Necrosis cutánea",
+     "m": [
+      0.6,
+      0.6,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Déficit de proteína C: iniciar warfarina con heparina.",
+   "codes": [
+    "1.08.1.019",
+    "1.08.3.012"
+   ],
+   "confunde": "Calcifilaxis: en insuficiencia renal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "livedo",
+   "n": 54,
+   "src": "biblioteca/06_hematologia/hem-23/02_livedo_saf__fitzpatrick_p1652.jpg",
+   "topic": "hem-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Livedo reticularis",
+   "frase": "Red violácea en la piel.",
+   "claves": [
+    {
+     "t": "Patrón en red",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "SAF: anticardiolipina, anti-β2GP1 y anticoagulante lúpico.",
+   "codes": [
+    "1.11.1.021",
+    "1.08.1.019"
+   ],
+   "confunde": "Cutis marmorata fisiológico: desaparece al calentar.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 149",
+   "auto": false
+  },
+  {
+   "id": "trali",
+   "n": 55,
+   "src": "biblioteca/06_hematologia/hem-24/01_trali-infiltrado-bilateral__cto-neumo_p35.jpg",
+   "topic": "hem-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "TRALI",
+   "frase": "Infiltrados bilaterales dentro de 6 horas de la transfusión.",
+   "claves": [
+    {
+     "t": "Infiltrados bilaterales",
+     "m": [
+      0.3,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Detener la transfusión y soporte ventilatorio; no dar diuréticos.",
+   "codes": [
+    "1.08.3.011"
+   ],
+   "confunde": "TACO: con sobrecarga de volumen e hipertensión.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "taco",
+   "n": 56,
+   "src": "biblioteca/06_hematologia/hem-24/02_rx_taco__sherman_p303.jpg",
+   "topic": "hem-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "TACO",
+   "frase": "Edema pulmonar cardiogénico por exceso de volumen.",
+   "claves": [
+    {
+     "t": "Edema bilateral",
+     "m": [
+      0.7,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Detener la transfusión y dar furosemida.",
+   "codes": [
+    "1.08.3.011"
+   ],
+   "confunde": "TRALI: sin sobrecarga, no responde a diuréticos.",
+   "q": "EUNACOM Julio 2024 · Pregunta 14",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "medula-normal",
+   "b": "aplasia-medular",
+   "title": "Médula normal vs aplasia",
+   "la": [
+    "Células y grasa"
+   ],
+   "lb": [
+    "Casi solo grasa"
+   ],
+   "diff": "Celularidad bajo 25%: aplasia."
+  },
+  {
+   "a": "lmc",
+   "b": "llc",
+   "title": "LMC vs LLC",
+   "la": [
+    "Formas mieloides inmaduras"
+   ],
+   "lb": [
+    "Linfocitos maduros pequeños"
+   ],
+   "diff": "BCR-ABL en la LMC; citometría en la LLC."
+  },
+  {
+   "a": "trali",
+   "b": "taco",
+   "title": "TRALI vs TACO",
+   "la": [
+    "Sin sobrecarga"
+   ],
+   "lb": [
+    "Con sobrecarga"
+   ],
+   "diff": "Solo el TACO responde a diuréticos."
+  },
+  {
+   "a": "esferocitos",
+   "b": "esquistocitos",
+   "title": "Esferocitos vs esquistocitos",
+   "la": [
+    "Redondos, sin palidez"
+   ],
+   "lb": [
+    "Fragmentos en casco"
+   ],
+   "diff": "Esquistocitos: microangiopatía."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Coiloniquia",
+   "dx": "Ferropenia.",
+   "find": "coiloniquia",
+   "topic": "hem-03",
+   "img": "coiloniquia",
+   "def": "Uñas en cuchara."
+  },
+  {
+   "name": "Sombras de Gümprecht",
+   "dx": "Leucemia linfática crónica.",
+   "find": "Gümprecht",
+   "topic": "hem-17",
+   "img": "gumprecht",
+   "def": "Núcleos rotos en el frotis."
+  },
+  {
+   "name": "Reed-Sternberg",
+   "dx": "Linfoma de Hodgkin.",
+   "find": "Reed-Sternberg",
+   "topic": "hem-18",
+   "img": "reed-sternberg",
+   "def": "Célula binucleada en ojos de búho."
+  },
+  {
+   "name": "Cráneo en cepillo",
+   "dx": "Talasemia mayor.",
+   "find": "cepillo",
+   "topic": "hem-09",
+   "img": "craneo-cepillo",
+   "def": "Expansión medular de la bóveda."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 56
+ }
+}

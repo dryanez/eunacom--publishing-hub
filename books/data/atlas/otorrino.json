@@ -1,0 +1,1582 @@
+{
+ "libro": "otorrino",
+ "title": "Otorrinolaringología",
+ "prefix": "orl",
+ "topics": {
+  "orl-01": "Otitis Media Aguda (OMA)",
+  "orl-02": "Otitis Media con Efusión (OME), OMC Simple y Colesteatomatosa",
+  "orl-03": "Otitis Externa Difusa vs Otitis Externa Maligna en Diabéticos",
+  "orl-04": "Complicaciones de Otitis",
+  "orl-05": "Evaluación Auditiva",
+  "orl-06": "Hipoacusia Sensorioneural Súbita, Trauma Acústico y Presbiacusia",
+  "orl-07": "Síndrome Vertiginoso Periférico",
+  "orl-08": "Parálisis Facial Periférica (Bell) vs Síndrome de Ramsay Hunt",
+  "orl-09": "Rinitis Alérgica vs No Alérgica",
+  "orl-10": "Rinosinusitis Aguda Viral vs Bacteriana",
+  "orl-11": "Epistaxis Anterior vs Posterior",
+  "orl-12": "Poliposis Nasal, Desviación Septal y Fractura Nasal",
+  "orl-13": "Faringoamigdalitis Aguda Bacteriana",
+  "orl-14": "Complicaciones Supurativas",
+  "orl-15": "Hipertrofia Adenotonsilar y SAHOS Infantil",
+  "orl-16": "Disfonía Crónica y Patología Benigna de Cuerdas Vocales",
+  "orl-17": "Croup / Laringitis Obstructiva vs Epiglotitis Aguda",
+  "orl-18": "Cuerpos Extraños en ORL",
+  "orl-19": "Patología de Glándulas Salivales",
+  "orl-20": "Cáncer de Cabeza y Cuello"
+ },
+ "images": [
+  {
+   "id": "timpano-normal",
+   "n": 1,
+   "src": "biblioteca/17_otorrino/orl-01/01_timpano-normal__bates_p317.jpg",
+   "topic": "orl-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tímpano normal",
+   "frase": "Membrana gris perla, translúcida, con mango del martillo y triángulo luminoso.",
+   "claves": [
+    {
+     "t": "Mango del martillo",
+     "m": [
+      0.6,
+      0.4,
+      0.07
+     ]
+    },
+    {
+     "t": "Triángulo luminoso",
+     "m": [
+      0.72,
+      0.72,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Referencia para comparar.",
+   "codes": [
+    "6.03.1.020"
+   ],
+   "confunde": "OMA: abombado y rojo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "oma",
+   "n": 2,
+   "src": "biblioteca/17_otorrino/orl-01/02_otitis-media-aguda-timpano-abombado__bates_p318.jpg",
+   "topic": "orl-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otitis media aguda",
+   "frase": "Tímpano rojo y abombado, sin relieves.",
+   "claves": [
+    {
+     "t": "Tímpano abombado",
+     "m": [
+      0.5,
+      0.5,
+      0.2
+     ]
+    }
+   ],
+   "conducta": "Amoxicilina 80–90 mg/kg/día.",
+   "codes": [
+    "6.03.1.020",
+    "2.01.1.026"
+   ],
+   "confunde": "Miringitis por llanto: rojo sin abombamiento.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 128",
+   "auto": true
+  },
+  {
+   "id": "efusion",
+   "n": 3,
+   "src": "biblioteca/17_otorrino/orl-02/01_otitis-media-con-efusion-nivel-hidroaereo__bates_p318.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otitis media con efusión",
+   "frase": "Nivel de líquido y burbujas tras el tímpano.",
+   "claves": [
+    {
+     "t": "Burbujas",
+     "m": [
+      0.45,
+      0.7,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Observar 3 meses; colleras si persiste con hipoacusia.",
+   "codes": [
+    "6.03.1.021"
+   ],
+   "confunde": "OMA: tímpano abombado y dolor.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "collera",
+   "n": 4,
+   "src": "biblioteca/17_otorrino/orl-02/03_tubo-de-ventilacion-timpanica-colleras__bailey-love_p731.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Collera en el tímpano",
+   "frase": "Tubo de ventilación.",
+   "claves": [
+    {
+     "t": "Collera",
+     "m": [
+      0.35,
+      0.7,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "OME persistente con hipoacusia.",
+   "codes": [
+    "6.03.1.021"
+   ],
+   "confunde": "Cuerpo extraño.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "perforacion",
+   "n": 5,
+   "src": "biblioteca/17_otorrino/orl-02/02_perforacion-timpanica-central__bates_p317.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Perforación timpánica central",
+   "frase": "Orificio central con borde del tímpano.",
+   "claves": [
+    {
+     "t": "Perforación",
+     "m": [
+      0.62,
+      0.7,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "OMC simple: evitar agua; timpanoplastía.",
+   "codes": [
+    "6.03.1.022"
+   ],
+   "confunde": "Perforación marginal: riesgo de colesteatoma.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 148",
+   "auto": false
+  },
+  {
+   "id": "colesteatoma",
+   "n": 6,
+   "src": "biblioteca/17_otorrino/orl-02/04_colesteatoma-congenito-tac__nelson_p5104.jpg",
+   "topic": "orl-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Colesteatoma",
+   "frase": "Masa blanca nacarada detrás de la membrana timpánica.",
+   "claves": [
+    {
+     "t": "Masa nacarada",
+     "m": [
+      0.4,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "TAC de oídos y cirugía.",
+   "codes": [
+    "6.03.1.022",
+    "6.03.4.005"
+   ],
+   "confunde": "Timpanoesclerosis: placa blanca en el tímpano.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "otitis-externa",
+   "n": 7,
+   "src": "biblioteca/17_otorrino/orl-03/01_otitis-externa-aguda-conducto-edematoso__bates_p276.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otitis externa difusa",
+   "frase": "Conducto edematoso y estrecho.",
+   "claves": [
+    {
+     "t": "Conducto edematoso",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Gotas con antibiótico y corticoide; dolor al traccionar el pabellón.",
+   "codes": [
+    "6.03.1.019"
+   ],
+   "confunde": "OMA: tracción indolora.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 160",
+   "auto": false
+  },
+  {
+   "id": "otomicosis",
+   "n": 8,
+   "src": "biblioteca/17_otorrino/orl-03/02_otomicosis-otitis-externa-fungica__bailey-love_p728.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otomicosis",
+   "frase": "Masa blanquecina algodonosa en el conducto.",
+   "claves": [
+    {
+     "t": "Hifas",
+     "m": [
+      0.55,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aseo y antifúngico tópico.",
+   "codes": [
+    "6.03.1.019"
+   ],
+   "confunde": "Tapón de cerumen.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "otohematoma",
+   "n": 9,
+   "src": "biblioteca/17_otorrino/orl-03/03_otohematoma-pabellon__bailey-love_p727.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otohematoma",
+   "frase": "Colección bajo el pericondrio del pabellón.",
+   "claves": [
+    {
+     "t": "Otohematoma",
+     "m": [
+      0.4,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Drenaje y vendaje compresivo: evita la oreja en coliflor.",
+   "codes": [
+    "6.03.2.014",
+    "6.03.5.005"
+   ],
+   "confunde": "Pericondritis: dolor y fiebre.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "otitis-maligna",
+   "n": 10,
+   "src": "_verificadas/264_orl_Otitis_externa_maligna__BullENT_p80.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Otitis externa maligna",
+   "frase": "Tejido de granulación en el piso del conducto.",
+   "claves": [
+    {
+     "t": "Granulación",
+     "m": [
+      0.55,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Diabético: ciprofloxacino EV y TAC.",
+   "codes": [
+    "6.03.1.019",
+    "1.02.1.014"
+   ],
+   "confunde": "Otitis externa difusa.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 93",
+   "auto": false
+  },
+  {
+   "id": "mucormicosis",
+   "n": 11,
+   "src": "biblioteca/17_otorrino/orl-03/04_mucormicosis-rinoorbitaria-diabetica__fitzpatrick_p1882.jpg",
+   "topic": "orl-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mucormicosis rinoorbitaria",
+   "frase": "Proptosis, edema facial y parálisis facial en una diabética.",
+   "claves": [
+    {
+     "t": "Edema periorbitario",
+     "m": [
+      0.6,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Anfotericina B y desbridamiento urgente.",
+   "codes": [
+    "1.02.1.014"
+   ],
+   "confunde": "Celulitis orbitaria bacteriana.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "pabellon-despegado",
+   "n": 12,
+   "src": "biblioteca/17_otorrino/orl-04/01_mastoiditis-pabellon-desplazado__sherman_p229.jpg",
+   "topic": "orl-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mastoiditis: pabellón despegado",
+   "frase": "Oreja desplazada hacia adelante.",
+   "claves": [
+    {
+     "t": "Pabellón despegado",
+     "m": [
+      0.65,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Antibióticos EV y TAC; drenaje si hay absceso.",
+   "codes": [
+    "6.03.2.001"
+   ],
+   "confunde": "Otitis externa.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "mastoiditis-tac",
+   "n": 13,
+   "src": "biblioteca/17_otorrino/orl-04/atlas_265_tac_de_penasco_con_mastoiditis.jpg",
+   "topic": "orl-04",
+   "type": "imagen",
+   "size": "half",
+   "title": "Mastoiditis coalescente en la TAC",
+   "frase": "Celdas mastoideas destruidas.",
+   "claves": [
+    {
+     "t": "Mastoides",
+     "m": [
+      0.4,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Cirugía (mastoidectomía).",
+   "codes": [
+    "6.03.2.001",
+    "6.03.4.005"
+   ],
+   "confunde": "Mastoides neumatizada normal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "weber",
+   "n": 14,
+   "src": "biblioteca/17_otorrino/orl-05/01_prueba-de-weber-diapason-en-la-frente__bates_p277.jpg",
+   "topic": "orl-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de Weber",
+   "frase": "Diapasón en la línea media del cráneo.",
+   "claves": [
+    {
+     "t": "Diapasón",
+     "m": [
+      0.4,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Lateraliza al oído enfermo en la conductiva y al sano en la sensorioneural.",
+   "codes": [
+    "6.03.1.007",
+    "6.03.4.006"
+   ],
+   "confunde": "Rinne: compara aérea con ósea.",
+   "q": "EUNACOM Julio 2024 · Pregunta 35",
+   "auto": false
+  },
+  {
+   "id": "schwannoma",
+   "n": 15,
+   "src": "biblioteca/17_otorrino/orl-06/01_schwannoma-vestibular-rm-con-contraste__bailey-love_p687.jpg",
+   "topic": "orl-06",
+   "type": "imagen",
+   "size": "half",
+   "title": "Schwannoma vestibular en la RM",
+   "frase": "Masa del ángulo pontocerebeloso.",
+   "claves": [
+    {
+     "t": "Masa",
+     "m": [
+      0.55,
+      0.58,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Hipoacusia unilateral: RM.",
+   "codes": [
+    "6.03.4.011",
+    "6.03.1.008"
+   ],
+   "confunde": "Meningioma.",
+   "q": "EUNACOM Enero 2023 · Pregunta 136",
+   "auto": false
+  },
+  {
+   "id": "audifono",
+   "n": 16,
+   "src": "biblioteca/17_otorrino/orl-06/02_audifono-retroauricular__bailey-love_p734.jpg",
+   "topic": "orl-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Audífono retroauricular",
+   "frase": "Presbiacusia.",
+   "claves": [
+    {
+     "t": "Audífono",
+     "m": [
+      0.6,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Presbiacusia: audífono.",
+   "codes": [
+    "6.03.1.008"
+   ],
+   "confunde": "Tapón de cerumen.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "epley-orl",
+   "n": 17,
+   "src": "biblioteca/17_otorrino/orl-07/01_maniobra-de-epley-modificada__harrison_p202.jpg",
+   "topic": "orl-07",
+   "type": "esquema",
+   "size": "half",
+   "title": "Maniobra de Epley",
+   "frase": "Giros de cabeza para reponer los otolitos.",
+   "claves": [
+    {
+     "t": "Secuencia",
+     "m": [
+      0.5,
+      0.3,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "VPPB del canal posterior.",
+   "codes": [
+    "6.03.1.029",
+    "1.10.1.025"
+   ],
+   "confunde": "Ménière: vértigo con hipoacusia y tinnitus.",
+   "q": "EUNACOM Julio 2025 · Pregunta 154",
+   "auto": false
+  },
+  {
+   "id": "bell-lagoftalmos",
+   "n": 18,
+   "src": "biblioteca/17_otorrino/orl-08/03_paralisis-facial-periferica-bell__amir-orl_p29.jpg",
+   "topic": "orl-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Parálisis de Bell: lagoftalmos",
+   "frase": "El ojo no cierra del lado afectado.",
+   "claves": [
+    {
+     "t": "Lagoftalmos",
+     "m": [
+      0.52,
+      0.48,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Prednisona y protección ocular.",
+   "codes": [
+    "1.10.1.016"
+   ],
+   "confunde": "Central: cierra el ojo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "comisura",
+   "n": 19,
+   "src": "biblioteca/17_otorrino/orl-08/01_asimetria-facial-al-sonreir__bailey-love_p736.jpg",
+   "topic": "orl-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Comisura que no se eleva",
+   "frase": "Desviación de la boca al sonreír.",
+   "claves": [
+    {
+     "t": "Comisura caída",
+     "m": [
+      0.65,
+      0.7,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Parálisis facial periférica.",
+   "codes": [
+    "1.10.1.016"
+   ],
+   "confunde": "Central: solo la mitad inferior.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ramsay-hunt-orl",
+   "n": 20,
+   "src": "biblioteca/17_otorrino/orl-08/02_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+   "topic": "orl-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ramsay Hunt: vesículas en la concha",
+   "frase": "Vesículas y costras en el pabellón.",
+   "claves": [
+    {
+     "t": "Vesículas",
+     "m": [
+      0.55,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Valaciclovir y prednisona.",
+   "codes": [
+    "1.10.1.009",
+    "1.10.1.016"
+   ],
+   "confunde": "Otitis externa.",
+   "q": "EUNACOM Julio 2024 · Pregunta 5",
+   "auto": false
+  },
+  {
+   "id": "facies-rinitis",
+   "n": 21,
+   "src": "biblioteca/17_otorrino/orl-09/01_facies-rinitis-alergica-perenne__bates_p945.jpg",
+   "topic": "orl-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies de rinitis alérgica",
+   "frase": "Ojeras alérgicas y boca abierta.",
+   "claves": [
+    {
+     "t": "Ojeras",
+     "m": [
+      0.35,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Corticoide intranasal.",
+   "codes": [
+    "6.03.1.001",
+    "2.01.1.103"
+   ],
+   "confunde": "Facies adenoidea.",
+   "q": "EUNACOM Julio 2013 · Pregunta 146",
+   "auto": false
+  },
+  {
+   "id": "etmoiditis",
+   "n": 22,
+   "src": "biblioteca/17_otorrino/orl-10/01_celulitis-periorbitaria-etmoiditis__bailey-love_p743.jpg",
+   "topic": "orl-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Celulitis periorbitaria por etmoiditis",
+   "frase": "Edema palpebral.",
+   "claves": [
+    {
+     "t": "Párpado edematoso",
+     "m": [
+      0.65,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Proptosis u oftalmoplejía: TAC y antibióticos EV.",
+   "codes": [
+    "2.01.1.005",
+    "2.01.1.029"
+   ],
+   "confunde": "Conjuntivitis.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 122",
+   "auto": false
+  },
+  {
+   "id": "absceso-subperiostico",
+   "n": 23,
+   "src": "biblioteca/17_otorrino/orl-10/02_tac-absceso-subperiostico-orbita__bailey-love_p743.jpg",
+   "topic": "orl-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso subperióstico en la TAC",
+   "frase": "Colección en la pared medial de la órbita.",
+   "claves": [
+    {
+     "t": "Absceso",
+     "m": [
+      0.42,
+      0.3,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Drenaje quirúrgico.",
+   "codes": [
+    "2.01.1.005",
+    "6.03.4.003"
+   ],
+   "confunde": "Celulitis preseptal.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "kiesselbach",
+   "n": 24,
+   "src": "biblioteca/17_otorrino/orl-11/01_irrigacion-tabique-plexo-kiesselbach__bailey-love_p738.jpg",
+   "topic": "orl-11",
+   "type": "esquema",
+   "size": "half",
+   "title": "Irrigación del tabique",
+   "frase": "Plexo de Kiesselbach.",
+   "claves": [
+    {
+     "t": "Plexo de Kiesselbach",
+     "m": [
+      0.3,
+      0.5,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Epistaxis anterior: compresión y cauterización.",
+   "codes": [
+    "6.03.1.012",
+    "6.03.5.012"
+   ],
+   "confunde": "Epistaxis posterior: esfenopalatina.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "laterorrinia",
+   "n": 25,
+   "src": "biblioteca/17_otorrino/orl-12/01_fractura-huesos-nasales-desviacion__bailey-love_p738.jpg",
+   "topic": "orl-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura nasal: laterorrinia",
+   "frase": "Desviación de la pirámide nasal.",
+   "claves": [
+    {
+     "t": "Nariz desviada",
+     "m": [
+      0.5,
+      0.6,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Reducción en los primeros días.",
+   "codes": [
+    "6.03.2.012"
+   ],
+   "confunde": "Edema sin fractura.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hematoma-septal",
+   "n": 26,
+   "src": "biblioteca/17_otorrino/orl-12/02_hematoma-septal-bilateral__commons.jpg",
+   "topic": "orl-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematoma septal bilateral",
+   "frase": "Abombamiento rojo del tabique.",
+   "claves": [
+    {
+     "t": "Tabique abombado",
+     "m": [
+      0.42,
+      0.75,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Drenaje urgente: evita la nariz en silla de montar.",
+   "codes": [
+    "6.03.2.013",
+    "6.03.5.004"
+   ],
+   "confunde": "Desviación septal.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 168",
+   "auto": true
+  },
+  {
+   "id": "polipo-coanal",
+   "n": 27,
+   "src": "biblioteca/17_otorrino/orl-12/03_poliposis-nasal-orofaringe__bull_p158.jpg",
+   "topic": "orl-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pólipo que llega a la orofaringe",
+   "frase": "Masa lisa detrás del velo.",
+   "claves": [
+    {
+     "t": "Pólipo",
+     "m": [
+      0.32,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Poliposis: corticoide; cirugía endoscópica.",
+   "codes": [
+    "6.03.1.024"
+   ],
+   "confunde": "Tumor nasofaríngeo.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 58",
+   "auto": false
+  },
+  {
+   "id": "faringitis-viral",
+   "n": 28,
+   "src": "biblioteca/17_otorrino/orl-13/03_faringitis-sin-exudado__bates_p322.jpg",
+   "topic": "orl-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Faringitis sin exudado",
+   "frase": "Faringe roja sin placas.",
+   "claves": [
+    {
+     "t": "Faringe eritematosa",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Viral: sintomáticos.",
+   "codes": [
+    "2.01.1.023",
+    "2.01.1.027"
+   ],
+   "confunde": "Estreptocócica: exudado y adenopatía.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 110",
+   "auto": false
+  },
+  {
+   "id": "placas-criptas",
+   "n": 29,
+   "src": "biblioteca/17_otorrino/orl-13/01_amigdalitis-aguda-folicular__bailey-love_p756.jpg",
+   "topic": "orl-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Placas en las criptas amigdalinas",
+   "frase": "Exudado blanco en las criptas.",
+   "claves": [
+    {
+     "t": "Placas",
+     "m": [
+      0.3,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Centor/McIsaac; penicilina benzatina.",
+   "codes": [
+    "2.01.1.023"
+   ],
+   "confunde": "Mononucleosis: placas grandes y esplenomegalia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "amigdalitis",
+   "n": 30,
+   "src": "biblioteca/17_otorrino/orl-13/02_amigdalitis-exudativa__bates_p322.jpg",
+   "topic": "orl-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Amigdalitis con exudado",
+   "frase": "Amígdalas rojas con exudado.",
+   "claves": [
+    {
+     "t": "Exudado",
+     "m": [
+      0.35,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Penicilina 10 días.",
+   "codes": [
+    "2.01.1.023",
+    "1.04.1.025"
+   ],
+   "confunde": "Difteria: membrana gris adherente.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 54",
+   "auto": false
+  },
+  {
+   "id": "absceso-periamigdalino",
+   "n": 31,
+   "src": "biblioteca/17_otorrino/orl-14/02_absceso-periamigdalino__sherman_p259.jpg",
+   "topic": "orl-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Absceso periamigdalino",
+   "frase": "Pilar abombado y úvula desviada.",
+   "claves": [
+    {
+     "t": "Pilar abombado",
+     "m": [
+      0.35,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Punción-drenaje y antibióticos.",
+   "codes": [
+    "6.03.2.002",
+    "6.03.5.002"
+   ],
+   "confunde": "Amigdalitis: sin desviación de la úvula.",
+   "q": "EUNACOM Julio 2017 · Pregunta 170",
+   "auto": true
+  },
+  {
+   "id": "retrofaringeo-rx",
+   "n": 32,
+   "src": "biblioteca/17_otorrino/orl-14/03_absceso-retrofaringeo-rx-tc__sherman_p261.jpg",
+   "topic": "orl-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso retrofaríngeo en la Rx lateral",
+   "frase": "Espacio prevertebral ensanchado.",
+   "claves": [
+    {
+     "t": "Espacio prevertebral",
+     "m": [
+      0.6,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "TAC con contraste y drenaje.",
+   "codes": [
+    "6.03.2.004"
+   ],
+   "confunde": "Rx normal en llanto.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "retrofaringeo-tac",
+   "n": 33,
+   "src": "biblioteca/17_otorrino/orl-14/04_absceso-parafaringeo-tc__nelson_p3217.jpg",
+   "topic": "orl-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso retrofaríngeo en la TAC",
+   "frase": "Colección retrofaríngea en sagital y axial.",
+   "claves": [
+    {
+     "t": "Colección",
+     "m": [
+      0.25,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Drenaje quirúrgico.",
+   "codes": [
+    "6.03.2.004",
+    "6.03.4.004"
+   ],
+   "confunde": "Absceso parafaríngeo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "retrofaringeo-2",
+   "n": 34,
+   "src": "_verificadas/073_orl_Absceso_retrofaríngeo__ecmpdf_p261_1.jpg",
+   "topic": "orl-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso retrofaríngeo: Rx y TC",
+   "frase": "Espacio prevertebral ensanchado (flecha).",
+   "claves": [
+    {
+     "t": "Espacio ensanchado",
+     "m": [
+      0.12,
+      0.88,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Niño menor de 5 años con tortícolis y fiebre.",
+   "codes": [
+    "6.03.2.004"
+   ],
+   "confunde": "Meningitis.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "parafaringeo",
+   "n": 35,
+   "src": "_verificadas/267_orl_Absceso_parafaríngeo__nelsontext_p3217_1.jpg",
+   "topic": "orl-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Absceso parafaríngeo",
+   "frase": "Colección con realce periférico.",
+   "claves": [
+    {
+     "t": "Colección",
+     "m": [
+      0.15,
+      0.45,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Antibióticos EV y drenaje.",
+   "codes": [
+    "6.03.2.003",
+    "6.03.4.004"
+   ],
+   "confunde": "Adenopatía.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "facies-adenoidea",
+   "n": 36,
+   "src": "biblioteca/17_otorrino/orl-15/02_facies-adenoidea__zitelli_p952.jpg",
+   "topic": "orl-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies adenoidea",
+   "frase": "Boca abierta y cara alargada.",
+   "claves": [
+    {
+     "t": "Boca abierta",
+     "m": [
+      0.5,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Rx de cavum; adenoidectomía si hay SAHOS.",
+   "codes": [
+    "6.03.1.028",
+    "2.01.1.100"
+   ],
+   "confunde": "Rinitis alérgica.",
+   "q": "EUNACOM Julio 2017 · Pregunta 48",
+   "auto": false
+  },
+  {
+   "id": "amigdalas-4",
+   "n": 37,
+   "src": "biblioteca/17_otorrino/orl-15/01_hipertrofia-amigdalina-grado4__bull_p200.jpg",
+   "topic": "orl-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Amígdalas grado 4",
+   "frase": "Casi se tocan en la línea media.",
+   "claves": [
+    {
+     "t": "Amígdalas",
+     "m": [
+      0.4,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Con SAHOS: amigdalectomía.",
+   "codes": [
+    "2.01.1.100",
+    "6.03.1.027"
+   ],
+   "confunde": "Absceso periamigdalino.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "carcinoma-cuerda",
+   "n": 38,
+   "src": "biblioteca/17_otorrino/orl-16/04_carcinoma-cuerda-vocal__kumar-clark_p640.jpg",
+   "topic": "orl-16",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Carcinoma de cuerda vocal",
+   "frase": "Lesión exofítica de la cuerda.",
+   "claves": [
+    {
+     "t": "Tumor",
+     "m": [
+      0.5,
+      0.35,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Disfonía > 3 semanas en fumador: nasofibrolaringoscopía.",
+   "codes": [
+    "6.03.1.005",
+    "6.03.1.010"
+   ],
+   "confunde": "Pólipo.",
+   "q": "EUNACOM Julio 2019 · Pregunta 7",
+   "auto": false
+  },
+  {
+   "id": "nodulos-vocales",
+   "n": 39,
+   "src": "biblioteca/17_otorrino/orl-16/01_nodulos-vocales__bailey-love_p771.jpg",
+   "topic": "orl-16",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Nódulos vocales",
+   "frase": "Nódulos bilaterales simétricos.",
+   "claves": [
+    {
+     "t": "Nódulo",
+     "m": [
+      0.3,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Fonoterapia.",
+   "codes": [
+    "6.03.1.010"
+   ],
+   "confunde": "Pólipo: unilateral.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "polipo-vocal",
+   "n": 40,
+   "src": "biblioteca/17_otorrino/orl-16/02_polipo-vocal__bailey-love_p771.jpg",
+   "topic": "orl-16",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Pólipo vocal",
+   "frase": "Lesión unilateral.",
+   "claves": [
+    {
+     "t": "Pólipo",
+     "m": [
+      0.55,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Cirugía.",
+   "codes": [
+    "6.03.1.010"
+   ],
+   "confunde": "Nódulos.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "reinke",
+   "n": 41,
+   "src": "_verificadas/270_orl_Disfonía__BullENT_p229.jpg",
+   "topic": "orl-16",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Edema de Reinke",
+   "frase": "Cuerdas edematosas y translúcidas en un fumador.",
+   "claves": [
+    {
+     "t": "Cuerda edematosa",
+     "m": [
+      0.75,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Dejar de fumar.",
+   "codes": [
+    "6.03.1.010"
+   ],
+   "confunde": "Cáncer.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 2",
+   "auto": false
+  },
+  {
+   "id": "croup-rx",
+   "n": 42,
+   "src": "biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg",
+   "topic": "orl-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Croup",
+   "frase": "Estrechamiento subglótico (flechas).",
+   "claves": [
+    {
+     "t": "Subglotis estrecha",
+     "m": [
+      0.6,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Dexametasona; adrenalina nebulizada si es moderado-grave.",
+   "codes": [
+    "2.01.1.025"
+   ],
+   "confunde": "Epiglotitis: signo del pulgar.",
+   "q": "EUNACOM Julio 2024 · Pregunta 133",
+   "auto": false
+  },
+  {
+   "id": "epiglotis",
+   "n": 43,
+   "src": "biblioteca/17_otorrino/orl-17/02_epiglotitis-rojo-cereza__cto-pediatria_p50.jpg",
+   "topic": "orl-17",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Epiglotitis",
+   "frase": "Epiglotis roja cereza.",
+   "claves": [
+    {
+     "t": "Epiglotis",
+     "m": [
+      0.5,
+      0.4,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "No examinar la faringe: vía aérea en pabellón.",
+   "codes": [
+    "2.01.2.018"
+   ],
+   "confunde": "Croup.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "signo-pulgar",
+   "n": 44,
+   "src": "biblioteca/17_otorrino/orl-17/04_epiglotitis-signo-del-pulgar-rx__commons.jpg",
+   "topic": "orl-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Signo del pulgar",
+   "frase": "Epiglotis engrosada en la Rx lateral (flecha).",
+   "claves": [
+    {
+     "t": "Epiglotis",
+     "m": [
+      0.12,
+      0.68,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Asegurar la vía aérea.",
+   "codes": [
+    "2.01.2.018"
+   ],
+   "confunde": "Croup.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "laringomalacia",
+   "n": 45,
+   "src": "biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg",
+   "topic": "orl-17",
+   "type": "endoscopia",
+   "size": "half",
+   "title": "Laringomalacia",
+   "frase": "Epiglotis en omega que colapsa en la inspiración.",
+   "claves": [
+    {
+     "t": "Epiglotis en omega",
+     "m": [
+      0.45,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Leve: se resuelve antes de los 2 años; control.",
+   "codes": [
+    "6.03.1.013",
+    "2.01.1.117"
+   ],
+   "confunde": "Traqueomalacia.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 86",
+   "auto": false
+  },
+  {
+   "id": "pila-boton",
+   "n": 46,
+   "src": "biblioteca/17_otorrino/orl-18/04_pila-de-boton-esofago-rx__knoop_p490.jpg",
+   "topic": "orl-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Pila de botón",
+   "frase": "Doble contorno en la Rx.",
+   "claves": [
+    {
+     "t": "Doble contorno",
+     "m": [
+      0.47,
+      0.2,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Extracción endoscópica urgente.",
+   "codes": [
+    "6.03.2.008"
+   ],
+   "confunde": "Moneda: sin doble contorno.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cuerpo-extrano-oido",
+   "n": 47,
+   "src": "biblioteca/17_otorrino/orl-18/01_cuerpo-extrano-conducto-auditivo__bailey-love_p728.jpg",
+   "topic": "orl-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cuerpo extraño en el conducto",
+   "frase": "Objeto en el conducto auditivo.",
+   "claves": [
+    {
+     "t": "Cuerpo extraño",
+     "m": [
+      0.55,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Extracción; pila o insecto vivo con cuidado.",
+   "codes": [
+    "6.03.2.007",
+    "6.03.5.006"
+   ],
+   "confunde": "Tapón de cerumen.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cuerpo-extrano-bronquio",
+   "n": 48,
+   "src": "biblioteca/17_otorrino/orl-18/02_mani-bronquio-derecho-inspiracion__cxr_p210.jpg",
+   "topic": "orl-18",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cuerpo extraño bronquial: inspiración",
+   "frase": "Rx de tórax en inspiración.",
+   "claves": [
+    {
+     "t": "Pulmón",
+     "m": [
+      0.3,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Rx en espiración: atrapamiento aéreo; broncoscopía.",
+   "codes": [
+    "6.03.2.009"
+   ],
+   "confunde": "Asma.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 94",
+   "auto": false
+  },
+  {
+   "id": "calculo-wharton",
+   "n": 49,
+   "src": "biblioteca/17_otorrino/orl-19/01_calculo-conducto-submandibular__bailey-love_p802.jpg",
+   "topic": "orl-19",
+   "type": "imagen",
+   "size": "half",
+   "title": "Cálculo en el conducto de Wharton",
+   "frase": "Opacidad en el piso de la boca (flecha).",
+   "claves": [
+    {
+     "t": "Cálculo",
+     "m": [
+      0.75,
+      0.95,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Extracción.",
+   "codes": [
+    "6.03.1.023"
+   ],
+   "confunde": "Tumor.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "sialadenitis",
+   "n": 50,
+   "src": "biblioteca/17_otorrino/orl-19/02_sialadenitis-submandibular-supurada__bailey-love_p802.jpg",
+   "topic": "orl-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sialadenitis supurada",
+   "frase": "Pus por el conducto.",
+   "claves": [
+    {
+     "t": "Pus",
+     "m": [
+      0.5,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Antibióticos, hidratación y sialogogos.",
+   "codes": [
+    "6.03.1.023"
+   ],
+   "confunde": "Parotiditis viral.",
+   "q": "EUNACOM Diciembre 2025 · Pregunta 168",
+   "auto": false
+  },
+  {
+   "id": "tumor-parotida",
+   "n": 51,
+   "src": "biblioteca/17_otorrino/orl-19/03_tumor-parotideo-benigno__bailey-love_p809.jpg",
+   "topic": "orl-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tumor parotídeo benigno",
+   "frase": "Aumento de volumen preauricular.",
+   "claves": [
+    {
+     "t": "Masa parotídea",
+     "m": [
+      0.85,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Adenoma pleomorfo: parotidectomía superficial.",
+   "codes": [
+    "6.03.1.023",
+    "4.01.1.001"
+   ],
+   "confunde": "Adenopatía.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cancer-lengua",
+   "n": 52,
+   "src": "biblioteca/17_otorrino/orl-20/01_carcinoma-de-lengua__bates_p286.jpg",
+   "topic": "orl-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carcinoma de lengua",
+   "frase": "Lesión ulcerada y leucoplásica.",
+   "claves": [
+    {
+     "t": "Tumor",
+     "m": [
+      0.65,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Biopsia.",
+   "codes": [
+    "6.03.1.004"
+   ],
+   "confunde": "Úlcera traumática: cura en 2 semanas.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "leucoplaquia",
+   "n": 53,
+   "src": "biblioteca/17_otorrino/orl-20/02_leucoplaquia-displasia-lengua__bailey-love_p788.jpg",
+   "topic": "orl-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucoplaquia",
+   "frase": "Placa blanca que no se desprende.",
+   "claves": [
+    {
+     "t": "Placa blanca",
+     "m": [
+      0.5,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Biopsia.",
+   "codes": [
+    "6.03.1.004"
+   ],
+   "confunde": "Candidiasis: se desprende.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "masa-cervical",
+   "n": 54,
+   "src": "biblioteca/17_otorrino/orl-20/03_masa-cervical-metastasica__openi.jpg",
+   "topic": "orl-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Masa cervical lateral",
+   "frase": "Aumento de volumen cervical.",
+   "claves": [
+    {
+     "t": "Masa",
+     "m": [
+      0.45,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Adulto fumador: buscar primario de cabeza y cuello.",
+   "codes": [
+    "6.03.1.015",
+    "4.01.1.032"
+   ],
+   "confunde": "Quiste branquial.",
+   "q": "EUNACOM Julio 2016 · Pregunta 116",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "timpano-normal",
+   "b": "oma",
+   "title": "Tímpano normal vs OMA",
+   "la": [
+    "Gris perla, translúcido"
+   ],
+   "lb": [
+    "Rojo y abombado"
+   ],
+   "diff": "El abombamiento define la OMA."
+  },
+  {
+   "a": "croup-rx",
+   "b": "signo-pulgar",
+   "title": "Croup vs epiglotitis",
+   "la": [
+    "Subglotis en campanario"
+   ],
+   "lb": [
+    "Signo del pulgar"
+   ],
+   "diff": "La epiglotitis es una emergencia de vía aérea."
+  },
+  {
+   "a": "nodulos-vocales",
+   "b": "polipo-vocal",
+   "title": "Nódulos vs pólipo",
+   "la": [
+    "Bilaterales"
+   ],
+   "lb": [
+    "Unilateral"
+   ],
+   "diff": "Los nódulos responden a fonoterapia."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Signo del pulgar",
+   "dx": "Epiglotitis.",
+   "find": "pulgar",
+   "topic": "orl-17",
+   "img": "signo-pulgar",
+   "def": "Epiglotis engrosada en la Rx lateral."
+  },
+  {
+   "name": "Doble contorno",
+   "dx": "Pila de botón.",
+   "find": "doble contorno",
+   "topic": "orl-18",
+   "img": "pila-boton",
+   "def": "Halo en el borde del objeto."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 54
+ }
+}

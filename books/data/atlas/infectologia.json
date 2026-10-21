@@ -1,0 +1,2113 @@
+{
+ "libro": "infectologia",
+ "title": "Infectología",
+ "prefix": "infecto",
+ "topics": {
+  "infecto-02": "Meningitis Aguda Bacteriana y Viral",
+  "infecto-03": "Encefalitis Aguda por VHS y Absceso Cerebral",
+  "infecto-04": "Infecciones Invasivas de Partes Blandas y Angina de Ludwig",
+  "infecto-06": "Rabia y Tétanos",
+  "infecto-08": "Intoxicación Alimentaria, Botulismo y Cólera",
+  "infecto-10": "Infecciones Oportunistas Mayores en VIH/SIDA",
+  "infecto-11": "Tuberculosis",
+  "infecto-12": "Infecciones de Transmisión Sexual (ITS) I",
+  "infecto-13": "Infecciones de Transmisión Sexual (ITS) II",
+  "infecto-14": "Síndrome Pulmonar por Hantavirus (SCPH)",
+  "infecto-15": "Enfermedad de Chagas",
+  "infecto-16": "Enfermedades Transmitidas por Mosquitos",
+  "infecto-17": "Zoonosis Chilenas Endémicas",
+  "infecto-18": "Bacteriosis Zoonóticas",
+  "infecto-19": "Ántrax (Carbunco Cutáneo y Respiratorio)",
+  "infecto-20": "Infecciones de Piel Comunitarias",
+  "infecto-21": "Síndrome Mononucleósico y Complejo TORCH",
+  "infecto-22": "Exantemas Febriles de la Infancia",
+  "infecto-23": "Varicela No Complicada vs Complicada y Herpes Zóster",
+  "infecto-24": "Neutropenia Febril Post-Quimioterapia y Fiebre sin Foco",
+  "infecto-25": "Virus Respiratorios"
+ },
+ "images": [
+  {
+   "id": "rigidez-nuca",
+   "n": 1,
+   "src": "biblioteca/07_infectologia/infecto-02/02_rigidez_nuca__bates_p906.jpg",
+   "topic": "infecto-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rigidez de nuca",
+   "frase": "Tríada meníngea: fiebre + rigidez de nuca + alteración mental.",
+   "claves": [
+    {
+     "t": "Resistencia al flectar el cuello: estira meninges inflamadas",
+     "m": [
+      0.3,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Hemocultivos, dexametasona y ceftriaxona EV sin demora; PL salvo banderas rojas (TAC previo).",
+   "codes": [
+    "1.04.2.006",
+    "2.01.2.015"
+   ],
+   "confunde": "Meningismo de otras causas (HSA): sin fiebre previa, inicio en trueno.",
+   "q": "EUNACOM Julio 2017 · Pregunta 81",
+   "auto": false
+  },
+  {
+   "id": "kernig",
+   "n": 2,
+   "src": "biblioteca/07_infectologia/infecto-02/01_signo_kernig__bates_p795.jpg",
+   "topic": "infecto-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Kernig",
+   "frase": "Con la cadera flectada, extender la rodilla duele y ofrece resistencia.",
+   "claves": [
+    {
+     "t": "Cadera flectada a 90°",
+     "m": [
+      0.55,
+      0.45,
+      0.08
+     ]
+    },
+    {
+     "t": "Extensión de la rodilla dolorosa",
+     "m": [
+      0.25,
+      0.15,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Signos meníngeos positivos + fiebre: tratar como meningitis bacteriana y estudiar el LCR.",
+   "codes": [
+    "1.04.2.006"
+   ],
+   "confunde": "Lasègue (ciática): dolor radicular, sin fiebre ni rigidez de nuca.",
+   "q": "EUNACOM Julio 2013 · Pregunta 37",
+   "auto": false
+  },
+  {
+   "id": "purpura-meningococica",
+   "n": 3,
+   "src": "biblioteca/07_infectologia/infecto-02/01_purpura-meningococica__cto-infecto_p38.jpg",
+   "topic": "infecto-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura meningocócica",
+   "frase": "Petequias que en horas pasan a equimosis y púrpura fulminante que no blanquea.",
+   "claves": [
+    {
+     "t": "Púrpura extensa que no blanquea",
+     "m": [
+      0.4,
+      0.3,
+      0.1
+     ]
+    },
+    {
+     "t": "Lesiones equimóticas confluentes",
+     "m": [
+      0.6,
+      0.7,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Ceftriaxona EV inmediata (antes de cualquier examen), soporte del shock y quimioprofilaxis a los contactos.",
+   "codes": [
+    "2.01.2.016",
+    "1.04.2.006"
+   ],
+   "confunde": "Púrpura de Schönlein-Henoch: palpable, en extensores, sin shock.",
+   "q": "EUNACOM Julio 2015 · Pregunta 130",
+   "auto": true
+  },
+  {
+   "id": "gram-lcr",
+   "n": 4,
+   "src": "_web/198_infecto_Meningitis_bacteriana__Commons_1.jpg",
+   "topic": "infecto-02",
+   "type": "histologia",
+   "size": "half",
+   "title": "Gram del LCR",
+   "frase": "El Gram directo orienta en minutos: neutrófilos y cocos entre ellos.",
+   "claves": [
+    {
+     "t": "Neutrófilos",
+     "m": [
+      0.2,
+      0.5,
+      0.08
+     ]
+    },
+    {
+     "t": "Diplococos entre las células",
+     "m": [
+      0.55,
+      0.4,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Diplococos grampositivos lanceolados = neumococo; gramnegativos = meningococo. Se siembra en agar sangre y chocolate.",
+   "codes": [
+    "1.04.4.006",
+    "1.04.5.003"
+   ],
+   "confunde": "LCR viral: predominio linfocítico y glucosa normal.",
+   "q": "EUNACOM Julio 2015 · Pregunta 130",
+   "auto": false
+  },
+  {
+   "id": "encefalitis-herpetica",
+   "n": 5,
+   "src": "biblioteca/07_infectologia/infecto-03/01_rm_encefalitis_herpetica__harrison_p1137.jpg",
+   "topic": "infecto-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Encefalitis herpética en RM",
+   "frase": "Hiperintensidad en T2/FLAIR temporal asimétrica y en la ínsula.",
+   "claves": [
+    {
+     "t": "Lóbulo temporal hiperintenso",
+     "m": [
+      0.3,
+      0.55,
+      0.1
+     ]
+    },
+    {
+     "t": "Asimetría: el otro lado menos tomado",
+     "m": [
+      0.75,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Aciclovir 10 mg/kg c/8 h EV de inmediato, sin esperar la PCR del LCR; 14-21 días.",
+   "codes": [
+    "1.04.2.002",
+    "1.10.2.014"
+   ],
+   "confunde": "Meningitis: sin alteración de funciones superiores ni lesión parenquimatosa.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 42",
+   "auto": true
+  },
+  {
+   "id": "absceso-cerebral",
+   "n": 6,
+   "src": "biblioteca/07_infectologia/infecto-03/01_abscesos-cerebrales-en-anillo-tc-rm__amir-infecto_p42.jpg",
+   "topic": "infecto-03",
+   "type": "imagen",
+   "size": "half",
+   "title": "Abscesos cerebrales en anillo",
+   "frase": "Lesiones con realce periférico en anillo y edema vasogénico alrededor.",
+   "claves": [
+    {
+     "t": "Realce fino en anillo",
+     "m": [
+      0.13,
+      0.3,
+      0.08
+     ]
+    },
+    {
+     "t": "Restricción a la difusión del contenido",
+     "m": [
+      0.62,
+      0.3,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Origen ótico o sinusal: ceftriaxona + metronidazol; drenaje según tamaño.",
+   "codes": [
+    "1.04.2.001"
+   ],
+   "confunde": "Toxoplasmosis en VIH y tumores necróticos: también realzan en anillo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "fournier",
+   "n": 7,
+   "src": "biblioteca/07_infectologia/infecto-04/03_gangrena-fournier__atlas199.jpg",
+   "topic": "infecto-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gangrena de Fournier",
+   "frase": "Fascitis necrotizante del periné y los genitales: piel violácea con necrosis.",
+   "claves": [
+    {
+     "t": "Piel violácea y necrótica en el periné",
+     "m": [
+      0.45,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Urgencia quirúrgica igual que cualquier fascitis: desbridamiento y antibióticos de amplio espectro.",
+   "codes": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ],
+   "confunde": "Celulitis escrotal o absceso: sin necrosis ni toxicidad.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 135",
+   "auto": true
+  },
+  {
+   "id": "fascitis",
+   "n": 8,
+   "src": "biblioteca/07_infectologia/infecto-04/01_fascitis-necrotizante__cto-infecto_p84.jpg",
+   "topic": "infecto-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fascitis necrotizante tras el desbridamiento",
+   "frase": "Dolor desproporcionado, flictenas, crepitación y anestesia: el tratamiento es el pabellón.",
+   "claves": [
+    {
+     "t": "Desbridamiento amplio del tejido necrótico",
+     "m": [
+      0.3,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Exploración quirúrgica urgente + meropenem, vancomicina y clindamicina; no esperar TAC.",
+   "codes": [
+    "1.04.2.005",
+    "6.01.2.005"
+   ],
+   "confunde": "Celulitis: dolor acorde al aspecto y sin signos duros de necrosis.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 172",
+   "auto": false
+  },
+  {
+   "id": "ludwig",
+   "n": 9,
+   "src": "biblioteca/07_infectologia/infecto-04/02_angina-de-ludwig__amir-orl_p55.jpg",
+   "topic": "infecto-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Angina de Ludwig",
+   "frase": "Celulitis bilateral submandibular y sublingual de origen dental.",
+   "claves": [
+    {
+     "t": "Aumento de volumen bajo la mandíbula",
+     "m": [
+      0.4,
+      0.55,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Prioridad número 1: asegurar la vía aérea; luego antibiótico EV y drenaje.",
+   "codes": [
+    "1.04.2.004"
+   ],
+   "confunde": "Adenitis cervical: unilateral, sin piso de boca elevado.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "risa-sardonica",
+   "n": 10,
+   "src": "biblioteca/07_infectologia/infecto-06/01_risa_sardonica__cdc-phil-2857.jpg",
+   "topic": "infecto-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tétanos: risa sardónica y trismus",
+   "frase": "Espasmo del masetero y de la musculatura facial: mueca fija.",
+   "claves": [
+    {
+     "t": "Mueca fija de la boca",
+     "m": [
+      0.5,
+      0.62,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "UCI en box oscuro, metronidazol, inmunoglobulina antitetánica 3.000-6.000 UI, sedación y relajantes.",
+   "codes": [
+    "1.04.2.009"
+   ],
+   "confunde": "Distonía aguda por fármacos: responde a biperideno.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "opistotonos",
+   "n": 11,
+   "src": "biblioteca/07_infectologia/infecto-06/02_opistotonos__cdc-phil.jpg",
+   "topic": "infecto-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tétanos: opistótonos",
+   "frase": "Arco dorsal rígido por contracción de los músculos extensores.",
+   "claves": [
+    {
+     "t": "Arco rígido de la espalda",
+     "m": [
+      0.5,
+      0.25,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Profilaxis: toxoide si > 10 años (limpia) o > 5 años (sucia); IGH-T si herida sucia con esquema < 3 dosis.",
+   "codes": [
+    "1.04.2.009",
+    "1.04.3.008"
+   ],
+   "confunde": "Convulsión tónica: con compromiso de conciencia.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "colera",
+   "n": 12,
+   "src": "biblioteca/07_infectologia/infecto-08/01_colera-agua-arroz__atlas200.jpg",
+   "topic": "infecto-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cólera: heces en agua de arroz",
+   "frase": "Diarrea acuosa masiva, blanquecina, sin sangre ni olor fétido.",
+   "claves": [
+    {
+     "t": "Heces líquidas con grumos blancos",
+     "m": [
+      0.5,
+      0.78,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Rehidratación agresiva + doxiciclina en dosis única; notificación.",
+   "codes": [
+    "1.04.1.007"
+   ],
+   "confunde": "Diarrea disentérica: con sangre, fiebre y pujo.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "botulismo",
+   "src": "biblioteca/07_infectologia/infecto-08/02_botulismo-lactante__atlas201.jpg",
+   "topic": "infecto-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Botulismo del lactante",
+   "frase": "Hipotonía y cara poco expresiva en un lactante.",
+   "claves": [
+    {
+     "t": "Cara inexpresiva, hipotonía",
+     "m": [
+      0.45,
+      0.25,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Evitar miel bajo el año de vida; soporte en UCI y antitoxina.",
+   "codes": [
+    "1.04.1.026"
+   ],
+   "confunde": "Sepsis o síndrome de Guillain-Barré: parálisis ascendente.",
+   "q": null,
+   "auto": true,
+   "n": 13
+  },
+  {
+   "id": "pneumocystis",
+   "n": 14,
+   "src": "biblioteca/07_infectologia/infecto-10/06_neumonia-por-p-jirovecii-rx__amir-infecto_p152.jpg",
+   "topic": "infecto-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonía por Pneumocystis jirovecii",
+   "frase": "Infiltrado intersticial bilateral, perihiliar y difuso en un VIH con CD4 bajo.",
+   "claves": [
+    {
+     "t": "Infiltrado intersticial bilateral",
+     "m": [
+      0.3,
+      0.5,
+      0.12
+     ]
+    },
+    {
+     "t": "Simétrico, no un lóbulo condensado",
+     "m": [
+      0.72,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Cotrimoxazol en dosis altas 21 días; corticoides si PaO₂ < 70 mmHg.",
+   "codes": [
+    "1.05.1.029",
+    "1.04.1.014"
+   ],
+   "confunde": "Neumonía neumocócica: condensación lobar.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 38",
+   "auto": true
+  },
+  {
+   "id": "kaposi",
+   "n": 15,
+   "src": "biblioteca/07_infectologia/infecto-10/01_sarcoma-de-kaposi__amir-infecto_p157.jpg",
+   "topic": "infecto-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sarcoma de Kaposi",
+   "frase": "Placas eritemato-violáceas infiltradas en la piel: pista de VIH avanzado.",
+   "claves": [
+    {
+     "t": "Placas violáceas en la pierna",
+     "m": [
+      0.5,
+      0.75,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Estudiar VIH e iniciar TARV.",
+   "codes": [
+    "1.04.1.014"
+   ],
+   "confunde": "Púrpura y hematomas: no infiltrados.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "toxoplasmosis-cerebral",
+   "n": 16,
+   "src": "biblioteca/07_infectologia/infecto-10/02_toxoplasmosis-cerebral-tc_alt1__amir-infecto_p154.jpg",
+   "topic": "infecto-10",
+   "type": "imagen",
+   "size": "half",
+   "title": "Toxoplasmosis cerebral",
+   "frase": "Lesiones múltiples con realce en anillo en ganglios basales en un VIH avanzado.",
+   "claves": [
+    {
+     "t": "Lesión en los ganglios basales (flecha)",
+     "m": [
+      0.15,
+      0.38,
+      0.06
+     ]
+    },
+    {
+     "t": "Otra lesión con anillo",
+     "m": [
+      0.73,
+      0.83,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Prueba terapéutica con sulfadiazina + pirimetamina; profilaxis con cotrimoxazol si CD4 < 200.",
+   "codes": [
+    "1.04.1.014"
+   ],
+   "confunde": "Linfoma primario del SNC: lesión única que no responde al tratamiento.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "tbc-miliar",
+   "n": 17,
+   "src": "biblioteca/07_infectologia/infecto-11/03_tbc-miliar-rx__cto-infecto_p66.jpg",
+   "topic": "infecto-11",
+   "type": "imagen",
+   "size": "half",
+   "title": "Tuberculosis miliar",
+   "frase": "Innumerables nódulos finos en ambos pulmones por siembra hematógena.",
+   "claves": [
+    {
+     "t": "Micronódulos difusos en ambos pulmones",
+     "m": [
+      0.3,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "GeneXpert y cultivos; esquema RHZE 2 meses + RH 4 meses.",
+   "codes": [
+    "1.04.1.028",
+    "1.05.1.036"
+   ],
+   "confunde": "Metástasis: nódulos de distinto tamaño.",
+   "q": "EUNACOM Julio 2025 · Pregunta 21",
+   "auto": true
+  },
+  {
+   "id": "derrame-tbc",
+   "n": 18,
+   "src": "biblioteca/07_infectologia/infecto-11/04_derrame-pleural__cto-neumo_p111.jpg",
+   "topic": "infecto-11",
+   "type": "imagen",
+   "size": "half",
+   "title": "Pleuritis tuberculosa: derrame unilateral",
+   "frase": "Exudado linfocítico unilateral con ADA > 40 UI/L.",
+   "claves": [
+    {
+     "t": "Derrame que ocupa la base del hemitórax",
+     "m": [
+      0.3,
+      0.65,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Toracocentesis: exudado con linfocitos > 80% y ADA > 40 confirma; esquema primario.",
+   "codes": [
+    "1.05.1.013"
+   ],
+   "confunde": "Derrame paraneumónico: predominio neutrofílico.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "escrofula",
+   "n": 19,
+   "src": "biblioteca/07_infectologia/infecto-11/02_escrofula-adenitis-tbc__amir-infecto_p112.jpg",
+   "topic": "infecto-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escrófula (adenitis tuberculosa)",
+   "frase": "Masas cervicales indoloras y frías que coalescen y fistulizan a la piel.",
+   "claves": [
+    {
+     "t": "Adenopatía cervical con fistulización",
+     "m": [
+      0.75,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Biopsia o punción para cultivo y GeneXpert; esquema antituberculoso.",
+   "codes": [
+    "1.04.1.028"
+   ],
+   "confunde": "Adenitis bacteriana: caliente, roja y dolorosa.",
+   "q": "EUNACOM Julio 2013 · Pregunta 71",
+   "auto": false
+  },
+  {
+   "id": "ziehl-neelsen",
+   "src": "_web/202_infecto_TBC_extrapulmonar_y_tratamie__Commons_3.jpg",
+   "topic": "infecto-11",
+   "type": "histologia",
+   "size": "half",
+   "title": "Baciloscopía: tinción de Ziehl-Neelsen",
+   "frase": "Bacilos ácido-alcohol resistentes rojos sobre fondo azul.",
+   "claves": [
+    {
+     "t": "Bacilos rojos (BAAR)",
+     "m": [
+      0.45,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Baciloscopía y cultivo; GeneXpert detecta resistencia a rifampicina.",
+   "codes": [
+    "1.05.1.036",
+    "1.04.1.028"
+   ],
+   "confunde": "Una baciloscopía negativa no descarta TBC.",
+   "q": null,
+   "auto": false,
+   "n": 20
+  },
+  {
+   "id": "chancro",
+   "n": 21,
+   "src": "biblioteca/07_infectologia/infecto-12/01_chancro_sifilitico__cdc-phil-6803.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Chancro sifilítico",
+   "frase": "Úlcera única, indurada, de fondo limpio y sobre todo indolora.",
+   "claves": [
+    {
+     "t": "Úlcera de fondo limpio",
+     "m": [
+      0.5,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Penicilina benzatina 2,4 MU IM en dosis única; VDRL y pareja.",
+   "codes": [
+    "1.04.1.010",
+    "1.04.4.016"
+   ],
+   "confunde": "Herpes genital y chancroide: duelen.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 5",
+   "auto": true
+  },
+  {
+   "id": "sifilis-secundaria",
+   "n": 22,
+   "src": "biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sífilis secundaria palmar",
+   "frase": "Exantema maculopapular con compromiso palmoplantar (roséola sifilítica).",
+   "claves": [
+    {
+     "t": "Máculas y pápulas en la palma",
+     "m": [
+      0.45,
+      0.4,
+      0.1
+     ]
+    },
+    {
+     "t": "Collarete de descamación",
+     "m": [
+      0.3,
+      0.75,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Sífilis precoz: penicilina benzatina 2,4 MU IM dosis única.",
+   "codes": [
+    "1.04.1.023"
+   ],
+   "confunde": "Pocos exantemas tocan palmas y plantas: el dato lleva a la sífilis.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 62",
+   "auto": true
+  },
+  {
+   "id": "condilomas-planos",
+   "n": 23,
+   "src": "biblioteca/07_infectologia/infecto-12/02_condilomas-planos__cto-infecto_p99.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Condilomas planos",
+   "frase": "Placas húmedas perianales muy contagiosas de la sífilis secundaria.",
+   "claves": [
+    {
+     "t": "Placa húmeda perianal",
+     "m": [
+      0.15,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Penicilina benzatina; VDRL cuantitativo para seguir la respuesta.",
+   "codes": [
+    "1.04.1.023"
+   ],
+   "confunde": "Condilomas acuminados (VPH): exofíticos en cresta de gallo.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "hutchinson-dientes",
+   "n": 24,
+   "src": "biblioteca/07_infectologia/infecto-12/10_dientes-hutchinson-sifilis-congenita__kanski_p207.jpg",
+   "topic": "infecto-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dientes de Hutchinson",
+   "frase": "Incisivos pequeños con muesca en el borde: sífilis congénita tardía.",
+   "claves": [
+    {
+     "t": "Incisivos con muesca en el borde",
+     "m": [
+      0.45,
+      0.45,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Tríada de Hutchinson: dientes, queratitis intersticial y sordera.",
+   "codes": [
+    "1.04.1.023",
+    "6.01.2.012"
+   ],
+   "confunde": "Hipoplasia del esmalte por otras causas: sin la tríada.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "uretritis-gonococica",
+   "n": 25,
+   "src": "biblioteca/07_infectologia/infecto-13/04_uretritis-gonococica__nelson_p1602.jpg",
+   "topic": "infecto-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uretritis gonocócica",
+   "frase": "Secreción uretral abundante, espesa y purulenta con incubación corta.",
+   "claves": [
+    {
+     "t": "Gota de pus en el meato",
+     "m": [
+      0.45,
+      0.88,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Tratamiento combinado: ceftriaxona 500 mg IM + doxiciclina 7 días.",
+   "codes": [
+    "1.04.1.010"
+   ],
+   "confunde": "Uretritis por clamidia: secreción escasa y serosa.",
+   "q": "EUNACOM Julio 2025 · Pregunta 36",
+   "auto": true
+  },
+  {
+   "id": "herpes-genital",
+   "n": 26,
+   "src": "biblioteca/07_infectologia/infecto-13/01_herpes-genital__cto-derma_p15.jpg",
+   "topic": "infecto-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Herpes genital",
+   "frase": "Vesículas agrupadas en racimo sobre base eritematosa que dejan úlceras dolorosas.",
+   "claves": [
+    {
+     "t": "Vesículas y erosiones agrupadas",
+     "m": [
+      0.6,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Aciclovir oral.",
+   "codes": [
+    "1.04.1.010"
+   ],
+   "confunde": "Chancro: único e indoloro.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "hanta-inicial",
+   "n": 27,
+   "src": "biblioteca/07_infectologia/infecto-14/02_rx_hanta_edema_intersticial__guia-hanta-2009.jpg",
+   "topic": "infecto-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hantavirus: edema intersticial inicial",
+   "frase": "Fase cardiopulmonar: edema intersticial bilateral con corazón normal.",
+   "claves": [
+    {
+     "t": "Infiltrado intersticial bilateral",
+     "m": [
+      0.3,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Restricción de fluidos, UCI y ECMO de rescate; notificación inmediata.",
+   "codes": [
+    "1.04.2.008"
+   ],
+   "confunde": "Neumonía atípica: sin trombocitopenia ni hemoconcentración.",
+   "q": "EUNACOM Julio 2025 · Pregunta 7",
+   "auto": false
+  },
+  {
+   "id": "hanta-cardiopulmonar",
+   "n": 28,
+   "src": "biblioteca/07_infectologia/infecto-14/01_rx_hanta_cardiopulmonar__guia-hanta-2009.jpg",
+   "topic": "infecto-14",
+   "type": "imagen",
+   "size": "half",
+   "title": "Hantavirus: edema pulmonar extenso",
+   "frase": "Horas después: edema pulmonar extenso por fuga capilar, con corazón de tamaño normal.",
+   "claves": [
+    {
+     "t": "Opacidad extensa bilateral",
+     "m": [
+      0.3,
+      0.45,
+      0.15
+     ]
+    },
+    {
+     "t": "Silueta cardíaca normal",
+     "m": [
+      0.55,
+      0.65,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Manejo restrictivo de fluidos para no inundar el alvéolo; ECMO veno-arterial.",
+   "codes": [
+    "1.04.2.008"
+   ],
+   "confunde": "Edema cardiogénico: cardiomegalia.",
+   "q": "EUNACOM Julio 2025 · Pregunta 7",
+   "auto": true
+  },
+  {
+   "id": "vinchuca",
+   "n": 29,
+   "src": "biblioteca/07_infectologia/infecto-15/02_vinchuca__commons.jpg",
+   "topic": "infecto-15",
+   "type": "otra",
+   "size": "half",
+   "title": "Vinchuca (Triatoma infestans)",
+   "frase": "Vector clásico del Chagas; la transmisión domiciliaria se interrumpió en 1999.",
+   "claves": [
+    {
+     "t": "Insecto hematófago (triatomino)",
+     "m": [
+      0.55,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Hoy la vía más frecuente en Chile es la vertical: tamizaje prenatal con serología.",
+   "codes": [
+    "1.04.4.016"
+   ],
+   "confunde": "Hoy la vinchuca ya no es la vía más frecuente en Chile: es la vertical.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "romana",
+   "n": 30,
+   "src": "biblioteca/07_infectologia/infecto-15/01_signo_romana__cdc.jpg",
+   "topic": "infecto-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo de Romaña",
+   "frase": "Edema bipalpebral indoloro de un solo ojo con adenopatía preauricular: Chagas agudo.",
+   "claves": [
+    {
+     "t": "Edema palpebral unilateral",
+     "m": [
+      0.7,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Fase aguda: diagnóstico parasitológico directo o PCR; nifurtimox o benznidazol 60 días.",
+   "codes": [
+    "1.04.4.016"
+   ],
+   "confunde": "Celulitis periorbitaria: dolorosa, con fiebre.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "chagas-ecg",
+   "n": 31,
+   "src": "biblioteca/07_infectologia/infecto-15/03_ecg_brd_hbai__ecg-basics_p119.jpg",
+   "topic": "infecto-15",
+   "type": "ecg",
+   "size": "full",
+   "title": "Cardiopatía chagásica: BCRD + HBAI",
+   "frase": "Bloqueo completo de rama derecha con hemibloqueo anterior izquierdo.",
+   "claves": [
+    {
+     "t": "rSR' en V1 (bloqueo de rama derecha)",
+     "m": [
+      0.6,
+      0.15,
+      0.08
+     ]
+    },
+    {
+     "t": "Eje izquierdo: DII, DIII y aVF negativos",
+     "m": [
+      0.15,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "En un paciente del norte con esta combinación, pedir serología (ELISA + IFI).",
+   "codes": [
+    "1.01.1.020",
+    "1.04.4.016"
+   ],
+   "confunde": "BCRD aislado: sin desviación del eje.",
+   "q": null,
+   "auto": false,
+   "crop": [
+    0,
+    0.08,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "dengue",
+   "n": 32,
+   "src": "biblioteca/07_infectologia/infecto-16/01_exantema-del-dengue__cto-infecto_p134.jpg",
+   "topic": "infecto-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema del dengue",
+   "frase": "Exantema eritematoso con islas de piel sana («islas blancas en un mar rojo»).",
+   "claves": [
+    {
+     "t": "Islas de piel sana dentro del eritema",
+     "m": [
+      0.45,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Solo paracetamol: AINE y aspirina contraindicados; vigilar signos de alarma.",
+   "codes": [
+    "1.04.1.008"
+   ],
+   "confunde": "Sarampión y escarlatina: sin islas blancas.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "malaria-anillos",
+   "n": 33,
+   "src": "biblioteca/07_infectologia/infecto-16/01_anillos_falciparum__cdc.jpg",
+   "topic": "infecto-16",
+   "type": "histologia",
+   "size": "half",
+   "title": "Malaria: trofozoítos en anillo",
+   "frase": "Gota gruesa y frotis con Giemsa: anillos dentro del glóbulo rojo.",
+   "claves": [
+    {
+     "t": "Trofozoíto en anillo intraeritrocitario",
+     "m": [
+      0.55,
+      0.42,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Gota gruesa es el diagnóstico de certeza; cuantificar la parasitemia.",
+   "codes": [
+    "1.04.1.018"
+   ],
+   "confunde": "Plaquetas superpuestas al eritrocito.",
+   "q": "EUNACOM Julio 2019 · Pregunta 147",
+   "auto": true
+  },
+  {
+   "id": "gametocitos",
+   "n": 34,
+   "src": "biblioteca/07_infectologia/infecto-16/02_gametocitos_falciparum__cdc.jpg",
+   "topic": "infecto-16",
+   "type": "histologia",
+   "size": "half",
+   "title": "Gametocitos en banana (P. falciparum)",
+   "frase": "Gametocitos en forma de banana, exclusivos de falciparum, la especie grave.",
+   "claves": [
+    {
+     "t": "Gametocito en banana",
+     "m": [
+      0.3,
+      0.42,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Terapia combinada con artemisinina (arteméter-lumefantrina).",
+   "codes": [
+    "1.04.1.018"
+   ],
+   "confunde": "P. vivax: requiere primaquina para los hipnozoítos.",
+   "q": "EUNACOM Julio 2019 · Pregunta 147",
+   "auto": false
+  },
+  {
+   "id": "hidatidico-eco",
+   "n": 35,
+   "src": "biblioteca/07_infectologia/infecto-17/02_quiste-hidatidico-eco-tc__cto-radiologia_p43.jpg",
+   "topic": "infecto-17",
+   "type": "eco",
+   "size": "half",
+   "title": "Quiste hidatídico hepático: vesículas hijas",
+   "frase": "Vesículas hijas dentro del quiste (imagen en rueda de carreta).",
+   "claves": [
+    {
+     "t": "Vesículas hijas (flecha)",
+     "m": [
+      0.2,
+      0.6,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Ecografía abdominal y serología; albendazol y cirugía o PAIR según el estadio.",
+   "codes": [
+    "1.04.1.013"
+   ],
+   "confunde": "Quiste simple: anecoico sin tabiques.",
+   "q": "EUNACOM Julio 2016 · Pregunta 72",
+   "auto": false
+  },
+  {
+   "id": "camalote",
+   "n": 36,
+   "src": "biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_1__amir-infecto_p189.jpg",
+   "topic": "infecto-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Quiste hidatídico: signo del camalote",
+   "frase": "Membrana germinativa desprendida flotando dentro del quiste.",
+   "claves": [
+    {
+     "t": "Membranas desprendidas en el quiste (flecha)",
+     "m": [
+      0.33,
+      0.72,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Camalote = hidatidosis; no puncionar a ciegas (riesgo de anafilaxia).",
+   "codes": [
+    "1.04.1.013"
+   ],
+   "confunde": "Absceso hepático: fiebre, pared gruesa sin membranas.",
+   "q": "EUNACOM Julio 2016 · Pregunta 72",
+   "auto": true
+  },
+  {
+   "id": "hidatidico-pulmonar",
+   "n": 37,
+   "src": "biblioteca/07_infectologia/infecto-17/01_quiste-hidatidico_2__amir-infecto_p189.jpg",
+   "topic": "infecto-17",
+   "type": "imagen",
+   "size": "half",
+   "title": "Quiste hidatídico pulmonar",
+   "frase": "Imagen redonda, homogénea y de bordes nítidos.",
+   "claves": [
+    {
+     "t": "Imagen redonda de bordes nítidos (flechas)",
+     "m": [
+      0.27,
+      0.7,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Radiografía de tórax y cirugía; albendazol.",
+   "codes": [
+    "1.05.1.020",
+    "1.04.1.013"
+   ],
+   "confunde": "Nódulo tumoral: bordes irregulares.",
+   "q": "EUNACOM Enero 2023 · Pregunta 88",
+   "auto": false
+  },
+  {
+   "id": "leptospirosis",
+   "n": 38,
+   "src": "biblioteca/07_infectologia/infecto-18/02_leptospirosis-sufusion__commons.jpg",
+   "topic": "infecto-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leptospirosis: sufusión conjuntival",
+   "frase": "Ojo rojo bilateral sin secreción y dolor en las pantorrillas tras agua contaminada.",
+   "claves": [
+    {
+     "t": "Conjuntiva roja sin pus",
+     "m": [
+      0.7,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Síndrome de Weil (ictericia, falla renal, hemorragia pulmonar): penicilina G o ceftriaxona EV.",
+   "codes": [
+    "1.04.1.017"
+   ],
+   "confunde": "Conjuntivitis: con secreción.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "roseola-tifica",
+   "n": 39,
+   "src": "biblioteca/07_infectologia/infecto-18/01_roseola_tifica__cdc-phil-2215.jpg",
+   "topic": "infecto-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fiebre tifoidea: roséola tífica",
+   "frase": "Manchas rosadas en el abdomen y tórax durante la segunda semana.",
+   "claves": [
+    {
+     "t": "Máculas rosadas tenues en el tronco",
+     "m": [
+      0.35,
+      0.6,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Hemocultivo; ceftriaxona de elección.",
+   "codes": [
+    "1.04.1.012",
+    "2.01.1.013"
+   ],
+   "confunde": "Exantema viral: sin fiebre prolongada ni bradicardia relativa.",
+   "q": "EUNACOM Enero 2023 · Pregunta 23",
+   "auto": false
+  },
+  {
+   "id": "carbunco-cutaneo",
+   "n": 40,
+   "src": "biblioteca/07_infectologia/infecto-19/01_carbunco-cutaneo__cto-infecto_p105.jpg",
+   "topic": "infecto-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Carbunco cutáneo (pústula maligna)",
+   "frase": "Escara negra central rodeada de vesículas y edema, indolora y sin pus.",
+   "claves": [
+    {
+     "t": "Escara negra central",
+     "m": [
+      0.5,
+      0.35,
+      0.1
+     ]
+    },
+    {
+     "t": "Corona de vesículas y edema",
+     "m": [
+      0.25,
+      0.25,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Ciprofloxacino o doxiciclina 60 días; NO desbridar.",
+   "codes": [
+    "1.04.1.003",
+    "6.01.2.002"
+   ],
+   "confunde": "Loxoscelismo y ectima gangrenoso: dolorosos.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "carbunco-inhalatorio",
+   "n": 41,
+   "src": "biblioteca/07_infectologia/infecto-19/02_carbunco-inhalatorio-rx__atlas038.jpg",
+   "topic": "infecto-19",
+   "type": "imagen",
+   "size": "half",
+   "title": "Carbunco inhalatorio: mediastino ensanchado",
+   "frase": "Ensanchamiento marcado del mediastino por mediastinitis hemorrágica.",
+   "claves": [
+    {
+     "t": "Mediastino ensanchado",
+     "m": [
+      0.45,
+      0.3,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Cuadro gripal fulminante con mediastino ancho: carbunco por inhalación.",
+   "codes": [
+    "1.04.1.003"
+   ],
+   "confunde": "Disección aórtica: dolor desgarrante.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "loxoscelismo",
+   "n": 42,
+   "src": "biblioteca/07_infectologia/infecto-19/03_loxoscelismo__ecm_p798.jpg",
+   "topic": "infecto-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Loxoscelismo cutáneo",
+   "frase": "Placa livedoide violácea con necrosis, intensamente dolorosa y quemante.",
+   "claves": [
+    {
+     "t": "Placa livedoide con necrosis",
+     "m": [
+      0.5,
+      0.4,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "El dolor lo separa del carbunco (indoloro).",
+   "codes": [
+    "1.04.1.003"
+   ],
+   "confunde": "Carbunco cutáneo: escara indolora.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "ectima-gangrenoso",
+   "n": 43,
+   "src": "../../books/figuras/atlas_eunacom_2026/040_alta_infecto_infecto_19_carbunco_y_escaras_negras_neut.jpg",
+   "topic": "infecto-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ectima gangrenoso (Pseudomonas)",
+   "frase": "Úlcera necrótica con halo eritematoso en un paciente neutropénico.",
+   "claves": [
+    {
+     "t": "Úlcera necrótica central",
+     "m": [
+      0.36,
+      0.6,
+      0.07
+     ]
+    },
+    {
+     "t": "Halo eritematoso",
+     "m": [
+      0.25,
+      0.45,
+      0.06
+     ]
+    }
+   ],
+   "conducta": "Neutropenia febril: antibiótico con cobertura antipseudomona (cefepime) en < 60 minutos.",
+   "codes": [
+    "1.04.1.020"
+   ],
+   "confunde": "Carbunco cutáneo: indoloro, sin neutropenia.",
+   "q": "EUNACOM Diciembre 2022 · Pregunta 45",
+   "auto": false
+  },
+  {
+   "id": "erisipela",
+   "n": 44,
+   "src": "biblioteca/07_infectologia/infecto-20/01_erisipela__cto-derma_p25.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Erisipela",
+   "frase": "Placa rojo vivo, sobreelevada, con borde nítido como un escalón.",
+   "claves": [
+    {
+     "t": "Borde nítido y sobreelevado",
+     "m": [
+      0.35,
+      0.4,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Marcar los bordes y cefadroxilo (o flucloxacilina) 7-10 días; buscar la puerta de entrada.",
+   "codes": [
+    "6.01.2.003",
+    "1.04.1.006"
+   ],
+   "confunde": "Celulitis: bordes difusos, más profunda.",
+   "q": "EUNACOM Diciembre 2019 · Pregunta 137",
+   "auto": true
+  },
+  {
+   "id": "celulitis",
+   "n": 45,
+   "src": "biblioteca/07_infectologia/infecto-20/02_celulitis_1__amir-infecto_p67.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Celulitis",
+   "frase": "Eritema de bordes difusos y mal delimitados, sin relieve.",
+   "claves": [
+    {
+     "t": "Eritema difuso de la pierna",
+     "m": [
+      0.45,
+      0.25,
+      0.1
+     ]
+    },
+    {
+     "t": "Bordes mal delimitados",
+     "m": [
+      0.52,
+      0.45,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Cefadroxilo oral 7-10 días; tinea pedis interdigital como puerta de entrada.",
+   "codes": [
+    "1.04.1.006",
+    "6.01.2.003"
+   ],
+   "confunde": "TVP: edema sin placa eritematosa caliente.",
+   "q": "EUNACOM Julio 2017 · Pregunta 106",
+   "auto": true
+  },
+  {
+   "id": "foliculitis",
+   "n": 46,
+   "src": "biblioteca/07_infectologia/infecto-20/03_foliculitis__atlas208.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Foliculitis",
+   "frase": "Pequeñas pústulas indoloras, cada una centrada en un vello.",
+   "claves": [
+    {
+     "t": "Pústula centrada en el folículo",
+     "m": [
+      0.4,
+      0.55,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Aseo con clorhexidina o mupirocina tópica al 2%.",
+   "codes": [
+    "6.01.1.021"
+   ],
+   "confunde": "Acné: comedones.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "antrax-estafilococico",
+   "n": 47,
+   "src": "_verificadas/209_infecto_Erisipela_celulitis_folículo__Fitzpatric_p1739_1.jpg",
+   "topic": "infecto-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ántrax estafilocócico",
+   "frase": "Forúnculos coalescentes unidos bajo la piel, en la nuca de un diabético.",
+   "claves": [
+    {
+     "t": "Placa con múltiples puntos de drenaje",
+     "m": [
+      0.45,
+      0.45,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Drenaje y antibiótico antiestafilocócico; nada que ver con Bacillus anthracis.",
+   "codes": [
+    "4.01.1.055",
+    "6.01.1.021"
+   ],
+   "confunde": "Carbunco por B. anthracis: escara negra indolora.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 174",
+   "auto": false
+  },
+  {
+   "id": "linfocitos-atipicos",
+   "n": 48,
+   "src": "biblioteca/07_infectologia/infecto-21/04_linfocitos-atipicos__atlas210.jpg",
+   "topic": "infecto-21",
+   "type": "histologia",
+   "size": "half",
+   "title": "Linfocitos atípicos (de Downey)",
+   "frase": "Células grandes de citoplasma abundante y basófilo: > 10% en la mononucleosis.",
+   "claves": [
+    {
+     "t": "Linfocito atípico",
+     "m": [
+      0.35,
+      0.4,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Heterófilos o IgM anti-VCA; sin deportes de contacto 3-4 semanas.",
+   "codes": [
+    "1.04.1.025",
+    "1.04.4.010"
+   ],
+   "confunde": "Blastos de leucemia: núcleo inmaduro, otras citopenias.",
+   "q": "EUNACOM Diciembre 2024 · Pregunta 169",
+   "auto": false
+  },
+  {
+   "id": "amigdalitis-mono",
+   "n": 49,
+   "src": "biblioteca/07_infectologia/infecto-21/01_amigdalitis-mononucleosica__cto-orl_p71.jpg",
+   "topic": "infecto-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Amigdalitis del síndrome mononucleósico",
+   "frase": "Faringoamigdalitis exudativa con placas blancas: indistinguible de la estreptocócica.",
+   "claves": [
+    {
+     "t": "Amígdalas hipertróficas con exudado",
+     "m": [
+      0.3,
+      0.55,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Faringitis + adenopatías posteriores + esplenomegalia: VEB; evitar amoxicilina.",
+   "codes": [
+    "1.04.1.025",
+    "2.01.1.016"
+   ],
+   "confunde": "Faringoamigdalitis estreptocócica: misma garganta.",
+   "q": "EUNACOM Julio 2013 · Pregunta 152",
+   "auto": true
+  },
+  {
+   "id": "amigdalitis-estrepto",
+   "n": 50,
+   "src": "biblioteca/07_infectologia/infecto-21/02_faringoamigdalitis-estreptococica__cto-infecto_p51.jpg",
+   "topic": "infecto-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Faringoamigdalitis estreptocócica",
+   "frase": "Amigdalitis pultácea por Streptococcus pyogenes.",
+   "claves": [
+    {
+     "t": "Exudado amigdalino",
+     "m": [
+      0.65,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Amoxicilina 10 días (o penicilina benzatina) para prevenir la fiebre reumática.",
+   "codes": [
+    "1.04.1.025"
+   ],
+   "confunde": "Mononucleosis: amoxicilina da exantema en > 90%.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "cmv-congenito",
+   "src": "../../books/figuras/atlas_eunacom_2026/211_media_infecto_infecto_21_mononucleosis_y_torch.jpg",
+   "topic": "infecto-21",
+   "type": "eco",
+   "size": "half",
+   "title": "CMV congénito: calcificaciones periventriculares",
+   "frase": "Calcificaciones alrededor de los ventrículos en la ecografía cerebral neonatal.",
+   "claves": [
+    {
+     "t": "Calcificaciones periventriculares",
+     "m": [
+      0.4,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "TORCH: CMV da calcificaciones periventriculares e hipoacusia.",
+   "codes": [
+    "2.01.1.127"
+   ],
+   "confunde": "Toxoplasmosis congénita: calcificaciones difusas y coriorretinitis.",
+   "q": "EUNACOM Julio 2025 · Pregunta 18",
+   "auto": true,
+   "n": 51
+  },
+  {
+   "id": "koplik",
+   "n": 52,
+   "src": "biblioteca/07_infectologia/infecto-22/01_manchas_koplik__cdc-phil-6111.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manchas de Koplik",
+   "frase": "Pápulas blanquecinas milimétricas en la mucosa yugal frente al 2.º molar.",
+   "claves": [
+    {
+     "t": "Puntos blancos sobre mucosa roja",
+     "m": [
+      0.35,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Sarampión: notificación inmediata (ENO) y aislamiento.",
+   "codes": [
+    "2.01.1.009"
+   ],
+   "confunde": "Muguet: placas que se desprenden.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "sarampion",
+   "src": "biblioteca/07_infectologia/infecto-22/01_sarampion__cto-pediatria_p97.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema del sarampión",
+   "frase": "Exantema maculopapular confluente que parte detrás de las orejas y baja.",
+   "claves": [
+    {
+     "t": "Exantema maculopapular confluente",
+     "m": [
+      0.5,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Notificación inmediata (ENO) y aislamiento; buscar Koplik.",
+   "codes": [
+    "2.01.1.009"
+   ],
+   "confunde": "Rubéola: máculas rosadas que no confluyen.",
+   "q": null,
+   "auto": true,
+   "n": 53
+  },
+  {
+   "id": "rubeola",
+   "n": 54,
+   "src": "biblioteca/07_infectologia/infecto-22/02_rubeola__cto-pediatria_p98.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema de la rubéola",
+   "frase": "Máculas rosadas que no confluyen y bajan rápido de la cabeza a los pies.",
+   "claves": [
+    {
+     "t": "Máculas rosadas no confluentes",
+     "m": [
+      0.4,
+      0.4,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Buscar adenopatías retroauriculares y suboccipitales; notificación.",
+   "codes": [
+    "2.01.1.009"
+   ],
+   "confunde": "Sarampión: exantema confluente con Koplik.",
+   "q": "EUNACOM Julio 2019 · Pregunta 96",
+   "auto": false
+  },
+  {
+   "id": "kawasaki-labios",
+   "src": "_verificadas/41_Kawasaki_lengua_en_frambuesa__nelsontextbo_p1967_1.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki: labios fisurados y lengua en frambuesa",
+   "frase": "Labios rojos y fisurados con lengua en frambuesa.",
+   "claves": [
+    {
+     "t": "Labios rojos y fisurados",
+     "m": [
+      0.5,
+      0.3,
+      0.1
+     ]
+    },
+    {
+     "t": "Lengua en frambuesa",
+     "m": [
+      0.5,
+      0.6,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Fiebre ≥ 5 días + 4 criterios: IGEV 2 g/kg + aspirina; ecocardiograma.",
+   "codes": [
+    "2.01.1.058"
+   ],
+   "confunde": "Escarlatina: también lengua en frambuesa, con exantema en lija.",
+   "q": "EUNACOM Julio 2025 · Pregunta 11",
+   "auto": true,
+   "n": 55
+  },
+  {
+   "id": "kawasaki-conjuntiva",
+   "n": 56,
+   "src": "../../books/figuras/atlas_eunacom_2026/042_alta_infecto_infecto_22_exantemas_de_la_infancia_y_kaw.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki: conjuntivitis bulbar sin pus",
+   "frase": "Inyección conjuntival bilateral, bulbar y no exudativa.",
+   "claves": [
+    {
+     "t": "Ojo rojo seco, sin secreción",
+     "m": [
+      0.4,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Fiebre ≥ 5 días + 4 de 5 criterios: IGEV 2 g/kg + aspirina; ecocardiograma.",
+   "codes": [
+    "2.01.1.058"
+   ],
+   "confunde": "Conjuntivitis viral o bacteriana: con secreción.",
+   "q": "EUNACOM Julio 2025 · Pregunta 11",
+   "auto": false
+  },
+  {
+   "id": "kawasaki-manos",
+   "n": 57,
+   "src": "../../books/figuras/atlas_eunacom_2026/043_alta_infecto_infecto_22_exantemas_de_la_infancia_y_kaw.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Kawasaki: edema de manos",
+   "frase": "Edema duro y eritema de palmas y plantas en la fase aguda.",
+   "claves": [
+    {
+     "t": "Manos edematosas y eritematosas",
+     "m": [
+      0.5,
+      0.5,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Después aparece la descamación periungueal en dedo de guante.",
+   "codes": [
+    "2.01.1.058"
+   ],
+   "confunde": "Escarlatina: descamación también, sin edema indurado.",
+   "q": "EUNACOM Diciembre 2017 · Pregunta 128",
+   "auto": false
+  },
+  {
+   "id": "henoch",
+   "n": 58,
+   "src": "biblioteca/07_infectologia/infecto-22/10_purpura-palpable-schonlein-henoch__fitzpatrick_p1639.jpg",
+   "topic": "infecto-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Púrpura de Schönlein-Henoch",
+   "frase": "Púrpura palpable en extensores de las piernas y glúteos con plaquetas normales.",
+   "claves": [
+    {
+     "t": "Púrpura palpable",
+     "m": [
+      0.5,
+      0.5,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "Vasculitis IgA: soporte; vigilar compromiso renal y abdominal.",
+   "codes": [
+    "2.01.1.058"
+   ],
+   "confunde": "Púrpura meningocócica: febril, con shock.",
+   "q": null,
+   "auto": true
+  },
+  {
+   "id": "varicela",
+   "n": 59,
+   "src": "biblioteca/07_infectologia/infecto-23/01_varicela__cto-infecto_p127.jpg",
+   "topic": "infecto-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Varicela: polimorfismo regional",
+   "frase": "Máculas, pápulas, vesículas y costras juntas en la misma zona («cielo estrellado»).",
+   "claves": [
+    {
+     "t": "Vesícula clara sobre base roja",
+     "m": [
+      0.5,
+      0.3,
+      0.06
+     ]
+    },
+    {
+     "t": "Costras al lado de lesiones nuevas",
+     "m": [
+      0.3,
+      0.65,
+      0.07
+     ]
+    }
+   ],
+   "conducta": "Adulto: aciclovir oral; contagiosa hasta que todas sean costras.",
+   "codes": [
+    "1.04.1.011"
+   ],
+   "confunde": "Viruela: lesiones en el mismo estadio.",
+   "q": "EUNACOM Julio 2013 · Pregunta 118",
+   "auto": true
+  },
+  {
+   "id": "varicela-espalda",
+   "src": "biblioteca/07_infectologia/infecto-23/01_varicela_alt1_2__amir-infecto_p127.jpg",
+   "topic": "infecto-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Varicela: cielo estrellado en la espalda",
+   "frase": "Lesiones en distintos estadios en la misma zona.",
+   "claves": [
+    {
+     "t": "Vesículas, pápulas y costras juntas",
+     "m": [
+      0.5,
+      0.45,
+      0.15
+     ]
+    }
+   ],
+   "conducta": "Contagiosa hasta que todas sean costras; aciclovir en adulto.",
+   "codes": [
+    "1.04.1.011"
+   ],
+   "confunde": "Viruela: lesiones en el mismo estadio.",
+   "q": null,
+   "auto": false,
+   "n": 60
+  },
+  {
+   "id": "neumonitis-varicela",
+   "n": 61,
+   "src": "biblioteca/07_infectologia/infecto-23/03_neumonitis-varicelosa__brant_p491.jpg",
+   "topic": "infecto-23",
+   "type": "imagen",
+   "size": "half",
+   "title": "Neumonitis varicelosa",
+   "frase": "Infiltrados nodulares difusos en ambos pulmones: la complicación más grave en adultos.",
+   "claves": [
+    {
+     "t": "Infiltrado nodular bilateral",
+     "m": [
+      0.3,
+      0.45,
+      0.12
+     ]
+    }
+   ],
+   "conducta": "Aciclovir EV urgente.",
+   "codes": [
+    "1.04.2.010"
+   ],
+   "confunde": "TBC miliar: micronódulos más finos y uniformes.",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "signo-halo",
+   "src": "biblioteca/07_infectologia/infecto-24/01_signo-halo-tac__brant_p497.jpg",
+   "topic": "infecto-24",
+   "type": "imagen",
+   "size": "half",
+   "title": "Aspergilosis invasora: signo del halo",
+   "frase": "Nódulo pulmonar rodeado de vidrio esmerilado en un neutropénico.",
+   "claves": [
+    {
+     "t": "Nódulo con halo",
+     "m": [
+      0.4,
+      0.55,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Fiebre persistente al 4.º-7.º día de neutropenia febril: TAC y voriconazol.",
+   "codes": [
+    "1.04.1.019",
+    "1.04.1.020"
+   ],
+   "confunde": "Neumonía bacteriana: consolidación sin halo.",
+   "q": "EUNACOM Julio 2016 · Pregunta 73",
+   "auto": false,
+   "n": 62
+  },
+  {
+   "id": "mucormicosis",
+   "n": 63,
+   "src": "biblioteca/07_infectologia/infecto-24/02_mucormicosis__fitzpatrick_p1882.jpg",
+   "topic": "infecto-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mucormicosis rinocerebral",
+   "frase": "Diabético descompensado con edema periorbitario, proptosis y escara negra.",
+   "claves": [
+    {
+     "t": "Edema periorbitario y proptosis",
+     "m": [
+      0.6,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "Anfotericina B y desbridamiento quirúrgico urgente; corregir la cetoacidosis.",
+   "codes": [
+    "1.04.1.019"
+   ],
+   "confunde": "Celulitis orbitaria bacteriana: sin escara negra.",
+   "q": "EUNACOM Diciembre 2018 · Pregunta 124",
+   "auto": false
+  },
+  {
+   "id": "mis-c",
+   "n": 64,
+   "src": "biblioteca/07_infectologia/infecto-25/01_mis-c-tac-abdominal__nelson_p2620.jpg",
+   "topic": "infecto-25",
+   "type": "imagen",
+   "size": "half",
+   "title": "MIS-C: compromiso digestivo",
+   "frase": "Asas con paredes engrosadas y ganglios mesentéricos 2-6 semanas tras COVID-19.",
+   "claves": [
+    {
+     "t": "Asas intestinales de pared engrosada",
+     "m": [
+      0.75,
+      0.75,
+      0.1
+     ]
+    }
+   ],
+   "conducta": "UCI pediátrica: inmunoglobulina y corticoides.",
+   "codes": [
+    "2.01.2.144"
+   ],
+   "confunde": "Apendicitis: el dolor y los vómitos pueden simularla.",
+   "q": "EUNACOM Agosto 2021 · Pregunta 36",
+   "auto": false
+  }
+ ],
+ "pairs": [
+  {
+   "a": "erisipela",
+   "b": "celulitis",
+   "title": "Erisipela vs celulitis",
+   "la": [
+    "Borde nítido y sobreelevado",
+    "Dermis superficial: S. pyogenes"
+   ],
+   "lb": [
+    "Bordes difusos, sin relieve",
+    "Subcutáneo: S. aureus y S. pyogenes"
+   ],
+   "diff": "El borde te dice la profundidad, y la profundidad, el agente."
+  },
+  {
+   "a": "herpes-genital",
+   "b": "chancro",
+   "title": "Herpes genital vs chancro",
+   "la": [
+    "Vesículas en racimo",
+    "Erosiones dolorosas"
+   ],
+   "lb": [
+    "Úlcera única",
+    "Indolora"
+   ],
+   "diff": "El herpes es la úlcera genital más frecuente y la única que parte con vesículas."
+  },
+  {
+   "a": "carbunco-cutaneo",
+   "b": "loxoscelismo",
+   "title": "Carbunco cutáneo vs loxoscelismo",
+   "la": [
+    "Escara negra con vesículas",
+    "Indolora"
+   ],
+   "lb": [
+    "Placa livedoide con necrosis",
+    "Muy dolorosa"
+   ],
+   "diff": "Escaras negras: la clave es el dolor."
+  },
+  {
+   "a": "amigdalitis-mono",
+   "b": "amigdalitis-estrepto",
+   "title": "Mononucleosis vs faringitis estreptocócica",
+   "la": [
+    "Exudado + adenopatías posteriores",
+    "Esplenomegalia, linfocitos atípicos"
+   ],
+   "lb": [
+    "Exudado pultáceo",
+    "Fiebre sin esplenomegalia"
+   ],
+   "diff": "Mirando la garganta no las separas: amoxicilina en la mononucleosis da exantema."
+  },
+  {
+   "a": "tbc-miliar",
+   "b": "neumonitis-varicela",
+   "title": "TBC miliar vs neumonitis varicelosa",
+   "la": [
+    "Micronódulos finos uniformes",
+    "Siembra hematógena"
+   ],
+   "lb": [
+    "Infiltrado nodular difuso",
+    "Adulto con varicela"
+   ],
+   "diff": "El contexto clínico manda: exantema vesicular reciente o bacilo en el cultivo."
+  }
+ ],
+ "signos": [
+  {
+   "name": "Signo de Kernig",
+   "dx": "Meningitis.",
+   "find": "Kernig",
+   "topic": "infecto-02",
+   "img": "kernig",
+   "def": "Con la cadera flectada, la extensión de la rodilla duele y ofrece resistencia."
+  },
+  {
+   "name": "Signo de Brudzinski",
+   "dx": "Meningitis.",
+   "find": "Brudzinski",
+   "topic": "infecto-02",
+   "def": "Al flectar el cuello se flectan las caderas y rodillas."
+  },
+  {
+   "name": "Risa sardónica",
+   "dx": "Tétanos.",
+   "find": "sardónica",
+   "topic": "infecto-06",
+   "img": "risa-sardonica",
+   "def": "Mueca fija por espasmo de los músculos faciales."
+  },
+  {
+   "name": "Opistótonos",
+   "dx": "Tétanos.",
+   "find": "opistótonos",
+   "topic": "infecto-06",
+   "img": "opistotonos",
+   "def": "Arco dorsal rígido por contracción de los extensores."
+  },
+  {
+   "name": "Signo de Romaña",
+   "dx": "Chagas agudo.",
+   "find": "Romaña",
+   "topic": "infecto-15",
+   "img": "romana",
+   "def": "Edema bipalpebral unilateral indoloro con adenopatía preauricular."
+  },
+  {
+   "name": "Signo del camalote",
+   "dx": "Hidatidosis.",
+   "find": "camalote",
+   "topic": "infecto-17",
+   "img": "camalote",
+   "def": "Membrana germinativa desprendida flotando dentro del quiste."
+  },
+  {
+   "name": "Manchas de Koplik",
+   "dx": "Sarampión.",
+   "find": "Koplik",
+   "topic": "infecto-22",
+   "img": "koplik",
+   "def": "Pápulas blanquecinas en la mucosa yugal frente al segundo molar."
+  },
+  {
+   "name": "Líneas de Pastia",
+   "dx": "Escarlatina.",
+   "find": "Pastia",
+   "topic": "infecto-22",
+   "def": "Petequias lineales en los pliegues antecubitales e inguinales."
+  },
+  {
+   "name": "Facies de Filatov",
+   "dx": "Escarlatina.",
+   "find": "Filatov",
+   "topic": "infecto-22",
+   "def": "Mejillas rojas con palidez peribucal."
+  },
+  {
+   "name": "Signo de la bofetada",
+   "dx": "Eritema infeccioso (parvovirus B19).",
+   "find": "bofetada",
+   "topic": "infecto-22",
+   "def": "Eritema intenso de ambas mejillas."
+  },
+  {
+   "name": "Signo de Hutchinson (zóster)",
+   "dx": "Zóster oftálmico con riesgo de queratitis.",
+   "find": "Hutchinson",
+   "topic": "infecto-23",
+   "def": "Vesícula en la punta de la nariz (rama nasociliar de V1)."
+  },
+  {
+   "name": "Tríada de Hutchinson",
+   "dx": "Sífilis congénita tardía.",
+   "find": "Hutchinson",
+   "topic": "infecto-12",
+   "img": "hutchinson-dientes",
+   "def": "Dientes de Hutchinson, queratitis intersticial y sordera."
+  },
+  {
+   "name": "Signo de Faget",
+   "dx": "Fiebre tifoidea.",
+   "find": "Faget",
+   "topic": "infecto-18",
+   "def": "Fiebre alta con bradicardia relativa (disociación esfigmotérmica)."
+  },
+  {
+   "name": "Síndrome de Weil",
+   "dx": "Leptospirosis grave.",
+   "find": "Weil",
+   "topic": "infecto-18",
+   "img": "leptospirosis",
+   "def": "Ictericia, falla renal y hemorragia pulmonar."
+  },
+  {
+   "name": "Cielo estrellado",
+   "dx": "Varicela.",
+   "find": "cielo estrellado",
+   "topic": "infecto-23",
+   "img": "varicela",
+   "def": "Lesiones en distintos estadios en la misma zona."
+  },
+  {
+   "name": "Síndrome de Ramsay-Hunt",
+   "dx": "Zóster del ganglio geniculado.",
+   "find": "Ramsay",
+   "topic": "infecto-23",
+   "def": "Parálisis facial periférica con vesículas en el conducto auditivo o la concha."
+  },
+  {
+   "name": "Signo del halo",
+   "dx": "Aspergilosis invasora.",
+   "find": "halo",
+   "topic": "infecto-24",
+   "def": "Nódulo pulmonar rodeado de vidrio esmerilado en la TAC."
+  }
+ ],
+ "discarded": [],
+ "inventory": {
+  "fuente": "fotos impresas en el tomo",
+  "unique": 64
+ }
+}

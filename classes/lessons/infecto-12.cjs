@@ -57,7 +57,7 @@ module.exports = {
         { title: 'Sífilis secundaria', tag: 'Diseminada', kind: 'criteria', items: [
           { t: 'Roséola sifilítica', d: 'Exantema maculopapular palmoplantar',
             say: 'En la secundaria aparece la roséola sifilítica, un exantema maculopapular con compromiso de las palmas y las plantas, como ves en estas palmas. Pocos exantemas tocan las palmas y las plantas, así que ese dato te lleva directo a la sífilis.',
-            photo: { src: 'biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg', label: 'Sífilis secundaria', at: 'como ves en estas palmas', credit: 'Manual AMIR Infecciosas, p. 59' } },
+            photo: { src: 'biblioteca/07_infectologia/infecto-12/01_sifilis-secundaria-palmoplantar__amir-infecto_p59.jpg', label: 'Sífilis secundaria', at: 'como ves en estas palmas', credit: 'Manual CTO de Medicina y Cirugía, Infectología, 14.ª ed., p. 99' } },
           { t: 'Condilomas planos', d: 'Perianales · con micropoliadenopatías',
             say: 'Además, mira estos condilomas planos, placas húmedas muy contagiosas, en la región perianal y micropoliadenopatías generalizadas. Ojo con no confundir los condilomas planos de la sífilis con los acuminados del virus papiloma, que vemos en la próxima clase.',
             photo: { src: 'biblioteca/07_infectologia/infecto-12/02_condilomas-planos__cto-infecto_p99.jpg', label: 'Condilomas planos', at: 'mira estos condilomas', credit: 'Manual CTO Infecciosas 14.ª ed., p. 99' } },

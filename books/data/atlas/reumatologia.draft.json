@@ -1,0 +1,1813 @@
+{
+ "libro": "reumatologia",
+ "title": "Reumatología",
+ "prefix": "reuma",
+ "topics": {
+  "reuma-01": "Monoartritis Aguda",
+  "reuma-02": "Artritis Séptica del Adulto y Protésica",
+  "reuma-03": "Artritis por Microcristales",
+  "reuma-04": "Artrosis / Osteoartritis",
+  "reuma-05": "Artritis Idiopática Juvenil (AIJ) y Enfermedad de Still del Adulto",
+  "reuma-06": "Artritis Reumatoide",
+  "reuma-07": "Artritis Reumatoide",
+  "reuma-08": "Lupus Eritematoso Sistémico (LES)",
+  "reuma-09": "Nefritis Lúpica y Compromiso Orgánico Mayor en LES",
+  "reuma-10": "Lupus Cutáneo (Subagudo y Crónico Discoide) y Lupus Inducido por Drogas",
+  "reuma-11": "Síndrome Antifosfolípido (SAF)",
+  "reuma-12": "Esclerosis Sistémica",
+  "reuma-13": "Miopatías Inflamatorias Autoinmunes",
+  "reuma-14": "Fenómeno de Raynaud Primario vs Secundario y Capilaroscopía Periungueal",
+  "reuma-15": "Síndrome de Sjögren y Enfermedad Mixta del Tejido Conectivo (EMTC)",
+  "reuma-16": "Espondiloartritis",
+  "reuma-17": "Espondilitis Anquilosante (EA)",
+  "reuma-18": "Artritis Psoriásica (Dactilitis, Pitting Ungueal) y Artritis Asociada a EII",
+  "reuma-19": "Artritis Reactiva (Síndrome de Reiter)",
+  "reuma-20": "Enfermedad de Behçet",
+  "reuma-21": "Vasculitis de Vaso Grande y Mediano",
+  "reuma-22": "Vasculitis de Vaso Pequeño ANCA Positivas (GPA, PAM, EGPA) y Púrpura de Henoch-Schönlein (Vasculitis por IgA)",
+  "reuma-23": "Fibromialgia y Polimialgia Reumática",
+  "reuma-24": "Osteoporosis y Salud Ósea"
+ },
+ "refs": 77,
+ "images": [
+  {
+   "id": "01_cristales-de-urato-luz-polarizada__ct",
+   "src": "biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada__cto-reuma_p49.jpg",
+   "topic": "reuma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cristales de urato",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_cristales-de-urato-luz-polarizada_alt",
+   "src": "biblioteca/08_reumatologia/reuma-01/01_cristales-de-urato-luz-polarizada_alt1__amir-reuma_p20.jpg",
+   "topic": "reuma-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Agujas en luz polarizada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_derrame_rodilla__commons",
+   "src": "biblioteca/08_reumatologia/reuma-02/01_derrame_rodilla__commons.jpg",
+   "topic": "reuma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Derrame articular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "213_reuma_Artritis_séptica__Commons_1",
+   "src": "_web/213_reuma_Artritis_séptica__Commons_1.jpg",
+   "topic": "reuma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Bursitis olecraneana",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_osteomielitis-vertebral-rm__harrison_",
+   "src": "biblioteca/08_reumatologia/reuma-02/10_osteomielitis-vertebral-rm__harrison_p1223.jpg",
+   "topic": "reuma-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM: osteomielitis vertebral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_tofos-en-manos__amir-reuma_p19",
+   "src": "biblioteca/08_reumatologia/reuma-03/02_tofos-en-manos__amir-reuma_p19.jpg",
+   "topic": "reuma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tofos en las manos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "214_reuma_Gota_y_condrocalcinosis__Helms",
+   "src": "_verificadas/214_reuma_Gota_y_condrocalcinosis__HelmsSkeletal_p143.jpg",
+   "topic": "reuma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx de gota crónica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_condrocalcinosis-rx-rodilla__amir-reu",
+   "src": "biblioteca/08_reumatologia/reuma-03/03_condrocalcinosis-rx-rodilla__amir-reuma_p23.jpg",
+   "topic": "reuma-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Condrocalcinosis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_heberden-y-bouchard_1__cto-reuma_p64",
+   "src": "biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_1__cto-reuma_p64.jpg",
+   "topic": "reuma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos de Heberden",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_heberden-y-bouchard_alt1__amir-reuma_",
+   "src": "biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_alt1__amir-reuma_p124.jpg",
+   "topic": "reuma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos de Bouchard",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_heberden-y-bouchard_2__cto-reuma_p64",
+   "src": "biblioteca/08_reumatologia/reuma-04/01_heberden-y-bouchard_2__cto-reuma_p64.jpg",
+   "topic": "reuma-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Artrosis de cadera (pelvis)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_exantema-asalmonado-still__amir-reuma",
+   "src": "biblioteca/08_reumatologia/reuma-05/01_exantema-asalmonado-still__amir-reuma_p57.jpg",
+   "topic": "reuma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Exantema asalmonado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_215_uveitis_anterior_cronica_de_la",
+   "src": "biblioteca/09_reumatologia/reuma-05/atlas_215_uveitis_anterior_cronica_de_la.jpg",
+   "topic": "reuma-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uveítis crónica de la AIJ",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rx-manos-ar-erosiones__cto-reuma_p27",
+   "src": "biblioteca/08_reumatologia/reuma-06/02_rx-manos-ar-erosiones__cto-reuma_p27.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Erosiones en las manos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ar-desviacion-cubital_alt1__amir-reum",
+   "src": "biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital_alt1__amir-reuma_p49.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Desviación cubital",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ar-desviacion-cubital__amir-reuma_p48",
+   "src": "biblioteca/08_reumatologia/reuma-06/01_ar-desviacion-cubital__amir-reuma_p48.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx: enfermedad avanzada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "216_reuma_Artritis_reumatoide_clínica__e",
+   "src": "_verificadas/216_reuma_Artritis_reumatoide_clínica__ecmpdf_p660_1.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mano reumatoide con dedos en cuello de cisne y en ojal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "217_reuma_Artritis_reumatoide_clínica__n",
+   "src": "_verificadas/217_reuma_Artritis_reumatoide_clínica__nelsontext_p1889_1.jpg",
+   "topic": "reuma-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nódulos reumatoides subcutáneos en el codo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_eritema-malar__cto-reuma_p81",
+   "src": "biblioteca/08_reumatologia/reuma-08/01_eritema-malar__cto-reuma_p81.jpg",
+   "topic": "reuma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema malar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_ulcera-oral-lupus__nelson_p1907",
+   "src": "biblioteca/08_reumatologia/reuma-08/10_ulcera-oral-lupus__nelson_p1907.jpg",
+   "topic": "reuma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlceras orales del lupus",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "219_reuma_Lupus_eritematoso_sistémico__C",
+   "src": "_web/219_reuma_Lupus_eritematoso_sistémico__Commons_1.jpg",
+   "topic": "reuma-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx de mano sin erosiones",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sedimento-hematuria-glomerular__cto-n",
+   "src": "biblioteca/08_reumatologia/reuma-09/01_sedimento-hematuria-glomerular__cto-nefro_p33.jpg",
+   "topic": "reuma-09",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematíes dismórficos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_lupus-discoide__cto-reuma_p81",
+   "src": "biblioteca/08_reumatologia/reuma-10/01_lupus-discoide__cto-reuma_p81.jpg",
+   "topic": "reuma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lupus discoide facial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_lupus-subagudo-anular__cto-reuma_p81",
+   "src": "biblioteca/08_reumatologia/reuma-10/02_lupus-subagudo-anular__cto-reuma_p81.jpg",
+   "topic": "reuma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lupus subagudo anular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "221_reuma_Lupus_cutáneo_neonatal_y_farma",
+   "src": "_verificadas/221_reuma_Lupus_cutáneo_neonatal_y_farma__nelsontext_p5146_1.jpg",
+   "topic": "reuma-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lupus neonatal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_livedo-reticularis__amir-reuma_p39",
+   "src": "biblioteca/08_reumatologia/reuma-11/01_livedo-reticularis__amir-reuma_p39.jpg",
+   "topic": "reuma-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Livedo reticularis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_esclerodactilia__amir-reuma_p99",
+   "src": "biblioteca/08_reumatologia/reuma-12/01_esclerodactilia__amir-reuma_p99.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Esclerodactilia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_046_ulceras_digitales_de_pulpejos_",
+   "src": "biblioteca/09_reumatologia/reuma-12/atlas_046_ulceras_digitales_de_pulpejos_.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Necrosis de pulpejos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "47_EPID_NINE_esclerodermia_TAC__nelsonte",
+   "src": "_verificadas/47_EPID_NINE_esclerodermia_TAC__nelsontextbo_p3330_1.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "TAC: patrón NINE",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "044_reuma_Esclerosis_sistémica__Open-i_1",
+   "src": "_web/044_reuma_Esclerosis_sistémica__Open-i_1.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies esclerodérmica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "044_reuma_Esclerosis_sistémica__Open-i_2",
+   "src": "_web/044_reuma_Esclerosis_sistémica__Open-i_2.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Facies esclerodérmica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "045_reuma_Esclerosis_sistémica__Zitelli_",
+   "src": "_verificadas/045_reuma_Esclerosis_sistémica__Zitelli_p299.jpg",
+   "topic": "reuma-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Acroosteólisis: reabsorción de las falanges distales (esclerosis sistémica)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_heliotropo__cto-derma_p119",
+   "src": "biblioteca/08_reumatologia/reuma-13/03_heliotropo__cto-derma_p119.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Heliotropo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_papulas-de-gottron_alt1_2__cto-reuma_",
+   "src": "biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron_alt1_2__cto-reuma_p109.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Heliotropo y Gottron",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_papulas-de-gottron__amir-reuma_p127",
+   "src": "biblioteca/08_reumatologia/reuma-13/01_papulas-de-gottron__amir-reuma_p127.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Pápulas de Gottron",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "222_reuma_Dermatomiositis_y_polimiosit__",
+   "src": "_web/222_reuma_Dermatomiositis_y_polimiosit__Open-i_2.jpg",
+   "topic": "reuma-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Manos de mecánico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_raynaud-palidez-cianosis_alt1_1__cto-",
+   "src": "biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis_alt1_1__cto-reuma_p91.jpg",
+   "topic": "reuma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fase blanca",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_raynaud-palidez-cianosis__amir-reuma_",
+   "src": "biblioteca/08_reumatologia/reuma-14/01_raynaud-palidez-cianosis__amir-reuma_p98.jpg",
+   "topic": "reuma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Blanco y azul",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_capilaroscopia_alt1__cto-reuma_p94",
+   "src": "biblioteca/08_reumatologia/reuma-14/02_capilaroscopia_alt1__cto-reuma_p94.jpg",
+   "topic": "reuma-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Capilares en cuatro etapas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "11_tincion-rosa-bengala-ojo-seco__kanski",
+   "src": "biblioteca/08_reumatologia/reuma-15/11_tincion-rosa-bengala-ojo-seco__kanski_p135.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rosa de Bengala",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "12_tincion-fluoresceina-ojo-seco__kanski",
+   "src": "biblioteca/08_reumatologia/reuma-15/12_tincion-fluoresceina-ojo-seco__kanski_p135.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fluoresceína",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_lengua-seca-sjogren__kanski_p134",
+   "src": "biblioteca/08_reumatologia/reuma-15/10_lengua-seca-sjogren__kanski_p134.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Lengua seca y fisurada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "224_reuma_Sjögren_y_EMTC__Kanski_p138",
+   "src": "_verificadas/224_reuma_Sjögren_y_EMTC__Kanski_p138.jpg",
+   "topic": "reuma-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Test de Schirmer",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sacroilitis-rx__amir-reuma_p79",
+   "src": "biblioteca/08_reumatologia/reuma-16/01_sacroilitis-rx__amir-reuma_p79.jpg",
+   "topic": "reuma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sacroileítis bilateral en la Rx de pelvis (espondilitis anquilosante)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_sacroilitis-rm-stir__amir-reuma_p79",
+   "src": "biblioteca/08_reumatologia/reuma-16/02_sacroilitis-rm-stir__amir-reuma_p79.jpg",
+   "topic": "reuma-16",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM STIR: sacroilitis activa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_columna-en-ea-sindesmofitos-bambu_1__",
+   "src": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_1__amir-reuma_p79.jpg",
+   "topic": "reuma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sindesmofitos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_columna-en-ea-sindesmofitos-bambu_alt",
+   "src": "biblioteca/08_reumatologia/reuma-17/01_columna-en-ea-sindesmofitos-bambu_alt1__cto-reuma_p38.jpg",
+   "topic": "reuma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Columna en caña de bambú",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "049_reuma_EA_Behçet__KumarClark_p1099",
+   "src": "_verificadas/049_reuma_EA_Behçet__KumarClark_p1099.jpg",
+   "topic": "reuma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Uveítis anterior aguda",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "050_reuma_Espondilitis_anquilosante__Bra",
+   "src": "_verificadas/050_reuma_Espondilitis_anquilosante__BrantHelms_p1190.jpg",
+   "topic": "reuma-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Columna en caña de bambú (espondilitis anquilosante)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_psoriasis-en-placas__amir-derma_p39",
+   "src": "biblioteca/08_reumatologia/reuma-18/04_psoriasis-en-placas__amir-derma_p39.jpg",
+   "topic": "reuma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Psoriasis en placas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_dactilitis__amir-reuma_p81",
+   "src": "biblioteca/08_reumatologia/reuma-18/02_dactilitis__amir-reuma_p81.jpg",
+   "topic": "reuma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Dactilitis",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_artropatia-psoriasica-ifd__amir-reuma",
+   "src": "biblioteca/08_reumatologia/reuma-18/01_artropatia-psoriasica-ifd__amir-reuma_p81.jpg",
+   "topic": "reuma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Interfalángicas distales",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "051_reuma_Artritis_psoriásica_y_enteropá",
+   "src": "_verificadas/051_reuma_Artritis_psoriásica_y_enteropá__HYallpdfsp_p1745_1.jpg",
+   "topic": "reuma-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Rx con deformidad en \"lápiz en copa\"",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_balanitis-circinada-queratodermia_1__",
+   "src": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_1__amir-reuma_p83.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Balanitis circinada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_balanitis-circinada-queratodermia_2__",
+   "src": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_2__amir-reuma_p83.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratodermia plantar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_balanitis-circinada-queratodermia_alt",
+   "src": "biblioteca/08_reumatologia/reuma-19/01_balanitis-circinada-queratodermia_alt1__cto-reuma_p40.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Queratodermia: otro caso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "349_reuma_Artritis_reactiva__HarrisonsP_",
+   "src": "_verificadas/349_reuma_Artritis_reactiva__HarrisonsP_p1279_1.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Gonococcemia diseminada: pústulas acrales sobre base eritematosa",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_eritema-nodoso__fitzpatrick_p611",
+   "src": "biblioteca/08_reumatologia/reuma-19/10_eritema-nodoso__fitzpatrick_p611.jpg",
+   "topic": "reuma-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Eritema nodoso: nódulos eritematosos bilaterales en las piernas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_aftas-orales-behcet__amir-reuma_p41",
+   "src": "biblioteca/08_reumatologia/reuma-20/01_aftas-orales-behcet__amir-reuma_p41.jpg",
+   "topic": "reuma-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Aftas orales y fondo de ojo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_prueba_patergia__usuario",
+   "src": "biblioteca/08_reumatologia/reuma-20/01_prueba_patergia__usuario.jpg",
+   "topic": "reuma-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Prueba de patergia positiva (enfermedad de Behçet)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "052_reuma_Enfermedad_de_Behçet__Zitelli_",
+   "src": "_verificadas/052_reuma_Enfermedad_de_Behçet__Zitelli_p737.jpg",
+   "topic": "reuma-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Úlceras genitales en la enfermedad de Behçet",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "atlas_226_neuropatia_optica_isquemica_an",
+   "src": "biblioteca/09_reumatologia/reuma-21/atlas_226_neuropatia_optica_isquemica_an.jpg",
+   "topic": "reuma-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neuropatía óptica isquémica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_halo-ecografico-arteritis-temporal__c",
+   "src": "biblioteca/08_reumatologia/reuma-21/01_halo-ecografico-arteritis-temporal__cto-reuma_p72.jpg",
+   "topic": "reuma-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signo del halo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "227_reuma_Arteritis_de_células_gigante__",
+   "src": "_web/227_reuma_Arteritis_de_células_gigante__Commons_1.jpg",
+   "topic": "reuma-21",
+   "type": "clinica",
+   "size": "half",
+   "title": "Biopsia de arteria temporal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_nariz_silla_montar__commons",
+   "src": "biblioteca/08_reumatologia/reuma-22/01_nariz_silla_montar__commons.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Nariz en silla de montar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "228_reuma_Vasculitis_de_pequeño_vaso__Br",
+   "src": "_verificadas/228_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p528.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "GPA: nódulos cavitados",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "229_reuma_Vasculitis_de_pequeño_vaso__Br",
+   "src": "_verificadas/229_reuma_Vasculitis_de_pequeño_vaso__BrantHelms_p445.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hemorragia alveolar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "10_kawasaki-lengua-frutilla__nelson_p196",
+   "src": "biblioteca/08_reumatologia/reuma-22/10_kawasaki-lengua-frutilla__nelson_p1967.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Enfermedad de Kawasaki: lengua en frutilla",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "11_kawasaki-conjuntivitis__nelson_p1968",
+   "src": "biblioteca/08_reumatologia/reuma-22/11_kawasaki-conjuntivitis__nelson_p1968.jpg",
+   "topic": "reuma-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Enfermedad de Kawasaki: hiperemia conjuntival bulbar bilateral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_distribucion_pmr__commons",
+   "src": "biblioteca/08_reumatologia/reuma-23/02_distribucion_pmr__commons.jpg",
+   "topic": "reuma-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Zonas de la polimialgia",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_puntos_fibromialgia__commons",
+   "src": "biblioteca/08_reumatologia/reuma-23/01_puntos_fibromialgia__commons.jpg",
+   "topic": "reuma-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Puntos sensibles",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_rx_fractura_cuello_femur__commons",
+   "src": "biblioteca/08_reumatologia/reuma-24/02_rx_fractura_cuello_femur__commons.jpg",
+   "topic": "reuma-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura de cuello femoral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_aplastamientos-vertebrales__amir-reum",
+   "src": "biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales__amir-reuma_p88.jpg",
+   "topic": "reuma-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Aplastamientos vertebrales",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_aplastamientos-vertebrales_alt1__cto-",
+   "src": "biblioteca/08_reumatologia/reuma-24/01_aplastamientos-vertebrales_alt1__cto-reuma_p14.jpg",
+   "topic": "reuma-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cifosis dorsal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

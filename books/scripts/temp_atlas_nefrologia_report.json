@@ -1,0 +1,196 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 26,
+  "where": {
+   "IMG-hidronefrosis-eco": 3,
+   "IMG-hidronefrosis-tc": 3,
+   "IMG-dismorficos": 4,
+   "IMG-cilindros": 4,
+   "IMG-exantema-farmaco": 5,
+   "IMG-leucocituria": 5,
+   "IMG-mielinolisis": 6,
+   "IMG-edema-fovea": 6,
+   "IMG-ecg-hiperk": 7,
+   "IMG-t-picudas-qrs": 8,
+   "IMG-onda-u": 9,
+   "IMG-edema-facial": 10,
+   "IMG-rojo-congo": 10,
+   "IMG-membranosa": 11,
+   "IMG-tira-orina": 11,
+   "IMG-cilindro-hematico": 12,
+   "IMG-semiluna": 12,
+   "IMG-anti-mbg": 13,
+   "IMG-hemorragia-alveolar": 13,
+   "IMG-nodulos-cavitados": 14,
+   "IMG-fistula-av": 14,
+   "IMG-kdigo": 15,
+   "IMG-calcifilaxis": 15,
+   "IMG-complicaciones-erc": 16,
+   "IMG-rugger-jersey": 16,
+   "IMG-angiotc-renal": 17,
+   "IMG-collar-perlas": 17,
+   "IMG-estenosis-ostial": 18,
+   "IMG-retinopatia-hta": 18,
+   "IMG-absceso-renal": 19,
+   "PAIRS": 20,
+   "SIGNS": 22,
+   "TYPES": 23,
+   "AUTO": 24,
+   "SOL": 26
+  }
+ },
+ "tomo": [
+  {
+   "id": "hidronefrosis-eco",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "hidronefrosis-tc",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "dismorficos",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "cilindros",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "exantema-farmaco",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "leucocituria",
+   "p": 11,
+   "exact": true
+  },
+  {
+   "id": "mielinolisis",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "ecg-hiperk",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "t-picudas-qrs",
+   "p": 35,
+   "exact": true
+  },
+  {
+   "id": "onda-u",
+   "p": 40,
+   "exact": true
+  },
+  {
+   "id": "edema-fovea",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "edema-facial",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "rojo-congo",
+   "p": 51,
+   "exact": true
+  },
+  {
+   "id": "membranosa",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "tira-orina",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "cilindro-hematico",
+   "p": 58,
+   "exact": true
+  },
+  {
+   "id": "semiluna",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "anti-mbg",
+   "p": 62,
+   "exact": true
+  },
+  {
+   "id": "hemorragia-alveolar",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "nodulos-cavitados",
+   "p": 61,
+   "exact": true
+  },
+  {
+   "id": "fistula-av",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "kdigo",
+   "p": 74,
+   "exact": true
+  },
+  {
+   "id": "calcifilaxis",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "complicaciones-erc",
+   "p": 78,
+   "exact": true
+  },
+  {
+   "id": "rugger-jersey",
+   "p": 78,
+   "exact": false
+  },
+  {
+   "id": "angiotc-renal",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "collar-perlas",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "estenosis-ostial",
+   "p": 82,
+   "exact": true
+  },
+  {
+   "id": "retinopatia-hta",
+   "p": 81,
+   "exact": false
+  },
+  {
+   "id": "absceso-renal",
+   "p": 89,
+   "exact": true
+  }
+ ]
+}

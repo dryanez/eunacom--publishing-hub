@@ -107,7 +107,7 @@ module.exports = {
       steps: [
         { show: ['ret'], note: 'Los reticulocitos miden la respuesta de la médula',
           say: 'Ahora la segunda pregunta, que es la que más ordena el diagnóstico: ¿la médula está respondiendo? Para saberlo miramos los reticulocitos, los glóbulos rojos recién salidos de la médula. Si hay anemia y la médula está sana, debería estar fabricando más. Mira esta tinción: los reticulocitos son los glóbulos rojos con puntos y filamentos azules en su interior.',
-          photo: { src: 'biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg', label: 'Reticulocitos teñidos', at: 'Mira esta tinción', credit: 'Harrison, Principios de Medicina Interna, Fig. 62-2' } },
+          photo: { src: 'biblioteca/06_hematologia/hem-01/02_reticulocitos_azul_metileno__harrison_p467.jpg', label: 'Frotis de sangre periférica normal (el recuento de reticulocitos requiere tinción supravital)', at: 'Mira esta tinción', credit: 'Harrison\'s Principles of Internal Medicine, 21.ª ed., p. 467' } },
         { show: ['cor'], note: 'El porcentaje crudo engaña en la anemia grave',
           say: 'El problema es que el porcentaje de reticulocitos engaña. Si hay pocos glóbulos rojos, cualquier cantidad de reticulocitos parece un porcentaje alto. Por eso se corrige: se multiplica el porcentaje por el hematocrito del paciente dividido por cuarenta y cinco, que es el hematocrito normal.' },
         { show: ['fac'], note: 'Hto 36 o más: 1 · 26–35: 1,5 · 16–25: 2 · menos de 15: 2,5',

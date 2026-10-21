@@ -1,0 +1,1719 @@
+{
+ "libro": "neurologia",
+ "title": "Neurología y Geriatría",
+ "prefix": "neuro",
+ "topics": {
+  "neuro-01": "Accidente Cerebrovascular Isquémico",
+  "neuro-02": "Ataque Isquémico Transitorio (AIT)",
+  "neuro-03": "Hemorragia Intracerebral Espontánea",
+  "neuro-04": "Hemorragia Subaracnoidea (HSA) Aneurismática",
+  "neuro-05": "Trombosis Venosa Cerebral",
+  "neuro-06": "Migraña (Fisiopatología, Criterios IHS, Triptanes y Profilaxis) y Cefalea Tensional",
+  "neuro-07": "Cefalea en Racimos (Cluster) y Neuralgia del Trigémino",
+  "neuro-08": "Epilepsia del Adulto",
+  "neuro-09": "Status Epiléptico Convulsivo",
+  "neuro-10": "Primera Crisis Convulsiva del Adulto y Diagnóstico Diferencial con Síncope",
+  "neuro-11": "Enfermedad de Parkinson",
+  "neuro-12": "Parkinsonismos Secundarios, Farmacológicos y Síndromes Parkinson-Plus",
+  "neuro-13": "Temblor Esencial vs Parkinsoniano y Distonías Agudas por Neurolépticos",
+  "neuro-14": "Enfermedad de Alzheimer y Deterioro Cognitivo Leve",
+  "neuro-15": "Demencia Vascular, Demencia por Cuerpos de Lewy y Demencia Frontotemporal",
+  "neuro-16": "Síndrome de Guillain-Barré",
+  "neuro-17": "Miastenia Gravis",
+  "neuro-18": "Esclerosis Múltiple",
+  "neuro-19": "Parálisis Facial Periférica (Bell) vs Central y Neuropatías por Atrapamiento",
+  "neuro-20": "Síndrome Vertiginoso Periférico vs Central",
+  "neuro-21": "Síndrome Confusional Agudo (Delirium)",
+  "neuro-22": "Fragilidad, Sarcopenia y Valoración Geriátrica Integral (VGI)",
+  "neuro-23": "Caídas en el Adulto Mayor, Trastornos de la Marcha y Fractura de Cadera GES",
+  "neuro-24": "Polifarmacia, Criterios de Beers / STOPP-START e Incontinencia Urinaria en la Persona Mayor",
+  "neuro-25": "Cardiovascular en el Adulto Mayor",
+  "neuro-26": "Cuidados Paliativos, Dolor Crónico y Final de Vida"
+ },
+ "refs": 73,
+ "images": [
+  {
+   "id": "01_signos-precoces-tc-acm-hiperdensa_1__",
+   "src": "biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_1__cto-radiologia_p62.jpg",
+   "topic": "neuro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Signos precoces",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_infartos-establecidos-por-territorio-",
+   "src": "biblioteca/09_neurologia/neuro-01/02_infartos-establecidos-por-territorio-tc__cto-radiologia_p63.jpg",
+   "topic": "neuro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "Infarto establecido",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_signos-precoces-tc-acm-hiperdensa_2__",
+   "src": "biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_2__cto-radiologia_p62.jpg",
+   "topic": "neuro-01",
+   "type": "clinica",
+   "size": "half",
+   "title": "AngioTC: oclusión de la arteria cerebral media (flecha)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "140_neuro_AIT__ctmri_path_p94_1",
+   "src": "_verificadas/140_neuro_AIT__ctmri_path_p94_1.jpg",
+   "topic": "neuro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM de difusión: infarto",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "334_neuro_AIT__KanskisCli_p562_1",
+   "src": "_verificadas/334_neuro_AIT__KanskisCli_p562_1.jpg",
+   "topic": "neuro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Émbolo de Hollenhorst",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_estenosis-carotidea-angiografia__cto-",
+   "src": "biblioteca/09_neurologia/neuro-02/01_estenosis-carotidea-angiografia__cto-neuro_p36.jpg",
+   "topic": "neuro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Estenosis carotídea",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "140_neuro_AIT__HarrisonsP_p3376_1",
+   "src": "_verificadas/140_neuro_AIT__HarrisonsP_p3376_1.jpg",
+   "topic": "neuro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM con difusión",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "141_neuro_AIT__27thBailey_p973_1",
+   "src": "_verificadas/141_neuro_AIT__27thBailey_p973_1.jpg",
+   "topic": "neuro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "Angiografía carotídea: carótida común (CC), interna (IC) y externa (EC)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "142_neuro_AIT__Commons_1",
+   "src": "_web/142_neuro_AIT__Commons_1.jpg",
+   "topic": "neuro-02",
+   "type": "clinica",
+   "size": "half",
+   "title": "ECG con fibrilación auricular: sin ondas P y R-R irregular",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hematoma-intraparenquimatoso-tc__cto-",
+   "src": "biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc__cto-neuro_p42.jpg",
+   "topic": "neuro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematoma profundo",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_hematoma-intraparenquimatoso-tc_alt1_",
+   "src": "biblioteca/09_neurologia/neuro-03/01_hematoma-intraparenquimatoso-tc_alt1__cto-radiologia_p67.jpg",
+   "topic": "neuro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Tálamo y ventrículos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "143_neuro_Hemorragia_intracerebral__ctmr",
+   "src": "_verificadas/143_neuro_Hemorragia_intracerebral__ctmri_path_p90_1.jpg",
+   "topic": "neuro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematoma lobar",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_hematoma_cerebeloso_tc__sherman_p142",
+   "src": "biblioteca/09_neurologia/neuro-03/02_hematoma_cerebeloso_tc__sherman_p142.jpg",
+   "topic": "neuro-03",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hematoma cerebeloso en TC",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_localizacion-de-aneurismas__cto-neuro",
+   "src": "biblioteca/09_neurologia/neuro-04/03_localizacion-de-aneurismas__cto-neuro_p43.jpg",
+   "topic": "neuro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Localización de aneurismas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "023_neuro_Hemorragia_subaracnoidea__Tall",
+   "src": "_verificadas/023_neuro_Hemorragia_subaracnoidea__Talley_p546.jpg",
+   "topic": "neuro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Parálisis del III par",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "335_neuro_Hemorragia_subaracnoidea__Kans",
+   "src": "_verificadas/335_neuro_Hemorragia_subaracnoidea__KanskisCli_p736_1.jpg",
+   "topic": "neuro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de Terson",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "145_neuro_Hemorragia_subaracnoidea__ctmr",
+   "src": "_verificadas/145_neuro_Hemorragia_subaracnoidea__ctmri_path_p75_1.jpg",
+   "topic": "neuro-04",
+   "type": "clinica",
+   "size": "half",
+   "title": "TC con hidrocefalia aguda",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_papiledema__cto-oftalmo_p88",
+   "src": "biblioteca/09_neurologia/neuro-05/02_papiledema__cto-oftalmo_p88.jpg",
+   "topic": "neuro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Papiledema",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_trombosis-de-seno-signo-delta_alt1__c",
+   "src": "biblioteca/09_neurologia/neuro-05/01_trombosis-de-seno-signo-delta_alt1__cto-radiologia_p64.jpg",
+   "topic": "neuro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Seno sagital trombosado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_tc_venografia_seno_sagital__ctmri_p10",
+   "src": "biblioteca/09_neurologia/neuro-05/03_tc_venografia_seno_sagital__ctmri_p100.jpg",
+   "topic": "neuro-05",
+   "type": "clinica",
+   "size": "half",
+   "title": "Defecto de relleno venoso",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_aura-fortificacion__propio",
+   "src": "biblioteca/09_neurologia/neuro-06/S1_aura-fortificacion__propio.svg",
+   "topic": "neuro-06",
+   "type": "clinica",
+   "size": "half",
+   "title": "Espectro de fortificación",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_sindrome_horner__kanski_p821",
+   "src": "biblioteca/09_neurologia/neuro-07/01_sindrome_horner__kanski_p821.jpg",
+   "topic": "neuro-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome de Horner",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_distribucion_sensitiva_trigemino__fit",
+   "src": "biblioteca/09_neurologia/neuro-07/02_distribucion_sensitiva_trigemino__fitzpatrick_p2330.jpg",
+   "topic": "neuro-07",
+   "type": "clinica",
+   "size": "half",
+   "title": "V1, V2 y V3",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_eeg-punta-onda-3-hz__cto-neuro_p73",
+   "src": "biblioteca/09_neurologia/neuro-08/01_eeg-punta-onda-3-hz__cto-neuro_p73.jpg",
+   "topic": "neuro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Crisis de ausencia: punta-onda generalizada a 3 Hz en el EEG",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_stevens-johnson-mucosas__fitzpatrick_",
+   "src": "biblioteca/09_neurologia/neuro-08/02_stevens-johnson-mucosas__fitzpatrick_p390.jpg",
+   "topic": "neuro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Stevens-Johnson en mucosas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "149_neuro_Epilepsia_y_fármacos__knoopepu",
+   "src": "_verificadas/149_neuro_Epilepsia_y_fármacos__knoopepub_p174_1.jpg",
+   "topic": "neuro-08",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hiperplasia gingival",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "337_neuro_Primera_crisis_vs_síncope__Com",
+   "src": "_web/337_neuro_Primera_crisis_vs_síncope__Commons_1.jpg",
+   "topic": "neuro-10",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mordedura lateral de lengua",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_micrografia__propio",
+   "src": "biblioteca/09_neurologia/neuro-11/S1_micrografia__propio.svg",
+   "topic": "neuro-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Micrografía",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_postura-parkinsoniana__cto-neuro_p54",
+   "src": "biblioteca/09_neurologia/neuro-11/01_postura-parkinsoniana__cto-neuro_p54.jpg",
+   "topic": "neuro-11",
+   "type": "clinica",
+   "size": "half",
+   "title": "Postura parkinsoniana",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "151_neuro_Parkinsonismos_atípicos__Commo",
+   "src": "_web/151_neuro_Parkinsonismos_atípicos__Commons_1.jpg",
+   "topic": "neuro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cruz caliente (protuberancia)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "152_neuro_Parkinsonismo_vascular_demenci",
+   "src": "_verificadas/152_neuro_Parkinsonismo_vascular_demenci__HarrisonsP_p234_1.jpg",
+   "topic": "neuro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "Leucoaraiosis e infartos",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "152_neuro_Parkinsonismo_vascular_demenci",
+   "src": "_verificadas/152_neuro_Parkinsonismo_vascular_demenci__ctmri_path_p104_1.jpg",
+   "topic": "neuro-12",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM FLAIR con leucoaraiosis e infartos lacunares múltiples",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_espiral_temblor_real__commons",
+   "src": "biblioteca/09_neurologia/neuro-13/02_espiral_temblor_real__commons.jpg",
+   "topic": "neuro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Espiral con temblor",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_espiral-arquimedes__propio",
+   "src": "biblioteca/09_neurologia/neuro-13/S1_espiral-arquimedes__propio.svg",
+   "topic": "neuro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Espiral de Arquímedes",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "153_neuro_Temblor_y_distonía_aguda__Open",
+   "src": "_web/153_neuro_Temblor_y_distonía_aguda__Open-i_1.jpg",
+   "topic": "neuro-13",
+   "type": "clinica",
+   "size": "half",
+   "title": "Crisis oculógira",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "024_neuro_Alzheimer_y_DCL__ctmri_path_p1",
+   "src": "_verificadas/024_neuro_Alzheimer_y_DCL__ctmri_path_p102_1.jpg",
+   "topic": "neuro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Atrofia hipocampal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_pet-fdg-alzheimer__cto-neuro_p29",
+   "src": "biblioteca/09_neurologia/neuro-14/01_pet-fdg-alzheimer__cto-neuro_p29.jpg",
+   "topic": "neuro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "PET en Alzheimer",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_test-del-reloj__propio",
+   "src": "biblioteca/09_neurologia/neuro-14/S1_test-del-reloj__propio.svg",
+   "topic": "neuro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Test del reloj",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "154_neuro_Alzheimer_y_DCL__HarrisonsP_p2",
+   "src": "_verificadas/154_neuro_Alzheimer_y_DCL__HarrisonsP_p235_1.jpg",
+   "topic": "neuro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hidrocefalia normotensiva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "154_neuro_Alzheimer_y_DCL__ctmri_path_p1",
+   "src": "_verificadas/154_neuro_Alzheimer_y_DCL__ctmri_path_p106_1.jpg",
+   "topic": "neuro-14",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hidrocefalia normotensiva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rm_demencia_frontotemporal__harrison_",
+   "src": "biblioteca/09_neurologia/neuro-15/01_rm_demencia_frontotemporal__harrison_p3420.jpg",
+   "topic": "neuro-15",
+   "type": "clinica",
+   "size": "half",
+   "title": "Demencia frontotemporal",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ptosis_miastenia_reversion__commons",
+   "src": "biblioteca/09_neurologia/neuro-17/01_ptosis_miastenia_reversion__commons.jpg",
+   "topic": "neuro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ptosis: antes y después",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_test_hielo_a_ptosis__kanski_p851",
+   "src": "biblioteca/09_neurologia/neuro-17/02_test_hielo_a_ptosis__kanski_p851.jpg",
+   "topic": "neuro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ptosis miasténica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_test_hielo_b_aplicacion__kanski_p851",
+   "src": "biblioteca/09_neurologia/neuro-17/03_test_hielo_b_aplicacion__kanski_p851.jpg",
+   "topic": "neuro-17",
+   "type": "clinica",
+   "size": "half",
+   "title": "Hielo sobre el párpado",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_linterna-oscilante-dpar__kanski_p820",
+   "src": "biblioteca/09_neurologia/neuro-18/03_linterna-oscilante-dpar__kanski_p820.jpg",
+   "topic": "neuro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Defecto pupilar aferente",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_neuritis-optica-rm_1__cto-radiologia_",
+   "src": "biblioteca/09_neurologia/neuro-18/02_neuritis-optica-rm_1__cto-radiologia_p74.jpg",
+   "topic": "neuro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neuritis óptica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "155_neuro_Esclerosis_múltiple__KanskisCl",
+   "src": "_verificadas/155_neuro_Esclerosis_múltiple__KanskisCli_p843_1.jpg",
+   "topic": "neuro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Oftalmoplejía internuclear",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "156_neuro_Esclerosis_múltiple__Harrisons",
+   "src": "_verificadas/156_neuro_Esclerosis_múltiple__HarrisonsP_p3519_1.jpg",
+   "topic": "neuro-18",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neuromielitis óptica: mielitis longitudinalmente extensa en la RM",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_paralisis-facial-periferica-bell_alt1",
+   "src": "biblioteca/09_neurologia/neuro-19/01_paralisis-facial-periferica-bell_alt1__cto-orl_p45.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Parálisis facial periférica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_central-vs-periferica__cto-neuro_p14",
+   "src": "biblioteca/09_neurologia/neuro-19/02_central-vs-periferica__cto-neuro_p14.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Central vs periférica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_vesiculas-en-concha-ramsay-hunt__bail",
+   "src": "biblioteca/09_neurologia/neuro-19/03_vesiculas-en-concha-ramsay-hunt__bailey-love_p736.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Ramsay Hunt: vesículas",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "025_neuro_Parálisis_facial_y_atrapamient",
+   "src": "_verificadas/025_neuro_Parálisis_facial_y_atrapamient__Talley_p407.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Síndrome del túnel carpiano",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "157_neuro_Parálisis_facial_y_atrapamient",
+   "src": "_verificadas/157_neuro_Parálisis_facial_y_atrapamient__27thBailey_p467_1.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Neuropatía cubital",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "04_atrofia_intrinsecos_neuropatia_cubita",
+   "src": "biblioteca/09_neurologia/neuro-19/04_atrofia_intrinsecos_neuropatia_cubital__bailey_p523.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Atrofia de los músculos intrínsecos de la mano por neuropatía cubital",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "05_mano_caida_radial__acd_p192",
+   "src": "biblioteca/09_neurologia/neuro-19/05_mano_caida_radial__acd_p192.jpg",
+   "topic": "neuro-19",
+   "type": "clinica",
+   "size": "half",
+   "title": "Mano caída por lesión del nervio radial",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "159_neuro_Vértigo__Open-i_2",
+   "src": "_web/159_neuro_Vértigo__Open-i_2.jpg",
+   "topic": "neuro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Registro impulso cefálico",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_dix_hallpike__usuario",
+   "src": "biblioteca/09_neurologia/neuro-20/02_dix_hallpike__usuario.jpg",
+   "topic": "neuro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Maniobra de Dix-Hallpike",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_maniobra_epley__harrison_p202",
+   "src": "biblioteca/09_neurologia/neuro-20/01_maniobra_epley__harrison_p202.jpg",
+   "topic": "neuro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "Maniobra de Epley",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_atrofia_cerebelosa_sca1_rm__harrison_",
+   "src": "biblioteca/09_neurologia/neuro-20/03_atrofia_cerebelosa_sca1_rm__harrison_p3465.jpg",
+   "topic": "neuro-20",
+   "type": "clinica",
+   "size": "half",
+   "title": "RM sagital con atrofia cerebelosa en una ataxia espinocerebelosa tipo 1 (SCA1)",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_sitios_ulceras_por_presion__fitzpatri",
+   "src": "biblioteca/09_neurologia/neuro-22/02_sitios_ulceras_por_presion__fitzpatrick_p918.jpg",
+   "topic": "neuro-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Sitios frecuentes",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_ulcera_por_presion_sacra__bailey_p50",
+   "src": "biblioteca/09_neurologia/neuro-22/01_ulcera_por_presion_sacra__bailey_p50.jpg",
+   "topic": "neuro-22",
+   "type": "clinica",
+   "size": "half",
+   "title": "Escara sacra necrótica",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_rx_fractura_cuello_femur__commons",
+   "src": "biblioteca/09_neurologia/neuro-23/01_rx_fractura_cuello_femur__commons.jpg",
+   "topic": "neuro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Fractura de cuello femoral",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fracturas-subcapitales-garden_1__cto-",
+   "src": "biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_1__cto-trauma_p25.jpg",
+   "topic": "neuro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Clasificación de Garden",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_fracturas-subcapitales-garden_2__cto-",
+   "src": "biblioteca/09_neurologia/neuro-23/01_fracturas-subcapitales-garden_2__cto-trauma_p25.jpg",
+   "topic": "neuro-23",
+   "type": "clinica",
+   "size": "half",
+   "title": "Subcapital desplazada",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "S1_cascada-prescripcion__propio",
+   "src": "biblioteca/09_neurologia/neuro-24/S1_cascada-prescripcion__propio.svg",
+   "topic": "neuro-24",
+   "type": "clinica",
+   "size": "half",
+   "title": "Cascada de prescripción",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_retinopatia_hipertensiva__harrison_p2",
+   "src": "biblioteca/09_neurologia/neuro-25/01_retinopatia_hipertensiva__harrison_p263.jpg",
+   "topic": "neuro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "Retinopatía hipertensiva",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_ecg-iam-anterior-sdst__ecg_p188",
+   "src": "biblioteca/09_neurologia/neuro-25/02_ecg-iam-anterior-sdst__ecg_p188.jpg",
+   "topic": "neuro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "IAM anterior con SDST",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "03_ecg-iam-inferior-sdst__ecg_p179",
+   "src": "biblioteca/09_neurologia/neuro-25/03_ecg-iam-inferior-sdst__ecg_p179.jpg",
+   "topic": "neuro-25",
+   "type": "clinica",
+   "size": "half",
+   "title": "IAM inferior con SDST",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "01_gammagrafia-metastasis-oseas__bailey-",
+   "src": "biblioteca/09_neurologia/neuro-26/01_gammagrafia-metastasis-oseas__bailey-love_p1414.jpg",
+   "topic": "neuro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Metástasis óseas múltiples",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  },
+  {
+   "id": "02_compresion-medular-rm__harrison_p3489",
+   "src": "biblioteca/09_neurologia/neuro-26/02_compresion-medular-rm__harrison_p3489.jpg",
+   "topic": "neuro-26",
+   "type": "clinica",
+   "size": "half",
+   "title": "Compresión medular epidural",
+   "frase": "",
+   "claves": [
+    {
+     "t": "",
+     "m": [
+      0.5,
+      0.5,
+      0.08
+     ]
+    }
+   ],
+   "conducta": "",
+   "codes": [],
+   "confunde": "",
+   "q": null,
+   "auto": false
+  }
+ ],
+ "pairs": [],
+ "signos": [],
+ "discarded": []
+}

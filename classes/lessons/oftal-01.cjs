@@ -93,7 +93,7 @@ module.exports = {
           say: 'El glaucoma agudo de ángulo cerrado da una cefalea hemicraneana brutal, náuseas, vómitos, halos de colores, pupila en midriasis media fija, y el ojo se siente pétreo a la palpación. La presión suele pasar de cincuenta.' },
         { show: ['uve'], note: 'Miosis, fotofobia consensual, Tyndall',
           say: 'La uveítis anterior aguda, en cambio, da dolor moderado, fotofobia consensual muy intensa y una pupila en miosis que responde poco. En la lámpara de hendidura se ven células flotando en la cámara anterior, el fenómeno de Tyndall. Fíjate en el contraste con el glaucoma: una pupila achica, la otra dilata. En estos ojos del atlas ves la inyección ciliar de la uveítis y la pupila alterada.',
-          photo: { src: '_verificadas/076_oftal_Ojo_rojo_profundo__AtlasClinDx_p109.jpg', label: 'Uveítis anterior aguda', at: 'En estos ojos del atlas', credit: 'Atlas of Clinical Diagnosis, p. 109' } },
+          photo: { src: '_verificadas/076_oftal_Ojo_rojo_profundo__AtlasClinDx_p109.jpg', label: 'Uveítis anterior aguda: inyección ciliar e hipopion', at: 'En estos ojos del atlas', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 409' } },
         { show: ['que'], note: 'Dolor punzante y tinción positiva',
           say: 'La queratitis y la úlcera corneal dan dolor punzante, blefarospasmo y fotofobia severa, con la córnea que se tiñe con fluoresceína.' },
         { show: ['end'], note: 'Máxima urgencia quirúrgica',

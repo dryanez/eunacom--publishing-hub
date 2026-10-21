@@ -141,7 +141,7 @@ module.exports = {
         { title: 'Cómo se confirma', tag: 'Imágenes', kind: 'criteria', items: [
           { t: 'Radiografía lateral de cuello', d: 'En inspiración e hiperextensión',
             say: 'La radiografía lateral de cuello, tomada en inspiración e hiperextensión, muestra el ensanchamiento del espacio prevertebral, y a veces aire o un nivel hidroaéreo. Mira esta radiografía lateral: el espacio prevertebral ensanchado, y al lado, el escáner con la colección.',
-            photo: { src: 'biblioteca/17_otorrino/orl-14/03_absceso-retrofaringeo-rx-tc__sherman_p261.jpg', label: 'Rx y TC: prevertebral ancho', at: 'Mira esta radiografía lateral', credit: 'Atlas of Clinical Emergency Medicine (Sherman), p. 261' } },
+            photo: { src: 'biblioteca/17_otorrino/orl-14/03_absceso-retrofaringeo-rx-tc__sherman_p261.jpg', label: 'Absceso retrofaríngeo: ensanchamiento del espacio prevertebral en la Rx lateral', at: 'Mira esta radiografía lateral', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3217' } },
           { t: 'Prevertebral muy ancho', d: 'Más de un cuerpo en C2; el doble en C6',
             say: 'Se considera patológico si el espacio supera el ancho de un cuerpo vertebral a nivel de C dos, o el doble de un cuerpo vertebral a nivel de C seis. Se pierde además la lordosis cervical.' },
           { t: 'TAC de cuello con contraste', d: 'Es el examen definitivo',
@@ -186,7 +186,7 @@ module.exports = {
         { title: 'Absceso parafaríngeo', tag: 'Espacio lateral', kind: 'alert', items: [
           { t: 'Trismus y masa bajo la mandíbula', d: 'Pared faríngea desplazada hacia medial',
             say: 'El absceso parafaríngeo afecta el espacio lateral de la faringe. Da trismo severo, desplaza la pared lateral de la faringe y la amígdala hacia la línea media, sin que la amígdala esté primariamente inflamada, y produce un abultamiento doloroso en el ángulo de la mandíbula. Mira este escáner con contraste: la colección con realce periférico en el espacio parafaríngeo.',
-            photo: { src: 'biblioteca/17_otorrino/orl-14/04_absceso-parafaringeo-tc__nelson_p3217.jpg', label: 'TC: absceso parafaríngeo', at: 'Mira este escáner', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3217' } },
+            photo: { src: 'biblioteca/17_otorrino/orl-14/04_absceso-parafaringeo-tc__nelson_p3217.jpg', label: 'Absceso retrofaríngeo en la TAC (sagital y axial)', at: 'Mira este escáner', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3217' } },
           { t: 'Erosión carotídea y Lemierre', d: 'Trombosis de la yugular por Fusobacterium',
             say: 'Sus grandes peligros son la erosión de la arteria carótida interna y el síndrome de Lemierre, que es una tromboflebitis séptica de la vena yugular interna por Fusobacterium necrophorum.' },
         ] },

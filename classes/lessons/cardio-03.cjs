@@ -75,7 +75,7 @@ module.exports = {
         { title: 'Descargas y RCP', tag: 'Cada dos minutos', kind: 'key', items: [
           { t: 'Descarga 200 J y RCP 2 minutos', d: 'Sin chequear pulso ni ritmo',
             say: 'Descargas con doscientos joules bifásicos, o trescientos sesenta si el equipo es monofásico, y de inmediato reanudas las compresiones por dos minutos. No palpas el pulso ni miras el monitor justo después del choque: el corazón recién desfibrilado necesita compresiones para recuperar su gasto. Esto cae casi todos los años.',
-            photo: { src: 'biblioteca/20_cardiologia/cardio-03/02_fv-terminada-por-descarga-dai__stroobandt-ecg_p309.jpg', label: 'Una descarga termina la FV', at: 'Esto cae casi todos los años', credit: STRO(309) } },
+            photo: { src: 'biblioteca/20_cardiologia/cardio-03/02_fv-terminada-por-descarga-dai__stroobandt-ecg_p309.jpg', label: 'TV que degenera en FV (registro de un DAI)', at: 'Esto cae casi todos los años', credit: STRO(309) } },
           { t: 'Persiste: 2.ª descarga + adrenalina 1 mg', d: 'Repetir cada 3-5 minutos',
             say: 'A los dos minutos reevalúas. Si persiste la fibrilación, segunda descarga, compresiones y adrenalina un miligramo endovenoso, que se repite cada tres a cinco minutos.' },
         ] },

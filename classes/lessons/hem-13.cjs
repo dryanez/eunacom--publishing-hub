@@ -121,7 +121,7 @@ module.exports = {
         { title: 'Hematoma del psoas', tag: 'Engaña', kind: 'alert', items: [
           { t: 'Dolor lumbar o en fosa ilíaca', d: 'Con cadera en flexión',
             say: 'Además de las hemartrosis, hay hematomas musculares profundos que pueden ser graves. El clásico es el hematoma del psoas ilíaco: dolor lumbar o en la fosa ilíaca, con la cadera flectada por reflejo. Mira esta tomografía: el hematoma del psoas, un sangrado profundo sin herida visible.',
-            photo: { src: 'biblioteca/06_hematologia/hem-13/02_hematoma_psoas_tc__nelson_p3858.jpg', label: 'Hematoma del psoas', at: 'Mira esta tomografía', credit: 'Nelson Textbook of Pediatrics, 22nd ed., p. 3858' } },
+            photo: { src: 'biblioteca/06_hematologia/hem-13/02_hematoma_psoas_tc__nelson_p3858.jpg', label: 'Hematoma del psoas derecho en la TAC (hemofilia B)', at: 'Mira esta tomografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3858' } },
           { t: 'Parestesias del nervio femoral', d: 'Por compresión',
             say: 'Y puede comprimir el nervio femoral, dando parestesias en el muslo. En un hemofílico con dolor en la fosa ilíaca, piensa en esto antes que en una apendicitis.' },
         ] },

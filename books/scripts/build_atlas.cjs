@@ -58,7 +58,8 @@ const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g,
 const norm = t => strip(t).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[«»"“”]/g, '').replace(/\s+/g, ' ');
 const CN = n => String(n).padStart(2, '0');
 const LV_SHORT = v => { const s = String(v || '—'); return /espec/i.test(s) ? 'Específico' : /sosp/i.test(s) ? 'Sospecha' : /compl/i.test(s) ? 'Completo' : /inic/i.test(s) ? 'Inicial' : /deriv/i.test(s) ? 'Derivar' : /no req/i.test(s) ? 'No requiere' : s; };
-const TYPES = { clinica: 'Foto clínica', dermatoscopia: 'Dermatoscopía', histologia: 'Histología / citología', esquema: 'Esquema', imagen: 'Imagen radiológica', otra: 'Otra (agente o vector)' };
+const TYPES = { clinica: 'Foto clínica', dermatoscopia: 'Dermatoscopía', histologia: 'Histología / citología', esquema: 'Esquema', imagen: 'Imagen radiológica', otra: 'Otra (agente o vector)',
+  ecg: 'Trazado (ECG / registro)', eco: 'Ecografía', endoscopia: 'Endoscopía', fondo: 'Fondo de ojo', pieza: 'Pieza anatómica' };
 const ABBR = s => s.replace(/^EUNACOM\s+/, '').replace(/Pregunta\s+/, 'P');
 
 function qrSvg(url) {
@@ -142,7 +143,7 @@ function prepare(key, spec) {
     const q = im.q ? realByTag[im.q] : null;
     const codes = (im.codes || []).map(k => { const m = CODEMAP[k] || {}; return { code: k, name: m.name || '', dx: m.dx && LV_SHORT(m.dx), tx: m.tx && LV_SHORT(m.tx), seg: m.seg && LV_SHORT(m.seg) }; });
     return {
-      ...im, num: i + 1, anchor: `IMG-${im.id}`, label: c.topicLabel || '', topicTitle: A.topics[im.topic] || strip(c.title),
+      ...im, libro: key, num: i + 1, anchor: `IMG-${im.id}`, label: c.topicLabel || '', topicTitle: A.topics[im.topic] || strip(c.title),
       block: c.blockNum, blockName: c.blockName, credit: creditFor(im.src, LIDX), tomo: tp, codeInfo: codes,
       real: q ? { tag: q.recTag, stem: strip(q.stem), ans: strip(((q.options || []).find(o => o.id === q.correcta) || {}).text).replace(/(\D)2(c|ca|s)/g, '$1ti$2') } : null,
       url: CLASS_URL ? CLASS_URL(im.topic) : FALLBACK_URL(A.prefix, im.topic),
@@ -197,7 +198,7 @@ const pnum = () => `<div class="pnum"></div>`;
 const lv = (k, v) => { const c = { 'Específico': 'sol', 'Sospecha': 'out', 'Completo': 'ok', 'Inicial': 'mid', 'Derivar': 'low', 'No requiere': 'nil' }[v] || 'nil'; return `<span class="lv lv-${c}"><i>${k}</i>${esc(v || '—')}</span>`; };
 const chips = im => im.codeInfo.length
   ? im.codeInfo.map(ci => `<div class="chip"><span class="chip-c">${ci.code}</span><span class="chip-n">${esc(ci.name)}</span>${ci.dx || ci.tx || ci.seg ? `<span class="chip-l">${lv('Dx', ci.dx)}${lv('Tx', ci.tx)}${lv('Seg', ci.seg)}</span>` : '<span class="chip-l"><span class="lv lv-nil">examen/procedimiento</span></span>'}</div>`).join('')
-  : `<div class="chip chip-none"><span class="chip-n">Lesión elemental: sin código propio · ver códigos del tema ${esc(im.label)}</span></div>`;
+  : `<div class="chip chip-none"><span class="chip-n">${im.libro === 'dermatologia' ? 'Lesión elemental: sin' : 'Sin'} código propio · ver códigos del tema ${esc(im.label)}</span></div>`;
 
 function textBlocks(im) {
   const claves = im.claves.map((c, i) => `<li class="${c.m ? '' : 'nm'}"><span class="kb">${c.m ? i + 1 : '•'}</span><span>${esc(c.t)}</span></li>`).join('');
@@ -278,7 +279,8 @@ function coverPage(x) {
 }
 
 function indexPages(x) {
-  const ends = [['PAIRS', 'Parecidas pero distintas'], ['SIGNS', 'Signos con nombre propio'], ['TYPES', 'Índice por tipo de imagen'], ['AUTO', 'Autoevaluación'], ['SOL', 'Soluciones de la autoevaluación']];
+  const ends = [['PAIRS', 'Parecidas pero distintas'], ['SIGNS', 'Signos con nombre propio'], ['TYPES', 'Índice por tipo de imagen'], ['AUTO', 'Autoevaluación'], ['SOL', 'Soluciones de la autoevaluación']]
+    .filter(([id]) => !(id === 'PAIRS' && !x.pairs.length) && !(id === 'SIGNS' && !x.signos.length));
   const topics = []; x.imgs.forEach(im => { let t = topics.find(t => t.topic === im.topic); if (!t) topics.push(t = { topic: im.topic, label: im.label, title: im.topicTitle, block: im.block, blockName: im.blockName, ims: [] }); t.ims.push(im); });
   const lines = t => 1.6 + t.ims.length; // líneas estimadas
   const items = []; let lastBlock = null;
@@ -326,10 +328,11 @@ function signsPages(x) {
 }
 
 function typesPage(x) {
-  const groups = Object.keys(TYPES).map(k => ({ k, ims: x.imgs.filter(i => i.type === k) }));
+  const keys = x.A.types || Object.keys(TYPES).filter(k => x.imgs.some(i => i.type === k));   // derma fija su lista; el resto, los tipos presentes
+  const groups = keys.map(k => ({ k, ims: x.imgs.filter(i => i.type === k) }));
   return `<section class="page flow" data-id="TYPES">${gbar(x, 'Índice por tipo de imagen')}<div class="pbody">
     <div class="pg-lead slim"><h2>Índice por tipo de imagen</h2><div class="rule"></div></div>
-    <div class="ty-sum">${groups.map(g => `<div class="ty-box ty-${g.k}"><span class="n">${g.ims.length}</span><span class="t">${esc(TYPES[g.k])}</span></div>`).join('')}</div>
+    <div class="ty-sum" style="grid-template-columns:repeat(${Math.min(groups.length, 6)},1fr)">${groups.map(g => `<div class="ty-box ty-${g.k}"><span class="n">${g.ims.length}</span><span class="t">${esc(TYPES[g.k])}</span></div>`).join('')}</div>
     <div class="ix-cols ty-cols" style="column-count:3;column-gap:16px">${groups.map(g => `<div class="ix-t"><div class="ix-th"><b>${esc(TYPES[g.k])}</b> · ${g.ims.length}</div>${g.ims.length ? g.ims.map(im => `<div class="ix-i"><span class="ix-n">${CN(im.num)}</span><span class="ix-tt">${esc(im.title)} <i>(${esc(im.label)})</i></span><span class="ix-d"></span><span class="ix-p" data-ref="${im.anchor}"></span></div>`).join('')
       : `<div class="ix-none">${g.k === 'dermatoscopia' && x.dermPage ? `Sin imágenes de dermatoscopía en las fuentes de este tomo; los patrones se describen en el Tomo, p. ${x.dermPage}.` : 'Sin imágenes de este tipo en las fuentes.'}</div>`}</div>`).join('')}</div>
   </div>${pnum()}</section>`;
@@ -438,6 +441,7 @@ body{width:210mm;overflow-x:hidden;font-family:'IBM Plex Sans',system-ui,sans-se
 .ch-m{flex:1;min-width:0}.ch-e{font:700 9.5px/1.2 'IBM Plex Sans',sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--acc-dp)}
 .ty{font:700 8.5px/1 'IBM Plex Sans',sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;border-radius:2px;background:#fff;color:#334155;border:1px solid #cbd5e1;flex:none}
 .ty-histologia{background:#eef2ff;color:#3730a3;border-color:#c7d2fe}.ty-esquema{background:#fefce8;color:#854d0e;border-color:#fde68a}.ty-otra{background:#f0fdf4;color:#166534;border-color:#bbf7d0}
+.ty-imagen{background:#f1f5f9;color:#1e293b;border-color:#cbd5e1}.ty-ecg{background:#fff1f2;color:#9f1239;border-color:#fecdd3}.ty-eco{background:#ecfeff;color:#155e75;border-color:#a5f3fc}.ty-endoscopia{background:#fdf4ff;color:#86198f;border-color:#f5d0fe}.ty-fondo{background:#fff7ed;color:#9a3412;border-color:#fed7aa}.ty-pieza{background:#fef2f2;color:#991b1b;border-color:#fecaca}
 .hbody{flex:1;display:flex;gap:14px;padding:10px 12px 6px;min-height:0}
 .himg{flex:none;width:410px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
 .htext{flex:1;min-width:0;display:flex;flex-direction:column;gap:7px;overflow:hidden;justify-content:center}
@@ -605,19 +609,25 @@ function draft(key, spec) {
   const data = applyV3(key, spec.dataset());
   const prefix = String((data.find(c => c.classId) || {}).classId || key).split('-')[0];
   const LIDX = lessonPhotoIndex(prefix);
-  const seen = new Map(); const add = (src, topic, label) => {
-    const f = path.join(MEDIA, src); if (!fs.existsSync(f) || /\.(mp4|webm|mov)$/i.test(src)) return;
+  const seen = new Map(); let refs = 0; const add = (src, topic, label) => {
+    refs++; const f = path.join(MEDIA, src); if (!fs.existsSync(f) || /\.(mp4|webm|mov)$/i.test(src)) return;
     const h = crypto.createHash('md5').update(fs.readFileSync(f)).digest('hex'); if (seen.has(h)) return;
     seen.set(h, { id: path.basename(src).replace(/\.[a-z]+$/i, '').slice(0, 40), src, topic, type: 'clinica', size: 'half', title: label || '', frase: '', claves: [{ t: '', m: [0.5, 0.5, 0.08] }], conducta: '', codes: [], confunde: '', q: null, auto: false });
   };
-  Object.entries(LIDX).forEach(([src, v]) => add(src, v.classId, v.label));
-  ATLAS392.filter(a => a.clases.some(c => c.startsWith(prefix + '-'))).forEach(a => add(a.file, a.clases.find(c => c.startsWith(prefix + '-')), a.cap));
-  const bib = path.join(MEDIA, 'biblioteca');
-  if (fs.existsSync(bib)) for (const d of fs.readdirSync(bib)) for (const c of fs.readdirSync(path.join(bib, d)).filter(c => c.startsWith(prefix + '-'))) for (const f of fs.readdirSync(path.join(bib, d, c))) add(`biblioteca/${d}/${c}/${f}`, c, '');
+  // solo las fotos que imprime el tomo: figuras del tema + fotos en el texto (mismo cálculo que build_book.cjs)
+  const { autoFigSpec, mergeAtlas } = require('./figspec_clases.cjs');
+  const fs_ = mergeAtlas(data, autoFigSpec(data, spec.figSpec || {}));
+  for (const c of data) {
+    const cid = c.classId || c.id;
+    for (const key of [c.topicLabel, '@atlas:' + c.topicLabel]) for (const it of ((fs_[key] || {}).items || [])) {
+      const abs = it.path || path.join(BOOKS, 'figuras', it.file);
+      add(path.relative(MEDIA, abs), cid, it.cap || '');
+    }
+  }
   const topics = Object.fromEntries(data.filter(c => c.classId).map(c => [c.classId, strip(c.title).split(':')[0]]));
   const out = path.join(BOOKS, 'data', 'atlas', `${key}.draft.json`);
   fs.mkdirSync(path.dirname(out), { recursive: true });
-  fs.writeFileSync(out, JSON.stringify({ libro: key, title: spec.title, prefix, topics, images: [...seen.values()], pairs: [], signos: [], discarded: [] }, null, 1));
+  fs.writeFileSync(out, JSON.stringify({ libro: key, title: spec.title, prefix, topics, refs, images: [...seen.values()], pairs: [], signos: [], discarded: [] }, null, 1));
   console.log(`  ✓ borrador: ${path.relative(REPO, out)} · ${seen.size} imágenes únicas (sin texto ni marcadores: hay que mirarlas y completarlo)`);
 }
 

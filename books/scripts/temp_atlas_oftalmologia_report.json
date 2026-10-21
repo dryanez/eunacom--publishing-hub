@@ -1,0 +1,358 @@
+{
+ "report": {
+  "warnings": [],
+  "shrunk": [],
+  "pages": 39,
+  "where": {
+   "IMG-inyeccion-conjuntival": 4,
+   "IMG-ciliar-hipopion": 4,
+   "IMG-uveitis-anterior": 5,
+   "IMG-hiposfagma": 5,
+   "IMG-endoftalmitis": 6,
+   "IMG-pterigion": 6,
+   "IMG-conjuntivitis-bacteriana": 7,
+   "IMG-oftalmia-neonatal": 7,
+   "IMG-orzuelo": 8,
+   "IMG-chalazion": 8,
+   "IMG-blefaritis": 9,
+   "IMG-basocelular-parpado": 9,
+   "IMG-papiloma-conjuntival": 10,
+   "IMG-dendritica": 10,
+   "IMG-dendritas-fluoresceina": 11,
+   "IMG-queratitis-bacteriana": 11,
+   "IMG-epiescleritis": 12,
+   "IMG-escleritis": 12,
+   "IMG-escleromalacia": 13,
+   "IMG-glaucoma-agudo": 13,
+   "IMG-glaucoma-midriasis": 14,
+   "IMG-campo-glaucoma": 14,
+   "IMG-papila-glaucomatosa": 15,
+   "IMG-oct": 15,
+   "IMG-buftalmos": 16,
+   "IMG-catarata-cortical": 16,
+   "IMG-catarata-madura": 17,
+   "IMG-leucocoria": 17,
+   "IMG-refraccion": 18,
+   "IMG-esotropia": 18,
+   "IMG-hirschberg": 19,
+   "IMG-hemangioma-palpebral": 19,
+   "IMG-desgarro-herradura": 20,
+   "IMG-desprendimiento": 20,
+   "IMG-fondo-desprendimiento": 21,
+   "IMG-rojo-cereza": 21,
+   "IMG-hemorragias-llama": 22,
+   "IMG-oclusion-venosa": 22,
+   "IMG-rd-exudados": 23,
+   "IMG-neovasos-papila": 23,
+   "IMG-hemorragia-vitrea": 24,
+   "IMG-hilo-cobre": 24,
+   "IMG-retinopatia-hta": 25,
+   "IMG-drusas": 25,
+   "IMG-dmae-humeda": 26,
+   "IMG-amsler": 26,
+   "IMG-pupila-gota": 27,
+   "IMG-hipema": 27,
+   "IMG-fractura-piso": 28,
+   "IMG-quemadura-quimica": 28,
+   "IMG-preseptal": 29,
+   "IMG-dacriocistitis": 29,
+   "IMG-celulitis-orbitaria": 30,
+   "IMG-marcus-gunn": 30,
+   "IMG-marcus-gunn-foto": 31,
+   "IMG-adie": 31,
+   "IMG-neuritis-rm": 32,
+   "PAIRS": 33,
+   "SIGNS": 35,
+   "TYPES": 36,
+   "AUTO": 37,
+   "SOL": 39
+  }
+ },
+ "tomo": [
+  {
+   "id": "inyeccion-conjuntival",
+   "p": 6,
+   "exact": true
+  },
+  {
+   "id": "ciliar-hipopion",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "uveitis-anterior",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "hiposfagma",
+   "p": 8,
+   "exact": true
+  },
+  {
+   "id": "endoftalmitis",
+   "p": 7,
+   "exact": true
+  },
+  {
+   "id": "pterigion",
+   "p": 9,
+   "exact": true
+  },
+  {
+   "id": "conjuntivitis-bacteriana",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "oftalmia-neonatal",
+   "p": 12,
+   "exact": true
+  },
+  {
+   "id": "orzuelo",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "chalazion",
+   "p": 17,
+   "exact": true
+  },
+  {
+   "id": "blefaritis",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "basocelular-parpado",
+   "p": 16,
+   "exact": false
+  },
+  {
+   "id": "papiloma-conjuntival",
+   "p": 16,
+   "exact": true
+  },
+  {
+   "id": "dendritica",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "dendritas-fluoresceina",
+   "p": 21,
+   "exact": true
+  },
+  {
+   "id": "queratitis-bacteriana",
+   "p": 21,
+   "exact": false
+  },
+  {
+   "id": "epiescleritis",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "escleritis",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "escleromalacia",
+   "p": 25,
+   "exact": true
+  },
+  {
+   "id": "glaucoma-agudo",
+   "p": 32,
+   "exact": true
+  },
+  {
+   "id": "glaucoma-midriasis",
+   "p": 33,
+   "exact": true
+  },
+  {
+   "id": "campo-glaucoma",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "papila-glaucomatosa",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "oct",
+   "p": 39,
+   "exact": true
+  },
+  {
+   "id": "buftalmos",
+   "p": 38,
+   "exact": false
+  },
+  {
+   "id": "catarata-cortical",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "catarata-madura",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "leucocoria",
+   "p": 43,
+   "exact": true
+  },
+  {
+   "id": "refraccion",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "esotropia",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "hirschberg",
+   "p": 48,
+   "exact": true
+  },
+  {
+   "id": "hemangioma-palpebral",
+   "p": 47,
+   "exact": true
+  },
+  {
+   "id": "desgarro-herradura",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "desprendimiento",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "fondo-desprendimiento",
+   "p": 55,
+   "exact": true
+  },
+  {
+   "id": "rojo-cereza",
+   "p": 60,
+   "exact": true
+  },
+  {
+   "id": "hemorragias-llama",
+   "p": 60,
+   "exact": true
+  },
+  {
+   "id": "oclusion-venosa",
+   "p": 60,
+   "exact": true
+  },
+  {
+   "id": "rd-exudados",
+   "p": 64,
+   "exact": true
+  },
+  {
+   "id": "neovasos-papila",
+   "p": 64,
+   "exact": true
+  },
+  {
+   "id": "hemorragia-vitrea",
+   "p": 63,
+   "exact": true
+  },
+  {
+   "id": "hilo-cobre",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "retinopatia-hta",
+   "p": 69,
+   "exact": true
+  },
+  {
+   "id": "drusas",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "dmae-humeda",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "amsler",
+   "p": 73,
+   "exact": true
+  },
+  {
+   "id": "pupila-gota",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "hipema",
+   "p": 80,
+   "exact": true
+  },
+  {
+   "id": "fractura-piso",
+   "p": 81,
+   "exact": true
+  },
+  {
+   "id": "quemadura-quimica",
+   "p": 87,
+   "exact": false
+  },
+  {
+   "id": "preseptal",
+   "p": 89,
+   "exact": true
+  },
+  {
+   "id": "dacriocistitis",
+   "p": 89,
+   "exact": true
+  },
+  {
+   "id": "celulitis-orbitaria",
+   "p": 90,
+   "exact": true
+  },
+  {
+   "id": "marcus-gunn",
+   "p": 96,
+   "exact": true
+  },
+  {
+   "id": "marcus-gunn-foto",
+   "p": 96,
+   "exact": true
+  },
+  {
+   "id": "adie",
+   "p": 96,
+   "exact": true
+  },
+  {
+   "id": "neuritis-rm",
+   "p": 95,
+   "exact": false
+  }
+ ]
+}

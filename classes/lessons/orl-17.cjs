@@ -38,7 +38,7 @@ module.exports = {
           say: 'El croup es una laringotraqueítis viral. El agente más frecuente, en más de tres cuartos de los casos, es el virus parainfluenza tipo uno, y el edema se concentra en la región subglótica. Piensa en el anillo del cricoides: es cartílago completo y no se expande. Cuando la mucosa se hincha, solo puede hacerlo hacia adentro, y se cierra el paso del aire.' },
         { show: ['ob'], note: 'En el lactante, un poco de edema obstruye mucho',
           say: 'En un lactante, la vía aérea ya es muy angosta. Un milímetro de edema le quita una fracción enorme de su calibre y multiplica la resistencia al flujo. Por eso un resfrío común en un adulto es una obstrucción en un niño de dos años. Mira esta radiografía de cuello: la columna de aire se estrecha bajo las cuerdas, el signo del campanario.',
-          photo: { src: 'biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg', label: 'Estrechamiento subglótico', at: 'Mira esta radiografía de cuello', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3220' } },
+          photo: { src: 'biblioteca/17_otorrino/orl-17/01_croup-estrechamiento-subglotico-rx__nelson_p3220.jpg', label: 'Croup: estrechamiento y borramiento subglótico (flechas negras)', at: 'Mira esta radiografía de cuello', credit: 'Herring, Learning Radiology, 4.ª ed., p. 404' } },
         { show: ['tr', 'to', 'di'], note: 'Tríada: tos perruna, estridor y disfonía',
           say: 'Esa obstrucción alta explica la tríada del croup: tos perruna, como de perro o de foca; estridor inspiratorio rudo; y disfonía. Casi siempre viene después de uno o dos días de coriza y fiebre baja, y aparece sobre todo en niños de seis meses a tres años, en otoño e invierno.' },
       ],

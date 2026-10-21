@@ -58,7 +58,7 @@ module.exports = {
           say: 'Mientras tanto, el haz papilomacular, que da la visión central de alta resolución, queda intacto hasta fases terminales. Por eso el paciente sigue leyendo perfecto la última línea de la tabla.' },
         { show: ['tun'], note: 'El campo se cierra como un túnel',
           say: 'Esos escotomas periféricos van coalesciendo, y el campo visual se va cerrando como un túnel, cada vez más angosto. Mira esta secuencia de campos: el defecto parte arriba y abajo, y va avanzando hasta dejar un tubo central.',
-          photo: { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg', label: 'Pérdida progresiva del campo', at: 'Mira esta secuencia', credit: 'Manual AMIR Oftalmología, p. 35' } },
+          photo: { src: 'biblioteca/12_oftalmologia/oftal-07/01_papila-glaucomatosa_alt1_2__amir-oftalmo_p35.jpg', label: 'Daño glaucomatoso avanzado del campo visual', at: 'Mira esta secuencia', credit: 'Kanski\'s Clinical Ophthalmology, 8.ª ed., p. 367' } },
         { show: ['tar'], note: 'La trampa clínica más importante del tema',
           say: 'Y aquí está la trampa más importante de toda la clase: pensar que una agudeza visual de veinte veinte descarta glaucoma. No lo hace. El paciente solo consulta cuando el campo visual ya se redujo a un tubo, y para entonces ya perdió más de la mitad de las fibras del nervio óptico, de forma irreversible.' },
       ],

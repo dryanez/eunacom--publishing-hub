@@ -113,7 +113,7 @@ module.exports = {
           photo: { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg', label: 'Translucencia nucal normal', at: 'Mira esta nuca', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' } },
         { show: ['tris'], note: 'Ojo con el hueso nasal también',
           say: 'Si mide tres milímetros o más, o si no ves el hueso nasal, sube el riesgo de trisomía veintiuno, dieciocho y trece, y también de cardiopatías. En esta otra imagen la translucencia está aumentada.',
-          photo: { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica_alt2__cto-gyo_p28.jpg', label: 'Translucencia aumentada', at: 'En esta otra imagen', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 28' } },
+          photo: { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica_alt2__cto-gyo_p28.jpg', label: 'Translucencia nucal aumentada (2,98 mm) en corte sagital medio', at: 'En esta otra imagen', credit: 'Ultrasound in Obstetrics and Gynecology, p. 88' } },
         { show: ['dop'], note: 'La segunda es de la madre',
           say: 'La segunda medición ya no es del feto: es de la madre. El Doppler de las arterias uterinas te dice cómo va la invasión de las arterias espirales por la placenta.' },
         { show: ['pre'], note: 'Ojo: esta alteración predice preeclampsia, no trisomía',

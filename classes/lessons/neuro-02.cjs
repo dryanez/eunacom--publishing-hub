@@ -167,7 +167,7 @@ module.exports = {
         { title: 'Corazón', tag: 'Buscar la FA', kind: 'alert', items: [
           { t: 'ECG y monitoreo continuo', d: 'Holter o telemetría para FA paroxística',
             say: 'Y la tercera es el corazón: electrocardiograma de doce derivaciones y monitoreo continuo, con Holter o telemetría, para pillar una fibrilación auricular paroxística que en el electrocardiograma aislado no aparece. Este electrocardiograma es una fibrilación auricular: intervalos totalmente irregulares y sin ondas P.',
-            photo: { src: '_web/142_neuro_AIT__Commons_1.jpg', label: 'ECG: fibrilación auricular', at: 'Este electrocardiograma', credit: 'Wikimedia Commons, CC BY-SA 3.0' } },
+            photo: { src: '_web/142_neuro_AIT__Commons_1.jpg', label: 'ECG con fibrilación auricular: sin ondas P y R-R irregular', at: 'Este electrocardiograma', credit: 'Stroobandt, Barold y Sinnaeve. ECG from Basics to Essentials (Wiley, 2016), p. 253' } },
           { t: 'Ecocardiograma', d: 'Transtorácico o transesofágico',
             say: 'Más un ecocardiograma, transtorácico o transesofágico. Es importante porque la causa va a decidir el tratamiento, y eso es lo que viene.' },
         ] },
