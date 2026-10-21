@@ -110,7 +110,7 @@ module.exports = {
           photo: { src: 'biblioteca/14_obstetricia/ob-02/02_longitud-craneocaudal__cto-gyo_p117.jpg', label: 'Longitud céfalo-nalgas', at: 'Mira esta imagen', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' } },
         { show: ['tn'], note: 'Fíjate: es del feto',
           say: 'La primera es del feto: la translucencia nucal, ese espacio entre la piel y el tejido blando por detrás del cuello. Mira esta nuca: cuando es normal, es un espacio fino y oscuro.',
-          photo: { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg', label: 'Translucencia nucal normal', at: 'Mira esta nuca', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 117' } },
+          photo: { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica__cto-gyo_p117.jpg', label: 'Translucencia nucal normal', at: 'Mira esta nuca', credit: 'Wikimedia Commons «Nuchal translucency Dr. Wolfgang Moroder.jpg», CC BY-SA 3.0, Wolfgang Moroder' } },
         { show: ['tris'], note: 'Ojo con el hueso nasal también',
           say: 'Si mide tres milímetros o más, o si no ves el hueso nasal, sube el riesgo de trisomía veintiuno, dieciocho y trece, y también de cardiopatías. En esta otra imagen la translucencia está aumentada.',
           photo: { src: 'biblioteca/14_obstetricia/ob-02/01_translucencia-nucal-normal-vs-patologica_alt2__cto-gyo_p28.jpg', label: 'Translucencia nucal aumentada (2,98 mm) en corte sagital medio', at: 'En esta otra imagen', credit: 'Ultrasound in Obstetrics and Gynecology, p. 88' } },

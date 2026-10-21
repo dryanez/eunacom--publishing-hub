@@ -128,7 +128,7 @@ module.exports = {
             say: 'Vamos al procedimiento, que también se pregunta. El Papanicolau se toma idealmente fuera de la menstruación, y sin relaciones sexuales, duchas, óvulos o cremas vaginales en las cuarenta y ocho horas previas.' },
           { t: 'Espéculo sin lubricante y dos muestras', d: 'Exocérvix con espátula de Ayre, endocérvix con cepillo',
             say: 'Se usa un espéculo sin lubricante, se visualiza el cuello y se toman dos muestras. Mira la ilustración: el instrumento llega al cuello a través del espéculo. El exocérvix se toma con la espátula de Ayre, rotándola trescientos sesenta grados sobre la unión escamocolumnar, y el endocérvix con un cepillo.',
-            photo: { src: 'biblioteca/13_ginecologia/gin-13/05_toma-papanicolau__blausen.png', label: 'Toma de Papanicolau', at: 'Mira la ilustración', credit: 'Blausen.com staff (2014), CC BY 3.0' } },
+            photo: { src: 'biblioteca/13_ginecologia/gin-13/05_toma-papanicolau__blausen.png', label: 'Toma de Papanicolau', at: 'Mira la ilustración', credit: 'Wikimedia Commons «Taking pap-smear 1.png», CC BY-SA 4.0, Mre80' } },
         ] },
         { title: 'El frotis', tag: 'Rápido y delgado', kind: 'criteria', items: [
           { t: 'Un solo movimiento y fijar de inmediato', d: 'Spray o alcohol 95 %, para evitar la desecación',

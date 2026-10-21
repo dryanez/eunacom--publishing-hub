@@ -222,7 +222,7 @@ module.exports = {
         { title: 'Laringomalacia', tag: 'Causa más frecuente', kind: 'key', items: [
           { t: 'Estridor inspiratorio desde las 2 a 4 semanas', d: 'Peor con llanto, alimentación y boca arriba; mejora en prono',
             say: 'La laringomalacia es la causa más frecuente de estridor congénito, entre sesenta y setenta y cinco por ciento. Es un estridor inspiratorio agudo e intermitente que aparece en las primeras dos a cuatro semanas, empeora con el llanto, la alimentación y estando boca arriba, y mejora boca abajo. Mira esta endoscopía: al inspirar, los repliegues de la epiglotis colapsan hacia la vía aérea.',
-            photo: { src: 'biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg', label: 'Laringomalacia', at: 'Mira esta endoscopía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., p. 3228' } },
+            photo: { src: 'biblioteca/17_otorrino/orl-17/03_laringomalacia-endoscopia__nelson_p3228.jpg', label: 'Laringomalacia', at: 'Mira este esquema', credit: 'Wikimedia Commons «LaryngomalaciaDrawing es.jpg», CC BY 4.0, Dr Chaigasame' } },
           { t: 'Curso benigno', d: 'Pico a los 6 meses; 90 % resuelto antes de los 12 a 18 meses',
             say: 'Los niños ganan peso bien y el reflujo es frecuente. El pico de síntomas es hacia los seis meses, y en el noventa por ciento se resuelve antes de los doce a dieciocho meses. Basta observar, cuidar la posición, tratar el reflujo y controlar el crecimiento.' },
         ] },

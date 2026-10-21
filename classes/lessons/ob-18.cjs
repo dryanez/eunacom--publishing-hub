@@ -121,7 +121,7 @@ module.exports = {
           say: 'Un cuadro raro, pero letal: la inversión uterina. Ocurre cuando alguien tracciona el cordón con fuerza, mientras tu útero todavía está relajado y la placenta sigue pegada.' },
         { show: ['inv'], note: 'El fondo del útero desaparece',
           say: 'El útero se da vuelta como un guante, y su fondo protruye o sale por la vulva. Mira esta imagen: una masa roja que asoma por la vagina. Al palpar el abdomen, el útero simplemente no está.',
-          photo: { src: 'biblioteca/14_obstetricia/ob-18/302_inversion_uterina__openi.jpg', label: 'Inversión uterina', at: 'Mira esta imagen', credit: 'Open-i (NLM), CC BY' } },
+          photo: { src: 'biblioteca/14_obstetricia/ob-18/302_inversion_uterina__openi.jpg', label: 'Inversión uterina', at: 'Mira esta imagen', credit: 'Wikimedia Commons «InvertedUterus.jpg», CC BY 2.5, Lawrence Mbuagbaw, Patrick Mbah Okwen' } },
         { show: ['sho'], note: 'La pista que lo distingue de otras causas',
           say: 'Lo que te avisa que es esto, y no otra causa de sangrado, es un shock neurogénico: hipotensión con bradicardia, por la tracción de los nervios peritoneales. Es al revés de lo que esperarías en una hemorragia.' },
         { show: ['joh'], note: 'Suspende los uterotónicos primero',

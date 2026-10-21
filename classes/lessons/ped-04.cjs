@@ -53,7 +53,7 @@ module.exports = {
         { title: 'Lactancia efectiva', tag: 'Libre demanda', kind: 'normal', items: [
           { t: 'Libre demanda: 8 a 12 tomas', d: 'Vacía una mama antes de ofrecer la otra',
             say: 'La lactancia es a libre demanda, de ocho a doce tomas al día, y se deja que el lactante vacíe una mama antes de ofrecer la otra. Fíjate en este esquema de succión efectiva, con la lengua y la mandíbula moviéndose en ritmo.',
-            photo: { src: 'biblioteca/15_pediatria/ped-04/02_tetina_succion__minsal-lactancia-2010.jpg', label: 'Succión efectiva', at: 'Fíjate en este esquema', credit: 'Manual Lactancia Materna MINSAL 2010, p. 141' } },
+            photo: { src: 'biblioteca/15_pediatria/ped-04/02_tetina_succion__minsal-lactancia-2010.jpg', label: 'Succión efectiva', at: 'Fíjate en este esquema', credit: 'Wikimedia Commons «Asymmetric breastfeeding latch.jpg», CC BY-SA 4.0, Dr. Jack Newman, International Breastfeeding Centre,' } },
           { t: 'Al menos 6 pañales mojados', d: 'Desde el día 5; 20 a 30 g/día de peso',
             say: 'Sabes que funciona si desde el quinto día hay al menos seis pañales mojados, deposiciones amarillas y una ganancia de veinte a treinta gramos por día. La pérdida fisiológica de hasta siete a diez por ciento se recupera hacia los diez a catorce días.' },
         ] },

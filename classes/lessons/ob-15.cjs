@@ -37,7 +37,7 @@ module.exports = {
           say: 'Y el segundo dato lo da la cervicometría transvaginal, que mide el largo del cuello con la vejiga vacía.' },
         { show: ['cor'], note: 'El predictor independiente más fuerte',
           say: 'Un cuello menor a veinticinco milímetros es el predictor independiente más fuerte de parto prematuro que existe, y es justo el corte que se pregunta. Mira esta ecografía transvaginal: las cruces marcan el largo del cuello, que es lo que se mide.',
-          photo: { src: 'biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg', label: 'Cervicometría', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 159' } },
+          photo: { src: 'biblioteca/14_obstetricia/ob-15/01_cervicometria-cervix-corto__cto-gyo_p159.jpg', label: 'Cervicometría', at: 'Mira esta ecografía', credit: 'Wikimedia Commons «Cervix length measurement.jpg», CC0, Mikael Häggström' } },
         { show: ['app'], note: 'Contracciones más cuello corto',
           say: 'Con contracciones frecuentes y ese cuello acortado, entre las veintidós y las treinta y cuatro semanas, confirmas la amenaza de parto prematuro.' },
         { show: ['lar'], note: 'La progesterona previene, no trata',

@@ -120,7 +120,7 @@ module.exports = {
         { title: 'Ecografía transvaginal', tag: 'Primer examen', kind: 'key', items: [
           { t: 'Vidrio esmerilado', d: 'Ecos finos y homogéneos',
             say: 'Pide primero una ecografía transvaginal. El endometrioma se ve como un quiste con ecos finos y homogéneos, la clásica imagen en vidrio esmerilado. Mira esta ecografía: el quiste de contenido homogéneo, el quiste de chocolate.',
-            photo: { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg', label: 'Endometrioma', at: 'Mira esta ecografía', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 74' } },
+            photo: { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco__cto-gyo_p74.jpg', label: 'Endometrioma', at: 'Mira esta ecografía', credit: 'Wikimedia Commons «Endometrioma ground glass appearance.jpg», CC BY 4.0, Keckstein et al' } },
           { t: 'Sin papilas ni Doppler', d: 'Eso descarta cáncer',
             say: 'Fíjate en algo importante: sin papilas sólidas ni vascularización al Doppler. Eso es lo que te permite descartarte del cáncer de ovario. En este otro endometrioma, con Doppler, el contenido es esmerilado, no hay papilas y no hay flujo en su interior.',
             photo: { src: 'biblioteca/13_ginecologia/gin-05/01_endometrioma-eco_alt1__amir-gyo_p101.jpg', label: 'Endometrioma con Doppler', at: 'En este otro endometrioma', credit: 'Manual AMIR Ginecología y Obstetricia, p. 101' } },

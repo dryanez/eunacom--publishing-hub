@@ -111,7 +111,7 @@ module.exports = {
           photo: { src: 'biblioteca/14_obstetricia/ob-20/S1_doppler-acm__propio.svg', label: 'Arteria cerebral media', at: 'como ves en este esquema', credit: 'Dibujo propio (esquema)' } },
         { show: ['cor'], note: 'Diagnóstica y trata al mismo tiempo',
           say: 'Y si el Doppler muestra una anemia grave, confirmas con una cordocentesis, y en el mismo procedimiento transfundes glóbulos rojos directamente al feto. Hay que llegar antes del hidrops: mira esta ecografía, con líquido libre en el abdomen, la ascitis, y otro sobre el diafragma, el derrame pleural.',
-          photo: { src: 'biblioteca/14_obstetricia/ob-20/02_hidrops-fetal-eco__nelson_p1437.jpg', label: 'Hidrops fetal', at: 'mira esta ecografía', credit: 'Nelson Textbook of Pediatrics, 22.ª ed., Fig. 140.1' } },
+          photo: { src: 'biblioteca/14_obstetricia/ob-20/02_hidrops-fetal-eco__nelson_p1437.jpg', label: 'Hidrops fetal: recién nacido con edema generalizado', at: 'mira esta ecografía', credit: 'Wikimedia Commons «Newborn infant with severe hemolytic disease (erythroblastosis foetalis) resulting in hydrops foetalis.png», CC BY 4.0, Benkerroum Zineb, Lachiri Boutaina, Lazrak Ikram, Moussaoui Rahali' } },
       ],
     },
 

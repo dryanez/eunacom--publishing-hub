@@ -60,7 +60,7 @@ module.exports = {
             say: 'El segundo es el hiperandrogenismo: hirsutismo evaluado con la escala de Ferriman-Gallwey, acné severo, alopecia, o una testosterona elevada en el laboratorio.' },
           { t: 'Morfología poliquística en la ecografía', d: 'Muchos folículos pequeños o volumen ovárico aumentado',
             say: 'Y el tercero es la ecografía: muchos folículos pequeños distribuidos en la periferia del ovario, o un volumen ovárico aumentado. Mira esta ecografía transvaginal: es el collar de perlas. Con dos de estos tres, el diagnóstico está hecho.',
-            photo: { src: 'biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg', label: 'Ovario poliquístico (eco)', at: 'Mira esta ecografía transvaginal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 35' } },
+            photo: { src: 'biblioteca/13_ginecologia/gin-02/01_ovario-poliquistico-eco__cto-gyo_p35.jpg', label: 'Ovario poliquístico (eco)', at: 'Mira esta ecografía transvaginal', credit: 'Wikimedia Commons «Echographie pelvienne, aplio toshiba ssa 700 5 2004 03 detail.jpg», CC0, Anne Mousse' } },
         ] },
         { title: 'Antes de confirmar', tag: 'Descarte obligatorio', kind: 'alert', items: [
           { t: 'Diecisiete hidroxiprogesterona', d: 'Descarta hiperplasia suprarrenal no clásica',
@@ -102,7 +102,7 @@ module.exports = {
         { title: 'Primero, medirlo', tag: 'Ferriman-Gallwey de 8 o más', kind: 'criteria', items: [
           { t: 'Vello terminal en zonas andrógeno-dependientes', d: 'Ferriman-Gallwey de 8 o más',
             say: 'Ojo con esto: el hirsutismo es un signo, no un diagnóstico. Es vello terminal en zonas que dependen de andrógenos, y se mide con la escala de Ferriman-Gallwey: ocho puntos o más. Mira la escala: se puntúan nueve zonas del cuerpo, de cero a cuatro cada una. El ovario poliquístico explica entre el setenta y el ochenta por ciento, pero antes de rotular hay que descartar el resto.',
-            photo: { src: 'biblioteca/13_ginecologia/gin-02/03_ferriman-gallwey__nelson_p4295.jpg', label: 'Escala de Ferriman-Gallwey', at: 'Mira la escala', credit: 'Nelson Textbook of Pediatrics 22.ª ed., p. 4295' } },
+            photo: { src: 'biblioteca/13_ginecologia/gin-02/03_ferriman-gallwey__nelson_p4295.jpg', label: 'Escala de Ferriman-Gallwey', at: 'Mira la escala', credit: 'Wikimedia Commons «Modified Ferriman-Gallwey-score.png», CC BY 2.5, Daisy Kopera, Elisabeth Wehr, Barbara Obermayer-Pietsch' } },
         ] },
         { title: 'Otras causas', tag: 'Se descartan antes de rotular', kind: 'key', items: [
           { t: 'Idiopático e hiperplasia suprarrenal', d: 'Andrógenos normales; 17-OH-progesterona sobre 2 ng/mL',

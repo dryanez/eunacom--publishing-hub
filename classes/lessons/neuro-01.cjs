@@ -350,7 +350,7 @@ module.exports = {
       title: 'Accidente cerebrovascular isquémico',
       images: [
         { src: 'biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_1__cto-radiologia_p62.jpg', label: 'Signos precoces', credit: 'Manual CTO Radiología 14.ª ed., p. 62' },
-        { src: 'biblioteca/09_neurologia/neuro-01/02_infartos-establecidos-por-territorio-tc__cto-radiologia_p63.jpg', label: 'Infarto establecido', credit: 'Manual CTO Radiología 14.ª ed., p. 63' },
+        { src: 'biblioteca/09_neurologia/neuro-01/02_infartos-establecidos-por-territorio-tc__cto-radiologia_p63.jpg', label: 'Infarto establecido', credit: 'Wikimedia Commons «Right MCA and PCA territories infarct.jpg», CC BY-SA 4.0, Cerevisae' },
         { src: 'biblioteca/09_neurologia/neuro-01/01_signos-precoces-tc-acm-hiperdensa_2__cto-radiologia_p62.jpg', label: 'AngioTC: oclusión de la arteria cerebral media (flecha)', credit: 'Manual CTO Radiología 14.ª ed., p. 62' },
       ],
       steps: [

@@ -102,7 +102,7 @@ module.exports = {
         { title: 'Músculo invasivo', tag: 'Radical', kind: 'alert', items: [
           { t: 'Quimioterapia con cisplatino', d: 'Antes de la cirugía',
             say: 'Quimioterapia neoadyuvante con cisplatino. Es para el cáncer que invade la pared. Mira esta resonancia: hay un engrosamiento sólido en vez de frondas. Es el que requiere mucho más que una resección.',
-            photo: { src: 'biblioteca/19_urologia/uro-12/02_rm-cancer-vesical-invasor__bailey-love_p1471.jpg', label: 'Cáncer que invade la pared', at: 'Mira esta resonancia', credit: 'Bailey & Love 27.ª ed., Fig. 77.51b' } },
+            photo: { src: 'biblioteca/19_urologia/uro-12/02_rm-cancer-vesical-invasor__bailey-love_p1471.jpg', label: 'Cáncer que invade la pared', at: 'Mira esta resonancia', credit: 'Wikimedia Commons «BladderCADVTleftMark.png», CC BY-SA 4.0, James Heilman, MD' } },
           { t: 'Cistectomía radical', d: 'Más linfadenectomía pélvica',
             say: 'Y cistectomía radical. En el hombre se extirpan vejiga, próstata y vesículas seminales, y en la mujer, vejiga, útero, ovarios y parte de la vagina. Se reconstruye con conducto ileal de Bricker o neovejiga.' },
           { t: 'BCG se reserva', d: 'Falla del BCG o ≥ T2',

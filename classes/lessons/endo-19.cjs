@@ -118,7 +118,7 @@ module.exports = {
         { show: ['adu', 'nin'], note: 'Misma enfermedad, distinta edad',
           say: 'Si esto ocurre en un adulto, con los cartílagos de crecimiento ya cerrados, es osteomalacia. Si ocurre en un niño que está creciendo, es raquitismo: mira estos nódulos a lo largo de las costillas, el rosario raquítico, y estas muñecas ensanchadas. Es la misma falla de mineralización a distinta edad.',
             photos: [
-              { src: 'biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg', label: 'Rosario raquítico', at: 'mira estos nódulos', credit: 'Nelson 22.ª ed., p. 646' },
+              { src: 'biblioteca/05_endocrinologia/endo-19/01_rosario_raquitico__nelson_p646.jpg', label: 'Rosario raquítico (Rx): uniones costocondrales prominentes', at: 'mira estos nódulos', credit: 'Wikimedia Commons «RicketsChestXray.jpg», CC BY-SA 3.0, Frank Gaillard' },
               { src: 'biblioteca/05_endocrinologia/endo-19/02_munecas_ensanchadas__nelson_p646.jpg', label: 'Muñecas ensanchadas', at: 'estas muñecas ensanchadas', credit: 'Nelson 22.ª ed., p. 646' },
             ] },
       ],

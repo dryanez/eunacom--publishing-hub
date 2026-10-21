@@ -110,7 +110,7 @@ module.exports = {
         { show: ['lab'], note: 'Se procesa en un laboratorio central',
           say: 'Con el momento correcto, la muestra en papel filtro se envía y se miden ahí la TSH y la fenilalanina. En esta tarjeta, una gota llena cada círculo. Y mira estas muestras: las que están rayadas, sobresaturadas o sin sangre se rechazan y hay que repetirlas.',
           photos: [
-            { src: 'biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg', label: 'Tarjeta de papel filtro', at: 'En esta tarjeta', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, Foto 2' },
+            { src: 'biblioteca/15_pediatria/ped-21/01_tarjeta_papel_filtro__minsal-pku-2007.jpg', label: 'Muestra de talón en tarjeta de papel filtro', at: 'En esta tarjeta', credit: 'Wikimedia Commons «Phenylketonuria testing.jpg», Public domain, U.S. Air Force photo/Staff Sgt Eric T. Sheler' },
             { src: 'biblioteca/15_pediatria/ped-21/03_muestras_satisfactorias__minsal-pku-2007.jpg', label: 'Muestras que se rechazan', at: 'mira estas muestras', credit: 'Normas Pesquisa PKU/HC MINSAL 2007, p. 26' },
           ] },
       ],

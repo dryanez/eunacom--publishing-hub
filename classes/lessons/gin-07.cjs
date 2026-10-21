@@ -106,7 +106,7 @@ module.exports = {
         { title: 'Histerosalpingografía', tag: 'Estudia las trompas', kind: 'key', items: [
           { t: 'Contraste por el cuello uterino', d: 'Se ve si pasa a la cavidad peritoneal',
             say: 'Para las trompas, la histerosalpingografía: inyectas contraste por el cuello uterino y ves si pasa libremente a la cavidad peritoneal. Mira esta histerosalpingografía normal: el contraste rellena la cavidad del útero, en forma de triángulo.',
-            photo: { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_2__cto-gyo_p50.jpg', label: 'Histerosalpingografía', at: 'Mira esta histerosalpingografía normal', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' } },
+            photo: { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_2__cto-gyo_p50.jpg', label: 'Histerosalpingografía', at: 'Mira esta histerosalpingografía normal', credit: 'Wikimedia Commons «Hysterosalpingography Normal.png», CC BY-SA 3.0, Jmarchn' } },
           { t: 'Prueba de Cotte positiva', d: 'Confirma que la trompa es permeable',
             say: 'Si el contraste se dispersa por ambos lados, la prueba de Cotte sale positiva, y eso confirma que las trompas están permeables. En esta otra imagen el contraste recorre las dos trompas y sale hacia el peritoneo. Si no sale, la trompa está obstruida.',
             photo: { src: 'biblioteca/13_ginecologia/gin-07/01_histerosalpingografia-normal_1__cto-gyo_p50.jpg', label: 'Trompas permeables', at: 'En esta otra imagen', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 50' } },

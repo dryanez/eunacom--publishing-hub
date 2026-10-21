@@ -64,7 +64,7 @@ module.exports = {
           say: 'Las desaceleraciones, en cambio, no deberían aparecer nunca en un registro basal. Si las ves, ya es una alarma.' },
         { show: ['rea'], note: 'Con esto, no necesitas nada más',
           say: 'Cuando se cumplen los tres primeros criterios, tienes un registro reactivo, y eso te predice bienestar fetal con más de noventa y nueve por ciento de seguridad para la semana siguiente. Mira este registro real: arriba la frecuencia cardíaca con sus pequeñas subidas, y abajo las contracciones.',
-          photo: { src: 'biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg', label: 'Registro cardiotocográfico', at: 'Mira este registro real', credit: 'Manual CTO Ginecología y Obstetricia 14.ª ed., p. 171' } },
+          photo: { src: 'biblioteca/14_obstetricia/ob-03/01_rctg-normal-reactivo__cto-gyo_p171.jpg', label: 'Registro cardiotocográfico', at: 'Mira este registro real', credit: 'Wikimedia Commons «Kardiotokogramm.jpg», CC BY-SA 3.0, Mariakeernik' } },
         { show: ['nor'], note: 'La causa más frecuente es benigna',
           say: 'Y si no aparecen aceleraciones, tienes un registro no reactivo. Antes de asustarte, piensa en la causa más común: el ciclo de sueño profundo del feto, que dura entre veinte y cuarenta minutos. Y si después de estimularlo y prolongar el registro sigue sin reactividad, ahí es cuando subes de nivel, con un perfil biofísico o con un Doppler fetal.' },
       ],
