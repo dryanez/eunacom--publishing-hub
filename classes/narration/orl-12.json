@@ -1,0 +1,208 @@
+{
+  "id": "orl-12",
+  "title": "Otorrino 14.12: Poliposis Nasal, Desviación Septal y Fractura Nasal",
+  "specialty": "Otorrinolaringología",
+  "chars": 10255,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Tres problemas de la nariz que parecen distintos, pero comparten un síntoma, la obstrucción nasal, y un hilo para el examen. Un golpe en la nariz siempre obliga a descartar un hematoma septal, porque es una urgencia quirúrgica. Un pólipo bilateral en un asmático obliga a pensar en la tríada de Samter. Y un pólipo de un solo lado en un adulto obliga a descartar un tumor."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La fractura nasal es la fractura facial más frecuente. Se manifiesta con epistaxis inicial, dolor, edema, desviación del dorso hacia un lado, que se llama laterorrinia, y crepitación ósea al palpar con cuidado. Ojo con esto: el diagnóstico y la indicación de cirugía son clínicos. La radiografía de huesos propios tiene valor médico-legal, pero no decide la conducta."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Pero lo que se pregunta no es la fractura, es lo que se esconde detrás. Si el golpe rompe vasos submucosos, la sangre se acumula entre el cartílago cuadrangular y el pericondrio. Y el cartílago septal no tiene irrigación propia: se nutre por difusión desde ese pericondrio. Si la sangre lo despega, lo deja sin alimento."
+    },
+    {
+      "file": "s01_g02",
+      "text": "En veinticuatro a cuarenta y ocho horas el cartílago se necrosa. Eso deja una deformidad definitiva, la nariz en silla de montar, o se infecta y forma un absceso septal. Por eso es una urgencia."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La conducta no admite demora: drenaje quirúrgico urgente, con incisión y aspiración de los coágulos, seguido de taponamiento nasal bilateral compresivo y cobertura antibiótica."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En todo paciente con trauma nasal tienes que hacer una rinoscopía anterior. Lo que buscas es un abombamiento del tabique, fluctuante, rojo violáceo o azulado, blando al tacto, habitualmente bilateral, que tapa las fosas nasales."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El paciente cuenta un golpe, y después obstrucción nasal y dolor. Si pasan los días sin drenarlo, aparece la fiebre, y ahí ya es un absceso."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Dos distractores clásicos: observar y controlar en dos semanas, o drenar con punción de aguja fina. Ninguno sirve, porque el coágulo no sale por una aguja."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el taponamiento solo, sin drenar, tampoco. El tapón compresivo se pone después del drenaje, para que no se vuelva a formar el hematoma."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Esta es una fractura de los huesos propios con desplazamiento del dorso nasal hacia la derecha. Fíjate en la desviación visible: es la laterorrinia. Pero recuerda que una nariz deformada, por sí sola, no es la urgencia. La urgencia es lo que no se ve desde afuera, el hematoma del tabique, y para eso necesitas la rinoscopía."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Los pólipos nasales son formaciones benignas y edematosas de la mucosa de los senos, sobre todo etmoidales, que prolapsan hacia la nariz. A la rinoscopía se ven lisos, brillantes, translúcidos, de color blanco grisáceo, como una uva pelada. Son indoloros e insensibles al tacto, a diferencia del cornete inferior, que es rojizo y muy sensible."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El tratamiento de primera línea es corticoide intranasal en dosis altas, continuo, con mometasona o fluticasona, asociado a ciclos breves de prednisona. Si es refractario o la obstrucción es total, cirugía endoscópica funcional de senos, o terapia biológica con dupilumab."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La tríada de Samter, o de Widal, que hoy se llama enfermedad respiratoria exacerbada por aspirina, tiene tres componentes. Uno, poliposis nasal bilateral extensa. Dos, asma bronquial de difícil control."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y tres, intolerancia a la aspirina y a los antiinflamatorios no esteroidales, con broncoespasmo grave. En estos pacientes la aspirina y los AINE están estrictamente prohibidos, por el riesgo de broncoespasmo fatal."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Aquí el hilo del examen es la lateralidad. Todo pólipo nasal unilateral en un adulto se considera sospechoso de papiloma invertido o de adenocarcinoma, y exige biopsia y TAC. No se trata como una poliposis inflamatoria."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El papiloma invertido es un tumor epitelial benigno, pero localmente invasivo. Se ve como una masa unilateral, vegetante o cerebriforme, que sangra con facilidad y destruye hueso, y tiene un diez por ciento de degeneración a carcinoma espinocelular. Se trata con biopsia y resección quirúrgica amplia."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La desviación del tabique, congénita o postraumática, produce una obstrucción mecánica fija y constante, sobre todo de un lado. La fosa contralateral, que queda más ancha, desarrolla una hipertrofia compensatoria del cornete inferior, para regular la resistencia nasal."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El tratamiento sintomático inicial son los corticoides intranasales. La corrección definitiva es quirúrgica, una septoplastia electiva, habitualmente asociada a turbinoplastia, cuando la obstrucción es invalidante o se acompaña de rinosinusitis recurrente o de síndrome de apnea hipopnea obstructiva del sueño."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Esta tabla te ordena lo que ves con el espéculo. El pólipo benigno es translúcido, como una uva pelada, indoloro y no sangra. Se trata con corticoide intranasal, y con cirugía endoscópica si es refractario."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El cornete inferior hipertrófico es rosado o rojizo, firme, y muy doloroso al tocarlo con el estilete. Esa sensibilidad es lo que lo separa del pólipo."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El hematoma septal es un abombamiento violáceo y blando del tabique tras un golpe, y es una urgencia: drenaje inmediato y taponamiento bilateral compresivo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Y el papiloma invertido es una masa unilateral que sangra con facilidad, y exige biopsia y resección amplia por el riesgo de carcinoma."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Armemos el árbol para el paciente con obstrucción nasal: primero el golpe, después el pólipo. Un paciente con la nariz obstruida. La primera pregunta es si hubo un golpe."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Tras un golpe, siempre se hace la rinoscopía anterior para descartar el hematoma del tabique."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Es un hematoma septal, y es una urgencia: drenaje quirúrgico inmediato, taponamiento bilateral compresivo y antibiótico. Si ya hay fiebre, es un absceso y se drena igual."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Sin hematoma, es una fractura nasal. El diagnóstico y la decisión de cirugía son clínicos; la radiografía es médico-legal."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Sin trauma, miras la fosa nasal para ver qué tapa el paso del aire."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Poliposis bilateral: corticoide intranasal en dosis altas, ciclo breve de prednisona y cirugía endoscópica si es refractaria. Si hay asma y broncoespasmo con aspirina, es la tríada de Samter y se evitan los AINE."
+    },
+    {
+      "file": "s08_g06",
+      "text": "Un pólipo unilateral en un adulto se biopsia y se pide un TAC, para descartar papiloma invertido o cáncer."
+    },
+    {
+      "file": "s08_g07",
+      "text": "Una desviación septal se trata primero con corticoides intranasales, y con septoplastia electiva, asociada a turbinoplastia, si la obstrucción es invalidante."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Veamos un caso. Mujer de treinta y ocho años con asma de difícil control y obstrucción nasal bilateral crónica con hiposmia. A los treinta minutos de tomar ibuprofeno por una cefalea, hace una crisis de disnea y sibilancias. En la rinoscopía tiene masas bilaterales, translúcidas, blanco grisáceas e indoloras, que ocupan ambas fosas."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el diagnóstico y la medida fundamental?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: cornetes hipertróficos con turbinoplastia; tríada de Samter con evitar aspirina y AINE y corticoide intranasal; papiloma invertido con resección; hematoma septal con drenaje; o alergia al ibuprofeno solamente, cambiando de AINE. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la B. Pólipos bilaterales, asma y broncoespasmo con un antiinflamatorio son la tríada de Samter. La medida clave es evitar la aspirina y todos los AINE, y tratar la poliposis con corticoide intranasal. La E es la trampa: aquí no se trata de cambiar de AINE, porque la reacción es con los AINE en general. Y el cornete y el papiloma no se ven translúcidos, bilaterales e indoloros."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Una pregunta real, del EUNACOM de julio de dos mil trece. Un paciente de treinta y cuatro años cae mientras sube una escalera y se golpea la cara. Está en buenas condiciones, pero con epistaxis. En la especuloscopía nasal hay engrosamiento septal bilateral."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: drenaje por punción, observar y controlar en dos semanas, drenaje quirúrgico urgente, antibióticos endovenosos, o taponamiento nasal bilateral. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Engrosamiento septal bilateral después de un golpe es un hematoma del tabique, y se drena quirúrgicamente de forma urgente. La E es la tentación: el taponamiento se pone después de drenar, no en lugar de drenar. Y la punción no vacía un coágulo."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Un paciente de veintiocho años recibe un pelotazo en la nariz hace cinco días. Evoluciona con dolor, edema, obstrucción nasal y después sensación febril. Tiene aumento de volumen bilateral en el tabique."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: drenaje con aguja fina, drenaje quirúrgico con bisturí, taponamiento anterior, analgésicos, o reducción en pabellón. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Es el mismo hematoma de la pregunta anterior, pero cinco días después y con fiebre: ya se sobreinfectó y es un absceso septal. Se drena con bisturí. Con una aguja fina no sale el pus ni el coágulo, y el taponamiento o los analgésicos dejan el problema sin resolver."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Y una pregunta real, del EUNACOM de diciembre de dos mil diecinueve. Un paciente con rinitis alérgica y varios episodios de sinusitis, con obstrucción nasal marcada y respiración bucal. En la rinoscopía hay numerosos pólipos pálidos y brillantes que obstruyen completamente las fosas nasales."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: fluticasona tópica cada doce horas, prednisona oral por siete días, TAC de cavidades paranasales, cirugía endoscópica nasal, o niveles de inmunoglobulinas. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. La poliposis es bilateral, inflamatoria y con obstrucción completa, así que se parte con un ciclo breve de prednisona oral, que es justo lo que asocia el tratamiento de primera línea al corticoide intranasal. La fluticasona sola no penetra si la nariz está totalmente tapada, y la cirugía queda para los casos refractarios."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Cerremos con las reglas de oro. Todo traumatismo nasal exige una rinoscopía anterior para descartar un hematoma del tabique."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Si hay un abombamiento violáceo y fluctuante, se drena quirúrgicamente de inmediato y después se tapona. Si no, el cartílago se necrosa en veinticuatro a cuarenta y ocho horas."
+    },
+    {
+      "file": "s13_g02",
+      "text": "El pólipo bilateral es inflamatorio: corticoide intranasal, con prednisona breve si la obstrucción es marcada. Si además hay asma y broncoespasmo con aspirina, es Samter, y se evitan todos los AINE."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Y el pólipo unilateral en un adulto se biopsia. Si te llevas una sola idea de hoy: tras un golpe, el tabique se mira; el hematoma se drena. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "id": "psiq-13",
+  "title": "Psiquiatria 17.13: Síndrome Neuroléptico Maligno (SNM): Hipertermia, Rigidez, CPK y Manejo",
+  "specialty": "Psiquiatría",
+  "chars": 14709,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la urgencia más grave que pueden causar los antipsicóticos: el síndrome neuroléptico maligno. Partimos por el mecanismo, que explica la fiebre, la rigidez y el daño renal. Después viene la tétrada clínica, el laboratorio y, sobre todo, la comparación con el síndrome serotoninérgico y la hipertermia maligna, que es lo que más se pregunta. Cerramos con el manejo: qué se suspende, qué se hidrata y qué fármacos de rescate existen."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Recuerda la clase de esquizofrenia: los antipsicóticos bloquean los receptores de dopamina D dos. En el síndrome neuroléptico maligno ese bloqueo es brusco y masivo, y llega al hipotálamo anterior. El centro que regula la temperatura se descontrola y aparece una hipertermia que puede superar los cuarenta grados."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El mismo bloqueo en la vía nigroestriada, la que controla el tono muscular, produce una contracción tónica sostenida. Es la rigidez en caño de plomo, generalizada y continua. No es un espasmo de un solo grupo muscular, como en la distonía."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Un músculo que se contrae sin parar se destruye. Es la rabdomiólisis: sube la creatina fosfoquinasa, la CPK, y sale mioglobina a la sangre. La mioglobina tapa y daña los túbulos, y el resultado es una falla renal aguda. Esa cadena explica casi todo el tratamiento."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El primer pilar es la fiebre alta, sobre treinta y ocho grados y muchas veces de treinta y nueve y medio a cuarenta y uno. No cede con los antipiréticos comunes, porque el problema es central."
+    },
+    {
+      "file": "s02_g01",
+      "text": "El segundo es la rigidez extrema: una resistencia uniforme al movimiento pasivo, que puede acompañarse de rueda dentada. Los reflejos están normales o disminuidos."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El tercero es la disautonomía: presión arterial que sube y baja, taquicardia marcada, sudoración profusa, taquipnea e incontinencia."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el cuarto es el compromiso de conciencia, que va desde la confusión y el mutismo hasta el estupor y el coma."
+    },
+    {
+      "file": "s02_g04",
+      "text": "El antecedente clave es un antipsicótico recién iniciado o con la dosis aumentada, sobre todo de alta potencia, como el haloperidol. Muchas veces el paciente estaba agitado y por eso se subió la dosis, y ahí está la trampa."
+    },
+    {
+      "file": "s02_g05",
+      "text": "Puede ocurrir con cualquier antipsicótico, incluidos los atípicos y los inyectables de depósito. También aparece al suspender de golpe un fármaco dopaminérgico, como la levodopa en la enfermedad de Parkinson."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Los factores de riesgo son las dosis altas, el escalamiento rápido y las formulaciones inyectables de depósito."
+    },
+    {
+      "file": "s03_g01",
+      "text": "También la deshidratación, la agitación previa y el sexo masculino. Fíjate que la persona agitada, deshidratada y recién medicada es el paciente típico."
+    },
+    {
+      "file": "s03_g02",
+      "text": "El sello bioquímico es la CPK muy elevada: habitualmente sobre mil unidades por litro y a menudo sobre diez mil."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Hay leucocitosis de quince mil a treinta mil, que simula una sepsis, además de creatinina elevada, acidosis láctica y mioglobina en la orina. Una orina de color pardo oscuro es una pista."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Primero, qué fármaco hay detrás. El neuroléptico maligno viene de un antipsicótico o del retiro de levodopa. El serotoninérgico, de fármacos que suben la serotonina: antidepresivos como la sertralina, el tramadol, los inhibidores de la monoaminooxidasa o el éxtasis. Y la hipertermia maligna, de un anestésico inhalatorio halogenado o de la succinilcolina en el pabellón."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El inicio ayuda. El neuroléptico maligno se instala en horas a pocos días tras el cambio de dosis. El serotoninérgico, en horas tras una combinación o una sobredosis. Y la hipertermia maligna, en minutos, dentro del pabellón."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La diferencia que más cae: en el neuroléptico maligno la rigidez es plástica y los reflejos están normales o disminuidos. En el serotoninérgico hay hiperreflexia y clonus, es decir, sacudidas rítmicas del pie o del ojo, y la rigidez es leve a moderada."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El serotoninérgico además trae midriasis, diarrea y temblor. El neuroléptico maligno tiene pupilas normales y más bien constipación. La hipertermia maligna se da por una alteración del receptor de rianodina, y empeora en minutos."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Y el tratamiento específico: bromocriptina y dantroleno en el neuroléptico maligno; ciproheptadina, que bloquea la serotonina, y benzodiacepinas en el serotoninérgico; y dantroleno con suspensión inmediata del anestésico en la hipertermia maligna."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Un paciente con fiebre, rigidez y alteración de conciencia puede tener una infección del sistema nervioso central. Si la duda es real, se hace punción lumbar. Pero no se retrasa la suspensión del antipsicótico mientras tanto."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Recuerda lo que dijimos en esquizofrenia: la distonía es un espasmo focal, con el paciente vigil y sin fiebre. Fiebre más rigidez generalizada más conciencia alterada no es distonía."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Los antipsicóticos de baja potencia, como la clorpromazina, tienen además efecto anticolinérgico. Con la dosis alta aparecen midriasis, mucosas secas, retención urinaria, constipación y confusión, pero sin rigidez muscular. Eso se pregunta como contraste del neuroléptico maligno."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La primera medida, y no se espera el laboratorio para hacerla, es suspender el antipsicótico y cualquier otro bloqueador dopaminérgico, como la metoclopramida. Y nunca se da haloperidol para tratar la agitación de este cuadro."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Es una emergencia vital, con una mortalidad histórica de diez a veinte por ciento por falla multiorgánica. Requiere unidad de paciente crítico, monitorización continua y protección de la vía aérea."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La temperatura se baja con enfriamiento físico: compresas frías en cuello, axilas e ingles, y sueros fríos. El paracetamol no sirve, porque la fiebre es central y no inflamatoria."
+    },
+    {
+      "file": "s06_g03",
+      "text": "El segundo gran pilar es hidratar de forma masiva con suero fisiológico, de tres a seis litros al día, con una meta de diuresis de al menos dos mililitros por kilo por hora. Así se arrastra la mioglobina y se previene la necrosis tubular."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si además hay acidosis grave, el libro agrega bicarbonato para alcalinizar la orina."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La bromocriptina es un agonista dopaminérgico: devuelve el tono dopaminérgico al hipotálamo y al estriado. Se da por vía oral o por sonda, de dos coma cinco a cinco miligramos cada ocho horas, hasta veinte miligramos al día."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La amantadina es otro fármaco dopaminérgico alternativo, de cien a doscientos miligramos cada doce horas."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El dantroleno es un relajante muscular que bloquea la salida de calcio del retículo sarcoplásmico. Se usa en rigidez extrema con hipertermia severa, de uno a dos coma cinco miligramos por kilo endovenoso."
+    },
+    {
+      "file": "s07_g03",
+      "text": "La ciproheptadina bloquea la serotonina, así que es del síndrome serotoninérgico, junto con las benzodiacepinas. No es para el neuroléptico maligno."
+    },
+    {
+      "file": "s07_g04",
+      "text": "El biperideno sirve para la distonía, el flumazenil para las benzodiacepinas y la naloxona para los opioides. Ninguno trata el neuroléptico maligno."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Si la enfermedad de base exige volver a un antipsicótico, se espera al menos dos semanas desde la recuperación completa, con temperatura y CPK normalizadas."
+    },
+    {
+      "file": "s08_g01",
+      "text": "El libro propone un antipsicótico de segunda generación con baja afinidad por el receptor D dos, como quetiapina o clozapina, empezando con la dosis mínima eficaz."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y se vigilan de cerca la temperatura y la CPK mientras se sube la dosis lentamente. Esta decisión corresponde al psiquiatra; tu tarea es reconocer la urgencia y suspender el fármaco."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Armemos el árbol: de la persona con antipsicótico y fiebre al manejo del síndrome. Una persona en tratamiento con antipsicótico, con la dosis recién iniciada o aumentada, llega con fiebre, rigidez y alteración de la conciencia. Lo primero es decidir qué síndrome es, porque el tratamiento cambia."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Si hay rigidez en caño de plomo, reflejos normales o disminuidos, disautonomía y CPK alta, es un síndrome neuroléptico maligno. Es una emergencia vital."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Se suspende el antipsicótico de inmediato, y la metoclopramida, sin esperar los exámenes."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Se traslada a unidad crítica, se hidrata con suero fisiológico buscando diuresis alta y se enfría de forma física."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Si la hipertermia y la rigidez persisten, se agregan bromocriptina y dantroleno endovenoso."
+    },
+    {
+      "file": "s09_g05",
+      "text": "Si hay hiperreflexia, clonus, diarrea y midriasis, con un antidepresivo o tramadol, es un síndrome serotoninérgico. Se suspende el fármaco, se dan benzodiacepinas y ciproheptadina."
+    },
+    {
+      "file": "s09_g06",
+      "text": "Si ocurre en minutos dentro de cirugía, tras un anestésico halogenado o succinilcolina, es una hipertermia maligna, que se trata con dantroleno."
+    },
+    {
+      "file": "s09_g07",
+      "text": "Si hay midriasis, mucosas secas y retención urinaria sin rigidez, es un síndrome anticolinérgico, y se maneja con soporte y ajustando el fármaco."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Antipsicótico recién subido, con fiebre, rigidez y CPK alta: neuroléptico maligno. Se suspende, se hidrata y se traslada. El error mortal es subir el antipsicótico porque el paciente sigue agitado."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Rigidez plástica con reflejos normales o disminuidos y sin clonus: neuroléptico maligno, no serotoninérgico."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Hiperreflexia, clonus, diarrea y midriasis tras un antidepresivo o tramadol: serotoninérgico. Se suspende el fármaco serotoninérgico y se usan benzodiacepinas y ciproheptadina."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Fiebre y rigidez en minutos dentro del pabellón, tras un anestésico inhalatorio: hipertermia maligna, que se trata con dantroleno."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Midriasis, mucosas secas y retención urinaria sin rigidez ni fiebre alta: síndrome anticolinérgico."
+    },
+    {
+      "file": "s10_g05",
+      "text": "La fiebre central no cede con paracetamol. Sin suspender el antipsicótico, el antipirético no resuelve nada."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Una mujer de treinta y cuatro años con esquizofrenia, hospitalizada por una descompensación agitada, con el haloperidol subido de diez a veinte miligramos al día. Hoy está soporosa, con treinta y nueve coma seis grados, sudor profuso, presión lábil, taquicardia y rigidez en caño de plomo, con reflejos disminuidos. No hay clonus ni diarrea. La CPK está en doce mil cuatrocientos y la creatinina elevada. La enfermera pregunta si puede dar más haloperidol, porque está muy inquieta."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el diagnóstico y la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: serotoninérgico con ciproheptadina; neuroléptico maligno con suspensión, hidratación, enfriamiento y unidad crítica; distonía con biperideno; meningitis tratada solo con antibiótico; o agitación psicótica con más haloperidol. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Tiene la tétrada completa, una CPK altísima y daño renal, tras subir un antipsicótico de alta potencia. La rigidez plástica con reflejos disminuidos y sin clonus aleja al serotoninérgico. Se suspende el haloperidol, se hidrata fuerte, se enfría y se traslada. La respuesta a la enfermera es no: más haloperidol es justo lo que empeora el cuadro."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Un hombre de cuarenta y ocho años con esquizofrenia se agita, y le suben el haloperidol de diez a veinte miligramos al día. Evoluciona con malestar general, dificultad para caminar y menor nivel de conciencia. Tiene pulso de cien, presión ciento cuarenta sobre noventa, temperatura de treinta y ocho grados y rigidez de las extremidades. Hay leucocitosis de diecinueve mil y una CPK de mil doscientos."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: distonía; neuroléptico maligno; anticolinérgico; adrenérgico; o distrofia muscular de Duchenne. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la B. Dosis de haloperidol aumentada, más rigidez, fiebre, alteración de conciencia, leucocitosis y CPK elevada: neuroléptico maligno. La distonía no da fiebre ni baja la conciencia, y el anticolinérgico tiene midriasis y mucosas secas, no rigidez. Fíjate que aquí la CPK es solo moderada, mil doscientos, y aun así el diagnóstico es neuroléptico maligno: lo que decide es la tríada en el contexto del fármaco."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un paciente de setenta y ocho años recibe diazepam, sertralina y clorpromazina. En veinticuatro horas desarrolla confusión, desorientación, náuseas, vómitos y sudoración. Tiene taquicardia, presión de ciento setenta sobre ciento diez, aumento del tono muscular y sopor superficial."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: neuroléptico maligno; discontinuación de antidepresivos; privación de benzodiacepinas; serotoninérgico; o anticolinérgico. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D. Hay tres fármacos y la pregunta es difícil, porque la clorpromazina tienta con el neuroléptico maligno. Pero fíjate en el tiempo: veinticuatro horas, con vómitos, sudoración e hipertensión, y un inhibidor de la recaptura de serotonina como la sertralina. Un cuadro tan rápido y con esa activación autonómica orienta al serotoninérgico. El neuroléptico maligno suele instalarse más lento, con la rigidez plástica y la fiebre alta como protagonistas."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil dieciséis. Un paciente de veinticuatro años con retraso mental severo recibe clorpromazina, y le suben la dosis de cien a trescientos miligramos al día. Evoluciona con más agresividad, retención urinaria y constipación. Tiene las mucosas secas y midriasis."
+    },
+    {
+      "file": "s14_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: colinérgico; anticolinérgico; neuroléptico maligno; serotoninérgico; o adrenérgico. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B. Midriasis, mucosas secas, retención urinaria y constipación son el síndrome anticolinérgico, un efecto de la clorpromazina a dosis alta. El neuroléptico maligno tendría rigidez, fiebre y alteración de la conciencia. Y el colinérgico es lo contrario: miosis, vómitos y secreciones, como en los organofosforados."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una pregunta de práctica del banco EUNACOM. Un paciente en la unidad de cuidados intensivos tiene un síndrome neuroléptico maligno grave y persiste con cuarenta coma dos grados de temperatura y rigidez severa, a pesar de seis horas con el neuroléptico suspendido, enfriamiento físico e hidratación intensa. Se decide usar farmacoterapia específica de rescate."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál esquema es el indicado?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: dantroleno endovenoso y o bromocriptina por sonda; flumazenil; naloxona; haloperidol en infusión; o ciproheptadina sola. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la A. Dantroleno y bromocriptina son los dos fármacos de rescate. El flumazenil y la naloxona son antídotos de benzodiacepinas y opioides, y la ciproheptadina es del serotoninérgico. El haloperidol es la peor opción: es el fármaco que provocó el cuadro."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Cerremos con las reglas de oro. Un antipsicótico recién iniciado o aumentado, con fiebre, rigidez en caño de plomo, disautonomía, conciencia alterada y CPK alta, es un síndrome neuroléptico maligno hasta demostrar lo contrario."
+    },
+    {
+      "file": "s16_g01",
+      "text": "Si hay hiperreflexia, clonus, diarrea y midriasis, es serotoninérgico. Si la rigidez es plástica y los reflejos son normales o bajos, es neuroléptico maligno. Y si ocurre en pabellón, tras un anestésico, es hipertermia maligna."
+    },
+    {
+      "file": "s16_g02",
+      "text": "La primera medida siempre es suspender el antipsicótico, sin esperar exámenes y sin dar más haloperidol."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Después hidratación masiva para proteger el riñón, enfriamiento físico y traslado a unidad crítica, donde se usan bromocriptina y dantroleno si es grave. Si te llevas una sola idea de hoy: ante fiebre y rigidez con un antipsicótico, se suspende el fármaco y se hidrata. Nos vemos en la próxima clase."
+    }
+  ]
+}

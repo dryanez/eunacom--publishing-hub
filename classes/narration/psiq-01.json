@@ -1,0 +1,336 @@
+{
+  "id": "psiq-01",
+  "title": "Psiquiatria 17.1: Trastorno Depresivo Mayor: Criterios DSM-5, Escalas, ISRS y Guía GES",
+  "specialty": "Psiquiatría",
+  "chars": 14910,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos el trastorno depresivo mayor, la enfermedad de salud mental que más se pregunta en el EUNACOM. Vamos a ver cómo se diagnostica, cómo se mide su gravedad, cómo se inicia y se sostiene el tratamiento con inhibidores selectivos de la recaptación de serotonina, y cuándo hay que derivar. Es una enfermedad frecuente, tratable y que se maneja en atención primaria, y por eso el médico general tiene que dominarla."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Primero la idea de fondo: la depresión no es debilidad de carácter ni un duelo largo, es una alteración neurobiológica. El estrés crónico mantiene alto el cortisol, y eso baja un factor de crecimiento neuronal llamado BDNF. Resultado: atrofia del hipocampo y de la corteza prefrontal."
+    },
+    {
+      "file": "s01_g01",
+      "text": "A eso se suma la hipótesis monoaminérgica: hay un déficit funcional de serotonina, noradrenalina y dopamina en los circuitos límbicos y frontales. De ahí salen el ánimo bajo, la pérdida del placer y la falta de energía."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Los fármacos de primera línea, los inhibidores selectivos de la recaptación de serotonina, bloquean la recaptación y suben la serotonina en la sinapsis. Pero la recuperación de los circuitos es lenta, y por eso el efecto tarda semanas. Esa latencia es una de las ideas más preguntadas."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En Chile, la depresión afecta a cerca de diecisiete por ciento de los adultos, y es el doble de frecuente en mujeres que en hombres."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Es la primera causa de discapacidad por enfermedad mental en el mundo, y por eso tiene garantía explícita en salud."
+    },
+    {
+      "file": "s02_g02",
+      "text": "El riesgo de morir por suicidio es veinte veces mayor que en la población sin patología afectiva. Por eso en toda depresión se pregunta por suicidio, y eso lo vemos en detalle en la tercera clase de este bloque."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Además se asocia a enfermedad coronaria, diabetes y accidente cerebrovascular, y esas enfermedades también empeoran el pronóstico de la depresión."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Para un episodio depresivo mayor, el DSM cinco pide al menos cinco de nueve síntomas, casi todos los días, y que representen un cambio respecto a cómo era la persona antes."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Durante al menos dos semanas consecutivas, y con deterioro de su vida social o laboral."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y uno de esos cinco tiene que ser ánimo deprimido o anhedonia, que es la pérdida de interés o de placer. Fíjate: una paciente puede no estar triste y aun así tener depresión si tiene anhedonia."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Pérdida o aumento de peso, mayor de cinco por ciento en un mes, o cambio del apetito."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Insomnio, a menudo de despertar precoz, o hipersomnia; fatiga; y agitación o enlentecimiento que otros pueden observar."
+    },
+    {
+      "file": "s03_g05",
+      "text": "Sentimientos de inutilidad o culpa excesiva, menos capacidad para concentrarse o decidir, y pensamientos recurrentes de muerte o ideación suicida."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Que cumpla los criterios no basta. Los síntomas no pueden explicarse por una sustancia, como alcohol o corticoides, ni por una enfermedad, como hipotiroidismo, anemia grave, déficit de vitamina B doce o lupus. Por eso se pide TSH y hemograma."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Segundo, descartar un episodio de manía o hipomanía, aunque sea antiguo. Si existió, el diagnóstico cambia a trastorno bipolar, y el tratamiento también. Lo vemos en la próxima clase, y es una de las trampas favoritas del examen."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y en toda consulta por depresión se indaga activamente el riesgo suicida. Solo después de eso se estratifica la gravedad y se decide el tratamiento."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La melancólica tiene anhedonia absoluta, el ánimo no reacciona a nada agradable, despierta al menos dos horas antes, está peor en la mañana, y hay enlentecimiento y baja de peso marcada. Responde mejor a antidepresivos duales, y en los casos graves a terapia electroconvulsiva."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La atípica es lo opuesto: el ánimo mejora con eventos positivos, y hay hipersomnia, aumento del apetito con ganancia de peso, pesadez en las extremidades llamada parálisis de plomo, y sensibilidad al rechazo. Se parte igual con un ISRS."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La psicótica trae delirios congruentes con el ánimo, de ruina, de culpa o nihilistas, como el síndrome de Cotard, o alucinaciones. Es una urgencia: se trata con antidepresivo más antipsicótico, o terapia electroconvulsiva, y suele requerir hospitalización."
+    },
+    {
+      "file": "s05_g03",
+      "text": "La estacional aparece en otoño e invierno y remite en primavera. Se agrega fototerapia matinal a diez mil lux."
+    },
+    {
+      "file": "s06_g00",
+      "text": "El cuestionario de salud del paciente, el PHQ nueve, es la escala que usa la guía GES. De cinco a nueve puntos es depresión leve: psicoeducación, intervención psicosocial breve y control activo en dos a cuatro semanas."
+    },
+    {
+      "file": "s06_g01",
+      "text": "De diez a catorce, moderada: ya se agrega tratamiento farmacológico con un ISRS más psicoterapia estructurada, con control cada dos semanas."
+    },
+    {
+      "file": "s06_g02",
+      "text": "De quince a diecinueve, moderadamente grave: ISRS a dosis plena, psicoterapia y apoyo de la familia, con apoyo de la consultoría de salud mental."
+    },
+    {
+      "file": "s06_g03",
+      "text": "De veinte a veintisiete, grave: se deriva con urgencia, y se evalúa hospitalizar sobre todo si hay riesgo suicida. Recuerda que el puntaje orienta, pero la psicosis o el riesgo suicida mandan por sobre la cifra."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La sertralina se parte con cincuenta miligramos en la mañana y puede subir hasta doscientos. Es el fármaco de elección en cardiopatía isquémica y durante la lactancia."
+    },
+    {
+      "file": "s07_g01",
+      "text": "El escitalopram, de diez a veinte miligramos, es el más selectivo y tiene pocas interacciones. Con dosis sobre veinte hay que cuidar el intervalo QT."
+    },
+    {
+      "file": "s07_g02",
+      "text": "La fluoxetina, de veinte a sesenta miligramos, tiene vida media muy larga, lo que protege si el paciente olvida tomas, pero exige un lavado largo si hay que cambiarla."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Explica que el efecto antidepresivo tarda entre dos y cuatro semanas. Si no se avisa, el paciente abandona en la primera semana creyendo que no sirve."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y que los efectos adversos, como náuseas, dispepsia, cefalea o ansiedad transitoria, aparecen los primeros días y suelen ceder solos."
+    },
+    {
+      "file": "s07_g05",
+      "text": "Otra regla: las benzodiacepinas no tienen efecto antidepresivo y generan dependencia. Nunca en monoterapia para una depresión."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Se parte con el ISRS y se controla a las dos semanas, y la respuesta real se evalúa entre las cuatro y las seis semanas, revisando antes de nada si el paciente de verdad toma el fármaco."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Si hay respuesta parcial y buena tolerancia, el primer paso es subir la dosis hasta el techo terapéutico antes de rotar. Si falla a dosis máxima, o hay intolerancia, se cambia a otro ISRS o a un antidepresivo dual, como venlafaxina o duloxetina, o a uno multimodal, como bupropión o mirtazapina."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y cuando llega la remisión completa, la regla de oro: se mantiene la misma dosis eficaz entre seis y doce meses en un primer episodio. Con tres o más episodios, el mantenimiento puede ser indefinido."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La venlafaxina inhibe serotonina y noradrenalina, la segunda con dosis sobre ciento cincuenta miligramos. Sirve en melancolía y en dolor neuropático, pero hay que vigilar la presión arterial."
+    },
+    {
+      "file": "s09_g01",
+      "text": "El bupropión no produce disfunción sexual ni ganancia de peso, y ayuda a dejar de fumar, pero está prohibido en epilepsia y en trastornos de la conducta alimentaria por el riesgo de convulsiones."
+    },
+    {
+      "file": "s09_g02",
+      "text": "La mirtazapina da sedación y aumenta mucho el apetito, por lo que es buena en el adulto mayor con insomnio y baja de peso."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La depresión en personas de quince años y más está en el GES número veintiuno. La sospecha se confirma en atención primaria dentro de veinticuatro horas, y el tratamiento parte de inmediato."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Inicio inmediato de psicoterapia y de un ISRS, con control presencial a las dos semanas para ver adherencia, tolerancia y seguridad."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Se deriva de inmediato si hay riesgo suicida moderado o alto, o síntomas psicóticos."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si hay sospecha de trastorno bipolar, por antecedente de manía o hipomanía."
+    },
+    {
+      "file": "s10_g04",
+      "text": "También si la depresión es refractaria, es decir, falló en dos esquemas bien indicados, si hay abuso de sustancias importante, o si es una depresión grave en embarazo o puerperio con rechazo alimentario."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Armemos el árbol: de la sospecha de depresión al mantenimiento. Un paciente consulta por ánimo bajo o pérdida del interés. Partimos confirmando el diagnóstico y revisando la seguridad."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Se verifican los cinco de nueve criterios, se piden TSH y hemograma, se pregunta por manía previa y se indaga activamente el riesgo suicida."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Con delirios, riesgo suicida moderado o alto, o sospecha de bipolaridad, se deriva con urgencia y se evalúa hospitalizar."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Se inicia un ISRS con psicoterapia, se explica la latencia de dos a cuatro semanas y se controla a las dos semanas."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Si hay respuesta parcial se sube al techo terapéutico. Si falla a dosis máxima, se cambia a otro ISRS o a un dual."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Se mantiene el fármaco entre seis y doce meses, y en recurrencias puede ser indefinido."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Depresión mayor sin psicosis ni riesgo alto: ISRS más psicoterapia en atención primaria. El error es dar benzodiacepinas solas, o un tricíclico, que ya no es de primera línea."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Si hay respuesta parcial y buena tolerancia, primero se sube la dosis; el cambio de fármaco viene después."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Si ya está en dosis máxima y no hay respuesta, se cambia, por ejemplo a venlafaxina."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Cuando el paciente mejora, no se suspende. Se mantiene la misma dosis seis a doce meses."
+    },
+    {
+      "file": "s12_g04",
+      "text": "La depresión psicótica con rechazo alimentario es una urgencia: hospitalización y evaluación de terapia electroconvulsiva."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Y si el cuadro no cumple los cinco síntomas o el tiempo, y hay un gatillante claro, piensa en trastorno adaptativo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una profesora de cuarenta y un años, sin antecedentes. Seis semanas con tristeza persistente, llanto, pérdida del interés, despertar a las cuatro de la mañana con angustia, fatiga, baja de cuatro kilos y culpa excesiva. El PHQ nueve da diecisiete. Niega ideas de muerte y no tiene antecedentes de euforia."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada en el consultorio?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: clonazepam con control en tres meses; sertralina, psicoterapia, explicar la latencia y control en dos semanas; hospitalización para terapia electroconvulsiva; reposo sin fármacos; o amitriptilina con haloperidol. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. Cumple los criterios de depresión mayor, moderadamente grave, sin psicosis ni riesgo suicida: ISRS, psicoterapia, educar sobre la latencia y control en dos semanas. La benzodiacepina no trata la depresión, la hospitalización y la terapia electroconvulsiva serían para psicosis o riesgo vital, y la amitriptilina con haloperidol son dosis tóxicas innecesarias."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un hombre de cuarenta y tres años, tres meses con ánimo bajo, anhedonia, insomnio de conciliación y despertar precoz, aumento de peso y pensamientos negativos sobre sí mismo. Sin ideación suicida."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el fármaco de elección para iniciar el tratamiento?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: alprazolam; sertralina; quetiapina; carbonato de litio; o amitriptilina. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B. Aunque el aumento de peso recuerde a una depresión atípica, la primera línea sigue siendo un ISRS, como la sertralina. La amitriptilina es un tricíclico, con más efectos adversos y más letal en sobredosis, el alprazolam no es antidepresivo, y la quetiapina y el litio son de otros trastornos."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Una mujer de cuarenta y cinco años, dos meses con irritabilidad, ánimo triste y agobio tras separarse de su pareja, con llanto ocasional y dificultad para dormir. Sigue trabajando y mantiene sus actividades, se siente mejor con ejercicio y compañía, y más triste cuando vuelve sola a casa."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: episodio depresivo mayor; trastorno adaptativo; trastorno conversivo; ansiedad generalizada; o sana. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B. Tiene un gatillante claro y síntomas del ánimo, pero el ánimo reacciona, mantiene su funcionamiento y no completa los criterios de depresión mayor. Esa es la diferencia que se pregunta: la depresión mayor pide cinco síntomas durante dos semanas y deterioro marcado; el adaptativo, no. No está sana, porque hay malestar y baja de rendimiento."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Un hombre de cuarenta y cinco años con depresión de cuatro meses, sin manía ni psicosis, con un episodio previo tratado con fluoxetina. Lleva cuatro semanas con escitalopram, veinte miligramos al día, sin mejoría y sin efectos adversos. La tiroides y la vitamina B doce son normales."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: aumentar la dosis de escitalopram; cambiar a venlafaxina; terapia electroconvulsiva; agregar quetiapina; o cambiar a fluoxetina. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la B. Fíjate en el detalle: veinte miligramos es la dosis máxima de escitalopram, así que subirla no es posible, que es la tentación de la A. Falla a dosis máxima, buena tolerancia y sin causa médica: se cambia a un dual, como la venlafaxina. La terapia electroconvulsiva y la quetiapina son para depresión psicótica o refractaria, y otro ISRS es menos probable que ayude."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un hombre de veinticinco años con seis semanas de tristeza, culpa patológica e insomnio. Inicia escitalopram, diez miligramos al día. Tres semanas después está sin tristeza, sin culpa y durmiendo bien, como antes de enfermar."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: suspender el tratamiento; disminuir la dosis; mantenerlo tres meses; mantenerlo doce meses; o cambiar a fluoxetina. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la D. Haber mejorado no es motivo para suspender: el tratamiento se mantiene a la misma dosis entre seis y doce meses tras la remisión. Es una pregunta difícil, porque la regla habla de seis a doce meses y de las alternativas solo doce meses es aceptable. Tres meses es muy poco y aumenta el riesgo de recaída."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil quince. Una mujer de ochenta y dos años con dos intentos de suicidio previos, ánimo bajo, irritabilidad y problemas de memoria. El minimental da veintisiete sobre treinta, la escala de depresión geriátrica doce sobre quince, y tiene ideas delirantes de daño."
+    },
+    {
+      "file": "s18_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s18_g02",
+      "text": "Las opciones: terapia electroconvulsiva; iniciar sertralina; hospitalizar con mirtazapina; clorpromazina; o hospitalizar con amitriptilina. Piénsalo."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Es la A. Con un minimental normal, las quejas de memoria no sugieren demencia, y las ideas delirantes con ánimo bajo orientan a una depresión psicótica. Con intentos previos y delirios, el riesgo es alto, y la terapia electroconvulsiva es la opción más segura y de respuesta más rápida. Sertralina sola no basta, y amitriptilina y clorpromazina son mala idea en el adulto mayor por sus efectos anticolinérgicos y cardiovasculares."
+    },
+    {
+      "file": "s19_g00",
+      "text": "Cerremos con las reglas de oro. La depresión mayor pide cinco de nueve síntomas por dos semanas, con ánimo deprimido o anhedonia obligatorios."
+    },
+    {
+      "file": "s19_g01",
+      "text": "Antes de tratar, se descarta causa médica, se pregunta por manía previa y se indaga el riesgo suicida."
+    },
+    {
+      "file": "s19_g02",
+      "text": "El tratamiento de primera línea es un ISRS más psicoterapia, explicando que el efecto tarda entre dos y cuatro semanas. Sin respuesta, primero se sube la dosis y luego se cambia."
+    },
+    {
+      "file": "s19_g03",
+      "text": "Tras la remisión se mantiene seis a doce meses, y si hay psicosis, riesgo suicida alto o sospecha de bipolaridad, se deriva. Si te llevas una sola idea de hoy: la depresión se trata con ISRS, se espera la latencia, y no se suspende al mejorar. Nos vemos en la próxima clase."
+    }
+  ]
+}

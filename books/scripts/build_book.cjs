@@ -32,6 +32,7 @@ try {
     throw new Error("Cannot find module 'puppeteer'. Please run 'npm install' first.");
   }
 }
+const QRCode = require('qrcode');
 const matcher = require('./reconstruction_matcher.cjs');
 const { autoFigSpec, withFigRefs } = require('./figspec_clases.cjs');
 
@@ -365,7 +366,7 @@ function prepare(data, figSpec) {
     const classes = data.filter(c => c.blockNum === bn);
     return { bn, name: classes[0].blockName, classes };
   });
-  let cursor = 3;
+  let cursor = 4;
   blocks.forEach(b => {
     b.startPage = cursor; cursor += 2; // 2 páginas para la portada oscura de bloque
     b.classes.forEach(c => {
@@ -472,6 +473,143 @@ function coverPage(x) {
           <span class="foot-left">${spec.module || 'Módulo 2 · Cirugía y Especialidades'} · ${data.length} clases</span>
         </div>
       </div>
+    </div>
+  </div>`;
+}
+
+function creditsAndPromoPage(x) {
+  const { spec, qrSvg } = x;
+  const qr = qrSvg || '';
+
+  return `
+  <div class="credits-page">
+    <div class="cp-stripe" style="background: ${spec.accent || '#08365f'};"></div>
+    <div class="cp-container">
+      
+      <!-- Encabezado editorial superior -->
+      <div class="cp-header">
+        <div class="cp-header-left">
+          <div class="cp-series-label">COLECCIÓN DE MANUALES CLÍNICOS EUNACOM 2026</div>
+          <div class="cp-series-sub">Primera Edición Oficial · Temario Oficial ASOFAMECh Perfil V3</div>
+        </div>
+        <div class="cp-header-right">
+          <div class="cp-tomo-num">TOMO ${spec.ch}</div>
+          <div class="cp-tomo-title">${spec.title.toUpperCase()}</div>
+        </div>
+      </div>
+
+      <div class="cp-rule-thin"></div>
+
+      <!-- Bloque de Autores y Créditos Médicos -->
+      <div class="cp-faculty-section">
+        
+        <div class="cp-sec-title">DIRECCIÓN ACADÉMICA Y EDITORIAL</div>
+        <div class="cp-director-row">
+          <div class="cp-dir-name">Dr. Felipe Yáñez, MD</div>
+          <div class="cp-dir-spec">Especialista en Medicina Interna</div>
+          <div class="cp-dir-inst">Klinikum Nürnberg · Nuremberg, Alemania</div>
+        </div>
+
+        <div class="cp-sec-title" style="margin-top: 14px;">COMITÉ MÉDICO CIENTÍFICO Y ASESORÍA INTERNACIONAL</div>
+        <div class="cp-faculty-grid">
+          
+          <div class="cp-faculty-col">
+            <div class="cp-doc-card">
+              <div class="cp-doc-name">Dr. José Petta, MD</div>
+              <div class="cp-doc-spec">Especialista en Pediatría</div>
+              <div class="cp-doc-inst">Múnich, Alemania</div>
+            </div>
+            <div class="cp-doc-card">
+              <div class="cp-doc-name">Dr. Melvin Bauer, MD</div>
+              <div class="cp-doc-spec">Especialista en Neurocirugía</div>
+              <div class="cp-doc-inst">Zúrich, Suiza</div>
+            </div>
+            <div class="cp-doc-card">
+              <div class="cp-doc-name">Dr. James Curtis, MD</div>
+              <div class="cp-doc-spec">Especialista en Dermatología</div>
+              <div class="cp-doc-inst">Dublín, Irlanda</div>
+            </div>
+          </div>
+
+          <div class="cp-faculty-col">
+            <div class="cp-doc-card">
+              <div class="cp-doc-name">Dr. Nicolo Durante, MD</div>
+              <div class="cp-doc-spec">Especialista en Oftalmología</div>
+              <div class="cp-doc-inst">Varsovia / Roma, Italia</div>
+            </div>
+            <div class="cp-doc-card">
+              <div class="cp-doc-name">Dr. Gordon Dunn, MD</div>
+              <div class="cp-doc-spec">Especialista en Psiquiatría &amp; Salud Mental</div>
+              <div class="cp-doc-inst">Boston, Estados Unidos</div>
+            </div>
+            <div class="cp-doc-card cp-doc-card-inst">
+              <div class="cp-doc-name">Equipo Académico EUNACOM</div>
+              <div class="cp-doc-spec">Revisión Normativa GES &amp; Pautas Clínicas MINSAL</div>
+              <div class="cp-doc-inst">Santiago de Chile</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Placa Institucional de Activación Digital (Estilo CTO / Student Consult) -->
+      <div class="cp-license-plate">
+        <div class="cp-plate-header">
+          <div class="cp-plate-title">CAMPUS VIRTUAL &amp; PLATAFORMA DE PREPARACIÓN EUNACOM</div>
+          <div class="cp-plate-badge">ACTIVACIÓN DE COMPLEMENTO DIGITAL</div>
+        </div>
+
+        <div class="cp-plate-body">
+          <p class="cp-plate-intro">
+            Esta obra forma parte del programa oficial de preparación médica EUNACOM 2026. A través de la plataforma virtual institucional, los médicos habilitan la biblioteca completa de los <strong>21 tomos oficiales</strong>, más de <strong>300 videoclases modulares</strong> y el <strong>simulador interactivo</strong> con más de 2.700 preguntas oficiales razonadas.
+          </p>
+
+          <div class="cp-plate-action-grid">
+            <div class="cp-qr-frame">
+              <div class="cp-qr-inner">
+                ${qr}
+              </div>
+              <div class="cp-qr-caption">ESCANEAR PARA ACCESO DIRECTO</div>
+            </div>
+
+            <div class="cp-plate-details">
+              <div class="cp-detail-row">
+                <span class="cp-dl-k">Portal oficial de activación:</span>
+                <span class="cp-dl-url">https://www.eunacomapp.cl/bienvenido</span>
+              </div>
+
+              <div class="cp-detail-row" style="margin-top: 6px;">
+                <span class="cp-dl-k">Clave de bonificación académica (50% OFF):</span>
+                <div class="cp-voucher-code">MANUAL50</div>
+              </div>
+
+              <div class="cp-detail-note">
+                Financiamiento en cuotas mensuales disponible vía <strong>Mercado Pago</strong> y pagos internacionales vía <strong>PayPal</strong>.
+              </div>
+            </div>
+          </div>
+
+          <div class="cp-plate-channels">
+            <span class="cp-ch-title">COMUNIDADES MÉDICAS Y ACTUALIZACIONES:</span>
+            <div class="cp-ch-list">
+              <span class="cp-ch-item">YouTube: <strong>Academia Examen EUNACOM</strong></span>
+              <span class="cp-ch-item">Instagram: <strong>@eunacomapp</strong></span>
+              <span class="cp-ch-item">Facebook: <strong>Academia Examen EUNACOM</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pie de imprenta legal y colofón -->
+      <div class="cp-colophon">
+        <div class="cp-colophon-line">
+          <span><strong>© 2026 Academia Examen EUNACOM.</strong> Todos los derechos reservados. Depósito Legal e ISBN en trámite.</span>
+        </div>
+        <p class="cp-colophon-p">
+          Queda rigurosamente prohibida la reproducción total o parcial de esta obra por cualquier medio mecánico, electrónico o digital sin la autorización expresa por escrito de los titulares del copyright. Las recomendaciones farmacológicas y terapéuticas han sido verificadas conforme a las Guías Clínicas GES y normas vigentes del Ministerio de Salud de Chile (MINSAL) y ASOFAMECh.
+        </p>
+      </div>
+
     </div>
   </div>`;
 }
@@ -886,7 +1024,7 @@ function mark(html, id) {
 function buildHtml(x) {
   const t = themeVars(x.spec.accent);
   const body = [
-    coverPage(x), indexPage(x),
+    coverPage(x), creditsAndPromoPage(x), indexPage(x),
     ...x.blocks.flatMap(b => [mark(chapterOpener(b, x), `B${b.bn}`), ...b.classes.map(c => mark(topicPage(c, b, x), `T${c.topicLabel}`)), synthesisPage(b, x)]),
     mark(solucionarioPages(x), 'SOL'),
   ].join('\n');
@@ -927,6 +1065,70 @@ body{font-family:'IBM Plex Sans',system-ui,sans-serif;color:#15181d;font-size:10
 .rule{height:3px;background:var(--acc);margin-top:8px}
 .pg-lead h2{font:700 25px/1.15 'Spectral',serif;letter-spacing:-.01em;margin-top:3px}
 .pg-lead-p{font:400 10.2px/1.5 'IBM Plex Sans',sans-serif;color:#475569;max-width:640px;margin-top:6px}
+
+/* PÁGINA 2 · CRÉDITOS EDITORIALES Y COMPLEMENTO DIGITAL */
+.credits-page{position:relative;width:794px;height:1123px;max-height:1123px;overflow:hidden;background:#ffffff;page-break-after:always;-webkit-print-color-adjust:exact;print-color-adjust:exact;box-sizing:border-box}
+.cp-stripe{position:absolute;left:0;top:0;width:10px;height:100%}
+.cp-container{padding:44px 50px 32px 56px;display:flex;flex-direction:column;justify-content:space-between;height:100%;box-sizing:border-box}
+
+.cp-header{display:flex;justify-content:space-between;align-items:flex-start}
+.cp-series-label{font:700 9px/1.2 'JetBrains Mono',monospace;letter-spacing:.14em;color:#08365f;text-transform:uppercase}
+.cp-series-sub{font:500 8.5px/1.3 'IBM Plex Sans',sans-serif;color:#64748b;margin-top:2px}
+.cp-header-right{display:flex;flex-direction:column;align-items:flex-end}
+.cp-tomo-num{font:800 11px/1 'JetBrains Mono',monospace;color:var(--acc);letter-spacing:.1em}
+.cp-tomo-title{font:800 11px/1.2 'IBM Plex Sans',sans-serif;color:#0f172a;letter-spacing:.06em}
+
+.cp-rule-thin{height:1px;background:#cbd5e1;margin:10px 0 12px 0}
+
+/* Sección de Autores & Facultad Médica */
+.cp-faculty-section{display:flex;flex-direction:column}
+.cp-sec-title{font:800 8px/1.2 'JetBrains Mono',monospace;letter-spacing:.12em;text-transform:uppercase;color:#08365f;border-bottom:1px solid #08365f;padding-bottom:2.5px;margin-bottom:6px}
+
+.cp-director-row{background:#f8fafc;border-left:3px solid #08365f;padding:6px 10px;border-radius:0 2px 2px 0;margin-bottom:4px}
+.cp-dir-name{font:700 11.5px/1.2 'IBM Plex Sans',sans-serif;color:#08365f}
+.cp-dir-spec{font:600 9.5px/1.2 'IBM Plex Sans',sans-serif;color:#1e293b}
+.cp-dir-inst{font:400 8.8px/1.2 'IBM Plex Sans',sans-serif;color:#64748b}
+
+.cp-faculty-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cp-faculty-col{display:flex;flex-direction:column;gap:5px}
+.cp-doc-card{background:#ffffff;border:1px solid #e2e8f0;border-left:2.5px solid #64748b;padding:5px 8px;border-radius:0 2px 2px 0}
+.cp-doc-card-inst{border-left-color:#08365f;background:#f8fafc}
+.cp-doc-name{font:700 9.8px/1.2 'IBM Plex Sans',sans-serif;color:#0f172a}
+.cp-doc-spec{font:500 8.8px/1.2 'IBM Plex Sans',sans-serif;color:#334155}
+.cp-doc-inst{font:400 8.2px/1.2 'IBM Plex Sans',sans-serif;color:#64748b}
+
+/* Placa Institucional de Activación Digital */
+.cp-license-plate{border:1.5px solid #08365f;border-radius:3px;background:#ffffff;margin-top:10px;overflow:hidden}
+.cp-plate-header{background:#08365f;color:#ffffff;padding:6px 12px;display:flex;justify-content:space-between;align-items:center}
+.cp-plate-title{font:700 9.5px/1 'JetBrains Mono',monospace;letter-spacing:.1em;color:#ffffff}
+.cp-plate-badge{font:700 7.5px/1 'JetBrains Mono',monospace;letter-spacing:.08em;background:rgba(255,255,255,0.18);padding:2.5px 6px;border-radius:2px;color:#e2e8f0}
+
+.cp-plate-body{padding:10px 14px;display:flex;flex-direction:column;gap:8px}
+.cp-plate-intro{font:400 8.8px/1.42 'IBM Plex Sans',sans-serif;color:#334155;text-align:justify;margin:0}
+.cp-plate-intro strong{color:#08365f}
+
+.cp-plate-action-grid{display:grid;grid-template-columns:100px 1fr;gap:14px;align-items:center;background:#f8fafc;border:1px solid #e2e8f0;padding:8px 10px;border-radius:2px}
+.cp-qr-frame{display:flex;flex-direction:column;align-items:center;gap:3px;background:#ffffff;padding:4px;border:1px solid #cbd5e1;border-radius:2px}
+.cp-qr-inner svg{width:88px;height:88px;display:block}
+.cp-qr-caption{font:700 6px/1 'JetBrains Mono',monospace;letter-spacing:.08em;color:#08365f;text-align:center}
+
+.cp-plate-details{display:flex;flex-direction:column;gap:4px}
+.cp-detail-row{display:flex;flex-direction:column;gap:1.5px}
+.cp-dl-k{font:700 7.8px/1 'JetBrains Mono',monospace;letter-spacing:.08em;text-transform:uppercase;color:#64748b}
+.cp-dl-url{font:700 11px/1.2 'JetBrains Mono',monospace;color:#08365f}
+.cp-voucher-code{font:800 13px/1 'JetBrains Mono',monospace;letter-spacing:.15em;color:#08365f;background:#ffffff;border:1.5px dashed #08365f;padding:4px 10px;border-radius:2px;display:inline-block;width:fit-content;margin-top:2px}
+.cp-detail-note{font:400 8.2px/1.3 'IBM Plex Sans',sans-serif;color:#475569;margin-top:4px}
+.cp-detail-note strong{color:#08365f}
+
+.cp-plate-channels{display:flex;flex-direction:column;gap:3px;border-top:1px solid #e2e8f0;padding-top:6px}
+.cp-ch-title{font:700 7.2px/1 'JetBrains Mono',monospace;letter-spacing:.08em;color:#64748b}
+.cp-ch-list{display:flex;gap:14px;font:400 8px/1 'IBM Plex Sans',sans-serif;color:#475569}
+.cp-ch-item strong{color:#08365f}
+
+/* Colofón Legal */
+.cp-colophon{border-top:1px solid #cbd5e1;padding-top:7px;display:flex;flex-direction:column;gap:3px}
+.cp-colophon-line{font:600 7.8px/1.2 'IBM Plex Sans',sans-serif;color:#334155}
+.cp-colophon-p{font:400 7.2px/1.35 'IBM Plex Sans',sans-serif;color:#64748b;text-align:justify;margin:0}
 
 /* COVER CANÓNICA AEE */
 .cover-aee{position:relative;width:794px;height:1123px;overflow:hidden;background:#0b1420;page-break-after:always;-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -1247,7 +1449,13 @@ async function buildBook(spec, browser) {
   const data = spec.dataset();
   const figSpec = autoFigSpec(data, spec.figSpec || {});
   const meta = prepare(data, figSpec);
-  const x = { spec: { ...spec, accent: spec.accent }, data, figSpec, figMap: new Map(), ...meta };
+  const qrUrl = `https://www.eunacomapp.cl/bienvenido?promo=MANUAL50&tomo=${spec.ch}`;
+  const qrSvg = await QRCode.toString(qrUrl, {
+    type: 'svg',
+    margin: 1,
+    color: { dark: '#08365f', light: '#ffffff' }
+  });
+  const x = { spec: { ...spec, accent: spec.accent }, data, figSpec, figMap: new Map(), qrSvg, ...meta };
 
   const jobs = figJobs(figSpec, spec.figDir);
   for (const j of jobs) x.figMap.set(j.key, await compressImage(browser, j.path, j.crop));

@@ -1,0 +1,332 @@
+{
+  "id": "psiq-06",
+  "title": "Psiquiatria 17.6: Trastorno de Pánico y Agorafobia: Manejo Agudo vs Mantenimiento con ISRS",
+  "specialty": "Psiquiatría",
+  "chars": 15048,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos el trastorno de pánico y la agorafobia. Es una causa muy frecuente de consulta en urgencias, porque el paciente llega aterrorizado creyendo que tiene un infarto. En el examen se repiten tres ideas: primero se descarta lo somático, segundo la benzodiacepina es solo para el rescate, y tercero el tratamiento de fondo son los inhibidores selectivos de la recaptación de serotonina, junto con terapia cognitivo-conductual."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El ataque de pánico nace de un circuito del miedo hiperreactivo. La amígdala activa el locus coeruleus, que es el centro noradrenérgico del puente, y se produce una oleada simpática brusca: palpitaciones, sudor, temblor."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El paciente interpreta esos síntomas como una catástrofe y siente que va a morir. Además hiperventila, y la alcalosis respiratoria explica el hormigueo alrededor de la boca y en las manos. Por eso, enseñarle a respirar lento es parte del tratamiento. El pico llega en menos de diez minutos."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El manual DSM cinco define el ataque de pánico como miedo o malestar intenso de inicio súbito, con pico en pocos minutos, y al menos cuatro de trece síntomas. Los primeros son cardiorrespiratorios: palpitaciones o taquicardia, sensación de falta de aire o de atragantamiento, y dolor o molestia en el pecho."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Luego los síntomas autonómicos y neurológicos: sudoración, temblor, náuseas, mareo o sensación de desmayo, escalofríos o calor, y hormigueo o adormecimiento."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y los síntomas psicológicos: sensación de irrealidad o de separarse de uno mismo, y miedo a perder el control o a volverse loco."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Y el más característico: el miedo inminente a morir. Cuando oigas que la paciente cree que se infarta pero el examen es normal, piensa en pánico."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Tener un ataque de pánico no es tener trastorno de pánico. El trastorno exige ataques recurrentes e imprevistos, sin un desencadenante inmediato evidente."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Además, tras al menos uno de los ataques tiene que haber pasado un mes con alguna de dos cosas: preocupación persistente por nuevas crisis o sus consecuencias, es decir ansiedad anticipatoria, o un cambio de conducta desadaptativo, como evitar el ejercicio o no salir solo."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Y cuando esa evitación se generaliza a lugares donde escapar sería difícil, aparece la agorafobia. Muchas veces las dos van juntas, y se habla de pánico con agorafobia."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Es miedo o ansiedad intensa en dos o más de estas situaciones: transporte público, espacios abiertos como plazas o estacionamientos, sitios cerrados como tiendas o cines, hacer filas o estar en multitudes, o estar fuera de casa solo."
+    },
+    {
+      "file": "s04_g01",
+      "text": "El motivo central es el temor a que escapar sea difícil o a no recibir ayuda si aparecen síntomas de pánico u otros incapacitantes."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Ojo con la fobia social: allí el miedo es a ser juzgado o a hacer el ridículo ante otros. En la agorafobia el miedo es a quedar atrapado y sin ayuda."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y cuando hay crisis de pánico recurrentes y además evitación, el diagnóstico que se prefiere es el trastorno de pánico con agorafobia. Esa fue la lógica de una pregunta real que veremos."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El pánico primario tiene un pico en menos de diez minutos, miedo a morir, y un electrocardiograma y laboratorio normales. Lo marca la recurrencia con ansiedad anticipatoria."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El síndrome coronario agudo da dolor retroesternal opresivo irradiado, con sudor frío. Se prolonga más de veinte a treinta minutos y aparece con esfuerzo o factores de riesgo. Se descarta con electrocardiograma y troponinas."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El tromboembolismo pulmonar trae disnea súbita sin explicación, dolor pleurítico y baja saturación. En el pánico la saturación es normal."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El feocromocitoma da la tríada de cefalea, sudor y palpitaciones, con crisis de hipertensión muy marcada. Se confirma con metanefrinas."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El hipertiroidismo cursa con pérdida de peso, temblor fino, bocio e intolerancia al calor. La ansiedad no remite entre episodios, y la TSH está baja."
+    },
+    {
+      "file": "s06_g00",
+      "text": "En todo paciente que consulta por primera vez con síntomas de pánico se descarta patología médica potencialmente letal. El electrocardiograma de doce derivaciones es obligatorio, y las troponinas si hay factores de riesgo o dolor atípico."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Se mide la glicemia capilar para descartar una hipoglicemia, y la saturación para descartar hipoxemia."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Se pide TSH para el hipertiroidismo, y se pregunta por cocaína, anfetaminas, exceso de cafeína y abstinencia de alcohol o benzodiacepinas."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Entre las causas cardiovasculares están el síndrome coronario, las arritmias paroxísticas y la miocardiopatía hipertrófica. Entre las respiratorias, el tromboembolismo, el asma y el neumotórax."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y entre las endocrinas, el feocromocitoma y la hipocalcemia. Todo esto se piensa antes de rotular algo como ansiedad."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Lo primero es contención verbal: un box silencioso, tono calmado y firme, y explicarle que sus síntomas son una descarga de ansiedad y que su corazón está sano."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Se le guía una respiración diafragmática pausada, que corrige la hiperventilación y alivia el hormigueo."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Si la angustia es intolerable, se da una benzodiacepina de acción rápida por vía sublingual u oral. En el banco real la respuesta fue lorazepam sublingual, de uno a dos miligramos; el libro también acepta clonazepam, de medio a un miligramo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Se desaconsejan las vías intramuscular y endovenosa, salvo agitación psicomotora extrema."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y la antigua bolsa de plástico para respirar ya no se usa, porque puede producir hipoxia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Hay un fenómeno clásico: en los primeros días de un ISRS, el paciente con pánico puede sentir más ansiedad, más temblor y más palpitaciones, por una hipersensibilidad serotoninérgica inicial. Si no se le avisa, abandona el tratamiento."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La regla es empezar con la mitad de la dosis habitual durante una a dos semanas, por ejemplo veinticinco miligramos de sertralina, y luego subir a la dosis plena, que parte en cincuenta."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Mientras el ISRS tarda en actuar, se puede usar una benzodiacepina como puente transitorio, de dos a cuatro semanas, con retiro gradual. Nunca como monoterapia permanente, porque produce tolerancia, dependencia y rebote."
+    },
+    {
+      "file": "s09_g00",
+      "text": "La primera línea son los inhibidores selectivos de la recaptación de serotonina, como sertralina, escitalopram y paroxetina, o el inhibidor dual venlafaxina. La sertralina es la que aparece una y otra vez en el banco real."
+    },
+    {
+      "file": "s09_g01",
+      "text": "La benzodiacepina es un puente de pocas semanas. Dejar a la paciente solo con benzodiacepinas de forma permanente es un error clásico."
+    },
+    {
+      "file": "s09_g02",
+      "text": "La terapia cognitivo-conductual es tan eficaz como el fármaco y tiene menos recaídas después de suspender el tratamiento."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Incluye psicoeducación sobre el origen benigno de los síntomas, y reestructuración de los pensamientos catastróficos, como creer que el corazón acelerado significa un paro."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y la exposición: interoceptiva, provocando de forma controlada la hiperventilación o la taquicardia para romper el condicionamiento del miedo, y en vivo, acercándose de forma gradual a los lugares evitados."
+    },
+    {
+      "file": "s10_g00",
+      "text": "En la crisis aguda, una benzodiacepina sublingual u oral después de la contención verbal. No se usa la vía endovenosa de rutina."
+    },
+    {
+      "file": "s10_g01",
+      "text": "En la mantención parte la sertralina con veinticinco miligramos durante una semana, luego cincuenta, con titulación lenta para evitar el empeoramiento paradójico."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Como alternativas, paroxetina o venlafaxina, con mayor sedación o efecto noradrenérgico."
+    },
+    {
+      "file": "s10_g03",
+      "text": "El puente es una benzodiacepina a dosis baja durante las primeras semanas, mientras llega el efecto del ISRS, y se retira gradualmente."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Armemos el árbol: de la crisis en urgencias al tratamiento de fondo. Un paciente llega aterrorizado con palpitaciones, sensación de ahogo y miedo a morir. Partimos asegurando que no sea una causa somática."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Se pide electrocardiograma de doce derivaciones, glicemia capilar y saturación, y TSH y tóxicos si corresponde. Con dolor típico o factores de riesgo, troponinas."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si el electrocardiograma o los exámenes muestran isquemia, tromboembolismo u otra causa, se maneja esa causa y no se rotula como pánico."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Contención verbal en un box tranquilo y respiración diafragmática lenta."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Si la angustia sigue intolerable, una benzodiacepina de acción rápida por vía sublingual u oral."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Se diagnostica trastorno de pánico, con agorafobia si hay evitación. Se inicia un ISRS a media dosis más terapia cognitivo-conductual, y la benzodiacepina solo como puente con retiro gradual."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Primer episodio de síntomas de pánico: electrocardiograma y descarte médico antes de rotular. El error es llamarlo ansiedad sin examinar."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Crisis aguda con electrocardiograma normal: contención verbal y una benzodiacepina sublingual si no cede. La adenosina es para la taquicardia supraventricular, no para la taquicardia sinusal del pánico."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Pánico recurrente: ISRS más terapia cognitivo-conductual. El error clásico es dejar benzodiacepinas solas."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si empeora los primeros días con el ISRS, es un fenómeno esperable: se parte con media dosis, se explica y se usa un puente. No se duplica la dosis ni se abandona."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Crisis recurrentes más evitación: trastorno de pánico con agorafobia. Si el miedo es al juicio de otros, es fobia social, otro cuadro."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Para la agorafobia, la psicoterapia de elección es la terapia cognitivo-conductual con exposición gradual en vivo."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una mujer de treinta y tres años llega a urgencias a las dos de la mañana. Hace treinta minutos, en su cama, sintió palpitaciones, opresión en el pecho, asfixia, hormigueo y la certeza de que moriría de un infarto. Está sudorosa y angustiada, con saturación normal y frecuencia de ciento quince. El electrocardiograma muestra solo taquicardia sinusal y las troponinas son negativas. Tuvo episodios idénticos hace dos y cuatro semanas, y desde entonces no sale sola."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: alta con alprazolam indefinido; contención, respiración y benzodiacepina sublingual, luego ISRS bajo y psicoterapia; hospitalizar por síndrome coronario; propranolol definitivo; o haloperidol intramuscular. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. Crisis recurrentes con evitación por un mes: pánico con agorafobia, y el electrocardiograma y las troponinas ya descartaron el infarto. En urgencias, contención, respiración y rescate sublingual. Para el largo plazo, ISRS partiendo bajo más terapia cognitivo-conductual. Dejar solo benzodiacepinas indefinidas es el error, el propranolol no trata el trastorno y el haloperidol no tiene lugar."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Una paciente con múltiples episodios recurrentes de cinco minutos, con mucha angustia, llanto, ahogo, hormigueo en las cuatro extremidades y miedo a sufrir un infarto. Ya no sale de casa por miedo a tener uno de esos episodios en la calle."
+    },
+    {
+      "file": "s14_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: trastorno de pánico; agorafobia; angustia generalizada; ansiedad social; o crisis de pánico. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la A. Hay episodios recurrentes con miedo a morir: trastorno de pánico. La evitación de salir sugiere además agorafobia, pero esa es una complicación y manda el pánico. La crisis de pánico es solo el episodio aislado, y la ansiedad generalizada es una preocupación constante, no episodios."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil trece. Una paciente de treinta y seis años, tres meses con varios episodios de taquicardia, sudor, falta de aire, náuseas y sensación de muerte, de hasta treinta minutos y que ceden solos. Dos le ocurrieron en una cafetería. Hace tres meses su pareja le pidió el divorcio en un restaurante, y desde entonces intenta no salir de casa por miedo a que algo le pase y nadie la ayude."
+    },
+    {
+      "file": "s15_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: ansiedad social; trastorno adaptativo; estrés postraumático; agorafobia; o trastorno de ansiedad, es decir, de pánico. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la E, el trastorno de pánico, que en la pregunta aparece como trastorno de ansiedad. Hay crisis recurrentes y evitación, o sea, pánico con agorafobia, y se prefiere el diagnóstico más completo. El estresor del divorcio tienta a pensar en adaptativo o estrés postraumático, pero las crisis recurrentes con miedo a morir mandan."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil trece. Una paciente de veinticuatro años, sin antecedentes, llega a urgencias con inicio brusco de falta de aire, dolor en el hemitórax izquierdo, mareo, sudor y adormecimiento de las manos, de treinta minutos. Frecuencia de ciento veinte, presión de ciento cuarenta sobre noventa, examen cardiopulmonar normal y electrocardiograma con ritmo sinusal, sin isquemia."
+    },
+    {
+      "file": "s16_g01",
+      "text": "El fármaco de elección para el manejo en este caso es:"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: haloperidol; diazepam; lorazepam; fenitoína; o clonazepam. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la C. Es una crisis de pánico con descarte cardíaco hecho, y para el rescate se usa una benzodiacepina de acción rápida y corta, lorazepam sublingual. Ojo con el matiz: esto es para la crisis aguda. Para evitar nuevas crisis el tratamiento es el ISRS, no la benzodiacepina. El haloperidol y la fenitoína no tienen indicación."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Una paciente de veintiocho años con un episodio de instalación rápida, con angustia marcada, falta de aire, vértigo, hormigueo, dificultad para tragar, opresión en el pecho, náuseas, visión borrosa y miedo a morir. En las últimas cuatro semanas ha tenido varios episodios similares y teme salir de su casa. Examen y exámenes generales normales."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es el tratamiento más adecuado para esta paciente?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: amitriptilina; sertralina; risperidona; clonazepam; o clorpromazina. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la B. Son crisis de pánico recurrentes con temor a salir: trastorno de pánico con agorafobia. El tratamiento principal es un ISRS, como la sertralina. El clonazepam es la trampa: alivia síntomas, pero no es el tratamiento de fondo. Risperidona y clorpromazina son antipsicóticos sin indicación, y la amitriptilina ya no es de primera línea."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil diecinueve. Una paciente de treinta y un años, embarazada de tres meses, con angustia y temor al estar entre aglomeraciones, sobre todo en la calle, donde se siente atrapada y ahogada. Algo similar en el supermercado y al cruzar puentes largos. Evita esas situaciones y sale menos de casa."
+    },
+    {
+      "file": "s18_g01",
+      "text": "¿Cuál es el tratamiento de elección?"
+    },
+    {
+      "file": "s18_g02",
+      "text": "Las opciones: diazepam; citalopram; clorpromazina; risperidona; o mirtazapina. Piénsalo."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Es la B. Miedo a aglomeraciones y lugares de los que no puede escapar, con evitación: agorafobia. Se trata con un ISRS, y aquí el banco eligió citalopram. El diazepam es la trampa: las benzodiacepinas se intentan evitar en el embarazo. En el embarazo la elección del fármaco se decide junto con obstetricia."
+    },
+    {
+      "file": "s19_g00",
+      "text": "Cerremos con las reglas de oro. El trastorno de pánico son crisis recurrentes e imprevistas, seguidas por al menos un mes de miedo a nuevas crisis o de evitación. La agorafobia es el miedo a no poder escapar."
+    },
+    {
+      "file": "s19_g01",
+      "text": "En un primer episodio, siempre electrocardiograma y descarte médico antes de rotular."
+    },
+    {
+      "file": "s19_g02",
+      "text": "En la crisis, contención verbal, respiración lenta y, si no cede, una benzodiacepina sublingual como rescate acotado."
+    },
+    {
+      "file": "s19_g03",
+      "text": "Y para el largo plazo, un ISRS partiendo con media dosis más terapia cognitivo-conductual, con la benzodiacepina solo como puente de dos a cuatro semanas. Si te llevas una sola idea de hoy: la benzodiacepina rescata, el ISRS con terapia cognitivo-conductual cura. Nos vemos en la próxima clase."
+    }
+  ]
+}

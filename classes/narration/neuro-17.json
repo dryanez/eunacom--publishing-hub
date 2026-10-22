@@ -2,7 +2,7 @@
   "id": "neuro-17",
   "title": "Neurologia 10.17: Miastenia Gravis: Fisiopatología (anti-AChR, anti-MuSK), Crisis Miasténica y Timoma",
   "specialty": "Neurología y Geriatría",
-  "chars": 15573,
+  "chars": 15710,
   "segments": [
     {
       "file": "s00_g00",
@@ -178,11 +178,11 @@
     },
     {
       "file": "s11_g00",
-      "text": "En la placa normal, la acetilcolina encuentra receptores libres en cada contracción, y la fuerza se mantiene igual."
+      "text": "En la placa normal, la terminal del nervio libera acetilcolina, que cruza la hendidura y encuentra receptores libres en el músculo en cada contracción. La fuerza se mantiene igual."
     },
     {
       "file": "s11_g01",
-      "text": "En la miastenia, los anticuerpos bloquean parte de los receptores. Con cada contracción se libera menos acetilcolina, y la fuerza va cayendo. Eso es la debilidad fatigable."
+      "text": "En la miastenia, los anticuerpos bloquean parte de los receptores. Con cada contracción se libera menos acetilcolina, se activan menos receptores y la fuerza va cayendo. Eso es la debilidad fatigable: empeora con el uso y mejora con el reposo."
     },
     {
       "file": "s12_g00",
@@ -206,7 +206,7 @@
     },
     {
       "file": "s13_g01",
-      "text": "Mira esta imagen: EMG fibra única. Fíjate en cómo se ve, porque así puede aparecer en el examen."
+      "text": "Electromiografía de fibra única: mide la variabilidad de la transmisión neuromuscular, el jitter."
     },
     {
       "file": "s14_g00",

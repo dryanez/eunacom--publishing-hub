@@ -1,0 +1,232 @@
+{
+  "id": "orl-04",
+  "title": "Otorrino 14.4: Complicaciones de Otitis: Mastoiditis Aguda y Tromboflebitis",
+  "specialty": "Otorrinolaringología",
+  "chars": 10199,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. En la primera clase del libro viste que una otitis media aguda mal tratada puede complicarse. Hoy vemos la complicación más frecuente: la mastoiditis aguda, y su pariente más temida, la tromboflebitis del seno sigmoide. Son preguntas de reconocimiento: si ves la oreja desplazada hacia adelante, sabes qué hacer. Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Toda otitis media aguda inflama un poco la mucosa de las celdas mastoideas, porque el oído medio se comunica con ellas por el aditus ad antrum. Eso es normal y no es mastoiditis."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Hablamos de mastoiditis aguda cuando el pus acumulado a presión produce necrosis isquémica y lisis de las trabéculas óseas. Por eso se llama coalescente: las celdas se funden en una sola cavidad de pus."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El pus puede romper la cortical externa del hueso temporal y formar un absceso subperióstico, que es lo que se ve detrás de la oreja. O puede ir hacia adentro, a la fosa craneal posterior o media, y producir meningitis, absceso cerebral o tromboflebitis séptica del seno lateral o sigmoide. Los gérmenes son los mismos de la otitis media aguda: neumococo, el más común y agresivo, Streptococcus pyogenes, Haemophilus y Staphylococcus aureus."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La mastoiditis es más frecuente en menores de dos años. El cuadro típico es un niño que tuvo una otitis media aguda, y de pronto la fiebre alta reaparece o empeora, con mal estado general."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Se agrega dolor intenso y pulsátil detrás de la oreja."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Los tres signos son estos. Primero, eritema, edema y aumento de volumen doloroso sobre la mastoides."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Segundo, el surco que normalmente existe entre la oreja y el cráneo se borra."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y tercero, el pabellón auricular se desplaza hacia adelante y hacia abajo, la oreja en asa. Con eso solo ya puedes hacer el diagnóstico."
+    },
+    {
+      "file": "s02_g05",
+      "text": "La otoscopía confirma la otitis media: tímpano abombado o perforado con otorrea purulenta abundante, y muchas veces con caída de la pared posterosuperior del conducto."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Ante la sospecha de mastoiditis, el examen de elección es el TAC de peñasco y cerebro con contraste endovenoso. Muestra las celdas ocupadas, la pérdida de trabéculas, el absceso subperióstico, y permite descartar complicaciones dentro del cráneo."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Una complicación temible es la tromboflebitis séptica del seno lateral o sigmoide. Se sospecha con fiebre en agujas, con picos y calofríos intensos, cefalea y signos de hipertensión endocraneana."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En el TAC o angio TAC con contraste aparece el signo del delta vacío: el trombo no capta contraste y queda como un defecto central, rodeado por el realce de la pared del seno. Esa frase, delta vacío, es la que preguntan."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El manejo exige hospitalización inmediata. La primera línea es ceftriaxona endovenosa, cien miligramos por kilo al día."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Se asocia clindamicina, o vancomicina si se sospecha neumococo resistente o Staphylococcus aureus resistente a meticilina."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y se hace una miringotomía descompresiva, que permite aspirar el pus del oído medio, descomprimir y enviar un cultivo."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Se opera con una mastoidectomía simple, cortical, con drenaje de colecciones, en tres situaciones. La primera, un absceso subperióstico fluctuante documentado."
+    },
+    {
+      "file": "s04_g04",
+      "text": "La segunda, si no responde tras veinticuatro a cuarenta y ocho horas de antibióticos endovenosos."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y la tercera, si aparece cualquier complicación neurológica. Fíjate en la lógica: primero antibióticos y miringotomía, y cirugía cuando hay colección o falla."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Integremos lo que vimos en un árbol de decisión, partiendo del niño con una masa detrás de la oreja. Un niño que tuvo una otitis media aguda y ahora tiene fiebre alta y dolor detrás de la oreja. Lo primero es examinar la oreja y el tímpano."
+    },
+    {
+      "file": "s05_g01",
+      "text": "La tríada retroauricular decide: edema sobre la mastoides, surco borrado y pabellón hacia adelante y abajo, con otitis media en la otoscopía."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Con otoscopía normal y un ganglio móvil, es una adenitis o celulitis. Se maneja ambulatorio con cloxacilina o cefadroxilo orales."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Es una urgencia. Hospitalización, TAC con contraste, ceftriaxona endovenosa asociada a clindamicina o vancomicina, y miringotomía descompresiva."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si hay absceso subperióstico fluctuante, falta de respuesta a las veinticuatro a cuarenta y ocho horas, o complicaciones neurológicas, se hace mastoidectomía."
+    },
+    {
+      "file": "s05_g05",
+      "text": "Fiebre en agujas, calofríos, cefalea e hipertensión endocraneana hacen sospechar trombosis séptica del seno. El angio TAC muestra el delta vacío."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Hay un diagnóstico diferencial que te pueden poner: el ganglio retroauricular inflamado. La diferencia parte en la otoscopía. En la mastoiditis hay una otitis media evidente. En la adenitis el tímpano es normal."
+    },
+    {
+      "file": "s06_g01",
+      "text": "El surco retroauricular está borrado en la mastoiditis, y respetado en la adenitis, donde se palpa un ganglio móvil o delimitado."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El pabellón está desplazado hacia adelante y abajo en la mastoiditis, y en su posición normal en la adenitis."
+    },
+    {
+      "file": "s06_g03",
+      "text": "En el TAC, la mastoiditis muestra pérdida de trabéculas. La adenitis, celdas bien aireadas."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y la conducta es la trampa. La mastoiditis se hospitaliza, con ceftriaxona endovenosa y TAC. La adenitis se maneja ambulatoria con antibiótico oral, cloxacilina o cefadroxilo. Tratar una mastoiditis con antibiótico oral y alta es el error."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Veamos un caso. Un lactante de dieciséis meses con fiebre de treinta y nueve coma cinco, irritable, que terminó amoxicilina por una otitis hace ocho días. Detrás de la oreja derecha tiene una masa roja, caliente y fluctuante. El surco retroauricular está borrado y el pabellón desplazado hacia adelante y abajo. La otoscopía muestra el tímpano rojo y abombado."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: amoxicilina con clavulánico oral, gotas de ciprofloxacino, hospitalizar con TAC y ceftriaxona endovenosa, cloxacilina oral, o solo analgesia. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la C. Oreja desplazada, surco borrado y masa fluctuante son una mastoiditis con probable absceso subperióstico. Hospitalizas, pides TAC de peñasco y cerebro con contraste y partes con ceftriaxona endovenosa. Como hay fluctuación, además interconsultas a otorrino para drenaje quirúrgico. La A es la trampa: un niño que ya falló con amoxicilina oral no se maneja con otro antibiótico oral y a la casa."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora preguntas reales, que muestran otras complicaciones de una otitis crónica. La primera, del EUNACOM de julio de dos mil quince. Paciente de cincuenta y nueve años con hipoacusia y otorrea de larga data en los dos oídos, que ahora tiene más hipoacusia derecha y un vértigo persistente que va en aumento. Tiene nistagmo horizontal con fase rápida a la derecha."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: otomastoiditis aguda, laberintitis aguda, vértigo posicional paroxístico, absceso cerebral o neuronitis vestibular. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B, laberintitis aguda. Hay una otitis crónica de años, y ahora el oído interno se compromete: más hipoacusia, vértigo persistente y nistagmo. Esto conecta con la clase anterior, donde el colesteatoma erosionaba el canal semicircular y daba fístula y vértigo. El vértigo posicional paroxístico dura segundos y no da hipoacusia, y la neuronitis vestibular no tiene otorrea ni hipoacusia."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Y otra, del EUNACOM de julio de dos mil trece. Paciente de cuarenta y cinco años con años de hipoacusia y supuración del oído derecho. Consulta con mal estado general, fiebre de treinta y nueve grados, vértigo y secreción purulenta. Tiene nistagmo horizontal, y en la otoscopía solo se ve pus en el conducto, sin poder ver el tímpano."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: antibióticos endovenosos, lavado ótico, cirugía de urgencia, corticoides endovenosos, o antiinflamatorios endovenosos. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la A. Es una laberintitis aguda con compromiso sistémico, y lo primero es antibiótico endovenoso, igual que en la mastoiditis. La cirugía de urgencia es la alternativa tentadora, pero se evalúa caso a caso, por ejemplo si hay un colesteatoma de base. Los corticoides o antiinflamatorios no tratan la infección. Esta pregunta es discutible, pero esa es la respuesta del examen."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Una pregunta del banco, de caso representativo. Un niño de dos años con fiebre de treinta y nueve coma tres, irritable, con una tumefacción dolorosa y roja detrás de la oreja izquierda, que la desplaza hacia adelante y borra el surco. El tímpano está abombado."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: amoxicilina con clavulánico oral y control, ecografía y alta, hospitalizar con TAC y ceftriaxona, punción ambulatoria con cefadroxilo, o gotas de ciprofloxacino con radiografía. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la C. Es una mastoiditis, y se hospitaliza de inmediato, con TAC de peñasco con contraste y ceftriaxona endovenosa. Las opciones ambulatorias con antibiótico oral son la trampa, porque se trata de una infección que está destruyendo el hueso temporal."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Y cerremos con otra del banco, de caso representativo, sobre imagenología. Pregunta cuál es el signo en el angio TAC o TAC con contraste característico de la trombosis séptica del seno sigmoide, como complicación de una otitis media o una mastoiditis."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es el hallazgo característico?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: signo de la cuerda en la arteria cerebral media, signo del delta vacío, realce leptomeníngeo difuso, hiperdensidad del clivus, o neumoencéfalo. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B, el signo del delta vacío. El trombo no capta contraste, queda como un defecto central, y la pared del seno realza alrededor. El signo de la cuerda es de la arteria cerebral media, en el ictus, y no tiene nada que ver con una otitis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Cerremos con las reglas de oro. La mastoiditis aguda se reconoce por la tríada: edema doloroso sobre la mastoides, surco retroauricular borrado y pabellón desplazado hacia adelante y abajo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Toda sospecha se hospitaliza y se estudia con TAC de peñasco con contraste."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Se trata con ceftriaxona endovenosa a cien miligramos por kilo al día y miringotomía descompresiva."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Se opera con una mastoidectomía si hay absceso subperióstico fluctuante, falta de respuesta en veinticuatro a cuarenta y ocho horas, o complicaciones neurológicas."
+    },
+    {
+      "file": "s12_g04",
+      "text": "La fiebre en picos de sierra con cefalea hace pensar en tromboflebitis del seno sigmoide, y el TAC muestra el signo del delta vacío."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Y en una otitis crónica, el vértigo con hipoacusia hace pensar en laberintitis, que parte con antibiótico endovenoso. Si te llevas una sola idea de hoy: oreja despegada en un niño con otitis, hospital, ceftriaxona y TAC. Nos vemos en la próxima clase."
+    }
+  ]
+}

@@ -1,0 +1,352 @@
+{
+  "id": "psiq-03",
+  "title": "Psiquiatria 17.3: Evaluación y Manejo del Riesgo Suicida: Factores de Riesgo e Indicación de Hospitalización",
+  "specialty": "Psiquiatría",
+  "chars": 13726,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la evaluación del riesgo suicida, una competencia que todo médico general tiene que tener. El suicidio es una causa importante de muerte prematura, y casi siempre ocurre en el contexto de una enfermedad mental tratable. Vamos a ver quién tiene más riesgo, cómo se pregunta, cuándo hospitalizar, y qué errores no se pueden cometer en urgencias."
+    },
+    {
+      "file": "s01_g00",
+      "text": "En Chile, la mortalidad por suicidio ronda diez por cada cien mil habitantes, y es una de las principales causas de muerte prematura en jóvenes y adultos."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Se da en el contexto de depresión mayor, trastorno bipolar, esquizofrenia, abuso de sustancias o trastorno de personalidad límite. Es decir, de cuadros que se pueden tratar."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Las mujeres hacen tres a cuatro veces más intentos de suicidio."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Pero los hombres consuman el suicidio cuatro a cinco veces más, porque eligen métodos más letales, como el ahorcamiento, las armas de fuego o la precipitación desde altura."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El predictor aislado más potente de suicidio consumado es el antecedente de un intento previo. Multiplica el riesgo entre treinta y cuarenta veces. Si lo ves en la ficha, es la primera alarma."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Sexo masculino, edad avanzada, sobre sesenta y cinco años, o adolescencia y adulto joven, de quince a veinticuatro."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Vivir solo, la viudez o un divorcio reciente, el aislamiento, la cesantía o la quiebra económica."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Depresión mayor, sobre todo con insomnio severo, anhedonia y desesperanza, trastorno bipolar, esquizofrenia, trastorno límite de personalidad, y abuso de alcohol o drogas, que desinhibe y aumenta la impulsividad."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y una enfermedad médica crónica, dolorosa o invalidante, como cáncer, dolor neuropático refractario o insuficiencia renal terminal."
+    },
+    {
+      "file": "s03_g00",
+      "text": "En lo social, el hombre solo, viudo o cesante tiene más riesgo. Son señales de alarma regalar sus cosas queridas, cerrar cuentas o dejar cartas de despedida. Protegen los hijos pequeños a cargo, una red de apoyo extensa y un empleo estable."
+    },
+    {
+      "file": "s03_g01",
+      "text": "En lo clínico, el intento previo, la depresión melancólica, el trastorno bipolar y las adicciones. Ojo con la calma repentina después de una crisis: puede significar que ya decidió. Protege la buena adherencia al tratamiento."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En lo psicopatológico, la impulsividad, la agitación, los delirios de culpa o ruina y las alucinaciones que ordenan hacerse daño. La señal inminente es que el paciente declare un método y tenga acceso a él. Protegen las creencias firmes contrarias al suicidio y los proyectos a futuro."
+    },
+    {
+      "file": "s03_g03",
+      "text": "En lo médico, el dolor intratable, el cáncer terminal o un diagnóstico reciente grave. Y la intoxicación aguda con alcohol baja las barreras. Protege la capacidad de resolver problemas."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La entrevista se hace escalonada, con preguntas directas y empáticas. Se parte por la ideación pasiva, como desear no despertar. Después se pregunta por ideación activa: si ha pensado en quitarse la vida."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Luego se pregunta por planificación, cómo lo haría, y por disponibilidad del método: si tiene acceso a pastillas, armas o sogas. Cuanto más concreto el plan y más cercano el método, más riesgo."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Y por último, los actos preparatorios: dejar cartas de despedida, regalar pertenencias, ordenar un testamento. Si ya ocurrieron, el riesgo es inminente."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Mito uno: preguntar por suicidio puede dar la idea. Falso. Preguntar de forma empática y directa alivia la soledad del paciente, rompe el tabú y es la única forma de evaluar el riesgo."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Mito dos: el que se quiere suicidar no avisa. Falso. La mayoría de quienes consuman el suicidio dio señales verbales o conductuales en las semanas previas."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Mito tres: si el paciente mejora rápido, el riesgo pasó. Falso. Cuando la depresión empieza a ceder, el paciente puede recuperar la energía para ejecutar un plan que ya tenía. Una mejoría súbita o una calma repentina exige más cuidado, no menos."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La escala SAD PERSONS es una regla mnemotécnica, con un punto por cada parámetro. S de sexo masculino."
+    },
+    {
+      "file": "s06_g01",
+      "text": "A de edad: menor de diecinueve o mayor de cuarenta y cinco."
+    },
+    {
+      "file": "s06_g02",
+      "text": "D de depresión."
+    },
+    {
+      "file": "s06_g03",
+      "text": "P de intento previo."
+    },
+    {
+      "file": "s06_g04",
+      "text": "E de abuso de alcohol o drogas."
+    },
+    {
+      "file": "s06_g05",
+      "text": "R de pérdida del juicio de realidad, es decir, psicosis."
+    },
+    {
+      "file": "s06_g06",
+      "text": "S de ausencia de red de apoyo."
+    },
+    {
+      "file": "s06_g07",
+      "text": "O de plan suicida organizado o método letal."
+    },
+    {
+      "file": "s06_g08",
+      "text": "N de no tener pareja: soltero, viudo o divorciado."
+    },
+    {
+      "file": "s06_g09",
+      "text": "Y la última S, de enfermedad somática crónica."
+    },
+    {
+      "file": "s07_g00",
+      "text": "De cero a dos puntos, riesgo leve: manejo ambulatorio si hay una red familiar que contiene, retiro de fármacos del alcance y control en menos de siete días."
+    },
+    {
+      "file": "s07_g01",
+      "text": "De tres a cuatro, moderado: manejo ambulatorio intensivo, con medicamentos administrados por un familiar y control en cuarenta y ocho a setenta y dos horas."
+    },
+    {
+      "file": "s07_g02",
+      "text": "De cinco a seis, moderado alto: evaluación urgente por psiquiatría y se define hospitalizar según la capacidad de contención de la familia."
+    },
+    {
+      "file": "s07_g03",
+      "text": "De siete a ocho, riesgo alto: hospitalización psiquiátrica, con vigilancia continua uno a uno."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Y de nueve a diez, riesgo inminente: ingreso inmediato, incluso involuntario si es necesario. Importante: la escala orienta, pero no reemplaza el juicio clínico. Si hay un criterio de hospitalización, se hospitaliza aunque el puntaje sea bajo."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La hospitalización psiquiátrica inmediata es obligatoria ante cualquiera de estos hallazgos. Uno: intento reciente de mediana o alta letalidad, como intoxicación grave, ahorcamiento frustrado, arma de fuego o precipitación."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Dos: plan suicida activo, estructurado y letal, con intención inminente."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Y seis: la ideación persiste después de la atención de urgencia, por ejemplo el paciente que dice que lo va a intentar apenas salga."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Tres: síntomas psicóticos, como delirios de ruina o de culpa, o alucinaciones que ordenan suicidarse."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Cuatro: agitación psicomotora severa con impulsividad y consumo de sustancias."
+    },
+    {
+      "file": "s08_g05",
+      "text": "Y cinco: ausencia de una red familiar o social capaz de supervisar al paciente todo el día. Esa red es lo que cambia un manejo ambulatorio por una hospitalización."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Un paciente que llega tras un intento reciente primero se estabiliza médicamente, por ejemplo la intoxicación, y desde el primer minuto tiene vigilancia visual continua, uno a uno. No se le deja solo en el box, y tampoco en el baño."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Se retiran cinturones, cordones, vidrios y medicamentos. Y se asegura una evaluación por psiquiatría antes de cualquier alta: es una obligación ética y legal, no una opción."
+    },
+    {
+      "file": "s09_g02",
+      "text": "El error clásico es dar el alta porque el paciente dice que no lo volverá a hacer, o porque un acompañante pide llevárselo. Con un intento reciente o riesgo alto, no se da el alta sin evaluación especializada y sin red que contenga."
+    },
+    {
+      "file": "s10_g00",
+      "text": "El litio reduce los intentos y los suicidios consumados en el trastorno bipolar y en la depresión mayor recurrente, además de su efecto estabilizador."
+    },
+    {
+      "file": "s10_g01",
+      "text": "La clozapina es el único antipsicótico con indicación aprobada para reducir la conducta suicida en esquizofrenia y trastorno esquizoafectivo de alto riesgo."
+    },
+    {
+      "file": "s10_g02",
+      "text": "La terapia electroconvulsiva es la opción de rescate, de máxima rapidez, ante ideación suicida inminente con rechazo alimentario o depresión psicótica refractaria. La ketamina o esketamina se usan como terapia puente, solo en hospital."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Se retiran del domicilio los fármacos, con entrega administrada por terceros, las armas, los objetos cortantes y los venenos. Reducir el acceso al método salva vidas."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Se trata con energía la depresión o la manía de base, y también el insomnio y la angustia aguda."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Y no se prescriben cajas completas de tricíclicos ni de benzodiacepinas a un paciente en riesgo, porque la sobredosis puede ser letal."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Armemos el árbol: de la ideación suicida a la decisión de hospitalizar. Un paciente con ideas de muerte, un intento previo o conductas de alarma. Lo primero es preguntar directamente, sin miedo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Se pregunta por ideación, plan, método y actos preparatorios, se revisan los factores de riesgo y la red de apoyo, y se usa una escala como orientación."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Se prohíbe el alta, se hospitaliza en psiquiatría con vigilancia continua uno a uno, se retiran los elementos peligrosos y se trata la enfermedad de base."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Litio en trastorno bipolar y depresión recurrente, clozapina en esquizofrenia, y terapia electroconvulsiva si hay riesgo inminente con depresión psicótica o rechazo alimentario."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Manejo ambulatorio intensivo con la familia a cargo de los fármacos, retiro de medios letales y control en cuarenta y ocho a setenta y dos horas."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Si la ideación persiste, aparece un plan o falla la red, se reevalúa y se hospitaliza. La mejoría súbita no significa que pasó el riesgo."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Si sospechas ideas suicidas, preguntas directo. Preguntar no induce el suicidio."
+    },
+    {
+      "file": "s12_g01",
+      "text": "El intento previo es el predictor más potente, aunque haya sido hace años."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Con plan letal, método a mano y carta de despedida, se hospitaliza y se vigila uno a uno, aunque un familiar ofrezca cuidarlo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Si el paciente dice que lo volverá a intentar apenas salga, no hay alta voluntaria posible."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Una mejoría súbita en un paciente de alto riesgo no significa que pasó."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Y ante una sobredosis de tricíclicos, lo primero es el electrocardiograma."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Un hombre de cincuenta y cuatro años, viudo hace cuatro meses y recién despedido, llevado por su cuñado. Lo encontraron con una botella de pisco vacía, una soga atada a una viga y una carta a sus hijos pidiendo perdón. Está somnoliento, con llanto fácil. A solas dice: apenas salga de aquí voy a terminar lo que empecé. Tuvo un intento por sobredosis hace doce años. El cuñado pide llevárselo."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: alta con el cuñado y clonazepam; rechazar el alta, vigilancia uno a uno y hospitalización psiquiátrica; sertralina con control en siete días; alta voluntaria; o lavado gástrico y observación por dos horas. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. Tiene intento previo, viudez, cesantía, alcohol, un método preparado, una carta de despedida y sigue con la intención. Es riesgo extremo, y se hospitaliza con vigilancia uno a uno, sin importar lo que pida el cuñado. La sertralina tarda semanas, el alta voluntaria no es válida con riesgo vital, y el clonazepam no trata el riesgo."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Una adolescente de quince años intenta suicidarse ingiriendo seiscientos miligramos de amitriptilina."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el examen más adecuado para determinar su riesgo?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: gases arteriales; bilirrubinemia; electrocardiograma; creatinfosfoquinasa; o pruebas hepáticas. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la C. La amitriptilina es un tricíclico, y su toxicidad grave es cardíaca: ensancha el QRS y produce arritmias ventriculares. El electrocardiograma es el examen que orienta el riesgo. Además, como fue un intento de suicidio, además de la toxicidad se hospitaliza y se evalúa por psiquiatría. Y sirve de recordatorio de por qué no se dan cajas completas de tricíclicos a pacientes en riesgo."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Un médico de atención primaria sospecha que una paciente de cuarenta y dos años, con depresión moderada, podría estar pensando en suicidarse, pero duda de preguntárselo por miedo a que la pregunta le dé la idea o aumente su angustia."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es la afirmación correcta?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: no preguntar y esperar; preguntar directamente es necesario y no induce la conducta; solo un psiquiatra puede preguntar; indagar el método está contraindicado; o preguntar solo con Carabineros presentes. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la B. Preguntar de forma directa y respetuosa no induce el suicidio; alivia a la paciente y es la única forma de saber el riesgo. Esperar a que ella lo diga es un error, cualquier médico puede y tiene que preguntar, y averiguar el plan y el método es parte de la evaluación, no un riesgo."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Un hombre de veintiocho años con esquizofrenia paranoide, con dos intentos suicidas impulsivos de alta letalidad en el último año, a pesar de risperidona seis miligramos al día. Está clínicamente estable, con algo de suspicacia residual."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Qué psicofármaco ha demostrado reducir la conducta suicida en la esquizofrenia?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: haloperidol; clozapina; clorpromazina; alprazolam; o sertralina. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la B. La clozapina es el antipsicótico con indicación formal para reducir la conducta suicida recurrente en esquizofrenia. En los trastornos del ánimo, el fármaco equivalente es el litio. Haloperidol y clorpromazina no tienen ese efecto, y el alprazolam no es una opción antisuicida."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Una mujer de veintidós años con trastorno de personalidad límite, ingresada tras ingerir veinte comprimidos de paracetamol de forma impulsiva, después de una discusión con su pareja. Recibió lavado gástrico y N-acetilcisteína. A las cuatro horas está tranquila, dice que fue una tontería y exige el alta para ir a trabajar. Sus padres, agotados, no quieren recibirla."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es la conducta médica correcta?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: alta inmediata con cita abierta; alta voluntaria firmada; observación protegida, completar la N-acetilcisteína y evaluación psiquiátrica antes del alta; haloperidol intramuscular; o reposo en la sala de espera sin vigilancia. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la C. Todo intento de suicidio se toma en serio, sea cual sea el diagnóstico de base. Permanece en observación protegida hasta completar el manejo médico del paracetamol, que incluye la N-acetilcisteína, y hasta que la evalúe un psiquiatra. Además no tiene red que la acoja, lo que impide un alta inmediata. El alta voluntaria no es válida con riesgo vital potencial."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Cerremos con las reglas de oro. Preguntar directo por suicidio no lo induce, y se explora la ideación, el plan, el método y los actos preparatorios."
+    },
+    {
+      "file": "s18_g01",
+      "text": "El intento previo es el factor más potente. Se suman ser hombre, vivir solo, la cesantía, el alcohol y una enfermedad mental."
+    },
+    {
+      "file": "s18_g02",
+      "text": "Con plan estructurado, intento reciente, psicosis o sin red de apoyo, se hospitaliza con vigilancia uno a uno y se retiran los elementos peligrosos."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Nunca se da el alta tras un intento sin evaluación de psiquiatría. Y se trata la enfermedad de base, con litio en bipolar y clozapina en esquizofrenia. Si te llevas una sola idea de hoy: pregunta siempre, y con riesgo alto nadie se va solo a casa. Nos vemos en la próxima clase."
+    }
+  ]
+}

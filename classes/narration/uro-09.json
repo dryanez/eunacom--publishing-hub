@@ -1,0 +1,268 @@
+{
+  "id": "uro-09",
+  "title": "Urologia 13.9: Cáncer de Próstata: Tratamiento según Riesgo (Cirugía, Radioterapia, Hormonoterapia)",
+  "specialty": "Urología",
+  "chars": 9210,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. En la clase anterior llegamos al diagnóstico del cáncer de próstata. Hoy decidimos qué hacer con él, y la respuesta depende de dos cosas: el grupo de riesgo y la esperanza de vida del paciente. El examen pregunta quién se vigila, quién se opera o se irradia, y por qué un paciente metastásico se castra, con una trampa famosa con el leuprolide."
+    },
+    {
+      "file": "s01_g00",
+      "text": "En el riesgo bajo, tumor pequeño, APE bajo diez y grupo ISUP uno, no se piden imágenes de etapificación, y el manejo de elección es la vigilancia activa. La prostatectomía y la braquiterapia son alternativas."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En el riesgo intermedio basta uno de estos criterios: tumor en estadio dos b, APE entre diez y veinte, o Gleason siete. Se pide TAC y cintigrama óseo, y se ofrece prostatectomía con linfadenectomía, o radioterapia con deprivación androgénica corta, de cuatro a seis meses."
+    },
+    {
+      "file": "s01_g02",
+      "text": "En el alto riesgo, tumor en estadio dos c o tres a, APE sobre veinte o grupo cuatro o cinco, se agrega resonancia. El manejo es radioterapia con deprivación androgénica prolongada, de dos a tres años, o cirugía en casos seleccionados."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y con metástasis, el tratamiento ya no es local: es hormonal, con deprivación androgénica continua."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Es el estándar para el cáncer de bajo riesgo: Gleason seis, grupo uno, APE bajo diez. La idea es evitar tratar un tumor que quizás nunca dará problemas."
+    },
+    {
+      "file": "s02_g01",
+      "text": "No es no hacer nada. Se controla el APE cada tres a seis meses, tacto rectal cada seis meses y se repite la biopsia o resonancia. Se trata solo si hay progresión."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Y en un adulto mayor con un tumor mínimo, la conducta también es vigilar. Lo vemos en una pregunta real."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El tratamiento curativo se indica en riesgo intermedio y alto cuando el paciente tiene una expectativa de vida de más de diez años."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Una opción es la prostatectomía radical, que extirpa la próstata, las vesículas seminales y los ganglios obturatrices e ilíacos."
+    },
+    {
+      "file": "s02_g05",
+      "text": "La otra es la radioterapia externa, que según el riesgo se combina con braquiterapia o con hormonoterapia. Ambas tienen sobrevida global equivalente, y se elige según el perfil de efectos secundarios que prefiera el paciente."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Se produce por lesión de las bandeletas neurovasculares de Walsh, y es frecuente, entre treinta y ochenta por ciento."
+    },
+    {
+      "file": "s03_g01",
+      "text": "La incontinencia es de esfuerzo, por daño del esfínter estriado. Mejora en los primeros meses, y la conducta inicial es kinesiterapia del piso pélvico."
+    },
+    {
+      "file": "s03_g02",
+      "text": "La radioterapia no produce incontinencia inmediata, pero sí proctitis actínica, con sangrado rectal indoloro y crónico."
+    },
+    {
+      "file": "s03_g03",
+      "text": "También cistitis actínica, con hematuria y polaquiuria."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y disfunción eréctil progresiva, a los dos o tres años, por endarteritis obliterante."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El adenocarcinoma de próstata depende de la testosterona. Si hay metástasis, el pilar es bajarla a niveles de castración, menos de cincuenta nanogramos por decilitro."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Se logra con orquiectomía bilateral, que es la castración quirúrgica, o con degarelix, un antagonista puro de GnRH, que baja la testosterona de inmediato sin efecto flare."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Los agonistas, como leuprolide y goserelina, primero estimulan la hipófisis, y durante los primeros siete a catorce días suben la LH y la testosterona. Es el flare up, y en un paciente con metástasis vertebrales puede causar dolor intenso, retención urinaria o compresión medular."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Por eso se da bicalutamida antes y durante las primeras semanas, que bloquea el receptor y neutraliza el brote. Esa es la pregunta clásica."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Las metástasis del cáncer de próstata son característicamente osteoblásticas, en columna lumbar, pelvis y costillas, y se ven como focos calientes en el cintigrama óseo."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Suelen acompañarse de dolor óseo que empeora de noche, APE muy elevado y fosfatasas alcalinas altas."
+    },
+    {
+      "file": "s05_g02",
+      "text": "La base es la terapia de deprivación androgénica, quirúrgica o con análogos de GnRH. Es lo que más alivia el dolor óseo y más impacta la sobrevida."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Produce pérdida de libido, sofocos, osteoporosis, síndrome metabólico y ginecomastia."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si el tumor progresa a pesar de la castración, se agregan antiandrógenos de nueva generación, como enzalutamida o abiraterona."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Mira los puntos oscuros: son focos que captan más el trazador, es decir, hueso con mucha actividad. Aquí son pocos, sobre todo en columna y pelvis."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Y aquí, un paciente con enfermedad extensa: columna, costillas, hombros y pelvis llenos de focos. Es el patrón del cáncer de próstata metastásico, que se trata con deprivación androgénica."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Armemos el árbol: del grupo de riesgo al tratamiento. Un cáncer de próstata ya confirmado con biopsia. Lo primero es clasificar el riesgo según el tacto, el APE y el Gleason, y descartar metástasis."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Si hay metástasis, el tratamiento ya no es local, sino hormonal."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Se baja la testosterona a nivel de castración, con orquiectomía o con análogos de GnRH."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Con leuprolide o goserelina se da primero un antiandrógeno, para neutralizar el brote de testosterona."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Gleason seis, APE bajo diez y tumor pequeño: se vigila con APE, tacto y rebiopsia. Se trata solo si progresa."
+    },
+    {
+      "file": "s07_g05",
+      "text": "En riesgo intermedio o alto, preguntas por la expectativa de vida del paciente."
+    },
+    {
+      "file": "s07_g06",
+      "text": "Se ofrece prostatectomía radical o radioterapia externa, esta última con deprivación androgénica corta en riesgo intermedio y prolongada en alto riesgo."
+    },
+    {
+      "file": "s07_g07",
+      "text": "Con poca expectativa de vida, el tratamiento curativo no compensa sus secuelas, y se observa."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La vigilancia activa es para el riesgo bajo, y su riesgo es la ansiedad y que el paciente abandone los controles."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La prostatectomía, en riesgo intermedio o alto con buena expectativa de vida, deja disfunción eréctil e incontinencia de esfuerzo."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La radioterapia con deprivación hormonal deja proctitis y cistitis actínica, además de sofocos."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La castración médica es para la enfermedad metastásica, con pérdida de libido y osteoporosis."
+    },
+    {
+      "file": "s08_g04",
+      "text": "Y los antiandrógenos de nueva generación se reservan para la resistencia a la castración."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Tumor mínimo en un adulto mayor: vigilancia. El error es operar o irradiar."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Localizado y con larga expectativa de vida: cirugía o radioterapia. Las hormonas solas no curan."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Con metástasis, el tratamiento es hormonal, y no se hace prostatectomía radical."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Leuprolide en un paciente con metástasis vertebrales: bicalutamida antes, para evitar el flare."
+    },
+    {
+      "file": "s09_g04",
+      "text": "La incontinencia después de la prostatectomía es de esfuerzo, y se parte con kinesiterapia."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Un hombre de setenta y seis años con dolor lumbar de dos meses que empeora de noche, próstata pétrea y fija, APE de ciento cuarenta y cinco, fosfatasas alcalinas altas y un cintigrama con múltiples focos hipercaptantes en columna, pelvis y fémures."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es el tratamiento de primera línea?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: prostatectomía radical; deprivación androgénica; vigilancia activa; radioterapia exclusiva con intención curativa; o resección transuretral. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la B. Tiene metástasis óseas, así que el tratamiento es sistémico y hormonal. La A y la D son tratamientos locales para un tumor localizado. Y si usas leuprolide, no olvides la bicalutamida inicial."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Un hombre de ochenta y tres años, con APE de diez y un adenocarcinoma Gleason tres más tres en cero coma tres por ciento de la muestra. El estudio de diseminación es negativo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: vigilancia activa con control en tres meses; prostatectomía radical; radioterapia externa; braquiterapia; o deprivación androgénica. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la A. Es un tumor de bajo riesgo, mínimo, en un paciente de edad avanzada: tratarlo expone a secuelas sin beneficio. Las otras cuatro son sobretratamiento, y la deprivación androgénica es para enfermedad metastásica."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Un hombre de cincuenta y ocho años, activo, con más de veinte años de expectativa de vida. Adenocarcinoma grupo dos, APE de siete coma cinco, estadio uno c, y el estudio de diseminación es negativo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuáles son las dos opciones curativas estándar?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: prostatectomía radical o radioterapia externa; quimioterapia o deprivación androgénica; vigilancia o cistectomía; resección transuretral o tamsulosina; o inmunoterapia o castración. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la A. Riesgo intermedio localizado con larga expectativa de vida: las dos opciones curativas son cirugía o radioterapia, con sobrevida equivalente. Elegir una u otra depende de qué efectos adversos prefiere el paciente."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Un hombre de setenta y tres años con cáncer de próstata metastásico en hueso empieza leuprolide mensual."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Por qué se le da bicalutamida durante los primeros catorce días?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: evitar hepatotoxicidad; bloquear el brote inicial de testosterona; acelerar la eliminación renal; evitar hiponatremia; o prevenir necrosis avascular. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. El agonista primero estimula el eje y sube la testosterona de siete a catorce días, y con metástasis vertebrales eso puede causar compresión medular. El antiandrógeno bloquea el receptor."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Bajo riesgo, o tumor mínimo en un adulto mayor, se vigila."
+    },
+    {
+      "file": "s14_g01",
+      "text": "En riesgo intermedio y alto, con más de diez años de expectativa de vida, cirugía o radioterapia, que se complementa con deprivación androgénica."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Con metástasis, el pilar es la deprivación androgénica, y no se opera la próstata."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Y si usas un agonista de GnRH, bicalutamida primero. Si te llevas una sola idea de hoy: el cáncer localizado de bajo riesgo se vigila, y el metastásico se castra, con protección contra el flare. Nos vemos en la próxima clase."
+    }
+  ]
+}

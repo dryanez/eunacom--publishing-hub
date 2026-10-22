@@ -1,0 +1,456 @@
+{
+  "id": "psiq-10",
+  "title": "Psiquiatria 17.10: Esquizofrenia: Síntomas Positivos/Negativos, Antipsicóticos Atípicos y GES",
+  "specialty": "Psiquiatría",
+  "chars": 20602,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la esquizofrenia, la psicosis más preguntada del examen. Partimos por el mecanismo dopaminérgico, que explica por qué los síntomas positivos responden a los fármacos y los negativos casi no. Después vienen los criterios, el estudio obligatorio de un primer episodio, la garantía explícita en salud, los antipsicóticos de segunda generación y sus efectos adversos. La clozapina, el síndrome neuroléptico maligno y la agitación tienen su propia clase."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La hipótesis dopaminérgica dice que hay dos vías que van en direcciones opuestas. La vía mesolímbica nace en el área tegmental ventral y llega al núcleo accumbens. Con exceso de dopamina aparecen los síntomas positivos: delirios, alucinaciones, suspicacia y pensamiento desorganizado."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Por eso todos los antipsicóticos bloquean los receptores de dopamina D dos. Al bloquearlos en esta vía, los delirios y las alucinaciones se apagan."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La vía mesocortical va del área tegmental ventral a la corteza prefrontal, y aquí la dopamina falta. Eso produce los síntomas negativos y el deterioro cognitivo: apatía, abulia, pocas palabras, anhedonia. Y ojo con esto: estos síntomas responden mucho menos al fármaco, y es una pregunta típica."
+    },
+    {
+      "file": "s02_g00",
+      "text": "En la vía mesolímbica hay exceso de dopamina y de ahí salen los síntomas positivos. Es el blanco terapéutico: el bloqueo mejora delirios y alucinaciones."
+    },
+    {
+      "file": "s02_g01",
+      "text": "En la mesocortical hay déficit, con síntomas negativos y cognitivos. El bloqueo aporta poco, por eso se necesita además el apoyo psicosocial y la rehabilitación."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La vía nigroestriada no está afectada por la enfermedad. Pero si el fármaco la bloquea, aparecen los efectos extrapiramidales: distonía, parkinsonismo, acatisia."
+    },
+    {
+      "file": "s02_g03",
+      "text": "La tuberoinfundibular tampoco está afectada. Si se bloquea, sube la prolactina, con galactorrea, amenorrea y disfunción sexual. Esta tabla es la base de todos los efectos adversos que veremos más adelante."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Los positivos son lo que se agrega: delirios de persecución, de perjuicio o místicos, voces y habla desorganizada. Son lo que llama la atención de la familia, y responden muy bien a los antipsicóticos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Los negativos son lo que se pierde: afecto plano, falta de voluntad, pobreza del habla y anhedonia. Responden poco, algo mejor con los atípicos, y con intervención psicosocial."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Los cognitivos son déficit de memoria de trabajo, de atención y lentitud de procesamiento. No remiten del todo con fármacos, y se trabajan con rehabilitación cognitiva."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Los síntomas afectivos incluyen disforia y depresión posterior al brote psicótico, con riesgo suicida elevado. Eso lo vimos en la clase de conducta suicida, y la clozapina aparece de nuevo en la próxima clase."
+    },
+    {
+      "file": "s04_g00",
+      "text": "El criterio A pide al menos dos síntomas durante un mes, o menos si se trataron con éxito. Y al menos uno tiene que ser uno de los tres primeros: ideas delirantes, alucinaciones o lenguaje desorganizado."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Las alucinaciones típicas son auditivas, voces que comentan lo que hace la persona o que hablan de ella en tercera persona."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Los otros dos síntomas son el comportamiento muy desorganizado o catatónico, y los síntomas negativos, es decir, expresión emotiva disminuida o abulia."
+    },
+    {
+      "file": "s04_g03",
+      "text": "El criterio B es un deterioro marcado del funcionamiento social y laboral, comparado con lo que la persona hacía antes."
+    },
+    {
+      "file": "s04_g04",
+      "text": "El criterio C es la duración total: al menos seis meses de signos continuos. Eso incluye al menos un mes de fase activa, más las fases prodrómicas o residuales. Este es el dato que separa la esquizofrenia de los cuadros más breves."
+    },
+    {
+      "file": "s04_g05",
+      "text": "Y los criterios D y E exigen descartar un trastorno esquizoafectivo o bipolar, el consumo de sustancias y las enfermedades médicas, como encefalitis límbica, lupus o epilepsia del lóbulo temporal."
+    },
+    {
+      "file": "s05_g00",
+      "text": "La esquizofrenia afecta a cerca del uno por ciento de la población. Es un trastorno crónico, heterogéneo y discapacitante, de origen neuroevolutivo y multifactorial."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Suele partir en el adulto joven: entre los dieciocho y los veinticinco años en los hombres, y entre los veinticinco y los treinta y cinco en las mujeres."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El consumo habitual de cannabis en adolescentes con predisposición genética multiplica por dos a cuatro el riesgo, y adelanta la edad del primer brote. Es un buen tema de consejería en la atención primaria."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Todo primer episodio psicótico exige un estudio para descartar causas reversibles. Lo primero es el examen toxicológico en orina: cannabis, cocaína, anfetaminas, pasta base, fenciclidina y éxtasis."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Se pide neuroimagen, tomografía de encéfalo sin contraste o resonancia, para descartar tumores como el meningioma frontal, un accidente cerebrovascular o una hidrocefalia."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Y el laboratorio: hemograma, inflamatorios, función renal y hepática, electrolitos, hormona tiroidea, VDRL para neurosífilis y serología para VIH."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La punción lumbar se reserva para cuando hay fiebre, cefalea súbita, signos meníngeos o sospecha de encefalitis viral o autoinmune, como la anti NMDA en mujeres jóvenes."
+    },
+    {
+      "file": "s07_g00",
+      "text": "El primer episodio de esquizofrenia en personas de quince años y más está protegido por la garantía explícita en salud número treinta y cuatro. El médico general reconoce el debut, descarta tóxicos y causas orgánicas, y deriva."
+    },
+    {
+      "file": "s07_g01",
+      "text": "La confirmación diagnóstica por psiquiatra tiene un plazo máximo de veinte días desde la sospecha."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Y el tratamiento farmacológico y psicosocial integral debe comenzar dentro de las veinticuatro horas siguientes a la confirmación."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Tu conducta es notificar el caso GES, derivar a psiquiatría, iniciar un antipsicótico atípico de primera línea y coordinar un seguimiento estrecho con apoyo psicosocial a la familia."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Los antipsicóticos de segunda generación, los atípicos, bloquean tanto los receptores de dopamina D dos como los de serotonina dos A. Eso les da menos riesgo de efectos extrapiramidales y de discinesia tardía, y por eso son la primera línea."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La risperidona se usa de dos a seis miligramos al día, y es muy eficaz en síntomas positivos. Sobre seis miligramos aumentan los efectos extrapiramidales y la hiperprolactinemia."
+    },
+    {
+      "file": "s08_g02",
+      "text": "La olanzapina, de diez a veinte miligramos, controla rápido el delirio y seda. Su alerta es metabólica: ganancia de peso, dislipidemia y diabetes."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La quetiapina, de trescientos a ochocientos miligramos, es muy sedante y casi no da efectos extrapiramidales. Por eso es la opción cuando hay insomnio, componente afectivo o enfermedad de Parkinson."
+    },
+    {
+      "file": "s08_g04",
+      "text": "El aripiprazol, de diez a treinta miligramos, es agonista parcial D dos, casi neutro en lo metabólico y no sedante. Puede dar acatisia al inicio. Es útil en jóvenes preocupados por el peso."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Risperidona: eficaz en lo positivo y en la agitación, con riesgo moderado de efectos motores y prolactina alta."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Olanzapina: casi sin efectos motores, pero con el mayor riesgo metabólico. Sirve para crisis agudas con insomnio."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Quetiapina: casi sin efectos motores, sedante y con riesgo metabólico alto. Es la que se tolera mejor en Parkinson."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Aripiprazol: neutro en lo metabólico, no seda, a veces causa acatisia."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Y la clozapina, que no es de primera línea: es el estándar de oro cuando fallan otros fármacos, con riesgo de agranulocitosis. Es el tema de la próxima clase."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Con cualquier atípico se mide peso, circunferencia abdominal, presión arterial, glicemia y perfil lipídico."
+    },
+    {
+      "file": "s10_g01",
+      "text": "El calendario es: al inicio, al mes, a los tres meses y luego cada año."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si aparece diabetes o dislipidemia, se trata con cambios de estilo de vida y metformina."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y se planifica un cambio gradual a un antipsicótico neutro en lo metabólico, como aripiprazol o ziprasidona. Nunca se suspende sin reemplazo, porque eso provoca recaída."
+    },
+    {
+      "file": "s11_g00",
+      "text": "La distonía aguda aparece en las primeras veinticuatro a cuarenta y ocho horas: espasmo doloroso del cuello, desviación de la mirada o trismus. Es una urgencia y se trata con biperideno cinco miligramos intramuscular o endovenoso, repetible a los treinta minutos."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La acatisia es una inquietud interna intolerable con necesidad de moverse. Se trata con propranolol de veinte a ochenta miligramos al día o con una benzodiacepina, y reduciendo la dosis del antipsicótico."
+    },
+    {
+      "file": "s11_g02",
+      "text": "El parkinsonismo farmacológico aparece a las semanas, con temblor de reposo, rigidez en rueda dentada y lentitud. Se baja la dosis, se rota a un atípico o se agrega biperideno oral por poco tiempo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "La discinesia tardía aparece tras años de tratamiento, con movimientos de masticación y protrusión de la lengua. El biperideno la empeora, y la conducta es rotar a clozapina, que es el que menos discinesia produce."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Si un paciente con antipsicótico tiene fiebre alta, rigidez generalizada y alteración de la conciencia, no es una distonía: es un síndrome neuroléptico maligno, una urgencia. Lo vemos completo en la clase siguiente."
+    },
+    {
+      "file": "s12_g01",
+      "text": "La clave con la distonía es que el paciente está vigil, sin fiebre, y el espasmo cede en minutos con el tratamiento."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Tras la remisión de un primer episodio, el antipsicótico se mantiene de forma continua durante al menos uno a dos años. Suspenderlo antes se asocia a recaídas frecuentes."
+    },
+    {
+      "file": "s13_g01",
+      "text": "Si ya hubo varias recaídas, el tratamiento es indefinido, porque cada recaída deja deterioro y aumenta el riesgo de refractariedad."
+    },
+    {
+      "file": "s13_g02",
+      "text": "Los antipsicóticos inyectables de depósito se reservan para quien no logra tomar la medicación oral, y los decide el psiquiatra. No son el tratamiento inicial de un primer episodio sin una razón clara."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Y si la persona no responde a dos antipsicóticos bien usados, se piensa en esquizofrenia refractaria. Eso es la clase siguiente."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Armemos el árbol: del primer episodio psicótico al seguimiento. Un adulto joven consulta con delirios, voces o conducta desorganizada. Antes de nombrarlo esquizofrenia, hay que estudiar tóxicos y causas médicas, y mirar cuánto tiempo lleva."
+    },
+    {
+      "file": "s14_g01",
+      "text": "Si el estudio muestra consumo de drogas o una enfermedad médica, el cuadro es secundario y se trata la causa."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Si dura menos de un mes y vuelve a la normalidad, es un trastorno psicótico breve, que veremos en la clase de trastorno delirante."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Con más de seis meses de evolución, síntomas positivos y negativos y estudio negativo, es esquizofrenia. Se notifica el GES treinta y cuatro y se deriva a psiquiatría."
+    },
+    {
+      "file": "s14_g04",
+      "text": "Se inicia un antipsicótico atípico de primera línea, como risperidona u olanzapina, con apoyo psicosocial a la familia."
+    },
+    {
+      "file": "s14_g05",
+      "text": "Si aparece un espasmo de cuello, es una distonía y se da biperideno. Si hay inquietud intolerable, es acatisia, y se da propranolol o se baja la dosis."
+    },
+    {
+      "file": "s14_g06",
+      "text": "Si suben el peso, la glicemia o los lípidos, se trata y se rota a un fármaco neutro, sin suspender el tratamiento."
+    },
+    {
+      "file": "s14_g07",
+      "text": "Tras la remisión, el antipsicótico se mantiene de forma continua al menos uno a dos años."
+    },
+    {
+      "file": "s14_g08",
+      "text": "Si no hay respuesta a dos antipsicóticos a dosis plena por seis semanas, es esquizofrenia refractaria. Eso nos lleva a la clozapina, en la clase siguiente."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Primer episodio, estudio negativo: se notifica GES, se deriva y se inicia un atípico. El error es esperar o dar solo psicoterapia."
+    },
+    {
+      "file": "s15_g01",
+      "text": "Si lo positivo remitió pero persiste la apatía, son síntomas negativos. El error es subir la dosis, que solo aumenta los efectos adversos."
+    },
+    {
+      "file": "s15_g02",
+      "text": "Espasmo de cuello al día siguiente de haloperidol: distonía aguda, biperideno."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Inquietud de piernas con angustia a los pocos días: acatisia. El error es aumentar el antipsicótico creyendo que es agitación."
+    },
+    {
+      "file": "s15_g04",
+      "text": "Peso y glicemia altos con olanzapina: se trata y se rota a un fármaco neutro. Suspender sin reemplazo es el error."
+    },
+    {
+      "file": "s15_g05",
+      "text": "En discinesia tardía, el biperideno la empeora. Es la trampa preferida."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Un hombre de veinticuatro años con esquizofrenia lleva tres meses con risperidona cuatro miligramos al día, con buena adherencia. Los delirios y las voces desaparecieron, pero sigue sin estudiar ni trabajar, con afecto plano, habla escasa y sin interés en nada. No tiene temblor, rigidez ni inquietud. Su pareja pide subir la dosis hasta que se active."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es la explicación y la conducta más adecuada?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: resistencia y subir a doce miligramos; síntomas negativos que responden poco, con rehabilitación psicosocial; depresión y suspender el antipsicótico; parkinsonismo con biperideno indefinido; o recaída que se hospitaliza. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la B. Lo positivo remitió, porque el bloqueo en la vía mesolímbica funcionó. Lo que queda es negativo y cognitivo, por déficit mesocortical, y eso responde poco al fármaco. Subir la dosis solo traería efectos extrapiramidales y prolactina. Se mantiene el tratamiento y se refuerza la rehabilitación psicosocial."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil veinticinco. Un joven de veintidós años abandonó la universidad hace ocho meses, pasa la mayor parte del tiempo en casa, habla solo, ríe sin motivo aparente y cree que sus compañeros lo persiguen. No consume sustancias."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: esquizofrenia; esquizoafectivo; personalidad esquizoide; bipolar con psicosis; o delirante crónico. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la A. Tiene síntomas positivos, con persecución y soliloquios, negativos, con aislamiento y abandono de actividades, y desorganización, con risa inmotivada, todo durante más de seis meses en un adulto joven y sin tóxicos. El delirante crónico no tiene síntomas negativos ni desorganización, y la personalidad esquizoide no tiene psicosis."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Una mujer de cuarenta años consulta por angustia y tristeza. Desde la adolescencia tiene alucinaciones auditivas: voces que hacen comentarios negativos sobre ella, que desaparecen por períodos y reaparecen con el estrés o la soledad. Últimamente las voces le ordenan que se suicide. Tiene un aspecto muy descuidado."
+    },
+    {
+      "file": "s18_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s18_g02",
+      "text": "Las opciones: delirante crónico; delirium; esquizofrenia; personalidad paranoide; o depresión mayor con síntomas psicóticos. Piénsalo."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Es la C. Voces comentadoras desde la adolescencia, con curso fluctuante y deterioro del autocuidado: esquizofrenia. La tristeza y la angustia son una complicación, no el diagnóstico. La depresión psicótica es la trampa, pero aquí las voces vienen desde la adolescencia y la tristeza es reciente. Y fíjate en el riesgo: voces que ordenan suicidarse es una señal de alarma, que conecta con la clase de conducta suicida."
+    },
+    {
+      "file": "s19_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil quince. Un paciente de dieciocho años con ánimo bajo lleva tres meses con antidepresivos, sin respuesta. Sus padres están preocupados porque permanece encerrado en su cuarto sin hacer nada, ni siquiera ver televisión. Al examinarlo no se aprecia anhedonia ni tristeza, y no ha tenido alucinaciones."
+    },
+    {
+      "file": "s19_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
+      "file": "s19_g02",
+      "text": "Las opciones: distimia; personalidad esquizoide; esquizofrenia; esquizoafectivo; o depresión mayor. Piénsalo."
+    },
+    {
+      "file": "s19_g03",
+      "text": "Es la C. Es la cara negativa de la esquizofrenia: un adolescente que se aísla, sin tristeza ni anhedonia, que no responde a antidepresivos. La depresión y la distimia quedan descartadas porque no hay tristeza. Mira lo importante: un cuadro puede debutar solo con síntomas negativos, y por eso la falta de respuesta al antidepresivo es la pista."
+    },
+    {
+      "file": "s20_g00",
+      "text": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un joven de dieciocho años, consumidor de pasta base, tiene un episodio psicótico relacionado con el consumo y se le administra haloperidol cinco miligramos intramuscular. Al día siguiente presenta una contracción tónica del cuello, con la cabeza desviada hacia la izquierda y mucho dolor."
+    },
+    {
+      "file": "s20_g01",
+      "text": "El diagnóstico más probable es:"
+    },
+    {
+      "file": "s20_g02",
+      "text": "Las opciones: distonía aguda; acatisia; síndrome neuroléptico maligno; discinesia tardía; o parkinsonismo. Piénsalo."
+    },
+    {
+      "file": "s20_g03",
+      "text": "Es la A. Espasmo tónico y doloroso del cuello a las pocas horas de un antipsicótico de alta potencia: distonía aguda, tortícolis. La discinesia tardía aparece tras años, la acatisia es inquietud y no espasmo, y el síndrome neuroléptico maligno trae fiebre, rigidez y alteración de la conciencia."
+    },
+    {
+      "file": "s21_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un paciente de veinticinco años con esquizofrenia recibe cinco miligramos de haloperidol intramuscular por agitación. A las dos horas tiene una contracción tónica y dolorosa del cuello, desviada hacia la derecha. Pregunta cuál es el tratamiento."
+    },
+    {
+      "file": "s21_g01",
+      "text": "¿Cuál es el tratamiento de este cuadro?"
+    },
+    {
+      "file": "s21_g02",
+      "text": "Las opciones: bromocriptina; clorpromazina; lorazepam; diclofenaco; o propranolol. Piénsalo."
+    },
+    {
+      "file": "s21_g03",
+      "text": "Es la C. El tratamiento habitual de la distonía es el biperideno, que no está entre las opciones. Cuando no aparece, la respuesta es una benzodiacepina como el lorazepam, que también la controla. Las otras opciones no sirven: la clorpromazina es otro antipsicótico y empeoraría el cuadro, el propranolol es para la acatisia y la bromocriptina para el síndrome neuroléptico maligno."
+    },
+    {
+      "file": "s22_g00",
+      "text": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un paciente con esquizofrenia, recién diagnosticado, empezó risperidona dos miligramos al día hace cinco días. Al tercer día aparecen sensaciones molestas en las piernas, con angustia, inquietud y cambio continuo de posición. Está muy incómodo y angustiado."
+    },
+    {
+      "file": "s22_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s22_g02",
+      "text": "Las opciones: trastorno de adaptación; distonía aguda; discinesia aguda; acatisia; o hipomanía. Piénsalo."
+    },
+    {
+      "file": "s22_g03",
+      "text": "Es la D. Es la inquietud motora subjetiva con necesidad de moverse que aparece los primeros días. La distonía es un espasmo, no inquietud. Y el error clínico es creer que está más psicótico o agitado y subir la dosis: se trata con propranolol y se revisa la dosis."
+    },
+    {
+      "file": "s23_g00",
+      "text": "Una pregunta representativa del banco EUNACOM. Un joven de veinte años es llevado por sus padres porque en siete meses abandonó la universidad, se aísla, y dice que una organización criminal lo espía por la televisión. Tiene afecto aplanado, soliloquios y voces que comentan lo que hace. El examen físico y las drogas en orina son normales."
+    },
+    {
+      "file": "s23_g01",
+      "text": "¿Cuál es el diagnóstico y la conducta más adecuada?"
+    },
+    {
+      "file": "s23_g02",
+      "text": "Las opciones: delirante crónico, solo en atención primaria; primer episodio de esquizofrenia, con GES, atípico y derivación; esquizoafectivo con sertralina; psicosis breve con espera; o personalidad esquizotípica con psicoterapia. Piénsalo."
+    },
+    {
+      "file": "s23_g03",
+      "text": "Es la B. Hay síntomas positivos y negativos durante más de seis meses, con tóxicos negativos: esquizofrenia en su primer episodio. En Chile corresponde notificar el GES treinta y cuatro, iniciar un antipsicótico atípico y derivar a psiquiatría, que confirma en veinte días. La psicosis breve dura menos de un mes, y aquí van siete."
+    },
+    {
+      "file": "s24_g00",
+      "text": "Otra pregunta representativa del banco EUNACOM. Un hombre de veintiséis años con esquizofrenia, en tratamiento con olanzapina quince miligramos al día, llega a control a los seis meses, sin síntomas psicóticos. Subió nueve kilos, tiene una glicemia en ayunas de ciento treinta y seis, confirmada en una segunda toma, y triglicéridos de doscientos ochenta."
+    },
+    {
+      "file": "s24_g01",
+      "text": "¿Cuál es la complicación y la conducta indicada?"
+    },
+    {
+      "file": "s24_g02",
+      "text": "Las opciones: hipotiroidismo con levotiroxina; síndrome metabólico y diabetes por olanzapina, con metformina y rotación; resistencia con duplicación de la dosis; suspensión sin reemplazo; o insuficiencia suprarrenal. Piénsalo."
+    },
+    {
+      "file": "s24_g03",
+      "text": "Es la B. La olanzapina es, con la clozapina, el atípico de mayor riesgo metabólico. Aquí ya hay diabetes y dislipidemia, que se tratan con dieta y metformina, y se rota de forma gradual a un fármaco neutro como aripiprazol. Suspender sin reemplazo gatillaría una recaída grave, y duplicar la olanzapina empeoraría el problema metabólico."
+    },
+    {
+      "file": "s25_g00",
+      "text": "Una última pregunta representativa del banco EUNACOM. Un paciente de veinticuatro años logra la remisión completa de sus delirios y alucinaciones tras seis meses con risperidona tres miligramos al día. Está asintomático y retomó sus actividades. La familia pregunta cuánto tiempo debe seguir tomando el antipsicótico."
+    },
+    {
+      "file": "s25_g01",
+      "text": "¿Cuál es la duración mínima recomendada del tratamiento de mantenimiento?"
+    },
+    {
+      "file": "s25_g02",
+      "text": "Las opciones: suspender ya; mantener al menos uno a dos años; tomarlo solo cuando oiga voces; suspender a las cuatro semanas; o tres meses y luego benzodiacepinas. Piénsalo."
+    },
+    {
+      "file": "s25_g03",
+      "text": "Es la B. Mantener de forma continua al menos uno a dos años tras la remisión. Suspender antes, o tomarlo solo cuando hay síntomas, se asocia a recaídas, y cada recaída deja deterioro. Las benzodiacepinas no tratan la psicosis."
+    },
+    {
+      "file": "s26_g00",
+      "text": "Cerremos con las reglas de oro. La esquizofrenia exige dos o más síntomas, uno de ellos delirio, alucinación o habla desorganizada, y seis meses de evolución total. Los positivos responden al bloqueo dopaminérgico y los negativos casi no."
+    },
+    {
+      "file": "s26_g01",
+      "text": "Todo primer episodio lleva estudio de tóxicos, neuroimagen y laboratorio, se notifica el GES treinta y cuatro y se deriva."
+    },
+    {
+      "file": "s26_g02",
+      "text": "Se parte con un antipsicótico atípico, con control metabólico, y se mantiene al menos uno a dos años tras la remisión."
+    },
+    {
+      "file": "s26_g03",
+      "text": "La distonía se trata con biperideno, la acatisia con propranolol, y en la discinesia tardía el biperideno está contraindicado. Si te llevas una sola idea de hoy: positivos responden al bloqueo de dopamina, negativos casi no, y todo primer episodio se estudia y se notifica al GES. Nos vemos en la próxima clase."
+    }
+  ]
+}

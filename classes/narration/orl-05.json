@@ -1,0 +1,200 @@
+{
+  "id": "orl-05",
+  "title": "Otorrino 14.5: Evaluación Auditiva: Audiometría, Impedanciometría y Diapasones (Rinne y Weber)",
+  "specialty": "Otorrinolaringología",
+  "chars": 8837,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hasta ahora estudiaste oídos que se ven en la otoscopía. Hoy vemos cómo se mide la audición cuando la otoscopía no alcanza. Son tres herramientas: el diapasón, la audiometría y la impedanciometría. En el examen aparecen todos los años, casi siempre con la misma pregunta de fondo: ¿el problema está en la conducción del sonido o en la cóclea y el nervio? Partamos."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El Weber se hace con un diapasón de quinientos doce hertz apoyado en la frente, en el vértex o en los incisivos. Le preguntas al paciente por qué oído lo escucha más fuerte. Si la audición es normal o igual en los dos oídos, el sonido queda en el centro y no lateraliza."
+    },
+    {
+      "file": "s01_g01",
+      "text": "En una hipoacusia de conducción, el sonido se va hacia el oído enfermo. Parece raro, pero tiene lógica: ese oído está aislado del ruido ambiente, y la vibración que llega por el hueso se oye más fuerte."
+    },
+    {
+      "file": "s01_g02",
+      "text": "En una hipoacusia sensorioneural, el sonido se va hacia el oído sano, porque la cóclea del lado enfermo no es capaz de transformar la vibración en señal nerviosa."
+    },
+    {
+      "file": "s01_g03",
+      "text": "El Rinne compara la audición por aire, con el diapasón frente al conducto, con la audición por hueso, con el diapasón sobre la mastoides. Se hace oído por oído."
+    },
+    {
+      "file": "s01_g04",
+      "text": "Lo normal es que el aire sea mejor que el hueso, y eso se llama Rinne positivo. Ojo con esto: en la hipoacusia sensorioneural el Rinne también es positivo, porque la conducción está intacta."
+    },
+    {
+      "file": "s01_g05",
+      "text": "Si el hueso se oye mejor que el aire, el Rinne es negativo, y eso es patognomónico de hipoacusia de conducción. Es el dato que más se usa para decidir de qué lado está el problema."
+    },
+    {
+      "file": "s02_g00",
+      "text": "Fíjate en la posición: el diapasón vibra y se apoya en la frente, justo en la línea media. Desde ahí, el sonido le llega a los dos oídos por el hueso del cráneo. Tú solo preguntas hacia dónde se va, y con eso ya sabes si el problema es de conducción o sensorioneural."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La audiometría mide el umbral en decibeles para cada frecuencia, entre ciento veinticinco y ocho mil hertz, por vía aérea con auriculares y por vía ósea con un vibrador en la mastoides. Lo normal es que las dos curvas estén bajo veinte a veinticinco decibeles y juntas."
+    },
+    {
+      "file": "s03_g01",
+      "text": "En la hipoacusia de conducción, la vía ósea está normal y la vía aérea desciende. La diferencia entre las dos curvas se llama brecha óseo-aérea, y se considera significativa desde quince decibeles."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En la sensorioneural, las dos curvas bajan juntas, superpuestas, sin brecha, o con una diferencia menor de diez decibeles. Y si hay las dos cosas, curvas descendidas y además brecha, es una hipoacusia mixta."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La brecha habla de un problema mecánico en el conducto o en el oído medio: cerumen, otitis con efusión, perforación timpánica y otoesclerosis."
+    },
+    {
+      "file": "s03_g04",
+      "text": "La pérdida sin brecha habla de células ciliadas o nervio coclear: presbiacusia, hipoacusia súbita, ototoxicidad y neurinoma del acústico. Esas las vemos en la próxima clase."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La impedanciometría mide cuánto se mueve el tímpano cuando cambias la presión en el conducto. Con eso se dibuja el timpanograma. La curva A tiene un pico de movilidad normal, centrado, y significa un oído medio sano y bien ventilado."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La curva As tiene el pico en su lugar, pero muy bajo. El sistema está rígido, y la causa clásica es la otoesclerosis, o la timpanoesclerosis extensa."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La curva Ad es lo contrario: un pico altísimo, de un sistema demasiado flácido. Corresponde a una disyunción de la cadena de huesecillos o a un tímpano hiperflácido."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La curva B es plana, no tiene punto de máxima movilidad. Es el hallazgo clásico de la otitis media con efusión, porque el líquido impide que el tímpano se mueva. Esta ya la viste en la clase de oído medio crónico."
+    },
+    {
+      "file": "s04_g04",
+      "text": "Una curva B con el volumen del conducto muy aumentado, sobre dos coma cinco mililitros, no es líquido. Significa que el aire se escapa por una perforación amplia o por colleras permeables."
+    },
+    {
+      "file": "s04_g05",
+      "text": "La curva C tiene el pico desplazado hacia presiones muy negativas, bajo menos cien daPa. Es la firma de la disfunción de la trompa de Eustaquio, que no ventila el oído medio."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Esta tabla te la tienes que saber de memoria. Weber: en la audición normal queda centrado, en la conducción va al oído enfermo, y en la sensorioneural va al oído sano."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Rinne: normal es positivo. En conducción es negativo en el oído enfermo. Y en la sensorioneural sigue siendo positivo. Por eso un Rinne positivo no descarta hipoacusia: solo descarta que sea de conducción."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En la audiometría, lo que separa los dos tipos es la brecha. Hay brecha, es conducción. No hay brecha, es sensorioneural."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Y en la impedanciometría, la hipoacusia sensorioneural da un timpanograma normal, curva A, porque el oído medio está sano. En la de conducción aparece una curva B, C o As, según la causa."
+    },
+    {
+      "file": "s05_g04",
+      "text": "El reflejo estapedial está presente en el oído normal, ausente en el oído con patología de conducción, y puede estar presente en una sensorioneural leve a moderada."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Integremos todo en un árbol, partiendo del paciente que dice que no oye bien. Un paciente que consulta por hipoacusia. Después de la otoscopía, el diapasón decide hacia dónde sigue el estudio."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Con el Weber ves hacia dónde se va el sonido, y con el Rinne comparas aire y hueso."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La audiometría debe mostrar vía ósea normal y vía aérea descendida, con brecha. Ahora la timpanometría ubica la causa."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La curva B es líquido, la C es disfunción de la trompa, la As es otoesclerosis y la Ad es disyunción de cadena. Con otoscopía normal y curva As en una mujer joven, piensa en otoesclerosis."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Las dos curvas bajan juntas y la impedanciometría es normal. Se estudia cóclea y nervio: presbiacusia, hipoacusia súbita, ototoxicidad o neurinoma. Lo vemos en la próxima clase."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Pongamos a prueba lo que viste. Hombre de cincuenta y cinco años con dos semanas de hipoacusia izquierda, sin dolor ni secreción. La otoscopía es normal en los dos oídos. Con el diapasón, el Weber se va hacia el oído derecho, y el Rinne es positivo en ambos oídos."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Qué tipo de hipoacusia tiene y cómo la confirmarías?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: conducción izquierda con timpanometría, conducción derecha con audiometría, sensorioneural izquierda con audiometría tonal, audición normal, o tapón de cerumen. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la C. El Weber se fue al oído derecho, que es el sano, y el Rinne positivo descarta conducción. Entonces la hipoacusia es sensorioneural del lado izquierdo, y la confirmas con audiometría tonal. Una hipoacusia de conducción izquierda habría desviado el Weber hacia la izquierda y habría dado Rinne negativo."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Ahora una pregunta real, del EUNACOM de julio de dos mil veinticuatro. Mujer de cuarenta y ocho años con diez años de hipoacusia bilateral progresiva, que empeoró en el último embarazo. La otoscopía es normal. En el diapasón, el Rinne es negativo en los dos oídos y el Weber no lateraliza."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones son: hipoacusia genética neurosensorial, ototoxicidad, otoesclerosis, hipoacusia hormonal u otitis con efusión. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la C, otoesclerosis. Rinne negativo en ambos oídos significa conducción bilateral, y como es simétrica, el Weber queda en el centro. Los diez años de evolución y el empeoramiento en el embarazo son lo típico, con un tímpano normal. La otitis con efusión también es de conducción, pero se ve en la otoscopía, y aquí el tímpano es normal."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Otra pregunta real, del EUNACOM de enero de dos mil veintitrés. Paciente con hipoacusia y tinnitus, con examen otoneurológico normal."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el examen a solicitar?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: potenciales evocados de tronco, impedanciometría, resonancia del ángulo pontocerebeloso, TAC de peñascos o audiometría. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la E, audiometría. Siempre es el primer examen cuando hay hipoacusia, porque te dice cuánto pierde y de qué tipo es. Las imágenes y los potenciales evocados se piden después, si la audiometría muestra una pérdida sensorioneural asimétrica o que lo justifique. La impedanciometría solo evalúa el oído medio."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Cerremos con una pregunta del banco, de caso representativo. Pide la curva de Jerger que se asocia al líquido en el oído medio, en una otitis con efusión."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Qué curva corresponde?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: curva A, curva As, curva B, curva C o curva Ad. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la opción C, que es la curva B de Jerger: plana, sin pico, porque el líquido no deja que el tímpano se mueva. La curva A es la normal. La As es de rigidez, como la otoesclerosis. La C de Jerger es de presión negativa, por la trompa. Y la Ad es de cadena interrumpida."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. En el Weber, la conducción se va al oído enfermo y la sensorioneural al sano. Un Rinne negativo es patognomónico de conducción, y en la sensorioneural el Rinne sigue positivo."
+    },
+    {
+      "file": "s11_g01",
+      "text": "La audiometría es el primer examen ante hipoacusia, y la brecha óseo-aérea separa los tipos: con brecha es conducción, sin brecha es sensorioneural."
+    },
+    {
+      "file": "s11_g02",
+      "text": "La curva B es líquido, la C es trompa de Eustaquio y la As es otoesclerosis. Si te llevas una sola idea de hoy: el diapasón te dice de qué lado y de qué tipo, y la audiometría lo confirma. Nos vemos en la próxima clase."
+    }
+  ]
+}

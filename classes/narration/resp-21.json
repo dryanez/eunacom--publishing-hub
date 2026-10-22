@@ -2,7 +2,7 @@
   "id": "resp-21",
   "title": "Neumología 5.1: Insuficiencia Respiratoria Aguda: Tipo 1 (Hipoxémica) vs Tipo 2 (Hipercápnica)",
   "specialty": "Neumología",
-  "chars": 14960,
+  "chars": 15003,
   "segments": [
     {
       "file": "s00_g00",
@@ -142,11 +142,11 @@
     },
     {
       "file": "s08_g00",
-      "text": "En la hipoventilación se acumula CO dos y baja el oxígeno alveolar; el arterial baja lo mismo. El gradiente es normal: el pulmón está sano."
+      "text": "En la hipoventilación el pulmón está sano, pero entra poco aire: se acumula CO dos y baja el oxígeno alveolar; el arterial baja lo mismo. El gradiente es normal."
     },
     {
       "file": "s08_g01",
-      "text": "En el shunt el alvéolo está lleno de líquido: aunque tenga oxígeno, la sangre pasa sin oxigenarse. El gradiente sube, y darle oxígeno al cien por ciento casi no mejora la saturación."
+      "text": "En el shunt el alvéolo no recibe aire, porque está tapado, colapsado o lleno de líquido: la sangre pasa sin oxigenarse. El gradiente sube, y darle oxígeno al cien por ciento casi no mejora la saturación."
     },
     {
       "file": "s09_g00",

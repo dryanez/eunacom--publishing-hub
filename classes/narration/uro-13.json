@@ -1,0 +1,208 @@
+{
+  "id": "uro-13",
+  "title": "Urologia 13.13: Prostatitis Aguda y Crónica: Peligro de Sepsis, Antibióticos Prolongados & Prostatodinia",
+  "specialty": "Urología",
+  "chars": 7839,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos la prostatitis. Es un tema corto pero muy preguntado, porque tiene una trampa clásica: lo que nunca debes hacer en la forma aguda. El examen pregunta cómo se reconoce, qué antibiótico sirve, cuánto tiempo se da, y cómo se distingue de la prostatodinia, que no es una infección."
+    },
+    {
+      "file": "s01_g00",
+      "text": "La categoría uno es la prostatitis bacteriana aguda: una infección grave, con fiebre, compromiso general y urocultivo positivo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La categoría dos es la crónica: infecciones urinarias que recaen siempre por el mismo germen, con cultivo de secreción prostática positivo."
+    },
+    {
+      "file": "s01_g02",
+      "text": "El agente principal es Escherichia coli, en tres de cada cuatro casos. Siguen otras enterobacterias, como Klebsiella, Proteus y Pseudomonas."
+    },
+    {
+      "file": "s01_g03",
+      "text": "La categoría tres es el síndrome de dolor pélvico crónico, también llamado prostatodinia. Es dolor perineal de más de tres meses con urocultivos estériles. Si hay leucocitos en la secreción es la IIIa inflamatoria, y si no hay, la IIIb."
+    },
+    {
+      "file": "s01_g04",
+      "text": "La categoría cuatro es un hallazgo: inflamación vista en una biopsia o en el semen, sin síntomas. No se trata."
+    },
+    {
+      "file": "s02_g00",
+      "text": "La prostatitis aguda comienza de golpe, con fiebre alta, calofríos, malestar general, dolor lumbosacro y perineal, y disuria. Un dato típico es el dolor punzante en el periné al sentarse."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Al tacto rectal suave la próstata se siente aumentada, caliente y exquisitamente dolorosa. Eso basta para sospechar el diagnóstico."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Aquí está la regla de oro del examen. Está contraindicado el masaje prostático y también la palpación enérgica. Una glándula infectada y congestiva, al ser comprimida, empuja bacterias hacia los plexos venosos que la rodean. El resultado puede ser una bacteriemia y un shock séptico. Para el diagnóstico basta la clínica y el urocultivo de orina emitida."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Si el paciente entra en retención de orina, pasar una sonda por la uretra es muy doloroso y puede lesionar la glándula inflamada. La conducta que plantea el libro es drenar la vejiga con una cistostomía suprapúbica por punción."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La próstata tiene una barrera lipofílica que impide el paso de muchos antibióticos, sobre todo los betalactámicos."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Por eso se eligen las fluoroquinolonas, como el ciprofloxacino, y el cotrimoxazol: se disuelven bien en lípidos y llegan al tejido prostático."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En un cuadro leve o moderado, ciprofloxacino quinientos miligramos cada doce horas por vía oral. Otras opciones son levofloxacino o cotrimoxazol forte."
+    },
+    {
+      "file": "s03_g03",
+      "text": "La duración es larga, de tres a cuatro semanas, para erradicar los focos bacterianos dentro de los acinos y evitar que pase a crónica. Esto se pregunta: no es un curso de siete días como una cistitis."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Si hay sepsis, vómitos o comorbilidades, se hospitaliza, se reanima y se da ceftriaxona endovenosa, con o sin gentamicina. Después de cuarenta y ocho horas sin fiebre se pasa a vía oral hasta completar cuatro semanas."
+    },
+    {
+      "file": "s04_g00",
+      "text": "En la crónica, la prueba de Meares y Stamey, que sí usa masaje, se hace en fase crónica, nunca en la aguda. Se trata con fluoroquinolonas por seis a doce semanas."
+    },
+    {
+      "file": "s04_g01",
+      "text": "En el dolor pélvico inflamatorio hay leucocitos pero no bacterias. Se usan alfa bloqueantes como tamsulosina, antiinflamatorios y, a veces, un ensayo corto de antibiótico."
+    },
+    {
+      "file": "s04_g02",
+      "text": "En la prostatodinia no hay inflamación ni infección. Es un dolor miofascial del piso pélvico, y se maneja con neuromoduladores como pregabalina, fisioterapia del piso pélvico y apoyo psicológico. No necesita antibióticos prolongados."
+    },
+    {
+      "file": "s04_g03",
+      "text": "Y la asintomática es un hallazgo inocuo, que no requiere tratamiento."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Armemos el árbol: del hombre febril con dolor perineal a la conducta. Un hombre con fiebre, calofríos, dolor perineal y disuria. Al tacto rectal suave, la próstata está caliente y muy dolorosa."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se sospecha prostatitis bacteriana aguda. No se masajea. Se toma urocultivo y se parte el tratamiento."
+    },
+    {
+      "file": "s05_g02",
+      "text": "Si está estable y tolera la vía oral, ciprofloxacino, levofloxacino o cotrimoxazol por tres a cuatro semanas."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Si hay sepsis, se hospitaliza, se reanima y se da ceftriaxona endovenosa, y luego vía oral hasta completar cuatro semanas."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Si hay retención, se drena la vejiga por vía suprapúbica en lugar de pasar una sonda por la uretra."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Prostatitis aguda: el masaje está contraindicado, porque puede producir bacteriemia y shock."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Se elige un antibiótico que penetre la próstata, no uno que solo funciona en la orina, como la nitrofurantoína."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El curso corto lleva a recaída y cronicidad."
+    },
+    {
+      "file": "s06_g03",
+      "text": "La retención se drena por vía suprapúbica, no por la uretra inflamada."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Si el cultivo es negativo y el dolor lleva meses, piensa en prostatodinia y no sigas dando antibióticos."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Un hombre de cuarenta y seis años con fiebre de treinta y nueve grados, calofríos, dolor lumbosacro, dolor perineal al sentarse y disuria de un día. Al tacto rectal suave, la próstata está caliente y exquisitamente dolorosa."
+    },
+    {
+      "file": "s07_g01",
+      "text": "¿Cuál es la conducta adecuada?"
+    },
+    {
+      "file": "s07_g02",
+      "text": "Las opciones: masaje prostático; urocultivo y ciprofloxacino por cuatro semanas; nitrofurantoína por siete días; antiinflamatorios y observación; o biopsia prostática. Piénsalo."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Es la B. Es una prostatitis aguda: se toma el urocultivo de orina emitida y se parte con ciprofloxacino, que penetra la próstata, por tres a cuatro semanas. La A es la trampa: el masaje puede provocar bacteriemia y shock séptico. La nitrofurantoína no alcanza concentraciones útiles en el tejido prostático."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Un hombre de cuarenta y dos años con un día de fiebre alta, calofríos, dolor perineal al sentarse y disuria. Al tacto rectal suave, la próstata está caliente, tumefacta y muy dolorosa."
+    },
+    {
+      "file": "s08_g01",
+      "text": "¿Cuál de las siguientes acciones está formalmente contraindicada?"
+    },
+    {
+      "file": "s08_g02",
+      "text": "Las opciones: urocultivo antes de los antibióticos; masaje prostático vigoroso; antipiréticos y antiinflamatorios; ciprofloxacino por cuatro semanas; o cistostomía suprapúbica si hay retención. Piénsalo."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Es la B. Masajear una próstata infectada empuja bacterias a la sangre y puede producir un shock séptico. Todo lo demás es manejo correcto. El masaje con la prueba de Meares y Stamey se reserva solo para la prostatitis crónica."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un hombre de cincuenta y seis años con tres meses de chorro débil, y desde hace una semana disuria, polaquiuria y malestar. El antígeno prostático sale en catorce coma siete, con un normal bajo cuatro."
+    },
+    {
+      "file": "s09_g01",
+      "text": "¿Cuál es el tratamiento inicial más adecuado?"
+    },
+    {
+      "file": "s09_g02",
+      "text": "Las opciones: tamsulosina; nitrofurantoína; ciprofloxacino; dutasteride; o doxazosina. Piénsalo."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Es la C. La infección reciente más un antígeno muy elevado indican prostatitis aguda, que sube el antígeno por inflamación. Se trata con ciprofloxacino, y el antígeno se repite después, no antes. Los bloqueadores alfa y el dutasteride son para la hiperplasia, y la nitrofurantoína no penetra la próstata."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Otra pregunta real, del EUNACOM de diciembre de dos mil dieciocho. Un hombre de cincuenta años con disuria dolorosa, fiebre alta, polaquiuria y dolor perineal, estable, con sedimento de orina infectado. El urocultivo está pendiente."
+    },
+    {
+      "file": "s10_g01",
+      "text": "¿Cuál es la conducta terapéutica más adecuada?"
+    },
+    {
+      "file": "s10_g02",
+      "text": "Las opciones: ciprofloxacino; amoxicilina; claritromicina; nitrofurantoína; o doxiciclina. Piénsalo."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Es la A. En un hombre con fiebre y dolor perineal no sabes si es prostatitis o una infección urinaria alta, pero el ciprofloxacino cubre ambas y penetra la próstata. Fíjate que en un hombre febril no se usa nitrofurantoína, porque no alcanza niveles en tejido."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Cerremos con las reglas de oro. Fiebre, dolor perineal y una próstata caliente y dolorosa: prostatitis aguda."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Nunca se masajea la próstata en la fase aguda."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Si hay retención de orina, se drena por vía suprapúbica."
+    },
+    {
+      "file": "s11_g03",
+      "text": "El tratamiento es ciprofloxacino o cotrimoxazol por tres a cuatro semanas en la aguda, y seis a doce en la crónica."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Si el dolor es crónico y los cultivos son negativos, es dolor pélvico crónico: pregabalina y fisioterapia, no más antibióticos. Si te llevas una sola idea de hoy: en la prostatitis aguda no se masajea, y el antibiótico debe penetrar la próstata y darse por semanas. Nos vemos en la próxima clase."
+    }
+  ]
+}

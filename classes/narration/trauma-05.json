@@ -1,0 +1,312 @@
+{
+  "id": "trauma-05",
+  "title": "Traumatologia 12.5: Fracturas de Pelvis & Shock Hipovolémico Pelviano: Clasificación Tile / Young-Burgess & Estabilización Precoz",
+  "specialty": "Traumatología",
+  "chars": 13293,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy entramos al trauma grave. La fractura de pelvis es una de las lesiones que más mata por hemorragia, y por eso se pregunta mucho, pero siempre dentro de un contexto: un paciente politraumatizado. Vamos a ver primero el orden con que se atiende, después qué haces ante una pelvis inestable con shock, y al final una complicación clásica: la sección de la uretra."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Se llama politraumatizado al paciente con lesiones en al menos tres sistemas, por ejemplo digestivo, urinario y locomotor, o con tres o más órganos de sistemas distintos afectados, de modo que la vida corre riesgo."
+    },
+    {
+      "file": "s01_g01",
+      "text": "La regla es sistemática: manda la estabilidad vital. Una fractura muy visible puede distraerte de la lesión que de verdad mata."
+    },
+    {
+      "file": "s01_g02",
+      "text": "La causa principal son los accidentes de tránsito. Los atropellos son los más letales, y más aún los que ocurren en carretera, seguidos por los de ciudad."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Después vienen las caídas de altura, frecuentes en el trabajo, y las agresiones con arma blanca o de fuego."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El orden es estricto y no avanzas al siguiente paso sin haber resuelto el anterior. En la A aseguras la vía aérea y colocas el collar cervical. En la B te aseguras de que el paciente ventile, con ambú o ventilación mecánica si hace falta."
+    },
+    {
+      "file": "s02_g01",
+      "text": "En la C, circulación, instalas dos vías venosas gruesas, repones volumen y comprimes las hemorragias externas. Una pregunta clásica: si tienes que elegir entre comprimir una hemorragia activa o instalar la vía, primero comprimes, para dejar de perder volemia."
+    },
+    {
+      "file": "s02_g02",
+      "text": "En la D haces un examen neurológico: escala de Glasgow y pupilas, para descartar lesión medular o traumatismo encefálico. Y en la E desvistes al paciente por completo para buscar lesiones ocultas, cuidando que no se enfríe."
+    },
+    {
+      "file": "s03_g00",
+      "text": "La A no es solo que pase el aire: también es proteger la médula. Todo politraumatizado se considera portador de una lesión de columna cervical hasta que se demuestre lo contrario. Por eso lleva collar desde el inicio."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Ojo con confiarte: una radiografía lateral normal puede no mostrar una lesión, sobre todo en la unión cervicotorácica. Si hay sospecha, se completa el estudio con tomografía y el collar se mantiene."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En todo politraumatizado, aunque la clínica sea escasa, se piden tres radiografías. Primero, columna cervical lateral, para buscar fracturas o luxaciones que comprometan la médula."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Segundo, tórax anteroposterior, para neumotórax, hemotórax o contusión pulmonar."
+    },
+    {
+      "file": "s03_g04",
+      "text": "Y tercero, pelvis anteroposterior, fundamental para detectar una fractura de pelvis, que puede causar una hemorragia masiva. Además, pides radiografías de la zona que sospeches por el mecanismo o por una deformidad."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La fractura de pelvis aparece en el contexto de un politraumatizado. Es una lesión de alta energía, con mortalidad elevada por sus complicaciones vasculares y viscerales."
+    },
+    {
+      "file": "s04_g01",
+      "text": "Además del ABCDE, es obligatorio el tacto rectal y vaginal. Buscas que la fractura esté expuesta hacia el recto o la vagina. Si es así, necesita antibióticos y cirugía de urgencia."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Para la estabilidad pélvica, el dolor a la compresión y a la rotación de la pelvis orienta a fractura. Pero no repitas estas maniobras: puedes romper los coágulos ya formados y reactivar una hemorragia venosa masiva."
+    },
+    {
+      "file": "s05_g00",
+      "text": "Esta es la causa principal de muerte inmediata. Cuando la pelvis se rompe y se abre, como un libro, aumenta el espacio donde puede acumularse sangre. Y el sangrado viene sobre todo de los plexos venosos pélvicos, aunque también puede haber compromiso arterial."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El resultado es un shock hipovolémico: paciente hipotenso, taquicárdico, que se te puede ir en minutos."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El manejo tiene dos partes: reponer volumen y estabilizar precozmente la pelvis. Al cerrar el anillo se reduce el espacio y se frena la hemorragia venosa. Si la pérdida es masiva, necesitarás sangre, como veremos en una pregunta real."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La sábana pélvica es la solución en atención primaria o donde no hay recursos. Enrollas una sábana y la aprietas alrededor de los trocánteres mayores, para cerrar el espacio de la pelvis. Es lo que más se pregunta."
+    },
+    {
+      "file": "s06_g01",
+      "text": "La hamaca pélvica cumple la misma idea: contener y comprimir la pelvis desde afuera."
+    },
+    {
+      "file": "s06_g02",
+      "text": "Los tutores externos son la opción quirúrgica, para la estabilización definitiva de la pelvis desde afuera."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Si el paciente está hipotenso y la pelvis duele al comprimirla, no pierdes tiempo en una tomografía antes de actuar. Primero cierras la pelvis y repones volumen."
+    },
+    {
+      "file": "s06_g04",
+      "text": "Y no instales una sonda Foley antes de descartar una lesión de la uretra, que es la complicación que vemos ahora."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La sección de la uretra es frecuente en las fracturas de la sínfisis del pubis, las lesiones en libro abierto."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Sospechas por sangre en el meato urinario, una próstata flotante o ascendida al tacto rectal, y un globo vesical: el paciente no puede orinar."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El diagnóstico se hace con uretrocistografía retrógrada."
+    },
+    {
+      "file": "s07_g03",
+      "text": "Ojo con la contraindicación absoluta: no se instala sonda Foley, porque puede agravar la lesión o crear una falsa vía."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Si hay globo vesical, el manejo inicial es una cistostomía suprapúbica. Después viene la reparación quirúrgica de la uretra."
+    },
+    {
+      "file": "s08_g00",
+      "text": "Esta es una radiografía de pelvis de un paciente con una lesión inestable, antes de colocar la faja pélvica. Fíjate en cómo las alas ilíacas están separadas y la pelvis se ve ancha: ese es el espacio donde se acumula la sangre."
+    },
+    {
+      "file": "s08_g01",
+      "text": "Y esta es la misma pelvis después de la faja. El anillo se ve más cerrado. Eso es lo que buscas en la práctica: reducir el volumen pélvico para frenar el sangrado venoso."
+    },
+    {
+      "file": "s08_g02",
+      "text": "Cuando no hay faja comercial, la idea es la misma con una sábana enrollada y apretada. Es la solución que el examen espera en atención primaria o en lugares sin recursos."
+    },
+    {
+      "file": "s08_g03",
+      "text": "Y esta es una uretrografía retrógrada en un paciente con fracturas extensas de pelvis. La flecha marca la zona donde el contraste se escapa fuera de la uretra: es una lesión uretral. Por eso nunca pasas una sonda a ciegas."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Esta tabla resume las trampas. Pelvis inestable con shock: reposición de volumen y estabilización de la pelvis, por ejemplo con sábana. No esperas una tomografía."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Sangre en el meato y próstata ascendida: uretrocistografía retrógrada y cistostomía suprapúbica. Nunca sonda Foley."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Hemorragia externa activa: comprimes primero, antes de instalar la vía venosa."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Y en el politraumatizado, aunque esté estable, pides las tres radiografías: cuello lateral, tórax y pelvis."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Armemos el árbol completo: del politraumatizado con dolor pélvico al shock, la uretra y las radiografías. Un paciente politraumatizado. Lo primero es el ABCDE en orden y el collar cervical, sin saltarte pasos."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Si la vía aérea o la ventilación están comprometidas, eso va primero, por ejemplo descomprimir un neumotórax a tensión. La pelvis espera."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Si hay una hemorragia externa, la comprimes antes de instalar la vía. Luego, dos vías gruesas y reposición de volumen."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Si hay dolor a la compresión de la pelvis, inestabilidad o shock, sospechas fractura de pelvis, y pides cuello, tórax y pelvis."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Con shock, cierras la pelvis con una sábana sobre los trocánteres y repones volumen. No esperas imágenes ni repites las maniobras."
+    },
+    {
+      "file": "s10_g05",
+      "text": "Si hay sangre en el meato, próstata ascendida o globo vesical, es una sección uretral. Drenas con cistostomía suprapúbica y estudias con uretrocistografía."
+    },
+    {
+      "file": "s10_g06",
+      "text": "Si el tacto rectal o vaginal muestra comunicación con la mucosa, es una fractura expuesta: antibióticos y cirugía de urgencia."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Un paciente de treinta años, estable hemodinámicamente, tras un accidente de tránsito, con una fractura de pelvis en la radiografía. Al tacto rectal, el dedo sale con sangre y se palpa un fragmento óseo dentro del recto."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: manejo ortopédico con reposo; antibióticos y cirugía de urgencia; sonda Foley; observar y repetir el tacto en veinticuatro horas; o solo analgesia y control. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Para eso se hace el tacto rectal y vaginal: para descartar una fractura expuesta hacia la mucosa. Si el hueso comunica con el recto, es una fractura expuesta, y se trata con antibióticos y cirugía de urgencia. Reposo, analgesia u observar la dejan sin tratamiento. Y la sonda Foley no corresponde en una fractura de pelvis."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil dieciocho. Un paciente de veintiocho años tras un accidente de tránsito de alta intensidad, con presión de noventa sobre cincuenta, pulso de ciento quince y dolor intenso al comprimir la zona ilíaca y púbica y al rotar la pelvis."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta inicial más adecuada?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: sonda Foley; laparotomía exploradora; radiografía de pelvis; sábana pélvica; o tomografía de pelvis. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la D. Tiene una probable fractura de pelvis y ya hay compromiso hemodinámico, así que lo urgente es acceso venoso, volumen y estabilizar la pelvis, por ejemplo con una sábana. La radiografía y la tomografía confirman, pero no frenan el sangrado. Y la sonda Foley es la trampa: puede haber lesión de uretra."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Una paciente de cincuenta y seis años tras un accidente de alta energía, con hemorragia masiva e hipotensión. Hay sospecha de fractura de pelvis. La tomografía muestra un hematoma subdural con desviación de la línea media, múltiples fracturas costales, un neumotórax izquierdo con la tráquea desviada a la derecha, y una fractura de pelvis desplazada."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la medida más urgente?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: intubación; laparotomía; evacuar el hematoma subdural; pleurostomía izquierda; o estabilizar la pelvis con un dispositivo de compresión neumática. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la D. Tiene muchas lesiones graves, pero la más urgente es el neumotórax a tensión: tráquea desviada e hipotensión. El orden ABCDE manda: lo que compromete la ventilación, la B, va antes que la pelvis, que es la C. Por eso el examen mezcla todo, para ver si respetas las prioridades."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil quince. Un paciente de cuarenta y seis años con fractura de pelvis tras un accidente. Tiene dolor, sangre fresca por la uretra, próstata ascendida al tacto rectal y no ha podido orinar."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: tomografía de abdomen y pelvis; resonancia; cistoscopía; sonda Foley; o cistostomía. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la E. Sangre en la uretra, próstata ascendida y globo vesical: sección uretral. Está contraindicada la sonda Foley, y la vejiga se drena con una cistostomía. Después se estudia con uretrocistografía y se repara con cirugía. Los otros exámenes no resuelven el globo vesical."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un paciente de veinticuatro años tras un accidente de tránsito a alta velocidad, con sangre fresca por la uretra y estable. La tomografía muestra una fractura de pelvis no desplazada y la vejiga distendida."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el examen más adecuado para seguir el estudio?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: pielografía de eliminación; uro tomografía; uretrocistografía retrógrada; ecografía pélvica; o resonancia de pelvis. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la C. Sangre por la uretra tras un golpe pélvico es una sospecha de sección uretral, y se estudia con uretrocistografía retrógrada. No la confundas con el trauma renal, que da hematuria tras un golpe lumbar y se estudia con uro tomografía."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil veinticuatro. Una paciente de sesenta y ocho años con fractura de pelvis inestable y hemorragia masiva, taquicárdica e hipotensa. Su grupo es O Rh negativo, pero el hospital solo tiene dos unidades de glóbulos rojos O Rh negativo, y muchas O Rh positivo. El centro con más unidades está a cuatro horas."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: cristaloides hasta conseguir más unidades negativas; dar las dos negativas y, si hace falta, las positivas; esperar más unidades negativas; dar solo las dos negativas; o trasladarla de inmediato. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la B. Una hemorragia masiva por pelvis se trata con sangre, no solo con suero. Y en una situación con riesgo de muerte, excepcionalmente se puede dar sangre Rh positivo a una paciente Rh negativo, porque el riesgo de hemólisis es menor que el de la anemia aguda severa. Esperar o trasladar con la paciente sangrando es lo peligroso."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Un paciente politraumatizado llega a urgencias tras un accidente de tránsito."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuáles son las tres radiografías mínimas que se piden?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: tórax, abdomen y rodilla; cuello lateral, tórax y pelvis; tórax, tomografía de cerebro y pelvis; solo tórax si está estable; o todos los huesos largos y tórax. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la B. Cuello lateral, tórax anteroposterior y pelvis anteroposterior. Y se piden siempre, aunque esté estable. La D es la trampa: la estabilidad no te exime de la trilogía."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Cerremos con las reglas de oro. En el politraumatizado, ABCDE en orden: collar desde la A, y en la C comprimes primero las hemorragias externas. Lo que compromete la ventilación va antes que la pelvis."
+    },
+    {
+      "file": "s18_g01",
+      "text": "Y siempre pides las tres radiografías: cuello lateral, tórax y pelvis."
+    },
+    {
+      "file": "s18_g02",
+      "text": "En la fractura de pelvis con shock, repones volumen, con sangre si la pérdida es masiva, y estabilizas la pelvis, por ejemplo con una sábana sobre los trocánteres. No repitas las maniobras de estabilidad."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Si hay sangre en el meato, próstata ascendida o globo vesical, sospecha sección uretral: sin sonda Foley, con uretrocistografía y cistostomía suprapúbica. Y haz el tacto rectal y vaginal para descartar una fractura expuesta. Si te llevas una sola idea de hoy: pelvis inestable con shock, se cierra con una sábana y nunca se sonda a ciegas. Nos vemos en la próxima clase."
+    }
+  ]
+}

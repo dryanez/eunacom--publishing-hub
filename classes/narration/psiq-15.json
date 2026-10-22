@@ -1,0 +1,388 @@
+{
+  "id": "psiq-15",
+  "title": "Psiquiatria 17.15: Trastorno por Uso de Alcohol: Abstinencia, Delirium Tremens (CIWA-Ar) y Encefalopatía Wernicke",
+  "specialty": "Psiquiatría",
+  "chars": 17383,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. Hoy vemos el consumo problemático de alcohol, la principal adicción en Chile y una causa constante de urgencias. Partimos por el mecanismo de la abstinencia, que explica el temblor, la agitación y las convulsiones. Seguimos con la cronología, la diferencia entre alucinosis y delirium tremens, y la escala CIWA para decidir el tratamiento. Después viene la regla de oro de la tiamina antes de la glucosa, la encefalopatía de Wernicke, y el abordaje del consumo en atención primaria."
+    },
+    {
+      "file": "s01_g00",
+      "text": "El alcohol potencia el receptor inhibidor GABA A y frena el receptor excitador NMDA, el del glutamato. Con el consumo crónico el cerebro compensa: baja los receptores GABA A y sube los NMDA. Está equilibrado, pero solo mientras haya alcohol."
+    },
+    {
+      "file": "s01_g01",
+      "text": "Cuando el consumo se corta o se reduce de golpe, desaparece el freno y queda el acelerador. Hay un exceso de glutamato y de actividad noradrenérgica: es una tormenta de hiperexcitación."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Eso se ve como temblor, sudor, taquicardia, convulsiones y, en el extremo, delirium tremens. Por esta misma razón el tratamiento son las benzodiacepinas, que reponen el freno GABA."
+    },
+    {
+      "file": "s02_g00",
+      "text": "A las seis a doce horas aparece la abstinencia leve: temblor fino de manos, sudor, taquicardia, náuseas, ansiedad e insomnio. El paciente está vigil y orientado."
+    },
+    {
+      "file": "s02_g01",
+      "text": "De las doce a las veinticuatro horas puede haber alucinosis alcohólica: alucinaciones, pero con la conciencia lúcida y la persona orientada. Esa lucidez la distingue del delirium tremens."
+    },
+    {
+      "file": "s02_g02",
+      "text": "Entre las doce y las cuarenta y ocho horas pueden aparecer convulsiones tónico-clónicas generalizadas, únicas o en salvas breves, y autolimitadas."
+    },
+    {
+      "file": "s02_g03",
+      "text": "Entre las cuarenta y ocho y las noventa y seis horas, y hasta siete días, puede aparecer el delirium tremens: confusión global, desorientación, fiebre, disautonomía y alucinaciones de animales pequeños."
+    },
+    {
+      "file": "s02_g04",
+      "text": "Y la encefalopatía de Wernicke puede aparecer en cualquier momento, porque no depende del tiempo de abstinencia sino del déficit de tiamina."
+    },
+    {
+      "file": "s03_g00",
+      "text": "En la alucinosis hay voces o imágenes, pero la persona está lúcida, orientada en tiempo y espacio, con atención conservada, y a veces reconoce que podrían deberse a haber dejado de beber."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Aparece temprano, a las doce a veinticuatro horas, y sin la tormenta autonómica del delirium. Una esquizofrenia exigiría seis meses de evolución, así que no es una opción."
+    },
+    {
+      "file": "s03_g02",
+      "text": "En el delirium tremens hay confusión global y desorientación, con alucinaciones visuales de insectos, culebras o ratas, y mucho miedo. La conciencia está comprometida."
+    },
+    {
+      "file": "s03_g03",
+      "text": "Además, temblor grosero, fiebre, sudor profuso, hipertensión y agitación extrema. Sin tratamiento, la mortalidad llega hasta quince por ciento, por colapso hemodinámico y arritmias."
+    },
+    {
+      "file": "s04_g00",
+      "text": "La escala CIWA-Ar mide náuseas, temblor, sudor, ansiedad, agitación, alteraciones sensoriales, cefalea y orientación, con un puntaje de cero a sesenta y siete. Con menos de diez, la abstinencia es leve: hidratación, medidas generales, y no se usan benzodiacepinas de rutina."
+    },
+    {
+      "file": "s04_g01",
+      "text": "De diez a diecinueve es moderada. Se da una benzodiacepina oral supervisada, titulada según el puntaje, con observación médica."
+    },
+    {
+      "file": "s04_g02",
+      "text": "Con veinte o más, o ante un delirium tremens, la abstinencia es grave. Se hospitaliza en cama monitorizada, y si el cuadro es crítico, en unidad de paciente crítico, con benzodiacepinas en dosis enérgicas."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El diazepam es la primera línea cuando la función hepática está conservada. Actúa rápido y tiene metabolitos activos que prolongan el efecto y se autotitulan, lo que previene convulsiones de rebote."
+    },
+    {
+      "file": "s05_g01",
+      "text": "Se dan diez a veinte miligramos por vía oral cada una a dos horas, según el puntaje, hasta que el CIWA baje de diez."
+    },
+    {
+      "file": "s05_g02",
+      "text": "En cirrosis o daño hepático crónico, en adultos mayores y en EPOC severo, la elección es lorazepam. Se elimina por glucuronidación, sin metabolitos activos, y no se acumula en la falla hepática, mientras que el diazepam sí puede gatillar una encefalopatía hepática."
+    },
+    {
+      "file": "s05_g03",
+      "text": "Se usan dos a cuatro miligramos por vía oral o sublingual cada dos horas, según el puntaje. Esa es la respuesta del EUNACOM ante un delirium tremens con enfermedad hepática."
+    },
+    {
+      "file": "s06_g00",
+      "text": "Las convulsiones de abstinencia se tratan con benzodiacepinas. No requieren fenitoína de mantención, una trampa clásica."
+    },
+    {
+      "file": "s06_g01",
+      "text": "En el delirium tremens hay deshidratación y alteraciones electrolíticas, así que se hidrata con suero fisiológico y se corrigen el magnesio y el potasio. Y un box tranquilo y con luz ayuda."
+    },
+    {
+      "file": "s06_g02",
+      "text": "El haloperidol solo no es el tratamiento de la abstinencia. Baja el umbral convulsivo y no trata la hiperexcitación. La base es siempre la benzodiacepina."
+    },
+    {
+      "file": "s06_g03",
+      "text": "Y la otra trampa: el suero glucosado sin tiamina previa. Eso lo vemos ahora."
+    },
+    {
+      "file": "s07_g00",
+      "text": "La tiamina es un cofactor necesario para que el cerebro use la glucosa. Las personas con consumo problemático de alcohol suelen tener poca reserva por desnutrición y mala absorción intestinal."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Si le das glucosa a alguien con poca tiamina, la glucosa entra a la vía metabólica y consume la poca vitamina que queda. Eso puede precipitar un Wernicke, con daño en los cuerpos mamilares y el tálamo."
+    },
+    {
+      "file": "s07_g02",
+      "text": "Por eso la regla es dar la tiamina antes de la glucosa o junto con ella, nunca la glucosa sola. Si la glicemia está muy baja, no se retrasa la glucosa: se administran juntas. Eso se pregunta."
+    },
+    {
+      "file": "s08_g00",
+      "text": "La tríada es oftalmoplejía, con parálisis del sexto par o nistagmo, ataxia de la marcha y del tronco, y confusión. Un truco: encefalopatía, oftalmoplejía y ataxia."
+    },
+    {
+      "file": "s08_g01",
+      "text": "La tríada completa aparece solo en alrededor de un tercio de los casos. En una persona con consumo crónico, con uno o dos de estos signos, ya hay que sospecharlo y tratar. Puede aparecer también tras una cirugía bariátrica."
+    },
+    {
+      "file": "s08_g02",
+      "text": "El tratamiento es tiamina, de cien a trescientos miligramos por vía endovenosa o intramuscular al día, durante tres a cinco días, según el libro. En un Wernicke ya instalado, el equipo tratante suele usar dosis mayores."
+    },
+    {
+      "file": "s08_g03",
+      "text": "La secuela es el síndrome de Korsakoff: amnesia anterógrada profunda y confabulación, es decir, inventar historias verosímiles sin intención de mentir. La memoria remota queda relativamente preservada."
+    },
+    {
+      "file": "s09_g00",
+      "text": "El AUDIT es el cuestionario de diez preguntas que usa el MINSAL en atención primaria. Menos de ocho puntos es consumo de bajo riesgo."
+    },
+    {
+      "file": "s09_g01",
+      "text": "De ocho a quince es consumo de riesgo, y corresponde consejería e intervención breve."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Con dieciséis o más hay probable dependencia, y se deriva a un programa especializado. En menores de veinte años el consumo perjudicial o la dependencia de alcohol y drogas tiene garantía explícita en salud."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Para decidir cómo intervenir, se identifica la etapa del cambio: precontemplación, cuando no reconoce el problema; contemplación, con ambivalencia; preparación; acción y mantenimiento."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Si la persona no reconoce que tiene un problema, no sirve indicar fármacos ni derivar a psicoterapia: primero se trabaja la motivación, sin confrontar. Y la entrevista motivacional es la herramienta."
+    },
+    {
+      "file": "s10_g00",
+      "text": "La naltrexona es un antagonista opioide: bloquea los receptores mu en el sistema de recompensa, y reduce el craving, el deseo compulsivo de beber, y el placer del consumo. Se usa a cincuenta miligramos al día."
+    },
+    {
+      "file": "s10_g01",
+      "text": "No se usa si la persona consume opioides ni en falla hepática aguda."
+    },
+    {
+      "file": "s10_g02",
+      "text": "El disulfiram inhibe la aldehído deshidrogenasa. Si la persona bebe, se acumula acetaldehído y aparecen vómitos, rubor, hipotensión y taquicardia. Requiere alta motivación y supervisión."
+    },
+    {
+      "file": "s10_g03",
+      "text": "El acamprosato modula el glutamato y reduce la disforia prolongada de la abstinencia. Se elimina por vía renal, y es seguro en insuficiencia hepática."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Armemos el árbol: de la persona con consumo problemático de alcohol a la abstinencia, la urgencia y la mantención. Una persona con consumo problemático de alcohol consulta. Lo primero es saber si está en abstinencia, porque eso decide si es una urgencia o una intervención de motivación."
+    },
+    {
+      "file": "s11_g01",
+      "text": "Si hay síntomas de abstinencia, se mide el CIWA-Ar, se busca oftalmoplejía, ataxia y confusión, y se administra tiamina antes de cualquier glucosa o junto con ella."
+    },
+    {
+      "file": "s11_g02",
+      "text": "Con menos de diez, abstinencia leve: hidratación y medidas generales, sin benzodiacepina de rutina."
+    },
+    {
+      "file": "s11_g03",
+      "text": "De diez a diecinueve, abstinencia moderada: benzodiacepina oral supervisada y observación."
+    },
+    {
+      "file": "s11_g04",
+      "text": "Con veinte o más, o delirium tremens, se hospitaliza en cama monitorizada, con benzodiacepinas enérgicas. Diazepam si el hígado está sano, lorazepam si hay hepatopatía. Se corrigen hidratación y electrolitos."
+    },
+    {
+      "file": "s11_g05",
+      "text": "Si hay una convulsión de abstinencia, se trata con benzodiacepina y no se deja fenitoína de mantención."
+    },
+    {
+      "file": "s11_g06",
+      "text": "Si no hay abstinencia, se aplica el AUDIT para clasificar el consumo y se identifica la etapa del cambio."
+    },
+    {
+      "file": "s11_g07",
+      "text": "Con consumo de riesgo o perjudicial sin conciencia del problema, se parte con consejería, intervención breve y entrevista motivacional."
+    },
+    {
+      "file": "s11_g08",
+      "text": "Con probable dependencia y motivación, se deriva a un programa especializado y se considera naltrexona, o disulfiram o acamprosato según el caso."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Voces a las dieciocho horas con la persona orientada y lúcida: alucinosis alcohólica. El error es llamarlo delirium tremens, que exige desorientación."
+    },
+    {
+      "file": "s12_g01",
+      "text": "Agitación con zoopsias, fiebre y desorientación a las cuarenta y ocho horas del último trago: delirium tremens, que se trata con benzodiacepina. El error es dar solo haloperidol."
+    },
+    {
+      "file": "s12_g02",
+      "text": "Con cirrosis o daño hepático, se prefiere lorazepam y no diazepam, que se acumula."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Tríada de Wernicke con glicemia baja: tiamina antes o junto con la glucosa. El error es dar glucosa sola."
+    },
+    {
+      "file": "s12_g04",
+      "text": "Convulsión por abstinencia: benzodiacepina. No se mantiene fenitoína."
+    },
+    {
+      "file": "s12_g05",
+      "text": "Si hay consumo perjudicial pero sin conciencia de problema, es precontemplación: se parte por la entrevista motivacional, no por el fármaco."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Un hombre de cincuenta y dos años en situación de calle, con consumo diario de alcohol, llega por confusión. Está soporoso, con nistagmo horizontal y ataxia de tronco que le impide ponerse de pie. La glicemia capilar es de cuarenta y ocho. No tiene fiebre ni temblor grosero."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: glucosa sola y vitamina después; tiamina antes o junto con la glucosa; fenitoína; haloperidol; o insulina. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. Tiene la tríada de Wernicke, con una hipoglicemia que también hay que tratar. Por eso la tiamina se da antes o junto con la glucosa, nunca después ni sin ella, porque la glucosa sola puede agotar la tiamina que queda. Ni la fenitoína ni el haloperidol tratan esto, y la insulina empeoraría la hipoglicemia."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil diecinueve. Un paciente se hospitaliza por un traumatismo en un accidente de tránsito. Bebe una botella de vino al día. Al segundo día de ingreso tiene agitación, desorientación en tiempo y espacio, temblor y alucinaciones visuales de animales."
+    },
+    {
+      "file": "s14_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s14_g02",
+      "text": "Las opciones: haloperidol; lorazepam; risperidona; carbamazepina; o tiamina. Piénsalo."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Es la B. Es un delirium tremens clásico, a las cuarenta y ocho horas, con desorientación, temblor y zoopsias, y se trata con una benzodiacepina. El lorazepam es válido y es el preferido si hay daño hepático. El haloperidol y la risperidona no tratan la abstinencia. La tiamina se da además, pero no reemplaza la benzodiacepina."
+    },
+    {
+      "file": "s15_g00",
+      "text": "Una pregunta real del EUNACOM de enero de dos mil veintitrés. Un paciente con hálito alcohólico llega a urgencias, y el TAC no muestra lesiones. A las cuarenta y ocho horas tiene agitación y desorientación."
+    },
+    {
+      "file": "s15_g01",
+      "text": "¿Cuál es el tratamiento más adecuado?"
+    },
+    {
+      "file": "s15_g02",
+      "text": "Las opciones: haloperidol intramuscular; tiamina endovenosa; suero glucosado al diez por ciento; metadona oral; o lorazepam endovenoso. Piénsalo."
+    },
+    {
+      "file": "s15_g03",
+      "text": "Es la E. Descartada una lesión por la tomografía, la agitación y la desorientación a las cuarenta y ocho horas son una abstinencia grave, y su tratamiento es una benzodiacepina. La tiamina es necesaria, pero sola no controla el cuadro; el glucosado solo es justo la trampa de la tiamina; y el haloperidol solo no trata la causa."
+    },
+    {
+      "file": "s16_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Un paciente de setenta años, con daño hepático crónico y consumo activo de alcohol, quiere dejar de beber. Toma tres litros de cerveza al día. Hace un año intentó bajar a un litro, y presentó agitación, angustia y la visión de insectos, que sabía que no eran reales."
+    },
+    {
+      "file": "s16_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s16_g02",
+      "text": "Las opciones: cese inmediato del consumo; iniciar disulfiram; hospitalizar para desintoxicación; indicar lorazepam; o derivar a psicoterapia. Piénsalo."
+    },
+    {
+      "file": "s16_g03",
+      "text": "Es la C. Está motivado, pero tiene antecedente de abstinencia grave, con alucinaciones, y un daño hepático crónico. Con ese riesgo, la desintoxicación se hace hospitalizado y con supervisión médica. Cortar de golpe en la casa es peligroso, el disulfiram no corresponde antes de desintoxicar, y si la abstinencia fuera grave, el fármaco sería lorazepam por el hígado."
+    },
+    {
+      "file": "s17_g00",
+      "text": "Una pregunta real del EUNACOM de agosto de dos mil veintiuno. Un joven de veinte años, fumador y consumidor diario de alcohol hace un mes, lo suspende hace unos días. Evoluciona con intranquilidad, sudor, palpitaciones, angustia, insomnio y malestar que empeoran. Sus padres dicen que está muy asustado, y que fumó marihuana los últimos dos días para calmar la ansiedad."
+    },
+    {
+      "file": "s17_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s17_g02",
+      "text": "Las opciones: delirium tremens; abstinencia de alcohol; abstinencia de marihuana; esquizofrenia; o intoxicación por cannabis. Piénsalo."
+    },
+    {
+      "file": "s17_g03",
+      "text": "Es la B. Inquietud, sudor, palpitaciones e insomnio tras suspender un consumo diario: abstinencia alcohólica, que suele empeorar al tercer o cuarto día. No hay desorientación ni alucinaciones, así que no es delirium tremens. La marihuana vino después, para aliviar los síntomas, y no es la causa."
+    },
+    {
+      "file": "s18_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil veinticuatro. Un hombre operado de cirugía bariátrica hace un año, con consumo de alcohol desde hace siete meses, deja de asistir a sus controles. Llega con una semana de ataxia, dificultad para caminar, visión doble, confusión y somnolencia."
+    },
+    {
+      "file": "s18_g01",
+      "text": "¿Cuál es la deficiencia?"
+    },
+    {
+      "file": "s18_g02",
+      "text": "Las opciones: tiamina; vitamina B doce; vitamina C; o dos opciones de cirugía que no corresponden. Piénsalo."
+    },
+    {
+      "file": "s18_g03",
+      "text": "Es la A. Ataxia, visión doble por oftalmoplejía y confusión forman la tríada de Wernicke, por déficit de tiamina. Los factores de riesgo son el alcohol y la cirugía bariátrica, que reduce la absorción. La vitamina B doce da neuropatía y anemia, no esta tríada aguda."
+    },
+    {
+      "file": "s19_g00",
+      "text": "Una pregunta real del EUNACOM de diciembre de dos mil veinticinco. Una mujer de treinta y cinco años llega a urgencias porque, tras beber en una fiesta, se puso agresiva y arrojó vasos a otros invitados. Dice que bebe solo los fines de semana, para distenderse de su carga laboral. Una vez la detuvieron por conducir en estado de ebriedad, pero ella no lo considera un problema."
+    },
+    {
+      "file": "s19_g01",
+      "text": "¿Cuál es la conducta más adecuada?"
+    },
+    {
+      "file": "s19_g02",
+      "text": "Las opciones: disulfiram; benzodiacepinas orales; bupropión; entrevista motivacional; o derivar a psicoterapia cognitivo-conductual. Piénsalo."
+    },
+    {
+      "file": "s19_g03",
+      "text": "Es la D. Es un consumo perjudicial, con consecuencias, y ella no lo reconoce: precontemplación. Mientras no vea el problema, ni el disulfiram ni la psicoterapia funcionan, así que se parte por la entrevista motivacional. Las benzodiacepinas no tienen lugar: no está en abstinencia."
+    },
+    {
+      "file": "s20_g00",
+      "text": "Una pregunta de práctica del banco EUNACOM. Un hombre de cuarenta y dos años llega a urgencias a las dieciocho horas de su último trago, escuchando voces de desconocidos que murmuran amenazas a través de la pared. Está vigil, perfectamente orientado, con atención preservada, y reconoce que las voces podrían deberse a haber dejado de beber. El examen neurológico es normal."
+    },
+    {
+      "file": "s20_g01",
+      "text": "¿Cuál es el diagnóstico más probable?"
+    },
+    {
+      "file": "s20_g02",
+      "text": "Las opciones: delirium tremens; alucinosis alcohólica; esquizofrenia paranoide tardía; encefalopatía hepática; o Korsakoff. Piénsalo."
+    },
+    {
+      "file": "s20_g03",
+      "text": "Es la B. Alucinaciones a las dieciocho horas, con total lucidez y orientación: alucinosis alcohólica. El delirium tremens llega más tarde, con confusión y desorientación. La esquizofrenia exige seis meses, y Korsakoff es una amnesia crónica, no un cuadro agudo."
+    },
+    {
+      "file": "s21_g00",
+      "text": "Una pregunta de práctica del banco EUNACOM. Un hombre de treinta y ocho años con dependencia severa al alcohol superó la abstinencia en el hospital y está motivado para no beber. En el policlínico de adicciones se indica un fármaco que es antagonista de los receptores opioides mu, que bloquea el efecto placentero del alcohol y reduce el craving."
+    },
+    {
+      "file": "s21_g01",
+      "text": "¿Cuál es dicho fármaco?"
+    },
+    {
+      "file": "s21_g02",
+      "text": "Las opciones: disulfiram; naltrexona; metadona; acamprosato; o buprenorfina. Piénsalo."
+    },
+    {
+      "file": "s21_g03",
+      "text": "Es la B. Antagonista opioide mu es la naltrexona. El disulfiram no bloquea el placer, sino que produce una reacción aversiva por acetaldehído. El acamprosato actúa sobre el glutamato, y la metadona y la buprenorfina son agonistas opioides para la dependencia de opioides, no del alcohol."
+    },
+    {
+      "file": "s22_g00",
+      "text": "Cerremos con las reglas de oro. La alucinosis alcohólica tiene alucinaciones con conciencia lúcida, a las doce a veinticuatro horas. El delirium tremens tiene confusión y desorientación, desde las cuarenta y ocho horas, y es una emergencia."
+    },
+    {
+      "file": "s22_g01",
+      "text": "El tratamiento es la benzodiacepina titulada por el CIWA-Ar. Diazepam si el hígado está sano, y lorazepam en cirrosis, adulto mayor o EPOC. El haloperidol solo no es tratamiento, y las convulsiones se tratan con benzodiacepinas, no con fenitoína."
+    },
+    {
+      "file": "s22_g02",
+      "text": "La tiamina se da antes de la glucosa o junto con ella, nunca la glucosa sola. El Wernicke es la tríada de oftalmoplejía, ataxia y confusión, y la secuela es el Korsakoff, con amnesia y confabulación."
+    },
+    {
+      "file": "s22_g03",
+      "text": "En atención primaria, se detecta con el AUDIT y se trabaja la motivación según la etapa del cambio. Después, naltrexona para el craving. Si te llevas una sola idea de hoy: ante abstinencia, benzodiacepina y tiamina; y la glucosa nunca sola. Nos vemos en la próxima clase."
+    }
+  ]
+}

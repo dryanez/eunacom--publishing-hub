@@ -1,0 +1,240 @@
+{
+  "id": "uro-10",
+  "title": "Urologia 13.10: Cáncer de Testículo: Masas Indoloras, Marcadores (AFP, b-hCG, LDH) & Orquiectomía Radical",
+  "specialty": "Urología",
+  "chars": 9438,
+  "segments": [
+    {
+      "file": "s00_g00",
+      "text": "Bienvenido. En la clase de masas escrotales vimos las que son benignas, como el hidrocele, el quiste de epidídimo y el varicocele. Hoy vemos la que no se puede dejar pasar: la masa sólida dentro del testículo en un hombre joven. El examen pregunta tres cosas: qué examen pedir, qué marcador identifica cada tumor, y por dónde se opera. Y una regla que no admite excepciones: nunca se punciona."
+    },
+    {
+      "file": "s01_g00",
+      "text": "Es el cáncer sólido más frecuente en varones jóvenes, con un pico entre los veinte y los treinta y cinco años. Y a la vez es de los más curables, con más de noventa y cinco por ciento de curación."
+    },
+    {
+      "file": "s01_g01",
+      "text": "El factor de riesgo más importante es la criptorquidia, el testículo no descendido. Multiplica el riesgo entre cuatro y diez veces, y ojo: también aumenta el del testículo contralateral, aunque esté bien descendido. Operarlo temprano baja el riesgo, pero no lo elimina."
+    },
+    {
+      "file": "s01_g02",
+      "text": "Más del noventa y cinco por ciento nace de células germinales y se divide en dos grupos que se tratan distinto. El seminoma, que es la mitad de los casos."
+    },
+    {
+      "file": "s01_g03",
+      "text": "Y el no seminoma, que reúne el carcinoma embrionario, el tumor del saco vitelino, el coriocarcinoma y el teratoma. Esta división es la que decide el tratamiento."
+    },
+    {
+      "file": "s02_g00",
+      "text": "El paciente se palpa un nódulo duro, pétreo e indoloro, muchas veces en la ducha o después de un golpe que lo hizo palparse. No transilumina, y eso lo separa del hidrocele."
+    },
+    {
+      "file": "s02_g01",
+      "text": "Menos de uno de cada seis debuta con dolor, por necrosis hemorrágica dentro del tumor. Por eso, aunque duela, una masa sólida dentro del testículo obliga a descartar un tumor."
+    },
+    {
+      "file": "s02_g02",
+      "text": "La ecografía Doppler testicular es el examen de primera línea y es obligatoria. Distingue lo que está dentro del testículo, que es maligno en más del noventa y cinco por ciento, de lo que está fuera, como el epidídimo o el hidrocele."
+    },
+    {
+      "file": "s02_g03",
+      "text": "El patrón típico es una masa sólida, hipoecogénica, con más flujo. Toda masa sólida intratesticular se considera maligna hasta demostrar lo contrario."
+    },
+    {
+      "file": "s03_g00",
+      "text": "Mira la zona más oscura y redonda dentro del tejido testicular: es el tumor, un nódulo hipoecogénico en pleno parénquima. Eso es lo que diferencia un tumor de una lesión del epidídimo."
+    },
+    {
+      "file": "s03_g01",
+      "text": "Y esta es la radiografía de un tumor testicular diseminado: múltiples nódulos redondos en ambos pulmones, las llamadas balas de cañón. Es la forma de metástasis a distancia."
+    },
+    {
+      "file": "s03_g02",
+      "text": "Aquí, en el TAC, una masa grande en el retroperitoneo después de la quimioterapia. Los ganglios retroperitoneales son el primer escalón de la diseminación, y estas masas residuales pueden requerir cirugía."
+    },
+    {
+      "file": "s04_g00",
+      "text": "Con una masa intratesticular confirmada, se piden tres marcadores antes de la cirugía: alfafetoproteína, gonadotrofina coriónica beta y deshidrogenasa láctica. Se toman antes porque la cirugía cambia sus valores, y se repiten después para el seguimiento."
+    },
+    {
+      "file": "s04_g01",
+      "text": "La alfafetoproteína la producen el tumor del saco vitelino y el carcinoma embrionario. La regla de oro: el seminoma puro nunca eleva la alfafetoproteína. Si viene elevada, el tumor se trata como no seminoma, aunque el informe diga seminoma."
+    },
+    {
+      "file": "s04_g02",
+      "text": "La beta-hCG la produce el coriocarcinoma, con valores muy altos, y también entre quince y veinte por ciento de los seminomas. Por eso en el seminoma puede estar elevada, pero la alfafetoproteína no."
+    },
+    {
+      "file": "s04_g03",
+      "text": "La LDH no es específica: refleja cuánta masa tumoral hay y qué tan rápido se recambia. Sirve para pronóstico y seguimiento."
+    },
+    {
+      "file": "s05_g00",
+      "text": "El seminoma puro tiene alfafetoproteína siempre normal, beta-hCG elevada en uno de cada cinco, y es radiosensible y quimiosensible."
+    },
+    {
+      "file": "s05_g01",
+      "text": "El carcinoma embrionario eleva ambos marcadores con frecuencia, y es radiorresistente."
+    },
+    {
+      "file": "s05_g02",
+      "text": "El saco vitelino es el de la alfafetoproteína muy alta, con beta-hCG normal."
+    },
+    {
+      "file": "s05_g03",
+      "text": "El coriocarcinoma es el inverso: beta-hCG muy alta, alfafetoproteína normal, y diseminación temprana por la sangre."
+    },
+    {
+      "file": "s05_g04",
+      "text": "Y el teratoma tiene todos los marcadores normales. Es radiorresistente y se trata con cirugía."
+    },
+    {
+      "file": "s06_g00",
+      "text": "La clave es el drenaje linfático. El testículo drena a los ganglios lumboaórticos del retroperitoneo, pero la piel del escroto drena a los ganglios inguinales superficiales."
+    },
+    {
+      "file": "s06_g01",
+      "text": "Si punzas o abres el escroto, contaminas esa pared y abres una vía de diseminación a la ingle que no existía. Por eso la biopsia por punción y el abordaje escrotal están prohibidos. Es una de las respuestas que el examen pone como distractor."
+    },
+    {
+      "file": "s06_g02",
+      "text": "La conducta es la orquiectomía inguinal radical: incisión sobre el ligamento inguinal y control temprano del cordón espermático a nivel del anillo inguinal profundo, antes de mover el testículo. Es diagnóstica y terapéutica a la vez."
+    },
+    {
+      "file": "s07_g00",
+      "text": "Con el testículo ya extirpado, se hace TAC de tórax, abdomen y pelvis con contraste. El primer escalón es el ganglio retroperitoneal y luego el pulmón."
+    },
+    {
+      "file": "s07_g01",
+      "text": "Si los marcadores siguen elevados después de operar, hay enfermedad a distancia aunque el TAC no la muestre, y se trata como enfermedad avanzada."
+    },
+    {
+      "file": "s07_g02",
+      "text": "El seminoma es muy radiosensible y quimiosensible. En estadio uno se puede vigilar, dar un ciclo de carboplatino o hacer radioterapia lumboaórtica."
+    },
+    {
+      "file": "s07_g03",
+      "text": "El no seminoma es radiorresistente. En estadios avanzados se usa quimioterapia con cisplatino, el esquema BEP, y se reseca cualquier masa retroperitoneal residual."
+    },
+    {
+      "file": "s07_g04",
+      "text": "Son hombres jóvenes en edad fértil, y la quimioterapia o la cirugía retroperitoneal pueden dejarlos infértiles. Por eso se ofrece criopreservación de semen antes de cualquier tratamiento adicional."
+    },
+    {
+      "file": "s08_g00",
+      "text": "En estadio uno, el tumor está solo en el testículo y los marcadores se normalizan. El seminoma se vigila o recibe carboplatino. El no seminoma se vigila o recibe un ciclo de BEP si hay invasión vascular."
+    },
+    {
+      "file": "s08_g01",
+      "text": "En estadio dos hay ganglios retroperitoneales. El seminoma recibe radioterapia retroperitoneal o tres ciclos de BEP. El no seminoma, tres ciclos de BEP y, si quedan masas ganglionares residuales, linfadenectomía retroperitoneal."
+    },
+    {
+      "file": "s08_g02",
+      "text": "En estadio tres, con metástasis pulmonares, supradiafragmáticas o viscerales, se da quimioterapia de inducción con BEP, de tres a cuatro ciclos según el riesgo."
+    },
+    {
+      "file": "s09_g00",
+      "text": "Armemos el árbol: del nódulo testicular a la orquiectomía. Un varón joven con una masa testicular indolora. El primer paso es la ecografía Doppler para ver si está dentro o fuera del testículo."
+    },
+    {
+      "file": "s09_g01",
+      "text": "Si la lesión está fuera del testículo, es casi siempre benigna, y se maneja como vimos en la clase de masas escrotales."
+    },
+    {
+      "file": "s09_g02",
+      "text": "Si es sólida e intratesticular, se piden los marcadores antes de operar."
+    },
+    {
+      "file": "s09_g03",
+      "text": "Se opera por vía inguinal, con control alto del cordón. La punción o la vía escrotal están prohibidas."
+    },
+    {
+      "file": "s09_g04",
+      "text": "Después se etapifica con TAC y se deriva a oncología. Con alfafetoproteína elevada, se trata como no seminoma, y se ofrece criopreservar semen."
+    },
+    {
+      "file": "s10_g00",
+      "text": "Masa sólida intratesticular: orquiectomía inguinal radical. El error es la punción o el abordaje por el escroto."
+    },
+    {
+      "file": "s10_g01",
+      "text": "Los marcadores se toman antes de la cirugía, no después."
+    },
+    {
+      "file": "s10_g02",
+      "text": "Seminoma con alfafetoproteína elevada: es un no seminoma, y se trata como tal."
+    },
+    {
+      "file": "s10_g03",
+      "text": "Y la lesión que está fuera del testículo, como el quiste de epidídimo o el hidrocele, no se extirpa. Eso lo vimos en la clase de masas escrotales."
+    },
+    {
+      "file": "s10_g04",
+      "text": "Antes de la quimioterapia, se ofrece criopreservación de semen."
+    },
+    {
+      "file": "s11_g00",
+      "text": "Un hombre de veinticinco años con un aumento de volumen indoloro del testículo derecho, masa pétrea de tres coma cinco centímetros, que no transilumina. La ecografía muestra una masa sólida hipoecogénica y vascularizada. La alfafetoproteína está en ciento veinte y la beta-hCG en cuarenta y cinco."
+    },
+    {
+      "file": "s11_g01",
+      "text": "¿Cuál es la conducta inicial?"
+    },
+    {
+      "file": "s11_g02",
+      "text": "Las opciones: biopsia por punción escrotal; orquiectomía inguinal radical; enucleación escrotal; ecografía de control en tres meses; o quimioterapia antes de operar. Piénsalo."
+    },
+    {
+      "file": "s11_g03",
+      "text": "Es la B. Con una masa sólida y marcadores elevados, el diagnóstico es un tumor germinal no seminoma, y se opera por la ingle. La A y la C pasan por el escroto, que está prohibido. La D retrasa un tumor curable."
+    },
+    {
+      "file": "s12_g00",
+      "text": "Una pregunta real del EUNACOM de julio de dos mil diecisiete. Un hombre de treinta años con aumento de volumen escrotal derecho. La ecografía muestra una lesión sólida de tres centímetros que reemplaza el parénquima testicular, sin compromiso del epidídimo."
+    },
+    {
+      "file": "s12_g01",
+      "text": "¿Cuál es la conducta?"
+    },
+    {
+      "file": "s12_g02",
+      "text": "Las opciones: radioterapia; quimioterapia; orquiectomía radical; TAC de abdomen y pelvis; o biopsia por punción. Piénsalo."
+    },
+    {
+      "file": "s12_g03",
+      "text": "Es la C. Una lesión sólida que reemplaza el testículo es un tumor, y se extirpa por vía inguinal. El TAC es para etapificar, después de operar, y la punción es justo lo que no se hace. La radioterapia y la quimioterapia vienen después, según la histología."
+    },
+    {
+      "file": "s13_g00",
+      "text": "Un hombre de treinta años operado de orquiectomía inguinal. La biopsia dice seminoma clásico puro, pero la alfafetoproteína es de trescientos cincuenta, antes y después de operar."
+    },
+    {
+      "file": "s13_g01",
+      "text": "¿Cuál es la implicancia clínica?"
+    },
+    {
+      "file": "s13_g02",
+      "text": "Las opciones: es normal en seminomas; el seminoma puro nunca produce alfafetoproteína; es por necrosis; es por la anestesia; o es un teratoma benigno. Piénsalo."
+    },
+    {
+      "file": "s13_g03",
+      "text": "Es la B. El seminoma puro no produce alfafetoproteína. Si está elevada, hay un componente no seminomatoso que la biopsia no vio, y se trata como no seminoma, con quimioterapia."
+    },
+    {
+      "file": "s14_g00",
+      "text": "Cerremos con las reglas de oro. Toda masa sólida intratesticular en un varón joven es un tumor hasta demostrar lo contrario. Se pide ecografía Doppler y marcadores antes de operar."
+    },
+    {
+      "file": "s14_g01",
+      "text": "El seminoma puro no eleva alfafetoproteína. Si está alta, es no seminoma."
+    },
+    {
+      "file": "s14_g02",
+      "text": "Se opera por la ingle, con control alto del cordón. Nunca se punciona ni se opera por el escroto."
+    },
+    {
+      "file": "s14_g03",
+      "text": "Y se ofrece criopreservación de semen. Es una enfermedad con garantía GES, curable en más del noventa y cinco por ciento. Si te llevas una sola idea de hoy: masa sólida intratesticular, orquiectomía por vía inguinal, jamás una punción. Nos vemos en la próxima clase."
+    }
+  ]
+}
