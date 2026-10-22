@@ -360,31 +360,75 @@ function rule(t) {
 }
 
 // ---------- llamada a la acción ----------
+// kind "comenta" (por defecto): Comenta PALABRA + texto (+ portada del libro si hay cta.cover)
+// kind "web": pregunta arriba, eunacomapp.cl en grande, texto y cupón (cta.code / cta.codeT)
+let COVER = null;
 function cta(t) {
   const lt = t - CTA.t0, a = ease(seg(lt, 0, 0.3)) * (1 - ease(seg(t, LOOP.t0, 0.4)));
   if (a <= 0) return;
   glow(CX, 820, 650, C.CYAN, 0.14 * a);
   ctx.save(); ctx.globalAlpha = a;
-  const k0 = out(seg(lt, 0, 0.3));
-  bold('Comenta', CX, 600 - (1 - k0) * 20, 84, '#FFFFFF', 'center', k0, 900, 0.1);
-  const tk = wordT(CTA, D.cta.keyword, CTA.t0 + 0.4) - 0.05, k1 = seg(t, tk, 0.35);
-  if (k1 > 0) {
-    const f = fit(D.cta.keyword, CW - 120, 180, 90, 900, 1), bw = (ctx.font = F(f.z, 900), ctx.measureText(D.cta.keyword).width) + 110, bh = f.z * 1.2;
-    const pulse = 1 + 0.035 * Math.sin((t - tk) * 7), s = lerp(0.3, 1, back(k1)) * pulse, cy = 790;
-    ctx.save(); ctx.translate(CX, cy); ctx.scale(s, s); ctx.rotate(-0.03 * (1 - out(k1))); ctx.translate(-CX, -cy);
-    ctx.shadowColor = hexA(C.CYAN, 0.6); ctx.shadowBlur = 50;
-    rr(CX - bw / 2, cy - bh / 2, bw, bh, 40, C.CYAN); ctx.shadowBlur = 0;
-    ctx.fillStyle = C.CYAN; ctx.beginPath(); ctx.moveTo(CX - bw / 2 + 90, cy + bh / 2 - 2); ctx.lineTo(CX - bw / 2 + 70, cy + bh / 2 + 52); ctx.lineTo(CX - bw / 2 + 160, cy + bh / 2 - 2); ctx.fill();
-    text(D.cta.keyword, CX, cy + f.z * 0.36, F(f.z, 900), C.BG, 'center');
-    ctx.restore();
-  }
-  const t2 = wordT(CTA, 'mando', CTA.t0 + 1) - 0.1, k2 = out(seg(t, t2, 0.35));
-  const f2 = fit(D.cta.t, CW, 54, 34, 800, 3);
-  ctx.save(); ctx.globalAlpha *= k2; f2.L.forEach((l, i) => bold(l, CX, 1010 + i * f2.z * 1.18 + (1 - k2) * 20, f2.z, '#FFFFFF', 'center', 1, 800, 0.1)); ctx.restore();
-  const k3 = out(seg(lt, 0.6, 0.5));
-  emblem(CX, 1340 + (1 - k3) * 30, 1.45, k3);
-  text('ACADEMIA EXAMEN EUNACOM', CX, 1460 + (1 - k3) * 30, F(32, 500, 'DMMono'), '#FFFFFF', 'center', k3);
+  if (D.cta.kind === 'web') ctaWeb(t, lt); else ctaComenta(t, lt);
   ctx.restore();
+}
+function bubble(word, cy, tk, t, tail = true) {
+  const k1 = seg(t, tk, 0.35); if (k1 <= 0) return;
+  const f = fit(word, CW - 120, 180, 70, 900, 1), bw = (ctx.font = F(f.z, 900), ctx.measureText(word).width) + 110, bh = f.z * 1.2;
+  const pulse = 1 + 0.035 * Math.sin((t - tk) * 7), s = lerp(0.3, 1, back(k1)) * pulse;
+  ctx.save(); ctx.translate(CX, cy); ctx.scale(s, s); ctx.rotate(-0.03 * (1 - out(k1))); ctx.translate(-CX, -cy);
+  ctx.shadowColor = hexA(C.CYAN, 0.6); ctx.shadowBlur = 50;
+  rr(CX - bw / 2, cy - bh / 2, bw, bh, 40, C.CYAN); ctx.shadowBlur = 0;
+  if (tail) { ctx.fillStyle = C.CYAN; ctx.beginPath(); ctx.moveTo(CX - bw / 2 + 90, cy + bh / 2 - 2); ctx.lineTo(CX - bw / 2 + 70, cy + bh / 2 + 52); ctx.lineTo(CX - bw / 2 + 160, cy + bh / 2 - 2); ctx.fill(); }
+  text(word, CX, cy + f.z * 0.36, F(f.z, 900), C.BG, 'center');
+  ctx.restore();
+}
+function lines(s, y0, t0, t, max = 54, col = '#FFFFFF') {
+  const k = out(seg(t, t0, 0.35)); if (k <= 0) return y0;
+  const f = fit(s, CW, max, 34, 800, 3);
+  ctx.save(); ctx.globalAlpha *= k; f.L.forEach((l, i) => bold(l, CX, y0 + i * f.z * 1.18 + (1 - k) * 20, f.z, col, 'center', 1, 800, 0.1)); ctx.restore();
+  return y0 + f.L.length * f.z * 1.18;
+}
+function brand(y, k) {
+  emblem(CX, y + (1 - k) * 30, 1.45, k);
+  text('ACADEMIA EXAMEN EUNACOM', CX, y + 120 + (1 - k) * 30, F(32, 500, 'DMMono'), '#FFFFFF', 'center', k);
+}
+function ctaComenta(t, lt) {
+  const cv = COVER, y = cv ? -170 : 0, k0 = out(seg(lt, 0, 0.3));
+  bold('Comenta', CX, 600 + y - (1 - k0) * 20, 84, '#FFFFFF', 'center', k0, 900, 0.1);
+  bubble(D.cta.keyword, 790 + y, wordT(CTA, D.cta.keyword, CTA.t0 + 0.4) - 0.05, t);
+  lines(D.cta.t, 1010 + y, wordT(CTA, 'mando', CTA.t0 + 1) - 0.1, t);
+  const k3 = out(seg(lt, 0.6, 0.5));
+  if (!cv) return brand(1340, k3);
+  // portada del libro, inclinada y con sombra
+  const kc = seg(t, wordT(CTA, D.cta.coverWord || 'mando', CTA.t0 + 1) + 0.1, 0.5); if (kc <= 0) return;
+  const ch = 600, cw = ch * cv.width / cv.height, cy = 1345, s = lerp(0.6, 1, back(kc));
+  ctx.save(); ctx.globalAlpha *= out(kc); ctx.translate(CX, cy); ctx.rotate(lerp(-0.12, -0.04, out(kc))); ctx.scale(s, s);
+  ctx.shadowColor = 'rgba(0,0,0,0.7)'; ctx.shadowBlur = 60; ctx.shadowOffsetY = 24;
+  rr(-cw / 2, -ch / 2, cw, ch, 14, '#FFFFFF'); ctx.shadowColor = 'transparent';
+  ctx.save(); ctx.beginPath(); ctx.roundRect(-cw / 2, -ch / 2, cw, ch, 14); ctx.clip(); ctx.drawImage(cv, -cw / 2, -ch / 2, cw, ch); ctx.restore();
+  if (D.cta.badge) { ctx.rotate(0.12); pill(D.cta.badge, cw / 2 - 10, -ch / 2 + 10, C.YEL, F(40, 900), C.BG); }
+  ctx.restore();
+  text('ACADEMIA EXAMEN EUNACOM', CX, 1700, F(30, 500, 'DMMono'), '#FFFFFF', 'center', k3);
+}
+function ctaWeb(t, lt) {
+  const k0 = out(seg(lt, 0, 0.3));
+  const f0 = fit(D.cta.top, CW, 76, 44, 900, 2);
+  f0.L.forEach((l, i) => bold(l, CX, 470 + i * f0.z * 1.15 - (1 - k0) * 20, f0.z, '#FFFFFF', 'center', k0, 900, 0.1));
+  bubble(D.cta.url || 'eunacomapp.cl', 700, wordT(CTA, 'eunacom', CTA.t0 + 0.8) - 0.05, t, false);
+  const yT = lines(D.cta.t, 900, wordT(CTA, D.cta.tWord || 'con', CTA.t0 + 1.2) - 0.1, t, 50);
+  if (D.cta.code) {
+    const kc = seg(t, wordT(CTA, 'código', CTA.t0 + 2) - 0.1, 0.4);
+    if (kc > 0) {
+      const cy = Math.max(yT + 170, 1180), s = lerp(0.5, 1, back(kc)), bw = 760, bh = 250;
+      ctx.save(); ctx.globalAlpha *= out(kc); ctx.translate(CX, cy); ctx.scale(s, s); ctx.rotate(-0.025);
+      ctx.shadowColor = hexA(C.YEL, 0.45); ctx.shadowBlur = 40; rr(-bw / 2, -bh / 2, bw, bh, 26, C.YEL); ctx.shadowBlur = 0;
+      ctx.setLineDash([16, 12]); rr(-bw / 2 + 18, -bh / 2 + 18, bw - 36, bh - 36, 16, null, C.BG, 4); ctx.setLineDash([]);
+      text(D.cta.codeT || '20 % en cualquier plan', 0, -38, F(40, 800), C.BG, 'center');
+      text(D.cta.code, 0, 62, F(104, 900), C.BG, 'center');
+      ctx.restore();
+    }
+  }
+  brand(1480, out(seg(lt, 0.6, 0.5)));
 }
 
 // ---------- render ----------
@@ -409,6 +453,7 @@ window.render = async function (t) {
 Promise.all([document.fonts.load('900 20px Inter'), document.fonts.load('800 20px Inter'), document.fonts.load('700 20px Inter'),
   document.fonts.load('800 20px Syne'), document.fonts.load('20px DMMono')]).then(() => document.fonts.ready)
   .then(() => D.media ? loadImg(frameSrc(D.hook.frame || 0)).then(im => (HOOKIMG = im)).catch(() => {}) : null)
+  .then(() => D.cta.cover ? loadImg(`../out/shorts/${D.id}/cover.png`).then(im => (COVER = im)).catch(() => {}) : null)
   .then(async () => { await window.render(0); window.READY = true; });
 </script>
 </body></html>

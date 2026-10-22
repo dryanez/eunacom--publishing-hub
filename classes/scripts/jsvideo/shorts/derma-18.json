@@ -1,0 +1,149 @@
+{
+  "id": "derma-18",
+  "lesson": "derma-18",
+  "spec": "Dermatología",
+  "source": "Pregunta real EUNACOM · Dic 2017",
+  "hook": {
+    "top": "Mancha que se oscurece en horas",
+    "big": "¿Qué es?",
+    "say": "Mancha que se oscurece en horas. ¿Qué es?",
+    "frame": 14.0
+  },
+  "case": [
+    {
+      "t": "Lesión dolorosa en el antebrazo",
+      "say": "Pregunta real del EUNACOM. Lesión dolorosa en el antebrazo."
+    },
+    {
+      "t": "A las 6 horas: más oscura y grande",
+      "say": "A las 6 horas, más oscura y más grande."
+    },
+    {
+      "t": "Placa livedoide típica",
+      "say": "Placa livedoide típica.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es el diagnóstico más probable?",
+    "say": "¿Cuál es el diagnóstico más probable? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Loxoscelismo cutáneo"
+    },
+    {
+      "letter": "B",
+      "text": "Necrosis grasa"
+    },
+    {
+      "letter": "C",
+      "text": "Ectima"
+    },
+    {
+      "letter": "D",
+      "text": "Pioderma gangrenoso"
+    },
+    {
+      "letter": "E",
+      "text": "Fasceítis necrotizante"
+    }
+  ],
+  "correct": "A",
+  "answer": {
+    "t": "Loxoscelismo cutáneo",
+    "say": "Es la A. Loxoscelismo cutáneo."
+  },
+  "clip": {
+    "src": "animaciones/derma-18/A1_loxoscelismo_necrosis.mp4",
+    "panels": [
+      {
+        "crop": [
+          20,
+          110,
+          420,
+          580
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "La toxina de la araña de rincón tapa los vasos de la piel.",
+      "clip": [
+        3,
+        10
+      ],
+      "zoom": [
+        0.3,
+        0.5,
+        1.05
+      ],
+      "chip": "Trombosis microvascular"
+    },
+    {
+      "say": "En horas aparece la placa livedoide: pálida y violácea.",
+      "clip": [
+        10,
+        17
+      ],
+      "zoom": [
+        0.3,
+        0.5,
+        1.1
+      ],
+      "chip": "Placa livedoide en horas"
+    },
+    {
+      "say": "Después escara y úlcera. No se opera de entrada.",
+      "clip": [
+        17,
+        30
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "No operar de entrada"
+    }
+  ],
+  "rule": {
+    "t": "Placa livedoide en horas: *loxoscelismo*",
+    "s": "Araña de rincón",
+    "say": "Regla de oro: placa livedoide en horas: loxoscelismo."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "ATLAS",
+    "t": "y te mando GRATIS el Atlas de Imágenes de Dermatología",
+    "say": "Comenta atlas y te mando gratis el Atlas de Imágenes de Dermatología.",
+    "cover": "06_Atlas/Atlas_Imagenes_Dermatologia_2026.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y si ves esta mancha…"
+  },
+  "highlight": [
+    "arana",
+    "rincon",
+    "livedoide",
+    "violacea",
+    "loxoscelismo",
+    "escara",
+    "vasos"
+  ],
+  "post": {
+    "text": "Una lesión dolorosa que en 6 horas se vuelve oscura y livedoide 🕷️ Pregunta real del EUNACOM (Dic 2017): loxoscelismo cutáneo, la araña de rincón. La toxina trombosa los vasos de la piel: placa livedoide, escara y úlcera.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta ATLAS y te mando GRATIS el Atlas de Imágenes de Dermatología 📸",
+    "hashtags": [
+      "#EUNACOM",
+      "#dermatologia",
+      "#chile",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Blausen.com staff (2014), CC BY 3.0. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "E"
+}

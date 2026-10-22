@@ -1,0 +1,151 @@
+{
+  "id": "trauma-03",
+  "lesson": "trauma-03",
+  "spec": "Traumatología",
+  "source": "Pregunta real EUNACOM · Jul 2024",
+  "hook": {
+    "top": "Yeso y dolor que no cede",
+    "big": "¿Elevas la pierna?",
+    "say": "Yeso y dolor que no cede. ¿Elevas la pierna?",
+    "frame": 22.0
+  },
+  "case": [
+    {
+      "t": "Fractura de pierna, bota de yeso",
+      "say": "Pregunta real del EUNACOM. Fractura de pierna, con bota de yeso."
+    },
+    {
+      "t": "12 horas después: dolor intenso",
+      "say": "12 horas después, dolor intenso."
+    },
+    {
+      "t": "Edema del pie",
+      "say": "Y edema del pie.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "La conducta inicial más adecuada es:",
+    "say": "La conducta inicial más adecuada es: Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Solicitar nuevas radiografías"
+    },
+    {
+      "letter": "B",
+      "text": "Administrar diuréticos"
+    },
+    {
+      "letter": "C",
+      "text": "Elevar la extremidad"
+    },
+    {
+      "letter": "D",
+      "text": "Solicitar TAC de pierna"
+    },
+    {
+      "letter": "E",
+      "text": "Retirar inmediatamente el yeso"
+    }
+  ],
+  "correct": "E",
+  "answer": {
+    "t": "Retirar inmediatamente el yeso",
+    "say": "Es la E. Retirar el yeso."
+  },
+  "clip": {
+    "src": "animaciones/trauma-03/A1_sindrome_compartimental.mp4",
+    "panels": [
+      {
+        "crop": [
+          40,
+          115,
+          830,
+          530
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "El compartimento no se expande: sube la presión y cae la perfusión.",
+      "clip": [
+        3,
+        10
+      ],
+      "zoom": [
+        0.35,
+        0.5,
+        1.0
+      ],
+      "chip": "Presión ↑ · perfusión ↓"
+    },
+    {
+      "say": "El dolor desproporcionado es la clave. No esperes exámenes.",
+      "clip": [
+        10,
+        17
+      ],
+      "zoom": [
+        0.45,
+        0.45,
+        1.0
+      ],
+      "chip": "Dolor desproporcionado"
+    },
+    {
+      "say": "Primero retira el yeso. Si no mejora, fasciotomía.",
+      "clip": [
+        17,
+        26
+      ],
+      "zoom": [
+        0.5,
+        0.6,
+        1.0
+      ],
+      "chip": "Retirar yeso → fasciotomía"
+    }
+  ],
+  "rule": {
+    "t": "Yeso + dolor desproporcionado: *sácalo YA*",
+    "s": "Elevar no es la respuesta",
+    "say": "Regla de oro: yeso y dolor desproporcionado: sácalo ya."
+  },
+  "cta": {
+    "kind": "web",
+    "top": "¿Quieres ver la clase completa?",
+    "t": "Clase completa de Síndrome compartimental, con todas las animaciones",
+    "tWord": "entra",
+    "url": "eunacomapp.cl",
+    "code": "SHORTS20",
+    "codeT": "20 % en cualquier plan",
+    "say": "¿Quieres ver la clase completa? Entra a eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+  },
+  "loop": {
+    "say": "Y si lo elevas…"
+  },
+  "highlight": [
+    "presion",
+    "perfusion",
+    "dolor",
+    "desproporcionado",
+    "yeso",
+    "fasciotomia",
+    "retira"
+  ],
+  "post": {
+    "text": "Fractura con bota de yeso y, a las 12 horas, dolor intenso y edema: ¿elevar la pierna? ❌ Pregunta real del EUNACOM (Jul 2024). Es un síndrome compartimental: retirar inmediatamente el yeso y, si no mejora, fasciotomía.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nLa clase completa de Síndrome compartimental está en eunacomapp.cl 🎬 con el código SHORTS20 tienes 20 % en cualquier plan.",
+    "hashtags": [
+      "#EUNACOM",
+      "#traumatologia",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Gráfico esquemático propio, sin anatomía. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "C"
+}

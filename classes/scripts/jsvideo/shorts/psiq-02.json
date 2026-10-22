@@ -1,0 +1,151 @@
+{
+  "id": "psiq-02",
+  "lesson": "psiq-02",
+  "spec": "Psiquiatría",
+  "source": "Pregunta real EUNACOM · Dic 2022",
+  "hook": {
+    "top": "Litio, temblor y confusión",
+    "big": "¿Lo dializas?",
+    "say": "Litio, temblor y confusión. ¿Lo dializas?",
+    "frame": 19.0
+  },
+  "case": [
+    {
+      "t": "Bipolar, con litio hace 3 meses",
+      "say": "Pregunta real del EUNACOM. Paciente bipolar, con litio hace 3 meses."
+    },
+    {
+      "t": "Náuseas, sopor, temblor",
+      "say": "Náuseas, sopor y temblor."
+    },
+    {
+      "t": "Litemia 2,2 · creatinina 1,3",
+      "say": "Litemia 2 coma 2, creatinina 1 coma 3.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es la conducta inicial más adecuada?",
+    "say": "¿Cuál es la conducta inicial más adecuada? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Plasmaféresis"
+    },
+    {
+      "letter": "B",
+      "text": "Hemodiálisis"
+    },
+    {
+      "letter": "C",
+      "text": "Alcalinizar la orina"
+    },
+    {
+      "letter": "D",
+      "text": "Administrar suero fisiológico endovenoso"
+    },
+    {
+      "letter": "E",
+      "text": "Diazepam endovenoso"
+    }
+  ],
+  "correct": "D",
+  "answer": {
+    "t": "Administrar suero fisiológico endovenoso",
+    "say": "Es la D. Suero fisiológico."
+  },
+  "clip": {
+    "src": "animaciones/psiq-02/A1_litemia_y_toxicidad.mp4",
+    "panels": [
+      {
+        "crop": [
+          20,
+          100,
+          860,
+          560
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "El litio tiene un margen estrecho: de 0,6 a 1,2.",
+      "clip": [
+        2,
+        9
+      ],
+      "zoom": [
+        0.4,
+        0.5,
+        1.0
+      ],
+      "chip": "Margen estrecho: 0,6-1,2"
+    },
+    {
+      "say": "Entre 2 y 2,5 es moderada: se suspende y se hidrata con suero.",
+      "clip": [
+        17.5,
+        23
+      ],
+      "zoom": [
+        0.5,
+        0.45,
+        1.05
+      ],
+      "chip": "2-2,5: suero fisiológico"
+    },
+    {
+      "say": "La diálisis es para más de 2,5 con daño grave.",
+      "clip": [
+        23,
+        28
+      ],
+      "zoom": [
+        0.5,
+        0.4,
+        1.0
+      ],
+      "chip": "Diálisis: >2,5 grave"
+    }
+  ],
+  "rule": {
+    "t": "Litio moderado: *suspender + suero*",
+    "s": "Diálisis solo si es grave",
+    "say": "Regla de oro: litio moderado: suspender y suero."
+  },
+  "cta": {
+    "kind": "web",
+    "top": "¿Quieres más preguntas así?",
+    "t": "Preguntas reales explicadas + clases con animaciones",
+    "tWord": "preguntas",
+    "url": "eunacomapp.cl",
+    "code": "SHORTS20",
+    "codeT": "20 % en cualquier plan",
+    "say": "¿Quieres más preguntas así? Entra a eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+  },
+  "loop": {
+    "say": "Y si sube más…"
+  },
+  "highlight": [
+    "litio",
+    "estrecho",
+    "moderada",
+    "suero",
+    "dialisis",
+    "grave",
+    "suspende"
+  ],
+  "post": {
+    "text": "Litio, temblor, confusión y litemia de 2,2: ¿hemodiálisis? 🤔 Pregunta real del EUNACOM (Dic 2022). Es una intoxicación moderada: suspender el litio e hidratar con suero fisiológico. La diálisis queda para más de 2,5 con compromiso grave.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\n¿Quieres más preguntas así? Están todas explicadas en eunacomapp.cl 👉 con el código SHORTS20 tienes 20 % en cualquier plan.",
+    "hashtags": [
+      "#EUNACOM",
+      "#psiquiatria",
+      "#farmacologia",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Gráfico y animación propios. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "B"
+}

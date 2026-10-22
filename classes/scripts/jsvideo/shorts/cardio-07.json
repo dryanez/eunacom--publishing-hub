@@ -1,0 +1,160 @@
+{
+  "id": "cardio-07",
+  "lesson": "cardio-07",
+  "spec": "Cardiología",
+  "source": "Pregunta real EUNACOM · Dic 2018",
+  "hook": {
+    "top": "Pulso 200 y presión 70/40",
+    "big": "¿Qué haces?",
+    "say": "Pulso 200 y presión 70/40. ¿Qué haces?",
+    "frame": 5.0
+  },
+  "case": [
+    {
+      "t": "Disnea marcada y síncopes",
+      "say": "Pregunta real del EUNACOM. Llega con disnea marcada y síncopes."
+    },
+    {
+      "t": "Confuso, frío y sudoroso",
+      "say": "Confuso, frío y sudoroso."
+    },
+    {
+      "t": "Pulso 200 regular · PA 70/40",
+      "say": "Pulso de 200, regular, y presión 70 con 40.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es el tratamiento inicial más adecuado en este momento?",
+    "say": "¿Cuál es el tratamiento inicial más adecuado en este momento? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Maniobras vagales"
+    },
+    {
+      "letter": "B",
+      "text": "Amiodarona endovenosa"
+    },
+    {
+      "letter": "C",
+      "text": "Adenosina endovenosa"
+    },
+    {
+      "letter": "D",
+      "text": "Desfibrilación"
+    },
+    {
+      "letter": "E",
+      "text": "Cardioversión eléctrica"
+    }
+  ],
+  "correct": "E",
+  "answer": {
+    "t": "Cardioversión eléctrica",
+    "say": "Es la E. Cardioversión eléctrica."
+  },
+  "clip": {
+    "src": "animaciones/cardio-07/A1_tv_cardioversion_torsion.mp4",
+    "panels": [
+      {
+        "crop": [
+          30,
+          120,
+          780,
+          240
+        ]
+      },
+      {
+        "crop": [
+          815,
+          120,
+          450,
+          300
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Si está inestable, da igual qué taquicardia sea: se cardioverte.",
+      "clip": [
+        3.5,
+        11
+      ],
+      "zoom": [
+        0.35,
+        0.5,
+        1.0
+      ],
+      "chip": "Inestable = cardioversión"
+    },
+    {
+      "say": "Sincronizada: la descarga cae sobre la onda R.",
+      "clip": [
+        11,
+        17
+      ],
+      "zoom": [
+        0.35,
+        0.5,
+        1.0
+      ],
+      "chip": "Sincronizada sobre la R"
+    },
+    {
+      "say": "La D tienta, pero desfibrilar es para el paro, sin pulso.",
+      "clip": [
+        17,
+        24
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Desfibrilar = sin pulso"
+    }
+  ],
+  "rule": {
+    "t": "Taquicardia + inestable: *cardioversión sincronizada*",
+    "s": "Sin pulso: desfibrilar",
+    "say": "Regla de oro: taquicardia inestable: cardioversión sincronizada."
+  },
+  "cta": {
+    "kind": "web",
+    "top": "¿Quieres más preguntas así?",
+    "t": "Preguntas reales explicadas + clases con animaciones",
+    "tWord": "preguntas",
+    "url": "eunacomapp.cl",
+    "code": "SHORTS20",
+    "codeT": "20 % en cualquier plan",
+    "say": "¿Quieres más preguntas así? Entra a eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+  },
+  "loop": {
+    "say": "Y si no tiene pulso…"
+  },
+  "highlight": [
+    "inestable",
+    "cardioversion",
+    "sincronizada",
+    "desfibrilar",
+    "paro",
+    "pulso",
+    "tienta"
+  ],
+  "post": {
+    "text": "Pulso 200, presión 70/40, confuso y frío: ¿qué haces primero? 💥 Pregunta real del EUNACOM (Dic 2018). Si la taquicardia está inestable, no importa cuál sea: cardioversión eléctrica sincronizada. La desfibrilación es para el paciente sin pulso.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\n¿Quieres más preguntas así? Están todas explicadas en eunacomapp.cl 👉 con el código SHORTS20 tienes 20 % en cualquier plan.",
+    "hashtags": [
+      "#EUNACOM",
+      "#cardiologia",
+      "#urgencias",
+      "#ECG",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Animación propia con los criterios del libro. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "D"
+}

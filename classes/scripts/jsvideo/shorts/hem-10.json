@@ -1,0 +1,149 @@
+{
+  "id": "hem-10",
+  "lesson": "hem-10",
+  "spec": "Hematología",
+  "source": "Pregunta real EUNACOM · Jul 2019",
+  "hook": {
+    "top": "Plaquetas bajas y confusión",
+    "big": "¿PTI o algo peor?",
+    "say": "Plaquetas bajas y confusión. ¿PTI o algo peor?",
+    "frame": 18.0
+  },
+  "case": [
+    {
+      "t": "24 años, ictericia y confusión",
+      "say": "Pregunta real del EUNACOM. 24 años, ictericia y confusión."
+    },
+    {
+      "t": "Creatinina 3,5 · Hb 7 · plaquetas 50.000",
+      "say": "Creatinina 3 coma 5, hemoglobina 7, plaquetas 50 mil."
+    },
+    {
+      "t": "Esquistocitos en el frotis",
+      "say": "Y esquistocitos en el frotis.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es el diagnóstico más probable?",
+    "say": "¿Cuál es el diagnóstico más probable? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Púrpura inmune trombocitopénica"
+    },
+    {
+      "letter": "B",
+      "text": "Síndrome de Evans"
+    },
+    {
+      "letter": "C",
+      "text": "Anemia hemolítica autoinmune"
+    },
+    {
+      "letter": "D",
+      "text": "Púrpura trombótico trombocitopénico"
+    },
+    {
+      "letter": "E",
+      "text": "Lupus eritematoso sistémico"
+    }
+  ],
+  "correct": "D",
+  "answer": {
+    "t": "Púrpura trombótico trombocitopénico",
+    "say": "Es la D. Púrpura trombótico trombocitopénico."
+  },
+  "clip": {
+    "src": "animaciones/hem-10/A1_adamts13_real.mp4",
+    "panels": [
+      {
+        "crop": [
+          20,
+          110,
+          740,
+          450
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Falta la tijera ADAMTS13: el von Willebrand gigante atrapa plaquetas.",
+      "clip": [
+        6,
+        11
+      ],
+      "zoom": [
+        0.3,
+        0.5,
+        1.1
+      ],
+      "chip": "Sin ADAMTS13"
+    },
+    {
+      "say": "Los glóbulos rojos se rompen contra los trombos: esquistocitos.",
+      "clip": [
+        11,
+        16
+      ],
+      "zoom": [
+        0.3,
+        0.55,
+        1.1
+      ],
+      "chip": "Esquistocitos: hemólisis mecánica"
+    },
+    {
+      "say": "Y la coagulación es normal: eso lo separa de la CID.",
+      "clip": [
+        16,
+        22
+      ],
+      "zoom": [
+        0.6,
+        0.5,
+        1.0
+      ],
+      "chip": "TP y TTPK normales"
+    }
+  ],
+  "rule": {
+    "t": "Plaquetas bajas + esquistocitos: *piensa en PTT*",
+    "s": "Es una urgencia",
+    "say": "Regla de oro: plaquetas bajas con esquistocitos: piensa en PTT."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "PTT",
+    "t": "y te mando GRATIS el Libro Gordo de Hematología: 90 preguntas reales",
+    "say": "Comenta ptt y te mando gratis el Libro Gordo de Hematología, con 90 preguntas reales.",
+    "cover": "02_Libros_Gordos_90Q/Libro_Gordo_Hematologia_90Q.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y si ves esquistocitos…"
+  },
+  "highlight": [
+    "adamts13",
+    "plaquetas",
+    "esquistocitos",
+    "rompen",
+    "ptt",
+    "normal",
+    "cid"
+  ],
+  "post": {
+    "text": "Ictericia, confusión, falla renal, plaquetas 50.000 y esquistocitos 🩸 Pregunta real del EUNACOM (Jul 2019): púrpura trombótico trombocitopénico. Sin la ADAMTS13, el von Willebrand gigante atrapa plaquetas y rompe glóbulos rojos.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta PTT y te mando GRATIS el Libro Gordo de Hematología: 90 preguntas reales del EUNACOM con explicación 📘",
+    "hashtags": [
+      "#EUNACOM",
+      "#hematologia",
+      "#medicinainterna",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "B"
+}

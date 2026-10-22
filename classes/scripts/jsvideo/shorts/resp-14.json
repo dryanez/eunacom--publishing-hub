@@ -1,0 +1,153 @@
+{
+  "id": "resp-14",
+  "lesson": "resp-14",
+  "spec": "Respiratorio",
+  "source": "Pregunta real EUNACOM · Jul 2025",
+  "hook": {
+    "top": "Tráquea desviada tras un choque",
+    "big": "¿Radiografía?",
+    "say": "Tráquea desviada tras un choque. ¿Radiografía?",
+    "frame": 4.5
+  },
+  "case": [
+    {
+      "t": "25 años, accidente de tránsito",
+      "say": "Pregunta real del EUNACOM. 25 años, accidente de tránsito."
+    },
+    {
+      "t": "Timpanismo y sin murmullo a derecha",
+      "say": "Timpanismo y sin murmullo a derecha."
+    },
+    {
+      "t": "Tráquea desviada a la izquierda",
+      "say": "Disnea severa, y la tráquea desviada a la izquierda.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es el diagnóstico y conducta inmediata?",
+    "say": "¿Cuál es el diagnóstico y conducta inmediata? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Neumotórax a tensión: aguja en 2° espacio intercostal"
+    },
+    {
+      "letter": "B",
+      "text": "Hemotórax masivo: drenaje pleural"
+    },
+    {
+      "letter": "C",
+      "text": "Contusión pulmonar: oxígeno y observación"
+    },
+    {
+      "letter": "D",
+      "text": "Fractura de costillas: analgesia"
+    },
+    {
+      "letter": "E",
+      "text": "Taponamiento cardíaco: pericardiocentesis"
+    }
+  ],
+  "correct": "A",
+  "answer": {
+    "t": "Neumotórax a tensión: aguja",
+    "say": "Es la A. Neumotórax a tensión."
+  },
+  "clip": {
+    "src": "animaciones/resp-14/A1_tension_3d.mp4",
+    "panels": [
+      {
+        "crop": [
+          130,
+          40,
+          1000,
+          640
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "El aire entra y no sale: el pulmón colapsa.",
+      "clip": [
+        0,
+        2.5
+      ],
+      "zoom": [
+        0.4,
+        0.5,
+        1.1
+      ],
+      "chip": "Aire atrapado: pulmón colapsado"
+    },
+    {
+      "say": "Y empuja el corazón y la tráquea al otro lado.",
+      "clip": [
+        2.5,
+        4.4
+      ],
+      "zoom": [
+        0.55,
+        0.55,
+        1.05
+      ],
+      "chip": "Mediastino desplazado"
+    },
+    {
+      "say": "Aguja en el segundo espacio, sin esperar la radiografía.",
+      "clip": [
+        4.4,
+        5
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Aguja YA, sin radiografía"
+    }
+  ],
+  "rule": {
+    "t": "Neumotórax a tensión: *aguja, no radiografía*",
+    "s": "El diagnóstico es clínico",
+    "say": "Regla de oro: neumotórax a tensión: aguja, no radiografía."
+  },
+  "cta": {
+    "kind": "web",
+    "top": "¿Quieres ver la clase completa?",
+    "t": "Clase completa de Neumotórax, con todas las animaciones",
+    "tWord": "entra",
+    "url": "eunacomapp.cl",
+    "code": "SHORTS20",
+    "codeT": "20 % en cualquier plan",
+    "say": "¿Quieres ver la clase completa? Entra a eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+  },
+  "loop": {
+    "say": "Y si esperas la radiografía…"
+  },
+  "highlight": [
+    "aire",
+    "colapsa",
+    "traquea",
+    "corazon",
+    "aguja",
+    "radiografia",
+    "segundo",
+    "tension"
+  ],
+  "post": {
+    "text": "Choque, timpanismo, sin murmullo y tráquea desviada: ¿pides radiografía? ❌ Pregunta real del EUNACOM (Jul 2025). Es un neumotórax a tensión: el diagnóstico es clínico y se descomprime con aguja en el 2° espacio intercostal, sin esperar imágenes.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nLa clase completa de Neumotórax está en eunacomapp.cl 🎬 con el código SHORTS20 tienes 20 % en cualquier plan.",
+    "hashtags": [
+      "#EUNACOM",
+      "#respiratorio",
+      "#trauma",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Animación 3D propia. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "B"
+}

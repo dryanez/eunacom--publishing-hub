@@ -1,0 +1,134 @@
+{
+  "id": "anim-cortisol",
+  "format": "anim",
+  "formatLabel": "MIRA ESTO",
+  "spec": "Endocrinología",
+  "source": "Animación de la clase · Crisis suprarrenal",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "MIRA ESTO",
+      "top": "Shock que no responde",
+      "big": "a la noradrenalina",
+      "say": "Mira lo que pasa en un shock que no responde a la noradrenalina.",
+      "img": {
+        "src": "animaciones/endo-13/A1_shock_sin_cortisol.mp4",
+        "t": 7,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "clip",
+      "title": "Crisis suprarrenal",
+      "clip": {
+        "src": "animaciones/endo-13/A1_shock_sin_cortisol.mp4",
+        "crop": [
+          20,
+          120,
+          460,
+          400
+        ],
+        "from": 0,
+        "to": 6
+      },
+      "chip": "Sin cortisol: receptores sordos",
+      "say": "Sin cortisol, los receptores de la arteriola quedan sordos."
+    },
+    {
+      "k": "clip",
+      "same": true,
+      "clip": {
+        "src": "animaciones/endo-13/A1_shock_sin_cortisol.mp4",
+        "crop": [
+          20,
+          120,
+          460,
+          400
+        ],
+        "from": 6,
+        "to": 10.5
+      },
+      "chip": "Noradrenalina al máximo… y nada",
+      "say": "Subes la noradrenalina al máximo, y la presión no sube."
+    },
+    {
+      "k": "clip",
+      "same": true,
+      "clip": {
+        "src": "animaciones/endo-13/A1_shock_sin_cortisol.mp4",
+        "crop": [
+          20,
+          120,
+          460,
+          400
+        ],
+        "from": 10.5,
+        "to": 16
+      },
+      "chip": "Hidrocortisona 100 mg EV",
+      "say": "Das hidrocortisona 100 miligramos endovenosa, y vuelven a responder."
+    },
+    {
+      "k": "clip",
+      "same": true,
+      "clip": {
+        "src": "animaciones/endo-13/A1_shock_sin_cortisol.mp4",
+        "crop": [
+          20,
+          120,
+          460,
+          400
+        ],
+        "from": 16,
+        "to": 22
+      },
+      "chip": "La presión sube",
+      "say": "La presión sube, y puedes bajar la noradrenalina."
+    },
+    {
+      "k": "rule",
+      "t": "Shock refractario: *piensa en cortisol*",
+      "s": "Hidrocortisona sin esperar exámenes",
+      "say": "Regla de oro: shock refractario, piensa en cortisol."
+    },
+    {
+      "k": "cta",
+      "kind": "web",
+      "top": "Esto y toda Endocrinología",
+      "items": [
+        "Plan 6 meses: los 21 tomos AEE",
+        "+650 clases en video",
+        "+11.000 preguntas reales"
+      ],
+      "code": "SHORTS20",
+      "codeT": "20 % en cualquier plan",
+      "tWord": "eunacom",
+      "say": "Esto y toda endocrinología está en los tomos y en las clases de eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+    }
+  ],
+  "highlight": [
+    "cortisol",
+    "sordos",
+    "noradrenalina",
+    "hidrocortisona",
+    "responder",
+    "sube"
+  ],
+  "post": {
+    "text": "Así se ve un shock que no responde a la noradrenalina 👀 Sin cortisol, los receptores de la arteriola quedan \"sordos\". Con hidrocortisona 100 mg EV vuelven a responder y la presión sube.\n\nEsto y toda Endocrinología está en los 21 tomos AEE y en las clases de la app. Con el código SHORTS20 tienes 20 % en cualquier plan 👉 eunacomapp.cl (link en la bio).",
+    "hashtags": [
+      "#EUNACOM",
+      "#endocrinologia",
+      "#urgencias",
+      "#fisiologia",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}

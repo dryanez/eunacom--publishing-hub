@@ -1,0 +1,146 @@
+{
+  "id": "nefro-09",
+  "lesson": "nefro-09",
+  "spec": "Nefrología",
+  "source": "Pregunta real EUNACOM · Ene 2023",
+  "hook": {
+    "top": "Potasio 8,3 y bradicardia",
+    "big": "¿Qué das primero?",
+    "say": "Potasio 8,3 y bradicardia. ¿Qué das primero?",
+    "frame": 3.5
+  },
+  "case": [
+    {
+      "t": "Bradicardia de 30 lpm",
+      "say": "Pregunta real del EUNACOM. Paciente con bradicardia de 30 por minuto."
+    },
+    {
+      "t": "Potasio 8,3 mEq/L",
+      "say": "Y un potasio de 8 coma 3.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es la conducta inicial más adecuada?",
+    "say": "¿Cuál es la conducta inicial más adecuada? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Bicarbonato de sodio endovenoso"
+    },
+    {
+      "letter": "B",
+      "text": "Insulina + glucosa endovenosa"
+    },
+    {
+      "letter": "C",
+      "text": "Gluconato de calcio endovenoso"
+    },
+    {
+      "letter": "D",
+      "text": "Kayexalate oral"
+    },
+    {
+      "letter": "E",
+      "text": "Hemodiálisis de urgencia"
+    }
+  ],
+  "correct": "C",
+  "answer": {
+    "t": "Gluconato de calcio endovenoso",
+    "say": "Es la C. Gluconato de calcio."
+  },
+  "clip": {
+    "src": "animaciones/nefro-09/A1_tiempos_hiperkalemia.mp4",
+    "panels": [
+      {
+        "crop": [
+          0,
+          130,
+          760,
+          470
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "El calcio no baja el potasio: protege la membrana del corazón en minutos.",
+      "clip": [
+        2.5,
+        7
+      ],
+      "zoom": [
+        0.3,
+        0.5,
+        1.15
+      ],
+      "chip": "Calcio: protege la membrana"
+    },
+    {
+      "say": "Insulina, salbutamol y diálisis sí bajan el potasio, pero tardan.",
+      "clip": [
+        7,
+        15
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Lo demás baja el K, pero tarda"
+    },
+    {
+      "say": "La trampa es la diálisis: es la definitiva, pero el paro llega antes.",
+      "clip": [
+        15,
+        23
+      ],
+      "zoom": [
+        0.5,
+        0.6,
+        1.0
+      ],
+      "chip": "Diálisis: definitiva, no inicial"
+    }
+  ],
+  "rule": {
+    "t": "K alto + ECG alterado: *calcio primero*",
+    "s": "Después lo que baja el potasio",
+    "say": "Regla de oro: potasio alto con el corazón sufriendo: calcio primero."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "POTASIO",
+    "t": "y te mando GRATIS el Libro Gordo de Nefrología: 90 preguntas reales",
+    "say": "Comenta potasio y te mando gratis el Libro Gordo de Nefrología, con 90 preguntas reales.",
+    "cover": "02_Libros_Gordos_90Q/Libro_Gordo_Nefrologia_90Q.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y si el potasio…"
+  },
+  "highlight": [
+    "bradicardia",
+    "potasio",
+    "calcio",
+    "membrana",
+    "trampa",
+    "dialisis",
+    "paro",
+    "primero"
+  ],
+  "post": {
+    "text": "Bradicardia de 30 y potasio de 8,3: ¿qué das primero? ⚡ Pregunta real del EUNACOM (Ene 2023). Gluconato de calcio EV: no baja el potasio, pero protege la membrana del corazón en 1-3 minutos. La hemodiálisis es la definitiva, pero no es lo inicial.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta POTASIO y te mando GRATIS el Libro Gordo de Nefrología: 90 preguntas reales del EUNACOM con explicación 📘",
+    "hashtags": [
+      "#EUNACOM",
+      "#nefrologia",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Animación propia (gráfico). Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "E"
+}

@@ -1,0 +1,150 @@
+{
+  "id": "oftal-06",
+  "lesson": "oftal-06",
+  "spec": "Oftalmología",
+  "source": "Pregunta real EUNACOM · Jul 2019",
+  "hook": {
+    "top": "Toma topiramato y le duele el ojo",
+    "big": "¿Migraña?",
+    "say": "Toma topiramato y le duele el ojo. ¿Migraña?",
+    "frame": 10.5
+  },
+  "case": [
+    {
+      "t": "Jaqueca, usa topiramato",
+      "say": "Pregunta real del EUNACOM. Mujer con jaqueca, en tratamiento con topiramato."
+    },
+    {
+      "t": "Cefalea periocular, vómitos",
+      "say": "Cefalea intensa periocular, con vómitos."
+    },
+    {
+      "t": "Ojo rojo · pupila fija en semimidriasis",
+      "say": "Ojo rojo, y la pupila fija en semimidriasis.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es la conducta inicial más adecuada?",
+    "say": "¿Cuál es la conducta inicial más adecuada? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Manitol endovenoso"
+    },
+    {
+      "letter": "B",
+      "text": "Clorpromazina endovenosa"
+    },
+    {
+      "letter": "C",
+      "text": "Ketorolaco endovenoso"
+    },
+    {
+      "letter": "D",
+      "text": "Oxígeno al 100% más eletriptán subcutáneo"
+    },
+    {
+      "letter": "E",
+      "text": "Carbamazepina oral"
+    }
+  ],
+  "correct": "A",
+  "answer": {
+    "t": "Manitol endovenoso",
+    "say": "Es la A. Manitol. Es un glaucoma agudo."
+  },
+  "clip": {
+    "src": "animaciones/oftal-06/A1_cierre_angulo_3d.mp4",
+    "panels": [
+      {
+        "crop": [
+          250,
+          60,
+          800,
+          600
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "El iris se abomba y cierra el ángulo: el humor acuoso no drena.",
+      "clip": [
+        5.5,
+        8.5
+      ],
+      "zoom": [
+        0.45,
+        0.5,
+        1.05
+      ],
+      "chip": "Ángulo cerrado: no drena"
+    },
+    {
+      "say": "La presión del ojo sube en horas: pupila fija y córnea turbia.",
+      "clip": [
+        8.5,
+        11
+      ],
+      "zoom": [
+        0.45,
+        0.55,
+        1.1
+      ],
+      "chip": "Pupila media fija = ojo, no migraña"
+    },
+    {
+      "say": "El topiramato es un gatillo clásico. Lo primero: manitol.",
+      "clip": [
+        11,
+        12
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.15
+      ],
+      "chip": "Topiramato → glaucoma agudo"
+    }
+  ],
+  "rule": {
+    "t": "Ojo rojo + pupila fija: *glaucoma agudo*",
+    "s": "Manitol primero",
+    "say": "Regla de oro: ojo rojo con pupila fija: glaucoma agudo."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "OJO",
+    "t": "y te mando GRATIS el Repaso Final de Oftalmología",
+    "say": "Comenta ojo y te mando gratis el Repaso Final de Oftalmología.",
+    "cover": "05_Repaso_Final/Repaso_Final_Oftalmologia_2026.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y si piensas en migraña…"
+  },
+  "highlight": [
+    "topiramato",
+    "iris",
+    "angulo",
+    "pupila",
+    "fija",
+    "manitol",
+    "glaucoma",
+    "migrana"
+  ],
+  "post": {
+    "text": "Usa topiramato para la jaqueca, cefalea con vómitos… y pupila fija 👁️ Pregunta real del EUNACOM (Jul 2019). No es migraña: es un glaucoma agudo por cierre angular (el topiramato es gatillo). Lo inicial: manitol EV.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta OJO y te mando GRATIS el Repaso Final de Oftalmología, lo que más se pregunta en una sola guía 📗",
+    "hashtags": [
+      "#EUNACOM",
+      "#oftalmologia",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Modelo 3D: Z-Anatomy (CC BY-SA 4.0). Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "D"
+}

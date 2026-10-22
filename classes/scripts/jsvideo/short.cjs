@@ -31,7 +31,7 @@ function draft() {
   const q = quizzes[+(opt('q') || 0)] || L.slides.find(s => s.type === 'quiz');
   const clips = L.slides.filter(s => s.type === 'image').flatMap(s => s.images).filter(i => i.src.endsWith('.mp4'));
   const clip = clips[+(opt('clip') || 0)];
-  const NAME = { neuro: 'Neurología', resp: 'Respiratorio', gastro: 'Gastroenterología', nefro: 'Nefrología', diab: 'Diabetes',
+  const NAME = { cardio: 'Cardiología', neuro: 'Neurología', resp: 'Respiratorio', gastro: 'Gastroenterología', nefro: 'Nefrología', diab: 'Diabetes',
     endo: 'Endocrinología', hem: 'Hematología', infecto: 'Infectología', reuma: 'Reumatología', cirugia: 'Cirugía',
     derma: 'Dermatología', oftal: 'Oftalmología', orl: 'Otorrinolaringología', trauma: 'Traumatología', uro: 'Urología',
     psiq: 'Psiquiatría', ped: 'Pediatría', ob: 'Obstetricia', gin: 'Ginecología', sp: 'Salud Pública' };
@@ -142,6 +142,12 @@ async function build() {
       execFileSync('ffmpeg', ['-loglevel', 'error', '-y', '-i', src, '-vf', 'fps=30', '-q:v', '2', path.join(dir, 'f%04d.jpg')]);
     }
     media = { dir: 'frames', n: fs.readdirSync(dir).filter(f => f.endsWith('.jpg')).length, dur: dur(src) };
+  }
+
+  // portada del libro que se regala en la CTA (primera página del PDF de books/dist)
+  if (S.cta.cover) {
+    const pdf = path.join(ROOT, 'books', 'dist', S.cta.cover), png = path.join(OUT, 'cover');
+    execFileSync('pdftoppm', ['-png', '-r', '110', '-f', '1', '-l', '1', '-singlefile', pdf, png]);
   }
 
   // efectos (sintetizados con ffmpeg, sin licencias)

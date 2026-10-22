@@ -1,0 +1,149 @@
+{
+  "id": "orl-07",
+  "lesson": "orl-07",
+  "spec": "Otorrinolaringología",
+  "source": "Pregunta real EUNACOM · Jul 2017",
+  "hook": {
+    "top": "Vértigo de segundos al girar",
+    "big": "¿Flunarizina?",
+    "say": "Vértigo de segundos al girar. ¿Flunarizina?",
+    "frame": 13.0
+  },
+  "case": [
+    {
+      "t": "Vértigo de segundos",
+      "say": "Pregunta real del EUNACOM. Vértigo de segundos."
+    },
+    {
+      "t": "Al girar la cabeza estando acostado",
+      "say": "Al girar la cabeza estando acostado."
+    },
+    {
+      "t": "Sin síntomas auditivos",
+      "say": "Sin síntomas auditivos, examen normal.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es la conducta más adecuada?",
+    "say": "¿Cuál es la conducta más adecuada? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Iniciar flunarizina"
+    },
+    {
+      "letter": "B",
+      "text": "Iniciar tietilperazina"
+    },
+    {
+      "letter": "C",
+      "text": "Solicitar un TAC de oídos"
+    },
+    {
+      "letter": "D",
+      "text": "Derivar para maniobras de reposición vestibular"
+    },
+    {
+      "letter": "E",
+      "text": "Iniciar difenidol"
+    }
+  ],
+  "correct": "D",
+  "answer": {
+    "t": "Derivar para maniobras de reposición vestibular",
+    "say": "Es la D. Maniobras de reposición."
+  },
+  "clip": {
+    "src": "animaciones/orl-07/A1_vppb_otoconias_epley_duracion.mp4",
+    "panels": [
+      {
+        "crop": [
+          20,
+          120,
+          430,
+          560
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Una piedrita del utrículo cae al canal posterior.",
+      "clip": [
+        3,
+        9
+      ],
+      "zoom": [
+        0.25,
+        0.5,
+        1.1
+      ],
+      "chip": "Otoconias en el canal"
+    },
+    {
+      "say": "Cada giro la mueve: vértigo de segundos que se agota solo.",
+      "clip": [
+        9,
+        14
+      ],
+      "zoom": [
+        0.5,
+        0.45,
+        1.0
+      ],
+      "chip": "Crisis de 10 a 60 s"
+    },
+    {
+      "say": "La maniobra de Epley la devuelve. Los fármacos no la mueven.",
+      "clip": [
+        14,
+        22
+      ],
+      "zoom": [
+        0.5,
+        0.55,
+        1.0
+      ],
+      "chip": "Epley: cura >90 %"
+    }
+  ],
+  "rule": {
+    "t": "Vértigo de segundos al girar: *Epley, no pastillas*",
+    "s": "Es un VPPB",
+    "say": "Regla de oro: vértigo de segundos al girar: Epley, no pastillas."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "EPLEY",
+    "t": "y te mando GRATIS el Repaso Final de Otorrinolaringología",
+    "say": "Comenta epley y te mando gratis el Repaso Final de Otorrinolaringología.",
+    "cover": "05_Repaso_Final/Repaso_Final_Otorrinolaringologia_2026.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y si le das flunarizina…"
+  },
+  "highlight": [
+    "piedrita",
+    "canal",
+    "segundos",
+    "epley",
+    "maniobra",
+    "farmacos",
+    "vppb"
+  ],
+  "post": {
+    "text": "Vértigo de segundos al girar la cabeza en la cama, sin síntomas auditivos: ¿flunarizina? 🌀 Pregunta real del EUNACOM (Jul 2017). Es un VPPB: las otoconias cayeron al canal posterior. La conducta son las maniobras de reposición (Epley), no los fármacos.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta EPLEY y te mando GRATIS el Repaso Final de Otorrinolaringología, lo que más se pregunta en una sola guía 📗",
+    "hashtags": [
+      "#EUNACOM",
+      "#otorrino",
+      "#vertigo",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Blausen.com staff (2014), CC BY 3.0. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "A"
+}

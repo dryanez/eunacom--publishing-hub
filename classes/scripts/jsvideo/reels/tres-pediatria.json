@@ -1,0 +1,178 @@
+{
+  "id": "tres-pediatria",
+  "format": "tres",
+  "formatLabel": "3 PREGUNTAS",
+  "spec": "Pediatría",
+  "source": "Preguntas reales del EUNACOM",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "3 PREGUNTAS EN 60 SEGUNDOS",
+      "top": "3 preguntas reales de Pediatría",
+      "big": "¿Cuántas sacas?",
+      "say": "3 preguntas reales de Pediatría. ¿Cuántas sacas?"
+    },
+    {
+      "k": "quiz",
+      "badge": "1/3 · EUNACOM Dic 2018",
+      "case": [
+        {
+          "t": "3 años, tos disfónica, fiebre"
+        },
+        {
+          "t": "Estridor al inspirar y espirar, tiraje",
+          "hl": true
+        }
+      ],
+      "question": "¿Conducta inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Salbutamol nebulizado"
+        },
+        {
+          "letter": "B",
+          "text": "Adrenalina nebulizada"
+        },
+        {
+          "letter": "C",
+          "text": "Intubación"
+        },
+        {
+          "letter": "D",
+          "text": "Ipratropio nebulizado"
+        }
+      ],
+      "say": "Pregunta 1. 3 años, tos disfónica, estridor al inspirar y espirar, con tiraje. ¿Conducta inicial?"
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "reveal",
+      "correct": "B",
+      "why": "Croup grave: adrenalina + dexametasona",
+      "say": "Adrenalina nebulizada. Es un croup grave; el salbutamol aquí no sirve."
+    },
+    {
+      "k": "quiz",
+      "badge": "2/3 · EUNACOM Dic 2025",
+      "case": [
+        {
+          "t": "11 años, soporoso, taquicárdico"
+        },
+        {
+          "t": "Glicemia 320 · pH 7,11 · cetonas +",
+          "hl": true
+        }
+      ],
+      "question": "¿Primera medida?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Suero fisiológico 20 cc/kg"
+        },
+        {
+          "letter": "B",
+          "text": "Insulina EV"
+        },
+        {
+          "letter": "C",
+          "text": "Adrenalina EV"
+        },
+        {
+          "letter": "D",
+          "text": "Cloruro de potasio EV"
+        }
+      ],
+      "say": "Pregunta 2. 11 años, soporoso, glicemia 320, pH 7 coma 11, cetonas positivas. ¿Primera medida?"
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "reveal",
+      "correct": "A",
+      "why": "Cetoacidosis: volumen primero",
+      "say": "Suero fisiológico. En la cetoacidosis, primero el volumen."
+    },
+    {
+      "k": "quiz",
+      "badge": "3/3 · EUNACOM Jul 2013",
+      "case": [
+        {
+          "t": "Lactante de 10 meses, comiendo"
+        },
+        {
+          "t": "Tos súbita, menos esfuerzo respiratorio",
+          "hl": true
+        }
+      ],
+      "question": "¿Conducta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Reanimación cardiopulmonar"
+        },
+        {
+          "letter": "B",
+          "text": "Explorar la boca con el dedo"
+        },
+        {
+          "letter": "C",
+          "text": "Presión en el epigastrio"
+        },
+        {
+          "letter": "D",
+          "text": "Golpes en la espalda"
+        }
+      ],
+      "say": "Pregunta 3. Lactante de 10 meses que, comiendo, empieza a toser de golpe. ¿Conducta?"
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "reveal",
+      "correct": "D",
+      "why": "Lactante atorado: golpes en la espalda",
+      "say": "Golpes en la espalda. Nunca el dedo a ciegas en la boca."
+    },
+    {
+      "k": "rule",
+      "t": "¿Sacaste *3 de 3*?",
+      "s": "Déjalo en los comentarios",
+      "say": "¿Cuántas sacaste? Déjalo en los comentarios."
+    },
+    {
+      "k": "cta",
+      "kind": "comenta",
+      "keyword": "PEDIATRÍA",
+      "t": "y te mando GRATIS el Libro Gordo de Pediatría: 90 preguntas reales",
+      "say": "Comenta pediatría y te mando gratis el Libro Gordo de Pediatría, con 90 preguntas reales.",
+      "cover": "02_Libros_Gordos_90Q/Libro_Gordo_Pediatria_90Q.pdf"
+    }
+  ],
+  "highlight": [
+    "croup",
+    "adrenalina",
+    "volumen",
+    "suero",
+    "golpes",
+    "espalda"
+  ],
+  "post": {
+    "text": "3 preguntas reales de Pediatría del EUNACOM 👶 ¿Cuántas sacas en 60 segundos? 1) Estridor y tiraje 2) Cetoacidosis en un niño 3) Lactante atorado.\n\nComenta cuántas sacaste 👇\nComenta PEDIATRÍA y te mando GRATIS el Libro Gordo de Pediatría: 90 preguntas reales del EUNACOM con explicación 📘",
+    "hashtags": [
+      "#EUNACOM",
+      "#pediatria",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Preguntas reales del EUNACOM (2013, 2018 y 2025)."
+  }
+}

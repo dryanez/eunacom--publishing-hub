@@ -1,0 +1,149 @@
+{
+  "id": "ped-06",
+  "lesson": "ped-06",
+  "spec": "Pediatría",
+  "source": "Pregunta real EUNACOM · Dic 2018",
+  "hook": {
+    "top": "Estridor en una niña de 3 años",
+    "big": "¿Salbutamol?",
+    "say": "Estridor en una niña de 3 años. ¿Salbutamol?",
+    "frame": 22.0
+  },
+  "case": [
+    {
+      "t": "3 años, fiebre y tos disfónica",
+      "say": "Pregunta real del EUNACOM. Niña de 3 años, con fiebre y tos disfónica."
+    },
+    {
+      "t": "FR 48 · tiraje subcostal",
+      "say": "Frecuencia respiratoria 48, con tiraje."
+    },
+    {
+      "t": "Estridor inspiratorio y espiratorio",
+      "say": "Estridor al inspirar y al espirar.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es la conducta inicial más adecuada?",
+    "say": "¿Cuál es la conducta inicial más adecuada? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Administrar adrenalina subcutánea"
+    },
+    {
+      "letter": "B",
+      "text": "Nebulizar salbutamol 0,5 %"
+    },
+    {
+      "letter": "C",
+      "text": "Realizar intubación orotraqueal"
+    },
+    {
+      "letter": "D",
+      "text": "Nebulizar bromuro de ipratropio 0,5 %"
+    },
+    {
+      "letter": "E",
+      "text": "Nebulizar adrenalina racémica 0,1 %"
+    }
+  ],
+  "correct": "E",
+  "answer": {
+    "t": "Nebulizar adrenalina racémica 0,1 %",
+    "say": "Es la E. Adrenalina nebulizada."
+  },
+  "clip": {
+    "src": "animaciones/ped-06/A1_croup_edema_subglotico.mp4",
+    "panels": [
+      {
+        "crop": [
+          30,
+          115,
+          560,
+          530
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Un milímetro de edema bajo las cuerdas cierra la vía aérea.",
+      "clip": [
+        6,
+        13
+      ],
+      "zoom": [
+        0.3,
+        0.5,
+        1.1
+      ],
+      "chip": "Edema subglótico"
+    },
+    {
+      "say": "Estridor en ambos tiempos y tiraje: es un croup grave.",
+      "clip": [
+        13,
+        20
+      ],
+      "zoom": [
+        0.45,
+        0.5,
+        1.0
+      ],
+      "chip": "Croup grave"
+    },
+    {
+      "say": "Adrenalina nebulizada y dexametasona. El salbutamol aquí no sirve.",
+      "clip": [
+        20,
+        30
+      ],
+      "zoom": [
+        0.65,
+        0.6,
+        1.0
+      ],
+      "chip": "Adrenalina, no salbutamol"
+    }
+  ],
+  "rule": {
+    "t": "Croup grave: *adrenalina nebulizada*",
+    "s": "Más dexametasona",
+    "say": "Regla de oro: croup grave: adrenalina nebulizada."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "CROUP",
+    "t": "y te mando GRATIS el Libro Gordo de Pediatría: 90 preguntas reales",
+    "say": "Comenta croup y te mando gratis el Libro Gordo de Pediatría, con 90 preguntas reales.",
+    "cover": "02_Libros_Gordos_90Q/Libro_Gordo_Pediatria_90Q.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y si suena así…"
+  },
+  "highlight": [
+    "edema",
+    "cuerdas",
+    "estridor",
+    "croup",
+    "adrenalina",
+    "salbutamol",
+    "dexametasona"
+  ],
+  "post": {
+    "text": "Niña de 3 años con tos disfónica y estridor al inspirar y espirar: ¿salbutamol? ❌ Pregunta real del EUNACOM (Dic 2018). Es un croup grave: adrenalina nebulizada + dexametasona. El salbutamol actúa en el bronquio, no en la subglotis.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta CROUP y te mando GRATIS el Libro Gordo de Pediatría: 90 preguntas reales del EUNACOM con explicación 📘",
+    "hashtags": [
+      "#EUNACOM",
+      "#pediatria",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "B"
+}

@@ -1,0 +1,150 @@
+{
+  "id": "ob-06",
+  "lesson": "ob-06",
+  "spec": "Obstetricia",
+  "source": "Pregunta real EUNACOM · Dic 2025",
+  "hook": {
+    "top": "Presión controlada… y convulsiona",
+    "big": "¿Qué faltó?",
+    "say": "Presión controlada… y convulsiona. ¿Qué faltó?",
+    "frame": 20.0
+  },
+  "case": [
+    {
+      "t": "Primigesta de 32 semanas",
+      "say": "Pregunta real del EUNACOM. Primigesta de 32 semanas."
+    },
+    {
+      "t": "PA 170/110 → labetalol → 140/90",
+      "say": "Presión 170 con 110. Labetalol, y baja a 140 con 90."
+    },
+    {
+      "t": "2 horas después: convulsiona",
+      "say": "Dos horas después, convulsiona.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es la conducta más adecuada?",
+    "say": "¿Cuál es la conducta más adecuada? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Administrar lorazepam endovenoso"
+    },
+    {
+      "letter": "B",
+      "text": "Administrar labetalol endovenoso"
+    },
+    {
+      "letter": "C",
+      "text": "Administrar sulfato de magnesio endovenoso"
+    },
+    {
+      "letter": "D",
+      "text": "Administrar tocolíticos endovenosos"
+    },
+    {
+      "letter": "E",
+      "text": "Realizar maduración pulmonar"
+    }
+  ],
+  "correct": "C",
+  "answer": {
+    "t": "Administrar sulfato de magnesio endovenoso",
+    "say": "Es la C. Sulfato de magnesio."
+  },
+  "clip": {
+    "src": "animaciones/ob-06/A1_orden_magnesio.mp4",
+    "panels": [
+      {
+        "crop": [
+          20,
+          115,
+          790,
+          525
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Controlar la presión no previene la eclampsia.",
+      "clip": [
+        0,
+        7
+      ],
+      "zoom": [
+        0.5,
+        0.3,
+        1.0
+      ],
+      "chip": "Bajar la PA no basta"
+    },
+    {
+      "say": "El orden es fijo: primero el magnesio, después la presión.",
+      "clip": [
+        7,
+        14
+      ],
+      "zoom": [
+        0.4,
+        0.55,
+        1.0
+      ],
+      "chip": "1° magnesio · 2° presión"
+    },
+    {
+      "say": "Si hay toxicidad, gluconato de calcio al lado de la cama.",
+      "clip": [
+        14,
+        22
+      ],
+      "zoom": [
+        0.55,
+        0.6,
+        1.0
+      ],
+      "chip": "Toxicidad: gluconato de calcio"
+    }
+  ],
+  "rule": {
+    "t": "Preeclampsia severa: *magnesio siempre*",
+    "s": "Aunque la presión ya esté bien",
+    "say": "Regla de oro: preeclampsia severa: magnesio siempre."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "MAGNESIO",
+    "t": "y te mando GRATIS el Libro Gordo de Obstetricia: 90 preguntas reales",
+    "say": "Comenta magnesio y te mando gratis el Libro Gordo de Obstetricia, con 90 preguntas reales.",
+    "cover": "02_Libros_Gordos_90Q/Libro_Gordo_Obstetricia_90Q.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y si la presión…"
+  },
+  "highlight": [
+    "convulsiona",
+    "presion",
+    "eclampsia",
+    "magnesio",
+    "primero",
+    "siempre",
+    "calcio"
+  ],
+  "post": {
+    "text": "Le controlaron la presión con labetalol… y aun así convulsionó 😳 Pregunta real del EUNACOM (Dic 2025). Bajar la presión no previene la eclampsia: el sulfato de magnesio va siempre, aunque la presión ya esté controlada.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta MAGNESIO y te mando GRATIS el Libro Gordo de Obstetricia: 90 preguntas reales del EUNACOM con explicación 📘",
+    "hashtags": [
+      "#EUNACOM",
+      "#obstetricia",
+      "#ginecologia",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Animación propia. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "B"
+}

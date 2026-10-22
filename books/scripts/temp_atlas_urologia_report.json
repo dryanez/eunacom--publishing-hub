@@ -208,36 +208,36 @@
   {
    "id": "tumor-vesical",
    "p": 65,
-   "exact": false
+   "exact": true
   },
   {
    "id": "cancer-vesical-rm",
    "p": 65,
-   "exact": false
+   "exact": true
   },
   {
    "id": "quiste-simple",
-   "p": 74,
+   "p": 75,
    "exact": true
   },
   {
    "id": "poliquistico-pieza",
-   "p": 74,
+   "p": 75,
    "exact": true
   },
   {
    "id": "poliquistico-tac",
-   "p": 74,
+   "p": 75,
    "exact": true
   },
   {
    "id": "hematies-dismorficos-uro",
-   "p": 78,
+   "p": 79,
    "exact": true
   },
   {
    "id": "cilindro-hematico",
-   "p": 78,
+   "p": 79,
    "exact": true
   }
  ]

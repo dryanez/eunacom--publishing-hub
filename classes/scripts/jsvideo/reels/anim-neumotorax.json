@@ -1,0 +1,128 @@
+{
+  "id": "anim-neumotorax",
+  "format": "anim",
+  "formatLabel": "MIRA ESTO",
+  "spec": "Respiratorio",
+  "source": "Animación de la clase · Neumotórax",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "MIRA ESTO",
+      "top": "Neumotórax a tensión",
+      "big": "en 3D",
+      "say": "Mira un neumotórax a tensión, en 3D.",
+      "img": {
+        "src": "animaciones/resp-14/A1_tension_3d.mp4",
+        "t": 4,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "clip",
+      "clip": {
+        "src": "animaciones/resp-14/A1_tension_3d.mp4",
+        "crop": [
+          130,
+          100,
+          1000,
+          580
+        ],
+        "from": 0,
+        "to": 2.5
+      },
+      "chip": "El aire entra y no sale",
+      "say": "Con cada respiración entra aire a la pleura, y no sale."
+    },
+    {
+      "k": "clip",
+      "same": true,
+      "clip": {
+        "src": "animaciones/resp-14/A1_tension_3d.mp4",
+        "crop": [
+          130,
+          100,
+          1000,
+          580
+        ],
+        "from": 2.5,
+        "to": 5
+      },
+      "chip": "Pulmón colapsado, mediastino desplazado",
+      "say": "El pulmón colapsa, y empuja el corazón y la tráquea al otro lado."
+    },
+    {
+      "k": "clip",
+      "same": true,
+      "clip": {
+        "src": "animaciones/resp-14/A2_puncion_3d.mp4",
+        "crop": [
+          130,
+          100,
+          1000,
+          580
+        ],
+        "from": 0,
+        "to": 2.5
+      },
+      "chip": "Aguja: 2° espacio intercostal",
+      "say": "La aguja va en el segundo espacio intercostal, línea medioclavicular."
+    },
+    {
+      "k": "clip",
+      "same": true,
+      "clip": {
+        "src": "animaciones/resp-14/A2_puncion_3d.mp4",
+        "crop": [
+          130,
+          100,
+          1000,
+          580
+        ],
+        "from": 2.5,
+        "to": 5
+      },
+      "chip": "El pulmón se reexpande",
+      "say": "Sale el aire, y el pulmón se reexpande."
+    },
+    {
+      "k": "rule",
+      "t": "Neumotórax a tensión: *aguja, no radiografía*",
+      "s": "El diagnóstico es clínico",
+      "say": "Regla de oro: neumotórax a tensión, aguja, no radiografía."
+    },
+    {
+      "k": "cta",
+      "kind": "comenta",
+      "keyword": "AGUJA",
+      "t": "y te mando GRATIS el Repaso Final de Respiratorio",
+      "say": "Comenta aguja y te mando gratis el Repaso Final de Respiratorio.",
+      "cover": "05_Repaso_Final/Repaso_Final_Respiratorio_2026.pdf"
+    }
+  ],
+  "highlight": [
+    "aire",
+    "colapsa",
+    "traquea",
+    "aguja",
+    "segundo",
+    "reexpande"
+  ],
+  "post": {
+    "text": "Un neumotórax a tensión en 3D 🫁 El aire entra y no sale, el pulmón colapsa y el mediastino se desplaza. Se descomprime con aguja sin esperar la radiografía: el diagnóstico es clínico.\n\nComenta AGUJA y te mando GRATIS el Repaso Final de Respiratorio 📗",
+    "hashtags": [
+      "#EUNACOM",
+      "#respiratorio",
+      "#trauma",
+      "#urgencias",
+      "#anatomia3D",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Modelo 3D: BodyParts3D (DBCLS), CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}

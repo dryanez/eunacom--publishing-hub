@@ -1,0 +1,123 @@
+{
+  "id": "clase60-hiperkalemia",
+  "format": "clase60",
+  "formatLabel": "CLASE EN 60 S",
+  "spec": "Nefrología",
+  "source": "Resumen de la clase · Hiperkalemia",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "CLASE EN 60 SEGUNDOS",
+      "top": "Hiperkalemia",
+      "big": "en 60 segundos",
+      "say": "Hiperkalemia. en 60 segundos",
+      "img": {
+        "src": "animaciones/nefro-09/A1_tiempos_hiperkalemia.mp4",
+        "t": 18,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "points",
+      "title": "¿Cuándo es grave?",
+      "items": [
+        "K *≥ 6,5* mEq/L",
+        "Cambios en el *ECG*: T picudas, QRS ancho",
+        "*Bradicardia* o arritmias"
+      ],
+      "at": [
+        "potasio",
+        "cambios",
+        "bradicardia"
+      ],
+      "say": "Es grave con potasio sobre 6 coma 5, o con cambios en el electrocardiograma: T picudas o QRS ancho. O con bradicardia."
+    },
+    {
+      "k": "points",
+      "title": "El orden",
+      "clip": {
+        "src": "animaciones/nefro-09/A1_tiempos_hiperkalemia.mp4",
+        "crop": [
+          0,
+          130,
+          760,
+          470
+        ],
+        "from": 3,
+        "to": 21
+      },
+      "items": [
+        "*Gluconato de calcio*: protege la membrana",
+        "*Insulina + glucosa* y salbutamol: lo meten a la célula",
+        "*Furosemida, resinas o diálisis*: lo sacan"
+      ],
+      "at": [
+        "primero",
+        "despues",
+        "final"
+      ],
+      "say": "Primero, gluconato de calcio: no baja el potasio, protege la membrana. Después, insulina con glucosa y salbutamol: lo meten a la célula. Y al final, furosemida, resinas o diálisis: lo sacan del cuerpo."
+    },
+    {
+      "k": "points",
+      "title": "Las trampas",
+      "items": [
+        "El calcio *no baja* el potasio",
+        "La diálisis es *definitiva*, no inicial",
+        "K alto sin síntomas: *repite la muestra*"
+      ],
+      "at": [
+        "trampas",
+        "dialisis",
+        "asintomatico"
+      ],
+      "say": "Las trampas: el calcio no baja el potasio. La diálisis es definitiva, pero no es lo inicial. Y un potasio alto en un paciente asintomático puede ser hemólisis de la muestra: repítela."
+    },
+    {
+      "k": "rule",
+      "t": "Hiperkalemia: *calcio, meter, sacar*",
+      "s": "En ese orden",
+      "say": "Regla de oro: calcio, meter, sacar. En ese orden."
+    },
+    {
+      "k": "cta",
+      "kind": "web",
+      "top": "¿Quieres la clase completa?",
+      "items": [
+        "Clase de Hiperkalemia, 15 minutos",
+        "Todas las animaciones",
+        "Las preguntas reales del tema"
+      ],
+      "code": "SHORTS20",
+      "codeT": "20 % en cualquier plan",
+      "tWord": "eunacom",
+      "say": "La clase completa de hiperkalemia está en eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+    }
+  ],
+  "highlight": [
+    "grave",
+    "calcio",
+    "membrana",
+    "insulina",
+    "dialisis",
+    "trampas",
+    "hemolisis"
+  ],
+  "post": {
+    "text": "Hiperkalemia en 60 segundos ⚡ Grave: K ≥ 6,5 o ECG alterado. El orden: 1) gluconato de calcio (protege la membrana), 2) insulina + glucosa y salbutamol (lo meten a la célula), 3) furosemida, resinas o diálisis (lo sacan).\n\n🔖 Guárdalo para tu repaso.\nLa clase completa de Hiperkalemia está en la app. Con el código SHORTS20 tienes 20 % en cualquier plan 👉 eunacomapp.cl (link en la bio).",
+    "hashtags": [
+      "#EUNACOM",
+      "#nefrologia",
+      "#urgencias",
+      "#medicinainterna",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Animación: Academia Examen EUNACOM."
+  }
+}

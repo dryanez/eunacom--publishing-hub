@@ -1,0 +1,117 @@
+{
+  "id": "clase60-preeclampsia",
+  "format": "clase60",
+  "formatLabel": "CLASE EN 60 S",
+  "spec": "Obstetricia",
+  "source": "Resumen de la clase · Preeclampsia",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "CLASE EN 60 SEGUNDOS",
+      "top": "Preeclampsia severa",
+      "big": "en 60 segundos",
+      "say": "Preeclampsia severa. en 60 segundos",
+      "img": {
+        "src": "animaciones/ob-06/A1_orden_magnesio.mp4",
+        "t": 20,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "points",
+      "title": "¿Cuándo es severa?",
+      "items": [
+        "PA *≥ 160/110*",
+        "Cefalea, fotopsias, *epigastralgia*",
+        "Plaquetas < 100.000, *transaminasas* o creatinina altas"
+      ],
+      "at": [
+        "presion",
+        "sintomas",
+        "laboratorio"
+      ],
+      "say": "Es severa con presión de 160 con 110 o más. O con síntomas: cefalea, fotopsias, dolor epigástrico. O con laboratorio: plaquetas bajo cien mil, transaminasas o creatinina altas."
+    },
+    {
+      "k": "points",
+      "title": "El orden fijo",
+      "clip": {
+        "src": "animaciones/ob-06/A1_orden_magnesio.mp4",
+        "crop": [
+          20,
+          115,
+          790,
+          525
+        ],
+        "from": 3,
+        "to": 22
+      },
+      "items": [
+        "*Sulfato de magnesio*: previene la eclampsia",
+        "*Antihipertensivo*: labetalol o nifedipino",
+        "*Interrumpir*: desde las 34 semanas, o antes si se complica"
+      ],
+      "at": [
+        "primero",
+        "despues",
+        "cura"
+      ],
+      "say": "Primero, sulfato de magnesio, para prevenir la eclampsia. Después, el antihipertensivo: labetalol o nifedipino. Y la cura es interrumpir el embarazo: desde las 34 semanas, o antes si se complica."
+    },
+    {
+      "k": "points",
+      "title": "Con magnesio, vigila",
+      "items": [
+        "*Reflejo rotuliano*",
+        "Frecuencia *respiratoria* y diuresis",
+        "Toxicidad: *gluconato de calcio*"
+      ],
+      "at": [
+        "reflejo",
+        "frecuencia",
+        "toxicidad"
+      ],
+      "say": "Con magnesio, vigila cada hora el reflejo rotuliano, la frecuencia respiratoria y la diuresis. Si hay toxicidad: gluconato de calcio."
+    },
+    {
+      "k": "rule",
+      "t": "Preeclampsia severa: *magnesio siempre*",
+      "s": "Aunque la presión ya esté controlada",
+      "say": "Regla de oro: preeclampsia severa, magnesio siempre."
+    },
+    {
+      "k": "cta",
+      "kind": "comenta",
+      "keyword": "MAGNESIO",
+      "t": "y te mando GRATIS el Libro Gordo de Obstetricia: 90 preguntas reales",
+      "say": "Comenta magnesio y te mando gratis el Libro Gordo de Obstetricia, con 90 preguntas reales.",
+      "cover": "02_Libros_Gordos_90Q/Libro_Gordo_Obstetricia_90Q.pdf"
+    }
+  ],
+  "highlight": [
+    "severa",
+    "magnesio",
+    "eclampsia",
+    "labetalol",
+    "interrumpir",
+    "rotuliano",
+    "calcio"
+  ],
+  "post": {
+    "text": "Preeclampsia severa en 60 segundos 🤰 Severa: PA ≥ 160/110, síntomas (cefalea, fotopsias, epigastralgia) o laboratorio alterado. El orden: 1) sulfato de magnesio, 2) antihipertensivo, 3) interrumpir (desde las 34 semanas o antes si se complica).\n\n🔖 Guárdalo para tu repaso.\nComenta MAGNESIO y te mando GRATIS el Libro Gordo de Obstetricia: 90 preguntas reales del EUNACOM con explicación 📘",
+    "hashtags": [
+      "#EUNACOM",
+      "#obstetricia",
+      "#ginecologia",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Animación: Academia Examen EUNACOM."
+  }
+}

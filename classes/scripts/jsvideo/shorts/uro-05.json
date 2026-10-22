@@ -1,0 +1,151 @@
+{
+  "id": "uro-05",
+  "lesson": "uro-05",
+  "spec": "Urología",
+  "source": "Pregunta real EUNACOM · Jul 2013",
+  "hook": {
+    "top": "Testículo alto a los 16 años",
+    "big": "¿Pides ecografía?",
+    "say": "Testículo alto a los 16 años. ¿Pides ecografía?",
+    "frame": 12.0
+  },
+  "case": [
+    {
+      "t": "16 años, dolor testicular de 1 hora",
+      "say": "Pregunta real del EUNACOM. 16 años, dolor testicular de una hora."
+    },
+    {
+      "t": "Náuseas, vómitos y sudoración",
+      "say": "Náuseas, vómitos y sudoración."
+    },
+    {
+      "t": "Testículo derecho ascendido",
+      "say": "El testículo derecho, ascendido.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "La conducta más adecuada en este caso es:",
+    "say": "La conducta más adecuada en este caso es: Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Realizar ecografía testicular"
+    },
+    {
+      "letter": "B",
+      "text": "Indicar doxiciclina y cirpofloxacino"
+    },
+    {
+      "letter": "C",
+      "text": "Ketorolaco EV y suspensión testicular"
+    },
+    {
+      "letter": "D",
+      "text": "Realizar exploración quirúrgica inmediata"
+    },
+    {
+      "letter": "E",
+      "text": "Exámenes generales y decidir según resultados"
+    }
+  ],
+  "correct": "D",
+  "answer": {
+    "t": "Realizar exploración quirúrgica inmediata",
+    "say": "Es la D. Exploración quirúrgica."
+  },
+  "clip": {
+    "src": "animaciones/uro-05/A1_torsion_tiempo_salvamento.mp4",
+    "panels": [
+      {
+        "crop": [
+          20,
+          120,
+          780,
+          520
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Primero se ocluye la vena, después la arteria: isquemia.",
+      "clip": [
+        3,
+        9
+      ],
+      "zoom": [
+        0.3,
+        0.45,
+        1.05
+      ],
+      "chip": "Cada hora cuenta"
+    },
+    {
+      "say": "Antes de 6 horas se salva más del 90 %. A las 24, casi nada.",
+      "clip": [
+        9,
+        16
+      ],
+      "zoom": [
+        0.4,
+        0.5,
+        1.0
+      ],
+      "chip": "<6 h: >90 % · 24 h: ~0"
+    },
+    {
+      "say": "La ecografía es la trampa: te hace perder horas.",
+      "clip": [
+        16,
+        24
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Sospecha alta: a pabellón"
+    }
+  ],
+  "rule": {
+    "t": "Sospecha de torsión: *pabellón, no ecografía*",
+    "s": "El tiempo salva el testículo",
+    "say": "Regla de oro: sospecha de torsión: pabellón, no ecografía."
+  },
+  "cta": {
+    "kind": "web",
+    "top": "Esta salió en el EUNACOM de julio 2013",
+    "t": "Haz el examen completo: reconstrucciones 2013–2025",
+    "tWord": "haz",
+    "url": "eunacomapp.cl",
+    "code": "SHORTS20",
+    "codeT": "20 % en cualquier plan",
+    "say": "Esta salió en el EUNACOM de julio de 2013. Haz el examen completo en eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+  },
+  "loop": {
+    "say": "Y si esperas la eco…"
+  },
+  "highlight": [
+    "isquemia",
+    "horas",
+    "ecografia",
+    "trampa",
+    "pabellon",
+    "torsion",
+    "salva"
+  ],
+  "post": {
+    "text": "Dolor testicular de 1 hora, vómitos y testículo ascendido: ¿pides ecografía? ⏱️ Pregunta real del EUNACOM (Jul 2013). Es una torsión hasta demostrar lo contrario: exploración quirúrgica inmediata. Antes de 6 horas se salva más del 90 %.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nEsta salió en el EUNACOM de julio 2013: haz el examen completo en eunacomapp.cl (reconstrucciones 2013–2025). Con el código SHORTS20 tienes 20 % en cualquier plan.",
+    "hashtags": [
+      "#EUNACOM",
+      "#urologia",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Animación propia. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "A"
+}

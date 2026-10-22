@@ -1,0 +1,91 @@
+{
+  "id": "vf-acv",
+  "format": "vf",
+  "formatLabel": "VERDADERO O FALSO",
+  "spec": "Neurología",
+  "source": "Lo que más se pregunta en el EUNACOM",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "VERDADERO O FALSO",
+      "top": "TAC de cerebro normal",
+      "big": "¿Descarta el ACV?",
+      "say": "TAC de cerebro normal. ¿Descarta el ACV?",
+      "img": {
+        "src": "animaciones/neuro-01/A1_penumbra_real.mp4",
+        "t": 12,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "vf",
+      "claim": "Un TAC de cerebro *normal* descarta un ACV isquémico",
+      "say": "Verdadero o falso: un TAC de cerebro normal descarta un ACV isquémico. Tienes 3 segundos."
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "verdict",
+      "v": false,
+      "why": "En las primeras horas el TAC sale normal: descarta sangre, no el infarto.",
+      "clip": {
+        "src": "animaciones/neuro-01/A1_penumbra_real.mp4",
+        "crop": [
+          20,
+          110,
+          620,
+          590
+        ],
+        "from": 6,
+        "to": 21
+      },
+      "say": "Falso. En las primeras horas el TAC suele salir normal. Lo que descarta es la hemorragia. Y si estás dentro de 4 horas y media, va la trombólisis."
+    },
+    {
+      "k": "rule",
+      "t": "TAC normal = *no hay sangre*",
+      "s": "No descarta el infarto",
+      "say": "Regla de oro: TAC normal significa que no hay sangre."
+    },
+    {
+      "k": "cta",
+      "kind": "web",
+      "top": "¿Quieres la clase completa de ACV?",
+      "items": [
+        "Clase completa de 15 minutos",
+        "Todas las animaciones",
+        "Las preguntas reales del tema"
+      ],
+      "code": "SHORTS20",
+      "codeT": "20 % en cualquier plan",
+      "tWord": "eunacom",
+      "say": "La clase completa de ACV está en eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+    }
+  ],
+  "highlight": [
+    "falso",
+    "normal",
+    "hemorragia",
+    "trombolisis",
+    "horas"
+  ],
+  "post": {
+    "text": "¿Verdadero o falso? Un TAC de cerebro normal descarta un ACV isquémico 🧠 FALSO: en las primeras horas el TAC suele ser normal; lo que descarta es la hemorragia. Dentro de 4,5 h: trombólisis.\n\n¿Acertaste? Comenta V o F 👇\nLa clase completa de ACV, con todas las animaciones, está en la app. Con el código SHORTS20 tienes 20 % en cualquier plan 👉 eunacomapp.cl (link en la bio).",
+    "hashtags": [
+      "#EUNACOM",
+      "#neurologia",
+      "#ACV",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}

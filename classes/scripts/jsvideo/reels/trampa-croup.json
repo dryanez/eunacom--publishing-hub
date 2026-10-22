@@ -1,0 +1,99 @@
+{
+  "id": "trampa-croup",
+  "format": "trampa",
+  "formatLabel": "LA TRAMPA",
+  "spec": "Pediatría · ORL",
+  "source": "Lo que más se confunde en el EUNACOM",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "LA TRAMPA DEL EUNACOM",
+      "top": "Croup o epiglotitis",
+      "big": "¿Cuál es cuál?",
+      "say": "Croup o epiglotitis. ¿Cuál es cuál?",
+      "img": {
+        "src": "animaciones/orl-17/A1_croup_vs_epiglotitis.mp4",
+        "t": 12,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "compare",
+      "title": "Croup vs Epiglotitis",
+      "clip": {
+        "src": "animaciones/orl-17/A1_croup_vs_epiglotitis.mp4",
+        "crop": [
+          10,
+          130,
+          720,
+          530
+        ],
+        "from": 6,
+        "to": 20
+      },
+      "a": {
+        "title": "Croup",
+        "color": "#0BD9E7",
+        "items": [
+          "Días de coriza",
+          "Tos *perruna*, disfonía",
+          "Estridor, sin babeo",
+          "Dexametasona ± adrenalina"
+        ]
+      },
+      "b": {
+        "title": "Epiglotitis",
+        "color": "#FF5A4E",
+        "items": [
+          "Horas, fiebre alta",
+          "*Sin tos*",
+          "*Babeo*, en trípode",
+          "Vía aérea en pabellón"
+        ]
+      },
+      "key": "No tose y babea: *epiglotitis*",
+      "keyWord": "clave",
+      "say": "El croup viene después de días de coriza, con tos perruna y disfonía, y se trata con dexametasona. La epiglotitis parte en horas, con fiebre alta, sin tos, babeando y en trípode. La clave: si no tose y babea, es epiglotitis."
+    },
+    {
+      "k": "rule",
+      "t": "No tose y babea: *no le mires la garganta*",
+      "s": "Vía aérea en pabellón, con anestesista",
+      "say": "Regla de oro: si no tose y babea, no le mires la garganta. Vía aérea en pabellón."
+    },
+    {
+      "k": "cta",
+      "kind": "comenta",
+      "keyword": "ESTRIDOR",
+      "t": "y te mando GRATIS el Repaso Final de Pediatría",
+      "say": "Comenta estridor y te mando gratis el Repaso Final de Pediatría.",
+      "cover": "05_Repaso_Final/Repaso_Final_Pediatria_2026.pdf"
+    }
+  ],
+  "highlight": [
+    "perruna",
+    "dexametasona",
+    "tos",
+    "babeando",
+    "tripode",
+    "epiglotitis",
+    "clave"
+  ],
+  "post": {
+    "text": "Croup o epiglotitis: la trampa que más se repite en Pediatría 🚨 Croup: días de coriza, tos perruna, disfonía. Epiglotitis: horas, fiebre alta, SIN tos, babeo y trípode. Si no tose y babea, no le mires la garganta: vía aérea en pabellón.\n\nComenta ESTRIDOR y te mando GRATIS el Repaso Final de Pediatría 📗",
+    "hashtags": [
+      "#EUNACOM",
+      "#pediatria",
+      "#otorrino",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustraciones: Servier Medical Art (CC BY 4.0) y Blausen.com staff (2014), CC BY 3.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}

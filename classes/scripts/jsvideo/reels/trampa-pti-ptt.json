@@ -1,0 +1,104 @@
+{
+  "id": "trampa-pti-ptt",
+  "format": "trampa",
+  "formatLabel": "LA TRAMPA",
+  "spec": "Hematología",
+  "source": "Lo que más se confunde en el EUNACOM",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "LA TRAMPA DEL EUNACOM",
+      "top": "Plaquetas bajas",
+      "big": "¿PTI o PTT?",
+      "say": "Plaquetas bajas. ¿PTI o PTT?",
+      "img": {
+        "src": "animaciones/hem-10/A1_adamts13_real.mp4",
+        "t": 14,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "compare",
+      "title": "PTI vs PTT",
+      "clip": {
+        "src": "animaciones/hem-10/A1_adamts13_real.mp4",
+        "crop": [
+          20,
+          110,
+          740,
+          450
+        ],
+        "from": 8,
+        "to": 20
+      },
+      "a": {
+        "title": "PTI",
+        "color": "#B78CFF",
+        "items": [
+          "Paciente *bien*",
+          "Solo plaquetas bajas",
+          "Sin hemólisis",
+          "El bazo se come las plaquetas"
+        ]
+      },
+      "b": {
+        "title": "PTT",
+        "color": "#FF5A4E",
+        "items": [
+          "Paciente *grave*, confuso",
+          "Plaquetas bajas + *hemólisis*",
+          "*Esquistocitos*, LDH alta",
+          "Falta ADAMTS13: urgencia"
+        ]
+      },
+      "key": "Esquistocitos: *piensa en PTT*",
+      "keyWord": "clave",
+      "say": "En el PTI el paciente está bien: solo tiene las plaquetas bajas, porque el bazo se las come. En el PTT el paciente está grave: plaquetas bajas con hemólisis, esquistocitos y LDH alta, porque falta la ADAMTS13. La clave son los esquistocitos."
+    },
+    {
+      "k": "rule",
+      "t": "Esquistocitos + plaquetas bajas: *PTT*",
+      "s": "Es una urgencia: plasmaféresis",
+      "say": "Regla de oro: esquistocitos con plaquetas bajas, PTT. Es una urgencia."
+    },
+    {
+      "k": "cta",
+      "kind": "web",
+      "top": "Toda Hematología, en un solo lugar",
+      "items": [
+        "21 tomos + 24 libros de preguntas",
+        "Gran Libro de Reconstrucciones 2013–2025",
+        "+650 clases en video"
+      ],
+      "code": "SHORTS20",
+      "codeT": "20 % en cualquier plan",
+      "tWord": "eunacom",
+      "say": "Los tomos, las reconstrucciones y las clases están en eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+    }
+  ],
+  "highlight": [
+    "bien",
+    "bazo",
+    "grave",
+    "hemolisis",
+    "esquistocitos",
+    "adamts13",
+    "clave"
+  ],
+  "post": {
+    "text": "PTI o PTT: la trampa de las plaquetas bajas 🩸 PTI: paciente bien, solo plaquetas bajas. PTT: paciente grave, plaquetas bajas + hemólisis con esquistocitos y LDH alta (falta ADAMTS13). Esquistocitos = piensa en PTT: urgencia.\n\nLos 21 tomos AEE, el Gran Libro de Reconstrucciones 2013–2025 y las clases están en la app. Con el código SHORTS20 tienes 20 % en cualquier plan 👉 eunacomapp.cl (link en la bio).",
+    "hashtags": [
+      "#EUNACOM",
+      "#hematologia",
+      "#medicinainterna",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}

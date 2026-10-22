@@ -1,0 +1,152 @@
+{
+  "id": "neuro-01",
+  "lesson": "neuro-01",
+  "spec": "Neurología",
+  "source": "Pregunta real EUNACOM · Jul 2019",
+  "hook": {
+    "top": "TAC normal y hemiparesia",
+    "big": "¿Descartas el infarto?",
+    "say": "TAC normal y hemiparesia. ¿Descartas el infarto?",
+    "frame": 18.0
+  },
+  "case": [
+    {
+      "t": "67 años, hemiparesia derecha",
+      "say": "Pregunta real del EUNACOM. 67 años, hemiparesia derecha."
+    },
+    {
+      "t": "Inicio súbito hace 2 horas",
+      "say": "Inicio súbito hace 2 horas, con afasia."
+    },
+    {
+      "t": "TAC de cerebro: normal",
+      "say": "TAC de cerebro: normal.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "La conducta más adecuada es:",
+    "say": "La conducta más adecuada es: Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Anticoagular con heparina"
+    },
+    {
+      "letter": "B",
+      "text": "Administrar antiagregantes plaquetarios"
+    },
+    {
+      "letter": "C",
+      "text": "Solicitar resonancia magnética nuclear"
+    },
+    {
+      "letter": "D",
+      "text": "Realizar embolectomía"
+    },
+    {
+      "letter": "E",
+      "text": "Realizar trombólisis"
+    }
+  ],
+  "correct": "E",
+  "answer": {
+    "t": "Realizar trombólisis",
+    "say": "Es la E. Trombólisis."
+  },
+  "clip": {
+    "src": "animaciones/neuro-01/A1_penumbra_real.mp4",
+    "panels": [
+      {
+        "crop": [
+          20,
+          110,
+          620,
+          590
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "El TAC normal no descarta el infarto: descarta la sangre.",
+      "clip": [
+        3,
+        8
+      ],
+      "zoom": [
+        0.3,
+        0.5,
+        1.05
+      ],
+      "chip": "TAC normal = no hay sangre"
+    },
+    {
+      "say": "Cada minuto mueren casi 2 millones de neuronas.",
+      "clip": [
+        8,
+        13
+      ],
+      "zoom": [
+        0.35,
+        0.5,
+        1.0
+      ],
+      "chip": "1,9 millones de neuronas/min"
+    },
+    {
+      "say": "Dentro de 4,5 horas: trombólisis, sin esperar la resonancia.",
+      "clip": [
+        13,
+        21
+      ],
+      "zoom": [
+        0.4,
+        0.5,
+        1.0
+      ],
+      "chip": "Ventana 4,5 h: trombólisis"
+    }
+  ],
+  "rule": {
+    "t": "ACV < 4,5 h + TAC sin sangre: *trombólisis*",
+    "s": "La resonancia solo hace perder tiempo",
+    "say": "Regla de oro: ACV de menos de 4 horas y media, sin sangre: trombólisis."
+  },
+  "cta": {
+    "kind": "web",
+    "top": "¿Quieres más preguntas así?",
+    "t": "Preguntas reales explicadas + clases con animaciones",
+    "tWord": "preguntas",
+    "url": "eunacomapp.cl",
+    "code": "SHORTS20",
+    "codeT": "20 % en cualquier plan",
+    "say": "¿Quieres más preguntas así? Entra a eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+  },
+  "loop": {
+    "say": "Y si pides resonancia…"
+  },
+  "highlight": [
+    "tac",
+    "sangre",
+    "neuronas",
+    "minuto",
+    "trombolisis",
+    "resonancia",
+    "ventana"
+  ],
+  "post": {
+    "text": "Hemiparesia y afasia de 2 horas, TAC de cerebro normal: ¿descartas el infarto? 🧠 Pregunta real del EUNACOM (Jul 2019). El TAC normal descarta sangre, no el infarto. Dentro de 4,5 h: trombólisis. Cada minuto se pierden ~1,9 millones de neuronas.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\n¿Quieres más preguntas así? Están todas explicadas en eunacomapp.cl 👉 con el código SHORTS20 tienes 20 % en cualquier plan.",
+    "hashtags": [
+      "#EUNACOM",
+      "#neurologia",
+      "#ACV",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "C"
+}

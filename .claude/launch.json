@@ -45,6 +45,58 @@
         "8770"
       ],
       "port": 8770
+    },
+    {
+      "name": "shorts-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8781",
+        "--directory",
+        "classes/scripts/jsvideo/out"
+      ],
+      "port": 8781,
+      "autoPort": false
+    },
+    {
+      "name": "maquetas",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8782",
+        "--directory",
+        "mockups"
+      ],
+      "port": 8782,
+      "autoPort": false
+    },
+    {
+      "name": "app-tienda",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev",
+        "--prefix",
+        "/Users/felipeyanez/Desktop/eunacom-tienda/eunacom-app-v2",
+        "--",
+        "--port",
+        "5199",
+        "--strictPort"
+      ],
+      "port": 5199,
+      "autoPort": false
+    },
+    {
+      "name": "oficina",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "/Users/felipeyanez/Desktop/organization/office-app/server.mjs"
+      ],
+      "port": 4317,
+      "autoPort": false,
+      "url": "http://localhost:4317"
     }
   ]
 }

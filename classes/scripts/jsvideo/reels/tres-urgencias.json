@@ -1,0 +1,186 @@
+{
+  "id": "tres-urgencias",
+  "format": "tres",
+  "formatLabel": "3 PREGUNTAS",
+  "spec": "Urgencias",
+  "source": "Preguntas reales del EUNACOM",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "3 PREGUNTAS EN 60 SEGUNDOS",
+      "top": "3 preguntas reales de urgencia",
+      "big": "¿Cuántas sacas?",
+      "say": "3 preguntas reales de urgencia. ¿Cuántas sacas?"
+    },
+    {
+      "k": "quiz",
+      "badge": "1/3 · EUNACOM Dic 2018",
+      "case": [
+        {
+          "t": "Pulso 200, regular"
+        },
+        {
+          "t": "PA 70/40, confuso y frío",
+          "hl": true
+        }
+      ],
+      "question": "¿Tratamiento inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Amiodarona EV"
+        },
+        {
+          "letter": "B",
+          "text": "Adenosina EV"
+        },
+        {
+          "letter": "C",
+          "text": "Cardioversión eléctrica"
+        },
+        {
+          "letter": "D",
+          "text": "Desfibrilación"
+        }
+      ],
+      "say": "Pregunta 1. Pulso de 200, presión 70 con 40, confuso y frío. ¿Tratamiento inicial?"
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "reveal",
+      "correct": "C",
+      "why": "Inestable: cardioversión sincronizada",
+      "say": "Cardioversión eléctrica. Si está inestable, da igual qué taquicardia sea."
+    },
+    {
+      "k": "quiz",
+      "badge": "2/3 · EUNACOM Jul 2013",
+      "case": [
+        {
+          "t": "16 años, dolor testicular de 1 hora"
+        },
+        {
+          "t": "Testículo ascendido, vómitos",
+          "hl": true
+        }
+      ],
+      "question": "¿Conducta?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Ecografía testicular"
+        },
+        {
+          "letter": "B",
+          "text": "Antibióticos"
+        },
+        {
+          "letter": "C",
+          "text": "Analgesia y suspensorio"
+        },
+        {
+          "letter": "D",
+          "text": "Exploración quirúrgica inmediata"
+        }
+      ],
+      "say": "Pregunta 2. 16 años, dolor testicular de una hora, testículo ascendido. ¿Conducta?"
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "reveal",
+      "correct": "D",
+      "why": "Sospecha de torsión: pabellón, no eco",
+      "say": "Exploración quirúrgica inmediata. La ecografía te hace perder horas."
+    },
+    {
+      "k": "quiz",
+      "badge": "3/3 · EUNACOM Jul 2024",
+      "case": [
+        {
+          "t": "Fractura de pierna con yeso"
+        },
+        {
+          "t": "12 h después: dolor intenso, pie edematoso",
+          "hl": true
+        }
+      ],
+      "question": "¿Conducta inicial?",
+      "options": [
+        {
+          "letter": "A",
+          "text": "Nuevas radiografías"
+        },
+        {
+          "letter": "B",
+          "text": "Elevar la extremidad"
+        },
+        {
+          "letter": "C",
+          "text": "Diuréticos"
+        },
+        {
+          "letter": "D",
+          "text": "Retirar el yeso"
+        }
+      ],
+      "say": "Pregunta 3. Fractura de pierna con yeso, y 12 horas después, dolor intenso y el pie hinchado. ¿Conducta inicial?"
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "reveal",
+      "correct": "D",
+      "why": "Síndrome compartimental: saca el yeso",
+      "say": "Retirar el yeso de inmediato. Es un síndrome compartimental."
+    },
+    {
+      "k": "rule",
+      "t": "¿Sacaste *3 de 3*?",
+      "s": "Déjalo en los comentarios",
+      "say": "¿Cuántas sacaste? Déjalo en los comentarios."
+    },
+    {
+      "k": "cta",
+      "kind": "web",
+      "top": "¿Quieres más preguntas así?",
+      "items": [
+        "+11.000 preguntas reales 2013–2026",
+        "Simulacros cronometrados",
+        "Las reconstrucciones de cada EUNACOM"
+      ],
+      "code": "SHORTS20",
+      "codeT": "20 % en cualquier plan",
+      "tWord": "eunacom",
+      "say": "Hay más de 11 mil en eunacom app punto ce ele. Con el código shorts veinte, 20 % en cualquier plan."
+    }
+  ],
+  "highlight": [
+    "inestable",
+    "cardioversion",
+    "ecografia",
+    "quirurgica",
+    "yeso",
+    "compartimental"
+  ],
+  "post": {
+    "text": "3 preguntas reales de urgencia del EUNACOM ⏱️ ¿Cuántas sacas en 60 segundos? 1) Taquicardia inestable 2) Testículo ascendido 3) Yeso y dolor que no cede.\n\nComenta cuántas sacaste 👇\nHay más de 11.000 preguntas reales en la app, con simulacros y las reconstrucciones de cada EUNACOM. Con el código SHORTS20 tienes 20 % en cualquier plan 👉 eunacomapp.cl (link en la bio).",
+    "hashtags": [
+      "#EUNACOM",
+      "#urgencias",
+      "#cardiologia",
+      "#urologia",
+      "#traumatologia",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Preguntas reales del EUNACOM (2013, 2018 y 2024)."
+  }
+}

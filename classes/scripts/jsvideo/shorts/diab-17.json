@@ -1,0 +1,150 @@
+{
+  "id": "diab-17",
+  "lesson": "diab-17",
+  "spec": "Diabetes",
+  "source": "Pregunta real EUNACOM · Dic 2025",
+  "hook": {
+    "top": "Cetoacidosis en un niño",
+    "big": "¿Insulina primero?",
+    "say": "Cetoacidosis en un niño. ¿Insulina primero?",
+    "frame": 5.0
+  },
+  "case": [
+    {
+      "t": "Niño de 11 años, soporoso",
+      "say": "Pregunta real del EUNACOM. Niño de 11 años, soporoso y taquicárdico."
+    },
+    {
+      "t": "Glicemia 320 · pH 7,11 · HCO₃ 12",
+      "say": "Glicemia 320, pH 7 coma 11, bicarbonato 12."
+    },
+    {
+      "t": "Cetonas + · Potasio 5,1",
+      "say": "Cetonas positivas y potasio 5 coma 1.",
+      "hl": true
+    }
+  ],
+  "question": {
+    "t": "¿Cuál es la primera medida a administrar?",
+    "say": "¿Cuál es la primera medida a administrar? Tienes 5 segundos."
+  },
+  "options": [
+    {
+      "letter": "A",
+      "text": "Suero fisiológico 20 cc/kg endovenoso"
+    },
+    {
+      "letter": "B",
+      "text": "Insulina endovenosa"
+    },
+    {
+      "letter": "C",
+      "text": "Adrenalina endovenosa"
+    },
+    {
+      "letter": "D",
+      "text": "Cloruro de potasio intravenoso"
+    },
+    {
+      "letter": "E",
+      "text": "Oxígeno por mascarilla de recirculación"
+    }
+  ],
+  "correct": "A",
+  "answer": {
+    "t": "Suero fisiológico 20 cc/kg endovenoso",
+    "say": "Es la A. Suero fisiológico."
+  },
+  "clip": {
+    "src": "animaciones/diab-17/A1_insulina_potasio_real.mp4",
+    "panels": [
+      {
+        "crop": [
+          200,
+          40,
+          1040,
+          680
+        ]
+      }
+    ]
+  },
+  "explain": [
+    {
+      "say": "Lo primero en la cetoacidosis es el volumen: suero fisiológico.",
+      "clip": [
+        0,
+        5
+      ],
+      "zoom": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "chip": "Primero: suero 20 cc/kg"
+    },
+    {
+      "say": "La insulina mete el potasio a la célula y lo baja en la sangre.",
+      "clip": [
+        5,
+        11
+      ],
+      "zoom": [
+        0.45,
+        0.45,
+        1.12
+      ],
+      "chip": "Insulina mete el K a la célula"
+    },
+    {
+      "say": "Por eso la insulina va después, y con el potasio vigilado.",
+      "clip": [
+        11,
+        17
+      ],
+      "zoom": [
+        0.7,
+        0.5,
+        1.0
+      ],
+      "chip": "Insulina después, K vigilado"
+    }
+  ],
+  "rule": {
+    "t": "Cetoacidosis: *volumen primero*",
+    "s": "Después insulina, mirando el potasio",
+    "say": "Regla de oro: cetoacidosis: volumen primero, insulina después."
+  },
+  "cta": {
+    "kind": "comenta",
+    "keyword": "SUERO",
+    "t": "y te mando GRATIS el Repaso Final de Diabetes",
+    "say": "Comenta suero y te mando gratis el Repaso Final de Diabetes.",
+    "cover": "05_Repaso_Final/Repaso_Final_Diabetes_2026.pdf",
+    "badge": "GRATIS"
+  },
+  "loop": {
+    "say": "Y el potasio…"
+  },
+  "highlight": [
+    "volumen",
+    "suero",
+    "insulina",
+    "potasio",
+    "celula",
+    "despues",
+    "primero"
+  ],
+  "post": {
+    "text": "Niño en cetoacidosis: ¿lo primero es la insulina? 🚫 Pregunta real del EUNACOM (Dic 2025). Lo primero es el volumen: suero fisiológico 20 cc/kg. La insulina va después, porque mete el potasio a la célula y puede desplomarlo.\n\n¿Qué marcaste antes de los 5 segundos? Déjalo en los comentarios 👇\nComenta SUERO y te mando GRATIS el Repaso Final de Diabetes, lo que más se pregunta en una sola guía 📗",
+    "hashtags": [
+      "#EUNACOM",
+      "#diabetes",
+      "#pediatria",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  },
+  "trap": "B"
+}

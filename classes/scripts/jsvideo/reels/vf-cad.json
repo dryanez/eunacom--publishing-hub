@@ -1,0 +1,85 @@
+{
+  "id": "vf-cad",
+  "format": "vf",
+  "formatLabel": "VERDADERO O FALSO",
+  "spec": "Diabetes",
+  "source": "Lo que más se pregunta en el EUNACOM",
+  "beats": [
+    {
+      "k": "hook",
+      "kick": "VERDADERO O FALSO",
+      "top": "Cetoacidosis",
+      "big": "¿Insulina primero?",
+      "say": "Cetoacidosis. ¿Insulina primero?",
+      "img": {
+        "src": "animaciones/diab-17/A1_insulina_potasio_real.mp4",
+        "t": 9,
+        "crop": [
+          0,
+          0,
+          1280,
+          720
+        ]
+      }
+    },
+    {
+      "k": "vf",
+      "claim": "En la cetoacidosis, lo *primero* es la insulina",
+      "say": "Verdadero o falso: en la cetoacidosis diabética, lo primero es la insulina. Tienes 3 segundos."
+    },
+    {
+      "k": "count",
+      "n": 3
+    },
+    {
+      "k": "verdict",
+      "v": false,
+      "why": "Primero suero fisiológico. La insulina mete el potasio a la célula.",
+      "clip": {
+        "src": "animaciones/diab-17/A1_insulina_potasio_real.mp4",
+        "crop": [
+          200,
+          40,
+          1040,
+          680
+        ],
+        "from": 3,
+        "to": 17
+      },
+      "say": "Falso. Lo primero es el volumen, con suero fisiológico. La insulina mete el potasio a la célula: si la das sin mirar el potasio, lo desplomas."
+    },
+    {
+      "k": "rule",
+      "t": "Cetoacidosis: *volumen primero*",
+      "s": "Insulina después, con el K sobre 3,3",
+      "say": "Regla de oro: cetoacidosis, volumen primero."
+    },
+    {
+      "k": "cta",
+      "kind": "comenta",
+      "keyword": "INSULINA",
+      "t": "y te mando GRATIS el Libro Gordo de Diabetes: 90 preguntas reales",
+      "say": "Comenta insulina y te mando gratis el Libro Gordo de Diabetes, con 90 preguntas reales.",
+      "cover": "02_Libros_Gordos_90Q/Libro_Gordo_Diabetes_90Q.pdf"
+    }
+  ],
+  "highlight": [
+    "falso",
+    "volumen",
+    "suero",
+    "insulina",
+    "potasio",
+    "celula"
+  ],
+  "post": {
+    "text": "¿Verdadero o falso? En la cetoacidosis diabética lo primero es la insulina 💉 FALSO: lo primero es el volumen (suero fisiológico). La insulina mete el potasio a la célula y puede desplomarlo.\n\n¿Acertaste? Comenta V o F 👇\nComenta INSULINA y te mando GRATIS el Libro Gordo de Diabetes: 90 preguntas reales del EUNACOM con explicación 📘",
+    "hashtags": [
+      "#EUNACOM",
+      "#diabetes",
+      "#urgencias",
+      "#medicina",
+      "#estudiantesdemedicina"
+    ],
+    "credit": "Ilustración: Servier Medical Art, CC BY 4.0. Rótulos y animación: Academia Examen EUNACOM."
+  }
+}
