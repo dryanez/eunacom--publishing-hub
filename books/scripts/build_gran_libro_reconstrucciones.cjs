@@ -14,7 +14,9 @@ const path = require('path');
 const { execSync } = require('child_process');
 const puppeteer = require('puppeteer');
 
-const CHROME_PATH = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+const CHROME_PATH = process.env.CHROME_PATH || 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+// Si hay proxy (p. ej. sesiones en la nube), Chromium lo necesita para bajar fotos y fuentes de la portada.
+const PROXY_ARGS = process.env.HTTPS_PROXY ? [`--proxy-server=${process.env.HTTPS_PROXY}`] : [];
 const DIST_DIR = path.join(__dirname, '..', 'dist');
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const ASSETS_DIR = path.join(__dirname, '..', 'assets');
@@ -38,10 +40,15 @@ if (fs.existsSync(FULL_CURRICULUM_FILE)) {
 }
 
 // Cargar Nuevo Logo AEE en SVG
+// Mismo logo AEE que las portadas de los tomos (build_book.cjs)
 let aeeLogoSvg = '';
-const newLogoPath = path.join(ASSETS_DIR, 'aee_logo_new.svg');
+const newLogoPath = path.join(ASSETS_DIR, 'aee-logo-smooth.svg');
 if (fs.existsSync(newLogoPath)) {
-  aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8');
+  aeeLogoSvg = fs.readFileSync(newLogoPath, 'utf8')
+    .replace(/<\?xml[^>]*\?>/i, '')
+    .replace(/<metadata>[\s\S]*?<\/metadata>/i, '')
+    .replace(/width="188px"/i, 'width="120px"')
+    .replace(/height="142px"/i, 'height="90px" style="height:48px;width:auto;display:block"');
 }
 
 // Registro de especialidades y sus códigos Perfil V3
@@ -296,20 +303,17 @@ async function renderCoverAndTOC(allQuestionsBySpec) {
       z-index: 3;
     }
     .cover-watermark {
-      position: absolute; right: -25px; top: 60px;
+      position: absolute; left: 0; right: 0; top: 60px; text-align: center;
       font-family: 'Archivo', sans-serif; font-size: 190pt; font-weight: 900; line-height: 0.8;
       color: rgba(255, 255, 255, 0.04); user-select: none; pointer-events: none; z-index: 3;
     }
     .cover-top {
-      display: flex; justify-content: space-between; align-items: center; z-index: 4;
+      display: flex; justify-content: space-between; align-items: flex-start; z-index: 4;
     }
-    .cover-logo-svg svg { width: 250px; height: auto; display: block; }
-    .cover-edition {
-      font-family: 'IBM Plex Mono', monospace; font-size: 9pt; font-weight: 700;
-      letter-spacing: 0.15em; color: #f43f5e;
-      border: 1px solid rgba(244,63,94,0.4); background: rgba(8,13,20,0.7);
-      padding: 6px 14px; border-radius: 4px;
-    }
+    .cover-logo-svg svg { height: 46px; width: auto; display: block; }
+    .cover-badge { display: flex; flex-direction: column; align-items: flex-end; gap: 3px; }
+    .cover-badge .ed { font: 700 13px/1 'IBM Plex Mono', monospace; letter-spacing: .14em; color: #0bd9e7; }
+    .cover-badge .subed { font: 500 9.5px/1 'IBM Plex Mono', monospace; letter-spacing: .1em; color: #94a3b8; }
     .cover-main {
       margin-top: auto; margin-bottom: 15mm; z-index: 4;
     }
@@ -320,8 +324,9 @@ async function renderCoverAndTOC(allQuestionsBySpec) {
       text-transform: uppercase;
     }
     .cover-title-prefix {
-      font-size: 18pt; font-weight: 500; color: #94a3b8; margin-bottom: 4px;
+      font-size: 18pt; font-weight: 500; color: #94a3b8;
     }
+    .cover-title-accent { display: block; color: #f43f5e; }
     .cover-title-main {
       font-family: 'Archivo', sans-serif; font-size: 42pt; font-weight: 900; line-height: 0.95;
       color: #ffffff; letter-spacing: -0.03em; margin: 0; text-transform: uppercase;
@@ -383,22 +388,17 @@ async function renderCoverAndTOC(allQuestionsBySpec) {
     
     <div class="cover-top">
       <div class="cover-logo-svg">${aeeLogoSvg}</div>
-      <div class="cover-edition">1ª EDICIÓN · AEE · 2013 - 2025</div>
+      <div class="cover-badge">
+        <span class="ed">1ª EDICIÓN · 2026</span>
+        <span class="subed">ASOFAMECh PERFIL V3</span>
+      </div>
     </div>
 
     <div class="cover-main">
       <div class="cover-chip">RECONSTRUCCIONES OFICIALES · BANCO HISTÓRICO</div>
-      <div class="cover-title-prefix">Preguntas Examen EUNACOM 2013 - 2025</div>
-      <h1 class="cover-title-main">El Gran Libro EUNACOM</h1>
-      <div class="cover-subject">Preguntas Reales y sus Comentarios Razonados</div>
-      <div class="cover-desc">
-        Compendio enciclopédico de ${totalQuestions.toLocaleString('es-CL')} preguntas reales de exámenes EUNACOM rendidos entre 2013 y 2025. Organizado por especialidad médica y enlazado directamente a los manuales de estudio de la Academia Examen EUNACOM.
-      </div>
+      <h1 class="cover-title-main">El Gran Libro EUNACOM<span class="cover-title-accent">Reconstrucciones</span></h1>
       <div class="cover-rule"></div>
-      <div class="cover-meta">
-        <span>CONVOCATORIAS OFICIALES 2013 - 2025</span>
-        <span>${totalQuestions.toLocaleString('es-CL')} PREGUNTAS REALES CON JUSTIFICACIÓN MINSAL/GES</span>
-      </div>
+      <div class="cover-title-prefix">Preguntas Examen EUNACOM 2013 - 2025</div>
     </div>
   </div>
 
@@ -451,7 +451,7 @@ async function renderCoverAndTOC(allQuestionsBySpec) {
   const browser = await puppeteer.launch({
     executablePath: CHROME_PATH,
     headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: [...PROXY_ARGS, '--no-sandbox', '--disable-setuid-sandbox']
   });
   const page = await browser.newPage();
   await page.goto('file:///' + tempHtml.replace(/\\/g, '/'), { waitUntil: 'networkidle0' });
@@ -666,7 +666,7 @@ async function main() {
   const browser = await puppeteer.launch({
     executablePath: CHROME_PATH,
     headless: 'new',
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+    args: [...PROXY_ARGS, '--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
   });
 
   const BATCHES = [
@@ -747,7 +747,9 @@ print("Merge de Reconstrucciones finalizado exitosamente.")
   console.log('════════════════════════════════════════════════════════════════════');
 }
 
-main().catch(err => {
+if (require.main === module) main().catch(err => {
   console.error('Error fatal en compilador de reconstrucciones:', err);
   process.exit(1);
 });
+
+module.exports = { renderCoverAndTOC };
