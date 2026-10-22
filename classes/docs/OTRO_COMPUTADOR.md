@@ -36,3 +36,18 @@ Los MP4 quedan en `out/<clase>/<clase>_clase.mp4`. Copiarlos a Google Drive (car
 mkdir -p "$HOME/Google Drive/Clases MP4" && cp out/*/*_clase.mp4 "$HOME/Google Drive/Clases MP4/"
 ```
 (o arrastrarlos en Finder). Con Claude Code en ese Mac basta decir: «lee classes/docs/OTRO_COMPUTADOR.md y hazlo».
+
+## 5. Módulo 2 (72 clases que faltan): pasaron a este computador (22-10-2026)
+El computador principal se queda con lo que falta del Módulo 1. Las 72 clases del Módulo 2 que faltan (cirugía 11,
+dermatología 14, oftalmología 12, ORL 14, psiquiatría 13, urología 8) están en `queue_otro_computador_m2.txt`.
+```bash
+cd ~/eunacom-videos && git pull
+cd classes/scripts/jsvideo
+cat queue_otro_computador_m2.txt >> out/queue.txt      # si la cola ya corre, las toma sola al terminar lo que tiene
+# si no está corriendo:
+export NODE_PATH=$(npm root -g)
+caffeinate -dims nohup bash queue_worker.sh > out/queue_worker.log 2>&1 &
+```
+- ~72 videos, ~15 h. Devolverlos igual que en el paso 4 (Google Drive, carpeta «Clases MP4»).
+- Si Edge bloquea la voz (error 429 en `out/<clase>.build.log`), la cola espera 20 min y sigue sola.
+- Si falla el navegador de Playwright: `export CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"`.
