@@ -2,6 +2,7 @@
 //   node classes/scripts/jsvideo/build_class.cjs <clase> [--voice edge:es-CL-LorenzoNeural | --voice dir:<carpeta>]
 // --voice edge:<voz>   voz gratuita de Microsoft Edge (pip install edge-tts), sirve de borrador.
 // --voice eleven:<voice_id> ElevenLabs (ELEVENLABS_API_KEY); Alejandro = m3IrTXgclGG0hR8ORocn. Gasta caracteres del plan.
+// --voice omni:<voz.pt> voz clonada local con OmniVoice (motor de VoiceStudio); ver omnivoice_tts.py.
 // --voice dir:<carpeta> usa MP3 ya grabados (p. ej. Alejandro): <carpeta>/<id del beat>.mp3; si falta uno, usa la voz edge.
 // Salida en classes/scripts/jsvideo/out/<clase>/: data.js (clase + tiempos, lo lee scenes/clase.html),
 // narracion.m4a, voz/*.mp3 y frames/ de las animaciones de la clase.
@@ -19,6 +20,7 @@ const VOICE = vi >= 0 ? args[vi + 1] : 'edge:es-CL-LorenzoNeural';
 const EDGE = VOICE.startsWith('edge:') ? VOICE.slice(5) : 'es-CL-LorenzoNeural';
 const DIR = VOICE.startsWith('dir:') ? VOICE.slice(4) : null;
 const ELEVEN = VOICE.startsWith('eleven:') ? VOICE.slice(7) : null;
+const OMNI = VOICE.startsWith('omni:') ? path.resolve(VOICE.slice(5)) : null;   // voz clonada (omnivoice_tts.py clonar)
 
 const OUT = path.join(__dirname, 'out', id);
 fs.mkdirSync(path.join(OUT, 'voz'), { recursive: true });
@@ -119,8 +121,14 @@ function frames(src) {
 }
 
 (async () => {
-  const queue = beats.slice(); let done = 0;
-  await Promise.all([...Array(6)].map(async () => {
+  if (OMNI) {   // un solo proceso de Python carga el modelo y narra todos los beats
+    const items = beats.filter(b => b.say).map(b => ({ say: b.say, out: path.join(OUT, 'voz', 'omni_' + hash(b.say) + '.mp3') }));
+    const lista = path.join(OUT, 'voz', 'omni_lista.json'); fs.writeFileSync(lista, JSON.stringify(items));
+    execFileSync(path.join(process.env.HOME, '.venvs', 'omnivoice', 'bin', 'python'), [path.join(__dirname, 'omnivoice_tts.py'), 'narrar', OMNI, lista], { stdio: 'inherit' });
+    beats.forEach(b => { if (b.say) b.audio = path.join(OUT, 'voz', 'omni_' + hash(b.say) + '.mp3'); });
+  }
+  const queue = OMNI ? [] : beats.slice(); let done = 0;
+  await Promise.all([...Array(+(process.env.VOZ_PARALELO || 2))].map(async () => {
     while (queue.length) { const b = queue.shift(); await voice(b); process.stdout.write(`\rvoz ${++done}/${beats.length}`); }
   }));
   console.log();
