@@ -11,5 +11,7 @@ while true; do
   # listo si quedó el mp4 local o si ya se subió a R2 (subir_r2.py borra el local salvo gastro)
   if [ -f "$D/out/$c/${c}_clase.mp4" ] || grep -qF "$c → Clases_V3/" "$D/out/r2.log" 2>/dev/null || grep -q "^$c	" "$D/out/r2_subidos.txt" 2>/dev/null; then echo "$c" >> "$DONE"
   else echo "$(date +%H:%M) $c falló: se reintenta al final" >> "$D/out/batch.log"; grep -vxF "$c" "$Q" > "$Q.tmp"; cat "$Q.tmp" > "$Q"; rm -f "$Q.tmp"; echo "$c" >> "$Q"
-       curl -s -o /dev/null --max-time 8 https://speech.platform.bing.com || sleep 300; fi   # sin red: esperar
+       curl -s -o /dev/null --max-time 8 https://speech.platform.bing.com || sleep 300       # sin red: esperar
+       grep -q "429" "$D/out/$c.build.log" 2>/dev/null && { echo "$(date +%H:%M) Edge limita la voz (429): espero 20 min" >> "$D/out/batch.log"; sleep 1200; }
+       sleep 30; fi   # no recorrer la cola entera en segundos cuando algo falla
 done
